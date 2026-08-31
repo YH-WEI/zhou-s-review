@@ -47,6 +47,8 @@ retrieval:
   max_retries: 5
   backoff_seconds: [1, 2, 4, 8, 16]
   max_records_per_query: 500
+  execution_records_per_query: 10
+  execution_cap_reason: "Bounded reproducible metadata discovery for this evidence-map run; all enabled query families are executed and truncation is disclosed."
   on_cap_or_truncation: "log_and_prohibit_global_prevalence_or_scarcity_claims"
   commit_downloaded_full_text: false
 
@@ -167,6 +169,7 @@ counting:
   headline_unit: "study_id"
   always_report_also: ["paper_id", "scenario_id"]
   multi_label_service_counts_may_exceed_total: true
+  verification_sample_seed: 20260831
 
 comparability:
   minimum_independent_studies_for_central_summary: 5

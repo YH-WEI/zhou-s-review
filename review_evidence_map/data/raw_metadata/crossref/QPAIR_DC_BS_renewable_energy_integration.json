@@ -1,0 +1,2851 @@
+{
+  "http_status": 200,
+  "request_url_redacted": "https://api.crossref.org/works?query.bibliographic=%28%22data+centre%22+OR+%22data+center%22+OR+%22AI+data+centre%22+OR+%22AI+data+center%22+OR+%22cloud+computing+facility%22+OR+%22high+performance+computing%22+OR+%22edge+data+centre%22+OR+%22edge+data+center%22%29+AND+%28%22base+station%22+OR+%22radio+access+network%22+OR+RAN+OR+%22telecom+tower%22+OR+%22cellular+network%22+OR+5G+OR+%225G-Advanced%22+OR+B5G+OR+%22IMT-2030%22+OR+6G%29+AND+%28%22renewable+integration%22+OR+%22renewable+energy+matching%22+OR+curtailment+OR+%22carbon-aware%22+OR+%22clean+energy+matching%22%29+AND+%28coordination+OR+%22coordinated+control%22+OR+%22co-optimization%22+OR+aggregation+OR+%22multi-asset%22+OR+%22integrated+energy+management%22+OR+%22distributed+control%22+OR+%22model+predictive+control%22+OR+MPC+OR+%22measurement+and+verification%22%29&filter=from-pub-date%3A2015-01-01%2Cuntil-pub-date%3A2026-08-31&rows=10&sort=relevance&order=desc",
+  "response": {
+    "message": {
+      "facets": {},
+      "items": [
+        {
+          "DOI": "10.3390/electronics10161900",
+          "ISSN": [
+            "2079-9292"
+          ],
+          "URL": "https://doi.org/10.3390/electronics10161900",
+          "abstract": "<jats:p>A cloud data center for software-as-a-service (SaaS) was built for the purpose of stably managing these server computers in one place in order to provide an uninterrupted service, not only for a stable power supply and security but also for the efficient data management. To manage such a data center efficiently, it is important to build a cloud database with structured storage above all else. In recent decades, many studies have focused on designing cloud data centers and most of the research has focused on communication traffic, routing, topological issues and communication technology. However, in order to build an efficient cloud database that can support user demand, the most sophisticated intelligent system, based on AI technology and considering user convenience, should be designed. From this viewpoint, adopting human brain functions, Energy-Based Memory Network was designed for a knowledge-based frame of an intelligent system. And its event-related synchronized data extraction mechanism was proposed. In particular, a Thinking Thread extraction phase was implemented for the reasoning process using qualia matching and a deep extraction method in a cloud database. The purpose of this approach is to design and implement an intelligent cloud database that has an efficient structure and mechanism for supporting user demand and providing accurate, prompt services. In experiments, the working phase of the functions was simulated with data and analyzed. As a result, it was confirmed that the proposed system works well and intelligently for the design purpose.</jats:p>",
+          "alternative-id": [
+            "electronics10161900"
+          ],
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "Division of GS, Computer Science, KNU College, Kangnam University, Yongin Si 449-702, Korea"
+                }
+              ],
+              "family": "Shim",
+              "given": "JeongYon",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "container-title": [
+            "Electronics"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                8
+              ]
+            ],
+            "date-time": "2021-08-08T21:49:41Z",
+            "timestamp": 1628459381000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                11
+              ]
+            ],
+            "date-time": "2025-10-11T06:42:24Z",
+            "timestamp": 1760164944000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                12
+              ]
+            ],
+            "date-time": "2025-10-12T02:13:47Z",
+            "timestamp": 1760235227491,
+            "version": "build-2065373602"
+          },
+          "is-referenced-by-count": 4,
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "2079-9292"
+            }
+          ],
+          "issue": "16",
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                8
+              ]
+            ]
+          },
+          "journal-issue": {
+            "issue": "16",
+            "published-online": {
+              "date-parts": [
+                [
+                  2021,
+                  8
+                ]
+              ]
+            }
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://creativecommons.org/licenses/by/4.0/",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    8
+                  ]
+                ],
+                "date-time": "2021-08-08T00:00:00Z",
+                "timestamp": 1628380800000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://www.mdpi.com/2079-9292/10/16/1900/pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "1968",
+          "page": "1900",
+          "prefix": "10.3390",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                8
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                8
+              ]
+            ]
+          },
+          "publisher": "MDPI AG",
+          "reference": [
+            {
+              "key": "ref_1",
+              "unstructured": "(2021, June 25). Cloud Computing. Available online: https://www.seaglasstechnology.com/what-are-the-three-types-of-cloud-computing/."
+            },
+            {
+              "key": "ref_2",
+              "unstructured": "(2021, June 25). The Best Data Center Infrastructure Management Platform. Available online: https://modus.com/wp-content/."
+            },
+            {
+              "DOI": "10.1002/047174882X",
+              "doi-asserted-by": "crossref",
+              "key": "ref_3",
+              "unstructured": "Cover, T.M., and Thomas, J. (2005). A Elements of Information Theory, Wiley Interscience Press. [2nd ed.]."
+            },
+            {
+              "key": "ref_4",
+              "unstructured": "Singla, A., Hong, C.Y., Popa, L., and Godfrey, P.B. (2012, January 25–27). Jellyfish: Networking data center randomly. Proceedings of the Nsdi’12, San Jose, CA, USA."
+            },
+            {
+              "key": "ref_5",
+              "unstructured": "Karkera, K. (2014). Building Probabilistic Graphical Models with Python, PACKT. Solve Machine Learning Problems Using Probabilistic Graphical Models Implemented in Python with Real-World Applications."
+            },
+            {
+              "key": "ref_6",
+              "unstructured": "Boyce, B.R., Meadow, C.T., Kraft, D.H., Kraft, D.H., and Meadow, C.T. (2007). Text. Information Retrieval Systems, Academic Press."
+            },
+            {
+              "DOI": "10.1145/1851182.1851223",
+              "doi-asserted-by": "crossref",
+              "key": "ref_7",
+              "unstructured": "Farrington, N., Porter, G., Radhakrishnan, S., Bazzaz, H.H., Subramanya, V., Fainman, Y., Papen, G., and Vahdat, A. (September, January 30). Helios: A Hybrid electrical/optical switch architecture for modular data centers. Proceedings of the ACM SIGCOMM 2010, New Delhi, India."
+            },
+            {
+              "DOI": "10.1145/1402946.1402967",
+              "article-title": "A scalable, Commodity Data Center Network Architecture",
+              "author": "Loukissas",
+              "doi-asserted-by": "crossref",
+              "first-page": "63",
+              "journal-title": "ACM SIGCOMM Comput. Commun. Rev.",
+              "key": "ref_8",
+              "volume": "38",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1145/2785956.2787472",
+              "doi-asserted-by": "crossref",
+              "key": "ref_9",
+              "unstructured": "Roy, A., Zeng, H., Bagga, J., Porter, G., and Snoeren, A.C. (2015, January 17–21). Inside the social network’s (datacenter) network. Proceedings of the ACM SIGCOMM’15 on Special Interest Group on Data Communication, London, UK."
+            },
+            {
+              "DOI": "10.1145/2018436.2018442",
+              "doi-asserted-by": "crossref",
+              "key": "ref_10",
+              "unstructured": "Halperin, D., Kandula, S., Padhye, J., Bahl, P., and Wetherall, D. (2011, January 15–19). Augmenting data center networks with multi-gigabit wireless links. Proceedings of the ACM SIGCOMM, Toronto, ON, Canada."
+            },
+            {
+              "DOI": "10.1145/2043164.2018467",
+              "article-title": "Improving Datacenter Performance and Robustness with Multipath TCP",
+              "author": "Raiciu",
+              "doi-asserted-by": "crossref",
+              "first-page": "266",
+              "journal-title": "ACM SIGCOMM Comput. Commun. Rev.",
+              "key": "ref_11",
+              "volume": "41",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1109/MCC.2014.22",
+              "article-title": "Streaming Big Data Processing in Data Center Clouds",
+              "author": "Ranjan",
+              "doi-asserted-by": "crossref",
+              "first-page": "78",
+              "journal-title": "IEEE Cloud Comput.",
+              "key": "ref_12",
+              "volume": "1",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1016/B978-155860869-6/50027-5",
+              "doi-asserted-by": "crossref",
+              "key": "ref_13",
+              "unstructured": "Carney, D., Çetintemel, U., Cherniack, M., Convey, C., Lee, S., Seidman, G., Tatbul, N., Zdonik, S., and Stonebraker, M. (2002, January 20–23). Aurora(Brown, MIT, Brandies): Monitoring streams—A new class of data management applications. Proceedings of the VLDB, Hong Kong, China."
+            },
+            {
+              "DOI": "10.1145/872853.872857",
+              "doi-asserted-by": "crossref",
+              "key": "ref_14",
+              "unstructured": "Chandrasekaran, S., Cooper, O., Deshpande, A., Franklin, M.J., Hellerstein, J.M., Hong, W., and Shah, M.A. (2003, January 9–12). TelegraphCQ(Berkeley): Continuous data flow processing for an uncertain world. Proceedings of the SIGMOD ‘03: 2003 ACM SIGMOD International Conference on Management of Data, San Diego, CA, USA."
+            },
+            {
+              "DOI": "10.1145/564691.564777",
+              "doi-asserted-by": "crossref",
+              "key": "ref_15",
+              "unstructured": "Cranor, C., Gao, Y., Johnson, T., Shkapenyuk, V., and Spatscheck, O. (2002, January 3–6). Gigascope: High performance network monitoring with an SQL interface. Proceedings of the SIGMOID 2002, Madison, WI, USA."
+            },
+            {
+              "key": "ref_16",
+              "unstructured": "Eisenbud, D.E., Yi, C., Contavaschellerlli, C., Smith, C., Kononov, R., Mann-Hielscher, E., and Hosein, J.D. (2016, January 16–18). Maglev: A fast and reliable software network load balancer. Proceedings of the NSDI’16, 13th USENIX Symposium on Networked Systems Design and Implementation, Santa Clara, CA, USA."
+            },
+            {
+              "key": "ref_17",
+              "unstructured": "Arasu, A., Babcock, B., Babu, S., Cieslewicz, J., Datar, M., Ito, K., Motwan, R., Srivastava, U., and Widom, J. (2004, January 13–18). STREAM(Stanford): An adaptive engine for stream query processing. Proceedings of the SIGMOID 2004, Paris, France."
+            },
+            {
+              "DOI": "10.1145/1182807.1182886",
+              "doi-asserted-by": "crossref",
+              "key": "ref_18",
+              "unstructured": "Girod, L., Jamieson, K., Mei, Y., Newton, R., Rost, S., Thiagarajan, A., Balakrishnan, H., and Madden, S. (November, January 31). Wavescope(MIT): The case or a signal-oriented data stream management system. Proceedings of the CIDR 2007, Boulder, CO, USA."
+            },
+            {
+              "key": "ref_19",
+              "unstructured": "Shim, J.Y. (2013). Brain Scret, Bookhill."
+            },
+            {
+              "DOI": "10.7551/mitpress/8476.001.0001",
+              "doi-asserted-by": "crossref",
+              "key": "ref_20",
+              "unstructured": "Sporns, O. (2011). Networks of Brain, MIT Press."
+            },
+            {
+              "key": "ref_21",
+              "unstructured": "Carter, R. (2006). Mapping the Memory, Ulysess Press."
+            },
+            {
+              "DOI": "10.7554/eLife.54224",
+              "article-title": "Presynaptic PTPs regulates postsynaptic NMDA receptor function through direction adhesion-independent mechanisms",
+              "author": "Kim",
+              "doi-asserted-by": "crossref",
+              "first-page": "e54224",
+              "journal-title": "eLife",
+              "key": "ref_22",
+              "volume": "9",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1145/1592568.1592576",
+              "doi-asserted-by": "crossref",
+              "key": "ref_23",
+              "unstructured": "Greenberg, A., Hamilton, J.R., Jain, N., Kandula, S., Kim, C., Lahiri, P., Maltz, D.A., and Senggupta, S. (2009, January 16–21). VL2: A scalable and flexible data center network. Proceedings of the ACM SIGCOMM’09 Data Communication, Barcelona, Spain."
+            },
+            {
+              "key": "ref_24",
+              "unstructured": "Goodfellow, I., Bengio, Y., and Courville, A. (2017). Deep Learning, MIT Press."
+            },
+            {
+              "DOI": "10.1016/0013-4694(92)90133-3",
+              "article-title": "Event Related Synchronization (ERS): An electrophysiological correlate of cortical areas at rest",
+              "doi-asserted-by": "crossref",
+              "first-page": "62",
+              "journal-title": "Electroencephalogr. Clin. Neurophysiol.",
+              "key": "ref_25",
+              "volume": "83",
+              "year": "1992"
+            },
+            {
+              "DOI": "10.1016/S1388-2457(99)00141-8",
+              "article-title": "EVENT-related EEG/MEG synchronization and desynchronization: Basic principles",
+              "author": "Pfurtscheller",
+              "doi-asserted-by": "crossref",
+              "first-page": "1842",
+              "journal-title": "Clin. Neurophysiol.",
+              "key": "ref_26",
+              "volume": "110",
+              "year": "1999"
+            },
+            {
+              "DOI": "10.1109/ICCE-Asia49877.2020.9277205",
+              "doi-asserted-by": "crossref",
+              "key": "ref_27",
+              "unstructured": "Shim, J. (2020, January 1–3). Self reorganizing knowledge network by selective perception. Proceedings of the ICCE_ASIA2020, Seoul, Korea."
+            },
+            {
+              "DOI": "10.1109/ISCE.2014.6884520",
+              "doi-asserted-by": "crossref",
+              "key": "ref_28",
+              "unstructured": "Shim, J. (2014, January 22–25). Conditional reconfiguration mechanism by i/e gauge. Proceedings of the ISCE2014, Jeju, Korea."
+            },
+            {
+              "key": "ref_29",
+              "unstructured": "Nodelman, U., Allen, C., and Perry, J. (1997). Qualia. Stanford Encyclopedia of Philosophy, Stanford University."
+            },
+            {
+              "key": "ref_30",
+              "unstructured": "(2021, May 15). Qualia. Available online: https://en.wikipedia.org/wiki/Qualia."
+            },
+            {
+              "DOI": "10.1109/TENSYMP52854.2021.9550824",
+              "doi-asserted-by": "crossref",
+              "key": "ref_31",
+              "unstructured": "Shim, J. (2021, January 23–25). Stem cell like incarnation self repairing system in the iot intelligent network. Proceedings of the IEEE TENSYMP 2021, Jeju, Korea."
+            }
+          ],
+          "reference-count": 31,
+          "references-count": 31,
+          "resource": {
+            "primary": {
+              "URL": "https://www.mdpi.com/2079-9292/10/16/1900"
+            }
+          },
+          "score": 114.14834,
+          "short-container-title": [
+            "Electronics"
+          ],
+          "source": "Crossref",
+          "title": [
+            "Feature Matching Synchronized Reasoning from Energy-Based Memory Network for Intelligent Data Management in Cloud Computing Data Center"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+          "volume": "10"
+        },
+        {
+          "DOI": "10.2139/ssrn.5477055",
+          "URL": "https://doi.org/10.2139/ssrn.5477055",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Wu",
+              "given": "Xu",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                12
+              ]
+            ],
+            "date-time": "2025-09-12T19:44:05Z",
+            "timestamp": 1757706245000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                13
+              ]
+            ],
+            "date-time": "2025-09-13T11:16:32Z",
+            "timestamp": 1757762192000
+          },
+          "group-title": "SSRN",
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                16
+              ]
+            ],
+            "date-time": "2025-09-16T18:54:00Z",
+            "timestamp": 1758048840544,
+            "version": "3.44.0"
+          },
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "member": "78",
+          "posted": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "prefix": "10.2139",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "publisher": "Elsevier BV",
+          "reference": [
+            {
+              "DOI": "10.1007/s10489-022-04054-6",
+              "article-title": "Multi-task learning based multi-energy load prediction in integrated energy system",
+              "author": "L Wang",
+              "doi-asserted-by": "crossref",
+              "first-page": "10273",
+              "issue": "9",
+              "journal-title": "Appl. Intell",
+              "key": "ref1",
+              "volume": "53",
+              "year": "2023"
+            },
+            {
+              "article-title": "A two-stage rolling optimization strategy for park-level integrated energy system considering multi-energy flexibility",
+              "author": "S Wu",
+              "journal-title": "Int, J.Elec, Power",
+              "key": "ref2",
+              "volume": "145",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1016/j.scitotenv.2021.151927",
+              "article-title": "Facilitating developments of solar thermal power and nuclearpower generations for carbon neutral: a study based on evolutionary gametheoretic method",
+              "author": "Wang",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Sci. Total Environ",
+              "key": "ref3",
+              "volume": "814",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.renene.2025.123000",
+              "article-title": "A fully decentralized prosumer-centric peer-to-peer energy trading of photovoltaic and battery energy for social welfare maximization considering system voltage constraints",
+              "author": "Y Hussain",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Renewable Energy",
+              "key": "ref4",
+              "volume": "247",
+              "year": "2025"
+            },
+            {
+              "article-title": "Data-driven torque and pitch control of wind turbines viareinforcement learning",
+              "author": "J Xie",
+              "journal-title": "Renew, Energy",
+              "key": "ref5",
+              "volume": "215",
+              "year": "2023"
+            },
+            {
+              "article-title": "Low-carbon planning and optimization of the integrated energy system considering lifetime carbon emissions",
+              "author": "N Zhao",
+              "journal-title": "J. Build. Eng",
+              "key": "ref6",
+              "volume": "82",
+              "year": "2024"
+            },
+            {
+              "article-title": "0peraion of smart disribution networks by considering the spatial-temporal flexibility of datacenters and battery energy storage systems",
+              "author": "K",
+              "first-page": "114",
+              "journal-title": "Sustain. Cities Soc",
+              "key": "ref7"
+            },
+            {
+              "author": "S J Zhang",
+              "first-page": "4193",
+              "journal-title": "Coordinated planning of multiple energy hubs considering the spatiotemporal load regulation of data centers",
+              "key": "ref8",
+              "volume": "39",
+              "year": "2024"
+            },
+            {
+              "article-title": "Predicting the effects of solar energy development on plants and wildlife in the Desert Southwest, United States",
+              "author": "Claire C K",
+              "journal-title": "Renewable and Sustainable Energy Reviews",
+              "key": "ref9",
+              "volume": "205",
+              "year": "2024"
+            },
+            {
+              "article-title": "Multi-time scale robust optimization for integrated multi-energy system considering the internal coupling relationship of photovoltaic battery swapping-charging-storage station",
+              "author": "X Zhang",
+              "journal-title": "Journal of Energy Storage",
+              "key": "ref10",
+              "volume": "19",
+              "year": "2025"
+            },
+            {
+              "article-title": "Operational decisions of wind-photovoltaic-storage hybrid power systems using improved dung beetle optimizer",
+              "author": "M Niu",
+              "journal-title": "Journal of Energy Storage",
+              "key": "ref11",
+              "volume": "117",
+              "year": "2025"
+            },
+            {
+              "DOI": "10.1016/j.energy.2023.129991",
+              "article-title": "Simultaneous capacity configuration and scheduling optimization of an integrated electrical vehicle charging station with photovoltaic and battery energy storage system",
+              "author": "X Dong",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Energy",
+              "key": "ref12",
+              "volume": "289",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2020.3038920",
+              "article-title": "A Novel Incentive Mechanism for CCHP-Based Microgrids in Spinning Reserve[J]",
+              "author": "J Q Guo",
+              "doi-asserted-by": "crossref",
+              "first-page": "1697",
+              "issue": "3",
+              "journal-title": "IEEE Transactions on Power Systems",
+              "key": "ref13",
+              "volume": "36",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/TSG.2016.2523504",
+              "article-title": "An Online Optimal Dispatch Schedule for CCHP Microgrids Based on Model Predictive Control[J]",
+              "author": "W Gu",
+              "doi-asserted-by": "crossref",
+              "first-page": "2332",
+              "issue": "5",
+              "journal-title": "IEEE Transactions on Smart Grid",
+              "key": "ref14",
+              "volume": "8",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.35833/MPCE.2020.000137",
+              "article-title": "A Feasible Zone Analysis Method with Global Partial Load Scanning for Solving Power Flow Coupling Models of CCHP Systems[J]",
+              "author": "H Chen",
+              "doi-asserted-by": "crossref",
+              "first-page": "371",
+              "issue": "2",
+              "journal-title": "Journal of Modern Power Systems and Clean Energy",
+              "key": "ref15",
+              "volume": "10",
+              "year": "2022"
+            },
+            {
+              "author": "W Feng",
+              "journal-title": "A conditional value-at-risk-based dispatch approach for the energy management of smart buildings with HVAC systems",
+              "key": "ref16",
+              "volume": "188",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/JSTARS.2019.2908690",
+              "article-title": "Syntactic Pattern Recognition for Wavelet Clustering in Seismogram",
+              "author": "K. -Y Huang",
+              "doi-asserted-by": "crossref",
+              "first-page": "2453",
+              "issue": "7",
+              "journal-title": "J] IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+              "key": "ref17",
+              "volume": "12",
+              "year": "2019"
+            },
+            {
+              "article-title": "Gated spatial-temporal graphneural network based shortterm load forecasting for wide-area multiple buses",
+              "author": "N Huang",
+              "journal-title": "IntJ. Electr. Power Energy Syst",
+              "key": "ref18",
+              "volume": "145",
+              "year": "2023"
+            },
+            {
+              "author": "P Luo",
+              "first-page": "368",
+              "journal-title": "Electric vehicle charging station planning considering multi-scene charging demand forecasting. High Voltage Engineering",
+              "key": "ref19",
+              "volume": "51",
+              "year": "2025"
+            },
+            {
+              "author": "C Pan",
+              "first-page": "356",
+              "journal-title": "Short-term scheduling strategy for two-stage optimization of hydro-photovoltaicstorage in remote areas",
+              "key": "ref20",
+              "volume": "51",
+              "year": "2025"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2022.108929",
+              "article-title": "Guest editorial:special issue on integrated local energy systems",
+              "author": "T Jiang",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Int, J. Elec, Power",
+              "key": "ref21",
+              "volume": "148",
+              "year": "2023"
+            },
+            {
+              "article-title": "A two-stage rolling optimizationstrategy for park-level integrated energy system considering multi-energyflexibility",
+              "author": "S Wu",
+              "journal-title": "Int, J. Elec.Power",
+              "key": "ref22",
+              "volume": "145",
+              "year": "2023"
+            },
+            {
+              "author": "Ahmed Shaban",
+              "journal-title": "A survey on model-based and data-driven operational optimization approaches for integrated energy systems in smart cities, Electric Power Systems Research",
+              "key": "ref23",
+              "volume": "249",
+              "year": "2025"
+            },
+            {
+              "author": "Y L Wang",
+              "journal-title": "Dynamic pricing and low-carbon economy dispatch of multi-park integrated energy system based on mixed game, Electric Power Systems Research",
+              "key": "ref24",
+              "volume": "248",
+              "year": "2025"
+            },
+            {
+              "author": "Z X Wu",
+              "journal-title": "Multi-scenario stochastic assessment of operational risk of integrated energy system based on R-vine Copula, Electric Power Systems Research",
+              "key": "ref25",
+              "volume": "245",
+              "year": "2025"
+            },
+            {
+              "author": "Y F Gao",
+              "journal-title": "Online optimization of integrated energy systems based on deep learning predictive control, Electric Power Systems Research",
+              "key": "ref26",
+              "volume": "243",
+              "year": "2025"
+            },
+            {
+              "article-title": "Safe-AutoSAC: AutoML-enhanced safe deep reinforcement learning for integrated energy system scheduling with multi-channel informer forecasting and electric vehicle demand response",
+              "author": "B S Li",
+              "journal-title": "Applied Energy",
+              "key": "ref27",
+              "volume": "399",
+              "year": "2025"
+            }
+          ],
+          "reference-count": 27,
+          "references-count": 27,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=5477055"
+            }
+          },
+          "score": 110.74361,
+          "source": "Crossref",
+          "subtype": "preprint",
+          "title": [
+            "Multi-time-scale Hierarchical Coordinated Optimal Scheduling of Data Center Park-Integrated Energy System: Low-Carbon-Economic Synergistic Strategy under High-Proportion Renewable Energy Integration"
+          ],
+          "type": "posted-content"
+        },
+        {
+          "DOI": "10.1109/imcec.2016.7867538",
+          "URL": "https://doi.org/10.1109/imcec.2016.7867538",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Yu",
+              "given": "Yale",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Cheng",
+              "given": "Guojian",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Qiang",
+              "given": "Xinjian",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2016 IEEE Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                2
+              ]
+            ],
+            "date-time": "2017-03-02T21:40:47Z",
+            "timestamp": 1488490847000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                1,
+                15
+              ]
+            ],
+            "date-time": "2020-01-15T09:18:15Z",
+            "timestamp": 1579079895000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2016,
+                  10,
+                  5
+                ]
+              ]
+            },
+            "location": "Xi'an",
+            "name": "2016 IEEE Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC)",
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  10,
+                  3
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                30
+              ]
+            ],
+            "date-time": "2024-10-30T05:34:46Z",
+            "timestamp": 1730266486634,
+            "version": "3.28.0"
+          },
+          "is-referenced-by-count": 1,
+          "issued": {
+            "date-parts": [
+              [
+                2016,
+                10
+              ]
+            ]
+          },
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/7861599/7867100/07867538.pdf?arnumber=7867538",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "1848-1855",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2016,
+                10
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                10
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "article-title": "User Survey Analysis: Enterprise Applications versus the Cloud",
+              "author": "findeldey",
+              "journal-title": "Gartner Research Gartner Inc",
+              "key": "ref10",
+              "year": "2010"
+            },
+            {
+              "article-title": "Comparing two Business Model Ontologies for Designing e-Business Models and Value Constellations",
+              "author": "jaap",
+              "journal-title": "18th Bled e Conference elntegration in Action Bled Slovenia",
+              "key": "ref11",
+              "year": "2005"
+            },
+            {
+              "article-title": "Harvard Business Review on Business Model Innovation",
+              "journal-title": "Harvard Business Review",
+              "key": "ref12",
+              "year": "2010"
+            },
+            {
+              "article-title": "The Role of Business Model Innovation in the Emergence of Markets: A Missing Dimension of Entrepreneurial Strategy? Journal of Strategic Innovation and Sustainability",
+              "author": "holloway",
+              "key": "ref13",
+              "volume": "6",
+              "year": "2010"
+            },
+            {
+              "article-title": "HP",
+              "journal-title": "HP Cloud Functional Reference Architecture and Product Mapping",
+              "key": "ref14",
+              "year": "2010"
+            },
+            {
+              "article-title": "Reinventing your Business Model",
+              "author": "johnson",
+              "journal-title": "Harvard Business Review",
+              "key": "ref15",
+              "year": "2008"
+            },
+            {
+              "article-title": "Seizing the White Space-Business Model Innovation for Growth and Renewal",
+              "author": "johnson mark",
+              "journal-title": "Harvard Business Press",
+              "key": "ref16",
+              "year": "2010"
+            },
+            {
+              "article-title": "Business Models for Sustainable Telecoms Growth in Developing Economies",
+              "author": "sanjay",
+              "journal-title": "John Wiley and Sons Ltd",
+              "key": "ref17",
+              "year": "2008"
+            },
+            {
+              "article-title": "Eight Critical Forces That Impact Your Data Center Strategy",
+              "author": "rakesh",
+              "journal-title": "Gartner Inc",
+              "key": "ref18",
+              "year": "2010"
+            },
+            {
+              "article-title": "Business Model Innovation: When the Game Gets Tough",
+              "author": "linddgardt",
+              "journal-title": "Change the Game The Boston Consulting Group",
+              "key": "ref19",
+              "year": "2009"
+            },
+            {
+              "article-title": "Building Next Generation Data Centre: Theory and Practices",
+              "author": "wei xiong",
+              "journal-title": "Posts & Telecom Press",
+              "key": "ref28",
+              "year": "2009"
+            },
+            {
+              "author": "harry",
+              "journal-title": "Mobile service innovation and business models",
+              "key": "ref4",
+              "year": "2008"
+            },
+            {
+              "article-title": "Telecom Transformation: Theories, Frameworks and Best Practices",
+              "author": "yuanhua",
+              "journal-title": "TMF Management World Conference Singapore",
+              "key": "ref27",
+              "year": "2010"
+            },
+            {
+              "article-title": "E-Commerce and V-Business: Digital Enterprise in the Twenty-First Century",
+              "author": "stuart",
+              "first-page": "181",
+              "journal-title": "Publisher Butterworth-Heinemann Ltd",
+              "key": "ref3",
+              "year": "2007"
+            },
+            {
+              "article-title": "Cloud Computing Services: A Model for Categorizing and Characterizing Capabilities Delivered from the Cloud, Gartner Research",
+              "author": "cearley",
+              "journal-title": "Gartner Inc",
+              "key": "ref6",
+              "year": "2009"
+            },
+            {
+              "article-title": "E-Business Strategies for Virtual Organizations",
+              "author": "janice",
+              "first-page": "17",
+              "journal-title": "Publisher Butterworth-Heinemann Ltd",
+              "key": "ref5",
+              "year": "2002"
+            },
+            {
+              "DOI": "10.1201/9781439834541",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "article-title": "Cloud Computing-Technologies and Strategies of the Ubiquitous Data Centre. CRC Press",
+              "author": "chee brian",
+              "journal-title": "Taylor & Francis Group NW",
+              "key": "ref7",
+              "year": "2010"
+            },
+            {
+              "article-title": "Management Strategies for the Cloud Revolution-How Cloud Computing Is Transforming Business and Why You Can't Afford to Be Left Behind",
+              "author": "charles",
+              "key": "ref2",
+              "year": "2010"
+            },
+            {
+              "article-title": "Business Service Management: Understanding Business Models",
+              "author": "erwin",
+              "journal-title": "Smart Services CRC Pty Ltd",
+              "key": "ref9",
+              "year": "2011"
+            },
+            {
+              "article-title": "Adams, April & Mishra, Naveen",
+              "journal-title": "User Survey Analysis Key Trends Shaping the Future of Data Centre Infrastructure through 2011 Gartner Research Gartner Inc",
+              "key": "ref1",
+              "year": "2010"
+            },
+            {
+              "article-title": "Q&A: Key Considerations Driving Data Centre Transformation in Australia in 2010 and 2011",
+              "author": "naveen",
+              "journal-title": "Part 1& 2 Gartner Research",
+              "key": "ref20",
+              "year": "2010"
+            },
+            {
+              "article-title": "Clarifying Business Models: Origins, present, and future of the concept",
+              "author": "osterwalder",
+              "journal-title": "Communications of the AIS",
+              "key": "ref22",
+              "volume": "16",
+              "year": "2005"
+            },
+            {
+              "DOI": "10.1016/j.jbusres.2003.11.001",
+              "doi-asserted-by": "publisher",
+              "key": "ref21"
+            },
+            {
+              "article-title": "Business Model Change Due to ICT Integration: An Application to the Entertainment Industry",
+              "author": "sakellaridis",
+              "journal-title": "Int Journal of Computer Information Systems and Industrial Management Applications",
+              "key": "ref24",
+              "volume": "3",
+              "year": "2011"
+            },
+            {
+              "article-title": "Business Model Generation: A Handbook for Visionaries",
+              "author": "osterwalder",
+              "journal-title": "Game Changers and Challengers Self-Publishing online",
+              "key": "ref23",
+              "year": "2010"
+            },
+            {
+              "article-title": "User Survey Analysis: Results Give Clues to Unlocking Server Green IT Potential in 2010",
+              "author": "kiyomi",
+              "journal-title": "Gartner Research",
+              "key": "ref26",
+              "year": "2010"
+            },
+            {
+              "author": "weill",
+              "journal-title": "Place to Space Migrating to eBusiness Models",
+              "key": "ref25",
+              "year": "2001"
+            }
+          ],
+          "reference-count": 28,
+          "references-count": 28,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/7867538/"
+            }
+          },
+          "score": 107.00736,
+          "source": "Crossref",
+          "title": [
+            "Data centre transformation: Integrated business model framework of cloud computing oriented data centre"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.1007/978-3-031-18034-7_11",
+          "ISBN": [
+            "9783031180330",
+            "9783031180347"
+          ],
+          "URL": "https://doi.org/10.1007/978-3-031-18034-7_11",
+          "assertion": [
+            {
+              "group": {
+                "label": "Chapter History",
+                "name": "ChapterHistory"
+              },
+              "label": "First Online",
+              "name": "first_online",
+              "order": 1,
+              "value": "22 September 2022"
+            }
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Thakkar",
+              "given": "Hiren Kumar",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "container-title": [
+            "Predictive Analytics in Cloud, Fog, and Edge Computing"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": [
+              "link.springer.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                16
+              ]
+            ],
+            "date-time": "2022-12-16T07:03:23Z",
+            "timestamp": 1671174203000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                3,
+                18
+              ]
+            ],
+            "date-time": "2023-03-18T05:21:42Z",
+            "timestamp": 1679116902000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                26
+              ]
+            ],
+            "date-time": "2025-03-26T00:10:56Z",
+            "timestamp": 1742947856589,
+            "version": "3.40.3"
+          },
+          "is-referenced-by-count": 1,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9783031180330"
+            },
+            {
+              "type": "electronic",
+              "value": "9783031180347"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                22
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    9,
+                    22
+                  ]
+                ],
+                "date-time": "2022-09-22T00:00:00Z",
+                "timestamp": 1663804800000
+              }
+            },
+            {
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    9,
+                    22
+                  ]
+                ],
+                "date-time": "2022-09-22T00:00:00Z",
+                "timestamp": 1663804800000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-18034-7_11",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "297",
+          "page": "185-197",
+          "prefix": "10.1007",
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                22
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                22
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "publisher": "Springer International Publishing",
+          "publisher-location": "Cham",
+          "reference": [
+            {
+              "DOI": "10.1109/MIC.2012.50",
+              "author": "S Madden",
+              "doi-asserted-by": "publisher",
+              "first-page": "4",
+              "issue": "3",
+              "journal-title": "IEEE Internet Comput",
+              "key": "11_CR1",
+              "unstructured": "Madden S (2012) From databases to big data. IEEE Internet Comput 16(3):4–6",
+              "volume": "16",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1016/j.ipm.2020.102474",
+              "author": "HK Thakkar",
+              "doi-asserted-by": "publisher",
+              "first-page": "102474",
+              "issue": "3",
+              "journal-title": "Inform Process Manage",
+              "key": "11_CR2",
+              "unstructured": "Thakkar HK, Sahoo PK, Mohanty P (2021) Dofm: domain feature miner for robust extractive summarization. Inform Process Manage 58(3):102474",
+              "volume": "58",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1145/2436256.2436274",
+              "author": "R Feldman",
+              "doi-asserted-by": "publisher",
+              "first-page": "82",
+              "issue": "4",
+              "journal-title": "Commun ACM",
+              "key": "11_CR3",
+              "unstructured": "Feldman R (2013) Techniques and applications for sentiment analysis. Commun ACM 56(4):82–89",
+              "volume": "56",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1016/B978-0-323-85117-6.00005-4",
+              "author": "HK Thakkar",
+              "doi-asserted-by": "publisher",
+              "first-page": "21",
+              "key": "11_CR4",
+              "unstructured": "Thakkar HK, Shukla H, Sahoo PK (2022) Metaheuristics in classification, clustering, and frequent pattern mining. In: Cognitive big data intelligence with a metaheuristic approach. Elsevier, Amsterdam, pp 21–70",
+              "volume-title": "Cognitive big data intelligence with a metaheuristic approach",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/TKDE.2019.2942594",
+              "author": "W Gan",
+              "doi-asserted-by": "publisher",
+              "first-page": "1306",
+              "issue": "4",
+              "journal-title": "IEEE Trans Knowl Data Eng",
+              "key": "11_CR5",
+              "unstructured": "Gan W, Lin JC-W, Fournier-Viger P, Chao H-C, Tseng VS, Philip SY (2019) A survey of utility-oriented pattern mining. IEEE Trans Knowl Data Eng 33(4):1306–1327",
+              "volume": "33",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1145/1327452.1327492",
+              "author": "J Dean",
+              "doi-asserted-by": "publisher",
+              "first-page": "107",
+              "issue": "1",
+              "journal-title": "Commun ACM",
+              "key": "11_CR6",
+              "unstructured": "Dean J, Ghemawat S (2008) Mapreduce: simplified data processing on large clusters. Commun ACM 51(1):107–113",
+              "volume": "51",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1109/TPDS.2021.3080582",
+              "author": "HK Thakkar",
+              "doi-asserted-by": "publisher",
+              "first-page": "2906",
+              "issue": "12",
+              "journal-title": "IEEE Trans Parallel Distrib Syst",
+              "key": "11_CR7",
+              "unstructured": "Thakkar HK, Sahoo PK, Veeravalli B (2021) Renda: resource and network aware data placement algorithm for periodic workloads in cloud. IEEE Trans Parallel Distrib Syst 32(12):2906–2920",
+              "volume": "32",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.jss.2016.11.037",
+              "author": "I Mavridis",
+              "doi-asserted-by": "publisher",
+              "first-page": "133",
+              "journal-title": "J Syst Softw",
+              "key": "11_CR8",
+              "unstructured": "Mavridis I, Karatza H (2017) Performance evaluation of cloud-based log file analysis with apache hadoop and apache spark. J Syst Softw 125:133–151",
+              "volume": "125",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1145/2523616.2523633",
+              "doi-asserted-by": "crossref",
+              "key": "11_CR9",
+              "unstructured": "Vavilapalli VK, Murthy AC, Douglas C, Agarwal S, Konar M, Evans R, Graves T, Lowe J, Shah H, Seth S et al. (2013) Apache hadoop yarn: yet another resource negotiator. In: Proceedings of the 4th annual symposium on cloud computing, pp 1–16"
+            },
+            {
+              "DOI": "10.1109/JSAC.2020.2986663",
+              "author": "HK Thakkar",
+              "doi-asserted-by": "publisher",
+              "first-page": "1058",
+              "issue": "6",
+              "journal-title": "IEEE J Sel Areas Commun",
+              "key": "11_CR10",
+              "unstructured": "Thakkar HK, Dehury CK, Sahoo PK (2020) Muvine: multi-stage virtual network embedding in cloud data centers using reinforcement learning-based predictions. IEEE J Sel Areas Commun 38(6):1058–1074",
+              "volume": "38",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/ICDCS.2012.48",
+              "author": "H Jin",
+              "doi-asserted-by": "publisher",
+              "first-page": "516",
+              "key": "11_CR11",
+              "unstructured": "Jin H, Yang X, Sun X-H, Raicu I (2012) Adapt: availability-aware mapreduce data placement for non-dedicated distributed computing. In 2012 IEEE 32nd international conference on distributed computing systems. IEEE, Piscataway, pp 516–525",
+              "volume-title": "2012 IEEE 32nd international conference on distributed computing systems",
+              "year": "2012"
+            },
+            {
+              "author": "J Xie",
+              "first-page": "1",
+              "key": "11_CR12",
+              "unstructured": "Xie J, Yin S, Ruan X, Ding Z, Tian Y, Majors J, Manzanares A, Qin X (2010) Improving mapreduce performance through data placement in heterogeneous hadoop clusters. In: 2010 IEEE international symposium on parallel & distributed processing, workshops and PhD forum (IPDPSW). IEEE, Piscataway, pp 1–9",
+              "volume-title": "2010 IEEE international symposium on parallel & distributed processing, workshops and PhD forum (IPDPSW)",
+              "year": "2010"
+            },
+            {
+              "DOI": "10.1007/978-3-642-36071-8_8",
+              "author": "RM Arasanal",
+              "doi-asserted-by": "publisher",
+              "first-page": "115",
+              "key": "11_CR13",
+              "unstructured": "Arasanal RM, Rumani DU (2013) Improving mapreduce performance through complexity and performance based data placement in heterogeneous hadoop clusters. In: International conference on distributed computing and internet technology. Springer, Berlin, pp 115–125",
+              "volume-title": "International conference on distributed computing and internet technology",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1007/978-1-4939-1905-5_7",
+              "author": "J Wang",
+              "doi-asserted-by": "crossref",
+              "first-page": "149",
+              "key": "11_CR14",
+              "unstructured": "Wang J, Shang P, Yin J (2014) Draw: a new data-grouping-aware data placement scheme for data intensive applications with interest locality. In: Cloud computing for data-intensive applications. Springer, Berlin, pp 149–174",
+              "volume-title": "Cloud computing for data-intensive applications",
+              "year": "2014"
+            }
+          ],
+          "reference-count": 14,
+          "references-count": 14,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/978-3-031-18034-7_11"
+            }
+          },
+          "score": 106.66939,
+          "source": "Crossref",
+          "title": [
+            "A Workload-Aware Data Placement Scheme for Hadoop-Enabled MapReduce Cloud Data Center"
+          ],
+          "type": "book-chapter",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy"
+        },
+        {
+          "DOI": "10.2139/ssrn.5357694",
+          "URL": "https://doi.org/10.2139/ssrn.5357694",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Wu",
+              "given": "Xu",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Haoyong",
+              "given": "CHEN",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                19
+              ]
+            ],
+            "date-time": "2025-07-19T00:36:33Z",
+            "timestamp": 1752885393000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                19
+              ]
+            ],
+            "date-time": "2025-07-19T00:38:46Z",
+            "timestamp": 1752885526000
+          },
+          "group-title": "SSRN",
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                2
+              ]
+            ],
+            "date-time": "2025-08-02T16:17:03Z",
+            "timestamp": 1754151423471,
+            "version": "3.41.2"
+          },
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "member": "78",
+          "posted": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "prefix": "10.2139",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "publisher": "Elsevier BV",
+          "reference": [
+            {
+              "article-title": "Bi-level coordinated operation optimization of multi-park integrated energy systems considering categorized demand response and uncertainty: A unified adaptive robust optimization approach",
+              "author": "Y C Dong",
+              "journal-title": "Renew. Energy",
+              "key": "ref1",
+              "year": "2025"
+            },
+            {
+              "article-title": "Strategy research on variable load carbon price and demand response of integrated energy system based on Stackelberg game and cooperative game",
+              "author": "X O Liu",
+              "journal-title": "Energy",
+              "key": "ref2",
+              "volume": "328",
+              "year": "2025"
+            },
+            {
+              "article-title": "Blockchain and Green Certificates Based Market Structure and Transaction Mechanism of Direct Power-Purchase for Industrial Users",
+              "author": "X Ge",
+              "first-page": "1",
+              "journal-title": "IEEE T IND APPL",
+              "key": "ref3",
+              "year": "2023"
+            },
+            {
+              "author": "Y B Chen",
+              "first-page": "5496",
+              "journal-title": "Review and prospect of zero carbon park research[j]. proceedings of the Chinese society of electrical engineering",
+              "key": "ref4",
+              "volume": "44",
+              "year": "2024"
+            },
+            {
+              "article-title": "An optimal dispatch model for virtual power plant that incorporates carbon trading and green certificate trading",
+              "author": "H Wang",
+              "journal-title": "INT J ELEC POWER",
+              "key": "ref5",
+              "volume": "144",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1109/TII.2022.3175718",
+              "article-title": "Optimal design of the EV charging station with retired battery systems against charging demand uncertainty[J]",
+              "author": "J Li",
+              "doi-asserted-by": "crossref",
+              "first-page": "3262",
+              "issue": "3",
+              "journal-title": "IEEE TRANSACTIONS ON INDUSTRIAL INFORMATICS",
+              "key": "ref6",
+              "volume": "19",
+              "year": "2023"
+            },
+            {
+              "article-title": "Low-carbon dispatch of multi-district integrated energy systems considering carbon emission trading and green certificate trading",
+              "author": "D Liu",
+              "journal-title": "RENEWABLE ENERGY",
+              "key": "ref7",
+              "year": "2023"
+            },
+            {
+              "author": "H Zhang",
+              "first-page": "26",
+              "journal-title": "Economic and low-carbon dispatch strategy of a hydrogencontaining integrated energy system considering thermal power units participating in green certificate purchase transaction. Power System Protection and Control",
+              "key": "ref8",
+              "volume": "51",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1016/j.energy.2023.128398",
+              "article-title": "Trading behavior strategy of power plants and the grid under renewable portfolio standards in China: A tripartite evolutionary game analysis",
+              "author": "M Teng",
+              "doi-asserted-by": "crossref",
+              "journal-title": "ENERGY",
+              "key": "ref9",
+              "volume": "284",
+              "year": "2023"
+            },
+            {
+              "article-title": "Multi-timescale optimization of integrated energy system with diversified utilization of hydrogen energy under the coupling of green certificate and carbon trading",
+              "author": "L L Wang",
+              "journal-title": "RENEWABLE ENERGY",
+              "key": "ref10",
+              "year": "2025"
+            },
+            {
+              "article-title": "An optimal dispatch model for virtual power plant that incorporates carbon trading and green certificate trading",
+              "author": "L Zhang",
+              "journal-title": "International Journal of Electrical Power and Energy Systems",
+              "key": "ref11",
+              "volume": "144",
+              "year": "2023"
+            },
+            {
+              "article-title": "Energy-sharing operation strategy of multi-district integrated energy systems considering carbon and renewable energy certificate trading",
+              "author": "J Tan",
+              "journal-title": "APPLIED ENERGY",
+              "key": "ref12",
+              "year": "2023"
+            },
+            {
+              "article-title": "Green dispatch of regional integrated energy system considering green certificate-carbon emission equivalent interaction mechanism[J]",
+              "author": "Cui Yang",
+              "first-page": "4508",
+              "issue": "12",
+              "journal-title": "Proceedings of the Chinese Society of Electrical Engineering",
+              "key": "ref13",
+              "volume": "43",
+              "year": "2023"
+            },
+            {
+              "article-title": "Design of P2P trading mechanism for multi-energy prosumers based on generalized nash bargaining in GCT-CET market",
+              "author": "Y Meng",
+              "journal-title": "APPLIED ENERGY",
+              "key": "ref14",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2019.2953114",
+              "article-title": "Modeling strategic behaviors of renewable energy with joint consideration on energy and tradable green certificate markets[J]",
+              "author": "H Guo",
+              "doi-asserted-by": "crossref",
+              "first-page": "1898",
+              "issue": "3",
+              "journal-title": "IEEE TRANSACTIONS ON POWER SYSTEMS",
+              "key": "ref15",
+              "volume": "35",
+              "year": "2020"
+            },
+            {
+              "article-title": "Low-carbon economic operation of commercial park-level integrated energy systems incorporating supply and demand flexibility",
+              "author": "S Fan",
+              "journal-title": "J]. ENERGY",
+              "key": "ref16",
+              "year": "2025"
+            },
+            {
+              "article-title": "Net-zero carbon configuration approach for direct air carbon capture based integrated energy system considering dynamic characteristics of CO 2 adsorption and desorption",
+              "author": "L Yang",
+              "journal-title": "APPLIED ENERGY",
+              "key": "ref17",
+              "year": "2024"
+            },
+            {
+              "article-title": "Distributed optimization of integrated energy system considering demand response and congestion cost allocation mechanism[J]",
+              "author": "J Yang",
+              "journal-title": "INTERNATIONAL JOURNAL OF ELECTRICAL POWER & ENERGY SYSTEMS",
+              "key": "ref18",
+              "year": "2024"
+            },
+            {
+              "article-title": "How dynamic renewable portfolio standards affect trading behavior of power generators? Considering green certificate and reward/ penalty mechanism",
+              "author": "F Hu",
+              "journal-title": "APPLIED ENERGY",
+              "key": "ref19",
+              "year": "2024"
+            },
+            {
+              "author": "X Wang",
+              "first-page": "594",
+              "journal-title": "On Tradeable Certificates of Emissions Reduction and Their Interactions. Power System Technology",
+              "key": "ref20",
+              "volume": "47",
+              "year": "2023"
+            },
+            {
+              "article-title": "Green Dispatch of Regional Integrated Energy System Considering Green Certificate-carbon Emission Equivalent Interaction Mechanism",
+              "author": "Y Cui",
+              "first-page": "4508",
+              "journal-title": "Proceedings of the Chinese Society of Electrical Engineering",
+              "key": "ref21",
+              "volume": "43",
+              "year": "2023"
+            },
+            {
+              "article-title": "Multi-microgrid low-carbon economy operation strategy considering both source and load uncertainty: A Nash bargaining approach",
+              "author": "J Xu",
+              "journal-title": "ENERGY",
+              "key": "ref22",
+              "volume": "263",
+              "year": "2023"
+            },
+            {
+              "article-title": "Operational decisions of wind-photovoltaic-storage hybrid power systems using improved dung beetle optimizer",
+              "author": "Y Niu",
+              "journal-title": "Journal of Energy Storage",
+              "key": "ref23",
+              "volume": "117",
+              "year": "2025"
+            },
+            {
+              "DOI": "10.1109/TIA.2021.3076020",
+              "article-title": "Day-Ahead Optimal Dispatch for Integrated Energy System Considering Power-to-Gas and Dynamic Pipeline Networks",
+              "author": "Z Zhang",
+              "doi-asserted-by": "crossref",
+              "first-page": "3317",
+              "journal-title": "IEEE T IND APPL",
+              "key": "ref24",
+              "volume": "57",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2024.123164",
+              "article-title": "Triple-layer optimization of distributed photovoltaic energy storage capacity for manufacturing enterprises considering carbon emissions and load management",
+              "author": "R Feng",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Applied Energy",
+              "key": "ref25",
+              "volume": "364",
+              "year": "2024"
+            },
+            {
+              "article-title": "Two-stage distributionally robust optimization model of integrated energy system group considering energy sharing and carbon transfer",
+              "author": "F Wei",
+              "journal-title": "Applied Energy",
+              "key": "ref26",
+              "volume": "331",
+              "year": "2023"
+            },
+            {
+              "article-title": "Multi-time scale robust optimization for integrated multi-energy system considering the internal coupling relationship of photovoltaic battery swapping-charging-storage station",
+              "author": "J Zhang",
+              "journal-title": "Journal of Energy Storage",
+              "key": "ref27",
+              "volume": "19",
+              "year": "2025"
+            },
+            {
+              "article-title": "A fully decentralized prosumer-centric peer-to-peer energy trading of photovoltaic and battery energy for social welfare maximization considering system voltage constraints",
+              "author": "Jawad Hussain",
+              "journal-title": "Renewable Energy",
+              "key": "ref28",
+              "volume": "247",
+              "year": "2025"
+            },
+            {
+              "author": "Y Y Yang",
+              "journal-title": "Distributed prosumer trading in the electricity and carbon markets considering user utility, Renewable Energy",
+              "key": "ref29",
+              "volume": "228",
+              "year": "2024"
+            },
+            {
+              "article-title": "Data-driven torque and pitch control of wind turbines viareinforcement learning",
+              "author": "J Xie",
+              "journal-title": "Renew, Energy",
+              "key": "ref30",
+              "volume": "215",
+              "year": "2023"
+            },
+            {
+              "article-title": "Internal and external coordinated distributionally robust bidding strategy of virtual power plant operator participating in day-ahead electricity spot and peaking ancillary services markets",
+              "author": "W Li",
+              "journal-title": "Applied Energy",
+              "key": "ref31",
+              "volume": "386",
+              "year": "2025"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2019.2926305",
+              "article-title": "Direct Energy Transaction of Microgrids in Distribution Energy Market",
+              "author": "H Kim",
+              "doi-asserted-by": "crossref",
+              "first-page": "639",
+              "journal-title": "IEEE T POWER SYST",
+              "key": "ref32",
+              "volume": "35",
+              "year": "2020"
+            },
+            {
+              "article-title": "Low-carbon planning and optimization of the integrated energy system considering lifetime carbon emissions",
+              "author": "N Zhao",
+              "journal-title": "J. Build. Eng",
+              "key": "ref33",
+              "volume": "82",
+              "year": "2024"
+            },
+            {
+              "article-title": "Life-cycle-based multi-objective optimal design and analysis of distributed multi-energy systems for data centers",
+              "author": "Ren Han",
+              "journal-title": "Energy",
+              "key": "ref34",
+              "volume": "288",
+              "year": "2024"
+            },
+            {
+              "author": "C Feng",
+              "first-page": "3961",
+              "journal-title": "Update Scheduling for ADMM-Based Energy Sharing in Virtual Power Plants Considering Massive Prosumer Access",
+              "key": "ref35",
+              "volume": "14",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1016/j.egyr.2023.04.067",
+              "article-title": "Low carbon optimal operation of integrated energy systems considering air pollution emissions",
+              "author": "J Xu",
+              "doi-asserted-by": "crossref",
+              "first-page": "1597",
+              "journal-title": "ENERGY REP",
+              "key": "ref36",
+              "volume": "9",
+              "year": "2023"
+            },
+            {
+              "article-title": "0peraion of smart disribution networks by considering the spatial-temporal flexibility of datacenters and battery energy storage systems",
+              "author": "K",
+              "first-page": "114",
+              "journal-title": "Sustain. Cities Soc",
+              "key": "ref37"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2024.114600",
+              "article-title": "Cordinated optimization of configuration and operation of a photovoltaic integrated building cooling system with electricityand ice storages under source-load uncertainties",
+              "author": "J Kang",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Energy Build",
+              "key": "ref38",
+              "volume": "320",
+              "year": "2024"
+            },
+            {
+              "article-title": "Enhancing low-carbon building operations leveraging demand response driven by renewable energy consumption contributions",
+              "author": "J Huang",
+              "journal-title": "J. Build,Eng",
+              "key": "ref39",
+              "volume": "95",
+              "year": "2024"
+            },
+            {
+              "author": "S 2hang J Lyu",
+              "first-page": "4193",
+              "journal-title": "Coordinated planning of multiple energy hubs considering the spatiotemporal load regulation of data centers",
+              "key": "ref40",
+              "volume": "39",
+              "year": "2024"
+            },
+            {
+              "article-title": "Optimizing hydrogen-integrated Micro-CHp systems with demand response for sustainable energy management",
+              "author": "J Yu",
+              "journal-title": "J. Build. Eng",
+              "key": "ref41",
+              "volume": "99",
+              "year": "2025"
+            },
+            {
+              "DOI": "10.1109/TSG.2018.2830775",
+              "article-title": "Modeling carbon emission flow in multipleenergy systems",
+              "author": "Y Cheng",
+              "doi-asserted-by": "crossref",
+              "first-page": "3562",
+              "issue": "4",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "ref42",
+              "volume": "10",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.epsr.2024.110304",
+              "article-title": "Grid-enhancing technologies: progress,challenges, and future research directions",
+              "author": "O Mirzapour",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Elec. Power Syst. Res",
+              "key": "ref43",
+              "volume": "230",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.3390/en18082095",
+              "article-title": "Photovoltaic technology and rural landscapes: a systematic literature review on challenges and sustainable integration",
+              "author": "S Bigiotti",
+              "doi-asserted-by": "crossref",
+              "issue": "8",
+              "journal-title": "Energies",
+              "key": "ref44",
+              "volume": "18",
+              "year": "2025"
+            },
+            {
+              "article-title": "Predicting the effects of solar energy development on plants and wildlife in the Desert Southwest, United States",
+              "author": "Claire C K",
+              "journal-title": "Renewable and Sustainable Energy Reviews",
+              "key": "ref45",
+              "volume": "205",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1080/24694452.2024.2433040",
+              "article-title": "When decarbonization reinforces colonization: complex energy injustice and solar energy development in the california desert",
+              "author": "B K Sovacool",
+              "doi-asserted-by": "crossref",
+              "first-page": "640",
+              "issue": "3",
+              "journal-title": "Annals of the American Association of Geographers",
+              "key": "ref46",
+              "volume": "115",
+              "year": "2025"
+            }
+          ],
+          "reference-count": 46,
+          "references-count": 46,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=5357694"
+            }
+          },
+          "score": 105.84287,
+          "source": "Crossref",
+          "subtype": "preprint",
+          "title": [
+            "Low-Carbon Optimization of Data Center Multi-Energy Systems with Liquid-Based Carbon Capture and Renewable Energy Integration"
+          ],
+          "type": "posted-content"
+        },
+        {
+          "DOI": "10.2172/3015033",
+          "URL": "https://doi.org/10.2172/3015033",
+          "author": [
+            {
+              "affiliation": [],
+              "name": "National Laboratory of the Rockies (NLR), Golden, CO (United States)",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "National Laboratory of the Rockies, Golden, CO (United States)"
+                }
+              ],
+              "family": "Van Geet",
+              "given": "Otto",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "name": "USDOE Office of Federal Energy Management Programs (FEMP)",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                4
+              ]
+            ],
+            "date-time": "2026-03-04T23:08:16Z",
+            "timestamp": 1772665696000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                4
+              ]
+            ],
+            "date-time": "2026-03-04T23:08:16Z",
+            "timestamp": 1772665696000
+          },
+          "funder": [
+            {
+              "award": [
+                "AC36-08GO28308"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "AC36-08GO28308"
+                  ]
+                }
+              ],
+              "name": "USDOE Office of Federal Energy Management Programs (FEMP)"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                4
+              ]
+            ],
+            "date-time": "2026-03-04T23:54:42Z",
+            "timestamp": 1772668482737,
+            "version": "3.50.1"
+          },
+          "institution": [
+            {
+              "acronym": [
+                "NLR"
+              ],
+              "name": "National Laboratory of the Rockies (NLR), Golden, CO (United States)"
+            },
+            {
+              "name": "National Laboratory of the Rockies (NLR), Golden, CO (United States)"
+            },
+            {
+              "name": "USDOE Office of Federal Energy Management Programs (FEMP)"
+            }
+          ],
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                15
+              ]
+            ]
+          },
+          "member": "960",
+          "prefix": "10.2172",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                15
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                15
+              ]
+            ]
+          },
+          "publisher": "Office of Scientific and Technical Information (OSTI)",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.osti.gov/biblio/3015033"
+            }
+          },
+          "score": 102.14424,
+          "source": "Crossref",
+          "title": [
+            "Advanced Data Center Energy Opportunities: Cloud and Infrastructure CoP - Data Center Energy and Efficiency with AI Adoption"
+          ],
+          "type": "report"
+        },
+        {
+          "DOI": "10.33545/27076571.2020.v1.i2b.360",
+          "ISSN": [
+            "2707-6571",
+            "2707-658X"
+          ],
+          "URL": "https://doi.org/10.33545/27076571.2020.v1.i2b.360",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Asogwa",
+              "given": "Joshua",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "container-title": [
+            "International Journal of Computing and Artificial Intelligence"
+          ],
+          "content-domain": {
+            "crossmark-restriction": true,
+            "domain": [
+              "www.computersciencejournals.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T13:36:27Z",
+            "timestamp": 1785418587000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T13:38:00Z",
+            "timestamp": 1785418680000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T14:10:00Z",
+            "timestamp": 1785420600863,
+            "version": "3.56.0"
+          },
+          "is-referenced-by-count": 0,
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "2707-6571"
+            },
+            {
+              "type": "electronic",
+              "value": "2707-658X"
+            }
+          ],
+          "issue": "2",
+          "issued": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                1
+              ]
+            ]
+          },
+          "journal-issue": {
+            "issue": "2",
+            "published-online": {
+              "date-parts": [
+                [
+                  2020,
+                  7,
+                  1
+                ]
+              ]
+            },
+            "published-print": {
+              "date-parts": [
+                [
+                  2020,
+                  7,
+                  1
+                ]
+              ]
+            }
+          },
+          "member": "19162",
+          "page": "79-92",
+          "prefix": "10.33545",
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                1
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                1
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                1
+              ]
+            ]
+          },
+          "publisher": "Comprehensive Publications",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.computersciencejournals.com/ijcai/archives/2020.v1.i2.B.360"
+            }
+          },
+          "score": 99.87511,
+          "short-container-title": [
+            "Int. J. Comput. Artif. Intell."
+          ],
+          "source": "Crossref",
+          "title": [
+            "Integrating qualcomm cloud AI 100 accelerators into 5G telecom data centers for edge AI inference and network optimization"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.33545/akinik.crossmark.policy",
+          "volume": "1"
+        },
+        {
+          "DOI": "10.63163/jpehss.v3i3.619",
+          "ISSN": [
+            "2958-5996",
+            "2958-5988"
+          ],
+          "URL": "https://doi.org/10.63163/jpehss.v3i3.619",
+          "abstract": "<jats:p>The growing reliance on cloud computing has made data centers central to global digital infrastructure, but this growth has also caused a sharp rise in energy demand and carbon emissions [1], [2]. Conventional approaches to scheduling workloads mainly focus on improving efficiency and reducing operational costs, often overlooking the environmental impact of electricity generation [3]. This paper introduces a carbon-aware framework that combines artificial intelligence–based prediction of regional carbon intensity with dynamic workload management across distributed data centers [4], [5]. The framework applies time-series forecasting to anticipate fluctuations in grid emissions and reinforcement learning to optimize workload allocation in real time [6], [7]. By jointly considering service-level agreements (SLAs), cost, and environmental factors, the approach achieves a balanced trade-off between performance and sustainability [8]. Experimental evaluation using real workload traces and carbon intensity data indicates that the proposed system can lower emissions by as much as 40 percent relative to baseline scheduling strategies, with only marginal effects on SLA compliance and cost [9], [10]. The findings suggest that predictive, AI-driven methods can play a significant role in moving large-scale cloud infrastructures toward carbon neutrality [11], [12].</jats:p>",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Imran Siddique",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "container-title": [
+            "Physical Education, Health and Social Sciences"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2025-09-02T06:18:59Z",
+            "timestamp": 1756793939000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2025-09-02T06:19:00Z",
+            "timestamp": 1756793940000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                18
+              ]
+            ],
+            "date-time": "2026-08-18T14:03:14Z",
+            "timestamp": 1787061794506,
+            "version": "build-2736575974"
+          },
+          "is-referenced-by-count": 3,
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "2958-5996"
+            },
+            {
+              "type": "print",
+              "value": "2958-5988"
+            }
+          ],
+          "issue": "3",
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                30
+              ]
+            ]
+          },
+          "journal-issue": {
+            "issue": "3",
+            "published-online": {
+              "date-parts": [
+                [
+                  2025,
+                  7,
+                  2
+                ]
+              ]
+            }
+          },
+          "link": [
+            {
+              "URL": "https://journal-of-social-education.org/index.php/Jorunal/article/download/619/643",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://journal-of-social-education.org/index.php/Jorunal/article/download/619/643",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "52521",
+          "page": "41-55",
+          "prefix": "10.63163",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                30
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                30
+              ]
+            ]
+          },
+          "publisher": "Wisdom Education & Research Hub",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://journal-of-social-education.org/index.php/Jorunal/article/view/619"
+            }
+          },
+          "score": 99.79744,
+          "short-container-title": [
+            "JPEHSS"
+          ],
+          "source": "Crossref",
+          "title": [
+            "Carbon-Aware Cloud Computing: AI-Driven Predictive Modeling and Dynamic Optimization of Data Center Energy Consumption and Emission Reduction Strategies"
+          ],
+          "type": "journal-article",
+          "volume": "3"
+        },
+        {
+          "DOI": "10.1201/9781003336990-1",
+          "ISBN": [
+            "9781003336990"
+          ],
+          "URL": "https://doi.org/10.1201/9781003336990-1",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Oró",
+              "given": "Eduard",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Salom",
+              "given": "Jaume",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Advanced Concepts for Renewable Energy Supply of Data Centres"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                19
+              ]
+            ],
+            "date-time": "2023-07-19T07:37:03Z",
+            "timestamp": 1689752223000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                7,
+                19
+              ]
+            ],
+            "date-time": "2023-07-19T07:37:08Z",
+            "timestamp": 1689752228000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                13
+              ]
+            ],
+            "date-time": "2024-09-13T10:30:43Z",
+            "timestamp": 1726223443308
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "electronic",
+              "value": "9781003336990"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                1
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://creativecommons.org/licenses/by-nc/4.0",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    9,
+                    1
+                  ]
+                ],
+                "date-time": "2022-09-01T00:00:00Z",
+                "timestamp": 1661990400000
+              }
+            }
+          ],
+          "member": "301",
+          "page": "1-26",
+          "prefix": "10.1201",
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                1
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                1
+              ]
+            ]
+          },
+          "publisher": "River Publishers",
+          "publisher-location": "New York",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.taylorfrancis.com/books/9781003336990/chapters/10.1201/9781003336990-1"
+            }
+          },
+          "score": 98.19998,
+          "source": "Crossref",
+          "title": [
+            "Data Centre Overview"
+          ],
+          "type": "book-chapter"
+        },
+        {
+          "DOI": "10.1109/icmcsi67283.2026.11412760",
+          "URL": "https://doi.org/10.1109/icmcsi67283.2026.11412760",
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "Dr.N.G.P Arts and Science College,Department of Mathematics,Coimbatore,India"
+                }
+              ],
+              "family": "S",
+              "given": "Manimekalai",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Dr N G P Arts and Science College,Department of Mathematics,Coimbatore,India"
+                }
+              ],
+              "family": "Geetha",
+              "given": "S.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Dr.N.G.P Arts and Science College,Department of Mathematics,Coimbatore,India"
+                }
+              ],
+              "family": "Rajam",
+              "given": "K.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Dr.N.G.P Arts and Science College,Department of Mathematics,Coimbatore,India"
+                }
+              ],
+              "family": "Sindhu",
+              "given": "R.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Saveetha School of Engineering, Saveetha Institute of Medical and Technical Sciences [SIMATS], Saveetha University,Department of ECE,Chennai,Tamil Nadu,India"
+                }
+              ],
+              "family": "G",
+              "given": "Sajiv",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Sona College of Technology,Department of ECE,Salem,India"
+                }
+              ],
+              "family": "Sabeenian",
+              "given": "R S",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2026 7th International Conference on Mobile Computing and Sustainable Informatics (ICMCSI)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                4
+              ]
+            ],
+            "date-time": "2026-03-04T20:48:26Z",
+            "timestamp": 1772657306000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                5
+              ]
+            ],
+            "date-time": "2026-03-05T07:15:11Z",
+            "timestamp": 1772694911000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  9
+                ]
+              ]
+            },
+            "location": "Goathgaun, Nepal",
+            "name": "2026 7th International Conference on Mobile Computing and Sustainable Informatics (ICMCSI)",
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  7
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                5
+              ]
+            ],
+            "date-time": "2026-03-05T08:07:58Z",
+            "timestamp": 1772698078186,
+            "version": "3.50.1"
+          },
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                7
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    7
+                  ]
+                ],
+                "date-time": "2026-01-07T00:00:00Z",
+                "timestamp": 1767744000000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    7
+                  ]
+                ],
+                "date-time": "2026-01-07T00:00:00Z",
+                "timestamp": 1767744000000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx8/11412393/11412396/11412760.pdf?arnumber=11412760",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "1313-1318",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                7
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                7
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "DOI": "10.3390/iot3040022",
+              "doi-asserted-by": "publisher",
+              "key": "ref1"
+            },
+            {
+              "DOI": "10.1038/s41598-024-57641-7",
+              "doi-asserted-by": "publisher",
+              "key": "ref2"
+            },
+            {
+              "DOI": "10.1109/TSG.2022.3148978",
+              "doi-asserted-by": "publisher",
+              "key": "ref3"
+            },
+            {
+              "DOI": "10.1109/TVT.2022.3197627",
+              "doi-asserted-by": "publisher",
+              "key": "ref4"
+            },
+            {
+              "DOI": "10.3390/s23177595",
+              "doi-asserted-by": "publisher",
+              "key": "ref5"
+            },
+            {
+              "DOI": "10.1145/3583740.3626616",
+              "doi-asserted-by": "publisher",
+              "key": "ref6"
+            },
+            {
+              "DOI": "10.1186/s13677-021-00256-4",
+              "doi-asserted-by": "publisher",
+              "key": "ref7"
+            },
+            {
+              "DOI": "10.1007/s12652-021-03388-2",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "DOI": "10.1109/JIOT.2021.3064225",
+              "doi-asserted-by": "publisher",
+              "key": "ref9"
+            },
+            {
+              "DOI": "10.1016/j.comnet.2021.108177",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "author": "Anand",
+              "key": "ref11",
+              "volume-title": "Temperature Readings: IOT Devices.",
+              "year": "2019"
+            },
+            {
+              "author": "Khan",
+              "key": "ref12",
+              "volume-title": "Cloud Computing Performance Metrics.",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1109/jiot.2024.3390168",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "author": "Yang",
+              "key": "ref14",
+              "volume-title": "LTransformer: A Transformer-Based Framework for Task Offloading in Vehicular Edge Computing",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1049/stg2.12181",
+              "doi-asserted-by": "publisher",
+              "key": "ref15"
+            },
+            {
+              "DOI": "10.1109/MCOM.001.2300583",
+              "doi-asserted-by": "publisher",
+              "key": "ref16"
+            },
+            {
+              "DOI": "10.1109/TSUSC.2022.3208781",
+              "doi-asserted-by": "publisher",
+              "key": "ref17"
+            }
+          ],
+          "reference-count": 17,
+          "references-count": 17,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/11412760/"
+            }
+          },
+          "score": 98.19308,
+          "source": "Crossref",
+          "title": [
+            "Smart Thermal-Aware Task Offloading Model for Energy Optimization in Distributed Edge-Cloud Data Centre Networks"
+          ],
+          "type": "proceedings-article"
+        }
+      ],
+      "items-per-page": 10,
+      "query": {
+        "search-terms": null,
+        "start-index": 0
+      },
+      "total-results": 8320
+    },
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "status": "ok"
+  },
+  "retrieved_at_utc": "2026-08-31T14:30:28Z",
+  "retry_count": 0
+}

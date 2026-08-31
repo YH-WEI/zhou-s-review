@@ -1,0 +1,4675 @@
+{
+  "http_status": 200,
+  "request_url_redacted": "https://api.crossref.org/works?query.bibliographic=%28%22base+station%22+OR+%22radio+access+network%22+OR+RAN+OR+%22telecom+tower%22+OR+%22cellular+network%22+OR+5G+OR+%225G-Advanced%22+OR+B5G+OR+%22IMT-2030%22+OR+6G%29+AND+%28%22electric+vehicle%22+OR+%22EV+fleet%22+OR+%22smart+charging%22+OR+V1G+OR+%22vehicle-to-grid%22+OR+V2G+OR+%22vehicle-to-building%22+OR+V2B+OR+%22vehicle-to-home%22+OR+V2H%29+AND+%28%22local+energy+sharing%22+OR+%22distribution+grid%22+OR+%22voltage+support%22+OR+%22congestion+management%22+OR+microgrid+OR+%22virtual+power+plant%22+OR+VPP%29+AND+%28coordination+OR+%22coordinated+control%22+OR+%22co-optimization%22+OR+aggregation+OR+%22multi-asset%22+OR+%22integrated+energy+management%22+OR+%22distributed+control%22+OR+%22model+predictive+control%22+OR+MPC+OR+%22measurement+and+verification%22%29&filter=from-pub-date%3A2015-01-01%2Cuntil-pub-date%3A2026-08-31&rows=10&sort=relevance&order=desc",
+  "response": {
+    "message": {
+      "facets": {},
+      "items": [
+        {
+          "DOI": "10.3390/wevj17050252",
+          "ISSN": [
+            "2032-6653"
+          ],
+          "URL": "https://doi.org/10.3390/wevj17050252",
+          "abstract": "<jats:p>The proliferation of vehicle-to-grid (V2G) charging stations in distribution networks introduces both voltage regulation challenges and untapped reactive power resources. This paper proposes a reactive–active power coordination control strategy for grid-forming (GFM) V2G charging stations to achieve voltage regulation in radial distribution networks. First, a voltage–reactive power sensitivity matrix is analytically derived from the linearized DistFlow equations, quantifying the voltage influence of each V2G station. The sensitivity matrix is computed from the network topology and line parameters, and its accuracy under varying operating conditions is validated against nonlinear power flow solutions. Second, a dynamic residual reactive capacity model exploits the inverter apparent power margin without curtailing active power, and a sensitivity-weighted proportional allocation distributes the reactive power references among stations. Third, a two-timescale hierarchical control architecture is designed: the upper layer solves a quadratic programming problem every 60 s to determine optimal set-points, while the lower layer employs GFM droop control with a 1 ms response to track references and provide inertia support. Simulation results on a modified IEEE 33-bus system demonstrate that the proposed method reduces the maximum voltage deviation by 62% compared with active-power-only control, while maintaining a frequency nadir of 49.73 Hz, confirming negligible frequency performance degradation. Extended simulations covering a 24 h period with stochastic EV arrival and departure patterns as well as varying load conditions further confirm the robustness of the proposed strategy.</jats:p>",
+          "alternative-id": [
+            "wevj17050252"
+          ],
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "State Key Laboratory of Maritime Technology and Safety, Wuhan University of Technology, Wuhan 430063, China"
+                }
+              ],
+              "family": "Xiao",
+              "given": "Fan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Electric Power Research Institute, State Grid Hubei Electric Power Co., Ltd., Wuhan 430074, China"
+                }
+              ],
+              "family": "Li",
+              "given": "Hengxuan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Electric Power Research Institute, State Grid Hubei Electric Power Co., Ltd., Wuhan 430074, China"
+                }
+              ],
+              "family": "Zhang",
+              "given": "Kanjun",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "World Electric Vehicle Journal"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                7
+              ]
+            ],
+            "date-time": "2026-05-07T14:05:46Z",
+            "timestamp": 1778162746000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                7
+              ]
+            ],
+            "date-time": "2026-05-07T15:04:13Z",
+            "timestamp": 1778166253000
+          },
+          "funder": [
+            {
+              "award": [
+                "04972024KFYd0037"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "04972024KFYd0037"
+                  ]
+                }
+              ],
+              "name": "State Key Laboratory of Maritime Technology and Safety"
+            },
+            {
+              "award": [
+                "04972024KFYd0037"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "04972024KFYd0037"
+                  ]
+                }
+              ],
+              "id": [
+                {
+                  "asserted-by": "publisher",
+                  "id": "https://ror.org/04q78at80",
+                  "id-type": "ROR"
+                }
+              ]
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T09:02:21Z",
+            "timestamp": 1785402141577,
+            "version": "3.56.0"
+          },
+          "is-referenced-by-count": 0,
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "2032-6653"
+            }
+          ],
+          "issue": "5",
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                7
+              ]
+            ]
+          },
+          "journal-issue": {
+            "issue": "5",
+            "published-online": {
+              "date-parts": [
+                [
+                  2026,
+                  5
+                ]
+              ]
+            }
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://creativecommons.org/licenses/by/4.0/",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    5,
+                    7
+                  ]
+                ],
+                "date-time": "2026-05-07T00:00:00Z",
+                "timestamp": 1778112000000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://www.mdpi.com/2032-6653/17/5/252/pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "1968",
+          "page": "252",
+          "prefix": "10.3390",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                7
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                7
+              ]
+            ]
+          },
+          "publisher": "MDPI AG",
+          "reference": [
+            {
+              "DOI": "10.1016/j.jpowsour.2004.12.025",
+              "article-title": "Vehicle-to-Grid Power Fundamentals: Calculating Capacity and Net Revenue",
+              "author": "Kempton",
+              "doi-asserted-by": "crossref",
+              "first-page": "268",
+              "journal-title": "J. Power Sources",
+              "key": "ref_1",
+              "volume": "144",
+              "year": "2005"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2013.2252029",
+              "article-title": "Decentralized Vehicle-to-Grid Control for Primary Frequency Regulation Considering Charging Demands",
+              "author": "Liu",
+              "doi-asserted-by": "crossref",
+              "first-page": "3480",
+              "journal-title": "IEEE Trans. Power Syst.",
+              "key": "ref_2",
+              "volume": "28",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2015.2496551",
+              "article-title": "Optimal Participation of an Electric Vehicle Aggregator in Day-Ahead Energy and Reserve Markets",
+              "author": "Sarker",
+              "doi-asserted-by": "crossref",
+              "first-page": "3506",
+              "journal-title": "IEEE Trans. Power Syst.",
+              "key": "ref_3",
+              "volume": "31",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/TSG.2018.2879572",
+              "article-title": "Model-Free Real-Time EV Charging Scheduling Based on Deep Reinforcement Learning",
+              "author": "Wan",
+              "doi-asserted-by": "crossref",
+              "first-page": "5246",
+              "journal-title": "IEEE Trans. Smart Grid",
+              "key": "ref_4",
+              "volume": "10",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2009.2036481",
+              "article-title": "The Impact of Charging Plug-In Hybrid Electric Vehicles on a Residential Distribution Grid",
+              "author": "Haesen",
+              "doi-asserted-by": "crossref",
+              "first-page": "371",
+              "journal-title": "IEEE Trans. Power Syst.",
+              "key": "ref_5",
+              "volume": "25",
+              "year": "2010"
+            },
+            {
+              "DOI": "10.1109/JPROC.2010.2066250",
+              "article-title": "Integration of Electric Vehicles in the Electric Power System",
+              "author": "Lopes",
+              "doi-asserted-by": "crossref",
+              "first-page": "168",
+              "journal-title": "Proc. IEEE",
+              "key": "ref_6",
+              "volume": "99",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2006.889140",
+              "article-title": "A Multiagent-Based Dispatching Scheme for Distributed Generators for Voltage Support on Distribution Feeders",
+              "author": "Baran",
+              "doi-asserted-by": "crossref",
+              "first-page": "52",
+              "journal-title": "IEEE Trans. Power Syst.",
+              "key": "ref_7",
+              "volume": "22",
+              "year": "2007"
+            },
+            {
+              "DOI": "10.1109/TSTE.2013.2292828",
+              "article-title": "Optimal Dispatch of Photovoltaic Inverters in Residential Distribution Systems",
+              "author": "Dhople",
+              "doi-asserted-by": "crossref",
+              "first-page": "487",
+              "journal-title": "IEEE Trans. Sustain. Energy",
+              "key": "ref_8",
+              "volume": "5",
+              "year": "2014"
+            },
+            {
+              "key": "ref_9",
+              "unstructured": "(2018). IEEE Standard for Interconnection and Interoperability of Distributed Energy Resources with Associated Electric Power Systems Interfaces (Standard No. IEEE Std 1547-2018)."
+            },
+            {
+              "DOI": "10.1109/TPWRS.2013.2256375",
+              "article-title": "Distributed Volt/VAr Control by PV Inverters",
+              "author": "Jahangiri",
+              "doi-asserted-by": "crossref",
+              "first-page": "3429",
+              "journal-title": "IEEE Trans. Power Syst.",
+              "key": "ref_10",
+              "volume": "28",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2015.2451519",
+              "article-title": "Optimal Reactive Power Dispatch for Voltage Regulation in Unbalanced Distribution Systems",
+              "author": "Robbins",
+              "doi-asserted-by": "crossref",
+              "first-page": "2903",
+              "journal-title": "IEEE Trans. Power Syst.",
+              "key": "ref_11",
+              "volume": "31",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/TSG.2018.2812712",
+              "article-title": "Harmonic Stability in Power Electronic-Based Power Systems: Concept, Modeling, and Analysis",
+              "author": "Wang",
+              "doi-asserted-by": "crossref",
+              "first-page": "2858",
+              "journal-title": "IEEE Trans. Smart Grid",
+              "key": "ref_12",
+              "volume": "10",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/TIE.2010.2048839",
+              "article-title": "Synchronverters: Inverters That Mimic Synchronous Generators",
+              "author": "Zhong",
+              "doi-asserted-by": "crossref",
+              "first-page": "1259",
+              "journal-title": "IEEE Trans. Ind. Electron.",
+              "key": "ref_13",
+              "volume": "58",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1109/TPEL.2015.2465852",
+              "article-title": "Comparison of Dynamic Characteristics between Virtual Synchronous Generator and Droop Control in Inverter-Based Distributed Generators",
+              "author": "Liu",
+              "doi-asserted-by": "crossref",
+              "first-page": "3600",
+              "journal-title": "IEEE Trans. Power Electron.",
+              "key": "ref_14",
+              "volume": "31",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/TPEL.2012.2199334",
+              "article-title": "Control of Power Converters in AC Microgrids",
+              "author": "Rocabert",
+              "doi-asserted-by": "crossref",
+              "first-page": "4734",
+              "journal-title": "IEEE Trans. Power Electron.",
+              "key": "ref_15",
+              "volume": "27",
+              "year": "2012"
+            },
+            {
+              "article-title": "Grid-Forming Control for Electric Vehicle Charging Stations in Weak Grids",
+              "author": "Li",
+              "first-page": "345",
+              "journal-title": "World Electr. Veh. J.",
+              "key": "ref_16",
+              "volume": "15",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1109/TPWRD.2016.2566264",
+              "article-title": "A Comprehensive Digital Protection Scheme for Low-Voltage Microgrids with Inverter-Based and Conventional Distributed Generations",
+              "author": "Zarei",
+              "doi-asserted-by": "crossref",
+              "first-page": "441",
+              "journal-title": "IEEE Trans. Power Deliv.",
+              "key": "ref_17",
+              "volume": "32",
+              "year": "2017"
+            },
+            {
+              "article-title": "Virtual Synchronous Machine-Based Grid-Forming Control for Vehicle-to-Grid (V2G) Systems",
+              "author": "Chen",
+              "first-page": "128",
+              "journal-title": "World Electr. Veh. J.",
+              "key": "ref_18",
+              "volume": "16",
+              "year": "2025"
+            },
+            {
+              "DOI": "10.1007/978-3-030-34021-6",
+              "doi-asserted-by": "crossref",
+              "key": "ref_19",
+              "unstructured": "Rekioua, D. (2020). Hybrid Renewable Energy Systems: Optimization and Power Management Control, Springer."
+            },
+            {
+              "article-title": "Decentralized Grid-Forming Coordination for Electric Vehicle Aggregators in Islanded Microgrids",
+              "author": "Zhao",
+              "first-page": "297",
+              "journal-title": "World Electr. Veh. J.",
+              "key": "ref_20",
+              "volume": "16",
+              "year": "2025"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2008.919203",
+              "article-title": "Distributed Reactive Power Generation Control for Voltage Rise Mitigation in Distribution Networks",
+              "author": "Carvalho",
+              "doi-asserted-by": "crossref",
+              "first-page": "766",
+              "journal-title": "IEEE Trans. Power Syst.",
+              "key": "ref_21",
+              "volume": "23",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2013.2279721",
+              "article-title": "Distribution Voltage Control Considering the Impact of PV Generation on Tap Changers and Autonomous Regulators",
+              "author": "Agalgaonkar",
+              "doi-asserted-by": "crossref",
+              "first-page": "182",
+              "journal-title": "IEEE Trans. Power Syst.",
+              "key": "ref_22",
+              "volume": "29",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2019.2931685",
+              "article-title": "Optimal Distributed Feedback Voltage Control under Limited Reactive Power",
+              "author": "Qu",
+              "doi-asserted-by": "crossref",
+              "first-page": "315",
+              "journal-title": "IEEE Trans. Power Syst.",
+              "key": "ref_23",
+              "volume": "35",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2015.2504419",
+              "article-title": "Fast Local Voltage Control under Limited Reactive Power: Optimality and Stability Analysis",
+              "author": "Zhu",
+              "doi-asserted-by": "crossref",
+              "first-page": "3794",
+              "journal-title": "IEEE Trans. Power Syst.",
+              "key": "ref_24",
+              "volume": "31",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/TPWRD.2014.2298614",
+              "article-title": "Coordinated Active Power-Dependent Voltage Regulation in Distribution Grids with PV Systems",
+              "author": "Samadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "1454",
+              "journal-title": "IEEE Trans. Power Deliv.",
+              "key": "ref_25",
+              "volume": "29",
+              "year": "2014"
+            },
+            {
+              "article-title": "Reactive Power Support in Residential LV Distribution Grids through Electric Vehicle Charging",
+              "author": "Leemput",
+              "first-page": "1015",
+              "journal-title": "IEEE Trans. Sustain. Energy",
+              "key": "ref_26",
+              "volume": "6",
+              "year": "2015"
+            },
+            {
+              "article-title": "V2G-Enabled Bidirectional Power Flow for EV Aggregators in Distribution Networks: A Model Predictive Control Approach",
+              "author": "Xia",
+              "first-page": "3662",
+              "journal-title": "IEEE Trans. Smart Grid",
+              "key": "ref_27",
+              "volume": "14",
+              "year": "2023"
+            },
+            {
+              "article-title": "Adaptive Voltage Regulation with Distributed Energy Resources: A Pursuit of Coordinated Optimization and Fast Response",
+              "author": "Tang",
+              "first-page": "3070",
+              "journal-title": "IEEE Trans. Smart Grid",
+              "key": "ref_28",
+              "volume": "14",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1109/61.25627",
+              "article-title": "Network Reconfiguration in Distribution Systems for Loss Reduction and Load Balancing",
+              "author": "Baran",
+              "doi-asserted-by": "crossref",
+              "first-page": "1401",
+              "journal-title": "IEEE Trans. Power Deliv.",
+              "key": "ref_29",
+              "volume": "4",
+              "year": "1989"
+            },
+            {
+              "key": "ref_30",
+              "unstructured": "(2020). American National Standard for Electric Power Systems and Equipment—Voltage Ratings (60 Hertz) (Standard No. ANSI C84.1-2020)."
+            },
+            {
+              "key": "ref_31",
+              "unstructured": "(2010). Voltage Characteristics of Electricity Supplied by Public Electricity Networks (Standard No. EN 50160:2010)."
+            },
+            {
+              "DOI": "10.1109/61.19265",
+              "article-title": "Optimal Capacitor Placement on Radial Distribution Systems",
+              "author": "Baran",
+              "doi-asserted-by": "crossref",
+              "first-page": "725",
+              "journal-title": "IEEE Trans. Power Deliv.",
+              "key": "ref_32",
+              "volume": "4",
+              "year": "1989"
+            },
+            {
+              "article-title": "Unified Virtual Oscillator Control for Grid-Forming and Grid-Following Inverters",
+              "author": "Awal",
+              "first-page": "7254",
+              "journal-title": "IEEE Trans. Power Electron.",
+              "key": "ref_33",
+              "volume": "36",
+              "year": "2021"
+            }
+          ],
+          "reference-count": 33,
+          "references-count": 33,
+          "resource": {
+            "primary": {
+              "URL": "https://www.mdpi.com/2032-6653/17/5/252"
+            }
+          },
+          "score": 109.63254,
+          "short-container-title": [
+            "WEVJ"
+          ],
+          "source": "Crossref",
+          "title": [
+            "Reactive–Active Power Coordination Control of Grid-Forming V2G Charging Stations for Distribution Network Voltage Regulation"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+          "volume": "17"
+        },
+        {
+          "DOI": "10.1007/978-981-10-4250-8_6",
+          "ISBN": [
+            "9789811042492",
+            "9789811042508"
+          ],
+          "URL": "https://doi.org/10.1007/978-981-10-4250-8_6",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Wang",
+              "given": "Ran",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Wang",
+              "given": "Ping",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Xiao",
+              "given": "Gaoxi",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Intelligent Microgrid Management and EV Control Under Uncertainties in Smart Grid"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": [
+              "link.springer.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                11,
+                20
+              ]
+            ],
+            "date-time": "2017-11-20T19:54:25Z",
+            "timestamp": 1511207665000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                27
+              ]
+            ],
+            "date-time": "2025-06-27T05:12:18Z",
+            "timestamp": 1751001138000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                6,
+                27
+              ]
+            ],
+            "date-time": "2025-06-27T05:40:06Z",
+            "timestamp": 1751002806003,
+            "version": "3.41.0"
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9789811042492"
+            },
+            {
+              "type": "electronic",
+              "value": "9789811042508"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2017,
+                11,
+                21
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://www.springer.com/tdm",
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2017,
+                    11,
+                    21
+                  ]
+                ],
+                "date-time": "2017-11-21T00:00:00Z",
+                "timestamp": 1511222400000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://link.springer.com/content/pdf/10.1007/978-981-10-4250-8_6",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "297",
+          "page": "83-102",
+          "prefix": "10.1007",
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                11,
+                21
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2017,
+                11,
+                21
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2018
+              ]
+            ]
+          },
+          "publisher": "Springer Singapore",
+          "publisher-location": "Singapore",
+          "reference": [
+            {
+              "DOI": "10.1016/j.rser.2012.11.042",
+              "author": "DB Richardson",
+              "doi-asserted-by": "crossref",
+              "first-page": "247",
+              "journal-title": "Renew. Sustain. Energy Rev.",
+              "key": "6_CR1",
+              "unstructured": "D.B. Richardson, Electric vehicles and the electric grid: a review of modeling approaches, impacts, and renewable energy integration. Renew. Sustain. Energy Rev. 19, 247–254 (2013)",
+              "volume": "19",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1016/j.rser.2014.03.031",
+              "author": "F Mwasilu",
+              "doi-asserted-by": "crossref",
+              "first-page": "501",
+              "journal-title": "Renew. Sustain. Energy Rev.",
+              "key": "6_CR2",
+              "unstructured": "F. Mwasilu, J.J. Justo, E.-K. Kim, T.D. Do, J.-W. Jung, Electric vehicles and smart grid interaction: a review on vehicle to grid and renewable energy sources integration. Renew. Sustain. Energy Rev. 34, 501–516 (2014)",
+              "volume": "34",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1002/9781118673409",
+              "author": "C Harris",
+              "doi-asserted-by": "crossref",
+              "key": "6_CR3",
+              "unstructured": "C. Harris, Electricity Markets: Pricing, Structures and Economics (Wiley, New York, 2006)",
+              "volume-title": "Electricity Markets: Pricing, Structures and Economics",
+              "year": "2006"
+            },
+            {
+              "DOI": "10.1109/TSG.2010.2089069",
+              "author": "A Mohsenian-Rad",
+              "doi-asserted-by": "crossref",
+              "first-page": "320",
+              "issue": "3",
+              "journal-title": "IEEE Trans. Smart Grid",
+              "key": "6_CR4",
+              "unstructured": "A. Mohsenian-Rad, V. Wong, J. Jatskevich, R. Schober, A. Leon-Garcia, Autonomous demand-side management based on game-theoretic energy consumption scheduling for the future smart grid. IEEE Trans. Smart Grid 1(3), 320–331 (2010)",
+              "volume": "1",
+              "year": "2010"
+            },
+            {
+              "DOI": "10.1109/TSG.2012.2203341",
+              "author": "P Samadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "1170",
+              "issue": "3",
+              "journal-title": "IEEE Trans. Smart Grid",
+              "key": "6_CR5",
+              "unstructured": "P. Samadi, H. Mohsenian-Rad, R. Schober, V. Wong, Advanced demand side management for the future smart grid using mechanism design. IEEE Trans. Smart Grid 3(3), 1170–1180 (2012)",
+              "volume": "3",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1109/JSAC.2012.120706",
+              "author": "C Joe-Wong",
+              "doi-asserted-by": "crossref",
+              "first-page": "1075",
+              "issue": "6",
+              "journal-title": "IEEE J. Sel. Areas Commun.",
+              "key": "6_CR6",
+              "unstructured": "C. Joe-Wong, S. Sen, S. Ha, M. Chiang, Optimized day-ahead pricing for smart grids with device-specific scheduling flexibility. IEEE J. Sel. Areas Commun. 30(6), 1075–1085 (2012)",
+              "volume": "30",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1109/JSAC.2012.120704",
+              "author": "I Koutsopoulos",
+              "doi-asserted-by": "crossref",
+              "first-page": "1049",
+              "issue": "6",
+              "journal-title": "IEEE J. Sel. Areas Commun.",
+              "key": "6_CR7",
+              "unstructured": "I. Koutsopoulos, L. Tassiulas, Optimal control policies for power demand scheduling in the smart grid. IEEE J. Sel. Areas Commun. 30(6), 1049–1060 (2012)",
+              "volume": "30",
+              "year": "2012"
+            },
+            {
+              "key": "6_CR8",
+              "unstructured": "Renewable power generation costs in 2012: an overview (2012)"
+            },
+            {
+              "key": "6_CR9",
+              "unstructured": "Handbook for solar photovoltaic (pv) systems (2011)"
+            },
+            {
+              "DOI": "10.1109/TPDS.2012.25",
+              "author": "Y Guo",
+              "doi-asserted-by": "crossref",
+              "first-page": "1593",
+              "issue": "9",
+              "journal-title": "IEEE Trans. Parallel Distrib. Syst.",
+              "key": "6_CR10",
+              "unstructured": "Y. Guo, M. Pan, Y. Fang, Optimal power management of residential customers in the smart grid. IEEE Trans. Parallel Distrib. Syst. 23(9), 1593–1606 (2012)",
+              "volume": "23",
+              "year": "2012"
+            },
+            {
+              "key": "6_CR11",
+              "unstructured": "B. Kirby, Ancillary services: Technical and commercial insights. Retrieved October, vol. 4, p. 2012 (2007)"
+            },
+            {
+              "key": "6_CR12",
+              "unstructured": "Nrel: National renewable energy laboratory (2013)"
+            },
+            {
+              "DOI": "10.1109/PESMG.2013.6672568",
+              "doi-asserted-by": "crossref",
+              "key": "6_CR13",
+              "unstructured": "C. Jin, X. Sheng, P. Ghosh, Energy efficient algorithms for electric vehicle charging with intermittent renewable energy sources. In IEEE Power and Energy Soc. General Meeting, pp. 1–5, IEEE (2013)"
+            },
+            {
+              "DOI": "10.1109/TSTE.2013.2278544",
+              "author": "A Mohamed",
+              "doi-asserted-by": "crossref",
+              "first-page": "577",
+              "issue": "2",
+              "journal-title": "IEEE Trans. Sustain. Energy",
+              "key": "6_CR14",
+              "unstructured": "A. Mohamed, V. Salehi, T. Ma, O. Mohammed, Real-time energy management algorithm for plug-in hybrid electric vehicle charging parks involving sustainable energy. IEEE Trans. Sustain. Energy 5(2), 577–586 (2014)",
+              "volume": "5",
+              "year": "2014"
+            },
+            {
+              "key": "6_CR15",
+              "unstructured": "Chademo: Dc fast charging"
+            },
+            {
+              "DOI": "10.1109/SmartGridComm.2013.6687953",
+              "doi-asserted-by": "crossref",
+              "key": "6_CR16",
+              "unstructured": "W. Tang, S. Bi, Y.J. Zhang, Online speeding optimal charging algorithm for electric vehicles without future information. In IEEE International Conference on Smart Grid Communications, pp. 175–180, IEEE (2013)"
+            },
+            {
+              "DOI": "10.1109/CDC.2010.5717547",
+              "doi-asserted-by": "crossref",
+              "key": "6_CR17",
+              "unstructured": "Z. Ma, D. Callaway, I. Hiskens, Decentralized charging control for large populations of plug-in electric vehicles. In IEEE Annual Conference on Decision and Control, pp. 206–212, IEEE (2010)"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2012.2210288",
+              "author": "L Gan",
+              "doi-asserted-by": "crossref",
+              "first-page": "940",
+              "issue": "2",
+              "journal-title": "IEEE Trans. Power Syst.",
+              "key": "6_CR18",
+              "unstructured": "L. Gan, U. Topcu, S. Low, Optimal decentralized protocol for electric vehicle charging. IEEE Trans. Power Syst. 28(2), 940–951 (2013)",
+              "volume": "28",
+              "year": "2013"
+            }
+          ],
+          "reference-count": 18,
+          "references-count": 18,
+          "resource": {
+            "primary": {
+              "URL": "http://link.springer.com/10.1007/978-981-10-4250-8_6"
+            }
+          },
+          "score": 108.35025,
+          "source": "Crossref",
+          "title": [
+            "Massive Electric Vehicle Charging Involving Renewable Energy"
+          ],
+          "type": "book-chapter",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy"
+        },
+        {
+          "DOI": "10.1016/j.enconman.2016.12.045",
+          "ISSN": [
+            "0196-8904"
+          ],
+          "URL": "https://doi.org/10.1016/j.enconman.2016.12.045",
+          "alternative-id": [
+            "S0196890416311402"
+          ],
+          "assertion": [
+            {
+              "label": "This article is maintained by",
+              "name": "publisher",
+              "value": "Elsevier"
+            },
+            {
+              "label": "Article Title",
+              "name": "articletitle",
+              "value": "Novel wind powered electric vehicle charging station with vehicle-to-grid (V2G) connection capability"
+            },
+            {
+              "label": "Journal Title",
+              "name": "journaltitle",
+              "value": "Energy Conversion and Management"
+            },
+            {
+              "label": "CrossRef DOI link to publisher maintained version",
+              "name": "articlelink",
+              "value": "https://doi.org/10.1016/j.enconman.2016.12.045"
+            },
+            {
+              "label": "Content Type",
+              "name": "content_type",
+              "value": "article"
+            },
+            {
+              "label": "Copyright",
+              "name": "copyright",
+              "value": "© 2016 Elsevier Ltd. All rights reserved."
+            }
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Fathabadi",
+              "given": "Hassan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "container-title": [
+            "Energy Conversion and Management"
+          ],
+          "content-domain": {
+            "crossmark-restriction": true,
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                1,
+                17
+              ]
+            ],
+            "date-time": "2017-01-17T17:20:31Z",
+            "timestamp": 1484673631000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2018,
+                9,
+                4
+              ]
+            ],
+            "date-time": "2018-09-04T21:54:31Z",
+            "timestamp": 1536098071000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                17
+              ]
+            ],
+            "date-time": "2026-08-17T17:38:28Z",
+            "timestamp": 1786988308643,
+            "version": "build-2736575974"
+          },
+          "is-referenced-by-count": 103,
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "0196-8904"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2017,
+                3
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2017,
+                    3,
+                    1
+                  ]
+                ],
+                "date-time": "2017-03-01T00:00:00Z",
+                "timestamp": 1488326400000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0196890416311402?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0196890416311402?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "member": "78",
+          "page": "229-239",
+          "prefix": "10.1016",
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                3
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2017,
+                3
+              ]
+            ]
+          },
+          "publisher": "Elsevier BV",
+          "reference": [
+            {
+              "DOI": "10.1016/j.solener.2016.11.037",
+              "article-title": "Novel solar powered electric vehicle charging station with the capability of vehicle-to-grid",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "136",
+              "journal-title": "Solar Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0005",
+              "volume": "142",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2015.04.024",
+              "article-title": "Increasing energy efficiency of PV-converter-battery section of standalone building integrated photovoltaic systems",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "journal-title": "Energy Build",
+              "key": "10.1016/j.enconman.2016.12.045_b0010",
+              "volume": "101",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/TPEL.2015.2420568",
+              "article-title": "A single-sensor-based MPPT controller for wind-driven induction generators supplying DC microgrid",
+              "author": "Nayanar",
+              "doi-asserted-by": "crossref",
+              "first-page": "1161",
+              "issue": "2",
+              "journal-title": "IEEE Trans Power Electron",
+              "key": "10.1016/j.enconman.2016.12.045_b0015",
+              "volume": "31",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2015.01.041",
+              "article-title": "Harmonic elimination of quasi-sine rotor injected DFIG-based wind power generation systems connected to electric power networks",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "399",
+              "journal-title": "Int J Electr Power Energy Syst",
+              "key": "10.1016/j.enconman.2016.12.045_b0020",
+              "volume": "69",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.enconman.2014.03.078",
+              "article-title": "Control of a DFIG-based wind energy conversion system operating under harmonically distorted unbalanced grid voltage along with nonsinusoidal rotor injection conditions",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "60",
+              "journal-title": "Energy Convers Manage",
+              "key": "10.1016/j.enconman.2016.12.045_b0025",
+              "volume": "84",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1016/j.renene.2015.08.023",
+              "article-title": "Research on power coefficient of wind turbines based on SCADA data",
+              "author": "Dai",
+              "doi-asserted-by": "crossref",
+              "first-page": "206",
+              "journal-title": "Renew Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0030",
+              "volume": "86",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.energy.2016.07.081",
+              "article-title": "Maximum mechanical power extraction from wind turbines using novel proposed high accuracy single-sensor-based maximum power point tracking technique",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "1219",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0035",
+              "volume": "113",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.rser.2015.11.013",
+              "article-title": "A review of conventional and advanced MPPT algorithms for wind energy systems",
+              "author": "Kumar",
+              "doi-asserted-by": "crossref",
+              "first-page": "957",
+              "journal-title": "Renew Sustain Energy Rev",
+              "key": "10.1016/j.enconman.2016.12.045_b0040",
+              "volume": "55",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.renene.2015.09.010",
+              "article-title": "Development details and performance assessment of a wind turbine emulator",
+              "author": "Castelló",
+              "doi-asserted-by": "crossref",
+              "first-page": "848",
+              "journal-title": "Renew Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0045",
+              "volume": "86",
+              "year": "2016"
+            },
+            {
+              "article-title": "An improved MPPT algorithm for wind energy conversion system",
+              "author": "Lalouni",
+              "first-page": "484",
+              "issue": "4",
+              "journal-title": "J Electr Syst",
+              "key": "10.1016/j.enconman.2016.12.045_b0050",
+              "volume": "10",
+              "year": "2014"
+            },
+            {
+              "article-title": "Application of variable-step hill climbing searching in maximum power point tracking for DFIG wind power generation system",
+              "author": "Zhong",
+              "first-page": "67",
+              "issue": "9",
+              "journal-title": "Dianli Xitong Baohu yu Kongzhi/Power Syst Prot Contr",
+              "key": "10.1016/j.enconman.2016.12.045_b0055",
+              "volume": "41",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1016/j.rser.2012.02.016",
+              "article-title": "A review of maximum power point tracking algorithms for wind energy systems",
+              "author": "Abdullah",
+              "doi-asserted-by": "crossref",
+              "first-page": "3220",
+              "journal-title": "Renew Sustain Energy Rev",
+              "key": "10.1016/j.enconman.2016.12.045_b0060",
+              "volume": "16",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2014.2360434",
+              "article-title": "A multivariable optimal energy management strategy for standalone DC microgrids",
+              "author": "Dizqah",
+              "doi-asserted-by": "crossref",
+              "first-page": "2278",
+              "issue": "5",
+              "journal-title": "IEEE Trans Power Syst",
+              "key": "10.1016/j.enconman.2016.12.045_b0065",
+              "volume": "30",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.renene.2014.10.002",
+              "article-title": "Implementation of a torque and a collective pitch controller in a wind turbine simulator to characterize the dynamics at three control regions",
+              "author": "Oh",
+              "doi-asserted-by": "crossref",
+              "first-page": "150",
+              "journal-title": "Renew Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0070",
+              "volume": "79",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/TIA.2014.2313650",
+              "article-title": "Small wind turbine sensorless MPPT: robustness analysis and lossless approach",
+              "author": "Urtasun",
+              "doi-asserted-by": "crossref",
+              "first-page": "4113",
+              "issue": "6",
+              "journal-title": "IEEE Trans Ind Appl",
+              "key": "10.1016/j.enconman.2016.12.045_b0075",
+              "volume": "50",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1016/j.energy.2015.10.133",
+              "article-title": "Novel fast dynamic MPPT (maximum power point tracking) technique with the capability of very high accurate power tracking",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "466",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0080",
+              "volume": "94",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.enconman.2015.12.025",
+              "article-title": "Novel photovoltaic based battery charger including novel high efficiency step-up DC/DC converter and novel high accurate fast maximum power point tracking controller",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "200",
+              "journal-title": "Energy Convers Manage",
+              "key": "10.1016/j.enconman.2016.12.045_b0085",
+              "volume": "110",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/TIE.2010.2044732",
+              "article-title": "A novel algorithm for fast and efficient speed-sensorless maximum power point tracking in wind energy conversion systems",
+              "author": "Kazmi",
+              "doi-asserted-by": "crossref",
+              "first-page": "29",
+              "issue": "1",
+              "journal-title": "IEEE Trans Ind Electron",
+              "key": "10.1016/j.enconman.2016.12.045_b0090",
+              "volume": "58",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2016.09.114",
+              "article-title": "Novel high-efficient unified maximum power point tracking controller for hybrid fuel cell/wind systems",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "1498",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0095",
+              "volume": "183",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.energy.2016.09.095",
+              "article-title": "Novel highly accurate universal maximum power point tracker for maximum power extraction from hybrid fuel cell/photovoltaic/wind power generation systems",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "402",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0100",
+              "volume": "116",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.renene.2013.11.066",
+              "article-title": "PV powered smart charging station for PHEVs",
+              "author": "Goli",
+              "doi-asserted-by": "crossref",
+              "first-page": "280",
+              "journal-title": "Renew Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0105",
+              "volume": "66",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/TSTE.2014.2341954",
+              "article-title": "Urban scale photovoltaic charging stations for electric vehicles",
+              "author": "Brenna",
+              "doi-asserted-by": "crossref",
+              "first-page": "1234",
+              "journal-title": "IEEE Trans Sustain Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0110",
+              "volume": "5",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1016/j.energy.2014.11.069",
+              "article-title": "Day charging electric vehicles with excess solar electricity for a sustainable energy system",
+              "author": "Nunes",
+              "doi-asserted-by": "crossref",
+              "first-page": "263",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0115",
+              "volume": "80",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2016.01.110",
+              "article-title": "System design for a solar powered electric vehicle charging station for workplaces",
+              "author": "Chandra Mouli",
+              "doi-asserted-by": "crossref",
+              "first-page": "434",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0120",
+              "volume": "168",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.energy.2016.08.099",
+              "article-title": "Control and operation of power sources in a medium-voltage direct-current microgrid for an electric vehicle fast charging station with a photovoltaic and a battery energy storage system",
+              "author": "García-Triviño",
+              "doi-asserted-by": "crossref",
+              "first-page": "38",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0125",
+              "volume": "115",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.renene.2013.11.019",
+              "article-title": "Design of a photovoltaic-wind charging station for small electric Tuk-tuk in D.R.Congo",
+              "author": "Vermaak",
+              "doi-asserted-by": "crossref",
+              "first-page": "40",
+              "journal-title": "Renew Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0130",
+              "volume": "67",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/ECCE.2014.6953663",
+              "doi-asserted-by": "crossref",
+              "key": "10.1016/j.enconman.2016.12.045_b0135",
+              "unstructured": "Goli P, Shireen W. Wind powered smart charging facility for PHEVs. In: IEEE energy conversion congress and exposition (ECCE 2014); 2014. p. 1986–91."
+            },
+            {
+              "DOI": "10.1109/ECCE.2012.6342685",
+              "doi-asserted-by": "crossref",
+              "key": "10.1016/j.enconman.2016.12.045_b0140",
+              "unstructured": "Sparacino AR, Grainger BM, Kerestes RJ, Reed GF. Design and simulation of a DC electric vehicle charging station connected to a MVDC infrastructure. In: IEEE energy conversion congress and exposition (ECCE 2012); 2012. p. 1168–75."
+            },
+            {
+              "DOI": "10.1109/ICMREE.2013.6893835",
+              "doi-asserted-by": "crossref",
+              "key": "10.1016/j.enconman.2016.12.045_b0145",
+              "unstructured": "Li H, Liu H, Ji A, Li F, Jia Y. Design of a hybrid solar-wind powered charging station for electric vehicles. In: 2013 international conference on materials for renewable energy and environment (ICMREE 2013); 2013. p. 977–81."
+            },
+            {
+              "DOI": "10.1016/j.energy.2015.06.063",
+              "article-title": "Utilization of electric vehicles and renewable energy sources used as distributed generators for improving characteristics of electric power distribution systems",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "1100",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0150",
+              "volume": "90",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.solener.2015.11.047",
+              "article-title": "Novel high efficiency DC/DC boost converter for using in photovoltaic systems",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "22",
+              "journal-title": "Sol Energy",
+              "key": "10.1016/j.enconman.2016.12.045_b0155",
+              "volume": "125",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/ISIE.2009.5218120",
+              "doi-asserted-by": "crossref",
+              "key": "10.1016/j.enconman.2016.12.045_b0160",
+              "unstructured": "Rolãn A, Luna A, Vázquez G, Aguilar D. Modeling of a variable speed wind turbine with a permanent magnet synchronous generator. In: Proc IEEE international symposium on industrial electronics (ISIE’09); 2009. p. 734–9."
+            },
+            {
+              "DOI": "10.1016/j.enconman.2016.06.046",
+              "article-title": "Novel high efficient speed sensorless controller for maximum power extraction from wind energy conversion systems",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "392",
+              "journal-title": "Energy Convers Manage",
+              "key": "10.1016/j.enconman.2016.12.045_b0165",
+              "volume": "123",
+              "year": "2016"
+            },
+            {
+              "author": "Lingfeng",
+              "key": "10.1016/j.enconman.2016.12.045_b0170",
+              "series-title": "Wind power systems: applications of computational intelligence",
+              "year": "2010"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2015.08.005",
+              "article-title": "Novel filter based ANN approach for short-circuit faults detection, classification and location in power transmission lines",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "374",
+              "journal-title": "Int J Electr Power Energy Syst",
+              "key": "10.1016/j.enconman.2016.12.045_b0175",
+              "volume": "74",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.asoc.2015.07.039",
+              "article-title": "Two novel proposed discrete wavelet transform and filter based approaches for short-circuit faults detection in power transmission lines",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "375",
+              "journal-title": "Appl Soft Comput",
+              "key": "10.1016/j.enconman.2016.12.045_b0180",
+              "volume": "36",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.enconman.2015.07.010",
+              "article-title": "Fuel cell/back-up battery hybrid energy conversion systems: dynamic modeling and harmonic considerations",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "573",
+              "journal-title": "Energy Convers Manage",
+              "key": "10.1016/j.enconman.2016.12.045_b0185",
+              "volume": "103",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/60.391896",
+              "article-title": "Harmonic voltages and currents on two Greek islands with photovoltaic stations: study and field measurements",
+              "author": "Vokas",
+              "doi-asserted-by": "crossref",
+              "first-page": "302",
+              "journal-title": "IEEE Trans Energy Convers",
+              "key": "10.1016/j.enconman.2016.12.045_b0190",
+              "volume": "10",
+              "year": "1995"
+            },
+            {
+              "key": "10.1016/j.enconman.2016.12.045_b0195",
+              "unstructured": "LTspice IV high performance simulator and schematic capture; 2013. <http://www.linear.com/designtools/software/#LTspice>."
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2015.11.077",
+              "article-title": "Power distribution network reconfiguration for power loss minimization using novel dynamic fuzzy c-means (dFCM) clustering based ANN approach",
+              "author": "Fathabadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "96",
+              "journal-title": "Int J Electr Power Energy Syst",
+              "key": "10.1016/j.enconman.2016.12.045_b0200",
+              "volume": "78",
+              "year": "2016"
+            }
+          ],
+          "reference-count": 40,
+          "references-count": 40,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0196890416311402"
+            }
+          },
+          "score": 105.14657,
+          "short-container-title": [
+            "Energy Conversion and Management"
+          ],
+          "source": "Crossref",
+          "special_numbering": "C",
+          "title": [
+            "Novel wind powered electric vehicle charging station with vehicle-to-grid (V2G) connection capability"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "volume": "136"
+        },
+        {
+          "DOI": "10.1109/pesgre45664.2020.9070489",
+          "URL": "https://doi.org/10.1109/pesgre45664.2020.9070489",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Das",
+              "given": "Sourav",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Acharjee",
+              "given": "Parimal",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Bhattacharya",
+              "given": "Aniruddha",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2020 IEEE International Conference on Power Electronics, Smart Grid and Renewable Energy (PESGRE2020)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                4,
+                21
+              ]
+            ],
+            "date-time": "2020-04-21T01:39:37Z",
+            "timestamp": 1587433177000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                24
+              ]
+            ],
+            "date-time": "2024-01-24T01:51:37Z",
+            "timestamp": 1706061097000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2020,
+                  1,
+                  4
+                ]
+              ]
+            },
+            "location": "Cochin, India",
+            "name": "2020 IEEE International Conference on Power Electronics, Smart Grid and Renewable Energy (PESGRE)",
+            "start": {
+              "date-parts": [
+                [
+                  2020,
+                  1,
+                  2
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                8
+              ]
+            ],
+            "date-time": "2026-05-08T21:28:04Z",
+            "timestamp": 1778275684139,
+            "version": "3.51.4"
+          },
+          "is-referenced-by-count": 39,
+          "issued": {
+            "date-parts": [
+              [
+                2020,
+                1
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2020-01-01T00:00:00Z",
+                "timestamp": 1577836800000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2020-01-01T00:00:00Z",
+                "timestamp": 1577836800000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2020,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2020-01-01T00:00:00Z",
+                "timestamp": 1577836800000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/9051608/9070267/09070489.pdf?arnumber=9070489",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "1-6",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                1
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2020,
+                1
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "DOI": "10.1109/ICAwST.2017.8256449",
+              "doi-asserted-by": "publisher",
+              "key": "ref1"
+            },
+            {
+              "DOI": "10.23919/ICUE-GESD.2018.8635670",
+              "doi-asserted-by": "publisher",
+              "key": "ref2"
+            },
+            {
+              "DOI": "10.1109/pesgm.2016.7741152",
+              "doi-asserted-by": "publisher",
+              "key": "ref4"
+            },
+            {
+              "DOI": "10.1109/IREC.2017.7925995",
+              "doi-asserted-by": "publisher",
+              "key": "ref5"
+            },
+            {
+              "DOI": "10.1109/JPROC.2013.2271951",
+              "doi-asserted-by": "publisher",
+              "key": "ref6"
+            },
+            {
+              "DOI": "10.1109/TVT.2015.2481005",
+              "doi-asserted-by": "publisher",
+              "key": "ref7"
+            },
+            {
+              "DOI": "10.1109/TSG.2014.2341625",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "DOI": "10.1109/APPEEC.2018.8566620",
+              "doi-asserted-by": "publisher",
+              "key": "ref9"
+            },
+            {
+              "DOI": "10.1109/TSG.2017.2655299",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "DOI": "10.1109/TSG.2015.2394499",
+              "doi-asserted-by": "publisher",
+              "key": "ref11"
+            },
+            {
+              "DOI": "10.1109/KBEI.2017.8324933",
+              "doi-asserted-by": "publisher",
+              "key": "ref12"
+            },
+            {
+              "DOI": "10.1109/TIA.2015.2483705",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "DOI": "10.1109/TSTE.2013.2278544",
+              "doi-asserted-by": "publisher",
+              "key": "ref14"
+            },
+            {
+              "DOI": "10.1109/ISGTEurope.2012.6465831",
+              "doi-asserted-by": "publisher",
+              "key": "ref15"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2017.2780258",
+              "doi-asserted-by": "publisher",
+              "key": "ref16"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2009.2034525",
+              "doi-asserted-by": "publisher",
+              "key": "ref17"
+            },
+            {
+              "DOI": "10.1109/EnT.2016.024",
+              "doi-asserted-by": "publisher",
+              "key": "ref18"
+            },
+            {
+              "key": "ref19",
+              "volume-title": "Energy Market Company Price Information"
+            }
+          ],
+          "reference-count": 18,
+          "references-count": 18,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/9070489/"
+            }
+          },
+          "score": 102.850845,
+          "source": "Crossref",
+          "title": [
+            "Charging Scheduling of Electric Vehicle incorporating Grid-to-Vehicle (G2V) and Vehicle-to-Grid (V2G) technology in Smart-Grid"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.1007/978-981-19-0979-5_30",
+          "ISBN": [
+            "9789811909788",
+            "9789811909795"
+          ],
+          "ISSN": [
+            "2199-8582",
+            "2199-8590"
+          ],
+          "URL": "https://doi.org/10.1007/978-981-19-0979-5_30",
+          "assertion": [
+            {
+              "group": {
+                "label": "Chapter History",
+                "name": "ChapterHistory"
+              },
+              "label": "First Online",
+              "name": "first_online",
+              "order": 1,
+              "value": "22 May 2022"
+            }
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Varun",
+              "given": "Shreastha",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Bhongade",
+              "given": "Sandeep",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Energy Systems in Electrical Engineering",
+            "Planning of Hybrid Renewable Energy Systems, Electric Vehicles and Microgrid"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": [
+              "link.springer.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                5,
+                21
+              ]
+            ],
+            "date-time": "2022-05-21T11:03:05Z",
+            "timestamp": 1653130985000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                5,
+                21
+              ]
+            ],
+            "date-time": "2022-05-21T11:10:11Z",
+            "timestamp": 1653131411000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                22
+              ]
+            ],
+            "date-time": "2026-03-22T06:09:10Z",
+            "timestamp": 1774159750827,
+            "version": "3.50.1"
+          },
+          "is-referenced-by-count": 4,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9789811909788"
+            },
+            {
+              "type": "electronic",
+              "value": "9789811909795"
+            }
+          ],
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "2199-8582"
+            },
+            {
+              "type": "electronic",
+              "value": "2199-8590"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.springer.com/tdm",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2022-01-01T00:00:00Z",
+                "timestamp": 1640995200000
+              }
+            },
+            {
+              "URL": "https://www.springer.com/tdm",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2022-01-01T00:00:00Z",
+                "timestamp": 1640995200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-981-19-0979-5_30",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "297",
+          "page": "809-825",
+          "prefix": "10.1007",
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2022,
+                5,
+                22
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "publisher": "Springer Nature Singapore",
+          "publisher-location": "Singapore",
+          "reference": [
+            {
+              "DOI": "10.1109/ACCESS.2019.2931055",
+              "author": "S Deb",
+              "doi-asserted-by": "publisher",
+              "first-page": "100270",
+              "journal-title": "IEEE Access",
+              "key": "30_CR14",
+              "unstructured": "Deb S, Tammi K, Kalita K, Mahanta P (2019) Charging station placement for electric vehicles: a case study of Guwahati City, India. IEEE Access 7:100270–100282. https://doi.org/10.1109/ACCESS.2019.2931055",
+              "volume": "7",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.solener.2016.11.037",
+              "doi-asserted-by": "publisher",
+              "key": "30_CR15",
+              "unstructured": "Fathabadi H (2017) Novel solar powered electric vehicle charging station with the capability of vehicle-to-grid. Solar Energy 142: 136–143. ISSN 0038–092X. https://doi.org/10.1016/j.solener.2016.11.037"
+            },
+            {
+              "DOI": "10.1109/TSG.2016.2602759",
+              "author": "A Ghazanfari",
+              "doi-asserted-by": "publisher",
+              "first-page": "1930",
+              "issue": "3",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "30_CR9",
+              "unstructured": "Ghazanfari A, Hamzeh M, Mohamed YAI (2018) A resilient plug-and-play decentralized control for DC parking lots. IEEE Trans Smart Grid 9(3):1930–1942. https://doi.org/10.1109/TSG.2016.2602759",
+              "volume": "9",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.3390/su12177035",
+              "author": "P Huang",
+              "doi-asserted-by": "publisher",
+              "first-page": "7035",
+              "journal-title": "Sustainability",
+              "key": "30_CR3",
+              "unstructured": "Huang P, Zhang X, Copertaro B, Saini PK, Yan D, Wu Y, Chen X (2020) A Technical review of modeling techniques for urban solar mobility: solar to buildings, vehicles, and storage (S2BVS). Sustainability 12:7035. https://doi.org/10.3390/su12177035",
+              "volume": "12",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.2985772",
+              "author": "S Liu",
+              "doi-asserted-by": "publisher",
+              "first-page": "65868",
+              "journal-title": "IEEE Access",
+              "key": "30_CR13",
+              "unstructured": "Liu S, Xie X, Yang L (2020) Analysis, modeling and implementation of a switching bi-directional buck-boost converter based on electric vehicle hybrid energy storage for V2G system. IEEE Access 8:65868–65879. https://doi.org/10.1109/ACCESS.2020.2985772",
+              "volume": "8",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/TVT.2017.2774189",
+              "author": "HN de Melo",
+              "doi-asserted-by": "publisher",
+              "first-page": "114",
+              "issue": "1",
+              "journal-title": "IEEE Trans Veh Technol",
+              "key": "30_CR19",
+              "unstructured": "de Melo HN, Trovão JPF, Pereirinha PG, Jorge HM, Antunes CH (2018) A controllable bidirectional battery charger for electric vehicles with vehicle-to-grid capability. IEEE Trans Veh Technol 67(1):114–123. https://doi.org/10.1109/TVT.2017.2774189 Jan",
+              "volume": "67",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.matpr.2021.02.738",
+              "doi-asserted-by": "publisher",
+              "key": "30_CR18",
+              "unstructured": "Mishra S, Dwivedi G, Upadhyay S, Chauhan A (2021) Modelling of standalone solar photovoltaic based electric bike charging. Materials Today: Proceedings. ISSN 2214–7853. https://doi.org/10.1016/j.matpr.2021.02.738"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2021.3055027",
+              "author": "SAQ Mohammed",
+              "doi-asserted-by": "publisher",
+              "first-page": "19572",
+              "journal-title": "IEEE Access",
+              "key": "30_CR2",
+              "unstructured": "Mohammed SAQ, Jung J-W (2021) A comprehensive state-of-the-art review of wired/wireless charging technologies for battery electric vehicles: classification/common topologies/future research issues. IEEE Access 9:19572–19585. https://doi.org/10.1109/ACCESS.2021.3055027",
+              "volume": "9",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2018.2876645",
+              "author": "HV Nguyen",
+              "doi-asserted-by": "publisher",
+              "first-page": "70212",
+              "journal-title": "IEEE Access",
+              "key": "30_CR8",
+              "unstructured": "Nguyen HV, To D, Lee D (2018) Onboard battery chargers for plug-in electric vehicles with dual functional circuit for low-voltage battery charging and active power decoupling. IEEE Access 6:70212–70222. https://doi.org/10.1109/ACCESS.2018.2876645",
+              "volume": "6",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.35833/MPCE.2019.000326",
+              "doi-asserted-by": "publisher",
+              "key": "30_CR6",
+              "unstructured": "Patil H, Kalkhambkar VN (2021) Grid integration of electric vehicles for economic benefits: a review. J Modern Power Syst Clean Energy, 9(1): 13–26, January 2021. https://doi.org/10.35833/MPCE.2019.000326"
+            },
+            {
+              "DOI": "10.1109/INCET49848.2020.9154187",
+              "doi-asserted-by": "publisher",
+              "key": "30_CR16",
+              "unstructured": "Preetha Yesheswini B, Jai Iswarya S, Amani B, Prakash P, Sindhu MR (2020) Solar PV charging station for electric vehicles. In: 2020 international conference for emerging technology (INCET), pp 1–7. https://doi.org/10.1109/INCET49848.2020.9154187"
+            },
+            {
+              "DOI": "10.1080/00051144.2020.1810506",
+              "doi-asserted-by": "publisher",
+              "key": "30_CR20",
+              "unstructured": "Prem P, Sivaraman P, Sakthi Suriya Raj JS, Jagabar Sathik M, Almakhles D (2020) Fast charging converter and control algorithm for solar PV battery and electrical grid integrated electric vehicle charging station. Automatika 61(4): 614-625. https://doi.org/10.1080/00051144.2020.1810506"
+            },
+            {
+              "DOI": "10.17775/CSEEJPES.2020.00310",
+              "doi-asserted-by": "publisher",
+              "key": "30_CR11",
+              "unstructured": "Qin D, Sun Q, Wang R, Ma D, Liu M (2020) Adaptive bidirectional droop control for electric vehicles parking with vehicle-to-grid service in microgrid. CSEE J Power Energy Syst 6(4): 793–805, Dec. https://doi.org/10.17775/CSEEJPES.2020.00310"
+            },
+            {
+              "DOI": "10.1109/JSYST.2019.2931880.doi:10.1109/JSYST.2019.2931880",
+              "author": "SM Shariff",
+              "doi-asserted-by": "publisher",
+              "first-page": "2748",
+              "issue": "2",
+              "journal-title": "IEEE Syst J",
+              "key": "30_CR5",
+              "unstructured": "Shariff SM, Alam MS, Ahmad F, Rafat Y, Asghar MSJ, Khan S (2020) System design and realization of a solar-powered electric vehicle charging station. IEEE Syst J 14(2):2748–2758. https://doi.org/10.1109/JSYST.2019.2931880.doi:10.1109/JSYST.2019.2931880",
+              "volume": "14",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.jnlest.2020.100010",
+              "doi-asserted-by": "publisher",
+              "key": "30_CR7",
+              "unstructured": "Shahrukh Adnan Khan MD, Mahtab Kadir K, Sultan Mahmood K, Ibrahim Ibne Alam Md, Kamal A, Mamoon Al Bashir Md (2019) Technical investigation on V2G, S2V, and V2I for next generation smart city planning. J Electron Sci Technol 17(4):100010. ISSN1674–862X. https://doi.org/10.1016/j.jnlest.2020.100010"
+            },
+            {
+              "DOI": "10.1109/TTE.2020.2998799",
+              "author": "AK Singh",
+              "doi-asserted-by": "publisher",
+              "first-page": "439",
+              "issue": "2",
+              "journal-title": "IEEE Trans Transport Electrific",
+              "key": "30_CR1",
+              "unstructured": "Singh AK, Mishra AK, Gupta KK, Bhatnagar P, Kim T (2020) An integrated converter with reduced components for electric vehicles utilizing solar and grid power sources. IEEE Trans Transport Electrific 6(2):439–452. https://doi.org/10.1109/TTE.2020.2998799",
+              "volume": "6",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.matpr.2020.06.266",
+              "doi-asserted-by": "publisher",
+              "key": "30_CR17",
+              "unstructured": "Sneha Angeline PM, Newlin Rajkumar M (2020) Evolution of electric vehicle and its future scope. Materials Today: Proceedings, Volume 33, Part 7, 2020, pp 3930–3936. ISSN 2214–7853. https://doi.org/10.1016/j.matpr.2020.06.266"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.3004931",
+              "author": "S Taghizadeh",
+              "doi-asserted-by": "publisher",
+              "first-page": "116812",
+              "journal-title": "IEEE Access",
+              "key": "30_CR10",
+              "unstructured": "Taghizadeh S, Hossain MJ, Poursafar N, Lu J, Konstantinou G (2020) A multifunctional single-phase EV on-board charger with a new V2V charging assistance capability. IEEE Access 8:116812–116823. https://doi.org/10.1109/ACCESS.2020.3004931",
+              "volume": "8",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/TIA.2019.2940923",
+              "doi-asserted-by": "publisher",
+              "key": "30_CR12",
+              "unstructured": "Tran VT, Islam MR, Muttaqi KM, Sutanto D (2019) An efficient energy management approach for a solar-powered EV battery charging facility to support distribution grids. IEEE Trans Industry Appl 55(6): 6517–6526, Nov.-Dec. https://doi.org/10.1109/TIA.2019.2940923"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2021.3069448",
+              "author": "J Yuan",
+              "doi-asserted-by": "publisher",
+              "first-page": "51501",
+              "journal-title": "IEEE Access",
+              "key": "30_CR4",
+              "unstructured": "Yuan J, Dorn-Gomba L, Callegaro AD, Reimers J, Emadi A (2021) A review of bidirectional on-board chargers for electric vehicles. IEEE Access 9:51501–51518. https://doi.org/10.1109/ACCESS.2021.3069448",
+              "volume": "9",
+              "year": "2021"
+            }
+          ],
+          "reference-count": 20,
+          "references-count": 20,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/978-981-19-0979-5_30"
+            }
+          },
+          "score": 102.08141,
+          "source": "Crossref",
+          "title": [
+            "Solar Power Charging of Electric Vehicle Along with the Implementation of Vehicle-To-Grid (V2G) Technology"
+          ],
+          "type": "book-chapter",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy"
+        },
+        {
+          "DOI": "10.1109/tsg.2023.3263470",
+          "ISSN": [
+            "1949-3053",
+            "1949-3061"
+          ],
+          "URL": "https://doi.org/10.1109/tsg.2023.3263470",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-9187-7611",
+              "affiliation": [
+                {
+                  "name": "School of Electrical and Electronics Engineering, Chung-Ang University, Seoul, South Korea"
+                }
+              ],
+              "authenticated-orcid": false,
+              "family": "Nguyen",
+              "given": "Hoang Tien",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-9248-9522",
+              "affiliation": [
+                {
+                  "name": "School of Electrical and Electronics Engineering, Chung-Ang University, Seoul, South Korea"
+                }
+              ],
+              "authenticated-orcid": false,
+              "family": "Choi",
+              "given": "Dae-Hyun",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "IEEE Transactions on Smart Grid"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                3,
+                31
+              ]
+            ],
+            "date-time": "2023-03-31T17:44:04Z",
+            "timestamp": 1680284644000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                6
+              ]
+            ],
+            "date-time": "2023-11-06T19:32:13Z",
+            "timestamp": 1699299133000
+          },
+          "funder": [
+            {
+              "DOI": "10.13039/501100003725",
+              "award": [
+                "2022R1F1A1062888"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "2022R1F1A1062888"
+                  ]
+                }
+              ],
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "asserted-by": "publisher",
+                  "id": "10.13039/501100003725",
+                  "id-type": "DOI"
+                }
+              ],
+              "name": "Basic Science Research Program through the National Research Foundation of Korea (NRF) funded by the Ministry of Education"
+            },
+            {
+              "DOI": "10.13039/501100003725",
+              "award": [
+                "2021R1A4A1031019"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "2021R1A4A1031019"
+                  ]
+                }
+              ],
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "asserted-by": "publisher",
+                  "id": "10.13039/501100003725",
+                  "id-type": "DOI"
+                }
+              ],
+              "name": "NRF funded by the Korea Government"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                26
+              ]
+            ],
+            "date-time": "2026-08-26T15:34:53Z",
+            "timestamp": 1787758493079,
+            "version": "build-2784847793"
+          },
+          "is-referenced-by-count": 96,
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "1949-3053"
+            },
+            {
+              "type": "electronic",
+              "value": "1949-3061"
+            }
+          ],
+          "issue": "6",
+          "issued": {
+            "date-parts": [
+              [
+                2023,
+                11
+              ]
+            ]
+          },
+          "journal-issue": {
+            "issue": "6"
+          },
+          "license": [
+            {
+              "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2023-11-01T00:00:00Z",
+                "timestamp": 1698796800000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2023-11-01T00:00:00Z",
+                "timestamp": 1698796800000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    11,
+                    1
+                  ]
+                ],
+                "date-time": "2023-11-01T00:00:00Z",
+                "timestamp": 1698796800000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/5165411/10288469/10089877.pdf?arnumber=10089877",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "4621-4633",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2023,
+                11
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023,
+                11
+              ]
+            ]
+          },
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "reference": [
+            {
+              "DOI": "10.1109/TSG.2017.2763683",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "DOI": "10.1007/978-1-4757-3403-4_7",
+              "doi-asserted-by": "publisher",
+              "key": "ref35"
+            },
+            {
+              "DOI": "10.1109/JIOT.2021.3109010",
+              "doi-asserted-by": "publisher",
+              "key": "ref12"
+            },
+            {
+              "DOI": "10.1109/TSTE.2016.2558500",
+              "doi-asserted-by": "publisher",
+              "key": "ref34"
+            },
+            {
+              "DOI": "10.1109/TSG.2016.2518644",
+              "doi-asserted-by": "publisher",
+              "key": "ref15"
+            },
+            {
+              "DOI": "10.1109/TSG.2012.2212729",
+              "doi-asserted-by": "publisher",
+              "key": "ref14"
+            },
+            {
+              "DOI": "10.1007/s10107-003-0396-4",
+              "doi-asserted-by": "publisher",
+              "key": "ref31"
+            },
+            {
+              "journal-title": "Open data sets",
+              "key": "ref30",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/TII.2018.2846545",
+              "doi-asserted-by": "publisher",
+              "key": "ref11"
+            },
+            {
+              "DOI": "10.1287/opre.2022.2330",
+              "doi-asserted-by": "publisher",
+              "key": "ref33"
+            },
+            {
+              "DOI": "10.1109/TSG.2021.3109453",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "article-title": "Decentralized distributionally robust coordination between distribution system and charging station operators in unbalanced distribution systems",
+              "author": "nguyen",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "ref32",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.jclepro.2021.126967",
+              "doi-asserted-by": "publisher",
+              "key": "ref2"
+            },
+            {
+              "DOI": "10.1109/MELE.2019.2925730",
+              "doi-asserted-by": "publisher",
+              "key": "ref1"
+            },
+            {
+              "DOI": "10.1007/s10107-017-1172-1",
+              "doi-asserted-by": "publisher",
+              "key": "ref17"
+            },
+            {
+              "DOI": "10.1287/opre.2022.2383",
+              "doi-asserted-by": "publisher",
+              "key": "ref16"
+            },
+            {
+              "DOI": "10.1109/TSG.2021.3095509",
+              "doi-asserted-by": "publisher",
+              "key": "ref19"
+            },
+            {
+              "DOI": "10.1109/TSG.2022.3150412",
+              "doi-asserted-by": "publisher",
+              "key": "ref18"
+            },
+            {
+              "DOI": "10.1007/s10957-004-5154-0",
+              "doi-asserted-by": "publisher",
+              "key": "ref24"
+            },
+            {
+              "DOI": "10.1137/07068463x",
+              "doi-asserted-by": "publisher",
+              "key": "ref23"
+            },
+            {
+              "DOI": "10.1109/TII.2014.2330995",
+              "doi-asserted-by": "publisher",
+              "key": "ref26"
+            },
+            {
+              "DOI": "10.1109/TSG.2020.2987785",
+              "doi-asserted-by": "publisher",
+              "key": "ref25"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2018.2807623",
+              "doi-asserted-by": "publisher",
+              "key": "ref20"
+            },
+            {
+              "DOI": "10.1016/j.ejor.2021.04.015",
+              "doi-asserted-by": "publisher",
+              "key": "ref22"
+            },
+            {
+              "DOI": "10.1007/s10107-019-01445-5",
+              "doi-asserted-by": "publisher",
+              "key": "ref21"
+            },
+            {
+              "DOI": "10.1145/3307772.3328313",
+              "doi-asserted-by": "publisher",
+              "key": "ref28"
+            },
+            {
+              "DOI": "10.1088/1757-899X/605/1/012013",
+              "doi-asserted-by": "publisher",
+              "key": "ref27"
+            },
+            {
+              "DOI": "10.1109/TSG.2010.2055903",
+              "doi-asserted-by": "publisher",
+              "key": "ref29"
+            },
+            {
+              "DOI": "10.1109/TII.2019.2944183",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "DOI": "10.1109/TSG.2017.2788440",
+              "doi-asserted-by": "publisher",
+              "key": "ref7"
+            },
+            {
+              "DOI": "10.1109/TII.2017.2713481",
+              "doi-asserted-by": "publisher",
+              "key": "ref9"
+            },
+            {
+              "DOI": "10.1109/JPHOTOV.2020.3019955",
+              "doi-asserted-by": "publisher",
+              "key": "ref4"
+            },
+            {
+              "DOI": "10.1016/j.est.2020.101224",
+              "doi-asserted-by": "publisher",
+              "key": "ref3"
+            },
+            {
+              "DOI": "10.1109/TVT.2016.2523256",
+              "doi-asserted-by": "publisher",
+              "key": "ref6"
+            },
+            {
+              "DOI": "10.1109/JPROC.2013.2271951",
+              "doi-asserted-by": "publisher",
+              "key": "ref5"
+            }
+          ],
+          "reference-count": 35,
+          "references-count": 35,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/10089877/"
+            }
+          },
+          "score": 101.58812,
+          "short-container-title": [
+            "IEEE Trans. Smart Grid"
+          ],
+          "source": "Crossref",
+          "title": [
+            "Distributionally Robust Model Predictive Control for Smart Electric Vehicle Charging Station With V2G/V2V Capability"
+          ],
+          "type": "journal-article",
+          "volume": "14"
+        },
+        {
+          "DOI": "10.1049/pbtr016e_ch4",
+          "ISBN": [
+            "9781785617621",
+            "9781785617638"
+          ],
+          "URL": "https://doi.org/10.1049/pbtr016e_ch4",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Janjic",
+              "given": "Aleksandar",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Velimirovic",
+              "given": "Lazar Z.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "ICT for Electric Vehicle Integration with the Smart Grid"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                19
+              ]
+            ],
+            "date-time": "2019-12-19T08:14:58Z",
+            "timestamp": 1576743298000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                1,
+                4
+              ]
+            ],
+            "date-time": "2024-01-04T08:12:57Z",
+            "timestamp": 1704355977000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                11
+              ]
+            ],
+            "date-time": "2024-09-11T13:59:42Z",
+            "timestamp": 1726063182265
+          },
+          "is-referenced-by-count": 2,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781785617621"
+            },
+            {
+              "type": "electronic",
+              "value": "9781785617638"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2019,
+                11,
+                15
+              ]
+            ]
+          },
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://digital-library.theiet.org/content/books/10.1049/pbtr016e_ch4?crawler=true&mimetype=application/pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "265",
+          "page": "85-109",
+          "prefix": "10.1049",
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                11,
+                15
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2019,
+                11,
+                15
+              ]
+            ]
+          },
+          "publisher": "Institution of Engineering and Technology",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://digital-library.theiet.org/content/books/10.1049/pbtr016e_ch4"
+            }
+          },
+          "score": 101.15152,
+          "source": "Crossref",
+          "title": [
+            "Multi-criteria optimization of electric vehicle fleet charging and discharging schedule for secondary frequency control"
+          ],
+          "type": "book-chapter"
+        },
+        {
+          "DOI": "10.1016/j.enconman.2025.120119",
+          "ISSN": [
+            "0196-8904"
+          ],
+          "URL": "https://doi.org/10.1016/j.enconman.2025.120119",
+          "alternative-id": [
+            "S0196890425006430"
+          ],
+          "article-number": "120119",
+          "assertion": [
+            {
+              "label": "This article is maintained by",
+              "name": "publisher",
+              "value": "Elsevier"
+            },
+            {
+              "label": "Article Title",
+              "name": "articletitle",
+              "value": "Hierarchical model predictive control-based electric vehicle fleet charging management"
+            },
+            {
+              "label": "Journal Title",
+              "name": "journaltitle",
+              "value": "Energy Conversion and Management"
+            },
+            {
+              "label": "CrossRef DOI link to publisher maintained version",
+              "name": "articlelink",
+              "value": "https://doi.org/10.1016/j.enconman.2025.120119"
+            },
+            {
+              "label": "Content Type",
+              "name": "content_type",
+              "value": "article"
+            },
+            {
+              "label": "Copyright",
+              "name": "copyright",
+              "value": "© 2025 Published by Elsevier Ltd."
+            }
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-8234-7320",
+              "affiliation": [],
+              "authenticated-orcid": false,
+              "family": "Škugor",
+              "given": "Branimir",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Grden",
+              "given": "Luka",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Deur",
+              "given": "Joško",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Energy Conversion and Management"
+          ],
+          "content-domain": {
+            "crossmark-restriction": true,
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                7,
+                4
+              ]
+            ],
+            "date-time": "2025-07-04T19:07:11Z",
+            "timestamp": 1751656031000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                1
+              ]
+            ],
+            "date-time": "2025-10-01T11:28:14Z",
+            "timestamp": 1759318094000
+          },
+          "funder": [
+            {
+              "DOI": "10.13039/501100000780",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "asserted-by": "publisher",
+                  "id": "10.13039/501100000780",
+                  "id-type": "DOI"
+                }
+              ],
+              "name": "European Commission"
+            },
+            {
+              "DOI": "10.13039/501100007601",
+              "award": [
+                "101036871"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "101036871"
+                  ]
+                }
+              ],
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "asserted-by": "publisher",
+                  "id": "10.13039/501100007601",
+                  "id-type": "DOI"
+                }
+              ],
+              "name": "Horizon 2020"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                19
+              ]
+            ],
+            "date-time": "2026-08-19T21:26:28Z",
+            "timestamp": 1787174788930,
+            "version": "build-2736575974"
+          },
+          "is-referenced-by-count": 9,
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "0196-8904"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                10
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    10,
+                    1
+                  ]
+                ],
+                "date-time": "2025-10-01T00:00:00Z",
+                "timestamp": 1759276800000
+              }
+            },
+            {
+              "URL": "https://www.elsevier.com/legal/tdmrep-license",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    10,
+                    1
+                  ]
+                ],
+                "date-time": "2025-10-01T00:00:00Z",
+                "timestamp": 1759276800000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-017",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    10,
+                    1
+                  ]
+                ],
+                "date-time": "2025-10-01T00:00:00Z",
+                "timestamp": 1759276800000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    10,
+                    1
+                  ]
+                ],
+                "date-time": "2025-10-01T00:00:00Z",
+                "timestamp": 1759276800000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-012",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    10,
+                    1
+                  ]
+                ],
+                "date-time": "2025-10-01T00:00:00Z",
+                "timestamp": 1759276800000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    10,
+                    1
+                  ]
+                ],
+                "date-time": "2025-10-01T00:00:00Z",
+                "timestamp": 1759276800000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-004",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    10,
+                    1
+                  ]
+                ],
+                "date-time": "2025-10-01T00:00:00Z",
+                "timestamp": 1759276800000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0196890425006430?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0196890425006430?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "member": "78",
+          "page": "120119",
+          "prefix": "10.1016",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                10
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                10
+              ]
+            ]
+          },
+          "publisher": "Elsevier BV",
+          "reference": [
+            {
+              "DOI": "10.1016/j.enconman.2013.11.011",
+              "article-title": "Optimal decentralized valley-filling charging strategy for electric vehicles",
+              "author": "Zhang",
+              "doi-asserted-by": "crossref",
+              "first-page": "537",
+              "journal-title": "Energ. Conver. Manage.",
+              "key": "10.1016/j.enconman.2025.120119_b0005",
+              "volume": "78",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2016.03.091",
+              "article-title": "A bi-level optimisation framework for electric vehicle fleet charging management",
+              "author": "Škugor",
+              "doi-asserted-by": "crossref",
+              "first-page": "1332",
+              "journal-title": "Appl. Energy",
+              "key": "10.1016/j.enconman.2025.120119_b0010",
+              "volume": "184",
+              "year": "2016"
+            },
+            {
+              "author": "Škugor",
+              "key": "10.1016/j.enconman.2025.120119_b0015",
+              "series-title": "Quadratic Programming-based Electric Vehicle Charging Optimisation combining Charging cost and Grid Power Peak Minimisation, 12th Conference on Sustainable Development of Energy, Water, and Environment Systems (SDEWES)",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1016/j.energy.2017.11.140",
+              "article-title": "Integrating renewable energy sources by electric vehicle fleets under uncertainty",
+              "author": "Seddig",
+              "doi-asserted-by": "crossref",
+              "first-page": "2145",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enconman.2025.120119_b0020",
+              "volume": "141",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1016/j.energy.2015.03.057",
+              "article-title": "Dynamic Programming-based Optimization of Charging an Electric Vehicle Fleet System Represented by an Aggregate Battery Model",
+              "author": "Škugor",
+              "doi-asserted-by": "crossref",
+              "first-page": "456",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enconman.2025.120119_b0025",
+              "volume": "92",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.enpol.2008.06.007",
+              "article-title": "Integration of renewable energy into the transport and electricity sectors through V2G",
+              "author": "Lund",
+              "doi-asserted-by": "crossref",
+              "first-page": "3578",
+              "journal-title": "Energy Policy",
+              "key": "10.1016/j.enconman.2025.120119_b0030",
+              "volume": "36",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2024.123549",
+              "doi-asserted-by": "crossref",
+              "key": "10.1016/j.enconman.2025.120119_b0035",
+              "unstructured": "Will, C., Zimmermann, F., Ensslen, A., Fraunholz, C., Jochem, P., Keles, D., Can electric vehicle charging be carbon neutral? Uniting smart charging and renewables, Applied Energy, Vol. 371, 2024."
+            },
+            {
+              "article-title": "A comprehensive planning framework for electric vehicles fast charging station assisted by solar and battery based on Queueing theory and non-dominated sorting genetic algorithm-II in a co-ordinated transportation and power network",
+              "author": "Kumar",
+              "journal-title": "J. Storage Mater.",
+              "key": "10.1016/j.enconman.2025.120119_b0040",
+              "volume": "49",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.egyr.2022.09.023",
+              "article-title": "Demand side management of electric vehicles in smart grids: a survey on strategies, challenges, modeling, and optimization",
+              "author": "Mohanty",
+              "doi-asserted-by": "crossref",
+              "first-page": "12466",
+              "journal-title": "Energy Rep.",
+              "key": "10.1016/j.enconman.2025.120119_b0045",
+              "volume": "8",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.conengprac.2013.10.005",
+              "article-title": "Electric vehicles charging control in a smart grid: a model predictive control approach",
+              "author": "Di Giorgio",
+              "doi-asserted-by": "crossref",
+              "first-page": "147",
+              "journal-title": "Control Eng. Pract.",
+              "key": "10.1016/j.enconman.2025.120119_b0050",
+              "volume": "22",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1016/j.energy.2015.05.030",
+              "article-title": "A Novel Model of Electric Vehicle Fleet Aggregate Battery for Energy Planning Studies",
+              "author": "Škugor",
+              "doi-asserted-by": "crossref",
+              "first-page": "444",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enconman.2025.120119_b0055",
+              "volume": "92",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/TSG.2011.2168431",
+              "doi-asserted-by": "crossref",
+              "key": "10.1016/j.enconman.2025.120119_b0060",
+              "unstructured": "Sundstrom, O. and Binding, C., Flexible Charging Optimization for Electric Vehicles Considering Distribution Grid Constraints, IEEE Transactions on Smart Grid, Vol. 3, No. 1, 2012."
+            },
+            {
+              "DOI": "10.1109/TITS.2023.3286012",
+              "article-title": "Aggregated Representation of Electric Vehicles Population on Charging Points for demand Response Scheduling",
+              "author": "Kovačević",
+              "doi-asserted-by": "crossref",
+              "first-page": "10869",
+              "issue": "10",
+              "journal-title": "IEEE Trans. Intell. Transp. Syst.",
+              "key": "10.1016/j.enconman.2025.120119_b0065",
+              "volume": "24",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2025.3539863",
+              "doi-asserted-by": "crossref",
+              "key": "10.1016/j.enconman.2025.120119_b0070",
+              "unstructured": "J. Thran, J. Mareček, R. Shorten, T.C. Green, “Reserve Provision from Electric Vehicles: Aggregate Boundaries and Stochastic Model Predictive Control”, in IEEE Transactions on Power Systems, doi: 10.1109/TPWRS.2025.3539863."
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2014.04.032",
+              "article-title": "Near real time load shifting control for residential electricity prosumers under designed and market indexed pricing models",
+              "author": "Di Giorgio",
+              "doi-asserted-by": "crossref",
+              "first-page": "119",
+              "journal-title": "Appl. Energy",
+              "key": "10.1016/j.enconman.2025.120119_b0075",
+              "volume": "128",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/TSTE.2016.2608279",
+              "article-title": "Model Predictive Control of Energy Storage Systems for Power Tracking and Shaving in distribution Grids",
+              "author": "Di Giorgio",
+              "doi-asserted-by": "crossref",
+              "first-page": "496",
+              "issue": "2",
+              "journal-title": "IEEE Trans. Sustainable Energy",
+              "key": "10.1016/j.enconman.2025.120119_b0080",
+              "volume": "8",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/LCSYS.2021.3066155",
+              "article-title": "Optimal Stochastic Control of Energy Storage System based on Pontryagin Minimum Principle for Flattening PEV Fast Charging in a Service Area",
+              "author": "Liberati",
+              "doi-asserted-by": "crossref",
+              "first-page": "247",
+              "journal-title": "IEEE Control Syst. Lett.",
+              "key": "10.1016/j.enconman.2025.120119_b0085",
+              "volume": "6",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.3390/en15155760",
+              "doi-asserted-by": "crossref",
+              "key": "10.1016/j.enconman.2025.120119_b0090",
+              "unstructured": "Dukpa, A. and Butrylo, B., MILP-Based Profit Maximization of Electric Vehicle Charging Station Based on Solar and EV Arrival Forecasts, Energies, Vol. 15, No. 15, 2022."
+            },
+            {
+              "author": "Liberati",
+              "key": "10.1016/j.enconman.2025.120119_b0095",
+              "series-title": "Adaptive Model Predictive Control for Large-scale Coordinated PEV Recharging",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2024.125137",
+              "article-title": "Electric bus fleet charging management: a robust optimisation framework addressing battery ageing, time-of-use tariffs, and energy consumption uncertainty",
+              "author": "Manzolli",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Appl. Energy",
+              "key": "10.1016/j.enconman.2025.120119_b0100",
+              "volume": "381",
+              "year": "2025"
+            },
+            {
+              "DOI": "10.3390/batteries10020060",
+              "doi-asserted-by": "crossref",
+              "key": "10.1016/j.enconman.2025.120119_b0105",
+              "unstructured": "Geerts, D., Medina, R., van Sark, W., Wilkins, S., Charge Scheduling of Electric Vehicle Fleets: Maximizing Battery Remaining Useful Life Using Machine Learning Models,Batteries,Vol. 10, No. 2, 2024."
+            },
+            {
+              "key": "10.1016/j.enconman.2025.120119_b0110",
+              "unstructured": "Fernández-Zapico, D., Hofman, T., Salazar, M., Stochastic Model Predictive Control of Charging Energy Hubs with Conformal Prediction. arXiv.org. https://doi.org/10.48550/arXiv.2504.00685, 2025."
+            },
+            {
+              "DOI": "10.3390/en16031348",
+              "article-title": "Electric Vehicle Fast Charging: a Congestion-Dependent Stochastic Model Predictive Control under Uncertain Reference",
+              "author": "Di Giorgio",
+              "doi-asserted-by": "crossref",
+              "first-page": "1348",
+              "issue": "3",
+              "journal-title": "Energies",
+              "key": "10.1016/j.enconman.2025.120119_b0115",
+              "volume": "16",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1109/TIA.2022.3215978",
+              "article-title": "Hierarchical Model Predictive Control to Coordinate a Vehicle-to-Grid System coupled to Building Microgrids",
+              "author": "Yamashita",
+              "doi-asserted-by": "crossref",
+              "first-page": "169",
+              "issue": "1",
+              "journal-title": "IEEE Trans. Ind. Appl.",
+              "key": "10.1016/j.enconman.2025.120119_b0120",
+              "volume": "59",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1109/TII.2018.2812755",
+              "article-title": "Online distributed MPC-Based Optimal Scheduling for EV Charging Stations in distribution Systems",
+              "author": "Zheng",
+              "doi-asserted-by": "crossref",
+              "first-page": "638",
+              "issue": "2",
+              "journal-title": "IEEE Trans. Ind. Inf.",
+              "key": "10.1016/j.enconman.2025.120119_b0125",
+              "volume": "15",
+              "year": "2019"
+            },
+            {
+              "article-title": "Optimal Charging Control of Electric Vehicle Fleets based on demand Aggregation and User-Oriented Disaggregation Respecting Data Privacy",
+              "author": "Gromann",
+              "journal-title": "IEEE Trans. Transp. Electrif.",
+              "key": "10.1016/j.enconman.2025.120119_b0130",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1109/TTE.2023.3269050",
+              "article-title": "ADMM-Based Hierarchical Single-Loop Framework for EV Charging Scheduling considering Power Flow Constraints",
+              "author": "Kiani",
+              "doi-asserted-by": "crossref",
+              "first-page": "1089",
+              "issue": "1",
+              "journal-title": "IEEE Trans. Transp. Electrif.",
+              "key": "10.1016/j.enconman.2025.120119_b0135",
+              "volume": "10",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1007/s40747-024-01587-w",
+              "article-title": "A DQN based approach for large-scale EVs charging scheduling",
+              "author": "Han",
+              "doi-asserted-by": "crossref",
+              "first-page": "8319",
+              "journal-title": "Complex Intell. Syst.",
+              "key": "10.1016/j.enconman.2025.120119_b0140",
+              "volume": "10",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1109/JIOT.2023.3306826",
+              "article-title": "Federated Reinforcement Learning for Electric Vehicles Charging Control on distribution Networks",
+              "author": "Qian",
+              "doi-asserted-by": "crossref",
+              "first-page": "5511",
+              "issue": "3",
+              "journal-title": "IEEE Internet Things J.",
+              "key": "10.1016/j.enconman.2025.120119_b0145",
+              "volume": "11",
+              "year": "2024"
+            },
+            {
+              "author": "Nocedal",
+              "key": "10.1016/j.enconman.2025.120119_b0150",
+              "series-title": "“Numerical Optimization”, Springer Series in Operations Research and Financial Engineering",
+              "year": "2006"
+            },
+            {
+              "author": "Stadtler",
+              "key": "10.1016/j.enconman.2025.120119_b0155",
+              "series-title": "Supply Chain Management and Advanced Planning: Concepts",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/j.enconman.2025.120119_b0160",
+              "unstructured": "Lofberg, J., YALMIP: a toolbox for modeling and optimization in MATLAB, IEEE International Conference on Robotics and Automation, Taipei, 2004."
+            },
+            {
+              "DOI": "10.4271/2018-01-0668",
+              "article-title": "Dynamic programming Versus Linear programming Application for Charging Optimization of EV Fleet Represented by Aggregate Battery",
+              "author": "Škugor",
+              "doi-asserted-by": "crossref",
+              "journal-title": "SAE Technical Paper",
+              "key": "10.1016/j.enconman.2025.120119_b0165",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1504/IJISD.2016.073412",
+              "article-title": "Delivery vehicle fleet data collection, analysis, and naturalistic driving cycle synthesis",
+              "author": "Škugor",
+              "doi-asserted-by": "crossref",
+              "first-page": "19",
+              "journal-title": "International Journal of Innovation and Sustainable Development",
+              "key": "10.1016/j.enconman.2025.120119_b0170",
+              "volume": "10",
+              "year": "2016"
+            },
+            {
+              "author": "Škugor",
+              "key": "10.1016/j.enconman.2025.120119_b0175",
+              "series-title": "Analysis of Techno-economic Aspects of an Energy System Including delivery Electric Vehicle Fleet and Renewable Energy sources, 10th Conference of Sustainable Development of Energy, Water and Environment Systems (SDEWES)",
+              "year": "2015"
+            },
+            {
+              "key": "10.1016/j.enconman.2025.120119_b0180",
+              "unstructured": "B. Škugor J. Deur Synthetic Driving Cycles-based Modelling of Extended Range Electric Vehicle Fleet Energy Demand, 30th Electric Vehicle Symposium (EVS30) 2017 Stuttgart, Germany."
+            },
+            {
+              "DOI": "10.3390/en12071396",
+              "doi-asserted-by": "crossref",
+              "key": "10.1016/j.enconman.2025.120119_b0185",
+              "unstructured": "Topić, J., Škugor, B., Deur, J., Neural Network-Based Modeling of Electric Vehicle Energy Demand and All Electric Range,Energies,Vol. 12, No. 7, 2019. https://doi.org/10.3390/en12071396."
+            },
+            {
+              "DOI": "10.1016/S0005-1098(98)00178-2",
+              "article-title": "Control of systems integrating logic, dynamics, and constraints",
+              "author": "Bemporad",
+              "doi-asserted-by": "crossref",
+              "first-page": "407",
+              "journal-title": "Automatica",
+              "key": "10.1016/j.enconman.2025.120119_b0190",
+              "volume": "35",
+              "year": "1999"
+            }
+          ],
+          "reference-count": 38,
+          "references-count": 38,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0196890425006430"
+            }
+          },
+          "score": 98.478836,
+          "short-container-title": [
+            "Energy Conversion and Management"
+          ],
+          "source": "Crossref",
+          "special_numbering": "C",
+          "title": [
+            "Hierarchical model predictive control-based electric vehicle fleet charging management"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "volume": "342"
+        },
+        {
+          "DOI": "10.1109/eprec66546.2026.11412143",
+          "URL": "https://doi.org/10.1109/eprec66546.2026.11412143",
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "National Institute of Technology,Electrical Engineering,Warangal,India"
+                }
+              ],
+              "family": "Yezarla",
+              "given": "Narayana Rao",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "National Institute of Technology,Electrical Engineering,Warangal,India"
+                }
+              ],
+              "family": "Babu Perli",
+              "given": "Suresh",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2026 International Conference on Electric Power and Renewable Energy (EPREC)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                6
+              ]
+            ],
+            "date-time": "2026-03-06T20:58:04Z",
+            "timestamp": 1772830684000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                7
+              ]
+            ],
+            "date-time": "2026-03-07T06:57:11Z",
+            "timestamp": 1772866631000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  4
+                ]
+              ]
+            },
+            "location": "Durg, India",
+            "name": "2026 International Conference on Electric Power and Renewable Energy (EPREC)",
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  1,
+                  2
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                8
+              ]
+            ],
+            "date-time": "2026-03-08T01:39:57Z",
+            "timestamp": 1772933997320,
+            "version": "3.50.1"
+          },
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                2
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    2
+                  ]
+                ],
+                "date-time": "2026-01-02T00:00:00Z",
+                "timestamp": 1767312000000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    2
+                  ]
+                ],
+                "date-time": "2026-01-02T00:00:00Z",
+                "timestamp": 1767312000000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx8/11411929/11411942/11412143.pdf?arnumber=11412143",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "1-6",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                2
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                2
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "DOI": "10.1109/TSG.2020.3048397",
+              "doi-asserted-by": "publisher",
+              "key": "ref1"
+            },
+            {
+              "DOI": "10.1109/TSTE.2021.3113614",
+              "doi-asserted-by": "publisher",
+              "key": "ref2"
+            },
+            {
+              "DOI": "10.1515/9789048537419",
+              "doi-asserted-by": "publisher",
+              "key": "ref3"
+            },
+            {
+              "DOI": "10.1109/TSTE.2020.3048390",
+              "doi-asserted-by": "publisher",
+              "key": "ref4"
+            },
+            {
+              "DOI": "10.1016/j.energy.2024.130332",
+              "doi-asserted-by": "publisher",
+              "key": "ref5"
+            },
+            {
+              "DOI": "10.1016/j.renene.2023.119729",
+              "doi-asserted-by": "publisher",
+              "key": "ref6"
+            },
+            {
+              "DOI": "10.3390/math10152748",
+              "doi-asserted-by": "publisher",
+              "key": "ref7"
+            },
+            {
+              "DOI": "10.3390/electronics12143068",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "DOI": "10.1016/j.rser.2023.113161",
+              "doi-asserted-by": "publisher",
+              "key": "ref9"
+            },
+            {
+              "DOI": "10.1109/TSG.2018.2815593",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "DOI": "10.1109/tsg.2022.3204761",
+              "doi-asserted-by": "publisher",
+              "key": "ref11"
+            },
+            {
+              "DOI": "10.1109/tits.2021.3058514",
+              "doi-asserted-by": "publisher",
+              "key": "ref12"
+            },
+            {
+              "DOI": "10.1109/TSTE.2018.2890145",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.2973284",
+              "doi-asserted-by": "publisher",
+              "key": "ref14"
+            },
+            {
+              "DOI": "10.1049/iet-gtd.2013.0256",
+              "doi-asserted-by": "publisher",
+              "key": "ref15"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2023.121356",
+              "doi-asserted-by": "publisher",
+              "key": "ref16"
+            }
+          ],
+          "reference-count": 16,
+          "references-count": 16,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/11412143/"
+            }
+          },
+          "score": 97.31717,
+          "source": "Crossref",
+          "title": [
+            "Efficient Voltage Control Management In Distribution Network Using Transactive Energy Based Electric Vehicle Charging and Discharging"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.1016/j.apenergy.2025.127047",
+          "ISSN": [
+            "0306-2619"
+          ],
+          "URL": "https://doi.org/10.1016/j.apenergy.2025.127047",
+          "alternative-id": [
+            "S0306261925017775"
+          ],
+          "article-number": "127047",
+          "assertion": [
+            {
+              "label": "This article is maintained by",
+              "name": "publisher",
+              "value": "Elsevier"
+            },
+            {
+              "label": "Article Title",
+              "name": "articletitle",
+              "value": "Novel control-based design optimization of smart energy distribution and Management in Vehicle-to-Grid Integrated Microgrid"
+            },
+            {
+              "label": "Journal Title",
+              "name": "journaltitle",
+              "value": "Applied Energy"
+            },
+            {
+              "label": "CrossRef DOI link to publisher maintained version",
+              "name": "articlelink",
+              "value": "https://doi.org/10.1016/j.apenergy.2025.127047"
+            },
+            {
+              "label": "Content Type",
+              "name": "content_type",
+              "value": "article"
+            },
+            {
+              "label": "Copyright",
+              "name": "copyright",
+              "value": "© 2025 The Author(s). Published by Elsevier Ltd."
+            }
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Irfan",
+              "given": "Muhammad",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Tahir",
+              "given": "Tayyab",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Deilami",
+              "given": "Sara",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Huang",
+              "given": "Shujuan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Veettil",
+              "given": "Binesh Puthen",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Applied Energy"
+          ],
+          "content-domain": {
+            "crossmark-restriction": true,
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                19
+              ]
+            ],
+            "date-time": "2025-11-19T07:37:53Z",
+            "timestamp": 1763537873000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                21
+              ]
+            ],
+            "date-time": "2025-11-21T02:44:16Z",
+            "timestamp": 1763693056000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                25
+              ]
+            ],
+            "date-time": "2026-08-25T11:37:27Z",
+            "timestamp": 1787657847057,
+            "version": "build-2736575974"
+          },
+          "is-referenced-by-count": 8,
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "0306-2619"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                1
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2026-01-01T00:00:00Z",
+                "timestamp": 1767225600000
+              }
+            },
+            {
+              "URL": "https://www.elsevier.com/legal/tdmrep-license",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2026-01-01T00:00:00Z",
+                "timestamp": 1767225600000
+              }
+            },
+            {
+              "URL": "http://creativecommons.org/licenses/by/4.0/",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    11,
+                    6
+                  ]
+                ],
+                "date-time": "2025-11-06T00:00:00Z",
+                "timestamp": 1762387200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0306261925017775?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0306261925017775?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "member": "78",
+          "page": "127047",
+          "prefix": "10.1016",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                1
+              ]
+            ]
+          },
+          "publisher": "Elsevier BV",
+          "reference": [
+            {
+              "DOI": "10.1109/ACCESS.2024.3471893",
+              "article-title": "Design and validation of adaptive barrier function sliding mode controller for a novel multisource hybrid energy storage system based Elesactric vehicle",
+              "author": "Noor",
+              "doi-asserted-by": "crossref",
+              "first-page": "145270",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/j.apenergy.2025.127047_bb0005",
+              "volume": "12",
+              "year": "2024"
+            },
+            {
+              "key": "10.1016/j.apenergy.2025.127047_bb0015",
+              "unstructured": "“Climate Council Explainer,” 2021. [Online]. Available: https://www.climatecouncil.org.au/wp-content/uploads/2021/10/Explainer-Emissions-Reduction-Targets-October-2021.pdf?_gl=1*wergs1*_up*MQ..*_gs*MQ..&gclid=CjwKCAjwktO_BhBrEiwAV70jXtbBh7ZhnqtzrfUHPSAqf7XavUXChmMINl690Qz5TvEP3UKMgF7RbxoCaTsQAvD_BwE (accessed."
+            },
+            {
+              "DOI": "10.3390/en16217248",
+              "article-title": "Rooftop solar and electric vehicle integration for smart, sustainable homes: a comprehensive review",
+              "author": "Irfan",
+              "doi-asserted-by": "crossref",
+              "first-page": "7248",
+              "issue": "21",
+              "journal-title": "Energies",
+              "key": "10.1016/j.apenergy.2025.127047_bb0020",
+              "volume": "16",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2021.3084802",
+              "article-title": "Design and implementation of a cost-effective wireless charger for an electric bicycle",
+              "author": "Trivino-Cabrera",
+              "doi-asserted-by": "crossref",
+              "first-page": "85277",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/j.apenergy.2025.127047_bb0025",
+              "volume": "9",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2016.11.085",
+              "article-title": "Study on unit commitment problem considering pumped storage and renewable energy via a novel binary artificial sheep algorithm",
+              "author": "Wang",
+              "doi-asserted-by": "crossref",
+              "first-page": "612",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0030",
+              "volume": "187",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1016/j.energy.2011.09.017",
+              "article-title": "Multi-objective operation management of a renewable MG (micro-grid) with back-up micro-turbine/fuel cell/battery hybrid power source",
+              "author": "Moghaddam",
+              "doi-asserted-by": "crossref",
+              "first-page": "6490",
+              "issue": "11",
+              "journal-title": "Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0035",
+              "volume": "36",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1016/j.energy.2015.12.099",
+              "article-title": "Energy management system for stand-alone diesel-wind-biomass microgrid with energy storage system",
+              "author": "Wang",
+              "doi-asserted-by": "crossref",
+              "first-page": "90",
+              "journal-title": "Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0040",
+              "volume": "97",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2024.123317",
+              "article-title": "Optimizing load frequency control in microgrid with vehicle-to-grid integration in Australia: based on an enhanced control approach",
+              "author": "Irfan",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0045",
+              "volume": "366",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1038/s41598-024-63775-5",
+              "article-title": "Machine learning optimization for hybrid electric vehicle charging in renewable microgrids",
+              "author": "Hassan",
+              "doi-asserted-by": "crossref",
+              "first-page": "13973",
+              "issue": "1",
+              "journal-title": "Sci Rep",
+              "key": "10.1016/j.apenergy.2025.127047_bb0050",
+              "volume": "14",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1016/j.egypro.2017.05.111",
+              "article-title": "Design and optimization of hybrid Micro-grid system",
+              "author": "Jayachandran",
+              "doi-asserted-by": "crossref",
+              "first-page": "95",
+              "journal-title": "Energy Procedia",
+              "key": "10.1016/j.apenergy.2025.127047_bb0055",
+              "volume": "117",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2021.3052797",
+              "article-title": "Frequency regulation of an isolated microgrid with electric vehicles and energy storage system integration using adaptive and model predictive controllers",
+              "author": "Jan",
+              "doi-asserted-by": "crossref",
+              "first-page": "14958",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/j.apenergy.2025.127047_bb0060",
+              "volume": "9",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/TSTE.2013.2255135",
+              "article-title": "Robust energy Management for Microgrids with High-Penetration Renewables",
+              "author": "Zhang",
+              "doi-asserted-by": "crossref",
+              "first-page": "944",
+              "issue": "4",
+              "journal-title": "IEEE Trans Sustain Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0065",
+              "volume": "4",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1109/TSG.2016.2600863",
+              "article-title": "Energy cooperation optimization in microgrids with renewable energy integration",
+              "author": "Rahbar",
+              "doi-asserted-by": "crossref",
+              "first-page": "1482",
+              "issue": "2",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "10.1016/j.apenergy.2025.127047_bb0070",
+              "volume": "9",
+              "year": "2018"
+            },
+            {
+              "article-title": "Analysis and modelling regarding frequency regulation of power systems and power supply–demand-control based on penetration of renewable energy sources",
+              "author": "Jie",
+              "first-page": "1824",
+              "issue": "13",
+              "journal-title": "J Eng Des",
+              "key": "10.1016/j.apenergy.2025.127047_bb0075",
+              "volume": "2017",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1016/j.rser.2018.03.040",
+              "article-title": "Microgrids: a review of technologies, key drivers, and outstanding issues",
+              "author": "Hirsch",
+              "doi-asserted-by": "crossref",
+              "first-page": "402",
+              "journal-title": "Renew Sust Energ Rev",
+              "key": "10.1016/j.apenergy.2025.127047_bb0080",
+              "volume": "90",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.compeleceng.2022.108537",
+              "article-title": "A novel frequency regulation in islanded microgrid using sliding mode control with disturbance observers considering storages and EVs",
+              "author": "Ibraheem",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Comput Electr Eng",
+              "key": "10.1016/j.apenergy.2025.127047_bb0085",
+              "volume": "105",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1016/j.est.2022.104558",
+              "article-title": "Optimal scheduling of storage device, renewable resources and hydrogen storage in combined heat and power microgrids in the presence plug-in hybrid electric vehicles and their charging demand",
+              "author": "Eskandari",
+              "doi-asserted-by": "crossref",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/j.apenergy.2025.127047_bb0090",
+              "volume": "50",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.epsr.2022.108905",
+              "article-title": "Developing hybrid demand response technique for energy Management in Microgrid Based on pelican optimization algorithm",
+              "author": "Alamir",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Electr Power Syst Res",
+              "key": "10.1016/j.apenergy.2025.127047_bb0095",
+              "volume": "214",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2023.120717",
+              "article-title": "Microgrid system energy management with demand response program for clean and economical operation",
+              "author": "Dey",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0100",
+              "volume": "334",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1109/TSG.2019.2930299",
+              "article-title": "Intelligent multi-microgrid energy management based on deep neural network and model-free reinforcement learning",
+              "author": "Du",
+              "doi-asserted-by": "crossref",
+              "first-page": "1066",
+              "issue": "2",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "10.1016/j.apenergy.2025.127047_bb0105",
+              "volume": "11",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/TSTE.2016.2587828",
+              "article-title": "Energy Management and Control System for Laboratory Scale Microgrid Based Wind-PV-Battery",
+              "author": "Merabet",
+              "doi-asserted-by": "crossref",
+              "first-page": "145",
+              "issue": "1",
+              "journal-title": "IEEE Trans Sustain Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0110",
+              "volume": "8",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1016/j.energy.2015.02.082",
+              "article-title": "An efficient scenario-based stochastic programming for optimal planning of combined heat, power, and hydrogen production of molten carbonate fuel cell power plants",
+              "author": "Bornapour",
+              "doi-asserted-by": "crossref",
+              "first-page": "734",
+              "journal-title": "Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0115",
+              "volume": "83",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/TIE.2011.2119451",
+              "article-title": "Energy management and operational planning of a microgrid with a PV-based active generator for smart grid applications",
+              "author": "Kanchev",
+              "doi-asserted-by": "crossref",
+              "first-page": "4583",
+              "issue": "10",
+              "journal-title": "IEEE Trans Ind Electron",
+              "key": "10.1016/j.apenergy.2025.127047_bb0120",
+              "volume": "58",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1016/j.enconman.2024.119032",
+              "article-title": "Deep reinforcement learning-based energy management strategy for fuel cell buses integrating future road information and cabin comfort control",
+              "author": "Jia",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Energy Convers Manag",
+              "key": "10.1016/j.apenergy.2025.127047_bb0125",
+              "volume": "321",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2025.126195",
+              "article-title": "Superior energy management for fuel cell vehicles guided by improved DDPG algorithm: integrating driving intention speed prediction and health-aware control",
+              "author": "Jia",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0130",
+              "volume": "394",
+              "year": "2025"
+            },
+            {
+              "DOI": "10.1016/j.est.2024.112775",
+              "article-title": "Microgrid energy management and scheduling utilizing energy storage and exchange incorporating improved gradient-based optimizer",
+              "author": "Alghamdi",
+              "doi-asserted-by": "crossref",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/j.apenergy.2025.127047_bb0135",
+              "volume": "97",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2024.123736",
+              "article-title": "Lévy arithmetic optimization for energy Management of Solar Wind Microgrid with multiple diesel generators for off-grid communities",
+              "author": "Barua",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0140",
+              "volume": "371",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1016/j.ijhydene.2024.09.247",
+              "article-title": "Power management and control of hybrid renewable energy systems with integrated diesel generators for remote areas",
+              "author": "Ahmed Adam",
+              "doi-asserted-by": "crossref",
+              "first-page": "320",
+              "journal-title": "Int J Hydrog Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0145",
+              "volume": "89",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1016/j.rser.2020.110118",
+              "article-title": "Energy management strategies based on hybrid automata for islanded microgrids with renewable sources, batteries and hydrogen",
+              "author": "Kafetzis",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Renew Sust Energ Rev",
+              "key": "10.1016/j.apenergy.2025.127047_bb0150",
+              "volume": "134",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1038/s41598-024-69734-4",
+              "article-title": "Chaotic self-adaptive sine cosine multi-objective optimization algorithm to solve microgrid optimal energy scheduling problems",
+              "author": "Karthik",
+              "doi-asserted-by": "crossref",
+              "first-page": "18997",
+              "issue": "1",
+              "journal-title": "Sci Rep",
+              "key": "10.1016/j.apenergy.2025.127047_bb0155",
+              "volume": "14",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.2996434",
+              "article-title": "A model predictive control-based energy management scheme for hybrid storage system in islanded microgrids",
+              "author": "Nair",
+              "doi-asserted-by": "crossref",
+              "first-page": "97809",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/j.apenergy.2025.127047_bb0160",
+              "volume": "8",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2021.118136",
+              "article-title": "An online energy management system for AC/DC residential microgrids supported by non-intrusive load monitoring",
+              "author": "Çimen",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0165",
+              "volume": "307",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2024.109921",
+              "article-title": "A novel approach to utilization vehicle to grid technology in microgrid environment",
+              "author": "Blazek",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Int J Electr Power Energy Syst",
+              "key": "10.1016/j.apenergy.2025.127047_bb0170",
+              "volume": "158",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1016/j.segan.2024.101362",
+              "article-title": "Reinforcement learning for energy management of an islanded microgrid: analysis of state, state space and reinforcement function",
+              "author": "Jayaraj",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Sustain Energy, Grids Networks",
+              "key": "10.1016/j.apenergy.2025.127047_bb0175",
+              "volume": "38",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.3390/en17163898",
+              "article-title": "Energy management system for an industrial microgrid using optimization algorithms-based reinforcement learning technique",
+              "author": "Upadhyay",
+              "doi-asserted-by": "crossref",
+              "first-page": "3898",
+              "issue": "16",
+              "journal-title": "Energies",
+              "key": "10.1016/j.apenergy.2025.127047_bb0180",
+              "volume": "17",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1016/j.segan.2020.100413",
+              "article-title": "Deep reinforcement learning for energy management in a microgrid with flexible demand",
+              "author": "Nakabi",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Sustain Energy, Grids Networks",
+              "key": "10.1016/j.apenergy.2025.127047_bb0185",
+              "volume": "25",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1007/s41403-024-00498-z",
+              "article-title": "An IoT enabled energy management system with precise forecasting and load optimization for PV power generation",
+              "author": "Rao",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Trans Indian Natl Acad Eng",
+              "key": "10.1016/j.apenergy.2025.127047_bb0190",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1080/01430750.2018.1563811",
+              "article-title": "A load frequency control using a PSO-based ANN for micro-grids in the presence of electric vehicles",
+              "author": "Safari",
+              "doi-asserted-by": "crossref",
+              "first-page": "688",
+              "issue": "6",
+              "journal-title": "Int J Ambient Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0195",
+              "volume": "42",
+              "year": "2021"
+            },
+            {
+              "article-title": "Microgrid system for a rural area - an analysis of HOMER optimised model using MATLAB",
+              "author": "Suman",
+              "first-page": "534",
+              "key": "10.1016/j.apenergy.2025.127047_bb0200",
+              "series-title": "In 2019 3rd international conference on recent developments in control, Automation & Power Engineering (RDCAPE)",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.energy.2019.01.019",
+              "article-title": "Modelling and performance analysis of a stand-alone hybrid solar PV/fuel cell/diesel generator power system for university building",
+              "author": "Ghenai",
+              "doi-asserted-by": "crossref",
+              "first-page": "180",
+              "journal-title": "Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0205",
+              "volume": "171",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.renene.2013.11.025",
+              "article-title": "Hybrid diesel generator/renewable energy system performance modeling",
+              "author": "Kusakana",
+              "doi-asserted-by": "crossref",
+              "first-page": "97",
+              "journal-title": "Renew Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0210",
+              "volume": "67",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1016/j.renene.2012.02.017",
+              "article-title": "Control strategy for distributed integration of photovoltaic and energy storage systems in DC micro-grids",
+              "author": "Eghtedarpour",
+              "doi-asserted-by": "crossref",
+              "first-page": "96",
+              "journal-title": "Renew Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0215",
+              "volume": "45",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1016/j.solener.2011.09.011",
+              "article-title": "Optimization of hybrid solar energy sources/wind turbine systems integrated to utility grids as microgrid (MG) under pool/bilateral/hybrid electricity market using PSO",
+              "author": "Mohammadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "112",
+              "issue": "1",
+              "journal-title": "Sol Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0220",
+              "volume": "86",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.3389/fenrg.2022.1053498",
+              "article-title": "Optimization of building microgrid energy system based on virtual energy storage",
+              "author": "Lv",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Front Energy Res",
+              "key": "10.1016/j.apenergy.2025.127047_bb0225",
+              "volume": "10",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1016/j.heliyon.2022.e11770",
+              "article-title": "Frequency control of nuclear-renewable hybrid energy systems using optimal PID and FOPID controllers",
+              "author": "Hasan",
+              "doi-asserted-by": "crossref",
+              "issue": "11",
+              "journal-title": "Heliyon",
+              "key": "10.1016/j.apenergy.2025.127047_bb0230",
+              "volume": "8",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2021.3125317",
+              "article-title": "Design of Cascaded PI-fractional order PID controller for improving the frequency response of hybrid microgrid system using Gorilla troops optimizer",
+              "author": "Ali",
+              "doi-asserted-by": "crossref",
+              "first-page": "150715",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/j.apenergy.2025.127047_bb0235",
+              "volume": "9",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/JSYST.2021.3108685",
+              "article-title": "Robust Frequency Control in Interconnected Microgrids: An H$_2$/H$_{\\infty }$ Control Approach",
+              "author": "Suman",
+              "doi-asserted-by": "crossref",
+              "first-page": "2044",
+              "issue": "2",
+              "journal-title": "IEEE Syst J",
+              "key": "10.1016/j.apenergy.2025.127047_bb0240",
+              "volume": "16",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.est.2020.101345",
+              "article-title": "Techno-economic assessment of energy storage systems using annualized life cycle cost of storage (LCCOS) and levelized cost of energy (LCOE) metrics",
+              "author": "Mostafa",
+              "doi-asserted-by": "crossref",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/j.apenergy.2025.127047_bb0245",
+              "volume": "29",
+              "year": "2020"
+            },
+            {
+              "article-title": "A robust cascaded controller for load frequency control in renewable energy integrated microgrid containing PEV",
+              "journal-title": "Int J Renew Energy Res",
+              "key": "10.1016/j.apenergy.2025.127047_bb0250",
+              "volume": "no. V13i1",
+              "year": "2023"
+            },
+            {
+              "article-title": "Reducing energy costs in residential systems with solar photovoltaic and electric vehicles using heuristic dispatch based on Price signals",
+              "author": "Irfan",
+              "first-page": "1",
+              "key": "10.1016/j.apenergy.2025.127047_bb0255",
+              "series-title": "In 2023 IEEE international conference on energy Technologies for Future Grids (ETFG)",
+              "year": "2023"
+            },
+            {
+              "article-title": "Optimizing residential energy costs: a novel machine learning approach for solar PV and EV integration through heuristic Price signal dispatch",
+              "author": "Irfan",
+              "first-page": "1",
+              "journal-title": "IEEE Trans Ind Appl",
+              "key": "10.1016/j.apenergy.2025.127047_bb0260",
+              "year": "2025"
+            },
+            {
+              "article-title": "A novel data-driven optimization for cost-effective home energy management with PV-EV integration",
+              "author": "Irfan",
+              "first-page": "1",
+              "key": "10.1016/j.apenergy.2025.127047_bb0265",
+              "series-title": "In 2024 IEEE 34th Australasian universities power engineering conference (AUPEC)",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1109/TSG.2015.2431324",
+              "article-title": "Demand response Management in the Smart Grid in a large population regime",
+              "author": "Maharjan",
+              "doi-asserted-by": "crossref",
+              "first-page": "189",
+              "issue": "1",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "10.1016/j.apenergy.2025.127047_bb0270",
+              "volume": "7",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.rser.2014.10.045",
+              "article-title": "HEMSs and enabled demand response in electricity market: an overview",
+              "author": "Khan",
+              "doi-asserted-by": "crossref",
+              "first-page": "773",
+              "journal-title": "Renew Sust Energ Rev",
+              "key": "10.1016/j.apenergy.2025.127047_bb0275",
+              "volume": "42",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.rser.2015.09.077",
+              "article-title": "Mobile social media for smart grids customer engagement: emerging trends and challenges",
+              "author": "Moreno-Munoz",
+              "doi-asserted-by": "crossref",
+              "first-page": "1611",
+              "journal-title": "Renew Sust Energ Rev",
+              "key": "10.1016/j.apenergy.2025.127047_bb0280",
+              "volume": "53",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2021.3132962",
+              "article-title": "User preference-based demand response for smart home energy management using multiobjective reinforcement learning",
+              "author": "Chen",
+              "doi-asserted-by": "crossref",
+              "first-page": "161627",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/j.apenergy.2025.127047_bb0285",
+              "volume": "9",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1038/s41598-023-48717-x",
+              "article-title": "Effective hybrid search technique based constraint mixed-integer programming for smart home residential load scheduling",
+              "author": "Abdelhameed",
+              "doi-asserted-by": "crossref",
+              "first-page": "21870",
+              "issue": "1",
+              "journal-title": "Sci Rep",
+              "key": "10.1016/j.apenergy.2025.127047_bb0290",
+              "volume": "13",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2024.123753",
+              "article-title": "Expert-guided imitation learning for energy management: evaluating GAIL’S performance in building control applications",
+              "author": "Liu",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/j.apenergy.2025.127047_bb0295",
+              "volume": "372",
+              "year": "2024"
+            },
+            {
+              "article-title": "Reinforcement learning : An introduction, description",
+              "author": "Sutton",
+              "key": "10.1016/j.apenergy.2025.127047_bb0300",
+              "series-title": "Series: Adaptive computation and machine learning series | includes bibliographical references and index. Identifiers: LCCN 2018023826 ISBN 978026203",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.scs.2021.102812",
+              "article-title": "Improved residential energy management system using priority double deep Q-learning",
+              "author": "Mathew",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Sustain Cities Soc",
+              "key": "10.1016/j.apenergy.2025.127047_bb0305",
+              "volume": "69",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1038/nature14236",
+              "article-title": "Human-level control through deep reinforcement learning",
+              "author": "Mnih",
+              "doi-asserted-by": "crossref",
+              "first-page": "529",
+              "issue": "7540",
+              "journal-title": "Nature",
+              "key": "10.1016/j.apenergy.2025.127047_bb0310",
+              "volume": "518",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1007/978-3-030-24570-2_2",
+              "article-title": "Model predictive control of microgrids",
+              "author": "Bordons",
+              "doi-asserted-by": "crossref",
+              "key": "10.1016/j.apenergy.2025.127047_bb0315",
+              "series-title": "Advances in industrial control",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.epsr.2024.111173",
+              "article-title": "MPC-driven optimal scheduling of grid-connected microgrid: cost and degradation minimization with PEVs integration",
+              "author": "Nawaz",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Electr Power Syst Res",
+              "key": "10.1016/j.apenergy.2025.127047_bb0320",
+              "volume": "238",
+              "year": "2025"
+            },
+            {
+              "author": "Gavenski",
+              "key": "10.1016/j.apenergy.2025.127047_bb0325"
+            },
+            {
+              "DOI": "10.1145/3054912",
+              "article-title": "Imitation learning",
+              "author": "Hussein",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "issue": "2",
+              "journal-title": "ACM Comput Surv",
+              "key": "10.1016/j.apenergy.2025.127047_bb0330",
+              "volume": "50",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.oceaneng.2025.120405",
+              "article-title": "An expert-demonstrated soft actor–critic based adaptive trajectory tracking control of autonomous underwater vehicle with long short-term memory",
+              "author": "Wang",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Ocean Eng",
+              "key": "10.1016/j.apenergy.2025.127047_bb0335",
+              "volume": "321",
+              "year": "2025"
+            }
+          ],
+          "reference-count": 66,
+          "references-count": 66,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0306261925017775"
+            }
+          },
+          "score": 96.91613,
+          "short-container-title": [
+            "Applied Energy"
+          ],
+          "source": "Crossref",
+          "special_numbering": "PC",
+          "title": [
+            "Novel control-based design optimization of smart energy distribution and Management in Vehicle-to-Grid Integrated Microgrid"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "volume": "402"
+        }
+      ],
+      "items-per-page": 10,
+      "query": {
+        "search-terms": null,
+        "start-index": 0
+      },
+      "total-results": 1298
+    },
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "status": "ok"
+  },
+  "retrieved_at_utc": "2026-08-31T14:30:14Z",
+  "retry_count": 0
+}

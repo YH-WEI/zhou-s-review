@@ -1,0 +1,7258 @@
+{
+  "http_status": 200,
+  "request_url_redacted": "https://api.openalex.org/works?search=%28%22data+centre%22+OR+%22data+center%22+OR+%22AI+data+centre%22+OR+%22AI+data+center%22+OR+%22cloud+computing+facility%22+OR+%22high+performance+computing%22+OR+%22edge+data+centre%22+OR+%22edge+data+center%22%29+AND+%28%22local+energy+sharing%22+OR+%22distribution+grid%22+OR+%22voltage+support%22+OR+%22congestion+management%22+OR+microgrid+OR+%22virtual+power+plant%22+OR+VPP%29+AND+%28review+OR+perspective+OR+survey%29&filter=from_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-08-31&per-page=10&sort=relevance_score%3Adesc&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cprimary_location%2Copen_access%2Clanguage%2Cabstract_inverted_index",
+  "response": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 10801,
+      "db_response_time_ms": 843,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 10,
+      "x_query": {
+        "oql": "works where date >= (2015-01-01)\n  and date <= (2026-08-31)\n  and full text has (\n    (\n      VPP\n      or stemmed \"congestion management\"\n      or stemmed \"distribution grid\"\n      or stemmed \"local energy sharing\"\n      or stemmed \"virtual power plant\"\n      or stemmed \"voltage support\"\n      or microgrid\n    )\n    and (\n      stemmed \"AI data center\"\n      or stemmed \"AI data centre\"\n      or stemmed \"cloud computing facility\"\n      or stemmed \"data center\"\n      or stemmed \"data centre\"\n      or stemmed \"edge data center\"\n      or stemmed \"edge data centre\"\n      or stemmed \"high performance computing\"\n    )\n    and (perspective or review or survey)\n  )",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "2015-01-01"
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2026-08-31"
+            },
+            {
+              "filters": [
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "VPP"
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"congestion management\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"distribution grid\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"local energy sharing\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"virtual power plant\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"voltage support\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "microgrid"
+                }
+              ],
+              "join": "or"
+            },
+            {
+              "filters": [
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"AI data center\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"AI data centre\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"cloud computing facility\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"data center\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"data centre\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"edge data center\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"edge data centre\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"high performance computing\""
+                }
+              ],
+              "join": "or"
+            },
+            {
+              "filters": [
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "perspective"
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "review"
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "survey"
+                }
+              ],
+              "join": "or"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:2015-01-01,to_publication_date:2026-08-31,fulltext.search:VPP|%22congestion management%22|%22distribution grid%22|%22local energy sharing%22|%22virtual power plant%22|%22voltage support%22|microgrid,fulltext.search:%22AI data center%22|%22AI data centre%22|%22cloud computing facility%22|%22data center%22|%22data centre%22|%22edge data center%22|%22edge data centre%22|%22high performance computing%22,fulltext.search:perspective|review|survey&per_page=10"
+      }
+    },
+    "results": [
+      {
+        "abstract_inverted_index": {
+          "(MGs).": [
+            16
+          ],
+          "A": [
+            116
+          ],
+          "As": [
+            35
+          ],
+          "Decentralized": [
+            83
+          ],
+          "Depending": [
+            64
+          ],
+          "Finally,": [
+            219
+          ],
+          "In": [
+            104
+          ],
+          "It": [
+            179
+          ],
+          "MG": [
+            140
+          ],
+          "Moreover,": [
+            136
+          ],
+          "Overall": [
+            17
+          ],
+          "Several": [
+            209
+          ],
+          "This": [
+            0,
+            146
+          ],
+          "a": [
+            3,
+            220
+          ],
+          "according": [
+            28
+          ],
+          "achieve": [
+            60,
+            127
+          ],
+          "active": [
+            223
+          ],
+          "also": [
+            98,
+            181
+          ],
+          "an": [
+            89
+          ],
+          "analysis,": [
+            9
+          ],
+          "and": [
+            10,
+            24,
+            80,
+            107,
+            142,
+            199
+          ],
+          "approaches": [
+            119
+          ],
+          "are": [
+            131,
+            144,
+            217,
+            226
+          ],
+          "as": [
+            88,
+            204
+          ],
+          "available": [
+            56
+          ],
+          "based": [
+            99
+          ],
+          "basic": [
+            70
+          ],
+          "be": [
+            54,
+            75,
+            86
+          ],
+          "between": [
+            50
+          ],
+          "by": [
+            193
+          ],
+          "can": [
+            74,
+            85,
+            169
+          ],
+          "centralized": [
+            106
+          ],
+          "centralized,": [
+            79
+          ],
+          "classified": [
+            21
+          ],
+          "communication": [
+            49,
+            67,
+            114
+          ],
+          "contrast,": [
+            105
+          ],
+          "control": [
+            6,
+            18,
+            26,
+            72,
+            84,
+            94,
+            109,
+            124,
+            129
+          ],
+          "control,": [
+            39
+          ],
+          "control.": [
+            63,
+            82
+          ],
+          "converters": [
+            153
+          ],
+          "coordinated": [
+            25,
+            62,
+            71,
+            123
+          ],
+          "damped": [
+            174
+          ],
+          "dc": [
+            14,
+            139
+          ],
+          "decentralized,": [
+            78
+          ],
+          "defined": [
+            192
+          ],
+          "demonstrated": [
+            182
+          ],
+          "digital": [
+            113
+          ],
+          "discussed.": [
+            145
+          ],
+          "distinguished,": [
+            76
+          ],
+          "distributed": [
+            81,
+            108
+          ],
+          "dynamics": [
+            141
+          ],
+          "each": [
+            33
+          ],
+          "exclusively": [
+            100
+          ],
+          "extension": [
+            90
+          ],
+          "filters.": [
+            178
+          ],
+          "for": [
+            13,
+            212
+          ],
+          "functionalities": [
+            31
+          ],
+          "gain": [
+            216
+          ],
+          "gain.": [
+            208
+          ],
+          "how": [
+            184
+          ],
+          "i.e.,": [
+            77
+          ],
+          "illustrates": [
+            148
+          ],
+          "impedances,": [
+            167,
+            201
+          ],
+          "in": [
+            32,
+            57,
+            133
+          ],
+          "input": [
+            177
+          ],
+          "into": [
+            22
+          ],
+          "introduce": [
+            165
+          ],
+          "is": [
+            19,
+            97,
+            180,
+            191
+          ],
+          "it": [
+            96
+          ],
+          "level.": [
+            34
+          ],
+          "levels": [
+            27
+          ],
+          "lightly": [
+            173
+          ],
+          "line": [
+            47
+          ],
+          "load": [
+            200
+          ],
+          "local": [
+            23,
+            38,
+            44,
+            93,
+            102
+          ],
+          "loop": [
+            207,
+            215
+          ],
+          "made": [
+            55
+          ],
+          "margins": [
+            159
+          ],
+          "measurements,": [
+            45
+          ],
+          "measurements.": [
+            103
+          ],
+          "method,": [
+            68
+          ],
+          "microgrids": [
+            15
+          ],
+          "minor": [
+            206,
+            214
+          ],
+          "needs": [
+            52
+          ],
+          "negative": [
+            166
+          ],
+          "number": [
+            117,
+            221
+          ],
+          "objectives": [
+            130
+          ],
+          "of": [
+            5,
+            48,
+            91,
+            118,
+            138,
+            160,
+            187,
+            196,
+            222
+          ],
+          "on": [
+            43,
+            65,
+            101,
+            112
+          ],
+          "only": [
+            42
+          ],
+          "opposed": [
+            36
+          ],
+          "order": [
+            58
+          ],
+          "oscillate": [
+            171
+          ],
+          "paper": [
+            1,
+            147
+          ],
+          "paper.": [
+            135
+          ],
+          "point-of-load": [
+            152
+          ],
+          "potentially": [
+            170
+          ],
+          "power": [
+            175
+          ],
+          "presented.": [
+            227
+          ],
+          "presents": [
+            2
+          ],
+          "prominent": [
+            210
+          ],
+          "properties": [
+            137
+          ],
+          "reduce": [
+            156
+          ],
+          "referred": [
+            202
+          ],
+          "regarded": [
+            87
+          ],
+          "regulated": [
+            151
+          ],
+          "relationship": [
+            195
+          ],
+          "relies": [
+            41
+          ],
+          "rely": [
+            111
+          ],
+          "respective": [
+            30
+          ],
+          "review": [
+            4
+          ],
+          "reviewed": [
+            132
+          ],
+          "reviewed.": [
+            218
+          ],
+          "since": [
+            95,
+            163
+          ],
+          "some": [
+            46
+          ],
+          "source": [
+            198
+          ],
+          "specifications": [
+            211
+          ],
+          "stability": [
+            8,
+            143,
+            158,
+            186
+          ],
+          "stabilization": [
+            11,
+            224
+          ],
+          "strategies": [
+            73,
+            110,
+            125
+          ],
+          "strategies,": [
+            7
+          ],
+          "supply": [
+            176
+          ],
+          "system": [
+            162,
+            190
+          ],
+          "systematically": [
+            20
+          ],
+          "techniques": [
+            12,
+            225
+          ],
+          "technologies.": [
+            115
+          ],
+          "tend": [
+            154
+          ],
+          "that": [
+            149,
+            183
+          ],
+          "the": [
+            61,
+            66,
+            92,
+            157,
+            161,
+            185,
+            188,
+            194,
+            197,
+            205,
+            213
+          ],
+          "these": [
+            121
+          ],
+          "they": [
+            164
+          ],
+          "this": [
+            134
+          ],
+          "three": [
+            69,
+            122
+          ],
+          "tightly": [
+            150
+          ],
+          "to": [
+            29,
+            37,
+            53,
+            59,
+            126,
+            155,
+            203
+          ],
+          "units": [
+            51
+          ],
+          "using": [
+            120
+          ],
+          "various": [
+            128
+          ],
+          "which": [
+            40,
+            168
+          ],
+          "whole": [
+            189
+          ],
+          "with": [
+            172
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I891191580"
+                ],
+                "raw_affiliation_string": "Department of Energy Technology, Aalborg University, Aalborg, Denmark"
+              }
+            ],
+            "author": {
+              "display_name": "Tomislav Dragičević",
+              "id": "https://openalex.org/A5078176748",
+              "orcid": "https://orcid.org/0000-0003-4755-2024"
+            },
+            "author_position": "first",
+            "countries": [
+              "DK"
+            ],
+            "institutions": [
+              {
+                "country_code": "DK",
+                "display_name": "Aalborg University",
+                "id": "https://openalex.org/I891191580",
+                "lineage": [
+                  "https://openalex.org/I891191580"
+                ],
+                "ror": "https://ror.org/04m5j1k67",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Energy Technology, Aalborg University, Aalborg, Denmark"
+            ],
+            "raw_author_name": "Tomislav Dragicevic",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1282105669"
+                ],
+                "raw_affiliation_string": "Energy Systems Division, Argonne National Laboratory, Lemont, IL, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Xiaonan Lu",
+              "id": "https://openalex.org/A5100684375",
+              "orcid": "https://orcid.org/0000-0002-0920-1939"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Argonne National Laboratory",
+                "id": "https://openalex.org/I1282105669",
+                "lineage": [
+                  "https://openalex.org/I1282105669",
+                  "https://openalex.org/I1330989302",
+                  "https://openalex.org/I39565521",
+                  "https://openalex.org/I40347166"
+                ],
+                "ror": "https://ror.org/05gvnxz63",
+                "type": "facility"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Energy Systems Division, Argonne National Laboratory, Lemont, IL, USA"
+            ],
+            "raw_author_name": "Xiaonan Lu",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I891191580"
+                ],
+                "raw_affiliation_string": "Department of Energy Technology, Aalborg University, Aalborg, Denmark"
+              }
+            ],
+            "author": {
+              "display_name": "Juan C. Vásquez",
+              "id": "https://openalex.org/A5044175190",
+              "orcid": "https://orcid.org/0000-0001-6332-385X"
+            },
+            "author_position": "middle",
+            "countries": [
+              "DK"
+            ],
+            "institutions": [
+              {
+                "country_code": "DK",
+                "display_name": "Aalborg University",
+                "id": "https://openalex.org/I891191580",
+                "lineage": [
+                  "https://openalex.org/I891191580"
+                ],
+                "ror": "https://ror.org/04m5j1k67",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Energy Technology, Aalborg University, Aalborg, Denmark"
+            ],
+            "raw_author_name": "Juan Vasquez",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I891191580"
+                ],
+                "raw_affiliation_string": "Department of Energy Technology, Aalborg University, Aalborg, Denmark"
+              }
+            ],
+            "author": {
+              "display_name": "Josep M. Guerrero",
+              "id": "https://openalex.org/A5072189850",
+              "orcid": "https://orcid.org/0000-0001-5236-4592"
+            },
+            "author_position": "last",
+            "countries": [
+              "DK"
+            ],
+            "institutions": [
+              {
+                "country_code": "DK",
+                "display_name": "Aalborg University",
+                "id": "https://openalex.org/I891191580",
+                "lineage": [
+                  "https://openalex.org/I891191580"
+                ],
+                "ror": "https://ror.org/04m5j1k67",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Energy Technology, Aalborg University, Aalborg, Denmark"
+            ],
+            "raw_author_name": "Josep Guerrero",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "DC Microgrids–Part I: A Review of Control Strategies and Stabilization Techniques",
+        "doi": "https://doi.org/10.1109/tpel.2015.2478859",
+        "id": "https://openalex.org/W2232335510",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://vbn.aau.dk/ws/files/218830588/Paper1_final.pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1109/tpel.2015.2478859",
+          "is_accepted": true,
+          "is_oa": false,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1109/tpel.2015.2478859",
+          "license": null,
+          "license_id": null,
+          "pdf_url": null,
+          "raw_source_name": "IEEE Transactions on Power Electronics",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "IEEE Transactions on Power Electronics",
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "id": "https://openalex.org/S29875816",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "0885-8993",
+              "1941-0107"
+            ],
+            "issn_l": "0885-8993",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2015-01-01",
+        "publication_year": 2015,
+        "title": "DC Microgrids–Part I: A Review of Control Strategies and Stabilization Techniques",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "(MGs)": [
+            2
+          ],
+          "A": [
+            86
+          ],
+          "Also,": [
+            254
+          ],
+          "Closely": [
+            231
+          ],
+          "DC": [
+            0
+          ],
+          "Finally,": [
+            262
+          ],
+          "In": [
+            204
+          ],
+          "MG": [
+            108,
+            140,
+            167
+          ],
+          "MGs": [
+            200
+          ],
+          "Owing": [
+            173
+          ],
+          "The": [
+            21,
+            35
+          ],
+          "Then,": [
+            156
+          ],
+          "This": [
+            126
+          ],
+          "With": [
+            60
+          ],
+          "a": [
+            6,
+            82,
+            201,
+            208
+          ],
+          "ac": [
+            30
+          ],
+          "academia": [
+            18
+          ],
+          "addressed.": [
+            261
+          ],
+          "advantages": [
+            22
+          ],
+          "aims": [
+            128
+          ],
+          "an": [
+            157,
+            183
+          ],
+          "and": [
+            19,
+            42,
+            46,
+            53,
+            56,
+            99,
+            110,
+            113,
+            147,
+            169,
+            222,
+            243,
+            248,
+            265
+          ],
+          "appears": [
+            186
+          ],
+          "applications,": [
+            93
+          ],
+          "applications.": [
+            155
+          ],
+          "arc": [
+            184
+          ],
+          "are": [
+            32,
+            246,
+            252,
+            260,
+            270
+          ],
+          "art": [
+            164
+          ],
+          "as": [
+            95
+          ],
+          "aspects": [
+            137
+          ],
+          "be": [
+            104,
+            192
+          ],
+          "been": [
+            4
+          ],
+          "being": [
+            79
+          ],
+          "both": [
+            16,
+            216
+          ],
+          "breaking": [
+            188
+          ],
+          "broad": [
+            87
+          ],
+          "brought": [
+            80
+          ],
+          "by": [
+            121
+          ],
+          "can": [
+            103
+          ],
+          "cannot": [
+            191
+          ],
+          "challenging": [
+            202
+          ],
+          "class": [
+            88
+          ],
+          "classified": [
+            105
+          ],
+          "common-mode": [
+            244
+          ],
+          "compared": [
+            27
+          ],
+          "components": [
+            65
+          ],
+          "comprehensive": [
+            209
+          ],
+          "concepts": [
+            122
+          ],
+          "concerning": [
+            142
+          ],
+          "concluding": [
+            263
+          ],
+          "conflicting": [
+            235
+          ],
+          "continually": [
+            7
+          ],
+          "control": [
+            45
+          ],
+          "counterpart": [
+            31
+          ],
+          "couple": [
+            13
+          ],
+          "coupled": [
+            232
+          ],
+          "crossing,": [
+            182
+          ],
+          "current": [
+            190,
+            242
+          ],
+          "dc": [
+            24,
+            73,
+            91,
+            107,
+            139,
+            166,
+            189,
+            199,
+            258
+          ],
+          "design": [
+            136,
+            217
+          ],
+          "development,": [
+            112
+          ],
+          "devices": [
+            221
+          ],
+          "different": [
+            151
+          ],
+          "directions": [
+            269
+          ],
+          "discusses": [
+            215
+          ],
+          "distributed": [
+            100
+          ],
+          "distribution": [
+            25,
+            92
+          ],
+          "e.g.,": [
+            238
+          ],
+          "efficiency,": [
+            43
+          ],
+          "efforts": [
+            256
+          ],
+          "electronic": [
+            54
+          ],
+          "emergence": [
+            62
+          ],
+          "emerging": [
+            152
+          ],
+          "energy": [
+            51,
+            57
+          ],
+          "expansion": [
+            114
+          ],
+          "explained": [
+            247
+          ],
+          "extinguished": [
+            193
+          ],
+          "fact": [
+            176
+          ],
+          "field": [
+            117
+          ],
+          "first": [
+            129
+          ],
+          "for": [
+            150,
+            257
+          ],
+          "framework": [
+            109
+          ],
+          "future": [
+            267
+          ],
+          "gaining": [
+            5
+          ],
+          "gradually": [
+            78
+          ],
+          "grid": [
+            154
+          ],
+          "grounding": [
+            170,
+            236
+          ],
+          "hardware": [
+            145
+          ],
+          "have": [
+            3
+          ],
+          "higher": [
+            40
+          ],
+          "importance": [
+            71
+          ],
+          "important": [
+            37,
+            266
+          ],
+          "in": [
+            17,
+            66,
+            74,
+            165
+          ],
+          "include": [
+            39
+          ],
+          "increasing": [
+            8
+          ],
+          "industry.": [
+            20
+          ],
+          "influenced": [
+            120
+          ],
+          "integration": [
+            224
+          ],
+          "interest": [
+            9
+          ],
+          "interface": [
+            48
+          ],
+          "into": [
+            225
+          ],
+          "is": [
+            77,
+            118,
+            171,
+            179,
+            229
+          ],
+          "its": [
+            29
+          ],
+          "known.": [
+            34
+          ],
+          "largely": [
+            119
+          ],
+          "level.": [
+            85
+          ],
+          "light": [
+            132
+          ],
+          "loads": [
+            55
+          ],
+          "making": [
+            195
+          ],
+          "microgrids": [
+            1
+          ],
+          "minimization": [
+            239
+          ],
+          "modern": [
+            67
+          ],
+          "most": [
+            36
+          ],
+          "natural": [
+            47
+          ],
+          "naturally,": [
+            194
+          ],
+          "new": [
+            84
+          ],
+          "no": [
+            180
+          ],
+          "objectives,": [
+            237
+          ],
+          "of": [
+            14,
+            23,
+            63,
+            72,
+            89,
+            115,
+            138,
+            159,
+            162,
+            198,
+            211,
+            218,
+            240
+          ],
+          "on": [
+            133
+          ],
+          "ones": [
+            38
+          ],
+          "ongoing": [
+            111
+          ],
+          "out.": [
+            272
+          ],
+          "over": [
+            10,
+            124
+          ],
+          "overall": [
+            226
+          ],
+          "overview": [
+            158,
+            210
+          ],
+          "paper": [
+            127
+          ],
+          "past": [
+            12
+          ],
+          "pointed": [
+            271
+          ],
+          "power": [
+            68,
+            101,
+            144
+          ],
+          "practical": [
+            135,
+            219,
+            250
+          ],
+          "presented.": [
+            253
+          ],
+          "problem.": [
+            203
+          ],
+          "protection": [
+            168,
+            197,
+            212,
+            227
+          ],
+          "protection,": [
+            234
+          ],
+          "protective": [
+            220
+          ],
+          "provided.": [
+            172,
+            230
+          ],
+          "rapid": [
+            61
+          ],
+          "relation": [
+            205
+          ],
+          "reliability": [
+            41
+          ],
+          "remarks": [
+            264
+          ],
+          "renewable": [
+            50
+          ],
+          "research": [
+            268
+          ],
+          "schemes,": [
+            213
+          ],
+          "several": [
+            249
+          ],
+          "shed": [
+            131
+          ],
+          "simpler": [
+            44
+          ],
+          "smart": [
+            153
+          ],
+          "society": [
+            76
+          ],
+          "solutions": [
+            251
+          ],
+          "sources,": [
+            52
+          ],
+          "standardization": [
+            255
+          ],
+          "state": [
+            161
+          ],
+          "storage": [
+            58
+          ],
+          "stray": [
+            241
+          ],
+          "such": [
+            94
+          ],
+          "suitability": [
+            149
+          ],
+          "systems": [
+            102,
+            259
+          ],
+          "systems,": [
+            69,
+            228
+          ],
+          "systems.": [
+            59
+          ],
+          "technology": [
+            141
+          ],
+          "telecom,": [
+            97
+          ],
+          "that": [
+            177,
+            185
+          ],
+          "the": [
+            11,
+            70,
+            116,
+            134,
+            160,
+            163,
+            175,
+            196
+          ],
+          "their": [
+            148,
+            223
+          ],
+          "there": [
+            178
+          ],
+          "there.": [
+            125
+          ],
+          "these": [
+            64
+          ],
+          "this,": [
+            207
+          ],
+          "to": [
+            28,
+            81,
+            130,
+            174
+          ],
+          "today's": [
+            75
+          ],
+          "topologies": [
+            146
+          ],
+          "traction,": [
+            96
+          ],
+          "traditional": [
+            90
+          ],
+          "typical": [
+            143
+          ],
+          "under": [
+            106
+          ],
+          "upon": [
+            187
+          ],
+          "used": [
+            123
+          ],
+          "vehicular,": [
+            98
+          ],
+          "voltage,": [
+            245
+          ],
+          "well": [
+            33
+          ],
+          "when": [
+            26
+          ],
+          "which": [
+            214
+          ],
+          "whole": [
+            83
+          ],
+          "with": [
+            49,
+            206,
+            233
+          ],
+          "years": [
+            15
+          ],
+          "zero-current": [
+            181
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I891191580"
+                ],
+                "raw_affiliation_string": "Department of Energy Technology, Aalborg University, Aalborg, Denmark"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I891191580"
+                ],
+                "raw_affiliation_string": "[†Department of Energy Technology, Aalborg University, Aalborg, Denmark]"
+              }
+            ],
+            "author": {
+              "display_name": "Tomislav Dragičević",
+              "id": "https://openalex.org/A5078176748",
+              "orcid": "https://orcid.org/0000-0003-4755-2024"
+            },
+            "author_position": "first",
+            "countries": [
+              "DK"
+            ],
+            "institutions": [
+              {
+                "country_code": "DK",
+                "display_name": "Aalborg University",
+                "id": "https://openalex.org/I891191580",
+                "lineage": [
+                  "https://openalex.org/I891191580"
+                ],
+                "ror": "https://ror.org/04m5j1k67",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Energy Technology, Aalborg University, Aalborg, Denmark",
+              "[†Department of Energy Technology, Aalborg University, Aalborg, Denmark]"
+            ],
+            "raw_author_name": "Tomislav Dragicevic",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1282105669"
+                ],
+                "raw_affiliation_string": "Energy Systems Division, Argonne National Laboratory, Lemont, IL, USA"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1282105669"
+                ],
+                "raw_affiliation_string": "Energy Systems Division , Argonne National Laboratory , Lemont, IL , USA"
+              }
+            ],
+            "author": {
+              "display_name": "Xiaonan Lu",
+              "id": "https://openalex.org/A5100684375",
+              "orcid": "https://orcid.org/0000-0002-0920-1939"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Argonne National Laboratory",
+                "id": "https://openalex.org/I1282105669",
+                "lineage": [
+                  "https://openalex.org/I1282105669",
+                  "https://openalex.org/I1330989302",
+                  "https://openalex.org/I39565521",
+                  "https://openalex.org/I40347166"
+                ],
+                "ror": "https://ror.org/05gvnxz63",
+                "type": "facility"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Energy Systems Division, Argonne National Laboratory, Lemont, IL, USA",
+              "Energy Systems Division , Argonne National Laboratory , Lemont, IL , USA"
+            ],
+            "raw_author_name": "Xiaonan Lu",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I891191580"
+                ],
+                "raw_affiliation_string": "Department of Energy Technology, Aalborg University, Aalborg, Denmark"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I891191580"
+                ],
+                "raw_affiliation_string": "[†Department of Energy Technology, Aalborg University, Aalborg, Denmark]"
+              }
+            ],
+            "author": {
+              "display_name": "Juan C. Vásquez",
+              "id": "https://openalex.org/A5044175190",
+              "orcid": "https://orcid.org/0000-0001-6332-385X"
+            },
+            "author_position": "middle",
+            "countries": [
+              "DK"
+            ],
+            "institutions": [
+              {
+                "country_code": "DK",
+                "display_name": "Aalborg University",
+                "id": "https://openalex.org/I891191580",
+                "lineage": [
+                  "https://openalex.org/I891191580"
+                ],
+                "ror": "https://ror.org/04m5j1k67",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Energy Technology, Aalborg University, Aalborg, Denmark",
+              "[†Department of Energy Technology, Aalborg University, Aalborg, Denmark]"
+            ],
+            "raw_author_name": "Juan C. Vasquez",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I891191580"
+                ],
+                "raw_affiliation_string": "Department of Energy Technology, Aalborg University, Aalborg, Denmark"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I891191580"
+                ],
+                "raw_affiliation_string": "[†Department of Energy Technology, Aalborg University, Aalborg, Denmark]"
+              }
+            ],
+            "author": {
+              "display_name": "Josep M. Guerrero",
+              "id": "https://openalex.org/A5072189850",
+              "orcid": "https://orcid.org/0000-0001-5236-4592"
+            },
+            "author_position": "last",
+            "countries": [
+              "DK"
+            ],
+            "institutions": [
+              {
+                "country_code": "DK",
+                "display_name": "Aalborg University",
+                "id": "https://openalex.org/I891191580",
+                "lineage": [
+                  "https://openalex.org/I891191580"
+                ],
+                "ror": "https://ror.org/04m5j1k67",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Energy Technology, Aalborg University, Aalborg, Denmark",
+              "[†Department of Energy Technology, Aalborg University, Aalborg, Denmark]"
+            ],
+            "raw_author_name": "Josep M. Guerrero",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "DC Microgrids—Part II: A Review of Power Architectures, Applications, and Standardization Issues",
+        "doi": "https://doi.org/10.1109/tpel.2015.2464277",
+        "id": "https://openalex.org/W2100945405",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://vbn.aau.dk/files/218619476/Final_Paper2_double_column.pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1109/tpel.2015.2464277",
+          "is_accepted": true,
+          "is_oa": false,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1109/tpel.2015.2464277",
+          "license": null,
+          "license_id": null,
+          "pdf_url": null,
+          "raw_source_name": "IEEE Transactions on Power Electronics",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "IEEE Transactions on Power Electronics",
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "id": "https://openalex.org/S29875816",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "0885-8993",
+              "1941-0107"
+            ],
+            "issn_l": "0885-8993",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2015-08-04",
+        "publication_year": 2015,
+        "title": "DC Microgrids—Part II: A Review of Power Architectures, Applications, and Standardization Issues",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "(MPC)": [
+            4,
+            95
+          ],
+          "Abstract": [
+            0
+          ],
+          "Besides": [
+            223
+          ],
+          "By": [
+            28
+          ],
+          "Furthermore,": [
+            197
+          ],
+          "Its": [
+            75
+          ],
+          "MPC": [
+            33
+          ],
+          "MPC,": [
+            140,
+            230
+          ],
+          "MPC.": [
+            74,
+            222,
+            247
+          ],
+          "Model-based": [
+            1,
+            92
+          ],
+          "Since": [
+            55
+          ],
+          "This": [
+            39,
+            128,
+            162
+          ],
+          "We": [
+            182
+          ],
+          "While": [
+            135
+          ],
+          "With": [
+            108
+          ],
+          "a": [
+            6,
+            16,
+            47,
+            119,
+            149,
+            215
+          ],
+          "advanced": [
+            9
+          ],
+          "already": [
+            194
+          ],
+          "an": [
+            125
+          ],
+          "and": [
+            124,
+            156,
+            175,
+            207
+          ],
+          "application-driven": [
+            126
+          ],
+          "applications": [
+            187
+          ],
+          "applications,": [
+            158
+          ],
+          "applying": [
+            69
+          ],
+          "are": [
+            58,
+            241
+          ],
+          "art": [
+            170
+          ],
+          "article": [
+            130,
+            163
+          ],
+          "as": [
+            133
+          ],
+          "attention": [
+            185
+          ],
+          "available": [
+            59
+          ],
+          "a—potentially": [
+            30
+          ],
+          "be": [
+            102
+          ],
+          "been": [
+            147
+          ],
+          "beginnings": [
+            138
+          ],
+          "behavior": [
+            23
+          ],
+          "burden—still": [
+            214
+          ],
+          "by": [
+            104
+          ],
+          "can": [
+            96
+          ],
+          "cannot": [
+            101
+          ],
+          "comprehensive": [
+            150
+          ],
+          "computational": [
+            213
+          ],
+          "concise": [
+            120
+          ],
+          "considerations": [
+            177
+          ],
+          "constrained—optimization": [
+            31
+          ],
+          "control": [
+            3,
+            10,
+            36,
+            70,
+            94,
+            98
+          ],
+          "controlled": [
+            26,
+            103
+          ],
+          "controller": [
+            48
+          ],
+          "controller.": [
+            91
+          ],
+          "controllers.": [
+            107
+          ],
+          "conventional": [
+            105
+          ],
+          "cope": [
+            210
+          ],
+          "create": [
+            179
+          ],
+          "current": [
+            166
+          ],
+          "deceased": [
+            72
+          ],
+          "demonstrate": [
+            191
+          ],
+          "describes": [
+            5
+          ],
+          "design": [
+            45,
+            220
+          ],
+          "detailed": [
+            200
+          ],
+          "details": [
+            204
+          ],
+          "determines": [
+            34
+          ],
+          "development": [
+            228
+          ],
+          "developments,": [
+            155
+          ],
+          "discussion": [
+            201
+          ],
+          "effort": [
+            42
+          ],
+          "emphasizing": [
+            238
+          ],
+          "engineering,": [
+            64
+          ],
+          "even": [
+            97
+          ],
+          "evolution,": [
+            174
+          ],
+          "facilitating": [
+            86
+          ],
+          "factor": [
+            217
+          ],
+          "feedback": [
+            106
+          ],
+          "fields": [
+            62
+          ],
+          "for": [
+            43,
+            68,
+            118
+          ],
+          "formulation": [
+            77
+          ],
+          "future": [
+            22,
+            236
+          ],
+          "general": [
+            206
+          ],
+          "have": [
+            146
+          ],
+          "historic": [
+            173
+          ],
+          "hurdle": [
+            67
+          ],
+          "implantation": [
+            203
+          ],
+          "implicit": [
+            76
+          ],
+          "implicitly.": [
+            38
+          ],
+          "in": [
+            60,
+            136,
+            188,
+            205,
+            218,
+            226,
+            246
+          ],
+          "including": [
+            171
+          ],
+          "initial": [
+            66
+          ],
+          "intuitive": [
+            180
+          ],
+          "is": [
+            71,
+            116,
+            159,
+            193
+          ],
+          "it": [
+            115,
+            123
+          ],
+          "key": [
+            224
+          ],
+          "laid": [
+            113
+          ],
+          "latest": [
+            154
+          ],
+          "law": [
+            37
+          ],
+          "lay": [
+            183
+          ],
+          "logical": [
+            244
+          ],
+          "maintains": [
+            78
+          ],
+          "major": [
+            216
+          ],
+          "make": [
+            13
+          ],
+          "many": [
+            61
+          ],
+          "methods": [
+            225
+          ],
+          "methods,": [
+            11
+          ],
+          "missing": [
+            160
+          ],
+          "model": [
+            18
+          ],
+          "modeling": [
+            50
+          ],
+          "models": [
+            57
+          ],
+          "most": [
+            109
+          ],
+          "next": [
+            243
+          ],
+          "noticed": [
+            143
+          ],
+          "of": [
+            8,
+            15,
+            24,
+            46,
+            51,
+            63,
+            82,
+            89,
+            110,
+            122,
+            139,
+            168,
+            221,
+            229
+          ],
+          "on": [
+            152,
+            157,
+            186,
+            202
+          ],
+          "order": [
+            189
+          ],
+          "out,": [
+            114
+          ],
+          "overview": [
+            151
+          ],
+          "paper": [
+            145
+          ],
+          "parameters": [
+            85
+          ],
+          "physical": [
+            80
+          ],
+          "points": [
+            233
+          ],
+          "possible": [
+            195
+          ],
+          "practical": [
+            176
+          ],
+          "predict": [
+            20
+          ],
+          "predictive": [
+            2,
+            93
+          ],
+          "problem,": [
+            32
+          ],
+          "process": [
+            17
+          ],
+          "process.": [
+            54
+          ],
+          "provide": [
+            199
+          ],
+          "published,": [
+            148
+          ],
+          "review": [
+            129,
+            144,
+            232
+          ],
+          "reviews": [
+            164
+          ],
+          "serve": [
+            132
+          ],
+          "set": [
+            7
+          ],
+          "several": [
+            141
+          ],
+          "shifts": [
+            40
+          ],
+          "should": [
+            131
+          ],
+          "solving": [
+            29
+          ],
+          "special": [
+            184
+          ],
+          "state": [
+            167
+          ],
+          "steps": [
+            245
+          ],
+          "strategies": [
+            208
+          ],
+          "such": [
+            56
+          ],
+          "such.": [
+            134
+          ],
+          "summary": [
+            121
+          ],
+          "survey.": [
+            127
+          ],
+          "system": [
+            84
+          ],
+          "system.": [
+            27
+          ],
+          "systems,": [
+            99
+          ],
+          "the": [
+            21,
+            25,
+            35,
+            41,
+            44,
+            52,
+            65,
+            79,
+            83,
+            87,
+            90,
+            111,
+            137,
+            153,
+            165,
+            169,
+            212,
+            219,
+            227,
+            235,
+            242
+          ],
+          "theory": [
+            112
+          ],
+          "theory,": [
+            172
+          ],
+          "they": [
+            240
+          ],
+          "this": [
+            231
+          ],
+          "time": [
+            117
+          ],
+          "to": [
+            19,
+            178,
+            190,
+            209,
+            234
+          ],
+          "to-be-controlled": [
+            53
+          ],
+          "today.": [
+            161,
+            196
+          ],
+          "towards": [
+            49
+          ],
+          "trends": [
+            237
+          ],
+          "tuning": [
+            88
+          ],
+          "understanding": [
+            81
+          ],
+          "understanding.": [
+            181
+          ],
+          "use": [
+            14
+          ],
+          "we": [
+            198
+          ],
+          "what": [
+            192
+          ],
+          "which": [
+            12,
+            100
+          ],
+          "why": [
+            239
+          ],
+          "widely": [
+            142
+          ],
+          "with": [
+            73,
+            211
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I887968799"
+                ],
+                "raw_affiliation_string": "Laboratory for Machine Tools and Production Engineering (WZL), RWTH Aachen University, Aachen, Germany"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I887968799"
+                ],
+                "raw_affiliation_string": "Laboratory for Machine Tools and Production Engineering (WZL), RWTH Aachen University, Campus-Boulevard 30, 52074, Aachen, Germany"
+              }
+            ],
+            "author": {
+              "display_name": "Max Schwenzer",
+              "id": "https://openalex.org/A5013631776",
+              "orcid": "https://orcid.org/0000-0002-3422-8631"
+            },
+            "author_position": "first",
+            "countries": [
+              "DE"
+            ],
+            "institutions": [
+              {
+                "country_code": "DE",
+                "display_name": "RWTH Aachen University",
+                "id": "https://openalex.org/I887968799",
+                "lineage": [
+                  "https://openalex.org/I887968799"
+                ],
+                "ror": "https://ror.org/04xfq0f34",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "Laboratory for Machine Tools and Production Engineering (WZL), RWTH Aachen University, Aachen, Germany",
+              "Laboratory for Machine Tools and Production Engineering (WZL), RWTH Aachen University, Campus-Boulevard 30, 52074, Aachen, Germany"
+            ],
+            "raw_author_name": "Max Schwenzer",
+            "raw_orcid": "https://orcid.org/0000-0002-3422-8631"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I887968799"
+                ],
+                "raw_affiliation_string": "Institute of Automatic Control (IRT), RWTH Aachen University, Aachen, Germany"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I887968799"
+                ],
+                "raw_affiliation_string": "Institute of Automatic Control (IRT), RWTH Aachen University, Campus-Boulevard 30, 52074, Aachen, Germany"
+              }
+            ],
+            "author": {
+              "display_name": "Muzaffer Ay",
+              "id": "https://openalex.org/A5079064177",
+              "orcid": "https://orcid.org/0000-0002-5365-3190"
+            },
+            "author_position": "middle",
+            "countries": [
+              "DE"
+            ],
+            "institutions": [
+              {
+                "country_code": "DE",
+                "display_name": "RWTH Aachen University",
+                "id": "https://openalex.org/I887968799",
+                "lineage": [
+                  "https://openalex.org/I887968799"
+                ],
+                "ror": "https://ror.org/04xfq0f34",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Institute of Automatic Control (IRT), RWTH Aachen University, Aachen, Germany",
+              "Institute of Automatic Control (IRT), RWTH Aachen University, Campus-Boulevard 30, 52074, Aachen, Germany"
+            ],
+            "raw_author_name": "Muzaffer Ay",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210096398"
+                ],
+                "raw_affiliation_string": "Fraunhofer Institute for Production Technology IPT, Aachen, Germany"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I887968799"
+                ],
+                "raw_affiliation_string": "Laboratory for Machine Tools and Production Engineering (WZL), RWTH Aachen University, Aachen, Germany"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I887968799"
+                ],
+                "raw_affiliation_string": "Laboratory for Machine Tools and Production Engineering (WZL), RWTH Aachen University, Campus-Boulevard 30, 52074, Aachen, Germany"
+              }
+            ],
+            "author": {
+              "display_name": "Thomas Bergs",
+              "id": "https://openalex.org/A5066576243",
+              "orcid": "https://orcid.org/0000-0003-2754-2689"
+            },
+            "author_position": "middle",
+            "countries": [
+              "DE"
+            ],
+            "institutions": [
+              {
+                "country_code": "DE",
+                "display_name": "Fraunhofer Institute for Production Technology IPT",
+                "id": "https://openalex.org/I4210096398",
+                "lineage": [
+                  "https://openalex.org/I4210096398",
+                  "https://openalex.org/I4923324"
+                ],
+                "ror": "https://ror.org/00t0rcy29",
+                "type": "facility"
+              },
+              {
+                "country_code": "DE",
+                "display_name": "RWTH Aachen University",
+                "id": "https://openalex.org/I887968799",
+                "lineage": [
+                  "https://openalex.org/I887968799"
+                ],
+                "ror": "https://ror.org/04xfq0f34",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Fraunhofer Institute for Production Technology IPT, Aachen, Germany",
+              "Laboratory for Machine Tools and Production Engineering (WZL), RWTH Aachen University, Aachen, Germany",
+              "Laboratory for Machine Tools and Production Engineering (WZL), RWTH Aachen University, Campus-Boulevard 30, 52074, Aachen, Germany"
+            ],
+            "raw_author_name": "Thomas Bergs",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I887968799"
+                ],
+                "raw_affiliation_string": "Institute of Automatic Control (IRT), RWTH Aachen University, Aachen, Germany"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I887968799"
+                ],
+                "raw_affiliation_string": "Institute of Automatic Control (IRT), RWTH Aachen University, Campus-Boulevard 30, 52074, Aachen, Germany"
+              }
+            ],
+            "author": {
+              "display_name": "Dirk Abel",
+              "id": "https://openalex.org/A5029739081",
+              "orcid": "https://orcid.org/0000-0003-0286-3654"
+            },
+            "author_position": "last",
+            "countries": [
+              "DE"
+            ],
+            "institutions": [
+              {
+                "country_code": "DE",
+                "display_name": "RWTH Aachen University",
+                "id": "https://openalex.org/I887968799",
+                "lineage": [
+                  "https://openalex.org/I887968799"
+                ],
+                "ror": "https://ror.org/04xfq0f34",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Institute of Automatic Control (IRT), RWTH Aachen University, Aachen, Germany",
+              "Institute of Automatic Control (IRT), RWTH Aachen University, Campus-Boulevard 30, 52074, Aachen, Germany"
+            ],
+            "raw_author_name": "Dirk Abel",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "Review on model predictive control: an engineering perspective",
+        "doi": "https://doi.org/10.1007/s00170-021-07682-3",
+        "id": "https://openalex.org/W3189223768",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://link.springer.com/content/pdf/10.1007/s00170-021-07682-3.pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1007/s00170-021-07682-3",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1007/s00170-021-07682-3",
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s00170-021-07682-3.pdf",
+          "raw_source_name": "The International Journal of Advanced Manufacturing Technology",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "The International Journal of Advanced Manufacturing Technology",
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "host_organization_name": "Springer Science+Business Media",
+            "id": "https://openalex.org/S77056576",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "0268-3768",
+              "1433-3015"
+            ],
+            "issn_l": "0268-3768",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2021-08-11",
+        "publication_year": 2021,
+        "title": "Review on model predictive control: an engineering perspective",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": null,
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210096473",
+                  "https://openalex.org/I4391012582"
+                ],
+                "raw_affiliation_string": "Department of Statistics and Mathematics, Institute of Southern Punjab, Multan, Pakistan"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I16076960"
+                ],
+                "raw_affiliation_string": "Department of Computer Science, COMSATS University Islamabad, Pakistan"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I163151358"
+                ],
+                "raw_affiliation_string": "Department of Electrical Engineering, Computer Engineering and Informatics, Cyprus University of Technology, Limassol, Cyprus"
+              }
+            ],
+            "author": {
+              "display_name": "Sheraz Aslam",
+              "id": "https://openalex.org/A5061765479",
+              "orcid": "https://orcid.org/0000-0003-4305-0908"
+            },
+            "author_position": "first",
+            "countries": [
+              "CY",
+              "PK"
+            ],
+            "institutions": [
+              {
+                "country_code": "PK",
+                "display_name": "COMSATS University Islamabad",
+                "id": "https://openalex.org/I16076960",
+                "lineage": [
+                  "https://openalex.org/I16076960"
+                ],
+                "ror": "https://ror.org/00nqqvk19",
+                "type": "education"
+              },
+              {
+                "country_code": "CY",
+                "display_name": "Cyprus University of Technology",
+                "id": "https://openalex.org/I163151358",
+                "lineage": [
+                  "https://openalex.org/I163151358"
+                ],
+                "ror": "https://ror.org/05qt8tf94",
+                "type": "education"
+              },
+              {
+                "country_code": "PK",
+                "display_name": "Muhammad Nawaz Shareef University of Agriculture",
+                "id": "https://openalex.org/I4210096473",
+                "lineage": [
+                  "https://openalex.org/I4210096473"
+                ],
+                "ror": "https://ror.org/00vmr6593",
+                "type": "education"
+              },
+              {
+                "country_code": "PK",
+                "display_name": "Institute of Southern Punjab",
+                "id": "https://openalex.org/I4391012582",
+                "lineage": [
+                  "https://openalex.org/I4391012582"
+                ],
+                "ror": "https://ror.org/05fvxrd95",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "Department of Statistics and Mathematics, Institute of Southern Punjab, Multan, Pakistan",
+              "Department of Computer Science, COMSATS University Islamabad, Pakistan",
+              "Department of Electrical Engineering, Computer Engineering and Informatics, Cyprus University of Technology, Limassol, Cyprus"
+            ],
+            "raw_author_name": "Sheraz Aslam",
+            "raw_orcid": "https://orcid.org/0000-0003-4305-0908"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210096473",
+                  "https://openalex.org/I4391012582"
+                ],
+                "raw_affiliation_string": "Department of Statistics and Mathematics, Institute of Southern Punjab, Multan, Pakistan"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I163151358"
+                ],
+                "raw_affiliation_string": "Department of Electrical Engineering, Computer Engineering and Informatics, Cyprus University of Technology, Limassol, Cyprus"
+              }
+            ],
+            "author": {
+              "display_name": "Sheraz Aslam",
+              "id": "https://openalex.org/A5061765479",
+              "orcid": "https://orcid.org/0000-0003-4305-0908"
+            },
+            "author_position": "middle",
+            "countries": [
+              "CY",
+              "PK"
+            ],
+            "institutions": [
+              {
+                "country_code": "CY",
+                "display_name": "Cyprus University of Technology",
+                "id": "https://openalex.org/I163151358",
+                "lineage": [
+                  "https://openalex.org/I163151358"
+                ],
+                "ror": "https://ror.org/05qt8tf94",
+                "type": "education"
+              },
+              {
+                "country_code": "PK",
+                "display_name": "Muhammad Nawaz Shareef University of Agriculture",
+                "id": "https://openalex.org/I4210096473",
+                "lineage": [
+                  "https://openalex.org/I4210096473"
+                ],
+                "ror": "https://ror.org/00vmr6593",
+                "type": "education"
+              },
+              {
+                "country_code": "PK",
+                "display_name": "Institute of Southern Punjab",
+                "id": "https://openalex.org/I4391012582",
+                "lineage": [
+                  "https://openalex.org/I4391012582"
+                ],
+                "ror": "https://ror.org/05fvxrd95",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Statistics and Mathematics, Institute of Southern Punjab, Multan, Pakistan",
+              "Department of Electrical Engineering, Computer Engineering and Informatics, Cyprus University of Technology, Limassol, Cyprus"
+            ],
+            "raw_author_name": "Sheraz Aslam",
+            "raw_orcid": "https://orcid.org/0000-0003-4305-0908"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I163151358"
+                ],
+                "raw_affiliation_string": "Department of Electrical Engineering, Computer Engineering and Informatics, Cyprus University of Technology, Limassol, Cyprus"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I16076960"
+                ],
+                "raw_affiliation_string": "Department of Computer Science, COMSATS University Islamabad, Pakistan"
+              }
+            ],
+            "author": {
+              "display_name": "Herodotos Herodotou",
+              "id": "https://openalex.org/A5010833372",
+              "orcid": "https://orcid.org/0000-0002-8717-1691"
+            },
+            "author_position": "middle",
+            "countries": [
+              "CY",
+              "PK"
+            ],
+            "institutions": [
+              {
+                "country_code": "PK",
+                "display_name": "COMSATS University Islamabad",
+                "id": "https://openalex.org/I16076960",
+                "lineage": [
+                  "https://openalex.org/I16076960"
+                ],
+                "ror": "https://ror.org/00nqqvk19",
+                "type": "education"
+              },
+              {
+                "country_code": "CY",
+                "display_name": "Cyprus University of Technology",
+                "id": "https://openalex.org/I163151358",
+                "lineage": [
+                  "https://openalex.org/I163151358"
+                ],
+                "ror": "https://ror.org/05qt8tf94",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical Engineering, Computer Engineering and Informatics, Cyprus University of Technology, Limassol, Cyprus",
+              "Department of Computer Science, COMSATS University Islamabad, Pakistan"
+            ],
+            "raw_author_name": "Herodotos Herodotou",
+            "raw_orcid": "https://orcid.org/0000-0002-8717-1691"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I16076960"
+                ],
+                "raw_affiliation_string": "Department of Computer Science, COMSATS University Islamabad, Pakistan"
+              }
+            ],
+            "author": {
+              "display_name": "Syed Muhammad Mohsin",
+              "id": "https://openalex.org/A5037090300",
+              "orcid": "https://orcid.org/0000-0003-0886-9061"
+            },
+            "author_position": "middle",
+            "countries": [
+              "PK"
+            ],
+            "institutions": [
+              {
+                "country_code": "PK",
+                "display_name": "COMSATS University Islamabad",
+                "id": "https://openalex.org/I16076960",
+                "lineage": [
+                  "https://openalex.org/I16076960"
+                ],
+                "ror": "https://ror.org/00nqqvk19",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Computer Science, COMSATS University Islamabad, Pakistan"
+            ],
+            "raw_author_name": "Syed Muhammad Mohsin",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I16076960"
+                ],
+                "raw_affiliation_string": "Department of Computer Science, COMSATS University Islamabad, Pakistan"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I7478328"
+                ],
+                "raw_affiliation_string": "Telecommunications Software and Systems Group (TSSG), Waterford Institute of Technology, Ireland"
+              }
+            ],
+            "author": {
+              "display_name": "Nadeem Javaid",
+              "id": "https://openalex.org/A5055380996",
+              "orcid": "https://orcid.org/0000-0003-3777-8249"
+            },
+            "author_position": "middle",
+            "countries": [
+              "IE",
+              "PK"
+            ],
+            "institutions": [
+              {
+                "country_code": "PK",
+                "display_name": "COMSATS University Islamabad",
+                "id": "https://openalex.org/I16076960",
+                "lineage": [
+                  "https://openalex.org/I16076960"
+                ],
+                "ror": "https://ror.org/00nqqvk19",
+                "type": "education"
+              },
+              {
+                "country_code": "IE",
+                "display_name": "Waterford Institute of Technology",
+                "id": "https://openalex.org/I7478328",
+                "lineage": [
+                  "https://openalex.org/I7478328"
+                ],
+                "ror": "https://ror.org/03ypxwh20",
+                "type": "nonprofit"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Computer Science, COMSATS University Islamabad, Pakistan",
+              "Telecommunications Software and Systems Group (TSSG), Waterford Institute of Technology, Ireland"
+            ],
+            "raw_author_name": "Nadeem Javaid",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I7478328"
+                ],
+                "raw_affiliation_string": "Telecommunications Software and Systems Group (TSSG), Waterford Institute of Technology, Ireland"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210096473",
+                  "https://openalex.org/I4391012582"
+                ],
+                "raw_affiliation_string": "Department of Statistics and Mathematics, Institute of Southern Punjab, Multan, Pakistan"
+              }
+            ],
+            "author": {
+              "display_name": "Nouman Ashraf",
+              "id": "https://openalex.org/A5033415173",
+              "orcid": "https://orcid.org/0000-0002-0164-8031"
+            },
+            "author_position": "middle",
+            "countries": [
+              "IE",
+              "PK"
+            ],
+            "institutions": [
+              {
+                "country_code": "PK",
+                "display_name": "Muhammad Nawaz Shareef University of Agriculture",
+                "id": "https://openalex.org/I4210096473",
+                "lineage": [
+                  "https://openalex.org/I4210096473"
+                ],
+                "ror": "https://ror.org/00vmr6593",
+                "type": "education"
+              },
+              {
+                "country_code": "PK",
+                "display_name": "Institute of Southern Punjab",
+                "id": "https://openalex.org/I4391012582",
+                "lineage": [
+                  "https://openalex.org/I4391012582"
+                ],
+                "ror": "https://ror.org/05fvxrd95",
+                "type": "education"
+              },
+              {
+                "country_code": "IE",
+                "display_name": "Waterford Institute of Technology",
+                "id": "https://openalex.org/I7478328",
+                "lineage": [
+                  "https://openalex.org/I7478328"
+                ],
+                "ror": "https://ror.org/03ypxwh20",
+                "type": "nonprofit"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Telecommunications Software and Systems Group (TSSG), Waterford Institute of Technology, Ireland",
+              "Department of Statistics and Mathematics, Institute of Southern Punjab, Multan, Pakistan"
+            ],
+            "raw_author_name": "Nouman Ashraf",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210096473",
+                  "https://openalex.org/I4391012582"
+                ],
+                "raw_affiliation_string": "Department of Statistics and Mathematics, Institute of Southern Punjab, Multan, Pakistan"
+              }
+            ],
+            "author": {
+              "display_name": "Shahzad Aslam",
+              "id": "https://openalex.org/A5015468784",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "PK"
+            ],
+            "institutions": [
+              {
+                "country_code": "PK",
+                "display_name": "Muhammad Nawaz Shareef University of Agriculture",
+                "id": "https://openalex.org/I4210096473",
+                "lineage": [
+                  "https://openalex.org/I4210096473"
+                ],
+                "ror": "https://ror.org/00vmr6593",
+                "type": "education"
+              },
+              {
+                "country_code": "PK",
+                "display_name": "Institute of Southern Punjab",
+                "id": "https://openalex.org/I4391012582",
+                "lineage": [
+                  "https://openalex.org/I4391012582"
+                ],
+                "ror": "https://ror.org/05fvxrd95",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "Department of Statistics and Mathematics, Institute of Southern Punjab, Multan, Pakistan"
+            ],
+            "raw_author_name": "Shahzad Aslam",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210096473",
+                  "https://openalex.org/I4391012582"
+                ],
+                "raw_affiliation_string": "Department of Statistics and Mathematics, Institute of Southern Punjab, Multan, Pakistan"
+              }
+            ],
+            "author": {
+              "display_name": "Shahzad Aslam",
+              "id": "https://openalex.org/A5015468784",
+              "orcid": null
+            },
+            "author_position": "last",
+            "countries": [
+              "PK"
+            ],
+            "institutions": [
+              {
+                "country_code": "PK",
+                "display_name": "Muhammad Nawaz Shareef University of Agriculture",
+                "id": "https://openalex.org/I4210096473",
+                "lineage": [
+                  "https://openalex.org/I4210096473"
+                ],
+                "ror": "https://ror.org/00vmr6593",
+                "type": "education"
+              },
+              {
+                "country_code": "PK",
+                "display_name": "Institute of Southern Punjab",
+                "id": "https://openalex.org/I4391012582",
+                "lineage": [
+                  "https://openalex.org/I4391012582"
+                ],
+                "ror": "https://ror.org/05fvxrd95",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Statistics and Mathematics, Institute of Southern Punjab, Multan, Pakistan"
+            ],
+            "raw_author_name": "Shahzad Aslam",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "A survey on deep learning methods for power load and renewable energy forecasting in smart microgrids",
+        "doi": "https://doi.org/10.1016/j.rser.2021.110992",
+        "id": "https://openalex.org/W3149578452",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://ktisis.cut.ac.cy/handle/10488/22651"
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.rser.2021.110992",
+          "is_accepted": true,
+          "is_oa": false,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1016/j.rser.2021.110992",
+          "license": null,
+          "license_id": null,
+          "pdf_url": null,
+          "raw_source_name": "Renewable and Sustainable Energy Reviews",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Renewable and Sustainable Energy Reviews",
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S68497187",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "1364-0321",
+              "1879-0690"
+            ],
+            "issn_l": "1364-0321",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2021-04-03",
+        "publication_year": 2021,
+        "title": "A survey on deep learning methods for power load and renewable energy forecasting in smart microgrids",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "$16.90": [
+            53
+          ],
+          "$6.47": [
+            48
+          ],
+          "(DERs),": [
+            15
+          ],
+          "(VPP)": [
+            4
+          ],
+          "2022": [
+            51
+          ],
+          "2030.": [
+            56
+          ],
+          "5G,": [
+            206
+          ],
+          "A": [
+            0
+          ],
+          "DERs,": [
+            72
+          ],
+          "In": [
+            160
+          ],
+          "The": [
+            31
+          ],
+          "This": [
+            86
+          ],
+          "Up": [
+            57
+          ],
+          "VPP": [
+            32,
+            97,
+            120,
+            181,
+            232
+          ],
+          "VPPs": [
+            60,
+            236
+          ],
+          "VPPs.": [
+            116
+          ],
+          "We": [
+            117,
+            183,
+            213
+          ],
+          "a": [
+            18,
+            38,
+            77,
+            100,
+            124,
+            164,
+            195
+          ],
+          "active": [
+            8
+          ],
+          "addition,": [
+            161
+          ],
+          "advances": [
+            219
+          ],
+          "aggregator": [
+            9
+          ],
+          "an": [
+            7
+          ],
+          "analyze": [
+            105
+          ],
+          "ancillary": [
+            239
+          ],
+          "and": [
+            25,
+            73,
+            79,
+            103,
+            128,
+            143,
+            157,
+            170,
+            189,
+            210,
+            223,
+            234
+          ],
+          "around": [
+            174
+          ],
+          "artificial": [
+            208
+          ],
+          "as": [
+            76,
+            145,
+            147,
+            200
+          ],
+          "benchmarks,": [
+            202
+          ],
+          "billion": [
+            49,
+            54
+          ],
+          "blockchain,": [
+            156
+          ],
+          "by": [
+            55
+          ],
+          "challenges": [
+            64,
+            188
+          ],
+          "communication,": [
+            137
+          ],
+          "creates": [
+            17
+          ],
+          "creation,": [
+            135
+          ],
+          "data": [
+            74,
+            110,
+            125,
+            134,
+            136,
+            141,
+            169,
+            221
+          ],
+          "data-centric": [
+            101
+          ],
+          "data-driven": [
+            138
+          ],
+          "dealing": [
+            66
+          ],
+          "decarbonization.": [
+            30
+          ],
+          "decision": [
+            113,
+            139
+          ],
+          "deep": [
+            29
+          ],
+          "delivering": [
+            237
+          ],
+          "demand-side": [
+            26
+          ],
+          "detail,": [
+            193
+          ],
+          "development": [
+            95
+          ],
+          "discuss": [
+            185
+          ],
+          "distributed": [
+            12
+          ],
+          "effort": [
+            91
+          ],
+          "electrification": [
+            27
+          ],
+          "emerge": [
+            75
+          ],
+          "energy": [
+            13,
+            24,
+            121
+          ],
+          "essential": [
+            80
+          ],
+          "every": [
+            112
+          ],
+          "examine": [
+            118
+          ],
+          "expand": [
+            22
+          ],
+          "explainable": [
+            207
+          ],
+          "extensively": [
+            129
+          ],
+          "face": [
+            62
+          ],
+          "federated": [
+            211
+          ],
+          "finally": [
+            184
+          ],
+          "first": [
+            90
+          ],
+          "focus": [
+            196
+          ],
+          "for": [
+            28,
+            217,
+            226
+          ],
+          "from": [
+            47,
+            99,
+            151
+          ],
+          "future": [
+            190,
+            231
+          ],
+          "future.": [
+            244
+          ],
+          "global": [
+            44
+          ],
+          "grid": [
+            240
+          ],
+          "growing": [
+            228
+          ],
+          "growth": [
+            40
+          ],
+          "handle": [
+            83
+          ],
+          "have": [
+            37
+          ],
+          "heterogeneous": [
+            11
+          ],
+          "highlight": [
+            214
+          ],
+          "in": [
+            50,
+            65,
+            133,
+            192,
+            220,
+            242
+          ],
+          "inherent": [
+            69
+          ],
+          "intelligence,": [
+            209
+          ],
+          "internet": [
+            203
+          ],
+          "investment": [
+            45
+          ],
+          "is": [
+            34
+          ],
+          "issue.": [
+            85
+          ],
+          "latest": [
+            180
+          ],
+          "learning,": [
+            153
+          ],
+          "learning.": [
+            212
+          ],
+          "lens,": [
+            127
+          ],
+          "lifecycle": [
+            126
+          ],
+          "major": [
+            107,
+            187
+          ],
+          "makes": [
+            88
+          ],
+          "management": [
+            122,
+            222
+          ],
+          "market": [
+            33,
+            158
+          ],
+          "more": [
+            238
+          ],
+          "need": [
+            216
+          ],
+          "now,": [
+            59
+          ],
+          "of": [
+            10,
+            71,
+            96,
+            109,
+            115,
+            167,
+            204,
+            230
+          ],
+          "offer": [
+            163
+          ],
+          "on": [
+            197
+          ],
+          "open": [
+            168
+          ],
+          "opportunities": [
+            191
+          ],
+          "overview": [
+            166
+          ],
+          "paper": [
+            87
+          ],
+          "participation.": [
+            159
+          ],
+          "pathway": [
+            20
+          ],
+          "peer-to-peer": [
+            154
+          ],
+          "perspective,": [
+            102
+          ],
+          "phase": [
+            114
+          ],
+          "plant": [
+            3
+          ],
+          "potential,": [
+            41
+          ],
+          "power": [
+            2
+          ],
+          "practices.": [
+            182
+          ],
+          "privacy,": [
+            144
+          ],
+          "progress": [
+            132
+          ],
+          "projected": [
+            35
+          ],
+          "projects": [
+            173
+          ],
+          "promising": [
+            19,
+            78
+          ],
+          "public": [
+            201
+          ],
+          "real-world": [
+            172
+          ],
+          "recent": [
+            171
+          ],
+          "refers": [
+            5
+          ],
+          "reinforcement": [
+            152
+          ],
+          "renewable": [
+            23
+          ],
+          "resource": [
+            81
+          ],
+          "resources": [
+            14
+          ],
+          "review": [
+            93
+          ],
+          "role": [
+            108
+          ],
+          "scale": [
+            229
+          ],
+          "services": [
+            241
+          ],
+          "sharing": [
+            142
+          ],
+          "sharing,": [
+            155
+          ],
+          "showcase": [
+            178
+          ],
+          "significant": [
+            39
+          ],
+          "solutions": [
+            149
+          ],
+          "stemming": [
+            150
+          ],
+          "still": [
+            61
+          ],
+          "such": [
+            199
+          ],
+          "suggest": [
+            235
+          ],
+          "support": [
+            224
+          ],
+          "support,": [
+            140
+          ],
+          "surging": [
+            46
+          ],
+          "survey": [
+            130
+          ],
+          "systems": [
+            225
+          ],
+          "systems,": [
+            233
+          ],
+          "technical": [
+            63,
+            148,
+            218
+          ],
+          "technologies": [
+            98
+          ],
+          "the": [
+            43,
+            68,
+            89,
+            94,
+            106,
+            119,
+            131,
+            175,
+            179,
+            186,
+            215,
+            227,
+            243
+          ],
+          "then": [
+            104
+          ],
+          "things,": [
+            205
+          ],
+          "this": [
+            84
+          ],
+          "through": [
+            123
+          ],
+          "to": [
+            6,
+            21,
+            36,
+            52,
+            58,
+            82,
+            92,
+            177
+          ],
+          "topics": [
+            198
+          ],
+          "uncertainty": [
+            70
+          ],
+          "unique": [
+            165
+          ],
+          "virtual": [
+            1
+          ],
+          "we": [
+            162
+          ],
+          "well": [
+            146
+          ],
+          "which": [
+            16
+          ],
+          "with": [
+            42,
+            67,
+            194
+          ],
+          "within": [
+            111
+          ],
+          "world": [
+            176
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210143601",
+                  "https://openalex.org/I63966007"
+                ],
+                "raw_affiliation_string": "Laboratory for Information & Decision Systems, Massachusetts Institute of Technology, 32 Vassar Street, Boston, MA 02139, United States of America"
+              }
+            ],
+            "author": {
+              "display_name": "Guangchun Ruan",
+              "id": "https://openalex.org/A5004292099",
+              "orcid": "https://orcid.org/0000-0003-2660-9298"
+            },
+            "author_position": "first",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Decision Systems (United States)",
+                "id": "https://openalex.org/I4210143601",
+                "lineage": [
+                  "https://openalex.org/I4210143601"
+                ],
+                "ror": "https://ror.org/0434dpa13",
+                "type": "company"
+              },
+              {
+                "country_code": "US",
+                "display_name": "Massachusetts Institute of Technology",
+                "id": "https://openalex.org/I63966007",
+                "lineage": [
+                  "https://openalex.org/I63966007"
+                ],
+                "ror": "https://ror.org/042nb2s44",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "Laboratory for Information & Decision Systems, Massachusetts Institute of Technology, 32 Vassar Street, Boston, MA 02139, United States of America"
+            ],
+            "raw_author_name": "Guangchun Ruan",
+            "raw_orcid": "https://orcid.org/0000-0003-2660-9298"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I47508984"
+                ],
+                "raw_affiliation_string": "Department of Electrical & Electronic Engineering, Imperial College London, London SW7 2AZ, UK"
+              }
+            ],
+            "author": {
+              "display_name": "Dawei Qiu",
+              "id": "https://openalex.org/A5061759570",
+              "orcid": "https://orcid.org/0000-0003-0497-6089"
+            },
+            "author_position": "middle",
+            "countries": [
+              "GB"
+            ],
+            "institutions": [
+              {
+                "country_code": "GB",
+                "display_name": "Imperial College London",
+                "id": "https://openalex.org/I47508984",
+                "lineage": [
+                  "https://openalex.org/I47508984"
+                ],
+                "ror": "https://ror.org/041kmwe10",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "Department of Electrical & Electronic Engineering, Imperial College London, London SW7 2AZ, UK"
+            ],
+            "raw_author_name": "Dawei Qiu",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I219193219"
+                ],
+                "raw_affiliation_string": "School of Industrial Engineering, Purdue University, West Lafayette, IN 47907, United States of America"
+              }
+            ],
+            "author": {
+              "display_name": "S. Sivaranjani",
+              "id": "https://openalex.org/A5040417385",
+              "orcid": "https://orcid.org/0000-0001-7585-7816"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Purdue University West Lafayette",
+                "id": "https://openalex.org/I219193219",
+                "lineage": [
+                  "https://openalex.org/I219193219"
+                ],
+                "ror": "https://ror.org/02dqehb95",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "School of Industrial Engineering, Purdue University, West Lafayette, IN 47907, United States of America"
+            ],
+            "raw_author_name": "S. Sivaranjani",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I74413500"
+                ],
+                "raw_affiliation_string": "Department of Electrical & Computer Engineering, University of Windsor, Windsor, ON N9B 3P4, Canada"
+              }
+            ],
+            "author": {
+              "display_name": "Ahmed S. A. Awad",
+              "id": "https://openalex.org/A5089741287",
+              "orcid": "https://orcid.org/0000-0003-0650-1423"
+            },
+            "author_position": "middle",
+            "countries": [
+              "CA"
+            ],
+            "institutions": [
+              {
+                "country_code": "CA",
+                "display_name": "University of Windsor",
+                "id": "https://openalex.org/I74413500",
+                "lineage": [
+                  "https://openalex.org/I74413500"
+                ],
+                "ror": "https://ror.org/01gw3d370",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical & Computer Engineering, University of Windsor, Windsor, ON N9B 3P4, Canada"
+            ],
+            "raw_author_name": "Ahmed S.A. Awad",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I47508984"
+                ],
+                "raw_affiliation_string": "Department of Electrical & Electronic Engineering, Imperial College London, London SW7 2AZ, UK"
+              }
+            ],
+            "author": {
+              "display_name": "Goran Štrbac",
+              "id": "https://openalex.org/A5014643856",
+              "orcid": "https://orcid.org/0000-0001-7421-3947"
+            },
+            "author_position": "last",
+            "countries": [
+              "GB"
+            ],
+            "institutions": [
+              {
+                "country_code": "GB",
+                "display_name": "Imperial College London",
+                "id": "https://openalex.org/I47508984",
+                "lineage": [
+                  "https://openalex.org/I47508984"
+                ],
+                "ror": "https://ror.org/041kmwe10",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical & Electronic Engineering, Imperial College London, London SW7 2AZ, UK"
+            ],
+            "raw_author_name": "Goran Strbac",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "Data-driven energy management of virtual power plants: A review",
+        "doi": "https://doi.org/10.1016/j.adapen.2024.100170",
+        "id": "https://openalex.org/W4392453000",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": false,
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://doi.org/10.1016/j.adapen.2024.100170"
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.adapen.2024.100170",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1016/j.adapen.2024.100170",
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "pdf_url": null,
+          "raw_source_name": "Advances in Applied Energy",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Advances in Applied Energy",
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S4210186815",
+            "is_core": true,
+            "is_in_doaj": true,
+            "is_oa": true,
+            "issn": [
+              "2666-7924"
+            ],
+            "issn_l": "2666-7924",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2024-03-05",
+        "publication_year": 2024,
+        "title": "Data-driven energy management of virtual power plants: A review",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "(MGs).": [
+            15
+          ],
+          "All": [
+            49
+          ],
+          "Islanding": [
+            38
+          ],
+          "It": [
+            16
+          ],
+          "MG": [
+            42
+          ],
+          "MGs.": [
+            65
+          ],
+          "The": [
+            66
+          ],
+          "This": [
+            0
+          ],
+          "active": [
+            29
+          ],
+          "algorithms.": [
+            37
+          ],
+          "also": [
+            46,
+            77
+          ],
+          "an": [
+            3
+          ],
+          "and": [
+            9,
+            28,
+            41
+          ],
+          "applied": [
+            11
+          ],
+          "architectures": [
+            10
+          ],
+          "are": [
+            45,
+            53,
+            76
+          ],
+          "as": [
+            32,
+            34
+          ],
+          "aspects,": [
+            31
+          ],
+          "authors'": [
+            72
+          ],
+          "briefly": [
+            47
+          ],
+          "challenges,": [
+            69
+          ],
+          "clusters": [
+            43
+          ],
+          "concluding": [
+            82
+          ],
+          "control": [
+            7,
+            20,
+            23,
+            36,
+            44,
+            60
+          ],
+          "coordinated": [
+            22
+          ],
+          "covers": [
+            17
+          ],
+          "damping": [
+            30
+          ],
+          "dc": [
+            13,
+            64
+          ],
+          "design": [
+            61
+          ],
+          "detection,": [
+            39
+          ],
+          "discussed": [
+            54
+          ],
+          "extensive": [
+            4
+          ],
+          "final": [
+            81
+          ],
+          "for": [
+            63
+          ],
+          "from": [
+            70
+          ],
+          "future": [
+            67
+          ],
+          "goal": [
+            57
+          ],
+          "guidelines": [
+            62
+          ],
+          "hierarchical": [
+            19
+          ],
+          "in": [
+            79
+          ],
+          "issues": [
+            52
+          ],
+          "mentioned": [
+            51
+          ],
+          "microgrids": [
+            14
+          ],
+          "multilayer": [
+            18
+          ],
+          "nonlinear": [
+            35
+          ],
+          "of": [
+            58,
+            74
+          ],
+          "on": [
+            6
+          ],
+          "operations,": [
+            26
+          ],
+          "paper": [
+            1
+          ],
+          "part.": [
+            83
+          ],
+          "performs": [
+            2
+          ],
+          "plug-and-play": [
+            25
+          ],
+          "point": [
+            73
+          ],
+          "protection,": [
+            40
+          ],
+          "provided": [
+            78
+          ],
+          "providing": [
+            59
+          ],
+          "research": [
+            68
+          ],
+          "review": [
+            5
+          ],
+          "schemes": [
+            8
+          ],
+          "schemes,": [
+            21
+          ],
+          "stability": [
+            27
+          ],
+          "strategies,": [
+            24
+          ],
+          "summarized.": [
+            48
+          ],
+          "the": [
+            50,
+            56,
+            71,
+            80
+          ],
+          "to": [
+            12
+          ],
+          "view,": [
+            75
+          ],
+          "well": [
+            33
+          ],
+          "with": [
+            55
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I891191580"
+                ],
+                "raw_affiliation_string": "Department of Energy Technology, Aalborg University, Aalborg, Denmark"
+              }
+            ],
+            "author": {
+              "display_name": "Lexuan Meng",
+              "id": "https://openalex.org/A5051324423",
+              "orcid": "https://orcid.org/0000-0003-1374-372X"
+            },
+            "author_position": "first",
+            "countries": [
+              "DK"
+            ],
+            "institutions": [
+              {
+                "country_code": "DK",
+                "display_name": "Aalborg University",
+                "id": "https://openalex.org/I891191580",
+                "lineage": [
+                  "https://openalex.org/I891191580"
+                ],
+                "ror": "https://ror.org/04m5j1k67",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Energy Technology, Aalborg University, Aalborg, Denmark"
+            ],
+            "raw_author_name": "Lexuan Meng",
+            "raw_orcid": "https://orcid.org/0000-0003-1374-372X"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I3124704065"
+                ],
+                "raw_affiliation_string": "Department of Electrical & Computer Engineering, University of Kurdistan, Sanandaj, Iran"
+              }
+            ],
+            "author": {
+              "display_name": "Qobad Shafiee",
+              "id": "https://openalex.org/A5067710587",
+              "orcid": "https://orcid.org/0000-0001-9529-7350"
+            },
+            "author_position": "middle",
+            "countries": [
+              "IR"
+            ],
+            "institutions": [
+              {
+                "country_code": "IR",
+                "display_name": "University of Kurdistan",
+                "id": "https://openalex.org/I3124704065",
+                "lineage": [
+                  "https://openalex.org/I3124704065"
+                ],
+                "ror": "https://ror.org/04k89yk85",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical & Computer Engineering, University of Kurdistan, Sanandaj, Iran"
+            ],
+            "raw_author_name": "Qobad Shafiee",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I5124864"
+                ],
+                "raw_affiliation_string": "Automatic Control Laboratory, École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland"
+              }
+            ],
+            "author": {
+              "display_name": "Giancarlo Ferrari‐Trecate",
+              "id": "https://openalex.org/A5074145693",
+              "orcid": "https://orcid.org/0000-0002-9492-9624"
+            },
+            "author_position": "middle",
+            "countries": [
+              "CH"
+            ],
+            "institutions": [
+              {
+                "country_code": "CH",
+                "display_name": "École Polytechnique Fédérale de Lausanne",
+                "id": "https://openalex.org/I5124864",
+                "lineage": [
+                  "https://openalex.org/I2799323385",
+                  "https://openalex.org/I5124864"
+                ],
+                "ror": "https://ror.org/02s376052",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Automatic Control Laboratory, École Polytechnique Fédérale de Lausanne, Lausanne, Switzerland"
+            ],
+            "raw_author_name": "Giancarlo Ferrari Trecate",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I45683168"
+                ],
+                "raw_affiliation_string": "Department of Electrical Engineering, Polytechnique Montréal, Montréal, QC, Canada"
+              }
+            ],
+            "author": {
+              "display_name": "Houshang Karimi",
+              "id": "https://openalex.org/A5034853620",
+              "orcid": "https://orcid.org/0000-0003-4956-0925"
+            },
+            "author_position": "middle",
+            "countries": [
+              "CA"
+            ],
+            "institutions": [
+              {
+                "country_code": "CA",
+                "display_name": "Polytechnique Montréal",
+                "id": "https://openalex.org/I45683168",
+                "lineage": [
+                  "https://openalex.org/I45683168"
+                ],
+                "ror": "https://ror.org/05f8d4e86",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical Engineering, Polytechnique Montréal, Montréal, QC, Canada"
+            ],
+            "raw_author_name": "Houshang Karimi",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I154549908"
+                ],
+                "raw_affiliation_string": "Department of Electrical Engineering, IIT Jodhpur, Jodhpur, India"
+              }
+            ],
+            "author": {
+              "display_name": "Deepak Fulwani",
+              "id": "https://openalex.org/A5043150634",
+              "orcid": "https://orcid.org/0000-0001-8881-783X"
+            },
+            "author_position": "middle",
+            "countries": [
+              "IN"
+            ],
+            "institutions": [
+              {
+                "country_code": "IN",
+                "display_name": "Indian Institute of Technology Jodhpur",
+                "id": "https://openalex.org/I154549908",
+                "lineage": [
+                  "https://openalex.org/I154549908"
+                ],
+                "ror": "https://ror.org/03yacj906",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical Engineering, IIT Jodhpur, Jodhpur, India"
+            ],
+            "raw_author_name": "Deepak Fulwani",
+            "raw_orcid": "https://orcid.org/0000-0001-8881-783X"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1282105669"
+                ],
+                "raw_affiliation_string": "Argonne National Laboratory, Energy Systems Division, Lemont, IL, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Xiaonan Lu",
+              "id": "https://openalex.org/A5100684375",
+              "orcid": "https://orcid.org/0000-0002-0920-1939"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Argonne National Laboratory",
+                "id": "https://openalex.org/I1282105669",
+                "lineage": [
+                  "https://openalex.org/I1282105669",
+                  "https://openalex.org/I1330989302",
+                  "https://openalex.org/I39565521",
+                  "https://openalex.org/I40347166"
+                ],
+                "ror": "https://ror.org/05gvnxz63",
+                "type": "facility"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Argonne National Laboratory, Energy Systems Division, Lemont, IL, USA"
+            ],
+            "raw_author_name": "Xiaonan Lu",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I891191580"
+                ],
+                "raw_affiliation_string": "Department of Energy Technology, Aalborg University, Aalborg, Denmark"
+              }
+            ],
+            "author": {
+              "display_name": "Josep M. Guerrero",
+              "id": "https://openalex.org/A5072189850",
+              "orcid": "https://orcid.org/0000-0001-5236-4592"
+            },
+            "author_position": "last",
+            "countries": [
+              "DK"
+            ],
+            "institutions": [
+              {
+                "country_code": "DK",
+                "display_name": "Aalborg University",
+                "id": "https://openalex.org/I891191580",
+                "lineage": [
+                  "https://openalex.org/I891191580"
+                ],
+                "ror": "https://ror.org/04m5j1k67",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Energy Technology, Aalborg University, Aalborg, Denmark"
+            ],
+            "raw_author_name": "Josep M. Guerrero",
+            "raw_orcid": "https://orcid.org/0000-0001-5236-4592"
+          }
+        ],
+        "display_name": "Review on Control of DC Microgrids",
+        "doi": "https://doi.org/10.1109/jestpe.2017.2690219",
+        "id": "https://openalex.org/W2599950709",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://vbn.aau.dk/ws/files/255745154/Review_on_Control_of_DC_Microgrids.pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1109/jestpe.2017.2690219",
+          "is_accepted": true,
+          "is_oa": false,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1109/jestpe.2017.2690219",
+          "license": null,
+          "license_id": null,
+          "pdf_url": null,
+          "raw_source_name": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "IEEE Journal of Emerging and Selected Topics in Power Electronics",
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "id": "https://openalex.org/S2764857692",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "2168-6777",
+              "2168-6785"
+            ],
+            "issn_l": "2168-6777",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2017-01-01",
+        "publication_year": 2017,
+        "title": "Review on Control of DC Microgrids",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "(VPP)": [
+            10,
+            61
+          ],
+          "21st": [
+            23
+          ],
+          "For": [
+            36
+          ],
+          "So,": [
+            78
+          ],
+          "The": [
+            0,
+            160
+          ],
+          "This": [
+            126
+          ],
+          "a": [
+            57,
+            63
+          ],
+          "about": [
+            45,
+            95
+          ],
+          "achieve": [
+            119
+          ],
+          "address": [
+            166
+          ],
+          "advancements,": [
+            153
+          ],
+          "also": [
+            108
+          ],
+          "and": [
+            6,
+            75,
+            84,
+            98,
+            107,
+            113,
+            143,
+            149,
+            158,
+            178,
+            188
+          ],
+          "applied": [
+            172
+          ],
+          "area": [
+            135
+          ],
+          "automation,": [
+            114
+          ],
+          "being": [
+            12
+          ],
+          "benefits": [
+            99
+          ],
+          "blessing": [
+            68
+          ],
+          "by": [
+            147
+          ],
+          "carbon": [
+            47
+          ],
+          "century,": [
+            24
+          ],
+          "challenges": [
+            17
+          ],
+          "change": [
+            20
+          ],
+          "climate": [
+            19
+          ],
+          "communication": [
+            71
+          ],
+          "compiling": [
+            148
+          ],
+          "consciousness": [
+            44
+          ],
+          "contribute": [
+            131
+          ],
+          "control": [
+            111,
+            156,
+            170
+          ],
+          "covering": [
+            139
+          ],
+          "demand": [
+            39
+          ],
+          "details": [
+            94
+          ],
+          "developed": [
+            13,
+            105
+          ],
+          "devices.": [
+            77
+          ],
+          "distribution,": [
+            186
+          ],
+          "electrical": [
+            34
+          ],
+          "electricity,": [
+            41
+          ],
+          "emission,": [
+            48
+          ],
+          "energy": [
+            31,
+            137,
+            184
+          ],
+          "ensure": [
+            26,
+            86
+          ],
+          "essence": [
+            122
+          ],
+          "established": [
+            52
+          ],
+          "flourishing": [
+            134
+          ],
+          "focused": [
+            129
+          ],
+          "for": [
+            40
+          ],
+          "future": [
+            183
+          ],
+          "generation,": [
+            185
+          ],
+          "grid": [
+            65
+          ],
+          "grid,": [
+            5,
+            142,
+            177
+          ],
+          "grid.": [
+            35
+          ],
+          "idea": [
+            1
+          ],
+          "important": [
+            90,
+            117
+          ],
+          "improve": [
+            110
+          ],
+          "in": [
+            21,
+            32,
+            103
+          ],
+          "increasing": [
+            38
+          ],
+          "intelligence": [
+            73
+          ],
+          "intended": [
+            164
+          ],
+          "into": [
+            56
+          ],
+          "is": [
+            11,
+            51,
+            54,
+            89,
+            116,
+            128,
+            162
+          ],
+          "it": [
+            88,
+            115
+          ],
+          "keep": [
+            80
+          ],
+          "know": [
+            92
+          ],
+          "mainly": [
+            163
+          ],
+          "management,": [
+            187
+          ],
+          "methods": [
+            112
+          ],
+          "microgrid": [
+            50
+          ],
+          "microgrid,": [
+            3,
+            140,
+            175
+          ],
+          "modern": [
+            70
+          ],
+          "of": [
+            2,
+            18,
+            29,
+            69,
+            100,
+            123,
+            136,
+            169
+          ],
+          "or": [
+            62
+          ],
+          "paper": [
+            127,
+            161
+          ],
+          "plant": [
+            9,
+            60,
+            146,
+            181
+          ],
+          "power": [
+            8,
+            59,
+            145,
+            180
+          ],
+          "present": [
+            121
+          ],
+          "problems,": [
+            157
+          ],
+          "public": [
+            43
+          ],
+          "raising": [
+            42
+          ],
+          "recapping": [
+            150
+          ],
+          "recent": [
+            152
+          ],
+          "reducing": [
+            46
+          ],
+          "renewable": [
+            30
+          ],
+          "requirements,": [
+            155
+          ],
+          "resolve": [
+            15
+          ],
+          "role": [
+            168
+          ],
+          "security,": [
+            87
+          ],
+          "security.": [
+            189
+          ],
+          "smart": [
+            4,
+            64,
+            76,
+            141,
+            176
+          ],
+          "solutions.": [
+            159
+          ],
+          "strategies": [
+            171
+          ],
+          "such": [
+            124
+          ],
+          "sustainability": [
+            138
+          ],
+          "systems": [
+            82,
+            102
+          ],
+          "systems,": [
+            72
+          ],
+          "systems.": [
+            125
+          ],
+          "technical": [
+            154
+          ],
+          "technology,": [
+            74
+          ],
+          "the": [
+            16,
+            22,
+            27,
+            33,
+            37,
+            49,
+            67,
+            93,
+            96,
+            104,
+            120,
+            167,
+            174
+          ],
+          "their": [
+            151
+          ],
+          "these": [
+            81,
+            101
+          ],
+          "this": [
+            133
+          ],
+          "to": [
+            14,
+            25,
+            79,
+            85,
+            91,
+            109,
+            118,
+            130,
+            132,
+            165,
+            173
+          ],
+          "towards": [
+            182
+          ],
+          "transformed": [
+            55
+          ],
+          "up-to-date": [
+            83
+          ],
+          "use": [
+            28
+          ],
+          "uses": [
+            97
+          ],
+          "virtual": [
+            7,
+            58,
+            144,
+            179
+          ],
+          "which": [
+            53
+          ],
+          "with": [
+            66
+          ],
+          "world": [
+            106
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I17477748"
+                ],
+                "raw_affiliation_string": "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+              }
+            ],
+            "author": {
+              "display_name": "Riaz Ullah Khan",
+              "id": "https://openalex.org/A5074186449",
+              "orcid": "https://orcid.org/0000-0003-0944-7856"
+            },
+            "author_position": "first",
+            "countries": [
+              "BD"
+            ],
+            "institutions": [
+              {
+                "country_code": "BD",
+                "display_name": "Rajshahi University of Engineering and Technology",
+                "id": "https://openalex.org/I17477748",
+                "lineage": [
+                  "https://openalex.org/I17477748"
+                ],
+                "ror": "https://ror.org/049ysg747",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+            ],
+            "raw_author_name": "Riaz Khan",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I17477748"
+                ],
+                "raw_affiliation_string": "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+              }
+            ],
+            "author": {
+              "display_name": "Naimul Islam",
+              "id": "https://openalex.org/A5072108047",
+              "orcid": "https://orcid.org/0009-0006-0543-9137"
+            },
+            "author_position": "middle",
+            "countries": [
+              "BD"
+            ],
+            "institutions": [
+              {
+                "country_code": "BD",
+                "display_name": "Rajshahi University of Engineering and Technology",
+                "id": "https://openalex.org/I17477748",
+                "lineage": [
+                  "https://openalex.org/I17477748"
+                ],
+                "ror": "https://ror.org/049ysg747",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+            ],
+            "raw_author_name": "Naimul Islam",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I17477748"
+                ],
+                "raw_affiliation_string": "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+              }
+            ],
+            "author": {
+              "display_name": "Sajal K. Das",
+              "id": "https://openalex.org/A5103026396",
+              "orcid": "https://orcid.org/0000-0002-0596-4816"
+            },
+            "author_position": "middle",
+            "countries": [
+              "BD"
+            ],
+            "institutions": [
+              {
+                "country_code": "BD",
+                "display_name": "Rajshahi University of Engineering and Technology",
+                "id": "https://openalex.org/I17477748",
+                "lineage": [
+                  "https://openalex.org/I17477748"
+                ],
+                "ror": "https://ror.org/049ysg747",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+            ],
+            "raw_author_name": "Sajal K. Das",
+            "raw_orcid": "https://orcid.org/0000-0002-0596-4816"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I205640436"
+                ],
+                "raw_affiliation_string": "School of Electrical Engineering Computing and Mathematical Sciences, Curtin University, Perth, WA, Australia"
+              }
+            ],
+            "author": {
+              "display_name": "S. M. Muyeen",
+              "id": "https://openalex.org/A5028098322",
+              "orcid": "https://orcid.org/0000-0003-4955-6889"
+            },
+            "author_position": "middle",
+            "countries": [
+              "AU"
+            ],
+            "institutions": [
+              {
+                "country_code": "AU",
+                "display_name": "Curtin University",
+                "id": "https://openalex.org/I205640436",
+                "lineage": [
+                  "https://openalex.org/I205640436"
+                ],
+                "ror": "https://ror.org/02n415q13",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "School of Electrical Engineering Computing and Mathematical Sciences, Curtin University, Perth, WA, Australia"
+            ],
+            "raw_author_name": "S. M. Muyeen",
+            "raw_orcid": "https://orcid.org/0000-0003-4955-6889"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I17477748"
+                ],
+                "raw_affiliation_string": "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+              }
+            ],
+            "author": {
+              "display_name": "Sumaya Ishrat Moyeen",
+              "id": "https://openalex.org/A5030847408",
+              "orcid": "https://orcid.org/0000-0003-3701-9357"
+            },
+            "author_position": "middle",
+            "countries": [
+              "BD"
+            ],
+            "institutions": [
+              {
+                "country_code": "BD",
+                "display_name": "Rajshahi University of Engineering and Technology",
+                "id": "https://openalex.org/I17477748",
+                "lineage": [
+                  "https://openalex.org/I17477748"
+                ],
+                "ror": "https://ror.org/049ysg747",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+            ],
+            "raw_author_name": "Sumaya I. Moyeen",
+            "raw_orcid": "https://orcid.org/0000-0003-3701-9357"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I17477748"
+                ],
+                "raw_affiliation_string": "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+              }
+            ],
+            "author": {
+              "display_name": "Md. Firoz Ali",
+              "id": "https://openalex.org/A5101107989",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "BD"
+            ],
+            "institutions": [
+              {
+                "country_code": "BD",
+                "display_name": "Rajshahi University of Engineering and Technology",
+                "id": "https://openalex.org/I17477748",
+                "lineage": [
+                  "https://openalex.org/I17477748"
+                ],
+                "ror": "https://ror.org/049ysg747",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+            ],
+            "raw_author_name": "Md. Firoz Ali",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I17477748"
+                ],
+                "raw_affiliation_string": "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+              }
+            ],
+            "author": {
+              "display_name": "Zinat Tasneem",
+              "id": "https://openalex.org/A5066390445",
+              "orcid": "https://orcid.org/0000-0003-3328-4620"
+            },
+            "author_position": "middle",
+            "countries": [
+              "BD"
+            ],
+            "institutions": [
+              {
+                "country_code": "BD",
+                "display_name": "Rajshahi University of Engineering and Technology",
+                "id": "https://openalex.org/I17477748",
+                "lineage": [
+                  "https://openalex.org/I17477748"
+                ],
+                "ror": "https://ror.org/049ysg747",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+            ],
+            "raw_author_name": "Zinat Tasneem",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I17477748"
+                ],
+                "raw_affiliation_string": "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+              }
+            ],
+            "author": {
+              "display_name": "Md. Robiul Islam",
+              "id": "https://openalex.org/A5054411351",
+              "orcid": "https://orcid.org/0000-0001-8330-5421"
+            },
+            "author_position": "middle",
+            "countries": [
+              "BD"
+            ],
+            "institutions": [
+              {
+                "country_code": "BD",
+                "display_name": "Rajshahi University of Engineering and Technology",
+                "id": "https://openalex.org/I17477748",
+                "lineage": [
+                  "https://openalex.org/I17477748"
+                ],
+                "ror": "https://ror.org/049ysg747",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+            ],
+            "raw_author_name": "Md. Robiul Islam",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I17477748"
+                ],
+                "raw_affiliation_string": "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+              }
+            ],
+            "author": {
+              "display_name": "Dip Kumar Saha",
+              "id": "https://openalex.org/A5040046805",
+              "orcid": "https://orcid.org/0000-0002-9772-4130"
+            },
+            "author_position": "middle",
+            "countries": [
+              "BD"
+            ],
+            "institutions": [
+              {
+                "country_code": "BD",
+                "display_name": "Rajshahi University of Engineering and Technology",
+                "id": "https://openalex.org/I17477748",
+                "lineage": [
+                  "https://openalex.org/I17477748"
+                ],
+                "ror": "https://ror.org/049ysg747",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+            ],
+            "raw_author_name": "Dip K. Saha",
+            "raw_orcid": "https://orcid.org/0000-0002-9772-4130"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I17477748"
+                ],
+                "raw_affiliation_string": "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+              }
+            ],
+            "author": {
+              "display_name": "Md. Faisal R. Badal",
+              "id": "https://openalex.org/A5108296186",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "BD"
+            ],
+            "institutions": [
+              {
+                "country_code": "BD",
+                "display_name": "Rajshahi University of Engineering and Technology",
+                "id": "https://openalex.org/I17477748",
+                "lineage": [
+                  "https://openalex.org/I17477748"
+                ],
+                "ror": "https://ror.org/049ysg747",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+            ],
+            "raw_author_name": "Md. Faisal R. Badal",
+            "raw_orcid": "https://orcid.org/0000-0002-7463-7675"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I17477748"
+                ],
+                "raw_affiliation_string": "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+              }
+            ],
+            "author": {
+              "display_name": "Md. Hafiz Ahamed",
+              "id": "https://openalex.org/A5048233350",
+              "orcid": "https://orcid.org/0000-0001-9389-2666"
+            },
+            "author_position": "middle",
+            "countries": [
+              "BD"
+            ],
+            "institutions": [
+              {
+                "country_code": "BD",
+                "display_name": "Rajshahi University of Engineering and Technology",
+                "id": "https://openalex.org/I17477748",
+                "lineage": [
+                  "https://openalex.org/I17477748"
+                ],
+                "ror": "https://ror.org/049ysg747",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mechatronics Engineering, Rajshahi University of Engineering and Technology, Rajshahi, Bangladesh"
+            ],
+            "raw_author_name": "Hafiz Ahamed",
+            "raw_orcid": "https://orcid.org/0000-0001-9389-2666"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I131868736"
+                ],
+                "raw_affiliation_string": "Faculty of Environmental Management, Prince of Songkla University, Songkhla, Thailand"
+              }
+            ],
+            "author": {
+              "display_name": "Kuaanan Techato",
+              "id": "https://openalex.org/A5031435786",
+              "orcid": "https://orcid.org/0000-0002-9178-8416"
+            },
+            "author_position": "last",
+            "countries": [
+              "TH"
+            ],
+            "institutions": [
+              {
+                "country_code": "TH",
+                "display_name": "Prince of Songkla University",
+                "id": "https://openalex.org/I131868736",
+                "lineage": [
+                  "https://openalex.org/I131868736"
+                ],
+                "ror": "https://ror.org/0575ycz84",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Faculty of Environmental Management, Prince of Songkla University, Songkhla, Thailand"
+            ],
+            "raw_author_name": "Kuaanan Techato",
+            "raw_orcid": "https://orcid.org/0000-0002-9178-8416"
+          }
+        ],
+        "display_name": "Energy Sustainability–Survey on Technology and Control of Microgrid, Smart Grid and Virtual Power Plant",
+        "doi": "https://doi.org/10.1109/access.2021.3099941",
+        "id": "https://openalex.org/W3185637003",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09495790.pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1109/access.2021.3099941",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1109/access.2021.3099941",
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/9312710/09495790.pdf",
+          "raw_source_name": "IEEE Access",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "IEEE Access",
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "id": "https://openalex.org/S2485537415",
+            "is_core": true,
+            "is_in_doaj": true,
+            "is_oa": true,
+            "issn": [
+              "2169-3536"
+            ],
+            "issn_l": "2169-3536",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2021-01-01",
+        "publication_year": 2021,
+        "title": "Energy Sustainability–Survey on Technology and Control of Microgrid, Smart Grid and Virtual Power Plant",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "A": [
+            0
+          ],
+          "Besides,": [
+            41
+          ],
+          "Finally,": [
+            54
+          ],
+          "It": [
+            80
+          ],
+          "This": [
+            28,
+            64
+          ],
+          "a": [
+            21,
+            31,
+            94
+          ],
+          "also": [
+            82
+          ],
+          "and": [
+            16,
+            38,
+            45,
+            52,
+            70,
+            75
+          ],
+          "are": [
+            50,
+            62
+          ],
+          "as": [
+            3
+          ],
+          "aspects": [
+            57
+          ],
+          "automated": [
+            24
+          ],
+          "challenges": [
+            46
+          ],
+          "classification": [
+            37
+          ],
+          "concept,": [
+            36
+          ],
+          "contribute": [
+            83
+          ],
+          "control": [
+            39
+          ],
+          "cornerstones": [
+            7
+          ],
+          "create": [
+            20
+          ],
+          "delivery": [
+            26
+          ],
+          "distributed": [
+            14,
+            23
+          ],
+          "energy": [
+            25
+          ],
+          "explained.": [
+            53
+          ],
+          "factors": [
+            88
+          ],
+          "for": [
+            89,
+            93
+          ],
+          "future": [
+            10,
+            59
+          ],
+          "future.": [
+            96
+          ],
+          "generations": [
+            15
+          ],
+          "get": [
+            73
+          ],
+          "grid,": [
+            12
+          ],
+          "help": [
+            67
+          ],
+          "highlighted": [
+            51
+          ],
+          "identify": [
+            85
+          ],
+          "implementation": [
+            49
+          ],
+          "important": [
+            56
+          ],
+          "in-depth": [
+            74
+          ],
+          "information": [
+            17
+          ],
+          "issues": [
+            44
+          ],
+          "key": [
+            87
+          ],
+          "knowledge": [
+            77
+          ],
+          "microgrid": [
+            35,
+            48,
+            60
+          ],
+          "microgrid,": [
+            1
+          ],
+          "microgrid.": [
+            79
+          ],
+          "mobilizing": [
+            90
+          ],
+          "network.": [
+            27
+          ],
+          "of": [
+            5,
+            8,
+            33,
+            47,
+            58
+          ],
+          "on": [
+            78
+          ],
+          "one": [
+            4
+          ],
+          "outlined.": [
+            63
+          ],
+          "paper": [
+            29
+          ],
+          "policymakers": [
+            71
+          ],
+          "presents": [
+            30
+          ],
+          "prospective": [
+            43
+          ],
+          "regarded": [
+            2
+          ],
+          "research": [
+            61
+          ],
+          "researchers,": [
+            68
+          ],
+          "review": [
+            32
+          ],
+          "scientists,": [
+            69
+          ],
+          "sector": [
+            92
+          ],
+          "smart": [
+            11
+          ],
+          "strategies.": [
+            40
+          ],
+          "study": [
+            65
+          ],
+          "sustainable": [
+            95
+          ],
+          "systematic": [
+            76
+          ],
+          "technology": [
+            18
+          ],
+          "the": [
+            6,
+            9,
+            34,
+            55,
+            86
+          ],
+          "this": [
+            91
+          ],
+          "to": [
+            19,
+            72,
+            84
+          ],
+          "uses": [
+            13
+          ],
+          "various": [
+            42
+          ],
+          "widely": [
+            22
+          ],
+          "will": [
+            81
+          ],
+          "would": [
+            66
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I188329596",
+                  "https://openalex.org/I31746571"
+                ],
+                "raw_affiliation_string": "School of Engineering & Information Technology, The University of New South Wales, Canberra, ACT 2610, Australia"
+              }
+            ],
+            "author": {
+              "display_name": "Moslem Uddin",
+              "id": "https://openalex.org/A5078639699",
+              "orcid": "https://orcid.org/0000-0002-1693-011X"
+            },
+            "author_position": "first",
+            "countries": [
+              "AU"
+            ],
+            "institutions": [
+              {
+                "country_code": "AU",
+                "display_name": "University of Canberra",
+                "id": "https://openalex.org/I188329596",
+                "lineage": [
+                  "https://openalex.org/I188329596"
+                ],
+                "ror": "https://ror.org/04s1nv328",
+                "type": "education"
+              },
+              {
+                "country_code": "AU",
+                "display_name": "UNSW Sydney",
+                "id": "https://openalex.org/I31746571",
+                "lineage": [
+                  "https://openalex.org/I31746571"
+                ],
+                "ror": "https://ror.org/03r8z3t63",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "School of Engineering & Information Technology, The University of New South Wales, Canberra, ACT 2610, Australia"
+            ],
+            "raw_author_name": "Moslem Uddin",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I188329596",
+                  "https://openalex.org/I31746571"
+                ],
+                "raw_affiliation_string": "School of Engineering & Information Technology, The University of New South Wales, Canberra, ACT 2610, Australia"
+              }
+            ],
+            "author": {
+              "display_name": "Huadong Mo",
+              "id": "https://openalex.org/A5061835916",
+              "orcid": "https://orcid.org/0000-0002-7782-2884"
+            },
+            "author_position": "middle",
+            "countries": [
+              "AU"
+            ],
+            "institutions": [
+              {
+                "country_code": "AU",
+                "display_name": "University of Canberra",
+                "id": "https://openalex.org/I188329596",
+                "lineage": [
+                  "https://openalex.org/I188329596"
+                ],
+                "ror": "https://ror.org/04s1nv328",
+                "type": "education"
+              },
+              {
+                "country_code": "AU",
+                "display_name": "UNSW Sydney",
+                "id": "https://openalex.org/I31746571",
+                "lineage": [
+                  "https://openalex.org/I31746571"
+                ],
+                "ror": "https://ror.org/03r8z3t63",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "School of Engineering & Information Technology, The University of New South Wales, Canberra, ACT 2610, Australia"
+            ],
+            "raw_author_name": "Huadong Mo",
+            "raw_orcid": "https://orcid.org/0000-0002-7782-2884"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I188329596",
+                  "https://openalex.org/I31746571"
+                ],
+                "raw_affiliation_string": "School of Engineering & Information Technology, The University of New South Wales, Canberra, ACT 2610, Australia"
+              }
+            ],
+            "author": {
+              "display_name": "Daoyi Dong",
+              "id": "https://openalex.org/A5000582423",
+              "orcid": "https://orcid.org/0000-0002-7425-3559"
+            },
+            "author_position": "middle",
+            "countries": [
+              "AU"
+            ],
+            "institutions": [
+              {
+                "country_code": "AU",
+                "display_name": "University of Canberra",
+                "id": "https://openalex.org/I188329596",
+                "lineage": [
+                  "https://openalex.org/I188329596"
+                ],
+                "ror": "https://ror.org/04s1nv328",
+                "type": "education"
+              },
+              {
+                "country_code": "AU",
+                "display_name": "UNSW Sydney",
+                "id": "https://openalex.org/I31746571",
+                "lineage": [
+                  "https://openalex.org/I31746571"
+                ],
+                "ror": "https://ror.org/03r8z3t63",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "School of Engineering & Information Technology, The University of New South Wales, Canberra, ACT 2610, Australia"
+            ],
+            "raw_author_name": "Daoyi Dong",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I188329596",
+                  "https://openalex.org/I31746571"
+                ],
+                "raw_affiliation_string": "School of Engineering & Information Technology, The University of New South Wales, Canberra, ACT 2610, Australia"
+              }
+            ],
+            "author": {
+              "display_name": "Sondoss Elsawah",
+              "id": "https://openalex.org/A5073334916",
+              "orcid": "https://orcid.org/0000-0002-3485-9548"
+            },
+            "author_position": "middle",
+            "countries": [
+              "AU"
+            ],
+            "institutions": [
+              {
+                "country_code": "AU",
+                "display_name": "University of Canberra",
+                "id": "https://openalex.org/I188329596",
+                "lineage": [
+                  "https://openalex.org/I188329596"
+                ],
+                "ror": "https://ror.org/04s1nv328",
+                "type": "education"
+              },
+              {
+                "country_code": "AU",
+                "display_name": "UNSW Sydney",
+                "id": "https://openalex.org/I31746571",
+                "lineage": [
+                  "https://openalex.org/I31746571"
+                ],
+                "ror": "https://ror.org/03r8z3t63",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "School of Engineering & Information Technology, The University of New South Wales, Canberra, ACT 2610, Australia"
+            ],
+            "raw_author_name": "Sondoss Elsawah",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I129604602"
+                ],
+                "raw_affiliation_string": "School of Electrical and Information Engineering, University of Sydney, Camperdown, NSW 2006, Australia"
+              }
+            ],
+            "author": {
+              "display_name": "Jianguo Zhu",
+              "id": "https://openalex.org/A5100370161",
+              "orcid": "https://orcid.org/0000-0002-9763-4047"
+            },
+            "author_position": "middle",
+            "countries": [
+              "AU"
+            ],
+            "institutions": [
+              {
+                "country_code": "AU",
+                "display_name": "The University of Sydney",
+                "id": "https://openalex.org/I129604602",
+                "lineage": [
+                  "https://openalex.org/I129604602"
+                ],
+                "ror": "https://ror.org/0384j8v12",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "School of Electrical and Information Engineering, University of Sydney, Camperdown, NSW 2006, Australia"
+            ],
+            "raw_author_name": "Jianguo Zhu",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I891191580"
+                ],
+                "raw_affiliation_string": "Department of Energy Technology, Aalborg University, 9220 Aalborg, Denmark"
+              }
+            ],
+            "author": {
+              "display_name": "Josep M. Guerrero",
+              "id": "https://openalex.org/A5072189850",
+              "orcid": "https://orcid.org/0000-0001-5236-4592"
+            },
+            "author_position": "last",
+            "countries": [
+              "DK"
+            ],
+            "institutions": [
+              {
+                "country_code": "DK",
+                "display_name": "Aalborg University",
+                "id": "https://openalex.org/I891191580",
+                "lineage": [
+                  "https://openalex.org/I891191580"
+                ],
+                "ror": "https://ror.org/04m5j1k67",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Energy Technology, Aalborg University, 9220 Aalborg, Denmark"
+            ],
+            "raw_author_name": "Josep M. Guerrero",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "Microgrids: A review, outstanding issues and future trends",
+        "doi": "https://doi.org/10.1016/j.esr.2023.101127",
+        "id": "https://openalex.org/W4384436086",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://doi.org/10.1016/j.esr.2023.101127"
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.esr.2023.101127",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1016/j.esr.2023.101127",
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "pdf_url": null,
+          "raw_source_name": "Energy Strategy Reviews",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Energy Strategy Reviews",
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S2764911704",
+            "is_core": true,
+            "is_in_doaj": true,
+            "is_oa": true,
+            "issn": [
+              "2211-467X",
+              "2211-4688"
+            ],
+            "issn_l": "2211-467X",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2023-07-15",
+        "publication_year": 2023,
+        "title": "Microgrids: A review, outstanding issues and future trends",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "(BDA),": [
+            138
+          ],
+          "(CPSs),": [
+            132
+          ],
+          "(ICT)": [
+            144
+          ],
+          "(IoT)-enabled": [
+            104
+          ],
+          "4.0,": [
+            87
+          ],
+          "4.0.": [
+            53
+          ],
+          "4.0—holds": [
+            5
+          ],
+          "China.": [
+            182
+          ],
+          "European": [
+            176
+          ],
+          "Finally,": [
+            183
+          ],
+          "Fourth": [
+            209
+          ],
+          "In": [
+            75
+          ],
+          "Industrial": [
+            210
+          ],
+          "Industry": [
+            52,
+            86
+          ],
+          "Intelligent": [
+            45
+          ],
+          "Internet": [
+            101
+          ],
+          "IoT,": [
+            129
+          ],
+          "It": [
+            22
+          ],
+          "Japan,": [
+            180
+          ],
+          "Next,": [
+            152
+          ],
+          "Our": [
+            0
+          ],
+          "Revolution.": [
+            211
+          ],
+          "Similarities": [
+            109
+          ],
+          "States,": [
+            179
+          ],
+          "The": [
+            192
+          ],
+          "Things": [
+            103
+          ],
+          "Typical": [
+            54
+          ],
+          "Union,": [
+            177
+          ],
+          "United": [
+            178
+          ],
+          "We": [
+            121
+          ],
+          "a": [
+            37,
+            72,
+            91
+          ],
+          "able": [
+            65
+          ],
+          "act,": [
+            68
+          ],
+          "along": [
+            13
+          ],
+          "also": [
+            122
+          ],
+          "an": [
+            48
+          ],
+          "analysis.": [
+            120
+          ],
+          "analytics": [
+            137
+          ],
+          "and": [
+            19,
+            42,
+            69,
+            106,
+            110,
+            139,
+            141,
+            167,
+            181,
+            188
+          ],
+          "are": [
+            56,
+            64,
+            115,
+            146
+          ],
+          "as": [
+            98,
+            127
+          ],
+          "associated": [
+            95
+          ],
+          "based": [
+            117
+          ],
+          "behave": [
+            70
+          ],
+          "better": [
+            17
+          ],
+          "big": [
+            135
+          ],
+          "challenges": [
+            30,
+            187
+          ],
+          "cloud": [
+            107,
+            133
+          ],
+          "communications": [
+            142
+          ],
+          "companies": [
+            25,
+            173
+          ],
+          "comprehensive": [
+            92
+          ],
+          "computing,": [
+            134
+          ],
+          "concepts": [
+            193
+          ],
+          "context": [
+            84
+          ],
+          "converted": [
+            57
+          ],
+          "cope": [
+            27
+          ],
+          "countries": [
+            166
+          ],
+          "current": [
+            186
+          ],
+          "customization,": [
+            16
+          ],
+          "cyber-physical": [
+            130
+          ],
+          "data": [
+            136
+          ],
+          "describe": [
+            154
+          ],
+          "differences": [
+            111
+          ],
+          "different": [
+            165
+          ],
+          "directions.": [
+            191
+          ],
+          "discussed": [
+            194
+          ],
+          "effort": [
+            204
+          ],
+          "enable": [
+            149
+          ],
+          "enables": [
+            24
+          ],
+          "environment.": [
+            74
+          ],
+          "flexibility": [
+            10
+          ],
+          "from": [
+            164,
+            170
+          ],
+          "fully": [
+            78
+          ],
+          "future": [
+            189
+          ],
+          "generation": [
+            2
+          ],
+          "governmental": [
+            161
+          ],
+          "higher": [
+            43
+          ],
+          "highlighted": [
+            116
+          ],
+          "ideas": [
+            201
+          ],
+          "important": [
+            49
+          ],
+          "improved": [
+            20
+          ],
+          "in": [
+            11,
+            51,
+            82,
+            112,
+            157,
+            174,
+            195,
+            202
+          ],
+          "including": [
+            160
+          ],
+          "increased": [
+            9
+          ],
+          "increasingly": [
+            33
+          ],
+          "individualized": [
+            34
+          ],
+          "industry—Industry": [
+            4
+          ],
+          "information": [
+            140
+          ],
+          "intelligent": [
+            59,
+            80,
+            99,
+            150,
+            158
+          ],
+          "international": [
+            172
+          ],
+          "into": [
+            58
+          ],
+          "key": [
+            124
+          ],
+          "lead-time": [
+            39
+          ],
+          "major": [
+            171
+          ],
+          "manufacturing": [
+            46,
+            81
+          ],
+          "manufacturing,": [
+            12,
+            100,
+            105,
+            159
+          ],
+          "manufacturing.": [
+            108,
+            151
+          ],
+          "market": [
+            41
+          ],
+          "mass": [
+            15
+          ],
+          "movements": [
+            156
+          ],
+          "much-anticipated": [
+            208
+          ],
+          "new": [
+            200
+          ],
+          "next": [
+            1
+          ],
+          "objects": [
+            60
+          ],
+          "of": [
+            3,
+            8,
+            31,
+            85,
+            94,
+            102
+          ],
+          "on": [
+            118
+          ],
+          "order": [
+            76
+          ],
+          "our": [
+            119
+          ],
+          "paper": [
+            89,
+            197
+          ],
+          "plans": [
+            163,
+            169
+          ],
+          "plays": [
+            47
+          ],
+          "present": [
+            185
+          ],
+          "producing": [
+            32
+          ],
+          "productivity.": [
+            21
+          ],
+          "products": [
+            35
+          ],
+          "promise": [
+            7
+          ],
+          "provides": [
+            90
+          ],
+          "quality,": [
+            18
+          ],
+          "quality.": [
+            44
+          ],
+          "realize": [
+            206
+          ],
+          "research": [
+            190
+          ],
+          "resources": [
+            55
+          ],
+          "review": [
+            93,
+            123
+          ],
+          "role": [
+            50
+          ],
+          "sense,": [
+            67
+          ],
+          "short": [
+            38
+          ],
+          "smart": [
+            73
+          ],
+          "so": [
+            61
+          ],
+          "spark": [
+            199
+          ],
+          "strategic": [
+            162,
+            168
+          ],
+          "such": [
+            97,
+            126
+          ],
+          "systems": [
+            131
+          ],
+          "technologies": [
+            125
+          ],
+          "technology": [
+            143
+          ],
+          "that": [
+            62,
+            145
+          ],
+          "the": [
+            6,
+            29,
+            83,
+            128,
+            175,
+            203,
+            207
+          ],
+          "these": [
+            113
+          ],
+          "they": [
+            63
+          ],
+          "this": [
+            88,
+            196
+          ],
+          "thus": [
+            23
+          ],
+          "to": [
+            26,
+            40,
+            66,
+            77,
+            148,
+            205
+          ],
+          "topics": [
+            96,
+            114
+          ],
+          "understand": [
+            79
+          ],
+          "used": [
+            147
+          ],
+          "we": [
+            153,
+            184
+          ],
+          "will": [
+            198
+          ],
+          "with": [
+            14,
+            28,
+            36
+          ],
+          "within": [
+            71
+          ],
+          "worldwide": [
+            155
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I154130895"
+                ],
+                "raw_affiliation_string": "Department of Mechanical Engineering, The University of Auckland, Auckland 1142, New Zealand"
+              }
+            ],
+            "author": {
+              "display_name": "Ray Y. Zhong",
+              "id": "https://openalex.org/A5046757518",
+              "orcid": "https://orcid.org/0000-0002-3011-2009"
+            },
+            "author_position": "first",
+            "countries": [
+              "NZ"
+            ],
+            "institutions": [
+              {
+                "country_code": "NZ",
+                "display_name": "University of Auckland",
+                "id": "https://openalex.org/I154130895",
+                "lineage": [
+                  "https://openalex.org/I154130895"
+                ],
+                "ror": "https://ror.org/03b94tp07",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mechanical Engineering, The University of Auckland, Auckland 1142, New Zealand"
+            ],
+            "raw_author_name": "Ray Y. Zhong",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I154130895"
+                ],
+                "raw_affiliation_string": "Department of Mechanical Engineering, The University of Auckland, Auckland 1142, New Zealand"
+              }
+            ],
+            "author": {
+              "display_name": "Xun Xu",
+              "id": "https://openalex.org/A5100451919",
+              "orcid": "https://orcid.org/0000-0001-6294-8153"
+            },
+            "author_position": "middle",
+            "countries": [
+              "NZ"
+            ],
+            "institutions": [
+              {
+                "country_code": "NZ",
+                "display_name": "University of Auckland",
+                "id": "https://openalex.org/I154130895",
+                "lineage": [
+                  "https://openalex.org/I154130895"
+                ],
+                "ror": "https://ror.org/03b94tp07",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "Department of Mechanical Engineering, The University of Auckland, Auckland 1142, New Zealand"
+            ],
+            "raw_author_name": "Xun Xu",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210158977"
+                ],
+                "raw_affiliation_string": "Industry 4.0 Campaign, Festo AG & Co. KG, Esslingen 73726, Germany"
+              }
+            ],
+            "author": {
+              "display_name": "Eberhard Klotz",
+              "id": "https://openalex.org/A5054853915",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "DE"
+            ],
+            "institutions": [
+              {
+                "country_code": "DE",
+                "display_name": "Festo (Germany)",
+                "id": "https://openalex.org/I4210158977",
+                "lineage": [
+                  "https://openalex.org/I4210158977"
+                ],
+                "ror": "https://ror.org/03ga8q162",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Industry 4.0 Campaign, Festo AG & Co. KG, Esslingen 73726, Germany"
+            ],
+            "raw_author_name": "Eberhard Klotz",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I51601045"
+                ],
+                "raw_affiliation_string": "Department of Mechanical Engineering, University of Bath, Bath BA2 7AY, UK"
+              }
+            ],
+            "author": {
+              "display_name": "Stephen T. Newman",
+              "id": "https://openalex.org/A5082433141",
+              "orcid": "https://orcid.org/0000-0003-3163-1908"
+            },
+            "author_position": "last",
+            "countries": [
+              "GB"
+            ],
+            "institutions": [
+              {
+                "country_code": "GB",
+                "display_name": "University of Bath",
+                "id": "https://openalex.org/I51601045",
+                "lineage": [
+                  "https://openalex.org/I51601045"
+                ],
+                "ror": "https://ror.org/002h8g185",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mechanical Engineering, University of Bath, Bath BA2 7AY, UK"
+            ],
+            "raw_author_name": "Stephen T. Newman",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "Intelligent Manufacturing in the Context of Industry 4.0: A Review",
+        "doi": "https://doi.org/10.1016/j.eng.2017.05.015",
+        "id": "https://openalex.org/W2767346351",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://www.sciencedirect.com/science/article/pii/S2095809917307130/pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.eng.2017.05.015",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1016/j.eng.2017.05.015",
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2095809917307130/pdf",
+          "raw_source_name": "Engineering",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Engineering",
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S4210192142",
+            "is_core": true,
+            "is_in_doaj": true,
+            "is_oa": true,
+            "issn": [
+              "2095-8099",
+              "2096-0026"
+            ],
+            "issn_l": "2095-8099",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2017-10-01",
+        "publication_year": 2017,
+        "title": "Intelligent Manufacturing in the Context of Industry 4.0: A Review",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "(EMS)": [
+            120
+          ],
+          "(IMMGs)": [
+            3
+          ],
+          "An": [
+            0
+          ],
+          "EMS": [
+            128
+          ],
+          "However,": [
+            53
+          ],
+          "IMMG": [
+            126
+          ],
+          "IMMGs,": [
+            122
+          ],
+          "IMMGs.": [
+            146
+          ],
+          "In": [
+            107
+          ],
+          "MGs": [
+            20,
+            77
+          ],
+          "MGs,": [
+            66
+          ],
+          "Many": [
+            98
+          ],
+          "The": [
+            36
+          ],
+          "We": [
+            135,
+            147
+          ],
+          "a": [
+            88,
+            138,
+            152
+          ],
+          "about": [
+            83
+          ],
+          "achieve": [
+            43
+          ],
+          "achieving": [
+            87
+          ],
+          "advantage": [
+            6
+          ],
+          "algorithms": [
+            144
+          ],
+          "all": [
+            81
+          ],
+          "among": [
+            18,
+            75
+          ],
+          "an": [
+            112
+          ],
+          "and": [
+            12,
+            21,
+            30,
+            56,
+            71,
+            91,
+            131
+          ],
+          "been": [
+            101
+          ],
+          "bring": [
+            82
+          ],
+          "challenges": [
+            85
+          ],
+          "characteristics": [
+            58
+          ],
+          "complementary": [
+            9
+          ],
+          "conclude": [
+            148
+          ],
+          "coordinates": [
+            14
+          ],
+          "core": [
+            37
+          ],
+          "correlated": [
+            68
+          ],
+          "coupled": [
+            73
+          ],
+          "current": [
+            116
+          ],
+          "directions.": [
+            156
+          ],
+          "discussion": [
+            153
+          ],
+          "distributed": [
+            142
+          ],
+          "distribution": [
+            46
+          ],
+          "during": [
+            78
+          ],
+          "effectively": [
+            13
+          ],
+          "efficiency": [
+            32
+          ],
+          "energy": [
+            16,
+            31,
+            48,
+            74,
+            79,
+            117
+          ],
+          "focusing": [
+            123
+          ],
+          "future": [
+            155
+          ],
+          "generations,": [
+            70
+          ],
+          "grid": [
+            24
+          ],
+          "have": [
+            100
+          ],
+          "improve": [
+            26
+          ],
+          "in": [
+            64,
+            94,
+            121,
+            145
+          ],
+          "interconnected": [
+            1
+          ],
+          "intermittent": [
+            57
+          ],
+          "is": [
+            41
+          ],
+          "loads": [
+            63
+          ],
+          "main": [
+            23
+          ],
+          "management": [
+            118
+          ],
+          "multi-microgrids": [
+            2
+          ],
+          "new": [
+            84
+          ],
+          "objectives,": [
+            129
+          ],
+          "of": [
+            7,
+            33,
+            38,
+            47,
+            59,
+            114,
+            140,
+            154
+          ],
+          "on": [
+            124
+          ],
+          "operation": [
+            90
+          ],
+          "optimal": [
+            45,
+            92
+          ],
+          "optimization": [
+            133,
+            143
+          ],
+          "overview": [
+            113
+          ],
+          "paper,": [
+            109
+          ],
+          "power": [
+            10,
+            69,
+            96
+          ],
+          "problems.": [
+            106
+          ],
+          "proper": [
+            51
+          ],
+          "proposed": [
+            102
+          ],
+          "provide": [
+            111,
+            137
+          ],
+          "reliability,": [
+            29
+          ],
+          "renewable": [
+            60
+          ],
+          "resources,": [
+            61
+          ],
+          "review": [
+            139
+          ],
+          "scheduling": [
+            93,
+            132
+          ],
+          "sharing": [
+            49
+          ],
+          "sharing/trading": [
+            17
+          ],
+          "solutions": [
+            99
+          ],
+          "solve": [
+            104
+          ],
+          "sources": [
+            11
+          ],
+          "stability,": [
+            28
+          ],
+          "stable": [
+            89
+          ],
+          "strategies.": [
+            52
+          ],
+          "structure": [
+            40
+          ],
+          "structure,": [
+            127
+          ],
+          "structure.": [
+            134
+          ],
+          "survey": [
+            150
+          ],
+          "system": [
+            4
+          ],
+          "system.": [
+            35,
+            97
+          ],
+          "systems": [
+            119
+          ],
+          "takes": [
+            5
+          ],
+          "the": [
+            15,
+            19,
+            22,
+            27,
+            34,
+            44,
+            54,
+            65,
+            72,
+            76,
+            95,
+            115,
+            125,
+            141
+          ],
+          "their": [
+            67
+          ],
+          "then": [
+            136
+          ],
+          "these": [
+            105
+          ],
+          "this": [
+            39,
+            108,
+            149
+          ],
+          "through": [
+            50
+          ],
+          "time-varying": [
+            62
+          ],
+          "timescales,": [
+            130
+          ],
+          "to": [
+            25,
+            42,
+            86,
+            103
+          ],
+          "trading,": [
+            80
+          ],
+          "various": [
+            8
+          ],
+          "volatility": [
+            55
+          ],
+          "we": [
+            110
+          ],
+          "with": [
+            151
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I9842412"
+                ],
+                "raw_affiliation_string": "Department of Electrical Engineering, Nanjing University of Aeronautics and Astronautics (NUAA), Nanjing, China"
+              }
+            ],
+            "author": {
+              "display_name": "Hualei Zou",
+              "id": "https://openalex.org/A5028075300",
+              "orcid": "https://orcid.org/0000-0003-4718-9595"
+            },
+            "author_position": "first",
+            "countries": [
+              "CN"
+            ],
+            "institutions": [
+              {
+                "country_code": "CN",
+                "display_name": "Nanjing University of Aeronautics and Astronautics",
+                "id": "https://openalex.org/I9842412",
+                "lineage": [
+                  "https://openalex.org/I9842412"
+                ],
+                "ror": "https://ror.org/01scyh794",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical Engineering, Nanjing University of Aeronautics and Astronautics (NUAA), Nanjing, China"
+            ],
+            "raw_author_name": "Hualei Zou",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I82497590"
+                ],
+                "raw_affiliation_string": "Department of Electrical and Computer Engineering, Auburn University, Auburn, AL, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Shiwen Mao",
+              "id": "https://openalex.org/A5080122431",
+              "orcid": "https://orcid.org/0000-0002-7052-0007"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Auburn University",
+                "id": "https://openalex.org/I82497590",
+                "lineage": [
+                  "https://openalex.org/I82497590"
+                ],
+                "ror": "https://ror.org/02v80fc35",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical and Computer Engineering, Auburn University, Auburn, AL, USA"
+            ],
+            "raw_author_name": "Shiwen Mao",
+            "raw_orcid": "https://orcid.org/0000-0002-7052-0007"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I9842412"
+                ],
+                "raw_affiliation_string": "Department of Electrical Engineering, Nanjing University of Aeronautics and Astronautics (NUAA), Nanjing, China"
+              }
+            ],
+            "author": {
+              "display_name": "Yu Wang",
+              "id": "https://openalex.org/A5100445066",
+              "orcid": "https://orcid.org/0000-0001-6281-5297"
+            },
+            "author_position": "middle",
+            "countries": [
+              "CN"
+            ],
+            "institutions": [
+              {
+                "country_code": "CN",
+                "display_name": "Nanjing University of Aeronautics and Astronautics",
+                "id": "https://openalex.org/I9842412",
+                "lineage": [
+                  "https://openalex.org/I9842412"
+                ],
+                "ror": "https://ror.org/01scyh794",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical Engineering, Nanjing University of Aeronautics and Astronautics (NUAA), Nanjing, China"
+            ],
+            "raw_author_name": "Yu Wang",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I9842412"
+                ],
+                "raw_affiliation_string": "Department of Electrical Engineering, Nanjing University of Aeronautics and Astronautics (NUAA), Nanjing, China"
+              }
+            ],
+            "author": {
+              "display_name": "Fanghua Zhang",
+              "id": "https://openalex.org/A5101554709",
+              "orcid": "https://orcid.org/0000-0001-9221-4978"
+            },
+            "author_position": "middle",
+            "countries": [
+              "CN"
+            ],
+            "institutions": [
+              {
+                "country_code": "CN",
+                "display_name": "Nanjing University of Aeronautics and Astronautics",
+                "id": "https://openalex.org/I9842412",
+                "lineage": [
+                  "https://openalex.org/I9842412"
+                ],
+                "ror": "https://ror.org/01scyh794",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical Engineering, Nanjing University of Aeronautics and Astronautics (NUAA), Nanjing, China"
+            ],
+            "raw_author_name": "Fanghua Zhang",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I9842412"
+                ],
+                "raw_affiliation_string": "Department of Electrical Engineering, Nanjing University of Aeronautics and Astronautics (NUAA), Nanjing, China"
+              }
+            ],
+            "author": {
+              "display_name": "Xin Chen",
+              "id": "https://openalex.org/A5100720628",
+              "orcid": "https://orcid.org/0000-0001-8775-2827"
+            },
+            "author_position": "middle",
+            "countries": [
+              "CN"
+            ],
+            "institutions": [
+              {
+                "country_code": "CN",
+                "display_name": "Nanjing University of Aeronautics and Astronautics",
+                "id": "https://openalex.org/I9842412",
+                "lineage": [
+                  "https://openalex.org/I9842412"
+                ],
+                "ror": "https://ror.org/01scyh794",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical Engineering, Nanjing University of Aeronautics and Astronautics (NUAA), Nanjing, China"
+            ],
+            "raw_author_name": "Xin Chen",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I9842412"
+                ],
+                "raw_affiliation_string": "Department of Electrical Engineering, Nanjing University of Aeronautics and Astronautics (NUAA), Nanjing, China"
+              }
+            ],
+            "author": {
+              "display_name": "Long Cheng",
+              "id": "https://openalex.org/A5100673325",
+              "orcid": "https://orcid.org/0000-0003-0033-0432"
+            },
+            "author_position": "last",
+            "countries": [
+              "CN"
+            ],
+            "institutions": [
+              {
+                "country_code": "CN",
+                "display_name": "Nanjing University of Aeronautics and Astronautics",
+                "id": "https://openalex.org/I9842412",
+                "lineage": [
+                  "https://openalex.org/I9842412"
+                ],
+                "ror": "https://ror.org/01scyh794",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical Engineering, Nanjing University of Aeronautics and Astronautics (NUAA), Nanjing, China"
+            ],
+            "raw_author_name": "Long Cheng",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "A Survey of Energy Management in Interconnected Multi-Microgrids",
+        "doi": "https://doi.org/10.1109/access.2019.2920008",
+        "id": "https://openalex.org/W2947666304",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08726309.pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1109/access.2019.2920008",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1109/access.2019.2920008",
+          "license": null,
+          "license_id": null,
+          "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08726309.pdf",
+          "raw_source_name": "IEEE Access",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "IEEE Access",
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "id": "https://openalex.org/S2485537415",
+            "is_core": true,
+            "is_in_doaj": true,
+            "is_oa": true,
+            "issn": [
+              "2169-3536"
+            ],
+            "issn_l": "2169-3536",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2019-01-01",
+        "publication_year": 2019,
+        "title": "A Survey of Energy Management in Interconnected Multi-Microgrids",
+        "type": "article"
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-08-31T14:35:26Z",
+  "retry_count": 0
+}

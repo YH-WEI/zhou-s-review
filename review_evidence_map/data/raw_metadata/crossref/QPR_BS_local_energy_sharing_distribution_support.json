@@ -1,0 +1,1980 @@
+{
+  "http_status": 200,
+  "request_url_redacted": "https://api.crossref.org/works?query.bibliographic=%28%22base+station%22+OR+%22radio+access+network%22+OR+RAN+OR+%22telecom+tower%22+OR+%22cellular+network%22+OR+5G+OR+%225G-Advanced%22+OR+B5G+OR+%22IMT-2030%22+OR+6G%29+AND+%28%22local+energy+sharing%22+OR+%22distribution+grid%22+OR+%22voltage+support%22+OR+%22congestion+management%22+OR+microgrid+OR+%22virtual+power+plant%22+OR+VPP%29+AND+%28review+OR+perspective+OR+survey%29&filter=from-pub-date%3A2015-01-01%2Cuntil-pub-date%3A2026-08-31&rows=10&sort=relevance&order=desc",
+  "response": {
+    "message": {
+      "facets": {},
+      "items": [
+        {
+          "DOI": "10.1002/9781119851288.ch3",
+          "ISBN": [
+            "9781786306289",
+            "9781119851288"
+          ],
+          "URL": "https://doi.org/10.1002/9781119851288.ch3",
+          "alternative-id": [
+            "10.1002/9781119851288.ch3",
+            "10.1002/9781119851288"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "NG‐RAN and 5G‐NR"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2021-08-13T21:31:19Z",
+            "timestamp": 1628890279000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                29
+              ]
+            ],
+            "date-time": "2023-08-29T17:23:21Z",
+            "timestamp": 1693329801000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2024-05-12T22:13:50Z",
+            "timestamp": 1715552030362
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781786306289"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119851288"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            },
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch3",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch3",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "59-88",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_2_1",
+              "unstructured": "All standards can be downloaded from the ETSI website:https://www.etsi.org/standards."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "unstructured": "3GPP TS 23.5025G ‐ Procedure for the 5G System;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "unstructured": "3GPP TS 37.3405G NR ‐ Multi‐connectivity; Overall description; Stage‐2 Version 15.8.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "unstructured": "3GPP TS 38.2115G NR ‐ Physical Channels and modulation; Version 15.8.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "unstructured": "3GPP TS 38.3215G NR ‐ Medium Access Control (MAC) protocol specification; Version 15.6.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "unstructured": "3GPP TS 38.3315G NR ‐ Radio Resource Control (RRC); Protocol specification; Version 15.6.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "unstructured": "3GPP TS 38.4135G NG‐RAN ‐ NG Application Protocol (NGAP); Version 15.6.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "unstructured": "Campos J. (2017). Keysight: Understanding the 5G NR physical layer [Online]. Available at:https://www.keysight.com/upload/cmc_upload/All/Understanding_the_5G_NR_Physical_Layer.pdf."
+            }
+          ],
+          "reference-count": 8,
+          "references-count": 8,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119851288.ch3"
+            }
+          },
+          "score": 67.77043,
+          "source": "Crossref",
+          "title": [
+            "NG‐RAN Network – Procedures"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.1002/9781119851288.ch1",
+          "ISBN": [
+            "9781786306289",
+            "9781119851288"
+          ],
+          "URL": "https://doi.org/10.1002/9781119851288.ch1",
+          "alternative-id": [
+            "10.1002/9781119851288.ch1",
+            "10.1002/9781119851288"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "NG‐RAN and 5G‐NR"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2021-08-13T21:31:19Z",
+            "timestamp": 1628890279000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                29
+              ]
+            ],
+            "date-time": "2023-08-29T17:23:00Z",
+            "timestamp": 1693329780000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                28
+              ]
+            ],
+            "date-time": "2026-04-28T09:51:04Z",
+            "timestamp": 1777369864097,
+            "version": "3.51.4"
+          },
+          "is-referenced-by-count": 2,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781786306289"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119851288"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch1",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch1",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "1-29",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_2_1",
+              "unstructured": "All standards can be downloaded from the ETSI website:https://www.etsi.org/standards."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "unstructured": "3GPP TS 37.340Universal Mobile Telecommunications System (UMTS); LTE; 5G; NR; Multi‐connectivity; Overall description; Stage‐2Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "unstructured": "3GPP TS 38.4015G ‐ NG‐RAN: Architecture descriptionVersion 15.2.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "unstructured": "3GPP TS 24.5015G ‐ Non‐Access‐Stratum (NAS) protocol for 5G System (5GS); Stage 3Version 15.0.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "unstructured": "3GPP TS 23.003Digital cellular telecommunications system (Phase 2+) (GSM); Universal Mobile Telecommunications System (UMTS); Numbering addressing and identificationVersion 15.5.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "unstructured": "3GPP TS 33.5015G ‐ Security architecture and procedures for 5G SystemVersion 15.2.0 Release 15"
+            }
+          ],
+          "reference-count": 6,
+          "references-count": 6,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119851288.ch1"
+            }
+          },
+          "score": 67.21818,
+          "source": "Crossref",
+          "title": [
+            "NG‐RAN Network – Functional Architecture"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.1002/9781119851288.ch2",
+          "ISBN": [
+            "9781786306289",
+            "9781119851288"
+          ],
+          "URL": "https://doi.org/10.1002/9781119851288.ch2",
+          "alternative-id": [
+            "10.1002/9781119851288.ch2",
+            "10.1002/9781119851288"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "NG‐RAN and 5G‐NR"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2021-08-13T21:31:19Z",
+            "timestamp": 1628890279000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                29
+              ]
+            ],
+            "date-time": "2023-08-29T17:23:09Z",
+            "timestamp": 1693329789000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2024-05-12T22:13:50Z",
+            "timestamp": 1715552030175
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781786306289"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119851288"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            },
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch2",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch2",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "31-57",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_2_1",
+              "unstructured": "All standards can be downloaded from the ETSI website:https://www.etsi.org/standards."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "unstructured": "3GPP TS 29.413Application of the NG Application Protocol (NGAP) to non‐3GPP access Version 15.0.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "unstructured": "3GPP TS 37.340Universal Mobile Telecommunications System (UMTS); LTE; 5G; NR; Multi‐connectivity; Overall description; Stage‐2Version 15.5.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "unstructured": "3GPP TS 38.4015G – NG‐RAN: Architecture description;Version 15.5.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "unstructured": "3GPP TS 38.4105G – NG‐RAN: NG general aspects and principles;Version 15.5.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "unstructured": "3GPP TS 38.4135G – NG‐RAN: NG Application Protocol (NGAP); Version 15.5.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "unstructured": "3GPP TS 38.4235G – NG‐RAN: Xn Application Protocol (XnAP);Version 15.1.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "unstructured": "3GPP TS 38.4705G – NG‐RAN: F1 general aspects and principles;Version 15.7.0 Release 15"
+            }
+          ],
+          "reference-count": 8,
+          "references-count": 8,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119851288.ch2"
+            }
+          },
+          "score": 67.16778,
+          "source": "Crossref",
+          "title": [
+            "NG‐RAN Network – Protocol Architecture"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.1002/9781119851288.ch9",
+          "ISBN": [
+            "9781786306289",
+            "9781119851288"
+          ],
+          "URL": "https://doi.org/10.1002/9781119851288.ch9",
+          "alternative-id": [
+            "10.1002/9781119851288.ch9",
+            "10.1002/9781119851288"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "NG‐RAN and 5G‐NR"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2021-08-13T21:31:19Z",
+            "timestamp": 1628890279000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                29
+              ]
+            ],
+            "date-time": "2023-08-29T17:22:58Z",
+            "timestamp": 1693329778000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2024-05-12T22:13:46Z",
+            "timestamp": 1715552026353
+          },
+          "is-referenced-by-count": 1,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781786306289"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119851288"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            },
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch9",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch9",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "237-261",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_2_1",
+              "unstructured": "All standards can be downloaded from the ETSI website:https://www.etsi.org/standards."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "unstructured": "3GPP 23.501System architecture for the 5G System (5GS);Version 16.6.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "unstructured": "3GPP 36.304LTE ‐ Evolved Universal Terrestrial Radio Access (E‐UTRA);User Equipment (UE) procedures in idle mode;Version 9.9.0 Release 9"
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "unstructured": "3GPP 38.104NR ‐ Base Station (BS) radio transmission and reception;Version 15.2.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "unstructured": "3GPP 38.211NR ‐ Physical channels and modulation;Version 16‐2.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "unstructured": "3GPP 38.212NR ‐ Multiplexing and channel coding;Version 16‐2.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "unstructured": "3GPP 38.213NR ‐ Physical layer procedure for control;Version 16‐2.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "unstructured": "3GPP 38.300NR ‐ NR and NG‐RAN Overall description; Stage‐2Version 16‐2.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "unstructured": "3GPP 38.331NR ‐ Radio Resource Control (RRC); Protocol specification;Version 16‐2.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_11_1",
+              "unstructured": "38.508NR 5GS ‐User Equipment (UE) conformance specification; Part 1: Common test environment;Version 15.2.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_12_1",
+              "unstructured": "5G Tools for RF Wireless (2021). 5G Tools for RF Wireless: Tools from engineers for engineers [Online]. Available at:https://5g-tools.com/5g-nr-gscn-calculator/."
+            }
+          ],
+          "reference-count": 11,
+          "references-count": 11,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119851288.ch9"
+            }
+          },
+          "score": 66.25416,
+          "source": "Crossref",
+          "title": [
+            "5G‐NR Radio Interface – Radio Access Procedure"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.1002/9781119851288.fmatter",
+          "ISBN": [
+            "9781786306289",
+            "9781119851288"
+          ],
+          "URL": "https://doi.org/10.1002/9781119851288.fmatter",
+          "alternative-id": [
+            "10.1002/9781119851288.fmatter",
+            "10.1002/9781119851288"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "NG‐RAN and 5G‐NR"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2021-08-13T21:31:19Z",
+            "timestamp": 1628890279000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                29
+              ]
+            ],
+            "date-time": "2023-08-29T17:22:52Z",
+            "timestamp": 1693329772000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2024-05-12T22:13:52Z",
+            "timestamp": 1715552032977
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781786306289"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119851288"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            },
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.fmatter",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.fmatter",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119851288.fmatter"
+            }
+          },
+          "score": 64.54116,
+          "source": "Crossref",
+          "title": [
+            "Front Matter"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.1002/9781119851288",
+          "ISBN": [
+            "9781786306289",
+            "9781119851288"
+          ],
+          "URL": "https://doi.org/10.1002/9781119851288",
+          "alternative-id": [
+            "10.1002/9781119851288"
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Launay",
+              "given": "Frédéric",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2021-08-13T17:31:19Z",
+            "timestamp": 1628875879000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                18
+              ]
+            ],
+            "date-time": "2026-08-18T08:19:51Z",
+            "timestamp": 1787041191000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                18
+              ]
+            ],
+            "date-time": "2026-08-18T08:30:52Z",
+            "timestamp": 1787041852425,
+            "version": "build-2736575974"
+          },
+          "is-referenced-by-count": 17,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781786306289"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119851288"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/book/10.1002/9781119851288"
+            }
+          },
+          "score": 64.30056,
+          "source": "Crossref",
+          "subtitle": [
+            "5G Radio Access Network and Radio Interface"
+          ],
+          "title": [
+            "NG‐RAN and 5G‐NR"
+          ],
+          "type": "monograph"
+        },
+        {
+          "DOI": "10.1002/9781119851288.ch7",
+          "ISBN": [
+            "9781786306289",
+            "9781119851288"
+          ],
+          "URL": "https://doi.org/10.1002/9781119851288.ch7",
+          "alternative-id": [
+            "10.1002/9781119851288.ch7",
+            "10.1002/9781119851288"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "NG‐RAN and 5G‐NR"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2021-08-13T21:31:19Z",
+            "timestamp": 1628890279000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                29
+              ]
+            ],
+            "date-time": "2023-08-29T17:23:13Z",
+            "timestamp": 1693329793000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                23
+              ]
+            ],
+            "date-time": "2026-01-23T10:37:43Z",
+            "timestamp": 1769164663029,
+            "version": "3.49.0"
+          },
+          "is-referenced-by-count": 1,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781786306289"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119851288"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch7",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch7",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "191-202",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_2_1",
+              "unstructured": "All standards can be downloaded from the ETSI website:https://www.etsi.org/standards."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "unstructured": "3GPP TS 38.211NR ‐ Physical Channels and Modulation;Version 16.1.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "unstructured": "3GPP TS 38.213NR ‐ Physical layer procedures for control;Version 16.2.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "unstructured": "3GPP TS 38.306NR ‐ User Equipment (UE) radio access capabilities;Version 16.1.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "unstructured": "3GPP TS 38.331NR ‐ Radio Resource Control (RRC);Version 15.2.1 Release 15"
+            }
+          ],
+          "reference-count": 5,
+          "references-count": 5,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119851288.ch7"
+            }
+          },
+          "score": 63.991013,
+          "source": "Crossref",
+          "title": [
+            "5G‐NR Radio Interface – Bandwidth Part"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.1002/9781394284757.ch23",
+          "ISBN": [
+            "9781394284726",
+            "9781394284757"
+          ],
+          "URL": "https://doi.org/10.1002/9781394284757.ch23",
+          "alternative-id": [
+            "10.1002/9781394284757.ch23",
+            "10.1002/9781394284757"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "An Introduction to 5G"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                3
+              ]
+            ],
+            "date-time": "2025-05-03T21:53:45Z",
+            "timestamp": 1746309225000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2025-05-12T16:40:48Z",
+            "timestamp": 1747068048000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2025-05-12T17:10:04Z",
+            "timestamp": 1747069804464,
+            "version": "3.40.5"
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781394284726"
+            },
+            {
+              "type": "electronic",
+              "value": "9781394284757"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                3
+              ]
+            ]
+          },
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781394284757.ch23",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "453-463",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                3
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                3
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                27
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_2_1",
+              "unstructured": "3GPP TR 38.843(2023)Study on Artificial Intelligence (AI)/Machine Learning (ML) for NR air interface (Release 18) December 2023."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "unstructured": "3GPP TR 38.744(2024)Study on Artificial Intelligence (AI)/Machine Learning (ML) for mobility in NR (Release 19) October 2024."
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "unstructured": "3GPP TR 22.837(2024)Feasibility study on integrated sensing and communication (Release 19) June 2024."
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "unstructured": "3GPP TS 22.137(2024)Service requirements for integrated sensing and communication; Stage 1 (Release 19) March 2024."
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "unstructured": "3GPP TR 22.840(2023)Study on ambient power‐enabled internet of things (Release 19) December 2023."
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "unstructured": "3GPP TS 22.369(2024)Service requirements for ambient power‐enabled IoT; Stage 1 (Release 19) September 2024."
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "unstructured": "3GPP TR 38.848(2023)Study on ambient IoT (Internet of Things) in RAN (Release 18) September 2023."
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "unstructured": "3GPP TR 38.769(2024)Study on solutions for ambient IoT (Internet of Things) (Release 19) September 2024."
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "unstructured": "3GPP TR 38.869(2023)Study on low‐power wake‐up signal and receiver for NR (Release 18) December 2023."
+            },
+            {
+              "key": "e_1_2_1_11_1",
+              "unstructured": "3GPP TR 38.858(2024)Study on evolution of NR duplex operation (Release 18) March 2023."
+            },
+            {
+              "key": "e_1_2_1_12_1",
+              "unstructured": "3GPP(2024)ftp://ftp.3gpp.org/Information/WORK_PLAN(accessed 22 October 2024)."
+            },
+            {
+              "key": "e_1_2_1_13_1",
+              "unstructured": "3GPP TR 21.919(2025)Summary of Rel‐19 work items (Release 19) to be published."
+            },
+            {
+              "key": "e_1_2_1_14_1",
+              "unstructured": "5G Americas(2022)Mobile communications towards 2030."
+            },
+            {
+              "DOI": "10.1109/COMST.2023.3249835",
+              "doi-asserted-by": "publisher",
+              "key": "e_1_2_1_15_1"
+            },
+            {
+              "key": "e_1_2_1_16_1",
+              "unstructured": "Next Generation Mobile Networks(2024)Strategic focus topics.https://www.ngmn.org/work-programme/strategic-focus-topics.html(accessed 22 October 2024)."
+            },
+            {
+              "key": "e_1_2_1_17_1",
+              "unstructured": "B5GPC(2024)Beyond 5G promotion consortium.https://b5g.jp/en/(accessed 22 October 2024)."
+            },
+            {
+              "key": "e_1_2_1_18_1",
+              "unstructured": "6G Forum(2024)6G forumhttp://www.5gforum.org/html/en/main.php(accessed 22 October 2024)."
+            },
+            {
+              "key": "e_1_2_1_19_1",
+              "unstructured": "IMT‐2030 (6G) Promotion Group(2024)IMT‐2030 (6G).www.imt2030.org.cn/(accessed 22 October 2024)."
+            },
+            {
+              "key": "e_1_2_1_20_1",
+              "unstructured": "Bharat 6G Alliance(2024)Bharat 6G alliance.https://bharat6galliance.com/bharat6G/(accessed 22 October 2024)."
+            },
+            {
+              "key": "e_1_2_1_21_1",
+              "unstructured": "Next G Alliance(2024)Home – Next G alliance.https://nextgalliance.org/(accessed 22 October 2024)."
+            },
+            {
+              "key": "e_1_2_1_22_1",
+              "unstructured": "Smart Networks and Services Joint Undertaking(2024)Home – SNS JU.https://smart-networks.europa.eu/(accessed 22 October 2024)."
+            },
+            {
+              "key": "e_1_2_1_23_1",
+              "unstructured": "ITU(2024)IMT towards 2030 and beyond.https://www.itu.int/en/ITU-R/study-groups/rsg5/rwp5d/imt-2030/Pages/default.aspx(accessed 22 October 2024)."
+            },
+            {
+              "key": "e_1_2_1_24_1",
+              "unstructured": "ITU(2022)WP 5D timeline for IMT‐2030.https://www.itu.int/dms_pub/itu-r/oth/0a/06/R0A060000C80001PDFE.pdf(accessed 22 October 2024)."
+            },
+            {
+              "key": "e_1_2_1_25_1",
+              "unstructured": "ITU‐R Resolution 56‐3(2023)Naming for international mobile telecommunications November 2023."
+            },
+            {
+              "key": "e_1_2_1_26_1",
+              "unstructured": "ITU‐R Resolution 65‐1(2023)Principles for the process of future development of IMT‐2020 and IMT‐2030 November 2023."
+            },
+            {
+              "key": "e_1_2_1_27_1",
+              "unstructured": "ITU‐R Report M.2516‐0(2022)Future technology trends of terrestrial international mobile telecommunications systems towards 2030 and beyond November 2022."
+            },
+            {
+              "key": "e_1_2_1_28_1",
+              "unstructured": "ITU‐R Recommendation M.2160‐0(2023)Framework and overall objectives of the future development of IMT for 2030 and beyond November 2023."
+            },
+            {
+              "key": "e_1_2_1_29_1",
+              "unstructured": "ITU‐R Report M.2541‐0(2024)Technical feasibility of IMT in bands above 100 GHz May 2024."
+            },
+            {
+              "key": "e_1_2_1_30_1",
+              "unstructured": "ITU‐R Circular letter 5/LCCE/115(2024)Invitation for submission of proposals for candidate radio interface technologies for the terrestrial components of the radio interface(s) for IMT‐2030 and invitation to participate in their subsequent evaluation.https://www.itu.int/md/R00-SG05-CIR-0115/en(accessed 23 October 2024)."
+            },
+            {
+              "key": "e_1_2_1_31_1",
+              "unstructured": "ITU(2024)IMT‐2030 submission and evaluation process for first release of IMT‐2030.https://www.itu.int/en/ITU-R/study-groups/rsg5/rwp5d/imt-2030/Pages/submission-eval.aspx(accessed 23 October 2024)."
+            },
+            {
+              "key": "e_1_2_1_32_1",
+              "unstructured": "3GPP(2024)WG SA1 6G Use Case Workshop.https://www.3gpp.org/news-events/3gpp-news/sa1-6g(accessed 22 October 2024)."
+            },
+            {
+              "key": "e_1_2_1_33_1",
+              "unstructured": "3GPP SWS‐240025(2024)3GPP Stage 1 Workshop on IMT2030 use cases: Summary of the workshop May 2024."
+            },
+            {
+              "key": "e_1_2_1_34_1",
+              "unstructured": "3GPP(2025)3GPP workshop on 6G.https://www.3gpp.org/component/content/article/6gworkshop-2025(accessed 29 March 2025)."
+            },
+            {
+              "key": "e_1_2_1_35_1",
+              "unstructured": "3GPP 6GWS‐250243(2025)Chair's summary of the 3GPP workshop on 6G March 2025."
+            },
+            {
+              "key": "e_1_2_1_36_1",
+              "unstructured": "3GPP TR 22.826(2021)Study on communication services for critical medical applications (Release 17) March 2021."
+            },
+            {
+              "key": "e_1_2_1_37_1",
+              "unstructured": "Samsung(2020)6G: The next hyper‐connected experience for all.https://cdn.codeground.org/nsr/downloads/researchareas/20201201_6G_Vision_web.pdf(accessed 22 October 2024)."
+            },
+            {
+              "key": "e_1_2_1_38_1",
+              "unstructured": "ITU‐R Resolution 256 (WRC‐23)(2023)Sharing and compatibility studies and development of technical conditions for the use of International Mobile Telecommunications (IMT) in the frequency bands 4 400‐4 800 MHz 7 125‐8 400 MHz (or parts thereof) and 14.8‐15.35 GHz for the terrestrial component of IMT. World Radiocommunication Conference 2023 (WRC‐23) Final Acts."
+            },
+            {
+              "key": "e_1_2_1_39_1",
+              "unstructured": "ITU‐R Resolution 813 (WRC‐23)(2023)Agenda for the 2027 World Radiocommunication Conference. World Radiocommunication Conference 2023 (WRC‐23) Final Acts."
+            },
+            {
+              "key": "e_1_2_1_40_1",
+              "unstructured": "ITU‐R Report M.2410‐0(2017)Minimum requirements related to technical performance for IMT‐2020 radio interface(s) November 2017."
+            }
+          ],
+          "reference-count": 39,
+          "references-count": 39,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781394284757.ch23"
+            }
+          },
+          "score": 63.956623,
+          "source": "Crossref",
+          "title": [
+            "From 5G‐Advanced to 6G"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.1002/9781119851288.ch8",
+          "ISBN": [
+            "9781786306289",
+            "9781119851288"
+          ],
+          "URL": "https://doi.org/10.1002/9781119851288.ch8",
+          "alternative-id": [
+            "10.1002/9781119851288.ch8",
+            "10.1002/9781119851288"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "NG‐RAN and 5G‐NR"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2021-08-13T21:31:19Z",
+            "timestamp": 1628890279000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                29
+              ]
+            ],
+            "date-time": "2023-08-29T17:23:19Z",
+            "timestamp": 1693329799000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                12
+              ]
+            ],
+            "date-time": "2026-01-12T22:26:46Z",
+            "timestamp": 1768256806894,
+            "version": "3.49.0"
+          },
+          "is-referenced-by-count": 2,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781786306289"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119851288"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch8",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch8",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "203-235",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_2_1",
+              "unstructured": "All standards can be downloaded from the ETSI website:https://www.etsi.org/standards."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "unstructured": "3GPP 23.501System architecture for the 5G System (5GS);Version 15.9.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "unstructured": "3GPP 37.324E‐UTRA NR ‐ Multi‐connectivity; Overall Description;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "unstructured": "3GPP 37.340LTE 5G NR ‐ Service Data Adaptation Protocol (SDAP); Protocol specification;Version 16.0.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "unstructured": "3GPP 38.300NR ‐ Radio Resource Control (RRC); Protocol specification;Version 16.0.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "unstructured": "3GPP 38.321NR ‐ Medium Access Control (MAC) Protocol specification;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "unstructured": "3GPP 38.322NR ‐ Radio Link Control Protocol (RLC) specification;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "unstructured": "3GPP 38.323NR ‐ Packet Data Convergence Protocol (PDCP) specification;Version 16.1.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "unstructured": "3GPP 38.331NR ‐ Radio Resource Control (RRC); Protocol specification;Version 16.0.0 Release 16"
+            }
+          ],
+          "reference-count": 9,
+          "references-count": 9,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119851288.ch8"
+            }
+          },
+          "score": 63.640186,
+          "source": "Crossref",
+          "title": [
+            "5G‐NR Radio Interface – Data Link Layer"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.1002/9781119851288.index",
+          "ISBN": [
+            "9781786306289",
+            "9781119851288"
+          ],
+          "URL": "https://doi.org/10.1002/9781119851288.index",
+          "alternative-id": [
+            "10.1002/9781119851288.index",
+            "10.1002/9781119851288"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "NG‐RAN and 5G‐NR"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2021-08-13T21:31:19Z",
+            "timestamp": 1628890279000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                29
+              ]
+            ],
+            "date-time": "2023-08-29T17:22:53Z",
+            "timestamp": 1693329773000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2024-05-12T22:13:52Z",
+            "timestamp": 1715552032898
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781786306289"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119851288"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            },
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.index",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.index",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "263-264",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119851288.index"
+            }
+          },
+          "score": 63.554283,
+          "source": "Crossref",
+          "title": [
+            "Index"
+          ],
+          "type": "other"
+        }
+      ],
+      "items-per-page": 10,
+      "query": {
+        "search-terms": null,
+        "start-index": 0
+      },
+      "total-results": 3329
+    },
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "status": "ok"
+  },
+  "retrieved_at_utc": "2026-08-31T14:30:47Z",
+  "retry_count": 0
+}

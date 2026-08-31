@@ -1,0 +1,28 @@
+stage,reason,record_count,paper_count,study_count,scenario_count,notes
+identified,all_sources,1921,0,0,0,Repository records plus bounded Crossref/OpenAlex results.
+identified_by_source_query_family,crossref:field_and_operational_evidence,200,0,0,0,
+identified_by_source_query_family,crossref:pairwise_multi_asset,300,0,0,0,
+identified_by_source_query_family,crossref:prior_reviews,200,0,0,0,
+identified_by_source_query_family,crossref:single_asset_service,200,0,0,0,
+identified_by_source_query_family,crossref:three_plus_or_broad_multi_asset,50,0,0,0,
+identified_by_source_query_family,openalex:field_and_operational_evidence,200,0,0,0,
+identified_by_source_query_family,openalex:pairwise_multi_asset,300,0,0,0,
+identified_by_source_query_family,openalex:prior_reviews,200,0,0,0,
+identified_by_source_query_family,openalex:single_asset_service,200,0,0,0,
+identified_by_source_query_family,openalex:three_plus_or_broad_multi_asset,50,0,0,0,
+identified_by_source_query_family,repository:repository_seeds,21,0,0,0,
+deduplicated,after_normalized_doi_and_exact_title_year,581,0,0,0,No fuzzy-only merge was performed.
+title_abstract_excluded,X01_not_focal_asset,132,0,0,0,
+title_abstract_excluded,X02_internal_efficiency_only,2,0,0,0,
+title_abstract_excluded,X03_no_grid_signal_or_service,134,0,0,0,
+title_abstract_excluded,X04_digital_only_no_energy_decision,20,0,0,0,
+title_abstract_excluded,X11_non_original_or_unverifiable_claim,3,0,0,0,
+title_abstract_excluded,X13_unrelated_review_or_style_exemplar,11,0,0,0,
+fulltext,sought,279,0,0,0,
+fulltext,obtained_and_verified,2,0,0,0,
+fulltext,unavailable_or_not_verified,277,0,0,0,
+fulltext_excluded,X10_fulltext_unavailable_for_required_verification,277,0,0,0,
+included,prior_reviews,0,0,0,0,Prior-review table is header-only in this bounded run.
+included,primary_evidence,0,2,2,2,
+included,multi_asset_evidence,0,1,1,1,
+manual_verification,required,277,0,0,0,Not included in evidence calculations.
