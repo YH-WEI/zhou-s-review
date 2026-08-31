@@ -1,0 +1,656 @@
+schema_version: "1.0"
+codebook_version: "1.0"
+coding_freeze_date: "2026-08-31"
+notes: >-
+  Human-readable named-field source for the two repository studies whose full text was
+  available and verified. Generated frozen CSVs are the offline analysis inputs.
+
+tables:
+  papers:
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      paper_id: P0001
+      study_id: ST0001
+      work_family_id: WF0001
+      title: AI data centres as grid-interactive assets
+      authors: Philip Colangelo|Ayse K. Coskun|Jack Megrue|Ciaran Roberts|Shayan Sengupta|Varun Sivaram|Ethan Tiao|Aroon Vijaykar|Chris Williams|Daniel C. Wilson|Brandon Records|Zack MacFarland|Daniel Dreiling|Nathan Morey|Anuja Ratnayake|Baskar Vairamohan
+      first_author: Philip Colangelo
+      publication_year: 2026
+      venue_or_issuer: Nature Energy
+      publication_type: peer_reviewed_primary
+      publication_status: published_version
+      peer_reviewed: yes
+      corpus_layer: primary_evidence
+      version_role: version_of_record
+      included_main_version: yes
+      doi_raw: 10.1038/s41560-025-01927-1
+      doi_normalized: 10.1038/s41560-025-01927-1
+      stable_url: https://doi.org/10.1038/s41560-025-01927-1
+      fulltext_access_status: repository_supplied_fulltext
+      language: en
+      region_or_jurisdiction: Arizona|United States
+      retraction_or_correction_status: no_retraction_or_correction_identified_in_checked_metadata
+      added_via: repository_seed
+      source_query_ids: QREPO_SEEDS
+      accessed_at_utc: "2026-08-31T14:36:16Z"
+      coding_confidence: high
+      extractor_id: codex
+      extraction_date: "2026-08-31"
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+      notes: Published online in 2025 and assigned to the February 2026 issue; coded as publication year 2026.
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      paper_id: P0002
+      study_id: ST0002
+      work_family_id: WF0002
+      title: An electricity-driven mobility circular economy with lifecycle carbon footprints for climate-adaptive carbon neutrality transformation
+      authors: Aoye Song|Zhaohui Dan|Siqian Zheng|Yuekuan Zhou
+      first_author: Aoye Song
+      publication_year: 2024
+      venue_or_issuer: Nature Communications
+      publication_type: peer_reviewed_primary
+      publication_status: published_version
+      peer_reviewed: yes
+      corpus_layer: primary_evidence
+      version_role: version_of_record
+      included_main_version: yes
+      doi_raw: 10.1038/s41467-024-49868-9
+      doi_normalized: 10.1038/s41467-024-49868-9
+      stable_url: https://doi.org/10.1038/s41467-024-49868-9
+      oa_url: https://www.nature.com/articles/s41467-024-49868-9.pdf
+      fulltext_access_status: repository_supplied_fulltext
+      language: en
+      region_or_jurisdiction: China|multi-region model
+      retraction_or_correction_status: no_retraction_or_correction_identified_in_checked_metadata
+      added_via: repository_seed
+      source_query_ids: QREPO_SEEDS
+      accessed_at_utc: "2026-08-31T14:36:16Z"
+      coding_confidence: high
+      extractor_id: codex
+      extraction_date: "2026-08-31"
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+      notes: Scenario C is coded; lifecycle and policy conclusions are not generalized beyond the modelled cases.
+
+  studies:
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      study_id: ST0001
+      project_family_id: PRJ0001
+      study_name: Phoenix 256-GPU data-centre demand-response field trial
+      primary_paper_id: P0001
+      study_design_summary: Controlled field trial with two utility peak events plus controlled power-reduction experiments on a production-grade GPU cluster.
+      data_origin: Measured GPU-cluster power and performance with utility grid signals; one historical emergency sequence was re-enacted.
+      geographic_region: Phoenix|Arizona|United States
+      jurisdiction: Arizona Public Service|Salt River Project
+      study_start_date: "2025-05-02"
+      study_end_date: "2025-05-03"
+      study_duration_days: 2
+      real_assets_used: yes
+      market_operation: no
+      independence_status: independent
+      duplicate_risk: no_duplicate_project_identified_in_included_corpus
+      coding_confidence: high
+      extractor_id: codex
+      extraction_date: "2026-08-31"
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+      notes: Field pilot is not coded as sustained market delivery.
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      study_id: ST0002
+      project_family_id: PRJ0002
+      study_name: Modelled district building-EV V2X and battery circular-economy scenarios
+      primary_paper_id: P0002
+      study_design_summary: Scenario-based simulation of buildings, EVs, renewable generation, grid imports and lifecycle battery outcomes across climate regions.
+      data_origin: TRNSYS and lifecycle/economic models using climate, building, vehicle and tariff inputs.
+      geographic_region: China|international_case_cities
+      jurisdiction: modelled_multi-jurisdiction
+      real_assets_used: no
+      market_operation: no
+      independence_status: independent
+      duplicate_risk: no_duplicate_project_identified_in_included_corpus
+      coding_confidence: high
+      extractor_id: codex
+      extraction_date: "2026-08-31"
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+      notes: Scenario C is treated as modelled evidence; the source's synergy wording is not adopted.
+
+  scenarios:
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      scenario_id: SC0001
+      study_id: ST0001
+      paper_id: P0001
+      scenario_name: Utility peak-demand response by workload orchestration
+      service_family: demand_response_peak_management
+      service_type: operational_objective
+      service_name_raw: peak demand power curtailment
+      service_role: measured site-load reduction against a utility-set target
+      system_boundary: 256-GPU production-grade cluster within one hyperscale cloud facility
+      electrical_scale: facility_subsystem
+      geographic_scale: single_site
+      control_architecture: centralized
+      coordination_active_decision_variables: no
+      coordination_common_service_or_constraint: yes
+      coordination_joint_control_dispatch_or_clearing: no
+      active_asset_class_count: 1
+      multi_asset: no
+      validation_environment: controlled_field_pilot
+      evidence_setting: E4
+      real_assets_used: yes
+      live_control: yes
+      market_delivery: no
+      deployment_duration_days: 2
+      highest_claim_level: L3_delivered_service
+      comparison_design: measured power tracked against utility target and average base load
+      matched_coordination_counterfactual: no
+      baseline_type: pre_event_average
+      baseline_description: average cluster base load during the peak-demand period
+      data_source_type: measured_power_and_workload_telemetry
+      simulation_with_measured_data: no
+      uncertainty_considered: yes
+      failure_scenario_considered: no
+      network_constraint_considered: no
+      digital_overhead_considered: no
+      communication_generation_status: not_applicable
+      source_page: PDF pp.1-7|journal pp.254-260
+      source_section: Abstract|Phoenix field trial|Simulator performance accuracy|Methods
+      source_table_figure_equation: Table 1|Figs. 2-6|Table 2
+      evidence_note: Measured site-load control met two utility-set event targets; this was a bounded pilot, not sustained market operation.
+      coding_confidence: high
+      extractor_id: codex
+      extraction_date: "2026-08-31"
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+      notes: The data centre is the only active focal asset; grid and utilities do not increment focal-asset count.
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      scenario_id: SC0002
+      study_id: ST0002
+      paper_id: P0002
+      scenario_name: Scenario C multi-direction V2X building-EV energy interaction
+      service_family: renewable_energy_integration
+      service_type: operational_objective
+      service_name_raw: renewable energy self-consumption through B2V and V2B energy sharing
+      service_role: modelled building-EV energy exchange and renewable-energy integration
+      system_boundary: district community with buildings, EVs, on-site BIPV/wind and grid imports
+      electrical_scale: community_energy_balance
+      geographic_scale: multiple_modelled_cities
+      control_architecture: unclear
+      coordination_active_decision_variables: yes
+      coordination_common_service_or_constraint: yes
+      coordination_joint_control_dispatch_or_clearing: yes
+      active_asset_class_count: 2
+      multi_asset: yes
+      validation_environment: synthetic_simulation
+      evidence_setting: E1
+      real_assets_used: no
+      live_control: no
+      market_delivery: no
+      highest_claim_level: L3_delivered_service
+      comparison_design: Scenario C V2X interaction compared with Scenario A without building-EV interaction
+      matched_coordination_counterfactual: yes
+      baseline_type: modelled_no_v2x_scenario
+      baseline_description: Scenario A uses the same focal classes without building-EV energy interaction and relies on grid charging
+      data_source_type: modelled_climate_building_vehicle_and_energy_flows
+      simulation_with_measured_data: unknown
+      uncertainty_considered: no
+      failure_scenario_considered: no
+      network_constraint_considered: no
+      digital_overhead_considered: no
+      communication_generation_status: not_applicable
+      source_page: PDF pp.5-6|journal pp.5-6
+      source_section: Battery circular economy in district communities
+      source_table_figure_equation: Figs. 4-5
+      evidence_note: Both EV and building energy exchanges are coupled in Scenario C; the setting remains a synthetic/modelled community energy balance.
+      coding_confidence: high
+      extractor_id: codex
+      extraction_date: "2026-08-31"
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+      notes: Renewable generators and the grid are contextual resources and are not counted as focal asset classes.
+
+  case_assets:
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      scenario_asset_id: A0001
+      scenario_id: SC0001
+      asset_class: DC
+      asset_role: active_energy_asset
+      active_flexibility_asset: yes
+      decision_variable: GPU power caps, job pausing and resource allocation
+      flexibility_resource: AI workload power modulation
+      flexibility_direction: decrease
+      nominal_capacity_status: source_reported
+      nominal_capacity_raw: 256-GPU cluster
+      nominal_capacity_value: 256
+      nominal_capacity_unit: GPU_count
+      available_capacity_status: not_reported
+      availability_window: two three-hour utility peak events
+      primary_service_name: AI workload throughput and quality-of-service SLA
+      energy_metering_point: GPU cluster power measurement
+      ownership_or_controller: cloud facility and centralized power-orchestration platform
+      double_counting_note: Compute capability is not counted separately from the DC active energy asset.
+      source_locator: PDF pp.1-3|journal pp.254-256|Table 1|Figs. 2-3
+      evidence_note: Cluster load was actively controlled; utilities and the grid are external interfaces.
+      coding_confidence: high
+      extractor_id: codex
+      extraction_date: "2026-08-31"
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      scenario_asset_id: A0002
+      scenario_id: SC0002
+      asset_class: EV
+      asset_role: active_energy_asset
+      active_flexibility_asset: yes
+      decision_variable: EV charging and discharging energy exchange
+      flexibility_resource: mobile battery through B2V and V2B
+      flexibility_direction: charge|discharge|shift
+      nominal_capacity_status: not_reported
+      available_capacity_status: not_reported
+      availability_window: modelled scenario
+      primary_service_name: mobility and battery lifecycle
+      energy_metering_point: modelled building-EV exchange boundary
+      ownership_or_controller: modelled community energy system
+      double_counting_note: EV battery is counted once as EV flexibility; later cascade reuse is not a second focal asset in Scenario C.
+      source_locator: PDF pp.5-6|journal pp.5-6|Figs. 4-5
+      evidence_note: EV charging/discharging is coupled to building renewable supply and grid imports.
+      coding_confidence: high
+      extractor_id: codex
+      extraction_date: "2026-08-31"
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      scenario_asset_id: A0003
+      scenario_id: SC0002
+      asset_class: BLDG
+      asset_role: active_energy_asset
+      active_flexibility_asset: yes
+      decision_variable: building-to-vehicle and vehicle-to-building energy exchange
+      flexibility_resource: building prosumer load and on-site renewable allocation
+      flexibility_direction: import|export|shift
+      nominal_capacity_status: not_reported
+      available_capacity_status: not_reported
+      availability_window: modelled scenario
+      primary_service_name: building energy demand
+      energy_metering_point: modelled building-community energy boundary
+      ownership_or_controller: modelled community energy system
+      double_counting_note: BIPV and wind are contextual resources attached to buildings and do not add focal asset classes.
+      source_locator: PDF pp.5-6|journal pp.5-6|Figs. 4-5
+      evidence_note: Building energy exchange is jointly represented with EV charging/discharging in Scenario C.
+      coding_confidence: high
+      extractor_id: codex
+      extraction_date: "2026-08-31"
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+
+  safeguards:
+    - {schema_version: "1.0", codebook_version: "1.0", safeguard_id: SG0001, scenario_id: SC0001, study_id: ST0001, paper_id: P0001, asset_class: DC, constraint_type: compute_sla, constraint_name_raw: flexible SLA tiers, treatment_status: hard_constraint, threshold_status: source_reported, violation_reported: no, constraint_satisfied: yes, result_status: source_reported, source_locator: "PDF pp.2-3 and 6-7|journal pp.255-256 and 259-260|Tables 1-2", evidence_note: "All policies solved for power reduction subject to job SLAs; 33 experiments reported zero SLA violations.", coding_confidence: high, extractor_id: codex, extraction_date: "2026-08-31", verification_status: verified_against_fulltext_by_codex, verifier_id: codex, verification_date: "2026-08-31"}
+    - {schema_version: "1.0", codebook_version: "1.0", safeguard_id: SG0002, scenario_id: SC0001, study_id: ST0001, paper_id: P0001, asset_class: DC, constraint_type: deadline, constraint_name_raw: job deadline, treatment_status: not_reported, threshold_status: not_reported, violation_reported: unknown, constraint_satisfied: unknown, result_status: not_reported, source_locator: "PDF pp.1-7|journal pp.254-260", evidence_note: "Throughput/SLA envelopes were reported, but a separate deadline result was not identified.", coding_confidence: high, extractor_id: codex, extraction_date: "2026-08-31", verification_status: verified_against_fulltext_by_codex, verifier_id: codex, verification_date: "2026-08-31"}
+    - {schema_version: "1.0", codebook_version: "1.0", safeguard_id: SG0003, scenario_id: SC0001, study_id: ST0001, paper_id: P0001, asset_class: DC, constraint_type: availability, constraint_name_raw: facility availability, treatment_status: not_reported, threshold_status: not_reported, violation_reported: unknown, constraint_satisfied: unknown, result_status: not_reported, source_locator: "PDF pp.1-7|journal pp.254-260", evidence_note: "No separate facility-availability threshold/result was identified.", coding_confidence: high, extractor_id: codex, extraction_date: "2026-08-31", verification_status: verified_against_fulltext_by_codex, verifier_id: codex, verification_date: "2026-08-31"}
+    - {schema_version: "1.0", codebook_version: "1.0", safeguard_id: SG0004, scenario_id: SC0001, study_id: ST0001, paper_id: P0001, asset_class: DC, constraint_type: thermal_safety, constraint_name_raw: thermal safety, treatment_status: not_reported, threshold_status: not_reported, violation_reported: unknown, constraint_satisfied: unknown, result_status: not_reported, source_locator: "PDF pp.1-7|journal pp.254-260", evidence_note: "A separate thermal-safety constraint/result was not identified for the GPU-cluster trial.", coding_confidence: high, extractor_id: codex, extraction_date: "2026-08-31", verification_status: verified_against_fulltext_by_codex, verifier_id: codex, verification_date: "2026-08-31"}
+    - {schema_version: "1.0", codebook_version: "1.0", safeguard_id: SG0005, scenario_id: SC0002, study_id: ST0002, paper_id: P0002, asset_class: EV, constraint_type: mobility, constraint_name_raw: daily transportation demand, treatment_status: scenario_assumption, threshold_status: unclear, violation_reported: unknown, constraint_satisfied: unknown, result_status: unclear, source_locator: "PDF pp.1-3 and 12|journal pp.1-3 and 12", evidence_note: "Vehicle use is modelled, but a distinct mobility-service violation result was not reported for Scenario C.", coding_confidence: medium, extractor_id: codex, extraction_date: "2026-08-31", verification_status: verified_against_fulltext_by_codex, verifier_id: codex, verification_date: "2026-08-31"}
+    - {schema_version: "1.0", codebook_version: "1.0", safeguard_id: SG0006, scenario_id: SC0002, study_id: ST0002, paper_id: P0002, asset_class: EV, constraint_type: departure_soc, constraint_name_raw: departure SOC, treatment_status: not_reported, threshold_status: not_reported, violation_reported: unknown, constraint_satisfied: unknown, result_status: not_reported, source_locator: "PDF pp.1-14|journal pp.1-14", evidence_note: "No explicit departure-SOC threshold/result was identified.", coding_confidence: high, extractor_id: codex, extraction_date: "2026-08-31", verification_status: verified_against_fulltext_by_codex, verifier_id: codex, verification_date: "2026-08-31"}
+    - {schema_version: "1.0", codebook_version: "1.0", safeguard_id: SG0007, scenario_id: SC0002, study_id: ST0002, paper_id: P0002, asset_class: EV, constraint_type: user_opt_out, constraint_name_raw: user opt-out, treatment_status: not_considered, threshold_status: not_applicable, violation_reported: unknown, constraint_satisfied: unknown, result_status: not_applicable, source_locator: "PDF pp.1-14|journal pp.1-14", evidence_note: "User opt-out was not part of the modelled scenario.", coding_confidence: high, extractor_id: codex, extraction_date: "2026-08-31", verification_status: verified_against_fulltext_by_codex, verifier_id: codex, verification_date: "2026-08-31"}
+    - {schema_version: "1.0", codebook_version: "1.0", safeguard_id: SG0008, scenario_id: SC0002, study_id: ST0002, paper_id: P0002, asset_class: EV, constraint_type: battery_degradation, constraint_name_raw: battery cycling ageing cost, treatment_status: soft_penalty, threshold_status: source_reported, violation_reported: unknown, constraint_satisfied: unknown, result_status: source_reported, source_locator: "PDF p.6|journal p.6|Fig. 5", evidence_note: "Battery degradation cost is included in the economic comparison but not enforced as a service threshold.", coding_confidence: high, extractor_id: codex, extraction_date: "2026-08-31", verification_status: verified_against_fulltext_by_codex, verifier_id: codex, verification_date: "2026-08-31"}
+    - {schema_version: "1.0", codebook_version: "1.0", safeguard_id: SG0009, scenario_id: SC0002, study_id: ST0002, paper_id: P0002, asset_class: BLDG, constraint_type: comfort, constraint_name_raw: occupant comfort, treatment_status: not_considered, threshold_status: not_reported, violation_reported: unknown, constraint_satisfied: unknown, result_status: not_reported, source_locator: "PDF pp.1-14|journal pp.1-14", evidence_note: "No explicit comfort constraint/result was identified for Scenario C.", coding_confidence: high, extractor_id: codex, extraction_date: "2026-08-31", verification_status: verified_against_fulltext_by_codex, verifier_id: codex, verification_date: "2026-08-31"}
+    - {schema_version: "1.0", codebook_version: "1.0", safeguard_id: SG0010, scenario_id: SC0002, study_id: ST0002, paper_id: P0002, asset_class: BLDG, constraint_type: indoor_air_quality, constraint_name_raw: IAQ, treatment_status: not_considered, threshold_status: not_reported, violation_reported: unknown, constraint_satisfied: unknown, result_status: not_reported, source_locator: "PDF pp.1-14|journal pp.1-14", evidence_note: "No IAQ constraint/result was identified.", coding_confidence: high, extractor_id: codex, extraction_date: "2026-08-31", verification_status: verified_against_fulltext_by_codex, verifier_id: codex, verification_date: "2026-08-31"}
+    - {schema_version: "1.0", codebook_version: "1.0", safeguard_id: SG0011, scenario_id: SC0002, study_id: ST0002, paper_id: P0002, asset_class: BLDG, constraint_type: safety, constraint_name_raw: building safety, treatment_status: not_reported, threshold_status: not_reported, violation_reported: unknown, constraint_satisfied: unknown, result_status: not_reported, source_locator: "PDF pp.1-14|journal pp.1-14", evidence_note: "No separate building-safety constraint/result was identified.", coding_confidence: high, extractor_id: codex, extraction_date: "2026-08-31", verification_status: verified_against_fulltext_by_codex, verifier_id: codex, verification_date: "2026-08-31"}
+    - {schema_version: "1.0", codebook_version: "1.0", safeguard_id: SG0012, scenario_id: SC0002, study_id: ST0002, paper_id: P0002, asset_class: BLDG, constraint_type: critical_load, constraint_name_raw: critical load, treatment_status: not_applicable, threshold_status: not_applicable, violation_reported: unknown, constraint_satisfied: unknown, result_status: not_applicable, source_locator: "PDF pp.1-14|journal pp.1-14", evidence_note: "Scenario C addresses energy sharing/renewable integration rather than critical-load resilience.", coding_confidence: high, extractor_id: codex, extraction_date: "2026-08-31", verification_status: verified_against_fulltext_by_codex, verifier_id: codex, verification_date: "2026-08-31"}
+
+  reviews: []
+
+  quantitative_values:
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      metric_record_id: M0001
+      scenario_id: SC0001
+      study_id: ST0001
+      paper_id: P0001
+      metric_name_raw: power reduction relative to average base load
+      metric_code: demand_reduction_percent_average_base_load
+      metric_definition: Percent reduction in measured GPU-cluster power relative to average base load during the utility peak event.
+      statistic_type: reported_point
+      effect_type: reduction_from_baseline
+      value_status: source_reported
+      point_value: 25
+      unit_raw: "%"
+      normalized_point_value: 25
+      normalized_unit: percent_of_average_base_load
+      denominator_raw: average base load during the peak-demand period
+      denominator_code: average_base_load
+      baseline_required: yes
+      baseline_type: pre_event_average
+      baseline_description: average cluster base load during the peak-demand period
+      system_boundary: 256-GPU production cluster
+      time_aggregation: three-hour_event
+      temporal_horizon: 3 h
+      jurisdiction: Arizona Public Service|Salt River Project
+      basis: reported
+      extraction_method: fulltext_text_plus_visual_page_check
+      source_locator: PDF p.3|journal p.256|Figs. 2-3
+      short_excerpt_le_25_words: Each event required the cluster to reduce power by 25% with respect to the average base load.
+      comparability_signature: demand_response_peak_management|demand_reduction_percent_average_base_load|percent_of_average_base_load|3h|256_gpu_cluster|pre_event_average|E4
+      eligible_for_synthesis: yes
+      coding_confidence: high
+      extractor_id: codex
+      extraction_date: "2026-08-31"
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+      notes: Eligible as a verified singleton contextual value; fewer than five independent studies prohibit a central summary.
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      metric_record_id: M0002
+      scenario_id: SC0001
+      study_id: ST0001
+      paper_id: P0001
+      metric_name_raw: sustained reduction duration
+      metric_code: sustain_duration_s
+      metric_definition: Duration for which the measured cluster was required to sustain the utility-set power reduction.
+      statistic_type: reported_point
+      effect_type: duration
+      value_status: source_reported
+      point_value: 3
+      unit_raw: h
+      normalized_point_value: 10800
+      normalized_unit: s
+      denominator_code: not_applicable
+      baseline_required: no
+      baseline_type: not_applicable
+      baseline_description: not applicable to a duration value
+      system_boundary: 256-GPU production cluster
+      time_aggregation: event_duration
+      temporal_horizon: 3 h
+      jurisdiction: Arizona Public Service|Salt River Project
+      basis: reviewer_derived
+      transform_rule_id: hours_to_seconds_x3600
+      extraction_method: fulltext_text_plus_unit_conversion
+      source_locator: PDF p.3|journal p.256|Figs. 2-3
+      short_excerpt_le_25_words: sustain the reduction for 3 hours
+      comparability_signature: demand_response_peak_management|sustain_duration|s|event|256_gpu_cluster|not_applicable|E4
+      eligible_for_synthesis: yes
+      coding_confidence: high
+      extractor_id: codex
+      extraction_date: "2026-08-31"
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+      notes: Conversion is reversible; original value and unit are preserved.
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      metric_record_id: M0003
+      scenario_id: SC0001
+      study_id: ST0001
+      paper_id: P0001
+      metric_name_raw: graceful ramp-down and ramp-up interval
+      metric_code: ramp_transition_duration_s
+      metric_definition: Utility-set duration for planned ramp-down and ramp-up transitions; not treated as command latency or time to full physical response.
+      statistic_type: reported_point
+      effect_type: duration
+      value_status: source_reported
+      point_value: 15
+      unit_raw: min
+      normalized_point_value: 900
+      normalized_unit: s
+      denominator_code: not_applicable
+      baseline_required: no
+      baseline_type: not_applicable
+      baseline_description: not applicable to a transition-duration value
+      system_boundary: 256-GPU production cluster
+      time_aggregation: transition_interval
+      temporal_horizon: 15 min
+      jurisdiction: Arizona Public Service|Salt River Project
+      basis: reviewer_derived
+      transform_rule_id: minutes_to_seconds_x60
+      extraction_method: fulltext_text_plus_unit_conversion
+      source_locator: PDF p.3|journal p.256
+      short_excerpt_le_25_words: ramp down and up gracefully over 15 minutes
+      eligible_for_synthesis: no
+      noncomparability_reason: This is a planned ramp interval, not activation latency or time to full response.
+      coding_confidence: high
+      extractor_id: codex
+      extraction_date: "2026-08-31"
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      metric_record_id: M0004
+      scenario_id: SC0001
+      study_id: ST0001
+      paper_id: P0001
+      metric_name_raw: SLA violations across power-reduction experiments
+      metric_code: sla_violation_count
+      metric_definition: Count of SLA violations reported across all power-reduction experiments.
+      statistic_type: reported_count
+      effect_type: constraint_violation
+      value_status: source_reported
+      point_value: 0
+      unit_raw: violations
+      normalized_point_value: 0
+      normalized_unit: violations
+      denominator_raw: 33 total power-reduction experiments
+      denominator_code: power_reduction_experiments
+      baseline_required: no
+      baseline_type: not_applicable
+      baseline_description: not applicable to an observed violation count
+      system_boundary: 256-GPU production cluster and experimental policies
+      time_aggregation: all_reported_experiments
+      temporal_horizon: 33 experiments
+      jurisdiction: Arizona field trial
+      basis: reported
+      extraction_method: fulltext_text
+      source_locator: PDF p.7|journal p.260|Table 2
+      short_excerpt_le_25_words: 33 total power-reduction experiments and zero SLA violations
+      eligible_for_synthesis: no
+      noncomparability_reason: Primary-service count has a study-specific experiment denominator.
+      coding_confidence: high
+      extractor_id: codex
+      extraction_date: "2026-08-31"
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+      notes: Zero is a directly reported observed value, not a missingness code.
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      metric_record_id: M0005
+      scenario_id: SC0002
+      study_id: ST0002
+      paper_id: P0002
+      metric_name_raw: lifecycle battery carbon intensity in Beijing under Scenario C
+      metric_code: lifecycle_battery_carbon_intensity
+      metric_definition: Modelled lifecycle battery carbon intensity for Beijing under multi-direction V2X Scenario C.
+      statistic_type: reported_point
+      effect_type: scenario_level_with_baseline
+      value_status: source_reported
+      point_value: -134.47
+      unit_raw: kg CO2,e kWh-1
+      normalized_point_value: -134.47
+      normalized_unit: kg_CO2e_per_kWh
+      denominator_raw: battery lifecycle energy basis reported as kWh
+      denominator_code: battery_lifecycle_kWh
+      baseline_required: yes
+      baseline_type: modelled_no_v2x_scenario
+      baseline_description: Scenario A without building-EV interaction and with grid charging
+      baseline_value: 1857.08
+      intervention_value: -134.47
+      system_boundary: lifecycle battery plus modelled district building-EV-renewable-grid system
+      time_aggregation: lifecycle_model
+      temporal_horizon: battery_lifecycle
+      jurisdiction: Beijing model case
+      carbon_factor_type: lifecycle_modelled_average
+      basis: reported
+      extraction_method: fulltext_text
+      source_locator: PDF p.6|journal p.6|Fig. 5c
+      short_excerpt_le_25_words: battery carbon intensity is reduced from 1857.08 to -134.47 kg CO2,e kWh-1 in Beijing
+      eligible_for_synthesis: no
+      noncomparability_reason: Single modelled case with a lifecycle boundary, region-specific factors and study-specific baseline.
+      coding_confidence: high
+      extractor_id: codex
+      extraction_date: "2026-08-31"
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+
+  resources:
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      resource_id: RES0001
+      resource_type: paper_supplement
+      resource_name: Source data for the electricity-driven mobility circular-economy study
+      provider: Zenodo
+      resource_url: https://doi.org/10.5281/zenodo.10553509
+      doi_or_accession: 10.5281/zenodo.10553509
+      corpus_layer: evidence_resource
+      license_raw: not_checked
+      license_normalized: unknown
+      access_status: source_locator_reported_not_retrieved
+      access_date: "2026-08-31"
+      data_nature: model_source_data
+      temporal_resolution: not_reported_in_article_locator
+      spatial_resolution: multi-region_case_data
+      version_or_commit: not_reported
+      retrieval_verified: no
+      resource_quality_flags: license_not_verified|record_not_retrieved_in_bounded_run
+      notes: DOI is reported in the article's Data availability statement; no recalculation was performed.
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      resource_id: RES0002
+      resource_type: proprietary_dataset
+      resource_name: Utility grid-demand signals and GPU-cluster telemetry used in the Phoenix field trial
+      provider: Arizona Public Service|Oracle|Salt River Project
+      corpus_layer: evidence_resource
+      license_raw: not_reported
+      license_normalized: unknown
+      access_status: described_in_article_not_publicly_retrieved
+      access_date: "2026-08-31"
+      data_nature: measured
+      temporal_resolution: power plot reports continuous five-minute averaging for the re-enacted event
+      spatial_resolution: single_GPU_cluster_and_utility_system
+      retrieval_verified: no
+      resource_quality_flags: underlying_telemetry_not_independently_accessed
+      notes: Article full text was checked; the underlying operational telemetry was not independently obtained.
+
+  resource_links:
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      resource_link_id: RL0001
+      resource_id: RES0002
+      paper_id: P0001
+      study_id: ST0001
+      scenario_id: SC0001
+      usage_roles: evidence_source
+      variables_used: grid demand|GPU cluster power|utility curtailment target|workload performance
+      processing_required: article reports orchestration and five-minute averaged measurements
+      source_locator: PDF pp.2-4|journal pp.255-257|Figs. 2-4
+      verification_status: article_verified_resource_not_independently_retrieved
+      notes: No independent recalculation from telemetry was performed.
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      resource_link_id: RL0002
+      resource_id: RES0001
+      paper_id: P0002
+      study_id: ST0002
+      scenario_id: SC0002
+      usage_roles: evidence_source
+      variables_used: article source data and scenario outputs
+      processing_required: no pipeline recalculation
+      source_locator: PDF p.14|Data availability
+      verification_status: DOI_locator_verified_resource_not_retrieved
+      notes: Values were extracted from the article, not recomputed from the Zenodo record.
+
+  claim_evidence_ledger:
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      claim_id: C0001
+      claim_or_output: Within the included corpus, a bounded field pilot showed a 25% GPU-cluster power reduction for a three-hour utility peak event while respecting workload SLA envelopes.
+      claim_type: descriptive_synthesis
+      manuscript_target: Table 1|Table 2|analysis summary
+      scenario_id: SC0001
+      metric_record_id: M0001
+      paper_id: P0001
+      study_id: ST0001
+      source_url: https://doi.org/10.1038/s41560-025-01927-1
+      source_locator: PDF pp.1 and 3|journal pp.254 and 256|Figs. 2-3
+      evidence_basis: reported
+      support_strength: supported_within_bounded_field_trial
+      original_term_or_value: 25% reduction for 3 h; all jobs within allowable SLA envelopes
+      paraphrase_or_short_excerpt_le_25_words: The measured cluster followed a utility-set curtailment target while workload policies enforced SLA constraints.
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+      review_status: ready_for_independent_review
+      notes: Does not establish sustained market delivery or data-centre-wide system effects.
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      claim_id: C0002
+      claim_or_output: The included EV-building study is modelled multi-asset evidence, not field delivery.
+      claim_type: classification
+      manuscript_target: Fig. 4|Table 2|analysis summary
+      scenario_id: SC0002
+      paper_id: P0002
+      study_id: ST0002
+      source_url: https://doi.org/10.1038/s41467-024-49868-9
+      source_locator: PDF pp.5-6|journal pp.5-6|Figs. 4-5
+      evidence_basis: reported
+      support_strength: supported_classification
+      original_term_or_value: Scenario C with B2V and V2B interaction
+      paraphrase_or_short_excerpt_le_25_words: Scenario C couples building and EV energy exchange in a simulated district system.
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+      review_status: ready_for_independent_review
+      notes: The source's synergy wording is not adopted because the review uses a stricter matched-counterfactual rule.
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      claim_id: C0003
+      claim_or_output: The Beijing lifecycle-carbon value is contextual and must not be pooled with peak reduction, energy, cost or other carbon boundaries.
+      claim_type: comparability_boundary
+      manuscript_target: comparability audit|Table 2
+      scenario_id: SC0002
+      metric_record_id: M0005
+      paper_id: P0002
+      study_id: ST0002
+      source_url: https://doi.org/10.1038/s41467-024-49868-9
+      source_locator: PDF p.6|journal p.6|Fig. 5c
+      evidence_basis: reviewer_inferred
+      support_strength: conditional_context_only
+      original_term_or_value: 1857.08 to -134.47 kg CO2,e kWh-1
+      paraphrase_or_short_excerpt_le_25_words: The reported value depends on a lifecycle boundary, Beijing assumptions and the source's scenario baseline.
+      verification_status: verified_against_fulltext_by_codex
+      verifier_id: codex
+      verification_date: "2026-08-31"
+      review_status: ready_for_independent_review
+      notes: Excluded from quantitative aggregation by the seven-part gate.
+    - schema_version: "1.0"
+      codebook_version: "1.0"
+      claim_id: C0004
+      claim_or_output: No base-station or operational 6G active-energy scenario was included in this bounded corpus.
+      claim_type: within_corpus_absence
+      manuscript_target: analysis summary|limitations
+      evidence_basis: reviewer_derived
+      support_strength: supported_within_included_corpus_only
+      paraphrase_or_short_excerpt_le_25_words: The frozen scenario and asset-role tables contain DC, EV and BLDG active roles but no BS role.
+      derived_script: src/analyse.py
+      derived_input_ids: SC0001|SC0002|A0001|A0002|A0003
+      verification_status: verified_from_frozen_rows
+      verifier_id: codex
+      verification_date: "2026-08-31"
+      review_status: ready_for_independent_review
+      notes: This is not a global scarcity claim and cannot be phrased as technical impossibility.

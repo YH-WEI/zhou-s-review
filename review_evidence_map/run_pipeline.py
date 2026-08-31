@@ -7,6 +7,8 @@ from pathlib import Path
 from src.common import REVIEW_ROOT, ensure_directories
 from src.discover import run_discovery
 from src.inventory import build_source_inventory
+from src.freeze_curated import freeze_curated_evidence
+from src.normalise import extract_repository_metadata, run_normalise
 
 
 STAGES = ("inventory", "discover", "validate", "analyse", "render", "all")
@@ -38,6 +40,14 @@ def main(argv: list[str] | None = None) -> int:
         else:
             logs, candidates = run_discovery(config_path)
             print(f"discover: {len(logs)} retrieval-log rows; {len(candidates)} candidate records")
+            screening, duplicates = run_normalise()
+            extractions = extract_repository_metadata()
+            curated = freeze_curated_evidence(REVIEW_ROOT / "data" / "interim" / "curated_coding.yml")
+            print(
+                f"screen: {len(screening)} dispositions; {len(duplicates)} duplicate records; "
+                f"{len(extractions)} repository extraction diagnostics"
+            )
+            print("curated evidence: " + ", ".join(f"{name}={count}" for name, count in curated.items()))
     if args.stage not in {"inventory", "discover", "all"}:
         raise SystemExit(f"Stage {args.stage!r} will be enabled by the implementation commit")
     return 0
