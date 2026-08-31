@@ -1,0 +1,3487 @@
+{
+  "http_status": 200,
+  "request_url_redacted": "https://api.crossref.org/works?query.bibliographic=%28%22base+station%22+OR+%22radio+access+network%22+OR+RAN+OR+%22telecom+tower%22+OR+%22cellular+network%22+OR+5G+OR+%225G-Advanced%22+OR+B5G+OR+%22IMT-2030%22+OR+6G%29+AND+%28%22demand+response%22+OR+%22peak+management%22+OR+%22peak+shaving%22+OR+%22load+shifting%22+OR+flexibility%29+AND+%28field+OR+pilot+OR+demonstration+OR+experiment+OR+%22hardware-in-the-loop%22+OR+HIL+OR+%22real-world+data%22+OR+%22market+participation%22+OR+%22case+study%22%29&filter=from-pub-date%3A2015-01-01%2Cuntil-pub-date%3A2026-08-31&rows=10&sort=relevance&order=desc",
+  "response": {
+    "message": {
+      "facets": {},
+      "items": [
+        {
+          "DOI": "10.1002/9781119851288.ch8",
+          "ISBN": [
+            "9781786306289",
+            "9781119851288"
+          ],
+          "URL": "https://doi.org/10.1002/9781119851288.ch8",
+          "alternative-id": [
+            "10.1002/9781119851288.ch8",
+            "10.1002/9781119851288"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "NG‐RAN and 5G‐NR"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2021-08-13T21:31:19Z",
+            "timestamp": 1628890279000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                29
+              ]
+            ],
+            "date-time": "2023-08-29T17:23:19Z",
+            "timestamp": 1693329799000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                12
+              ]
+            ],
+            "date-time": "2026-01-12T22:26:46Z",
+            "timestamp": 1768256806894,
+            "version": "3.49.0"
+          },
+          "is-referenced-by-count": 2,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781786306289"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119851288"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch8",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch8",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "203-235",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_2_1",
+              "unstructured": "All standards can be downloaded from the ETSI website:https://www.etsi.org/standards."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "unstructured": "3GPP 23.501System architecture for the 5G System (5GS);Version 15.9.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "unstructured": "3GPP 37.324E‐UTRA NR ‐ Multi‐connectivity; Overall Description;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "unstructured": "3GPP 37.340LTE 5G NR ‐ Service Data Adaptation Protocol (SDAP); Protocol specification;Version 16.0.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "unstructured": "3GPP 38.300NR ‐ Radio Resource Control (RRC); Protocol specification;Version 16.0.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "unstructured": "3GPP 38.321NR ‐ Medium Access Control (MAC) Protocol specification;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "unstructured": "3GPP 38.322NR ‐ Radio Link Control Protocol (RLC) specification;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "unstructured": "3GPP 38.323NR ‐ Packet Data Convergence Protocol (PDCP) specification;Version 16.1.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "unstructured": "3GPP 38.331NR ‐ Radio Resource Control (RRC); Protocol specification;Version 16.0.0 Release 16"
+            }
+          ],
+          "reference-count": 9,
+          "references-count": 9,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119851288.ch8"
+            }
+          },
+          "score": 68.19638,
+          "source": "Crossref",
+          "title": [
+            "5G‐NR Radio Interface – Data Link Layer"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.1201/9788743801108-11",
+          "ISBN": [
+            "9788743801108"
+          ],
+          "URL": "https://doi.org/10.1201/9788743801108-11",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Hemanshi",
+              "given": "Anil K.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Gupta",
+              "given": "Vaibhav",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Nandakumar",
+              "given": "S.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Khara",
+              "given": "Sibaram",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Velmurugan",
+              "given": "T.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "The Road to B5G/6G Mobile Communication Networks: Technologies and Applications"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2025-09-02T12:03:06Z",
+            "timestamp": 1756814586000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2025-09-02T12:03:07Z",
+            "timestamp": 1756814587000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2025-09-02T12:40:15Z",
+            "timestamp": 1756816815601,
+            "version": "3.44.0"
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "electronic",
+              "value": "9788743801108"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ]
+          },
+          "language": "en",
+          "member": "301",
+          "page": "169-187",
+          "prefix": "10.1201",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ]
+          },
+          "publisher": "River Publishers",
+          "publisher-location": "New York",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.taylorfrancis.com/books/9788743801108/chapters/10.1201/9788743801108-11"
+            }
+          },
+          "score": 60.314903,
+          "source": "Crossref",
+          "title": [
+            "Centralized Radio Access Network (C-RAN) Architecture for 5G using Fronthaul (FH) and Backhaul (BH) Networks"
+          ],
+          "type": "book-chapter"
+        },
+        {
+          "DOI": "10.1201/9781315230870-12",
+          "ISBN": [
+            "9781498747103",
+            "9781351863377"
+          ],
+          "URL": "https://doi.org/10.1201/9781315230870-12",
+          "alternative-id": [
+            "10.1201/9781315230870-12",
+            "10.1201/9781315230870"
+          ],
+          "container-title": [
+            "5G Radio Access Networks"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                6,
+                14
+              ]
+            ],
+            "date-time": "2017-06-14T11:59:12Z",
+            "timestamp": 1497441552000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2019,
+                9,
+                26
+              ]
+            ],
+            "date-time": "2019-09-26T02:23:22Z",
+            "timestamp": 1569464602000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                7
+              ]
+            ],
+            "date-time": "2024-05-07T14:30:31Z",
+            "timestamp": 1715092231486
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781498747103"
+            },
+            {
+              "type": "electronic",
+              "value": "9781351863377"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                15
+              ]
+            ]
+          },
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://www.crcnetbase.com/doi/pdf/10.1201/9781315230870-12",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "301",
+          "page": "185-226",
+          "prefix": "10.1201",
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                15
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2017,
+                6,
+                14
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                15
+              ]
+            ]
+          },
+          "publisher": "CRC Press",
+          "publisher-location": "6000 Broken Sound Parkway NW, Suite 300 Boca Raton, FL 33487-2742",
+          "reference": [
+            {
+              "DOI": "10.1109/ISWCS.2010.5624538",
+              "author": "Barth U.",
+              "doi-asserted-by": "crossref",
+              "first-page": "731",
+              "key": "p_1",
+              "volume-title": "Wireless Communication Systems (ISWCS), 2010 7th International Symposium",
+              "year": "2010"
+            },
+            {
+              "DOI": "10.1007/11880905",
+              "doi-asserted-by": "crossref",
+              "key": "p_2",
+              "unstructured": "Gaiti, D., Pujolle, G., Al-Shaer, E., Calvert, K., Doboson, S., Leduc, G., and Martikainen, O., editors, Autonomic Networking,First InternationalIFIP TC6 Conference (AN2006), Paris, pp.27-29September,Springer."
+            },
+            {
+              "author": "IBM.",
+              "key": "p_3",
+              "volume-title": "Autonomic manifesto. www.research.ibm.com/autonomic/manifesto",
+              "year": "2001"
+            },
+            {
+              "DOI": "10.1007/s11277-008-9480-7",
+              "author": "Balamuralidhar P.",
+              "doi-asserted-by": "crossref",
+              "first-page": "423",
+              "issue": "3",
+              "journal-title": "Wireless Personal Communications",
+              "key": "p_4",
+              "volume": "45",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1109/DYSPAN.2005.1542652",
+              "doi-asserted-by": "crossref",
+              "key": "p_5",
+              "unstructured": "Thomas, R. W., DaSilva, L. A., and MacKenzie, A. B., Cognitive networks, First IEEE International Symposium on New Frontiers in Dynamic Spectrum Access Networks, 2005, pp.352-360, 2005."
+            },
+            {
+              "author": "Luck M.",
+              "key": "p_6",
+              "volume-title": "Computing as Interaction: A Roadmap for Agent-Based Computing",
+              "year": "2005"
+            },
+            {
+              "DOI": "10.1109/GIIS.2007.4404176",
+              "author": "Strassner J.",
+              "doi-asserted-by": "crossref",
+              "first-page": "112",
+              "key": "p_7",
+              "volume-title": "Global Information Infrastructure Symposium, 2007. GIIS 2007. First International",
+              "year": "2007"
+            },
+            {
+              "author": "Johnsson M.",
+              "first-page": "1200",
+              "key": "p_8",
+              "volume-title": "Integrated Network Management (IM), 2011 IFIP/IEEE International Symposium",
+              "year": "2011"
+            },
+            {
+              "author": "Schmitz C.",
+              "key": "p_9",
+              "volume-title": "Kassel",
+              "year": "2007"
+            },
+            {
+              "author": "John Strassner N.",
+              "key": "p_10",
+              "volume-title": "Latin American Autonomic Computing Symposium (LAACS), Campo Grande",
+              "year": "2006"
+            },
+            {
+              "author": "Agoulmine N.",
+              "key": "p_11",
+              "volume-title": "Autonomic Network Management Principles from Concepts to Applications",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1109/MCOM.2007.4342833",
+              "author": "Jennings B.",
+              "doi-asserted-by": "crossref",
+              "first-page": "112",
+              "issue": "10",
+              "journal-title": "Communications Magazine, IEEE",
+              "key": "p_12",
+              "volume": "45",
+              "year": "2007"
+            },
+            {
+              "author": "Raymer D.",
+              "first-page": "174",
+              "key": "p_13",
+              "volume-title": "Engineering of Autonomic and Autonomous Systems, 2008. EASE 2008. Fifth IEEE Workshop, IEEE Computer Society",
+              "year": "2008"
+            },
+            {
+              "author": "End",
+              "key": "p_21",
+              "volume-title": "Workshop1/SOCRATES%20workshop%20Santander_Wolfgang%20Konig.pdf."
+            },
+            {
+              "author": "Gavalas D.",
+              "first-page": "1362",
+              "key": "p_26",
+              "volume": "2",
+              "volume-title": "Communications, 1999, ICC '99, 1999 IEEE International Conference",
+              "year": "1999"
+            },
+            {
+              "author": "Nicklisch J.",
+              "first-page": "143",
+              "key": "p_27",
+              "volume-title": "LNCS, Proceedings",
+              "year": "1998"
+            },
+            {
+              "author": "Nagata T.",
+              "first-page": "457",
+              "issue": "2",
+              "journal-title": "IEEE Transactions on",
+              "key": "p_28",
+              "volume": "17",
+              "year": "2002"
+            },
+            {
+              "DOI": "10.1145/267658.267736",
+              "author": "Chavez A.",
+              "doi-asserted-by": "crossref",
+              "first-page": "323",
+              "key": "p_29",
+              "volume-title": "Proceedings of the First International Conference on Autonomous Agents, Challenger: A Multi-agent System for Distributed Resource Allocation, ACM Press",
+              "year": "1997"
+            },
+            {
+              "DOI": "10.1155/2002/910792",
+              "author": "Cao J.",
+              "doi-asserted-by": "crossref",
+              "first-page": "135",
+              "issue": "2",
+              "journal-title": "Scientific Programming",
+              "key": "p_30",
+              "volume": "10",
+              "year": "2002"
+            },
+            {
+              "author": "Lee G.",
+              "first-page": "219",
+              "key": "p_31",
+              "volume-title": "Pervasive Computing and Communications, 2004, PerCom 2004, Proceedings of the Second IEEE Annual Conference",
+              "year": "2004"
+            },
+            {
+              "DOI": "10.1007/978-3-7643-8569-9_5",
+              "doi-asserted-by": "crossref",
+              "key": "p_32",
+              "unstructured": "Nguengang, G., Bullot, T., Gaiti, D., Hugues, L., and Pujolle, G., Advanced autonomic networking and communication, chapter autonomic resource regulation, IP Military Networks:ASituatedness Based Knowledge Plane, pp.81-100, Birkhäuser Basel, Basel,2008."
+            },
+            {
+              "author": "Xie J.",
+              "first-page": "1123",
+              "key": "p_33",
+              "volume-title": "Consumer Communications and Networking Conference, 2007, CCNC 2007, 4th IEEE",
+              "year": "2007"
+            },
+            {
+              "author": "Bo L.",
+              "first-page": "41",
+              "key": "p_34",
+              "volume-title": "2013, IEEE 27th International Conference on Advanced Information Networking and Applications (AINA)",
+              "year": "2005"
+            },
+            {
+              "author": "Liu B.",
+              "first-page": "283",
+              "key": "p_35",
+              "volume": "2",
+              "volume-title": "Computer Supported Cooperative Work in Design, 2004, The 8th International Conference on",
+              "year": "2004"
+            },
+            {
+              "author": "Galindo-Serrano A.",
+              "first-page": "1",
+              "key": "p_36",
+              "volume-title": "Cognitive Radio Oriented Wireless Networks and Communications, 2009, CROWNCOM '09, 4th International Conference on",
+              "year": "2009"
+            },
+            {
+              "author": "JIAC",
+              "key": "p_37",
+              "volume-title": "DAI Labor",
+              "year": "2014"
+            },
+            {
+              "author": "Sesseler R.",
+              "key": "p_38",
+              "volume-title": "Workshop on M-Services at the 13th International Symposium on Methodologies for Intelligent Systems (ISMIS)",
+              "year": "2002"
+            },
+            {
+              "author": "Khan M. A.",
+              "key": "p_39",
+              "volume-title": "Cooperative game theoretic approach to integrated bandwidth sharing and allocation",
+              "year": "2010"
+            },
+            {
+              "author": "Manzoor Ahmed Khan U. T.",
+              "key": "p_40",
+              "volume-title": "10th International Conference on Networks, ICN 2011, St. Maarten, the Netherlands Antilles",
+              "year": "2011"
+            }
+          ],
+          "reference-count": 29,
+          "references-count": 29,
+          "resource": {
+            "primary": {
+              "URL": "http://www.crcnetbase.com/doi/10.1201/9781315230870-12"
+            }
+          },
+          "score": 59.868843,
+          "source": "Crossref",
+          "title": [
+            "9 Autonomic Network Management"
+          ],
+          "type": "book-chapter"
+        },
+        {
+          "DOI": "10.1007/978-3-030-74648-3_11",
+          "ISBN": [
+            "9783030746476",
+            "9783030746483"
+          ],
+          "URL": "https://doi.org/10.1007/978-3-030-74648-3_11",
+          "assertion": [
+            {
+              "group": {
+                "label": "Chapter History",
+                "name": "ChapterHistory"
+              },
+              "label": "First Online",
+              "name": "first_online",
+              "order": 1,
+              "value": "6 November 2021"
+            }
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Maule",
+              "given": "Massimiliano",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Kohjogh",
+              "given": "Ojaghi",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Rezazadeh",
+              "given": "Farhad",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Enabling 6G Mobile Networks"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": [
+              "link.springer.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                11,
+                5
+              ]
+            ],
+            "date-time": "2021-11-05T10:02:48Z",
+            "timestamp": 1636106568000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                1,
+                14
+              ]
+            ],
+            "date-time": "2023-01-14T14:36:52Z",
+            "timestamp": 1673707012000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                27
+              ]
+            ],
+            "date-time": "2025-03-27T23:02:13Z",
+            "timestamp": 1743116533032,
+            "version": "3.40.3"
+          },
+          "is-referenced-by-count": 1,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9783030746476"
+            },
+            {
+              "type": "electronic",
+              "value": "9783030746483"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                11,
+                6
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.springer.com/tdm",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    11,
+                    6
+                  ]
+                ],
+                "date-time": "2021-11-06T00:00:00Z",
+                "timestamp": 1636156800000
+              }
+            },
+            {
+              "URL": "https://www.springer.com/tdm",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    11,
+                    6
+                  ]
+                ],
+                "date-time": "2021-11-06T00:00:00Z",
+                "timestamp": 1636156800000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-3-030-74648-3_11",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "297",
+          "page": "371-397",
+          "prefix": "10.1007",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                11,
+                6
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                11,
+                6
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "publisher": "Springer International Publishing",
+          "publisher-location": "Cham",
+          "reference": [
+            {
+              "key": "11_CR1",
+              "unstructured": "China Mobile. (2011). C-RAN: The road green RAN white paper, China Mobile, vol. V3.0."
+            },
+            {
+              "key": "11_CR2",
+              "unstructured": "3GPP. TR 38.801, Technical specification group radio access network; Study on new radio access technology: Radio access architecture and interfaces, 3GPP, 2017."
+            },
+            {
+              "key": "11_CR3",
+              "unstructured": "ITU, IMT Vision- framework and overall objectives of the future development of IMT for 2020 and Beyond, ITU-R M.2083-0, 2015."
+            },
+            {
+              "DOI": "10.1147/JRD.2009.2037680",
+              "author": "Y Lin",
+              "doi-asserted-by": "publisher",
+              "first-page": "4",
+              "issue": "1",
+              "journal-title": "IBM Journal of Research and Development",
+              "key": "11_CR4",
+              "unstructured": "Lin, Y., Shao, L., Zhu, Z., Wang, Q., & Sabhikhi, R. K. (2010). Wireless network cloud: Architecture and system requirements. IBM Journal of Research and Development, 54(1), 4–1.",
+              "volume": "54",
+              "year": "2010"
+            },
+            {
+              "DOI": "10.1109/JSAC.2015.2435275",
+              "author": "V Suryaprakash",
+              "doi-asserted-by": "publisher",
+              "first-page": "2239",
+              "issue": "10",
+              "journal-title": "IEEE Journal on Selected Areas in Communications",
+              "key": "11_CR5",
+              "unstructured": "Suryaprakash, V., Rost, P., & Fettweis, G. (2015). Are heterogeneous cloud-based radio access networks cost effective? IEEE Journal on Selected Areas in Communications, 33(10), 2239–2251.",
+              "volume": "33",
+              "year": "2015"
+            },
+            {
+              "author": "N Alliance",
+              "key": "11_CR6",
+              "unstructured": "Alliance, N. (2015). NGMN 5G white paper. Technical report.",
+              "volume-title": "NGMN 5G white paper",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/MCOM.2017.1600922",
+              "author": "J Tang",
+              "doi-asserted-by": "publisher",
+              "first-page": "40",
+              "issue": "11",
+              "journal-title": "IEEE Communications Magazine",
+              "key": "11_CR7",
+              "unstructured": "Tang, J., Wen, R., Quek, T. Q., & Peng, M. (2017). Fully exploiting cloud computing to achieve a green and flexible C-RAN. IEEE Communications Magazine, 55(11), 40–46.",
+              "volume": "55",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/MWC.2017.1600181WC",
+              "author": "X Costa-Perez",
+              "doi-asserted-by": "publisher",
+              "first-page": "38",
+              "issue": "1",
+              "journal-title": "IEEE Wireless Communications",
+              "key": "11_CR8",
+              "unstructured": "Costa-Perez, X., Garcia-Saavedra, A., Li, X., Deiss, T., Oliva, A. D. L., Giglio, A. D., Iovanna, P., & Moored, A. (2017). 5G-crosshaul: An sdn/nfv integrated fronthaul/backhaul transport network architecture. IEEE Wireless Communications, 24(1), 38.",
+              "volume": "24",
+              "year": "2017"
+            },
+            {
+              "key": "11_CR9",
+              "unstructured": "García Saavedra, A., Oliva Delgado, A. D. L., Costa Pérez, X., Gazda, R., Mourad, A., et al. (2019). Integrating fronthaul and backhaul networks: Transport challenges and feasibility results. IEEE Transactions on Mobile Computing."
+            },
+            {
+              "key": "11_CR10",
+              "unstructured": "ICPR, eCPRI Interface Specification, eCPRI specification v1.0, 2017."
+            },
+            {
+              "key": "11_CR11",
+              "unstructured": "I. W. Group. Next generation fronthaul interface. I. W. Group."
+            },
+            {
+              "DOI": "10.1109/ACCESS.2017.2744672",
+              "author": "EJ Kitindi",
+              "doi-asserted-by": "publisher",
+              "first-page": "19099",
+              "journal-title": "IEEE Access",
+              "key": "11_CR12",
+              "unstructured": "Kitindi, E. J., Fu, S., Jia, Y., Kabir, A., & Wang, Y. (2017). Wireless network virtualization with sdn and c-ran for 5g networks: Requirements, opportunities, and challenges. IEEE Access, 5, 19099–19115.",
+              "volume": "5",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/MCOM.2017.1600866",
+              "author": "X Wang",
+              "doi-asserted-by": "publisher",
+              "first-page": "202",
+              "issue": "9",
+              "journal-title": "IEEE Communications Magazine",
+              "key": "11_CR13",
+              "unstructured": "Wang, X., Cavdar, C., Wang, L., Tornatore, M., Chung, H. S., Lee, H. H., Park, S. M., & Mukherjee, B. (2017). Virtualized cloud radio access network for 5G transport. IEEE Communications Magazine, 55(9), 202–209.",
+              "volume": "55",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/MCOM.2017.1700268",
+              "author": "R Ferrus",
+              "doi-asserted-by": "publisher",
+              "first-page": "184",
+              "issue": "5",
+              "journal-title": "IEEE Communications Magazine",
+              "key": "11_CR14",
+              "unstructured": "Ferrus, R., Sallent, O., Perez-Romero, J., & Agusti, R. (2018). On 5G radio access network slicing: Radio interface protocol features and configuration. IEEE Communications Magazine, 56(5), 184–192.",
+              "volume": "56",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.23919/ONDM.2017.7958544",
+              "doi-asserted-by": "crossref",
+              "key": "11_CR15",
+              "unstructured": "Ranaweera, C., Wong, E., Nirmalathas, A., Jayasundara, C. & Lim, C. (2017). 5g c-ran architecture: A comparison ofmultiple optical fronthaul networks. In 2017 international conference on Optical Network Design and Modeling (ONDM), 2017."
+            },
+            {
+              "DOI": "10.1109/COMST.2018.2836315",
+              "author": "Z Zaidi",
+              "doi-asserted-by": "publisher",
+              "first-page": "3220",
+              "issue": "4",
+              "journal-title": "IEEE Communications Surveys and Tutorials",
+              "key": "11_CR16",
+              "unstructured": "Zaidi, Z., Friderikos, V., Yousaf, Z., Fletcher, S., Dohler, M., & Aghvami, H. (2018). Will sdn be part of 5g? IEEE Communications Surveys and Tutorials, 20(4), 3220–3258.",
+              "volume": "20",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1109/ICC.2019.8761081",
+              "doi-asserted-by": "crossref",
+              "key": "11_CR17",
+              "unstructured": "Ojaghi, B., Adelantado, F., Kartsakli, E., Antonopoulos, A., & Verikoukis, C. (2019). Sliced-ran: Joint slicing and functional split in future 5g radio access networks. In IEEE International Conference on Communications (ICC), Shanghai, 2019."
+            },
+            {
+              "key": "11_CR18",
+              "unstructured": "Small Cell Forum, Small cell virtualization functional splits and use cases, Small Cell Forum, 2016."
+            },
+            {
+              "DOI": "10.1145/3117811.3117831",
+              "doi-asserted-by": "crossref",
+              "key": "11_CR19",
+              "unstructured": "Foukas, X., Marina, M. K., & Kontovasilis, K. (2017). Orion: RAN slicing for a flexible and cost-effective multi-service mobile network architecture. In Proceedings of the 23rd annual international conference on Mobile Computing and Networking, MobiCom, New York, 2017."
+            },
+            {
+              "DOI": "10.1109/INFOCOM.2018.8486243",
+              "doi-asserted-by": "crossref",
+              "key": "11_CR20",
+              "unstructured": "Garcia-Saavedra, A., Costa-Perez, X., Leith, D., & Iosifidis, G. (2018). FluidRAN: Optimized vRAN/MEC Orchestration. In IEEE INFOCOM, 2018."
+            },
+            {
+              "DOI": "10.1109/MCOM.2016.7402275",
+              "doi-asserted-by": "crossref",
+              "key": "11_CR21",
+              "unstructured": "Oliva, A. d. l., Hernandez, J., Larrabeiti, D., & Azcorra, A. (2016). An overview of the CPRI specification and its application to C-RAN- based LTE scenarios. IEEE Communications Magazine, 54(2)."
+            },
+            {
+              "key": "11_CR22",
+              "unstructured": "Categories and Service Levels of Network slicing White paper."
+            },
+            {
+              "key": "11_CR23",
+              "unstructured": "Network slicing management & prioritization in 5Gmobile systems."
+            },
+            {
+              "key": "11_CR24",
+              "unstructured": "Slice Management for Quality of Service Differentiation in wireless network slicing."
+            },
+            {
+              "key": "11_CR25",
+              "unstructured": "The Structure of Service Level Agreement of Slice-based 5G Network."
+            },
+            {
+              "key": "11_CR26",
+              "unstructured": "Managing violations in service level agreements."
+            },
+            {
+              "DOI": "10.1109/MCOM.2018.1701044",
+              "author": "C-Y Chang",
+              "doi-asserted-by": "publisher",
+              "first-page": "70",
+              "issue": "8",
+              "journal-title": "IEEE Communications Magazine",
+              "key": "11_CR27",
+              "unstructured": "Chang, C.-Y., et al. (2018). Slice orchestration for multi-service disaggregated ultra-dense RANs. IEEE Communications Magazine, 56(8), 70–77.",
+              "volume": "56",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.2990802",
+              "author": "J Navarro-Ortiz",
+              "doi-asserted-by": "publisher",
+              "first-page": "79604",
+              "journal-title": "IEEE Access",
+              "key": "11_CR28",
+              "unstructured": "Navarro-Ortiz, J., Sallent, O., & Pérez-Romero, J. (2020). Radio access network slicing strategies at spectrum planning level in 5G and beyond. IEEE Access, 8, 79604–79618.",
+              "volume": "8",
+              "year": "2020"
+            },
+            {
+              "key": "11_CR29",
+              "unstructured": "3GPP TS 22.101 V15.1.0, Study on Radio Access Network (RAN) sharing enhancements, June. 201."
+            },
+            {
+              "author": "RS Sutton",
+              "key": "11_CR30",
+              "unstructured": "Sutton, R. S., & Barto, A. G. (2018). Reinforcement learning: An introduction. MIT Press.",
+              "volume-title": "Reinforcement learning: An introduction",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1145/2677046.2677053",
+              "author": "N Nikaein",
+              "doi-asserted-by": "publisher",
+              "first-page": "33",
+              "issue": "5",
+              "journal-title": "ACM SIGCOMM Computer Communication Review",
+              "key": "11_CR31",
+              "unstructured": "Nikaein, N., et al. (2014). OpenAirInterface: A flexible platform for 5G research. ACM SIGCOMM Computer Communication Review, 44(5), 33–38.",
+              "volume": "44",
+              "year": "2014"
+            },
+            {
+              "key": "11_CR32",
+              "unstructured": "https://www.ettus.com/all-products/UB200-KIT/"
+            },
+            {
+              "DOI": "10.1145/3276799.3276803",
+              "author": "N Nikaein",
+              "doi-asserted-by": "publisher",
+              "first-page": "29",
+              "issue": "3",
+              "journal-title": "ACM SIGCOMM Computer Communication Review",
+              "key": "11_CR33",
+              "unstructured": "Nikaein, N., et al. (2018). Mosaic5G: Agile and flexible service platforms for 5G research. ACM SIGCOMM Computer Communication Review, 48(3), 29–34.",
+              "volume": "48",
+              "year": "2018"
+            },
+            {
+              "author": "X Foukas",
+              "key": "11_CR34",
+              "unstructured": "Foukas, X., et al. (2016). FlexRAN: A flexible and programmable platform for software-defined radio access networks. In Proceedings of the 12th international on conference on emerging networking experiments and technologies. ACM.",
+              "volume-title": "Proceedings of the 12th international on conference on emerging networking experiments and technologies",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2019.2919657",
+              "author": "MA Habibi",
+              "doi-asserted-by": "publisher",
+              "first-page": "70371",
+              "journal-title": "IEEE Access",
+              "key": "11_CR35",
+              "unstructured": "Habibi, M. A., Nasimi, M., Han, B., & Schotten, H. D. (2019). A comprehensive survey of RAN architectures toward 5G mobile communication system. IEEE Access, 7, 70371–70421.",
+              "volume": "7",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/ICUMT.2016.7765232",
+              "doi-asserted-by": "crossref",
+              "key": "11_CR36",
+              "unstructured": "Bouras, C., Ntarzanos, P., & Papazois, A. (2016). Cost modeling for SDN/NFV based mobile 5G networks. In Proceeding of the 8th International Congr. Ultra Mod- ern Telecommun. Control Syst. Workshops, Lisbon, Portugal, 2016, pp. 56-61."
+            },
+            {
+              "author": "S Moe",
+              "first-page": "250",
+              "journal-title": "Artificial Intelligence",
+              "key": "11_CR37",
+              "unstructured": "Moe, S., et al. (2018). Machine learning in control systems: An overview of the state of the art. Artificial Intelligence, XXXV, 250–265.",
+              "volume": "XXXV",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1007/978-3-031-01581-6",
+              "author": "Z Chen",
+              "doi-asserted-by": "crossref",
+              "edition": "2",
+              "key": "11_CR38",
+              "unstructured": "Chen, Z., & Liu, B. (2018). Lifelong machine learning (2nd ed.). Morgan& Claypool Publishers.",
+              "volume-title": "Lifelong machine learning",
+              "year": "2018"
+            },
+            {
+              "key": "11_CR39",
+              "unstructured": "ETSI NFV ISG, “Network Function Virtualization (NFV) Management and Orchestration,” GS NFV-MAN 001 v0.8.1,Nov. 2014."
+            },
+            {
+              "key": "11_CR40",
+              "unstructured": "ETSI GS NFV-MAN 001, “Network Functions Virtualisation (NFV); Management and Orchestration,” http://www.etsi.org/, December 2014, ETSI Industry Specification Group (ISG)."
+            },
+            {
+              "DOI": "10.1109/MCOM.2016.7378433",
+              "author": "R Mijumbi",
+              "doi-asserted-by": "publisher",
+              "first-page": "98",
+              "issue": "1",
+              "journal-title": "IEEE Communications Magazine",
+              "key": "11_CR41",
+              "unstructured": "Mijumbi, R., et al. (Jan. 2016). Management and orchestration challenges innetwork functions virtualization. IEEE Communications Magazine, 54(1), 98–105.",
+              "volume": "54",
+              "year": "2016"
+            },
+            {
+              "key": "11_CR42",
+              "unstructured": "ETSI GS ZSM 002, “Zero-touch Network and Service Management (ZSM); Reference Architecture,” Aug. 2019."
+            },
+            {
+              "DOI": "10.1109/MNET.001.1900252",
+              "doi-asserted-by": "crossref",
+              "key": "11_CR43",
+              "unstructured": "Benzaid, C., & Taleb, T. (2020). AI-driven zero touch network and service management in 5G and beyond: Challenges and research directions. IEEE Network, 1–9."
+            },
+            {
+              "DOI": "10.1609/aaai.v31i1.10744",
+              "doi-asserted-by": "crossref",
+              "key": "11_CR44",
+              "unstructured": "Tessler, C., Givony, S., Zahavy, T., Mankowitz, D. J., & Mannor, S. 2016. A deep hierarchical approach to lifelong learning in Minecraft. ArXiv e-prints."
+            },
+            {
+              "key": "11_CR45",
+              "unstructured": "De Lange, M., Aljundi, R., Masana, M., Parisot, S., Jia, X., Leonardis, .A, Slabaugh, G., Tuytelaars, T. Continual learning: A comparative study on how todefy forgetting in classification tasks, arXiv preprintarXiv:1909.08383."
+            },
+            {
+              "key": "11_CR46",
+              "unstructured": "Wenpeng Hu, Zhou Lin, Bing Liu, Chongyang Tao, Zhengwei Tao, Jinwen Ma, Dongyan Zhao, & Rui Yan. (2019). Overcoming catastrophic forgetting for continual learning via model adaptation. In International conference on learning representations."
+            },
+            {
+              "DOI": "10.1109/MVT.2019.2938328",
+              "doi-asserted-by": "crossref",
+              "key": "11_CR47",
+              "unstructured": "Zhang, H., Feng, M., Long, K., Karagiannidis, G. K., & Nallanathan, A. (2019). Artificial intelligence-based resource allocation: Applications in ultradense networks. IEEE Vehicular Technology Magazine."
+            }
+          ],
+          "reference-count": 47,
+          "references-count": 47,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/978-3-030-74648-3_11"
+            }
+          },
+          "score": 56.866478,
+          "source": "Crossref",
+          "title": [
+            "Advanced Cloud-Based Network Management for 5G C-RAN"
+          ],
+          "type": "book-chapter",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy"
+        },
+        {
+          "DOI": "10.3389/fenrg.2022.1032993",
+          "ISSN": [
+            "2296-598X"
+          ],
+          "URL": "https://doi.org/10.3389/fenrg.2022.1032993",
+          "abstract": "<jats:p>Abstract: a large number of 5G base station are connected, which provides a new possibility for the future low-carbon development of power systems. By encouraging 5G base station to participate in demand response and incorporating it into the Microgrid, it can reduce the power consumption cost of 5G base stations and promote the efficient utilization of renewable energy. Based on the microgrid operation structure, 5G base station and multi-objective problem algorithm, a multi-objective optimization operation model of microgrid access to 5G base station is built. Considering the physical constraints of Microgrid, the objective is to minimize the operating cost and carbon emission. Through the joint dispatching of distributed clean energy generation, micro gas turbine, energy storage system and 5G base station in Microgrid, the comprehensive optimization of system economy and low-carbon benefits can be achieved. In this paper, a microgrid in Beijing is taken as the research object, and the Whale Optimization Algorithm algorithm is used to solve the multiobjective problem. The analysis results show that 5G base station can flexibly respond to microgrid scheduling, which helps microgrid to improve the consumption and utilization efficiency of renewable energy, thus bringing higher economic benefits and low-carbon benefits, and helping China to achieve the goal of carbon peak shaving and carbon neutrality at an early date.</jats:p>",
+          "alternative-id": [
+            "10.3389/fenrg.2022.1032993"
+          ],
+          "article-number": "1032993",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Guo",
+              "given": "Weishang",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Mao",
+              "given": "Yihua",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Chen",
+              "given": "Yufen",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Zhang",
+              "given": "Xuexing",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Frontiers in Energy Research"
+          ],
+          "content-domain": {
+            "crossmark-restriction": true,
+            "domain": [
+              "frontiersin.org"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                14
+              ]
+            ],
+            "date-time": "2022-11-14T05:33:06Z",
+            "timestamp": 1668403986000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                14
+              ]
+            ],
+            "date-time": "2022-11-14T05:33:12Z",
+            "timestamp": 1668403992000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                19
+              ]
+            ],
+            "date-time": "2026-03-19T07:55:21Z",
+            "timestamp": 1773906921729,
+            "version": "3.50.1"
+          },
+          "is-referenced-by-count": 8,
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "2296-598X"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                14
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://creativecommons.org/licenses/by/4.0/",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    11,
+                    14
+                  ]
+                ],
+                "date-time": "2022-11-14T00:00:00Z",
+                "timestamp": 1668384000000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://www.frontiersin.org/articles/10.3389/fenrg.2022.1032993/full",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "1965",
+          "prefix": "10.3389",
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                14
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                14
+              ]
+            ]
+          },
+          "publisher": "Frontiers Media SA",
+          "reference": [
+            {
+              "DOI": "10.1016/j.egyr.2021.01.034",
+              "article-title": "A hybrid algorithm (BAPSO) for capacity configuration optimization in a distributed solar PV based Microgrid",
+              "author": "Aa",
+              "doi-asserted-by": "publisher",
+              "first-page": "7906",
+              "journal-title": "Energy Rep.",
+              "key": "B1",
+              "volume": "7",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.3390/en14238026",
+              "article-title": "Cooperative control of microgrids: A review of theoretical frameworks, applications and recent developments",
+              "author": "Agalgaonkar",
+              "doi-asserted-by": "publisher",
+              "first-page": "8026",
+              "journal-title": "Energies",
+              "key": "B2",
+              "volume": "14",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.12691/ajer-9-1-4",
+              "article-title": "Simulation study of grid connected photovoltaic system using PVsyst software: Analytical study for yanbu and rabigh regions in Saudi arabia",
+              "author": "Alabdali",
+              "doi-asserted-by": "publisher",
+              "first-page": "30",
+              "journal-title": "Am. J. Energy Res.",
+              "key": "B3",
+              "volume": "9",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1049/gtd2.12268",
+              "article-title": "Optimal planning of inverter-based renewable energy sources towards autonomous Microgrids accommodating electric vehicle charging stations",
+              "author": "Ali",
+              "doi-asserted-by": "publisher",
+              "first-page": "219",
+              "journal-title": "IET Generation Trans. Dist.",
+              "key": "B4",
+              "volume": "16",
+              "year": "2021"
+            },
+            {
+              "author": "Asia",
+              "key": "B5",
+              "volume-title": "CCL demand for 5G base stations may gain momentum in Europe, US in",
+              "year": "2022"
+            },
+            {
+              "article-title": "ALS-ORAN 5G: Adapting to lowpower-WAN & satellite - open radio access network in 5G",
+              "author": "Chandran",
+              "first-page": "480",
+              "journal-title": "Work. Pap.",
+              "key": "B6",
+              "volume": "2021",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/TSG.2020.3010570",
+              "article-title": "Networked microgrids for grid resilience, robustness, and efficiency: A review",
+              "author": "Chen",
+              "doi-asserted-by": "publisher",
+              "first-page": "18",
+              "journal-title": "IEEE Trans. Smart Grid",
+              "key": "B7",
+              "volume": "12",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/TSG.2020.3010570",
+              "article-title": "Networked microgrids for grid resilience, robustness, and efficiency: A review",
+              "author": "Chen",
+              "doi-asserted-by": "publisher",
+              "first-page": "18",
+              "journal-title": "IEEE Trans. Smart Grid",
+              "key": "B8",
+              "volume": "12",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1088/1742-6596/1852/2/022050",
+              "article-title": "Grid-connected micro-grid power supply and distribution transformer capacity optimization system design in the electricity sales environment",
+              "author": "Cheng",
+              "doi-asserted-by": "publisher",
+              "first-page": "022050",
+              "journal-title": "J. Phys. Conf. Ser.",
+              "key": "B9",
+              "volume": "1852",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.3032378",
+              "article-title": "Distributed control strategies for microgrids: An overview",
+              "author": "Espina",
+              "doi-asserted-by": "publisher",
+              "first-page": "193412",
+              "journal-title": "IEEE Access",
+              "key": "B10",
+              "volume": "8",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1002/2050-7038.12804",
+              "article-title": "Capacity coordination planning of isolated Microgrid and battery swapping station based on the quantum behavior particle swarm optimization algorithm",
+              "author": "Guo",
+              "doi-asserted-by": "publisher",
+              "journal-title": "Int. Trans. Electr. Energy Syst.",
+              "key": "B11",
+              "volume": "31",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1049/iet-rpg.2019.0928",
+              "article-title": "Improving power quality of single phase utility grid connected to wind-PV system using multilayer-frequency adaptive fundamental signal extractor",
+              "author": "Gupta",
+              "doi-asserted-by": "publisher",
+              "first-page": "2126",
+              "journal-title": "IET Renew. Power Gener.",
+              "key": "B12",
+              "volume": "14",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1515/ntrev-2020-0054",
+              "article-title": "Material advancement in technological development for the 5G wireless communications",
+              "author": "Hao",
+              "doi-asserted-by": "publisher",
+              "first-page": "683",
+              "journal-title": "Nanotechnol. Rev.",
+              "key": "B13",
+              "volume": "9",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/TSG.2011.2173507",
+              "article-title": "Optimal scheduling for charging and discharging of electric vehicles",
+              "author": "He",
+              "doi-asserted-by": "publisher",
+              "first-page": "1095",
+              "journal-title": "IEEE Trans. Smart Grid",
+              "key": "B14",
+              "volume": "3",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1016/j.rser.2018.03.040",
+              "article-title": "Microgrids: A review of technologies, key drivers, and outstanding issues",
+              "author": "Hirsch",
+              "doi-asserted-by": "publisher",
+              "first-page": "402",
+              "journal-title": "Renew. Sustain. Energy Rev.",
+              "key": "B15",
+              "volume": "90",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1088/1755-1315/979/1/012104",
+              "article-title": "5G base station antenna integrated into solar panel",
+              "author": "ishchenko",
+              "doi-asserted-by": "publisher",
+              "first-page": "012104",
+              "journal-title": "IOP Conf. Ser. Earth Environ. Sci.",
+              "key": "B16",
+              "volume": "979",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2021.3060031",
+              "article-title": "Optimal planning and EMS design of PV based standalone rural microgrids",
+              "author": "Junejo",
+              "doi-asserted-by": "publisher",
+              "first-page": "32908",
+              "journal-title": "IEEE Access",
+              "key": "B17",
+              "volume": "9",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2006.879260",
+              "article-title": "Power management strategies for a microgrid with multiple distributed generation units",
+              "author": "Katiraei",
+              "doi-asserted-by": "publisher",
+              "first-page": "1821",
+              "journal-title": "IEEE Trans. Power Syst.",
+              "key": "B18",
+              "volume": "21",
+              "year": "2006"
+            },
+            {
+              "DOI": "10.1016/j.scs.2022.103837",
+              "article-title": "Comprehensive evaluation for plan selection of urban integrated energy systems: A novel multi-criteria decision-making framework",
+              "author": "Ke",
+              "doi-asserted-by": "publisher",
+              "first-page": "103837",
+              "journal-title": "Sustain. Cities Soc.",
+              "key": "B19",
+              "volume": "81",
+              "year": ""
+            },
+            {
+              "DOI": "10.1016/j.egyr.2022.07.012",
+              "article-title": "A hybrid decision-making framework for photovoltaic poverty alleviation project site selection under intuitionistic fuzzy environment",
+              "author": "Ke",
+              "doi-asserted-by": "publisher",
+              "first-page": "8844",
+              "journal-title": "Energy Rep.",
+              "key": "B20",
+              "volume": "8",
+              "year": ""
+            },
+            {
+              "DOI": "10.3390/en14113112",
+              "article-title": "Optimal allocation of large-capacity distributed generation with the volt/var control capability using particle swarm optimization",
+              "author": "Lee",
+              "doi-asserted-by": "publisher",
+              "first-page": "3112",
+              "journal-title": "Energies",
+              "key": "B21",
+              "volume": "14",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/S0379-4172(06)60085-1",
+              "article-title": "Investigation of control for AC-exited VSCF wind power generation system connected to grid",
+              "author": "Liu",
+              "doi-asserted-by": "publisher",
+              "first-page": "109",
+              "journal-title": "Proc. CSEE",
+              "key": "B22",
+              "volume": "26",
+              "year": "2006"
+            },
+            {
+              "DOI": "10.1016/j.epsr.2006.08.016",
+              "article-title": "Integrating distributed generation into electric power systems: A review of drivers, challenges and opportunities",
+              "author": "Lopes",
+              "doi-asserted-by": "publisher",
+              "first-page": "1189",
+              "journal-title": "Electr. Power Syst. Res.",
+              "key": "B23",
+              "volume": "77",
+              "year": "2007"
+            },
+            {
+              "DOI": "10.1007/s12652-021-03194-w",
+              "article-title": "Optimal sizing of distributed generation units and shunt capacitors in the distribution system considering uncertainty resources by the modified evolutionary algorithm",
+              "author": "Lotfi",
+              "doi-asserted-by": "publisher",
+              "first-page": "4739",
+              "journal-title": "J. Ambient. Intell. Humaniz. Comput.",
+              "key": "B24",
+              "volume": "13",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.renene.2018.03.021",
+              "article-title": "Smart transactive energy framework in grid-connected multiple home Microgrids under independent and coalition operations",
+              "author": "Marzband",
+              "doi-asserted-by": "publisher",
+              "first-page": "95",
+              "journal-title": "Renew. Energy",
+              "key": "B25",
+              "volume": "126",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.renene.2018.03.021",
+              "article-title": "Smart transactive energy framework in grid-connected multiple home Microgrids under independent and coalition operations",
+              "author": "Marzband",
+              "doi-asserted-by": "publisher",
+              "first-page": "95",
+              "journal-title": "Renew. Energy",
+              "key": "B26",
+              "volume": "126",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.jclepro.2021.128386",
+              "article-title": "Optimal short-term water-energy dispatch for pumping stations with grid-connected photovoltaic self-generation",
+              "author": "Naval",
+              "doi-asserted-by": "publisher",
+              "first-page": "128386",
+              "journal-title": "J. Clean. Prod.",
+              "key": "B27",
+              "volume": "316",
+              "year": "2021"
+            },
+            {
+              "article-title": "Towards smart grid economics using distributed generation systems-hybrid biomass, solar and fossil fuel plants",
+              "author": "Onojo",
+              "first-page": "5019",
+              "journal-title": "Int. J. Mechatronics Manuf. Syst.",
+              "key": "B28",
+              "volume": "11",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2015.2443119",
+              "article-title": "State of the art in research on microgrids: A review",
+              "author": "Parhizi",
+              "doi-asserted-by": "publisher",
+              "first-page": "890",
+              "journal-title": "IEEE Access",
+              "key": "B29",
+              "volume": "3",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.jclepro.2019.119252",
+              "article-title": "Combined electricity-heat-cooling-gas load forecasting model for integrated energy system based on multi-task learning and least square support vector machine",
+              "author": "Tan",
+              "doi-asserted-by": "publisher",
+              "first-page": "119252",
+              "journal-title": "J. Clean. Prod.",
+              "key": "B30",
+              "volume": "248",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2018.02.022",
+              "article-title": "CVaR-based energy management scheme for optimal resilience and operational cost in commercial building Microgrids",
+              "author": "Tavakoli",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "journal-title": "Int. J. Electr. Power & Energy Syst.",
+              "key": "B31",
+              "volume": "100",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1088/1755-1315/804/3/032015",
+              "article-title": "Optimal allocation of wind-solar storage capacity of Microgrid considering carbon emission reduction benefits",
+              "author": "Wang",
+              "doi-asserted-by": "publisher",
+              "first-page": "032015",
+              "journal-title": "IOP Conf. Ser. Earth Environ. Sci.",
+              "key": "B32",
+              "volume": "804",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1002/ese3.1097",
+              "article-title": "Internal benefit optimization model of gas-thermal power virtual power plant under China’s carbon neutral target",
+              "author": "Weishang",
+              "doi-asserted-by": "publisher",
+              "first-page": "1227",
+              "journal-title": "Energy Sci. Eng.",
+              "key": "B33",
+              "volume": "10",
+              "year": "2022"
+            },
+            {
+              "key": "B34",
+              "unstructured": "5G base station deployments\n            WeissbergerA.\n          2020"
+            },
+            {
+              "DOI": "10.1109/LAWP.2021.3054682",
+              "article-title": "Low-profile wideband omnidirectional antenna for 4G/5G indoor base station application based on multiple resonances",
+              "author": "Wen",
+              "doi-asserted-by": "publisher",
+              "first-page": "488",
+              "journal-title": "IEEE Antennas Wirel. Propag. Lett.",
+              "key": "B35",
+              "volume": "20",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.13334/j.0258-8013.pcsee.210183",
+              "article-title": "5G communication base stations participating in demand response: Key technologies and prospects",
+              "author": "Yong",
+              "doi-asserted-by": "publisher",
+              "first-page": "5540",
+              "journal-title": "Zhongguo Dianji Gongcheng Xuebao/Proceedings Chin. Soc. Electr. Eng.",
+              "key": "B36",
+              "volume": "41",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1002/er.5307",
+              "article-title": "Cross-regional integrated energy system scheduling optimization model considering conditional value at risk",
+              "author": "Yu",
+              "doi-asserted-by": "publisher",
+              "first-page": "5564",
+              "journal-title": "Int. J. Energy Res.",
+              "key": "B37",
+              "volume": "44",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.3390/en14123548",
+              "article-title": "Optimal integration of capacitor and distributed generation in distribution system considering load variation using bat optimization algorithm",
+              "author": "Yuvaraj",
+              "doi-asserted-by": "publisher",
+              "first-page": "3548",
+              "journal-title": "Energies",
+              "key": "B38",
+              "volume": "14",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.energy.2021.122884",
+              "article-title": "Stochastic multi-objective optimal energy management of grid-connected unbalanced Microgrids with renewable energy generation and plug-in electric vehicles",
+              "author": "Zandrazavi",
+              "doi-asserted-by": "publisher",
+              "first-page": "122884",
+              "journal-title": "Energy",
+              "key": "B39",
+              "volume": "241",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.4028/www.scientific.net/amr.383-390.2018",
+              "article-title": "Study on simulation of three-phase Z-source inverter for grid-connected wind power generation",
+              "author": "Zhang",
+              "doi-asserted-by": "publisher",
+              "first-page": "2018",
+              "journal-title": "Adv. Mat. Res.",
+              "key": "B40",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1088/1755-1315/619/1/012020",
+              "article-title": "Research on filter parameter optimization method of grid-connected photovoltaic system",
+              "author": "Zhao",
+              "doi-asserted-by": "publisher",
+              "first-page": "012020",
+              "journal-title": "IOP Conf. Ser. Earth Environ. Sci.",
+              "key": "B41",
+              "volume": "619",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1155/2021/6697792",
+              "article-title": "Robust switching gain-based fractional-order sliding mode control for wind-powered microgrids",
+              "author": "Zhou",
+              "doi-asserted-by": "publisher",
+              "first-page": "1",
+              "journal-title": "Complexity",
+              "key": "B42",
+              "volume": "2021",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2018.04.103",
+              "article-title": "Microgrids energy management systems: A critical review on methods, solutions, and prospects",
+              "author": "Zia",
+              "doi-asserted-by": "publisher",
+              "first-page": "1033",
+              "journal-title": "Appl. Energy",
+              "key": "B43",
+              "volume": "222",
+              "year": "2018"
+            }
+          ],
+          "reference-count": 43,
+          "references-count": 43,
+          "resource": {
+            "primary": {
+              "URL": "https://www.frontiersin.org/articles/10.3389/fenrg.2022.1032993/full"
+            }
+          },
+          "score": 56.185844,
+          "short-container-title": [
+            "Front. Energy Res."
+          ],
+          "source": "Crossref",
+          "title": [
+            "Multi-objective optimization model of micro-grid access to 5G base station under the background of China’s carbon peak shaving and carbon neutrality targets"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.3389/crossmark-policy",
+          "volume": "10"
+        },
+        {
+          "DOI": "10.23919/apnoms56106.2022.9919897",
+          "URL": "https://doi.org/10.23919/apnoms56106.2022.9919897",
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "Network Management Laboratory, Chunghwa Telecom Laboratories,Taoyuan,Taiwan"
+                }
+              ],
+              "family": "Yang",
+              "given": "Wan-Chien",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "container-title": [
+            "2022 23rd Asia-Pacific Network Operations and Management Symposium (APNOMS)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                4
+              ]
+            ],
+            "date-time": "2022-11-04T00:58:55Z",
+            "timestamp": 1667523535000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                11,
+                28
+              ]
+            ],
+            "date-time": "2022-11-28T20:26:06Z",
+            "timestamp": 1669667166000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2022,
+                  9,
+                  30
+                ]
+              ]
+            },
+            "location": "Takamatsu, Japan",
+            "name": "2022 23rd Asia-Pacific Network Operations and Management Symposium (APNOMS)",
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  9,
+                  28
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                24
+              ]
+            ],
+            "date-time": "2025-08-24T01:46:13Z",
+            "timestamp": 1755999973766
+          },
+          "is-referenced-by-count": 6,
+          "issued": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                28
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    9,
+                    28
+                  ]
+                ],
+                "date-time": "2022-09-28T00:00:00Z",
+                "timestamp": 1664323200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    9,
+                    28
+                  ]
+                ],
+                "date-time": "2022-09-28T00:00:00Z",
+                "timestamp": 1664323200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/9919879/9919815/09919897.pdf?arnumber=9919897",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "prefix": "10.23919",
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                28
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                28
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/9919897/"
+            }
+          },
+          "score": 54.92623,
+          "source": "Crossref",
+          "title": [
+            "Interoperability Testing Tool for Operations and Maintenance Interfaces of 5G Open RAN Base Station"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.33103/uot.ijccce.25.1.5",
+          "ISSN": [
+            "2617-3352",
+            "1811-9212"
+          ],
+          "URL": "https://doi.org/10.33103/uot.ijccce.25.1.5",
+          "abstract": "<jats:p>The fast expansion of 5G technology requires new innovative approaches to resolve challenges with extensive signal degradation and constrained coverage extent as well as interference in high-frequency bands. The proposed research designs a 5G Radio Access Network (RAN) station link using relay stations that combine Dense Wavelength Division Multiplexing (DWDM) and Radio-over-Fiber (RoF) technological frameworks. The proposed system uses a mesh architectural network with 32 fiber-connected relay stations to enable efficient, scalable data transfer as an alternative to conventional star configurations. An OptiSystem simulation demonstrates that signal integrity enhancement occurs through the establishment of a bidirectional transmission medium that combines Erbium-Doped Fiber Amplifiers (EDFAs) with high-stability Continuous Wave (CW) lasers. The communication functions between uplink and downlink depend on Wavelength Division Multiplexing (WDM) multiplexers and demultiplexers to operate smoothly. The design delivers remarkable Signal-to-Noise Ratio (SNR) and Optical Signal-to-Noise Ratio (OSNR) measurements greater than 50 dB, which ensures quality signals transmit with low degradation to demonstrate stable and bidirectional communication. The system optimizes wavelength reuse while ensuring channel isolation and achieves optimum bandwidth utilization, which makes it a potential choice for future mobile networks. The research findings prove that DWDM-RoF is an effective solution to tackle critical 5G network needs through efficient, high-speed, accurate networks, which opens new paths for relay-assisted 5G development while stabilizing networks across different geographic locations.</jats:p>",
+          "archive": [
+            "Internet Archive"
+          ],
+          "container-title": [
+            "Iraqi Journal of Computers, Communications, Control and Systems Engineering"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                5
+              ]
+            ],
+            "date-time": "2025-05-05T01:14:13Z",
+            "timestamp": 1746407653000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                7
+              ]
+            ],
+            "date-time": "2026-06-07T10:52:33Z",
+            "timestamp": 1780829553000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                7
+              ]
+            ],
+            "date-time": "2026-06-07T11:02:18Z",
+            "timestamp": 1780830138440,
+            "version": "3.54.1"
+          },
+          "is-referenced-by-count": 0,
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "2617-3352"
+            },
+            {
+              "type": "print",
+              "value": "1811-9212"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                30
+              ]
+            ]
+          },
+          "language": "en",
+          "member": "18370",
+          "page": "54-67",
+          "prefix": "10.33103",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                30
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                30
+              ]
+            ]
+          },
+          "publisher": "University of Technology, Iraq - DIGITAL COMMONS",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://ijccce.uotechnology.edu.iq/journal/vol25/iss1/5"
+            }
+          },
+          "score": 53.213547,
+          "short-container-title": [
+            "IJCCCE"
+          ],
+          "source": "Crossref",
+          "title": [
+            "A Proposed Approach to Relay-Base Station Link Design for 5G Radio Access Network"
+          ],
+          "type": "journal-article"
+        },
+        {
+          "DOI": "10.1109/access.2022.3158948",
+          "ISSN": [
+            "2169-3536"
+          ],
+          "URL": "https://doi.org/10.1109/access.2022.3158948",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-1768-8310",
+              "affiliation": [
+                {
+                  "name": "Department of ECE, National Institute of Technology Karnataka, Surathkal, Mangalore, India"
+                }
+              ],
+              "authenticated-orcid": false,
+              "family": "Bellary",
+              "given": "Anudeep",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-1561-3005",
+              "affiliation": [
+                {
+                  "name": "Department of ECE, National Institute of Technology Karnataka, Surathkal, Mangalore, India"
+                }
+              ],
+              "authenticated-orcid": false,
+              "family": "Kandasamy",
+              "given": "Krishnamoorthy",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2795-1394",
+              "affiliation": [
+                {
+                  "name": "Microwave Communication and Antenna Division, SAMEER-Centre for Electromagnetics, Chennai, India"
+                }
+              ],
+              "authenticated-orcid": false,
+              "family": "Rao",
+              "given": "Patnam Hanumantha",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "IEEE Access"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                11
+              ]
+            ],
+            "date-time": "2022-03-11T15:23:45Z",
+            "timestamp": 1647012225000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                5,
+                30
+              ]
+            ],
+            "date-time": "2022-05-30T18:45:45Z",
+            "timestamp": 1653936345000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                18
+              ]
+            ],
+            "date-time": "2026-08-18T00:10:45Z",
+            "timestamp": 1787011845521,
+            "version": "build-2736575974"
+          },
+          "is-referenced-by-count": 17,
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "2169-3536"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://creativecommons.org/licenses/by/4.0/legalcode",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2022-01-01T00:00:00Z",
+                "timestamp": 1640995200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/6287639/9668973/09733343.pdf?arnumber=9733343",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "29183-29193",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "reference": [
+            {
+              "DOI": "10.1109/TAP.2017.2679762",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "DOI": "10.1109/TAP.2018.2859914",
+              "doi-asserted-by": "publisher",
+              "key": "ref11"
+            },
+            {
+              "DOI": "10.1109/LAWP.2019.2937201",
+              "doi-asserted-by": "publisher",
+              "key": "ref12"
+            },
+            {
+              "DOI": "10.1109/TEMC.2020.3004189",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "DOI": "10.1002/mmce.22615",
+              "doi-asserted-by": "publisher",
+              "key": "ref14"
+            },
+            {
+              "DOI": "10.1017/S1759078721000805",
+              "doi-asserted-by": "publisher",
+              "key": "ref15"
+            },
+            {
+              "DOI": "10.23919/EuCAP48036.2020.9135263",
+              "doi-asserted-by": "publisher",
+              "key": "ref16"
+            },
+            {
+              "DOI": "10.23919/ROPACES.2018.8364192",
+              "doi-asserted-by": "publisher",
+              "key": "ref17"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.3023452",
+              "doi-asserted-by": "publisher",
+              "key": "ref18"
+            },
+            {
+              "journal-title": "3rd Generation Partnership Project",
+              "key": "ref19",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/TAP.2018.2880098",
+              "doi-asserted-by": "publisher",
+              "key": "ref4"
+            },
+            {
+              "DOI": "10.1155/2016/6304356",
+              "doi-asserted-by": "publisher",
+              "key": "ref3"
+            },
+            {
+              "DOI": "10.1109/TAP.2019.2936758",
+              "doi-asserted-by": "publisher",
+              "key": "ref6"
+            },
+            {
+              "DOI": "10.1109/LAWP.2019.2961159",
+              "doi-asserted-by": "publisher",
+              "key": "ref5"
+            },
+            {
+              "DOI": "10.1109/LAWP.2018.2832293",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "DOI": "10.1109/TAP.2018.2871717",
+              "doi-asserted-by": "publisher",
+              "key": "ref7"
+            },
+            {
+              "DOI": "10.2528/PIERC16040206",
+              "doi-asserted-by": "publisher",
+              "key": "ref2"
+            },
+            {
+              "DOI": "10.1109/MAP.2017.2753038",
+              "doi-asserted-by": "publisher",
+              "key": "ref9"
+            },
+            {
+              "DOI": "10.1109/LAWP.2016.2598181",
+              "doi-asserted-by": "publisher",
+              "key": "ref1"
+            },
+            {
+              "DOI": "10.1109/APCAP.2017.8420499",
+              "doi-asserted-by": "publisher",
+              "key": "ref20"
+            },
+            {
+              "DOI": "10.1155/2017/4701208",
+              "doi-asserted-by": "publisher",
+              "key": "ref22"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2021.3070198",
+              "doi-asserted-by": "publisher",
+              "key": "ref21"
+            },
+            {
+              "journal-title": "Wave Propagation and Radio Network Planning Software (part of Altair HyperWorks)",
+              "key": "ref24",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/TAP.2017.2734243",
+              "doi-asserted-by": "publisher",
+              "key": "ref23"
+            },
+            {
+              "journal-title": "Comprehensive Electromagnetic Analysis Software Suite (part of Altair HyperWorks)",
+              "key": "ref26",
+              "year": "2021"
+            },
+            {
+              "journal-title": "A New Dimension of Wave Propagation and Radio Network Planning",
+              "key": "ref25",
+              "year": "2020"
+            }
+          ],
+          "reference-count": 26,
+          "references-count": 26,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/9733343/"
+            }
+          },
+          "score": 52.372414,
+          "short-container-title": [
+            "IEEE Access"
+          ],
+          "source": "Crossref",
+          "title": [
+            "Analysis of Wave Propagation Models With Radio Network Planning Using Dual Polarized MIMO Antenna for 5G Base Station Applications"
+          ],
+          "type": "journal-article",
+          "volume": "10"
+        },
+        {
+          "DOI": "10.11159/eee25.138",
+          "ISSN": [
+            "2369-811X"
+          ],
+          "URL": "https://doi.org/10.11159/eee25.138",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Öncül",
+              "given": "Enes Ladin",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Girgin",
+              "given": "Özgün",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "World Congress on Electrical Engineering and Computer Systems and Science",
+            "Proceedings of the 11th World Congress on Electrical Engineering and Computer Systems and Science"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                5
+              ]
+            ],
+            "date-time": "2025-09-05T14:29:29Z",
+            "timestamp": 1757082569000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                5
+              ]
+            ],
+            "date-time": "2025-09-05T14:29:30Z",
+            "timestamp": 1757082570000
+          },
+          "event": {
+            "acronym": "EECSS 2025",
+            "end": {
+              "date-parts": [
+                [
+                  2025,
+                  8,
+                  19
+                ]
+              ]
+            },
+            "name": "The 11th World Congress on Electrical Engineering and Computer Systems and Science",
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  8,
+                  17
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                11
+              ]
+            ],
+            "date-time": "2025-09-11T18:31:04Z",
+            "timestamp": 1757615464845,
+            "version": "3.44.0"
+          },
+          "is-referenced-by-count": 0,
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "2369-811X"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                8
+              ]
+            ]
+          },
+          "member": "4845",
+          "prefix": "10.11159",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                8
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                8
+              ]
+            ]
+          },
+          "publisher": "Avestia Publishing",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://avestia.com/EECSS2025_Proceedings/files/paper/EEE/EEE_138.pdf"
+            }
+          },
+          "score": 52.361244,
+          "source": "Crossref",
+          "title": [
+            "Enhanced Grid Stability and Demand-Side Optimization through Deep Neural Network-Controlled Vehicle-to-Grid (V2G) Peak Shaving and Load Shifting"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.1016/j.enbuild.2021.111109",
+          "ISSN": [
+            "0378-7788"
+          ],
+          "URL": "https://doi.org/10.1016/j.enbuild.2021.111109",
+          "alternative-id": [
+            "S0378778821003935"
+          ],
+          "article-number": "111109",
+          "assertion": [
+            {
+              "label": "This article is maintained by",
+              "name": "publisher",
+              "value": "Elsevier"
+            },
+            {
+              "label": "Article Title",
+              "name": "articletitle",
+              "value": "Sizing domestic batteries for load smoothing and peak shaving based on real-world demand data"
+            },
+            {
+              "label": "Journal Title",
+              "name": "journaltitle",
+              "value": "Energy and Buildings"
+            },
+            {
+              "label": "CrossRef DOI link to publisher maintained version",
+              "name": "articlelink",
+              "value": "https://doi.org/10.1016/j.enbuild.2021.111109"
+            },
+            {
+              "label": "Content Type",
+              "name": "content_type",
+              "value": "article"
+            },
+            {
+              "label": "Copyright",
+              "name": "copyright",
+              "value": "© 2021 Elsevier B.V. All rights reserved."
+            }
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Mair",
+              "given": "Jason",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Suomalainen",
+              "given": "Kiti",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Eyers",
+              "given": "David M.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Jack",
+              "given": "Michael W.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Energy and Buildings"
+          ],
+          "content-domain": {
+            "crossmark-restriction": true,
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                19
+              ]
+            ],
+            "date-time": "2021-05-19T21:49:54Z",
+            "timestamp": 1621460994000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                8
+              ]
+            ],
+            "date-time": "2025-10-08T14:16:22Z",
+            "timestamp": 1759932982000
+          },
+          "funder": [
+            {
+              "DOI": "10.13039/501100003524",
+              "award": [
+                "UOCX1203"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "UOCX1203"
+                  ]
+                }
+              ],
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "asserted-by": "publisher",
+                  "id": "10.13039/501100003524",
+                  "id-type": "DOI"
+                }
+              ],
+              "name": "Ministry of Business, Innovation and Employment"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                26
+              ]
+            ],
+            "date-time": "2026-01-26T00:44:46Z",
+            "timestamp": 1769388286642,
+            "version": "3.49.0"
+          },
+          "is-referenced-by-count": 20,
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "0378-7788"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                9
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    9,
+                    1
+                  ]
+                ],
+                "date-time": "2021-09-01T00:00:00Z",
+                "timestamp": 1630454400000
+              }
+            },
+            {
+              "URL": "https://www.elsevier.com/legal/tdmrep-license",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    9,
+                    1
+                  ]
+                ],
+                "date-time": "2021-09-01T00:00:00Z",
+                "timestamp": 1630454400000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-017",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    9,
+                    1
+                  ]
+                ],
+                "date-time": "2021-09-01T00:00:00Z",
+                "timestamp": 1630454400000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    9,
+                    1
+                  ]
+                ],
+                "date-time": "2021-09-01T00:00:00Z",
+                "timestamp": 1630454400000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-012",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    9,
+                    1
+                  ]
+                ],
+                "date-time": "2021-09-01T00:00:00Z",
+                "timestamp": 1630454400000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    9,
+                    1
+                  ]
+                ],
+                "date-time": "2021-09-01T00:00:00Z",
+                "timestamp": 1630454400000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-004",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    9,
+                    1
+                  ]
+                ],
+                "date-time": "2021-09-01T00:00:00Z",
+                "timestamp": 1630454400000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0378778821003935?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0378778821003935?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "member": "78",
+          "page": "111109",
+          "prefix": "10.1016",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                9
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                9
+              ]
+            ]
+          },
+          "publisher": "Elsevier BV",
+          "reference": [
+            {
+              "DOI": "10.1126/science.1208365",
+              "article-title": "The technology path to deep greenhouse gas emissions cuts by 2050: the pivotal role of electricity",
+              "author": "Williams",
+              "doi-asserted-by": "crossref",
+              "first-page": "53",
+              "issue": "6064",
+              "journal-title": "Science",
+              "key": "10.1016/j.enbuild.2021.111109_b0005",
+              "volume": "335",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1016/j.tej.2016.07.007",
+              "article-title": "Environmentally beneficial electrification: The dawn of emissions efficiency",
+              "author": "Dennis",
+              "doi-asserted-by": "crossref",
+              "first-page": "52",
+              "issue": "6",
+              "journal-title": "The Electricity Journal",
+              "key": "10.1016/j.enbuild.2021.111109_b0010",
+              "volume": "29",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.enbuild.2021.111109_b0015",
+              "unstructured": "M. Ram, D. Bogdanov, A. Aghahosseini, A. Gulagi, A. Oyewo, M. Child, U. Caldera, K. Sadovskaia, J. Farfan, L. Barbosa, M. Fasihi, S. Khalili, B. Dalheimer, G. Gruber, T. Traber, F.D. Caluwe, H.-J. Fell, C. Breyer, Global energy system based on 100% renewable energy–power, heat, transport and desalination sectors. study by Lappeenranta University of Technology and Energy Watch Group, Lappeenranta and Berlin, URL:http://energywatchgroup.org/wp-content/uploads/EWG_LUT_100RE_All_Sectors_Global_Report_2019.pdf (March 2019)."
+            },
+            {
+              "DOI": "10.1016/j.enpol.2016.05.034",
+              "article-title": "Key challenges to expanding renewable energy",
+              "author": "Stram",
+              "doi-asserted-by": "crossref",
+              "first-page": "728",
+              "journal-title": "Energy Policy",
+              "key": "10.1016/j.enbuild.2021.111109_b0020",
+              "volume": "96",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.rser.2014.02.003",
+              "article-title": "Energy systems modeling for twenty-first century energy challenges",
+              "author": "Pfenninger",
+              "doi-asserted-by": "crossref",
+              "first-page": "74",
+              "journal-title": "Renewable and Sustainable Energy Reviews",
+              "key": "10.1016/j.enbuild.2021.111109_b0025",
+              "volume": "33",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1016/j.enpol.2013.10.032",
+              "article-title": "The future of the European electricity system and the impact of fluctuating renewable energy–a scenario analysis",
+              "author": "Spiecker",
+              "doi-asserted-by": "crossref",
+              "first-page": "185",
+              "journal-title": "Energy Policy",
+              "key": "10.1016/j.enbuild.2021.111109_b0030",
+              "volume": "65",
+              "year": "2014"
+            },
+            {
+              "author": "Commission",
+              "key": "10.1016/j.enbuild.2021.111109_b0035",
+              "volume": "volume 1",
+              "year": "2007"
+            },
+            {
+              "DOI": "10.1016/j.enpol.2012.07.026",
+              "article-title": "Social implications of residential demand response in cool temperate climates",
+              "author": "Darby",
+              "doi-asserted-by": "crossref",
+              "first-page": "759",
+              "journal-title": "Energy Policy",
+              "key": "10.1016/j.enbuild.2021.111109_b0040",
+              "volume": "49",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1016/j.energy.2015.06.082",
+              "article-title": "The shape of future electricity demand: exploring load curves in 2050s Germany and Britain",
+              "author": "Boßmann",
+              "doi-asserted-by": "crossref",
+              "first-page": "1317",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enbuild.2021.111109_b0045",
+              "volume": "90",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2014.02.025",
+              "article-title": "Future residential load profiles: Scenario-based analysis of high penetration of heavy loads and distributed generation",
+              "author": "Asare-Bediako",
+              "doi-asserted-by": "crossref",
+              "first-page": "228",
+              "journal-title": "Energy and Buildings",
+              "key": "10.1016/j.enbuild.2021.111109_b0050",
+              "volume": "75",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2019.109614",
+              "article-title": "Impact of emerging technologies on the electricity load profile of residential areas",
+              "author": "Fischer",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Energy and Buildings",
+              "key": "10.1016/j.enbuild.2021.111109_b0055",
+              "volume": "208",
+              "year": "2020"
+            },
+            {
+              "key": "10.1016/j.enbuild.2021.111109_b0060",
+              "unstructured": "The Economist, Germany’s energy transformation – Energiewende, URL:http://www.economist. com/node/21559667 (July 2012)."
+            },
+            {
+              "DOI": "10.1016/j.rser.2015.01.057",
+              "article-title": "Review of energy system flexibility measures to enable high levels of variable renewable electricity",
+              "author": "Lund",
+              "doi-asserted-by": "crossref",
+              "first-page": "785",
+              "journal-title": "Renewable and Sustainable Energy Reviews",
+              "key": "10.1016/j.enbuild.2021.111109_b0065",
+              "volume": "45",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.enpol.2008.09.030",
+              "article-title": "Demand side management: Benefits and challenges",
+              "author": "Strbac",
+              "doi-asserted-by": "crossref",
+              "first-page": "4419",
+              "issue": "12",
+              "journal-title": "Energy Policy",
+              "key": "10.1016/j.enbuild.2021.111109_b0070",
+              "volume": "36",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1007/s40903-015-0012-y",
+              "article-title": "Optimal operation of a residential microgrid: The role of demand side management",
+              "author": "Ferruzzi",
+              "doi-asserted-by": "crossref",
+              "first-page": "61",
+              "issue": "1",
+              "journal-title": "Intelligent Industrial Systems",
+              "key": "10.1016/j.enbuild.2021.111109_b0075",
+              "volume": "1",
+              "year": "2015"
+            },
+            {
+              "article-title": "Residential demand response program design: Engineering and economic perspectives",
+              "author": "Mathieu",
+              "first-page": "1",
+              "key": "10.1016/j.enbuild.2021.111109_b0080",
+              "series-title": "2013 10th International Conference on the European Energy Market (EEM)",
+              "year": "2013"
+            },
+            {
+              "key": "10.1016/j.enbuild.2021.111109_b0085",
+              "unstructured": "J. Mathieu, M. Dyson, D. Callaway, A. Rosenfeld, Using residential electric loads for fast demand response: The potential resource and revenues, the costs, and policy recommendations, in: ACEEE Summer Study on Energy Efficiency in Buildings, 2012, pp. 189–203."
+            },
+            {
+              "key": "10.1016/j.enbuild.2021.111109_b0090",
+              "unstructured": "G. Fitzgerald, J. Mandel, J. Morris, H. Touati, The economics of battery energy storage: How multi-use, customer-sited batteries deliver the most services and value to customers and the grid, Rocky Mountain Institute."
+            },
+            {
+              "DOI": "10.1016/j.rser.2014.07.068",
+              "article-title": "The economic viability of battery storage for residential solar photovoltaic systems–a review and a simulation model",
+              "author": "Hoppmann",
+              "doi-asserted-by": "crossref",
+              "first-page": "1101",
+              "journal-title": "Renewable and Sustainable Energy Reviews",
+              "key": "10.1016/j.enbuild.2021.111109_b0095",
+              "volume": "39",
+              "year": "2014"
+            },
+            {
+              "key": "10.1016/j.enbuild.2021.111109_b0100",
+              "unstructured": "J. Palmer, N. Terry, T. Kane, Early findings: Demand side management - further analysis of the household electricity survey, URL:https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/275483/early_findings_revised.pdf (2013)."
+            },
+            {
+              "author": "Torriti",
+              "key": "10.1016/j.enbuild.2021.111109_b0105",
+              "series-title": "Peak Energy Demand and Demand Side Response",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.renene.2015.09.061",
+              "article-title": "Residential solar PV policy: An analysis of impacts, successes and failures in the Australian case",
+              "author": "Chapman",
+              "doi-asserted-by": "crossref",
+              "first-page": "1265",
+              "journal-title": "Renewable Energy",
+              "key": "10.1016/j.enbuild.2021.111109_b0110",
+              "volume": "86",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.energy.2013.03.086",
+              "article-title": "Determinants of residential electricity consumption: Using smart meter data to examine the effect of climate, building characteristics, appliance stock, and occupants’ behavior",
+              "author": "Kavousian",
+              "doi-asserted-by": "crossref",
+              "first-page": "184",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enbuild.2021.111109_b0115",
+              "volume": "55",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1016/j.renene.2006.01.005",
+              "article-title": "Effects of large-scale photovoltaic power integration on electricity distribution networks",
+              "author": "Paatero",
+              "doi-asserted-by": "crossref",
+              "first-page": "216",
+              "issue": "2",
+              "journal-title": "Renewable Energy",
+              "key": "10.1016/j.enbuild.2021.111109_b0120",
+              "volume": "32",
+              "year": "2007"
+            },
+            {
+              "article-title": "Wind integration: experience, issues, and challenges, Wiley Interdisciplinary Reviews",
+              "author": "Holttinen",
+              "first-page": "243",
+              "issue": "3",
+              "journal-title": "Energy and Environment",
+              "key": "10.1016/j.enbuild.2021.111109_b0125",
+              "volume": "1",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1016/j.enpol.2011.01.019",
+              "article-title": "Grid flexibility and storage required to achieve very high penetration of variable renewable electricity",
+              "author": "Denholm",
+              "doi-asserted-by": "crossref",
+              "first-page": "1817",
+              "issue": "3",
+              "journal-title": "Energy Policy",
+              "key": "10.1016/j.enbuild.2021.111109_b0130",
+              "volume": "39",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1016/j.energy.2011.06.013",
+              "article-title": "The impact of demand side management strategies in the penetration of renewable electricity",
+              "author": "Pina",
+              "doi-asserted-by": "crossref",
+              "first-page": "128",
+              "issue": "1",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enbuild.2021.111109_b0135",
+              "volume": "41",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2015.07.028",
+              "article-title": "Load management in a residential energy hub with renewable distributed energy resources",
+              "author": "Rastegar",
+              "doi-asserted-by": "crossref",
+              "first-page": "234",
+              "journal-title": "Energy and Buildings",
+              "key": "10.1016/j.enbuild.2021.111109_b0140",
+              "volume": "107",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2016.01.039",
+              "article-title": "Are batteries the optimum PV-coupled energy storage for dwellings? Techno-economic comparison with hot water tanks in the UK",
+              "author": "Parra",
+              "doi-asserted-by": "crossref",
+              "first-page": "614",
+              "journal-title": "Energy and Buildings",
+              "key": "10.1016/j.enbuild.2021.111109_b0145",
+              "volume": "116",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.energy.2013.12.018",
+              "article-title": "Battery capacity determination with respect to optimized energy dispatch schedule in grid-connected photovoltaic (PV) systems",
+              "author": "Gitizadeh",
+              "doi-asserted-by": "crossref",
+              "first-page": "665",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enbuild.2021.111109_b0150",
+              "volume": "65",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1016/j.rser.2017.02.003",
+              "article-title": "A review of technical issues on the development of solar photovoltaic systems",
+              "author": "Lupangu",
+              "doi-asserted-by": "crossref",
+              "first-page": "950",
+              "journal-title": "Renewable and Sustainable Energy Reviews",
+              "key": "10.1016/j.enbuild.2021.111109_b0155",
+              "volume": "73",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2010.07.002",
+              "article-title": "Battery energy storage systems: Assessment for small-scale renewable energy integration",
+              "author": "Nair",
+              "doi-asserted-by": "crossref",
+              "first-page": "2124",
+              "issue": "11",
+              "journal-title": "Energy and Buildings",
+              "key": "10.1016/j.enbuild.2021.111109_b0160",
+              "volume": "42",
+              "year": "2010"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2012.09.035",
+              "article-title": "Battery storage system for residential electricity peak demand shaving",
+              "author": "Leadbetter",
+              "doi-asserted-by": "crossref",
+              "first-page": "685",
+              "journal-title": "Energy and Buildings",
+              "key": "10.1016/j.enbuild.2021.111109_b0165",
+              "volume": "55",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1016/j.est.2016.08.011",
+              "article-title": "Energy storage for grid services and applications: Classification, market review, metrics, and methodology for evaluation of deployment cases",
+              "author": "Günter",
+              "doi-asserted-by": "crossref",
+              "first-page": "226",
+              "journal-title": "Journal of Energy Storage",
+              "key": "10.1016/j.enbuild.2021.111109_b0170",
+              "volume": "8",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2018.09.018",
+              "article-title": "Seasonal variation in household electricity demand: A comparison of monitored and synthetic daily load profiles",
+              "author": "Li",
+              "doi-asserted-by": "crossref",
+              "first-page": "292",
+              "journal-title": "Energy and Buildings",
+              "key": "10.1016/j.enbuild.2021.111109_b0175",
+              "volume": "179",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2018.11.002",
+              "article-title": "Detailed comparison of energy-related time-use diaries and monitored residential electricity demand",
+              "author": "Suomalainen",
+              "doi-asserted-by": "crossref",
+              "first-page": "418",
+              "journal-title": "Energy and Buildings",
+              "key": "10.1016/j.enbuild.2021.111109_b0180",
+              "volume": "183",
+              "year": "2019"
+            },
+            {
+              "author": "Bayliss",
+              "key": "10.1016/j.enbuild.2021.111109_b0185",
+              "series-title": "Transmission and Distribution Electrical Engineering",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1016/j.energy.2020.117898",
+              "article-title": "Combining wind, solar, and in-stream tidal electricity generation with energy storage using a load-perturbation control strategy",
+              "author": "Pearre",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enbuild.2021.111109_b0190",
+              "volume": "203",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.energy.2020.117917",
+              "article-title": "Reimagining renewable electricity grid management with dispatchable generation to stabilize energy storage",
+              "author": "Pearre",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Energy",
+              "key": "10.1016/j.enbuild.2021.111109_b0195",
+              "volume": "203",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2019.03.111",
+              "article-title": "A motivational game-theoretic approach for peer-to-peer energy trading in the smart grid",
+              "author": "Tushar",
+              "doi-asserted-by": "crossref",
+              "first-page": "10",
+              "journal-title": "Applied Energy",
+              "key": "10.1016/j.enbuild.2021.111109_b0200",
+              "volume": "243",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2018.03.010",
+              "article-title": "Peer-to-Peer energy trading in a Microgrid",
+              "author": "Zhang",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "journal-title": "Applied Energy",
+              "key": "10.1016/j.enbuild.2021.111109_b0205",
+              "volume": "220",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2018.08.004",
+              "article-title": "Local electricity market designs for peer-to-peer trading: The role of battery flexibility",
+              "author": "Lüth",
+              "doi-asserted-by": "crossref",
+              "first-page": "1233",
+              "journal-title": "Applied Energy",
+              "key": "10.1016/j.enbuild.2021.111109_b0210",
+              "volume": "229",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.rser.2020.110248",
+              "article-title": "Neighborhood-level coordination and negotiation techniques for managing demand-side flexibility in residential microgrids",
+              "author": "Hu",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Renewable and Sustainable Energy Reviews",
+              "key": "10.1016/j.enbuild.2021.111109_b0215",
+              "volume": "135",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.rser.2017.10.056",
+              "article-title": "A review on peak load shaving strategies",
+              "author": "Uddin",
+              "doi-asserted-by": "crossref",
+              "first-page": "3323",
+              "journal-title": "Renewable and Sustainable Energy Reviews",
+              "key": "10.1016/j.enbuild.2021.111109_b0220",
+              "volume": "82",
+              "year": "2018"
+            },
+            {
+              "author": "Anderson",
+              "key": "10.1016/j.enbuild.2021.111109_b0225",
+              "series-title": "New Zealand GREEN Grid household electricity demand study 2014–2018. [Data Collection]",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.rser.2017.07.010",
+              "article-title": "Smart grid research in New Zealand–a review from the GREEN Grid research programme",
+              "author": "Stephenson",
+              "doi-asserted-by": "crossref",
+              "first-page": "1636",
+              "journal-title": "Renewable and Sustainable Energy Reviews",
+              "key": "10.1016/j.enbuild.2021.111109_b0230",
+              "volume": "82",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2017.11.044",
+              "article-title": "A minimal simulation of the electricity demand of a domestic hot water cylinder for smart control",
+              "author": "Jack",
+              "doi-asserted-by": "crossref",
+              "first-page": "104",
+              "journal-title": "Applied Energy",
+              "key": "10.1016/j.enbuild.2021.111109_b0235",
+              "volume": "211",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.enbuild.2021.111109_b0240",
+              "unstructured": "L. Mackintosh, Overview of New Zealand’s climate, URL:https://niwa.co.nz/education-and-training/schools/resources/climate/overview (2021)."
+            },
+            {
+              "key": "10.1016/j.enbuild.2021.111109_b0245",
+              "unstructured": "B. Anderson, NZ GREEN Grid household electricity demand data: EECA data analysis (part c) upscaling advice report v1.0, URL:https://ourarchive.otago.ac.nz/handle/10523/9820 (2019)."
+            },
+            {
+              "key": "10.1016/j.enbuild.2021.111109_b0250",
+              "unstructured": "C. Dortans, B. Anderson, M. Jack, NZ GREEN Grid household electricity demand data: EECA data analysis (part b) report v2.1, URL:https://ourarchive.otago.ac.nz/handle/10523/9821 (2019)."
+            },
+            {
+              "key": "10.1016/j.enbuild.2021.111109_b0255",
+              "unstructured": "Aurora, Aurora network pricing methodology, URL:https://www.auroraenergy.co.nz/assets/publication-articles/20200331-Pricing-Methodology.pdf (2019)."
+            },
+            {
+              "key": "10.1016/j.enbuild.2021.111109_b0260",
+              "unstructured": "LAZARD, Levelized cost of storage analysis – version 5.0, URL:https://www.lazard.com/media/451087/lazards-levelized-cost-of-storage-version-50-vf.pdf (2019)."
+            },
+            {
+              "author": "Association",
+              "key": "10.1016/j.enbuild.2021.111109_b0265",
+              "series-title": "A guidance paper for electricity distributors on new pricing options",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.3390/en14040808",
+              "article-title": "Demand response as a real-time, physical hedge for retail electricity providers: The electric reliability council of Texas market case study",
+              "author": "Blohm",
+              "doi-asserted-by": "crossref",
+              "first-page": "808",
+              "journal-title": "Energies",
+              "key": "10.1016/j.enbuild.2021.111109_b0270",
+              "volume": "14",
+              "year": "2021"
+            }
+          ],
+          "reference-count": 54,
+          "references-count": 54,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0378778821003935"
+            }
+          },
+          "score": 52.063877,
+          "short-container-title": [
+            "Energy and Buildings"
+          ],
+          "source": "Crossref",
+          "special_numbering": "C",
+          "title": [
+            "Sizing domestic batteries for load smoothing and peak shaving based on real-world demand data"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "volume": "247"
+        }
+      ],
+      "items-per-page": 10,
+      "query": {
+        "search-terms": null,
+        "start-index": 0
+      },
+      "total-results": 65
+    },
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "status": "ok"
+  },
+  "retrieved_at_utc": "2026-08-31T14:29:42Z",
+  "retry_count": 0
+}

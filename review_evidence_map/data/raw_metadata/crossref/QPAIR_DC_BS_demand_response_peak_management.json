@@ -1,0 +1,3161 @@
+{
+  "http_status": 200,
+  "request_url_redacted": "https://api.crossref.org/works?query.bibliographic=%28%22data+centre%22+OR+%22data+center%22+OR+%22AI+data+centre%22+OR+%22AI+data+center%22+OR+%22cloud+computing+facility%22+OR+%22high+performance+computing%22+OR+%22edge+data+centre%22+OR+%22edge+data+center%22%29+AND+%28%22base+station%22+OR+%22radio+access+network%22+OR+RAN+OR+%22telecom+tower%22+OR+%22cellular+network%22+OR+5G+OR+%225G-Advanced%22+OR+B5G+OR+%22IMT-2030%22+OR+6G%29+AND+%28%22demand+response%22+OR+%22peak+management%22+OR+%22peak+shaving%22+OR+%22load+shifting%22+OR+flexibility%29+AND+%28coordination+OR+%22coordinated+control%22+OR+%22co-optimization%22+OR+aggregation+OR+%22multi-asset%22+OR+%22integrated+energy+management%22+OR+%22distributed+control%22+OR+%22model+predictive+control%22+OR+MPC+OR+%22measurement+and+verification%22%29&filter=from-pub-date%3A2015-01-01%2Cuntil-pub-date%3A2026-08-31&rows=10&sort=relevance&order=desc",
+  "response": {
+    "message": {
+      "facets": {},
+      "items": [
+        {
+          "DOI": "10.1109/imcec.2016.7867538",
+          "URL": "https://doi.org/10.1109/imcec.2016.7867538",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Yu",
+              "given": "Yale",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Cheng",
+              "given": "Guojian",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Qiang",
+              "given": "Xinjian",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2016 IEEE Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                2
+              ]
+            ],
+            "date-time": "2017-03-02T21:40:47Z",
+            "timestamp": 1488490847000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                1,
+                15
+              ]
+            ],
+            "date-time": "2020-01-15T09:18:15Z",
+            "timestamp": 1579079895000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2016,
+                  10,
+                  5
+                ]
+              ]
+            },
+            "location": "Xi'an",
+            "name": "2016 IEEE Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC)",
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  10,
+                  3
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                30
+              ]
+            ],
+            "date-time": "2024-10-30T05:34:46Z",
+            "timestamp": 1730266486634,
+            "version": "3.28.0"
+          },
+          "is-referenced-by-count": 1,
+          "issued": {
+            "date-parts": [
+              [
+                2016,
+                10
+              ]
+            ]
+          },
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/7861599/7867100/07867538.pdf?arnumber=7867538",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "1848-1855",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2016,
+                10
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                10
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "article-title": "User Survey Analysis: Enterprise Applications versus the Cloud",
+              "author": "findeldey",
+              "journal-title": "Gartner Research Gartner Inc",
+              "key": "ref10",
+              "year": "2010"
+            },
+            {
+              "article-title": "Comparing two Business Model Ontologies for Designing e-Business Models and Value Constellations",
+              "author": "jaap",
+              "journal-title": "18th Bled e Conference elntegration in Action Bled Slovenia",
+              "key": "ref11",
+              "year": "2005"
+            },
+            {
+              "article-title": "Harvard Business Review on Business Model Innovation",
+              "journal-title": "Harvard Business Review",
+              "key": "ref12",
+              "year": "2010"
+            },
+            {
+              "article-title": "The Role of Business Model Innovation in the Emergence of Markets: A Missing Dimension of Entrepreneurial Strategy? Journal of Strategic Innovation and Sustainability",
+              "author": "holloway",
+              "key": "ref13",
+              "volume": "6",
+              "year": "2010"
+            },
+            {
+              "article-title": "HP",
+              "journal-title": "HP Cloud Functional Reference Architecture and Product Mapping",
+              "key": "ref14",
+              "year": "2010"
+            },
+            {
+              "article-title": "Reinventing your Business Model",
+              "author": "johnson",
+              "journal-title": "Harvard Business Review",
+              "key": "ref15",
+              "year": "2008"
+            },
+            {
+              "article-title": "Seizing the White Space-Business Model Innovation for Growth and Renewal",
+              "author": "johnson mark",
+              "journal-title": "Harvard Business Press",
+              "key": "ref16",
+              "year": "2010"
+            },
+            {
+              "article-title": "Business Models for Sustainable Telecoms Growth in Developing Economies",
+              "author": "sanjay",
+              "journal-title": "John Wiley and Sons Ltd",
+              "key": "ref17",
+              "year": "2008"
+            },
+            {
+              "article-title": "Eight Critical Forces That Impact Your Data Center Strategy",
+              "author": "rakesh",
+              "journal-title": "Gartner Inc",
+              "key": "ref18",
+              "year": "2010"
+            },
+            {
+              "article-title": "Business Model Innovation: When the Game Gets Tough",
+              "author": "linddgardt",
+              "journal-title": "Change the Game The Boston Consulting Group",
+              "key": "ref19",
+              "year": "2009"
+            },
+            {
+              "article-title": "Building Next Generation Data Centre: Theory and Practices",
+              "author": "wei xiong",
+              "journal-title": "Posts & Telecom Press",
+              "key": "ref28",
+              "year": "2009"
+            },
+            {
+              "author": "harry",
+              "journal-title": "Mobile service innovation and business models",
+              "key": "ref4",
+              "year": "2008"
+            },
+            {
+              "article-title": "Telecom Transformation: Theories, Frameworks and Best Practices",
+              "author": "yuanhua",
+              "journal-title": "TMF Management World Conference Singapore",
+              "key": "ref27",
+              "year": "2010"
+            },
+            {
+              "article-title": "E-Commerce and V-Business: Digital Enterprise in the Twenty-First Century",
+              "author": "stuart",
+              "first-page": "181",
+              "journal-title": "Publisher Butterworth-Heinemann Ltd",
+              "key": "ref3",
+              "year": "2007"
+            },
+            {
+              "article-title": "Cloud Computing Services: A Model for Categorizing and Characterizing Capabilities Delivered from the Cloud, Gartner Research",
+              "author": "cearley",
+              "journal-title": "Gartner Inc",
+              "key": "ref6",
+              "year": "2009"
+            },
+            {
+              "article-title": "E-Business Strategies for Virtual Organizations",
+              "author": "janice",
+              "first-page": "17",
+              "journal-title": "Publisher Butterworth-Heinemann Ltd",
+              "key": "ref5",
+              "year": "2002"
+            },
+            {
+              "DOI": "10.1201/9781439834541",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "article-title": "Cloud Computing-Technologies and Strategies of the Ubiquitous Data Centre. CRC Press",
+              "author": "chee brian",
+              "journal-title": "Taylor & Francis Group NW",
+              "key": "ref7",
+              "year": "2010"
+            },
+            {
+              "article-title": "Management Strategies for the Cloud Revolution-How Cloud Computing Is Transforming Business and Why You Can't Afford to Be Left Behind",
+              "author": "charles",
+              "key": "ref2",
+              "year": "2010"
+            },
+            {
+              "article-title": "Business Service Management: Understanding Business Models",
+              "author": "erwin",
+              "journal-title": "Smart Services CRC Pty Ltd",
+              "key": "ref9",
+              "year": "2011"
+            },
+            {
+              "article-title": "Adams, April & Mishra, Naveen",
+              "journal-title": "User Survey Analysis Key Trends Shaping the Future of Data Centre Infrastructure through 2011 Gartner Research Gartner Inc",
+              "key": "ref1",
+              "year": "2010"
+            },
+            {
+              "article-title": "Q&A: Key Considerations Driving Data Centre Transformation in Australia in 2010 and 2011",
+              "author": "naveen",
+              "journal-title": "Part 1& 2 Gartner Research",
+              "key": "ref20",
+              "year": "2010"
+            },
+            {
+              "article-title": "Clarifying Business Models: Origins, present, and future of the concept",
+              "author": "osterwalder",
+              "journal-title": "Communications of the AIS",
+              "key": "ref22",
+              "volume": "16",
+              "year": "2005"
+            },
+            {
+              "DOI": "10.1016/j.jbusres.2003.11.001",
+              "doi-asserted-by": "publisher",
+              "key": "ref21"
+            },
+            {
+              "article-title": "Business Model Change Due to ICT Integration: An Application to the Entertainment Industry",
+              "author": "sakellaridis",
+              "journal-title": "Int Journal of Computer Information Systems and Industrial Management Applications",
+              "key": "ref24",
+              "volume": "3",
+              "year": "2011"
+            },
+            {
+              "article-title": "Business Model Generation: A Handbook for Visionaries",
+              "author": "osterwalder",
+              "journal-title": "Game Changers and Challengers Self-Publishing online",
+              "key": "ref23",
+              "year": "2010"
+            },
+            {
+              "article-title": "User Survey Analysis: Results Give Clues to Unlocking Server Green IT Potential in 2010",
+              "author": "kiyomi",
+              "journal-title": "Gartner Research",
+              "key": "ref26",
+              "year": "2010"
+            },
+            {
+              "author": "weill",
+              "journal-title": "Place to Space Migrating to eBusiness Models",
+              "key": "ref25",
+              "year": "2001"
+            }
+          ],
+          "reference-count": 28,
+          "references-count": 28,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/7867538/"
+            }
+          },
+          "score": 110.71309,
+          "source": "Crossref",
+          "title": [
+            "Data centre transformation: Integrated business model framework of cloud computing oriented data centre"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.1109/cloud.2016.0020",
+          "URL": "https://doi.org/10.1109/cloud.2016.0020",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Chen",
+              "given": "Shuang",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Pedram",
+              "given": "Massoud",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2016 IEEE 9th International Conference on Cloud Computing (CLOUD)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                1,
+                20
+              ]
+            ],
+            "date-time": "2017-01-20T02:21:01Z",
+            "timestamp": 1484878861000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2019,
+                9,
+                17
+              ]
+            ],
+            "date-time": "2019-09-17T19:43:51Z",
+            "timestamp": 1568749431000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2016,
+                  7,
+                  2
+                ]
+              ]
+            },
+            "location": "San Francisco, CA, USA",
+            "name": "2016 IEEE 9th International Conference on Cloud Computing (CLOUD)",
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  6,
+                  27
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                23
+              ]
+            ],
+            "date-time": "2024-10-23T02:27:41Z",
+            "timestamp": 1729650461887,
+            "version": "3.28.0"
+          },
+          "is-referenced-by-count": 2,
+          "issued": {
+            "date-parts": [
+              [
+                2016,
+                6
+              ]
+            ]
+          },
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/7819578/7820017/07820257.pdf?arnumber=7820257",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "77-83",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2016,
+                6
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                6
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "DOI": "10.1109/MASCOTS.2013.32",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "DOI": "10.1109/CLOUD.2015.31",
+              "doi-asserted-by": "publisher",
+              "key": "ref11"
+            },
+            {
+              "article-title": "Google cluster-usage traces: format+ schema",
+              "author": "reiss",
+              "journal-title": "Google Inc",
+              "key": "ref12",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1145/2391229.2391236",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "article-title": "Handbook of batteries",
+              "author": "linden",
+              "key": "ref14",
+              "year": "0"
+            },
+            {
+              "DOI": "10.1109/CLOUD.2015.111",
+              "doi-asserted-by": "publisher",
+              "key": "ref15"
+            },
+            {
+              "DOI": "10.1109/ICDCSW.2011.52",
+              "doi-asserted-by": "publisher",
+              "key": "ref16"
+            },
+            {
+              "article-title": "Windsun: Deep cycle battery faq",
+              "key": "ref17",
+              "year": "2009"
+            },
+            {
+              "article-title": "Report to congress on server and data center energy efficiency: Public law 109&#x2013;431",
+              "author": "brown",
+              "journal-title": "Lawrence Berkeley National Laboratory",
+              "key": "ref18",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1109/BigData.Congress.2014.108",
+              "doi-asserted-by": "publisher",
+              "key": "ref19"
+            },
+            {
+              "article-title": "Power budgeting for virtualized data centers",
+              "author": "lim",
+              "first-page": "59",
+              "journal-title": "2011 USENIX Annual Technical Conference (USENIX ATC11)",
+              "key": "ref4",
+              "year": "2011"
+            },
+            {
+              "article-title": "Data center TCO; a comparison of high-density and low-density spaces",
+              "author": "patterson",
+              "journal-title": "Thermal Challenges in Next Generation Electronic Systems",
+              "key": "ref3",
+              "year": "2007"
+            },
+            {
+              "DOI": "10.1145/1353534.1346289",
+              "article-title": "No power struggles: Coordinated multi-level power management for the data center",
+              "author": "raghavendra",
+              "doi-asserted-by": "crossref",
+              "first-page": "48",
+              "journal-title": "SIGArch Computer Architecture News",
+              "key": "ref6",
+              "volume": "36",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1145/1323293.1294287",
+              "doi-asserted-by": "publisher",
+              "key": "ref5"
+            },
+            {
+              "DOI": "10.1109/ISCA.2012.6237042",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "article-title": "Uninterruptible power supply",
+              "author": "jungreis",
+              "key": "ref7",
+              "year": "2001"
+            },
+            {
+              "DOI": "10.2200/S00516ED2V01Y201306CAC024",
+              "doi-asserted-by": "publisher",
+              "key": "ref2"
+            },
+            {
+              "DOI": "10.1016/j.future.2008.12.001",
+              "doi-asserted-by": "publisher",
+              "key": "ref1"
+            },
+            {
+              "DOI": "10.1145/2318857.2254780",
+              "article-title": "Energy storage in datacenters: what, where, and how much?",
+              "author": "wang",
+              "doi-asserted-by": "crossref",
+              "first-page": "187",
+              "journal-title": "ACM Sigmetrics Performance Evaluation Review",
+              "key": "ref9",
+              "volume": "40",
+              "year": "2012"
+            },
+            {
+              "article-title": "CVX: Matlab software for disciplined convex programming",
+              "author": "grant",
+              "key": "ref20",
+              "year": "2008"
+            },
+            {
+              "author": "martello",
+              "journal-title": "Knapsack Problems Algorithms and Computer Implementations",
+              "key": "ref21",
+              "year": "1990"
+            }
+          ],
+          "reference-count": 21,
+          "references-count": 21,
+          "resource": {
+            "primary": {
+              "URL": "http://ieeexplore.ieee.org/document/7820257/"
+            }
+          },
+          "score": 103.91372,
+          "source": "Crossref",
+          "title": [
+            "Efficient Peak Shaving in a Data Center by Joint Optimization of Task Assignment and Energy Storage Management"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.1007/978-3-031-18034-7_11",
+          "ISBN": [
+            "9783031180330",
+            "9783031180347"
+          ],
+          "URL": "https://doi.org/10.1007/978-3-031-18034-7_11",
+          "assertion": [
+            {
+              "group": {
+                "label": "Chapter History",
+                "name": "ChapterHistory"
+              },
+              "label": "First Online",
+              "name": "first_online",
+              "order": 1,
+              "value": "22 September 2022"
+            }
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Thakkar",
+              "given": "Hiren Kumar",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "container-title": [
+            "Predictive Analytics in Cloud, Fog, and Edge Computing"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": [
+              "link.springer.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                12,
+                16
+              ]
+            ],
+            "date-time": "2022-12-16T07:03:23Z",
+            "timestamp": 1671174203000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                3,
+                18
+              ]
+            ],
+            "date-time": "2023-03-18T05:21:42Z",
+            "timestamp": 1679116902000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                3,
+                26
+              ]
+            ],
+            "date-time": "2025-03-26T00:10:56Z",
+            "timestamp": 1742947856589,
+            "version": "3.40.3"
+          },
+          "is-referenced-by-count": 1,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9783031180330"
+            },
+            {
+              "type": "electronic",
+              "value": "9783031180347"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                22
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    9,
+                    22
+                  ]
+                ],
+                "date-time": "2022-09-22T00:00:00Z",
+                "timestamp": 1663804800000
+              }
+            },
+            {
+              "URL": "https://www.springernature.com/gp/researchers/text-and-data-mining",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    9,
+                    22
+                  ]
+                ],
+                "date-time": "2022-09-22T00:00:00Z",
+                "timestamp": 1663804800000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-3-031-18034-7_11",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "297",
+          "page": "185-197",
+          "prefix": "10.1007",
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                22
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2022,
+                9,
+                22
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "publisher": "Springer International Publishing",
+          "publisher-location": "Cham",
+          "reference": [
+            {
+              "DOI": "10.1109/MIC.2012.50",
+              "author": "S Madden",
+              "doi-asserted-by": "publisher",
+              "first-page": "4",
+              "issue": "3",
+              "journal-title": "IEEE Internet Comput",
+              "key": "11_CR1",
+              "unstructured": "Madden S (2012) From databases to big data. IEEE Internet Comput 16(3):4–6",
+              "volume": "16",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1016/j.ipm.2020.102474",
+              "author": "HK Thakkar",
+              "doi-asserted-by": "publisher",
+              "first-page": "102474",
+              "issue": "3",
+              "journal-title": "Inform Process Manage",
+              "key": "11_CR2",
+              "unstructured": "Thakkar HK, Sahoo PK, Mohanty P (2021) Dofm: domain feature miner for robust extractive summarization. Inform Process Manage 58(3):102474",
+              "volume": "58",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1145/2436256.2436274",
+              "author": "R Feldman",
+              "doi-asserted-by": "publisher",
+              "first-page": "82",
+              "issue": "4",
+              "journal-title": "Commun ACM",
+              "key": "11_CR3",
+              "unstructured": "Feldman R (2013) Techniques and applications for sentiment analysis. Commun ACM 56(4):82–89",
+              "volume": "56",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1016/B978-0-323-85117-6.00005-4",
+              "author": "HK Thakkar",
+              "doi-asserted-by": "publisher",
+              "first-page": "21",
+              "key": "11_CR4",
+              "unstructured": "Thakkar HK, Shukla H, Sahoo PK (2022) Metaheuristics in classification, clustering, and frequent pattern mining. In: Cognitive big data intelligence with a metaheuristic approach. Elsevier, Amsterdam, pp 21–70",
+              "volume-title": "Cognitive big data intelligence with a metaheuristic approach",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/TKDE.2019.2942594",
+              "author": "W Gan",
+              "doi-asserted-by": "publisher",
+              "first-page": "1306",
+              "issue": "4",
+              "journal-title": "IEEE Trans Knowl Data Eng",
+              "key": "11_CR5",
+              "unstructured": "Gan W, Lin JC-W, Fournier-Viger P, Chao H-C, Tseng VS, Philip SY (2019) A survey of utility-oriented pattern mining. IEEE Trans Knowl Data Eng 33(4):1306–1327",
+              "volume": "33",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1145/1327452.1327492",
+              "author": "J Dean",
+              "doi-asserted-by": "publisher",
+              "first-page": "107",
+              "issue": "1",
+              "journal-title": "Commun ACM",
+              "key": "11_CR6",
+              "unstructured": "Dean J, Ghemawat S (2008) Mapreduce: simplified data processing on large clusters. Commun ACM 51(1):107–113",
+              "volume": "51",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1109/TPDS.2021.3080582",
+              "author": "HK Thakkar",
+              "doi-asserted-by": "publisher",
+              "first-page": "2906",
+              "issue": "12",
+              "journal-title": "IEEE Trans Parallel Distrib Syst",
+              "key": "11_CR7",
+              "unstructured": "Thakkar HK, Sahoo PK, Veeravalli B (2021) Renda: resource and network aware data placement algorithm for periodic workloads in cloud. IEEE Trans Parallel Distrib Syst 32(12):2906–2920",
+              "volume": "32",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.jss.2016.11.037",
+              "author": "I Mavridis",
+              "doi-asserted-by": "publisher",
+              "first-page": "133",
+              "journal-title": "J Syst Softw",
+              "key": "11_CR8",
+              "unstructured": "Mavridis I, Karatza H (2017) Performance evaluation of cloud-based log file analysis with apache hadoop and apache spark. J Syst Softw 125:133–151",
+              "volume": "125",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1145/2523616.2523633",
+              "doi-asserted-by": "crossref",
+              "key": "11_CR9",
+              "unstructured": "Vavilapalli VK, Murthy AC, Douglas C, Agarwal S, Konar M, Evans R, Graves T, Lowe J, Shah H, Seth S et al. (2013) Apache hadoop yarn: yet another resource negotiator. In: Proceedings of the 4th annual symposium on cloud computing, pp 1–16"
+            },
+            {
+              "DOI": "10.1109/JSAC.2020.2986663",
+              "author": "HK Thakkar",
+              "doi-asserted-by": "publisher",
+              "first-page": "1058",
+              "issue": "6",
+              "journal-title": "IEEE J Sel Areas Commun",
+              "key": "11_CR10",
+              "unstructured": "Thakkar HK, Dehury CK, Sahoo PK (2020) Muvine: multi-stage virtual network embedding in cloud data centers using reinforcement learning-based predictions. IEEE J Sel Areas Commun 38(6):1058–1074",
+              "volume": "38",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/ICDCS.2012.48",
+              "author": "H Jin",
+              "doi-asserted-by": "publisher",
+              "first-page": "516",
+              "key": "11_CR11",
+              "unstructured": "Jin H, Yang X, Sun X-H, Raicu I (2012) Adapt: availability-aware mapreduce data placement for non-dedicated distributed computing. In 2012 IEEE 32nd international conference on distributed computing systems. IEEE, Piscataway, pp 516–525",
+              "volume-title": "2012 IEEE 32nd international conference on distributed computing systems",
+              "year": "2012"
+            },
+            {
+              "author": "J Xie",
+              "first-page": "1",
+              "key": "11_CR12",
+              "unstructured": "Xie J, Yin S, Ruan X, Ding Z, Tian Y, Majors J, Manzanares A, Qin X (2010) Improving mapreduce performance through data placement in heterogeneous hadoop clusters. In: 2010 IEEE international symposium on parallel & distributed processing, workshops and PhD forum (IPDPSW). IEEE, Piscataway, pp 1–9",
+              "volume-title": "2010 IEEE international symposium on parallel & distributed processing, workshops and PhD forum (IPDPSW)",
+              "year": "2010"
+            },
+            {
+              "DOI": "10.1007/978-3-642-36071-8_8",
+              "author": "RM Arasanal",
+              "doi-asserted-by": "publisher",
+              "first-page": "115",
+              "key": "11_CR13",
+              "unstructured": "Arasanal RM, Rumani DU (2013) Improving mapreduce performance through complexity and performance based data placement in heterogeneous hadoop clusters. In: International conference on distributed computing and internet technology. Springer, Berlin, pp 115–125",
+              "volume-title": "International conference on distributed computing and internet technology",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1007/978-1-4939-1905-5_7",
+              "author": "J Wang",
+              "doi-asserted-by": "crossref",
+              "first-page": "149",
+              "key": "11_CR14",
+              "unstructured": "Wang J, Shang P, Yin J (2014) Draw: a new data-grouping-aware data placement scheme for data intensive applications with interest locality. In: Cloud computing for data-intensive applications. Springer, Berlin, pp 149–174",
+              "volume-title": "Cloud computing for data-intensive applications",
+              "year": "2014"
+            }
+          ],
+          "reference-count": 14,
+          "references-count": 14,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/978-3-031-18034-7_11"
+            }
+          },
+          "score": 99.99711,
+          "source": "Crossref",
+          "title": [
+            "A Workload-Aware Data Placement Scheme for Hadoop-Enabled MapReduce Cloud Data Center"
+          ],
+          "type": "book-chapter",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy"
+        },
+        {
+          "DOI": "10.33545/27076571.2020.v1.i2b.360",
+          "ISSN": [
+            "2707-6571",
+            "2707-658X"
+          ],
+          "URL": "https://doi.org/10.33545/27076571.2020.v1.i2b.360",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Asogwa",
+              "given": "Joshua",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "container-title": [
+            "International Journal of Computing and Artificial Intelligence"
+          ],
+          "content-domain": {
+            "crossmark-restriction": true,
+            "domain": [
+              "www.computersciencejournals.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T13:36:27Z",
+            "timestamp": 1785418587000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T13:38:00Z",
+            "timestamp": 1785418680000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ],
+            "date-time": "2026-07-30T14:10:00Z",
+            "timestamp": 1785420600863,
+            "version": "3.56.0"
+          },
+          "is-referenced-by-count": 0,
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "2707-6571"
+            },
+            {
+              "type": "electronic",
+              "value": "2707-658X"
+            }
+          ],
+          "issue": "2",
+          "issued": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                1
+              ]
+            ]
+          },
+          "journal-issue": {
+            "issue": "2",
+            "published-online": {
+              "date-parts": [
+                [
+                  2020,
+                  7,
+                  1
+                ]
+              ]
+            },
+            "published-print": {
+              "date-parts": [
+                [
+                  2020,
+                  7,
+                  1
+                ]
+              ]
+            }
+          },
+          "member": "19162",
+          "page": "79-92",
+          "prefix": "10.33545",
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                1
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                1
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                1
+              ]
+            ]
+          },
+          "publisher": "Comprehensive Publications",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.computersciencejournals.com/ijcai/archives/2020.v1.i2.B.360"
+            }
+          },
+          "score": 99.85008,
+          "short-container-title": [
+            "Int. J. Comput. Artif. Intell."
+          ],
+          "source": "Crossref",
+          "title": [
+            "Integrating qualcomm cloud AI 100 accelerators into 5G telecom data centers for edge AI inference and network optimization"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.33545/akinik.crossmark.policy",
+          "volume": "1"
+        },
+        {
+          "DOI": "10.1109/tcc.2017.2744623",
+          "ISSN": [
+            "2168-7161",
+            "2372-0018"
+          ],
+          "URL": "https://doi.org/10.1109/tcc.2017.2744623",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-3253-9321",
+              "affiliation": [],
+              "authenticated-orcid": false,
+              "family": "Dabbagh",
+              "given": "Mehiar",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-6085-4505",
+              "affiliation": [],
+              "authenticated-orcid": false,
+              "family": "Hamdaoui",
+              "given": "Bechir",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Rayes",
+              "given": "Ammar",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8972-8094",
+              "affiliation": [],
+              "authenticated-orcid": false,
+              "family": "Guizani",
+              "given": "Mohsen",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "IEEE Transactions on Cloud Computing"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                8,
+                25
+              ]
+            ],
+            "date-time": "2017-08-25T18:33:45Z",
+            "timestamp": 1503686025000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                7,
+                13
+              ]
+            ],
+            "date-time": "2022-07-13T21:08:00Z",
+            "timestamp": 1657746480000
+          },
+          "funder": [
+            {
+              "DOI": "10.13039/100004351",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "asserted-by": "publisher",
+                  "id": "10.13039/100004351",
+                  "id-type": "DOI"
+                }
+              ],
+              "name": "Cisco Systems"
+            },
+            {
+              "award": [
+                "CNS-0846044"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "CNS-0846044"
+                  ]
+                }
+              ],
+              "name": "NSF CAREER"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                23
+              ]
+            ],
+            "date-time": "2026-07-23T17:47:02Z",
+            "timestamp": 1784828822486,
+            "version": "3.55.0"
+          },
+          "is-referenced-by-count": 47,
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "2168-7161"
+            },
+            {
+              "type": "electronic",
+              "value": "2372-0018"
+            }
+          ],
+          "issue": "4",
+          "issued": {
+            "date-parts": [
+              [
+                2019,
+                10,
+                1
+              ]
+            ]
+          },
+          "journal-issue": {
+            "issue": "4"
+          },
+          "license": [
+            {
+              "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    10,
+                    1
+                  ]
+                ],
+                "date-time": "2019-10-01T00:00:00Z",
+                "timestamp": 1569888000000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    10,
+                    1
+                  ]
+                ],
+                "date-time": "2019-10-01T00:00:00Z",
+                "timestamp": 1569888000000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    10,
+                    1
+                  ]
+                ],
+                "date-time": "2019-10-01T00:00:00Z",
+                "timestamp": 1569888000000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/6245519/8922835/08016616.pdf?arnumber=8016616",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "1095-1108",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                10,
+                1
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2019,
+                10,
+                1
+              ]
+            ]
+          },
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "reference": [
+            {
+              "DOI": "10.1109/HPCA.2014.6835924",
+              "doi-asserted-by": "publisher",
+              "key": "ref33"
+            },
+            {
+              "DOI": "10.1109/UCC.2013.52",
+              "doi-asserted-by": "publisher",
+              "key": "ref32"
+            },
+            {
+              "DOI": "10.1016/j.peva.2013.08.014",
+              "doi-asserted-by": "publisher",
+              "key": "ref31"
+            },
+            {
+              "DOI": "10.1145/2427631.2427633",
+              "doi-asserted-by": "publisher",
+              "key": "ref30"
+            },
+            {
+              "DOI": "10.1109/HPCA.2016.7446085",
+              "doi-asserted-by": "publisher",
+              "key": "ref34"
+            },
+            {
+              "DOI": "10.1109/ICC.2012.6364475",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "DOI": "10.1145/2318857.2254780",
+              "doi-asserted-by": "publisher",
+              "key": "ref11"
+            },
+            {
+              "DOI": "10.1145/1993744.1993766",
+              "doi-asserted-by": "publisher",
+              "key": "ref12"
+            },
+            {
+              "DOI": "10.1017/CBO9780511804441",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "article-title": "CVX: Matlab software for disciplined convex programming, version 2.0 beta",
+              "key": "ref14",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1145/2541940.2541966",
+              "doi-asserted-by": "publisher",
+              "key": "ref15"
+            },
+            {
+              "DOI": "10.1016/j.suscom.2011.05.001",
+              "doi-asserted-by": "publisher",
+              "key": "ref16"
+            },
+            {
+              "DOI": "10.1109/PATMOS.2013.6662185",
+              "doi-asserted-by": "publisher",
+              "key": "ref17"
+            },
+            {
+              "article-title": "Peak shaving through resource buffering",
+              "author": "bar-noy",
+              "first-page": "147",
+              "journal-title": "Proc 3rd Int Workshop Approximation Online Algorithms",
+              "key": "ref18",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1109/TC.2016.2543219",
+              "doi-asserted-by": "publisher",
+              "key": "ref19"
+            },
+            {
+              "DOI": "10.1109/ICDCS.2013.16",
+              "doi-asserted-by": "publisher",
+              "key": "ref28"
+            },
+            {
+              "article-title": "Google cluster-usage traces: Format+ schema",
+              "author": "reiss",
+              "first-page": "1",
+              "key": "ref4",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1016/j.peva.2015.06.014",
+              "doi-asserted-by": "publisher",
+              "key": "ref27"
+            },
+            {
+              "article-title": "A case for virtualizing the electric utility in cloud data centers",
+              "author": "wang",
+              "journal-title": "Proc USENIX Conf Hot Topics Cloud Comput",
+              "key": "ref3",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/ICCW.2015.7247442",
+              "doi-asserted-by": "publisher",
+              "key": "ref6"
+            },
+            {
+              "article-title": "Optimizing the use of request distribution and stored energy for cost reduction in multi-site internet services",
+              "author": "etinski",
+              "first-page": "1",
+              "journal-title": "Proc Sustainable Internet Int Conf Telecommun Sustainability",
+              "key": "ref29",
+              "year": "2012"
+            },
+            {
+              "article-title": "Exploiting task elasticity and price heterogeneity for maximizing cloud computing profits",
+              "author": "dabbagh",
+              "first-page": "1",
+              "journal-title": "IEEE Trans Emerg Topics Comput",
+              "key": "ref5",
+              "volume": "pp",
+              "year": "2015"
+            },
+            {
+              "article-title": "An energy-efficient VM prediction and migration framework for overcommitted clouds",
+              "author": "dabbagh",
+              "first-page": "1",
+              "journal-title": "IEEE Trans Cloud Comput",
+              "key": "ref8",
+              "volume": "pp",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/MNET.2015.7064904",
+              "doi-asserted-by": "publisher",
+              "key": "ref7"
+            },
+            {
+              "DOI": "10.2200/S00516ED2V01Y201306CAC024",
+              "doi-asserted-by": "publisher",
+              "key": "ref2"
+            },
+            {
+              "DOI": "10.1109/TNSM.2015.2436408",
+              "doi-asserted-by": "publisher",
+              "key": "ref9"
+            },
+            {
+              "article-title": "Growth in data center electricity use 2005 to 2010",
+              "author": "koomey",
+              "key": "ref1",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1109/TSG.2012.2232943",
+              "article-title": "Optimal control of end-user energy storage",
+              "author": "hegde",
+              "doi-asserted-by": "crossref",
+              "first-page": "789",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "ref20",
+              "volume": "4",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1109/IGCC.2013.6604477",
+              "doi-asserted-by": "publisher",
+              "key": "ref22"
+            },
+            {
+              "DOI": "10.1109/ISCA.2012.6237042",
+              "doi-asserted-by": "publisher",
+              "key": "ref21"
+            },
+            {
+              "DOI": "10.1109/PCT.2007.4538388",
+              "doi-asserted-by": "publisher",
+              "key": "ref24"
+            },
+            {
+              "DOI": "10.1109/ISCA.2012.6237042",
+              "doi-asserted-by": "publisher",
+              "key": "ref23"
+            },
+            {
+              "DOI": "10.1145/2602044.2602048",
+              "doi-asserted-by": "publisher",
+              "key": "ref26"
+            },
+            {
+              "DOI": "10.1145/2872887.2750384",
+              "doi-asserted-by": "publisher",
+              "key": "ref25"
+            }
+          ],
+          "reference-count": 34,
+          "references-count": 34,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/8016616/"
+            }
+          },
+          "score": 96.097595,
+          "short-container-title": [
+            "IEEE Trans. Cloud Comput."
+          ],
+          "source": "Crossref",
+          "title": [
+            "Shaving Data Center Power Demand Peaks Through Energy Storage and Workload Shifting Control"
+          ],
+          "type": "journal-article",
+          "volume": "7"
+        },
+        {
+          "DOI": "10.1002/9781119763260.ch10",
+          "ISBN": [
+            "9781119763239",
+            "9781119763260"
+          ],
+          "URL": "https://doi.org/10.1002/9781119763260.ch10",
+          "alternative-id": [
+            "10.1002/9781119763260.ch10",
+            "10.1002/9781119763260"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "Understanding Infrastructure Edge Computing"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                9
+              ]
+            ],
+            "date-time": "2021-04-09T21:19:35Z",
+            "timestamp": 1618003175000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2023-09-02T04:42:16Z",
+            "timestamp": 1693629736000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                12
+              ]
+            ],
+            "date-time": "2024-05-12T15:52:43Z",
+            "timestamp": 1715529163056
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781119763239"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119763260"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                9
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    4,
+                    9
+                  ]
+                ],
+                "date-time": "2021-04-09T00:00:00Z",
+                "timestamp": 1617926400000
+              }
+            },
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    4,
+                    9
+                  ]
+                ],
+                "date-time": "2021-04-09T00:00:00Z",
+                "timestamp": 1617926400000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119763260.ch10",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119763260.ch10",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "223-234",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                9
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                9
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                19
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119763260.ch10"
+            }
+          },
+          "score": 95.40118,
+          "source": "Crossref",
+          "title": [
+            "Multi‐tier Device, Data Centre, and Network Resources"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.1002/9781119597537.ch5",
+          "ISBN": [
+            "9781119597506",
+            "9781119597537"
+          ],
+          "URL": "https://doi.org/10.1002/9781119597537.ch5",
+          "alternative-id": [
+            "10.1002/9781119597537.ch5",
+            "10.1002/9781119597537"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Wiersma",
+              "given": "Jan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "container-title": [
+            "Data Center Handbook"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                23
+              ]
+            ],
+            "date-time": "2021-04-23T22:19:27Z",
+            "timestamp": 1619216367000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T09:06:00Z",
+            "timestamp": 1693559160000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                30
+              ]
+            ],
+            "date-time": "2026-04-30T15:36:14Z",
+            "timestamp": 1777563374797,
+            "version": "3.51.4"
+          },
+          "is-referenced-by-count": 3,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781119597506"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119597537"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                20
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    4,
+                    20
+                  ]
+                ],
+                "date-time": "2021-04-20T00:00:00Z",
+                "timestamp": 1618876800000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119597537.ch5",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119597537.ch5",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "77-87",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                20
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                23
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                20
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_1_2_1",
+              "unstructured": "NIST.NIST 800‐145 publication. Available athttps://csrc.nist.gov/publications/detail/sp/800‐145/final. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_3_1",
+              "unstructured": "LF Edge Glossary. Available athttps://github.com/lf‐edge/glossary/blob/master/edge‐glossary.md. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_4_1",
+              "unstructured": "Reactive Manifesto. Available athttps://www.reactivemanifesto.org. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_5_1",
+              "unstructured": "12factorapp. Available athttps://12factor.net. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_6_1",
+              "unstructured": "BarrasoLA ClidarasJ HolzleU.The datacenter as a computer. Available athttps://www.morganclaypool.com/doi/10.2200/S00874ED3V01Y201809CAC046. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_7_1",
+              "unstructured": "Open Compute Project. Available athttps://www.opencompute.org/about. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_8_1",
+              "unstructured": "Open19 Foundation. Available athttps://www.open19.org/. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_9_1",
+              "unstructured": "OpenFlow. Available athttps://www.opennetworking.org/. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_10_1",
+              "unstructured": "Openfog. Available athttps://www.openfogconsortium.org/. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_11_1",
+              "unstructured": "ETSI MEC. Available athttps://www.etsi.org/technologies/multi‐access‐edge‐computing. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_12_1",
+              "unstructured": "OEC. Available athttp://openedgecomputing.org/about.html. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_13_1",
+              "unstructured": "Kinetic Edge Alliance. Available athttps://www.vapor.io/kinetic‐edge‐alliance/. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_2_2_1",
+              "unstructured": "BarrasoLA ClidarasJ HolzleU.The Datacenter as a Computer. 2009/2013/2018."
+            },
+            {
+              "key": "e_1_2_1_2_3_1",
+              "unstructured": "Building the Internet of Things: Implement New Business Models Disrupt Competitors Transform Your IndustryISBN‐13: 978‐1119285663."
+            },
+            {
+              "key": "e_1_2_1_2_4_1",
+              "unstructured": "CarrN.The Big Switch: Rewiring the World from Edison to Google. 1st ed."
+            },
+            {
+              "key": "e_1_2_1_2_5_1",
+              "unstructured": "Internet of Things for Architects: Architecting IoT Solutions by Implementing Sensors Communication Infrastructure Edge Computing Analytics and SecurityISBN‐13: 978‐1788470599."
+            }
+          ],
+          "reference-count": 16,
+          "references-count": 16,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119597537.ch5"
+            }
+          },
+          "score": 93.94395,
+          "source": "Crossref",
+          "title": [
+            "CLOUD AND EDGE COMPUTING"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.3390/electronics10161900",
+          "ISSN": [
+            "2079-9292"
+          ],
+          "URL": "https://doi.org/10.3390/electronics10161900",
+          "abstract": "<jats:p>A cloud data center for software-as-a-service (SaaS) was built for the purpose of stably managing these server computers in one place in order to provide an uninterrupted service, not only for a stable power supply and security but also for the efficient data management. To manage such a data center efficiently, it is important to build a cloud database with structured storage above all else. In recent decades, many studies have focused on designing cloud data centers and most of the research has focused on communication traffic, routing, topological issues and communication technology. However, in order to build an efficient cloud database that can support user demand, the most sophisticated intelligent system, based on AI technology and considering user convenience, should be designed. From this viewpoint, adopting human brain functions, Energy-Based Memory Network was designed for a knowledge-based frame of an intelligent system. And its event-related synchronized data extraction mechanism was proposed. In particular, a Thinking Thread extraction phase was implemented for the reasoning process using qualia matching and a deep extraction method in a cloud database. The purpose of this approach is to design and implement an intelligent cloud database that has an efficient structure and mechanism for supporting user demand and providing accurate, prompt services. In experiments, the working phase of the functions was simulated with data and analyzed. As a result, it was confirmed that the proposed system works well and intelligently for the design purpose.</jats:p>",
+          "alternative-id": [
+            "electronics10161900"
+          ],
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "Division of GS, Computer Science, KNU College, Kangnam University, Yongin Si 449-702, Korea"
+                }
+              ],
+              "family": "Shim",
+              "given": "JeongYon",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "container-title": [
+            "Electronics"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                8
+              ]
+            ],
+            "date-time": "2021-08-08T21:49:41Z",
+            "timestamp": 1628459381000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                11
+              ]
+            ],
+            "date-time": "2025-10-11T06:42:24Z",
+            "timestamp": 1760164944000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                12
+              ]
+            ],
+            "date-time": "2025-10-12T02:13:47Z",
+            "timestamp": 1760235227491,
+            "version": "build-2065373602"
+          },
+          "is-referenced-by-count": 4,
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "2079-9292"
+            }
+          ],
+          "issue": "16",
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                8
+              ]
+            ]
+          },
+          "journal-issue": {
+            "issue": "16",
+            "published-online": {
+              "date-parts": [
+                [
+                  2021,
+                  8
+                ]
+              ]
+            }
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://creativecommons.org/licenses/by/4.0/",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    8
+                  ]
+                ],
+                "date-time": "2021-08-08T00:00:00Z",
+                "timestamp": 1628380800000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://www.mdpi.com/2079-9292/10/16/1900/pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "1968",
+          "page": "1900",
+          "prefix": "10.3390",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                8
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                8
+              ]
+            ]
+          },
+          "publisher": "MDPI AG",
+          "reference": [
+            {
+              "key": "ref_1",
+              "unstructured": "(2021, June 25). Cloud Computing. Available online: https://www.seaglasstechnology.com/what-are-the-three-types-of-cloud-computing/."
+            },
+            {
+              "key": "ref_2",
+              "unstructured": "(2021, June 25). The Best Data Center Infrastructure Management Platform. Available online: https://modus.com/wp-content/."
+            },
+            {
+              "DOI": "10.1002/047174882X",
+              "doi-asserted-by": "crossref",
+              "key": "ref_3",
+              "unstructured": "Cover, T.M., and Thomas, J. (2005). A Elements of Information Theory, Wiley Interscience Press. [2nd ed.]."
+            },
+            {
+              "key": "ref_4",
+              "unstructured": "Singla, A., Hong, C.Y., Popa, L., and Godfrey, P.B. (2012, January 25–27). Jellyfish: Networking data center randomly. Proceedings of the Nsdi’12, San Jose, CA, USA."
+            },
+            {
+              "key": "ref_5",
+              "unstructured": "Karkera, K. (2014). Building Probabilistic Graphical Models with Python, PACKT. Solve Machine Learning Problems Using Probabilistic Graphical Models Implemented in Python with Real-World Applications."
+            },
+            {
+              "key": "ref_6",
+              "unstructured": "Boyce, B.R., Meadow, C.T., Kraft, D.H., Kraft, D.H., and Meadow, C.T. (2007). Text. Information Retrieval Systems, Academic Press."
+            },
+            {
+              "DOI": "10.1145/1851182.1851223",
+              "doi-asserted-by": "crossref",
+              "key": "ref_7",
+              "unstructured": "Farrington, N., Porter, G., Radhakrishnan, S., Bazzaz, H.H., Subramanya, V., Fainman, Y., Papen, G., and Vahdat, A. (September, January 30). Helios: A Hybrid electrical/optical switch architecture for modular data centers. Proceedings of the ACM SIGCOMM 2010, New Delhi, India."
+            },
+            {
+              "DOI": "10.1145/1402946.1402967",
+              "article-title": "A scalable, Commodity Data Center Network Architecture",
+              "author": "Loukissas",
+              "doi-asserted-by": "crossref",
+              "first-page": "63",
+              "journal-title": "ACM SIGCOMM Comput. Commun. Rev.",
+              "key": "ref_8",
+              "volume": "38",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1145/2785956.2787472",
+              "doi-asserted-by": "crossref",
+              "key": "ref_9",
+              "unstructured": "Roy, A., Zeng, H., Bagga, J., Porter, G., and Snoeren, A.C. (2015, January 17–21). Inside the social network’s (datacenter) network. Proceedings of the ACM SIGCOMM’15 on Special Interest Group on Data Communication, London, UK."
+            },
+            {
+              "DOI": "10.1145/2018436.2018442",
+              "doi-asserted-by": "crossref",
+              "key": "ref_10",
+              "unstructured": "Halperin, D., Kandula, S., Padhye, J., Bahl, P., and Wetherall, D. (2011, January 15–19). Augmenting data center networks with multi-gigabit wireless links. Proceedings of the ACM SIGCOMM, Toronto, ON, Canada."
+            },
+            {
+              "DOI": "10.1145/2043164.2018467",
+              "article-title": "Improving Datacenter Performance and Robustness with Multipath TCP",
+              "author": "Raiciu",
+              "doi-asserted-by": "crossref",
+              "first-page": "266",
+              "journal-title": "ACM SIGCOMM Comput. Commun. Rev.",
+              "key": "ref_11",
+              "volume": "41",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1109/MCC.2014.22",
+              "article-title": "Streaming Big Data Processing in Data Center Clouds",
+              "author": "Ranjan",
+              "doi-asserted-by": "crossref",
+              "first-page": "78",
+              "journal-title": "IEEE Cloud Comput.",
+              "key": "ref_12",
+              "volume": "1",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1016/B978-155860869-6/50027-5",
+              "doi-asserted-by": "crossref",
+              "key": "ref_13",
+              "unstructured": "Carney, D., Çetintemel, U., Cherniack, M., Convey, C., Lee, S., Seidman, G., Tatbul, N., Zdonik, S., and Stonebraker, M. (2002, January 20–23). Aurora(Brown, MIT, Brandies): Monitoring streams—A new class of data management applications. Proceedings of the VLDB, Hong Kong, China."
+            },
+            {
+              "DOI": "10.1145/872853.872857",
+              "doi-asserted-by": "crossref",
+              "key": "ref_14",
+              "unstructured": "Chandrasekaran, S., Cooper, O., Deshpande, A., Franklin, M.J., Hellerstein, J.M., Hong, W., and Shah, M.A. (2003, January 9–12). TelegraphCQ(Berkeley): Continuous data flow processing for an uncertain world. Proceedings of the SIGMOD ‘03: 2003 ACM SIGMOD International Conference on Management of Data, San Diego, CA, USA."
+            },
+            {
+              "DOI": "10.1145/564691.564777",
+              "doi-asserted-by": "crossref",
+              "key": "ref_15",
+              "unstructured": "Cranor, C., Gao, Y., Johnson, T., Shkapenyuk, V., and Spatscheck, O. (2002, January 3–6). Gigascope: High performance network monitoring with an SQL interface. Proceedings of the SIGMOID 2002, Madison, WI, USA."
+            },
+            {
+              "key": "ref_16",
+              "unstructured": "Eisenbud, D.E., Yi, C., Contavaschellerlli, C., Smith, C., Kononov, R., Mann-Hielscher, E., and Hosein, J.D. (2016, January 16–18). Maglev: A fast and reliable software network load balancer. Proceedings of the NSDI’16, 13th USENIX Symposium on Networked Systems Design and Implementation, Santa Clara, CA, USA."
+            },
+            {
+              "key": "ref_17",
+              "unstructured": "Arasu, A., Babcock, B., Babu, S., Cieslewicz, J., Datar, M., Ito, K., Motwan, R., Srivastava, U., and Widom, J. (2004, January 13–18). STREAM(Stanford): An adaptive engine for stream query processing. Proceedings of the SIGMOID 2004, Paris, France."
+            },
+            {
+              "DOI": "10.1145/1182807.1182886",
+              "doi-asserted-by": "crossref",
+              "key": "ref_18",
+              "unstructured": "Girod, L., Jamieson, K., Mei, Y., Newton, R., Rost, S., Thiagarajan, A., Balakrishnan, H., and Madden, S. (November, January 31). Wavescope(MIT): The case or a signal-oriented data stream management system. Proceedings of the CIDR 2007, Boulder, CO, USA."
+            },
+            {
+              "key": "ref_19",
+              "unstructured": "Shim, J.Y. (2013). Brain Scret, Bookhill."
+            },
+            {
+              "DOI": "10.7551/mitpress/8476.001.0001",
+              "doi-asserted-by": "crossref",
+              "key": "ref_20",
+              "unstructured": "Sporns, O. (2011). Networks of Brain, MIT Press."
+            },
+            {
+              "key": "ref_21",
+              "unstructured": "Carter, R. (2006). Mapping the Memory, Ulysess Press."
+            },
+            {
+              "DOI": "10.7554/eLife.54224",
+              "article-title": "Presynaptic PTPs regulates postsynaptic NMDA receptor function through direction adhesion-independent mechanisms",
+              "author": "Kim",
+              "doi-asserted-by": "crossref",
+              "first-page": "e54224",
+              "journal-title": "eLife",
+              "key": "ref_22",
+              "volume": "9",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1145/1592568.1592576",
+              "doi-asserted-by": "crossref",
+              "key": "ref_23",
+              "unstructured": "Greenberg, A., Hamilton, J.R., Jain, N., Kandula, S., Kim, C., Lahiri, P., Maltz, D.A., and Senggupta, S. (2009, January 16–21). VL2: A scalable and flexible data center network. Proceedings of the ACM SIGCOMM’09 Data Communication, Barcelona, Spain."
+            },
+            {
+              "key": "ref_24",
+              "unstructured": "Goodfellow, I., Bengio, Y., and Courville, A. (2017). Deep Learning, MIT Press."
+            },
+            {
+              "DOI": "10.1016/0013-4694(92)90133-3",
+              "article-title": "Event Related Synchronization (ERS): An electrophysiological correlate of cortical areas at rest",
+              "doi-asserted-by": "crossref",
+              "first-page": "62",
+              "journal-title": "Electroencephalogr. Clin. Neurophysiol.",
+              "key": "ref_25",
+              "volume": "83",
+              "year": "1992"
+            },
+            {
+              "DOI": "10.1016/S1388-2457(99)00141-8",
+              "article-title": "EVENT-related EEG/MEG synchronization and desynchronization: Basic principles",
+              "author": "Pfurtscheller",
+              "doi-asserted-by": "crossref",
+              "first-page": "1842",
+              "journal-title": "Clin. Neurophysiol.",
+              "key": "ref_26",
+              "volume": "110",
+              "year": "1999"
+            },
+            {
+              "DOI": "10.1109/ICCE-Asia49877.2020.9277205",
+              "doi-asserted-by": "crossref",
+              "key": "ref_27",
+              "unstructured": "Shim, J. (2020, January 1–3). Self reorganizing knowledge network by selective perception. Proceedings of the ICCE_ASIA2020, Seoul, Korea."
+            },
+            {
+              "DOI": "10.1109/ISCE.2014.6884520",
+              "doi-asserted-by": "crossref",
+              "key": "ref_28",
+              "unstructured": "Shim, J. (2014, January 22–25). Conditional reconfiguration mechanism by i/e gauge. Proceedings of the ISCE2014, Jeju, Korea."
+            },
+            {
+              "key": "ref_29",
+              "unstructured": "Nodelman, U., Allen, C., and Perry, J. (1997). Qualia. Stanford Encyclopedia of Philosophy, Stanford University."
+            },
+            {
+              "key": "ref_30",
+              "unstructured": "(2021, May 15). Qualia. Available online: https://en.wikipedia.org/wiki/Qualia."
+            },
+            {
+              "DOI": "10.1109/TENSYMP52854.2021.9550824",
+              "doi-asserted-by": "crossref",
+              "key": "ref_31",
+              "unstructured": "Shim, J. (2021, January 23–25). Stem cell like incarnation self repairing system in the iot intelligent network. Proceedings of the IEEE TENSYMP 2021, Jeju, Korea."
+            }
+          ],
+          "reference-count": 31,
+          "references-count": 31,
+          "resource": {
+            "primary": {
+              "URL": "https://www.mdpi.com/2079-9292/10/16/1900"
+            }
+          },
+          "score": 93.76423,
+          "short-container-title": [
+            "Electronics"
+          ],
+          "source": "Crossref",
+          "title": [
+            "Feature Matching Synchronized Reasoning from Energy-Based Memory Network for Intelligent Data Management in Cloud Computing Data Center"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+          "volume": "10"
+        },
+        {
+          "DOI": "10.2172/3015033",
+          "URL": "https://doi.org/10.2172/3015033",
+          "author": [
+            {
+              "affiliation": [],
+              "name": "National Laboratory of the Rockies (NLR), Golden, CO (United States)",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "National Laboratory of the Rockies, Golden, CO (United States)"
+                }
+              ],
+              "family": "Van Geet",
+              "given": "Otto",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "name": "USDOE Office of Federal Energy Management Programs (FEMP)",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                4
+              ]
+            ],
+            "date-time": "2026-03-04T23:08:16Z",
+            "timestamp": 1772665696000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                4
+              ]
+            ],
+            "date-time": "2026-03-04T23:08:16Z",
+            "timestamp": 1772665696000
+          },
+          "funder": [
+            {
+              "award": [
+                "AC36-08GO28308"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "AC36-08GO28308"
+                  ]
+                }
+              ],
+              "name": "USDOE Office of Federal Energy Management Programs (FEMP)"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                4
+              ]
+            ],
+            "date-time": "2026-03-04T23:54:42Z",
+            "timestamp": 1772668482737,
+            "version": "3.50.1"
+          },
+          "institution": [
+            {
+              "acronym": [
+                "NLR"
+              ],
+              "name": "National Laboratory of the Rockies (NLR), Golden, CO (United States)"
+            },
+            {
+              "name": "National Laboratory of the Rockies (NLR), Golden, CO (United States)"
+            },
+            {
+              "name": "USDOE Office of Federal Energy Management Programs (FEMP)"
+            }
+          ],
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                15
+              ]
+            ]
+          },
+          "member": "960",
+          "prefix": "10.2172",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                15
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                15
+              ]
+            ]
+          },
+          "publisher": "Office of Scientific and Technical Information (OSTI)",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.osti.gov/biblio/3015033"
+            }
+          },
+          "score": 92.932076,
+          "source": "Crossref",
+          "title": [
+            "Advanced Data Center Energy Opportunities: Cloud and Infrastructure CoP - Data Center Energy and Efficiency with AI Adoption"
+          ],
+          "type": "report"
+        },
+        {
+          "DOI": "10.1201/9781315230870-13",
+          "ISBN": [
+            "9781498747103",
+            "9781351863377"
+          ],
+          "URL": "https://doi.org/10.1201/9781315230870-13",
+          "alternative-id": [
+            "10.1201/9781315230870-13",
+            "10.1201/9781315230870"
+          ],
+          "container-title": [
+            "5G Radio Access Networks"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                6,
+                14
+              ]
+            ],
+            "date-time": "2017-06-14T11:59:12Z",
+            "timestamp": 1497441552000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2017,
+                6,
+                14
+              ]
+            ],
+            "date-time": "2017-06-14T12:00:08Z",
+            "timestamp": 1497441608000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                7
+              ]
+            ],
+            "date-time": "2024-05-07T14:30:34Z",
+            "timestamp": 1715092234780
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781498747103"
+            },
+            {
+              "type": "electronic",
+              "value": "9781351863377"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                15
+              ]
+            ]
+          },
+          "language": "en",
+          "link": [
+            {
+              "URL": "http://www.crcnetbase.com/doi/pdf/10.1201/9781315230870-13",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "301",
+          "page": "227-262",
+          "prefix": "10.1201",
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                15
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2017,
+                6,
+                14
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                15
+              ]
+            ]
+          },
+          "publisher": "CRC Press",
+          "publisher-location": "6000 Broken Sound Parkway NW, Suite 300 Boca Raton, FL 33487-2742",
+          "reference": [
+            {
+              "author": "Tragos E. Z.",
+              "first-page": "1",
+              "key": "p_1",
+              "volume-title": "16th International Symposium on Wireless Personal Multimedia Communications (WPMC)",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1109/MCOM.2011.5741144",
+              "doi-asserted-by": "publisher",
+              "key": "p_2"
+            },
+            {
+              "DOI": "10.1109/MCOM.2011.5741145",
+              "doi-asserted-by": "publisher",
+              "key": "p_3"
+            },
+            {
+              "DOI": "10.1016/j.comnet.2010.05.010",
+              "doi-asserted-by": "publisher",
+              "key": "p_4"
+            },
+            {
+              "DOI": "10.1145/1278972.1278992",
+              "doi-asserted-by": "crossref",
+              "key": "p_5",
+              "unstructured": "G. Mulligan, The 6lowpan architecture, Proceedings of the 4th Workshop on Embedded Networked Sensors. ACM, pp.78-82, 2007."
+            },
+            {
+              "DOI": "10.1109/MNET.2015.7064897",
+              "author": "Peng M.",
+              "doi-asserted-by": "crossref",
+              "first-page": "6",
+              "issue": "2",
+              "journal-title": "IEEE Network",
+              "key": "p_6",
+              "volume": "29",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.comnet.2008.04.002",
+              "doi-asserted-by": "publisher",
+              "key": "p_7"
+            },
+            {
+              "DOI": "10.1109/MSP.2004.1328091",
+              "doi-asserted-by": "publisher",
+              "key": "p_8"
+            },
+            {
+              "DOI": "10.1109/TIT.1973.1055037",
+              "doi-asserted-by": "publisher",
+              "key": "p_9"
+            },
+            {
+              "DOI": "10.1109/TIT.1976.1055508",
+              "doi-asserted-by": "publisher",
+              "key": "p_10"
+            },
+            {
+              "author": "Berger T.",
+              "first-page": "171",
+              "key": "p_11",
+              "volume-title": "The Information Theory Approach to Communications",
+              "year": "1977"
+            },
+            {
+              "DOI": "10.1109/TIT.1975.1055356",
+              "doi-asserted-by": "publisher",
+              "key": "p_12"
+            },
+            {
+              "DOI": "10.1109/TIT.2002.808103",
+              "author": "Pradhan S. S.",
+              "doi-asserted-by": "crossref",
+              "first-page": "626",
+              "issue": "3",
+              "journal-title": "IEEE Transactions on Information Theory",
+              "key": "p_13",
+              "volume": "49",
+              "year": "2003"
+            },
+            {
+              "DOI": "10.1109/TIT.2006.871046",
+              "author": "Stankovic V.",
+              "doi-asserted-by": "crossref",
+              "first-page": "1495",
+              "issue": "4",
+              "journal-title": "IEEE Transactions on Information Theory",
+              "key": "p_14",
+              "volume": "52",
+              "year": "2006"
+            },
+            {
+              "DOI": "10.1109/4234.957380",
+              "author": "J",
+              "doi-asserted-by": "crossref",
+              "first-page": "417",
+              "issue": "10",
+              "journal-title": "IEEE Communication Letters",
+              "key": "p_15",
+              "volume": "5",
+              "year": "2001"
+            },
+            {
+              "DOI": "10.1109/LCOMM.2002.804244",
+              "doi-asserted-by": "publisher",
+              "key": "p_16"
+            },
+            {
+              "DOI": "10.1109/TSP.2009.2018603",
+              "author": "Fresia M.",
+              "doi-asserted-by": "crossref",
+              "first-page": "2868",
+              "issue": "7",
+              "journal-title": "IEEE Transactions on Signal Processing",
+              "key": "p_17",
+              "volume": "57",
+              "year": "2009"
+            },
+            {
+              "DOI": "10.1109/JSAC.2007.070520",
+              "author": "Xu Q.",
+              "doi-asserted-by": "crossref",
+              "first-page": "851",
+              "issue": "4",
+              "journal-title": "IEEE Journal on Selected Areas in Communication",
+              "key": "p_18",
+              "volume": "25",
+              "year": "2007"
+            },
+            {
+              "DOI": "10.1109/TIT.2005.858980",
+              "author": "Cristescu R.",
+              "doi-asserted-by": "crossref",
+              "first-page": "4057",
+              "issue": "12",
+              "journal-title": "IEEE Transactions on Information Theory",
+              "key": "p_19",
+              "volume": "51",
+              "year": "2005"
+            },
+            {
+              "DOI": "10.1109/79.985684",
+              "doi-asserted-by": "publisher",
+              "key": "p_20"
+            },
+            {
+              "DOI": "10.1109/COMST.2014.2355255",
+              "author": "Checko A.",
+              "doi-asserted-by": "crossref",
+              "first-page": "405",
+              "issue": "1",
+              "journal-title": "IEEE Communications Surveys and Tutorials",
+              "key": "p_21",
+              "volume": "17",
+              "year": "2015"
+            },
+            {
+              "author": "Zhu Z.",
+              "first-page": "34",
+              "key": "p_22",
+              "volume-title": "8th ACM International Conference on Computing Frontiers",
+              "year": "2011"
+            },
+            {
+              "author": "China Mobile Research Institute",
+              "key": "p_23",
+              "volume-title": "White Paper, version 2.5",
+              "year": "2011"
+            },
+            {
+              "author": "Chen C.",
+              "key": "p_24",
+              "volume-title": "NGMN Alliance project P-CRAN Centralized Processing Collaborative Radio Real Time Cloud Computing Clear RAN System, version 4.0",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1109/JSYST.2014.2300535",
+              "author": "Zhu C.",
+              "doi-asserted-by": "crossref",
+              "first-page": "1125",
+              "issue": "3",
+              "journal-title": "IEEE Systems Journal",
+              "key": "p_25",
+              "volume": "10",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/MNET.2012.6201210",
+              "doi-asserted-by": "publisher",
+              "key": "p_26"
+            },
+            {
+              "DOI": "10.1016/j.adhoc.2003.09.010",
+              "doi-asserted-by": "publisher",
+              "key": "p_27"
+            },
+            {
+              "author": "Koubâa A.",
+              "first-page": "1",
+              "key": "p_28",
+              "volume-title": "7th International Workshop on Applications and Services in Wireless Networks (ASWN)",
+              "year": "2007"
+            },
+            {
+              "DOI": "10.1109/TVT.2015.2509861",
+              "author": "Smart G.",
+              "doi-asserted-by": "crossref",
+              "first-page": "8538",
+              "issue": "10",
+              "journal-title": "IEEE Transactions Vehicular Technology",
+              "key": "p_29",
+              "volume": "65",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/TCOMM.2015.2455036",
+              "author": "Deligiannis N.",
+              "doi-asserted-by": "crossref",
+              "first-page": "3336",
+              "issue": "9",
+              "journal-title": "IEEE Transactions on Communications",
+              "key": "p_30",
+              "volume": "63",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1002/j.1538-7305.1948.tb01338.x",
+              "doi-asserted-by": "publisher",
+              "key": "p_31"
+            },
+            {
+              "DOI": "10.1109/TIT.2002.1003821",
+              "doi-asserted-by": "publisher",
+              "key": "p_32"
+            },
+            {
+              "DOI": "10.1109/TIT.1974.1055171",
+              "author": "Wyner A.",
+              "doi-asserted-by": "crossref",
+              "first-page": "2",
+              "issue": "1",
+              "journal-title": "IEEE Transactions on Information Theory",
+              "key": "p_33",
+              "volume": "20",
+              "year": "1974"
+            },
+            {
+              "author": "Varodayan D.",
+              "first-page": "3123",
+              "issue": "11",
+              "journal-title": "Special Issue on Distributed Source Coding",
+              "key": "p_34",
+              "volume": "86",
+              "year": "2006"
+            },
+            {
+              "DOI": "10.1109/18.556597",
+              "author": "Zamir R.",
+              "doi-asserted-by": "crossref",
+              "first-page": "2073",
+              "issue": "11",
+              "journal-title": "IEEE Transactions on Information Theory",
+              "key": "p_35",
+              "volume": "42",
+              "year": "1996"
+            },
+            {
+              "author": "Servetto S.",
+              "key": "p_36",
+              "volume-title": "IEEE Data Compression Conference, DCC 2000",
+              "year": "2000"
+            },
+            {
+              "author": "Liu Z.",
+              "key": "p_37",
+              "volume-title": "IEEE Data Compression Conference, DCC 2004",
+              "year": "2004"
+            },
+            {
+              "DOI": "10.1109/JPROC.2004.839619",
+              "doi-asserted-by": "publisher",
+              "key": "p_38"
+            },
+            {
+              "DOI": "10.1007/978-1-4615-0799-4",
+              "doi-asserted-by": "publisher",
+              "key": "p_39"
+            },
+            {
+              "author": "Yang Y.",
+              "key": "p_40",
+              "volume-title": "Asilomar Conference on Signals, Systems, and Computers",
+              "year": "2003"
+            },
+            {
+              "DOI": "10.1109/TIP.2011.2181400",
+              "author": "Deligiannis N.",
+              "doi-asserted-by": "crossref",
+              "first-page": "1934",
+              "issue": "4",
+              "journal-title": "IEEE Transactions on Image Processing",
+              "key": "p_41",
+              "volume": "21",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1109/LCOMM.2014.2349986",
+              "author": "Deligiannis N.",
+              "doi-asserted-by": "crossref",
+              "first-page": "1675",
+              "issue": "10",
+              "journal-title": "IEEE Communications Letters",
+              "key": "p_42",
+              "volume": "18",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/TIT.2009.2030487",
+              "author": "Steinberg Y.",
+              "doi-asserted-by": "crossref",
+              "first-page": "4995",
+              "issue": "11",
+              "journal-title": "IEEE Transactions on Information Theory",
+              "key": "p_43",
+              "volume": "55",
+              "year": "2009"
+            },
+            {
+              "DOI": "10.1109/TIT.2005.859248",
+              "author": "Cheng S.",
+              "doi-asserted-by": "crossref",
+              "first-page": "4418",
+              "issue": "12",
+              "journal-title": "IEEE Transactions on Information Theory",
+              "key": "p_44",
+              "volume": "51",
+              "year": "2005"
+            },
+            {
+              "author": "Oldewurtel F.",
+              "first-page": "228",
+              "key": "p_45",
+              "volume-title": "IEEE Vehicular Technology Conference (VTC Spring)",
+              "year": "2008"
+            },
+            {
+              "author": "Oldewurtel F.",
+              "first-page": "435",
+              "key": "p_46",
+              "volume-title": "2nd International Conference on Sensor Technologies and Applications (SENSORCOMM)",
+              "year": "2008"
+            },
+            {
+              "author": "Chen F.",
+              "first-page": "479",
+              "key": "p_47",
+              "volume-title": "the Data Compression Conference (DCC)",
+              "year": "2013"
+            },
+            {
+              "author": "Cheng S.",
+              "first-page": "480",
+              "key": "p_48",
+              "volume-title": "the Data Compression Conference",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1109/TCOMM.2011.012711.090572",
+              "author": "Beferull-Lozano B.",
+              "doi-asserted-by": "crossref",
+              "first-page": "1053",
+              "issue": "4",
+              "journal-title": "IEEE Transactions on Communication",
+              "key": "p_49",
+              "volume": "59",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1145/1151690.1151692",
+              "author": "Barr K. C.",
+              "doi-asserted-by": "crossref",
+              "first-page": "250",
+              "issue": "3",
+              "journal-title": "ACM Transactions on Computational Systems",
+              "key": "p_50",
+              "volume": "24",
+              "year": "2006"
+            },
+            {
+              "author": "Sacaleanu D. I.",
+              "first-page": "709",
+              "key": "p_51",
+              "volume-title": "20th European Signal Processing Conference (EUSIPCO)",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1109/LCOMM.2008.080300",
+              "author": "Marcelloni F.",
+              "doi-asserted-by": "crossref",
+              "first-page": "411",
+              "issue": "6",
+              "journal-title": "IEEE Communications Letters",
+              "key": "p_52",
+              "volume": "12",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1109/TWC.2013.121813.130993",
+              "author": "Vecchio M.",
+              "doi-asserted-by": "crossref",
+              "first-page": "1088",
+              "issue": "2",
+              "journal-title": "IEEE Transactions on Wireless Communications",
+              "key": "p_53",
+              "volume": "13",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/TIT.2006.874390",
+              "doi-asserted-by": "publisher",
+              "key": "p_54"
+            },
+            {
+              "DOI": "10.1109/JSEN.2012.2201936",
+              "author": "Barceló-Lladó J. E.",
+              "doi-asserted-by": "crossref",
+              "first-page": "2799",
+              "issue": "9",
+              "journal-title": "IEEE Sensors Journal",
+              "key": "p_55",
+              "volume": "12",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1109/JSEN.2015.2421821",
+              "author": "Deligiannis N.",
+              "doi-asserted-by": "crossref",
+              "first-page": "4496",
+              "issue": "8",
+              "journal-title": "IEEE Sensors Journal",
+              "key": "p_56",
+              "volume": "15",
+              "year": "2015"
+            },
+            {
+              "author": "Trivedi P. K.",
+              "key": "p_57",
+              "volume": "1",
+              "volume-title": "Copula Modeling: An Introduction for Practitioners",
+              "year": "2007"
+            },
+            {
+              "author": "Camilli M.",
+              "first-page": "1",
+              "key": "p_58",
+              "volume-title": "ACM/IEEE International Conference on Distributed Smart Cameras (ICDSC)",
+              "year": "2011"
+            },
+            {
+              "author": "Grunwedel S.",
+              "key": "p_59",
+              "volume-title": "ACM/IEEE International Conference on Distributed Smart Cameras (ICDSC)",
+              "year": "2011"
+            },
+            {
+              "author": "Zambanini S.",
+              "key": "p_60",
+              "volume-title": "IEEE International Conference on Information Technology and Applications in Biomedicine, (ITAB)",
+              "year": "2010"
+            },
+            {
+              "DOI": "10.1109/TCSVT.2003.815165",
+              "doi-asserted-by": "publisher",
+              "key": "p_61"
+            },
+            {
+              "DOI": "10.1109/TCSVT.2012.2221191",
+              "doi-asserted-by": "publisher",
+              "key": "p_62"
+            },
+            {
+              "DOI": "10.1109/TSP.2013.2295556",
+              "author": "Deligiannis N.",
+              "doi-asserted-by": "crossref",
+              "first-page": "892",
+              "issue": "4",
+              "journal-title": "IEEE Transactions on Signal Processing",
+              "key": "p_63",
+              "volume": "62",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/TSP.2005.851138",
+              "author": "Cheng S.",
+              "doi-asserted-by": "crossref",
+              "first-page": "3269",
+              "issue": "8",
+              "journal-title": "IEEE Transactions on Signal Processing",
+              "key": "p_64",
+              "volume": "53",
+              "year": "2005"
+            },
+            {
+              "author": "Deligiannis N.",
+              "first-page": "1",
+              "issue": "2",
+              "journal-title": "Special Issue on New Advancements in Distributed Smart Camera Networks",
+              "key": "p_65",
+              "volume": "10",
+              "year": "2014"
+            },
+            {
+              "author": "Deligiannis N.",
+              "first-page": "1",
+              "key": "p_66",
+              "volume-title": "International Conference on Digital Signal Processing (DSP)",
+              "year": "2011"
+            },
+            {
+              "author": "Artigas X.",
+              "key": "p_67",
+              "volume-title": "Picture Coding Symposium (PCS)",
+              "year": "2007"
+            },
+            {
+              "author": "Verbist F.",
+              "key": "p_68",
+              "volume-title": "ACM/IEEE International Conference on Distributed Smart Cameras, ICDSC'13",
+              "year": "2013"
+            }
+          ],
+          "reference-count": 68,
+          "references-count": 68,
+          "resource": {
+            "primary": {
+              "URL": "http://www.crcnetbase.com/doi/10.1201/9781315230870-13"
+            }
+          },
+          "score": 92.290726,
+          "source": "Crossref",
+          "title": [
+            "10 Distributed Data Aggregation and Compression for 5G Virtual RAN IoT Sensor Applications"
+          ],
+          "type": "book-chapter"
+        }
+      ],
+      "items-per-page": 10,
+      "query": {
+        "search-terms": null,
+        "start-index": 0
+      },
+      "total-results": 5359
+    },
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "status": "ok"
+  },
+  "retrieved_at_utc": "2026-08-31T14:30:25Z",
+  "retry_count": 0
+}

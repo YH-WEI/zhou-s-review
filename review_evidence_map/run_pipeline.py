@@ -5,6 +5,7 @@ import sys
 from pathlib import Path
 
 from src.common import REVIEW_ROOT, ensure_directories
+from src.discover import run_discovery
 from src.inventory import build_source_inventory
 
 
@@ -31,10 +32,14 @@ def main(argv: list[str] | None = None) -> int:
     if args.stage in {"inventory", "all"}:
         rows = build_source_inventory()
         print(f"inventory: {len(rows)} source Word/PDF files")
-    if args.stage not in {"inventory", "all"}:
+    if args.stage in {"discover", "all"}:
+        if args.offline:
+            print("discover: skipped in offline mode; frozen discovery inputs retained")
+        else:
+            logs, candidates = run_discovery(config_path)
+            print(f"discover: {len(logs)} retrieval-log rows; {len(candidates)} candidate records")
+    if args.stage not in {"inventory", "discover", "all"}:
         raise SystemExit(f"Stage {args.stage!r} will be enabled by the implementation commit")
-    if args.stage == "all" and args.offline:
-        print("offline scaffold run: inventory complete")
     return 0
 
 

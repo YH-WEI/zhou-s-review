@@ -1,0 +1,4469 @@
+{
+  "http_status": 200,
+  "request_url_redacted": "https://api.crossref.org/works?query.bibliographic=%28%22base+station%22+OR+%22radio+access+network%22+OR+RAN+OR+%22telecom+tower%22+OR+%22cellular+network%22+OR+5G+OR+%225G-Advanced%22+OR+B5G+OR+%22IMT-2030%22+OR+6G%29+AND+%28%22renewable+integration%22+OR+%22renewable+energy+matching%22+OR+curtailment+OR+%22carbon-aware%22+OR+%22clean+energy+matching%22%29+AND+%28field+OR+pilot+OR+demonstration+OR+experiment+OR+%22hardware-in-the-loop%22+OR+HIL+OR+%22real-world+data%22+OR+%22market+participation%22+OR+%22case+study%22%29&filter=from-pub-date%3A2015-01-01%2Cuntil-pub-date%3A2026-08-31&rows=10&sort=relevance&order=desc",
+  "response": {
+    "message": {
+      "facets": {},
+      "items": [
+        {
+          "DOI": "10.1002/9781119851288.ch8",
+          "ISBN": [
+            "9781786306289",
+            "9781119851288"
+          ],
+          "URL": "https://doi.org/10.1002/9781119851288.ch8",
+          "alternative-id": [
+            "10.1002/9781119851288.ch8",
+            "10.1002/9781119851288"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "NG‐RAN and 5G‐NR"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2021-08-13T21:31:19Z",
+            "timestamp": 1628890279000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                29
+              ]
+            ],
+            "date-time": "2023-08-29T17:23:19Z",
+            "timestamp": 1693329799000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                12
+              ]
+            ],
+            "date-time": "2026-01-12T22:26:46Z",
+            "timestamp": 1768256806894,
+            "version": "3.49.0"
+          },
+          "is-referenced-by-count": 2,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781786306289"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119851288"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch8",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch8",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "203-235",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_2_1",
+              "unstructured": "All standards can be downloaded from the ETSI website:https://www.etsi.org/standards."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "unstructured": "3GPP 23.501System architecture for the 5G System (5GS);Version 15.9.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "unstructured": "3GPP 37.324E‐UTRA NR ‐ Multi‐connectivity; Overall Description;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "unstructured": "3GPP 37.340LTE 5G NR ‐ Service Data Adaptation Protocol (SDAP); Protocol specification;Version 16.0.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "unstructured": "3GPP 38.300NR ‐ Radio Resource Control (RRC); Protocol specification;Version 16.0.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "unstructured": "3GPP 38.321NR ‐ Medium Access Control (MAC) Protocol specification;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "unstructured": "3GPP 38.322NR ‐ Radio Link Control Protocol (RLC) specification;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "unstructured": "3GPP 38.323NR ‐ Packet Data Convergence Protocol (PDCP) specification;Version 16.1.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "unstructured": "3GPP 38.331NR ‐ Radio Resource Control (RRC); Protocol specification;Version 16.0.0 Release 16"
+            }
+          ],
+          "reference-count": 9,
+          "references-count": 9,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119851288.ch8"
+            }
+          },
+          "score": 68.19095,
+          "source": "Crossref",
+          "title": [
+            "5G‐NR Radio Interface – Data Link Layer"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.1109/access.2021.3108041",
+          "ISSN": [
+            "2169-3536"
+          ],
+          "URL": "https://doi.org/10.1109/access.2021.3108041",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-9429-6364",
+              "affiliation": [],
+              "authenticated-orcid": false,
+              "family": "Liu",
+              "given": "Xiyuan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8458-0887",
+              "affiliation": [],
+              "authenticated-orcid": false,
+              "family": "Bie",
+              "given": "Zhaohong",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "IEEE Access"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                26
+              ]
+            ],
+            "date-time": "2021-08-26T20:26:26Z",
+            "timestamp": 1630009586000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2021,
+                12,
+                17
+              ]
+            ],
+            "date-time": "2021-12-17T19:57:40Z",
+            "timestamp": 1639771060000
+          },
+          "funder": [
+            {
+              "DOI": "10.13039/501100012166",
+              "award": [
+                "2016YFB0901900"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "2016YFB0901900"
+                  ]
+                }
+              ],
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "asserted-by": "publisher",
+                  "id": "10.13039/501100012166",
+                  "id-type": "DOI"
+                }
+              ],
+              "name": "National Key Research and Development Program of China"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                22
+              ]
+            ],
+            "date-time": "2026-07-22T16:06:16Z",
+            "timestamp": 1784736376185,
+            "version": "3.55.0"
+          },
+          "is-referenced-by-count": 22,
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "2169-3536"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://creativecommons.org/licenses/by/4.0/legalcode",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2021-01-01T00:00:00Z",
+                "timestamp": 1609459200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/6287639/9312710/09523555.pdf?arnumber=9523555",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "119353-119366",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "reference": [
+            {
+              "DOI": "10.1016/j.rser.2014.05.079",
+              "doi-asserted-by": "publisher",
+              "key": "ref39"
+            },
+            {
+              "DOI": "10.1109/TPWRD.2011.2165972",
+              "doi-asserted-by": "publisher",
+              "key": "ref38"
+            },
+            {
+              "DOI": "10.1016/j.rcim.2009.04.012",
+              "doi-asserted-by": "publisher",
+              "key": "ref33"
+            },
+            {
+              "DOI": "10.1007/978-3-030-26215-0_1",
+              "doi-asserted-by": "publisher",
+              "key": "ref32"
+            },
+            {
+              "article-title": "An introduction to multi-paradigm modelling and simulation",
+              "author": "vangheluwe",
+              "first-page": "9",
+              "journal-title": "Proc AIS&#x2019; Conf (AI Simulation Planning High Autonomy Syst )",
+              "key": "ref31",
+              "year": "2002"
+            },
+            {
+              "DOI": "10.1007/978-3-319-73888-8_79",
+              "doi-asserted-by": "publisher",
+              "key": "ref30"
+            },
+            {
+              "author": "railsback",
+              "journal-title": "Agent-based and individual-based modeling a practical introduction",
+              "key": "ref37",
+              "year": "2019"
+            },
+            {
+              "author": "palm",
+              "first-page": "759",
+              "journal-title": "Modeling Analysis and Control of Dynamic Systems",
+              "key": "ref36",
+              "year": "1983"
+            },
+            {
+              "DOI": "10.1016/j.simpat.2006.11.001",
+              "doi-asserted-by": "publisher",
+              "key": "ref35"
+            },
+            {
+              "DOI": "10.1002/9781118762745.ch12",
+              "doi-asserted-by": "publisher",
+              "key": "ref34"
+            },
+            {
+              "DOI": "10.1109/JSAC.2017.2726398",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "DOI": "10.1201/9781315367910",
+              "doi-asserted-by": "publisher",
+              "key": "ref40"
+            },
+            {
+              "article-title": "Research on relations of traffic load and energy consumption in LTE base station",
+              "author": "yang",
+              "key": "ref11",
+              "year": "2017"
+            },
+            {
+              "journal-title": "Uo solar radiation monitoring laboratory",
+              "key": "ref12",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2018.2874131",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "DOI": "10.1109/GlobalSIP.2014.7032337",
+              "doi-asserted-by": "publisher",
+              "key": "ref14"
+            },
+            {
+              "DOI": "10.1109/JSAC.2014.2332093",
+              "doi-asserted-by": "publisher",
+              "key": "ref15"
+            },
+            {
+              "DOI": "10.1109/TWC.2014.2339845",
+              "doi-asserted-by": "publisher",
+              "key": "ref16"
+            },
+            {
+              "DOI": "10.1109/TCOMM.2016.2637917",
+              "doi-asserted-by": "publisher",
+              "key": "ref17"
+            },
+            {
+              "DOI": "10.3390/en11010099",
+              "doi-asserted-by": "publisher",
+              "key": "ref18"
+            },
+            {
+              "DOI": "10.1109/TCOMM.2014.2353632",
+              "doi-asserted-by": "publisher",
+              "key": "ref19"
+            },
+            {
+              "author": "wang",
+              "journal-title": "Research on the Current Situation of Electric Bicycle Safety Charging Pile Construction",
+              "key": "ref28",
+              "year": "2019"
+            },
+            {
+              "journal-title": "5G Telecom Energy Target Network White Paper",
+              "key": "ref4",
+              "year": "2020"
+            },
+            {
+              "journal-title": "Global ev Outlook",
+              "key": "ref27",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/MWC.2017.1600343",
+              "doi-asserted-by": "publisher",
+              "key": "ref3"
+            },
+            {
+              "DOI": "10.1016/j.renene.2012.09.045",
+              "doi-asserted-by": "publisher",
+              "key": "ref6"
+            },
+            {
+              "DOI": "10.1080/15568318.2018.1547464",
+              "doi-asserted-by": "publisher",
+              "key": "ref29"
+            },
+            {
+              "journal-title": "5G Oriented Data Center Facility",
+              "key": "ref5",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.4018/jbdcn.2013070104",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "DOI": "10.1109/TCOMM.2015.2424242",
+              "doi-asserted-by": "publisher",
+              "key": "ref7"
+            },
+            {
+              "journal-title": "5G -Fifth generation of mobile technologies",
+              "key": "ref2",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/SmartGridComm.2017.8340658",
+              "doi-asserted-by": "publisher",
+              "key": "ref9"
+            },
+            {
+              "DOI": "10.1109/ISETC.2018.8583916",
+              "doi-asserted-by": "publisher",
+              "key": "ref1"
+            },
+            {
+              "journal-title": "Electric Vehicle Outlook 2019",
+              "key": "ref46",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/MCOM.2015.7105673",
+              "doi-asserted-by": "publisher",
+              "key": "ref20"
+            },
+            {
+              "journal-title": "New Energy Outlook 2019",
+              "key": "ref45",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.3390/en11071728",
+              "doi-asserted-by": "publisher",
+              "key": "ref48"
+            },
+            {
+              "DOI": "10.1109/AUPEC.2018.8757922",
+              "doi-asserted-by": "publisher",
+              "key": "ref22"
+            },
+            {
+              "DOI": "10.1109/CICED.2018.8592051",
+              "doi-asserted-by": "publisher",
+              "key": "ref47"
+            },
+            {
+              "DOI": "10.1109/EPEC.2016.7771681",
+              "doi-asserted-by": "publisher",
+              "key": "ref21"
+            },
+            {
+              "DOI": "10.1017/9781316104477",
+              "doi-asserted-by": "publisher",
+              "key": "ref42"
+            },
+            {
+              "article-title": "Sustainable feasibility and economic viability for renewable power assisted base stations vehicle-to-telecom-grid",
+              "author": "wolde",
+              "first-page": "1",
+              "journal-title": "Proc 11th Int Renew Energy Congr (IREC)",
+              "key": "ref24",
+              "year": "2020"
+            },
+            {
+              "article-title": "A survey on electric bicycles in Pudong district of Shanghai",
+              "author": "zhou",
+              "first-page": "88",
+              "journal-title": "Auto Saf",
+              "key": "ref41",
+              "volume": "6",
+              "year": "2019"
+            },
+            {
+              "article-title": "Feasibility study of power demand response for 5G base station",
+              "author": "liu",
+              "first-page": "1038",
+              "journal-title": "Proc IEEE Int Conf Power Electron Comput Appl (ICPECA)",
+              "key": "ref23",
+              "year": "2021"
+            },
+            {
+              "journal-title": "Online Annual Average Wind Speed Map of China",
+              "key": "ref44",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/TSG.2021.3074754",
+              "doi-asserted-by": "publisher",
+              "key": "ref26"
+            },
+            {
+              "journal-title": "Solar Resource Maps of China",
+              "key": "ref43",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1155/2019/9572746",
+              "doi-asserted-by": "publisher",
+              "key": "ref25"
+            }
+          ],
+          "reference-count": 48,
+          "references-count": 48,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/9523555/"
+            }
+          },
+          "score": 63.182247,
+          "short-container-title": [
+            "IEEE Access"
+          ],
+          "source": "Crossref",
+          "title": [
+            "Cooperative Planning of Distributed Renewable Energy Assisted 5G Base Station With Battery Swapping System"
+          ],
+          "type": "journal-article",
+          "volume": "9"
+        },
+        {
+          "DOI": "10.1016/j.renene.2024.120424",
+          "ISSN": [
+            "0960-1481"
+          ],
+          "URL": "https://doi.org/10.1016/j.renene.2024.120424",
+          "alternative-id": [
+            "S0960148124004890"
+          ],
+          "article-number": "120424",
+          "assertion": [
+            {
+              "label": "This article is maintained by",
+              "name": "publisher",
+              "value": "Elsevier"
+            },
+            {
+              "label": "Article Title",
+              "name": "articletitle",
+              "value": "Fairness and usability analysis in renewable power curtailment: A microgrid network study using bankruptcy rules"
+            },
+            {
+              "label": "Journal Title",
+              "name": "journaltitle",
+              "value": "Renewable Energy"
+            },
+            {
+              "label": "CrossRef DOI link to publisher maintained version",
+              "name": "articlelink",
+              "value": "https://doi.org/10.1016/j.renene.2024.120424"
+            },
+            {
+              "label": "Content Type",
+              "name": "content_type",
+              "value": "article"
+            },
+            {
+              "label": "Copyright",
+              "name": "copyright",
+              "value": "© 2024 Elsevier Ltd. All rights reserved."
+            }
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Alyami",
+              "given": "Saeed",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "container-title": [
+            "Renewable Energy"
+          ],
+          "content-domain": {
+            "crossmark-restriction": true,
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                3
+              ]
+            ],
+            "date-time": "2024-04-03T07:07:20Z",
+            "timestamp": 1712128040000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                13
+              ]
+            ],
+            "date-time": "2025-05-13T06:33:38Z",
+            "timestamp": 1747118018000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                21
+              ]
+            ],
+            "date-time": "2026-07-21T05:23:23Z",
+            "timestamp": 1784611403883,
+            "version": "3.55.0"
+          },
+          "is-referenced-by-count": 15,
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "0960-1481"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                6
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    6,
+                    1
+                  ]
+                ],
+                "date-time": "2024-06-01T00:00:00Z",
+                "timestamp": 1717200000000
+              }
+            },
+            {
+              "URL": "https://www.elsevier.com/legal/tdmrep-license",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    6,
+                    1
+                  ]
+                ],
+                "date-time": "2024-06-01T00:00:00Z",
+                "timestamp": 1717200000000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-017",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    6,
+                    1
+                  ]
+                ],
+                "date-time": "2024-06-01T00:00:00Z",
+                "timestamp": 1717200000000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    6,
+                    1
+                  ]
+                ],
+                "date-time": "2024-06-01T00:00:00Z",
+                "timestamp": 1717200000000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-012",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    6,
+                    1
+                  ]
+                ],
+                "date-time": "2024-06-01T00:00:00Z",
+                "timestamp": 1717200000000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    6,
+                    1
+                  ]
+                ],
+                "date-time": "2024-06-01T00:00:00Z",
+                "timestamp": 1717200000000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-004",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    6,
+                    1
+                  ]
+                ],
+                "date-time": "2024-06-01T00:00:00Z",
+                "timestamp": 1717200000000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0960148124004890?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S0960148124004890?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "member": "78",
+          "page": "120424",
+          "prefix": "10.1016",
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                6
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2024,
+                6
+              ]
+            ]
+          },
+          "publisher": "Elsevier BV",
+          "reference": [
+            {
+              "article-title": "Energy storage operation with renewable generation for energy self-reliance in smart grid",
+              "author": "Heo",
+              "first-page": "1616",
+              "journal-title": "International Conference on ICT Convergence",
+              "key": "10.1016/j.renene.2024.120424_bib1",
+              "volume": "2020-Octob",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.scs.2022.103788",
+              "article-title": "Resilience enhancement strategies for and through electric vehicles",
+              "author": "Hussain",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Sustain. Cities Soc.",
+              "key": "10.1016/j.renene.2024.120424_bib2",
+              "volume": "80",
+              "year": "2022"
+            },
+            {
+              "article-title": "A microgrid formation-based restoration model for resilient distribution systems using distributed energy resources and demand response programs",
+              "author": "Gilani",
+              "issue": "February",
+              "journal-title": "Sustain. Cities Soc.",
+              "key": "10.1016/j.renene.2024.120424_bib3",
+              "volume": "83",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.scs.2022.104178",
+              "article-title": "Solar PV sharing in urban energy communities: impact of community configurations on profitability, autonomy and the electric grid",
+              "author": "Mehta",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Sustain. Cities Soc.",
+              "key": "10.1016/j.renene.2024.120424_bib4",
+              "volume": "87",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2015.2465181",
+              "article-title": "Optimal sizing and control of energy storage in wind power-rich distribution networks",
+              "author": "Alnaser",
+              "doi-asserted-by": "crossref",
+              "first-page": "2004",
+              "issue": "3",
+              "journal-title": "IEEE Trans. Power Syst.",
+              "key": "10.1016/j.renene.2024.120424_bib5",
+              "volume": "31",
+              "year": "2016"
+            },
+            {
+              "article-title": "Data-driven assisted chance-constrained energy and reserve scheduling with wind curtailment",
+              "author": "Lei",
+              "issue": "May",
+              "journal-title": "Appl. Energy",
+              "key": "10.1016/j.renene.2024.120424_bib7",
+              "volume": "321",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2017.05.035",
+              "article-title": "Game-theoretic modeling of curtailment rules and network investments with distributed generation",
+              "author": "Andoni",
+              "doi-asserted-by": "crossref",
+              "first-page": "174",
+              "journal-title": "Appl. Energy",
+              "key": "10.1016/j.renene.2024.120424_bib8",
+              "volume": "201",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1016/j.enpol.2018.09.007",
+              "article-title": "Curtailment of renewable energy in Northwest China and market-based solutions",
+              "author": "Liu",
+              "doi-asserted-by": "crossref",
+              "first-page": "494",
+              "issue": "September",
+              "journal-title": "Energy Pol.",
+              "key": "10.1016/j.renene.2024.120424_bib9",
+              "volume": "123",
+              "year": "2018"
+            },
+            {
+              "author": "Ramesh",
+              "key": "10.1016/j.renene.2024.120424_bib10",
+              "series-title": "Fair Power Feed-In Algorithms for PV Curtailment with Grid Compliance in LV Distribution Grid",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/TSG.2020.2983771",
+              "article-title": "On the fairness of PV curtailment schemes in residential distribution networks",
+              "author": "Liu",
+              "doi-asserted-by": "crossref",
+              "first-page": "4502",
+              "issue": "5",
+              "journal-title": "IEEE Trans. Smart Grid",
+              "key": "10.1016/j.renene.2024.120424_bib11",
+              "volume": "11",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.renene.2021.04.020",
+              "article-title": "Fair consumer outcomes in the balance: data driven analysis of distributed PV curtailment",
+              "author": "Stringer",
+              "doi-asserted-by": "crossref",
+              "first-page": "972",
+              "journal-title": "Renew. Energy",
+              "key": "10.1016/j.renene.2024.120424_bib12",
+              "volume": "173",
+              "year": "2021"
+            },
+            {
+              "article-title": "Chance-constrained CAES and DRP scheduling to maximize wind power harvesting in congested transmission systems considering operational flexibility",
+              "author": "Abdolahi",
+              "issue": "August",
+              "journal-title": "Sustain. Cities Soc.",
+              "key": "10.1016/j.renene.2024.120424_bib13",
+              "volume": "51",
+              "year": "2019"
+            },
+            {
+              "author": "Ali",
+              "key": "10.1016/j.renene.2024.120424_bib14",
+              "series-title": "Fair Power Curtailment of Distributed Renewable Energy Sources to Mitigate Overvoltages in Low-Voltage Networks",
+              "year": "2015"
+            },
+            {
+              "article-title": "Optimal and fair real power capping method for voltage regulation in distribution networks with high PV penetration",
+              "author": "Zhao",
+              "key": "10.1016/j.renene.2024.120424_bib15",
+              "volume": "2015-Septe",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/TSG.2020.2983771",
+              "article-title": "On the fairness of PV curtailment schemes in residential distribution networks",
+              "author": "Liu",
+              "doi-asserted-by": "crossref",
+              "first-page": "4502",
+              "issue": "5",
+              "journal-title": "IEEE Trans. Smart Grid",
+              "key": "10.1016/j.renene.2024.120424_bib16",
+              "volume": "11",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/TII.2019.2929284",
+              "article-title": "An effort-based reward approach for allocating load shedding amount in networked microgrids using multiagent system",
+              "author": "Hussain",
+              "doi-asserted-by": "crossref",
+              "first-page": "2268",
+              "issue": "4",
+              "journal-title": "IEEE Trans. Ind. Inf.",
+              "key": "10.1016/j.renene.2024.120424_bib17",
+              "volume": "16",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/TMC.2012.177",
+              "article-title": "A nucleolus-based approach for resource allocation in ofdma wireless mesh networks",
+              "author": "Hoteit",
+              "doi-asserted-by": "crossref",
+              "first-page": "2145",
+              "issue": "11",
+              "journal-title": "IEEE Trans. Mobile Comput.",
+              "key": "10.1016/j.renene.2024.120424_bib18",
+              "volume": "12",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1016/j.jher.2018.07.003",
+              "article-title": "The improved bankruptcy method and its application in regional water resource allocation",
+              "author": "Li",
+              "doi-asserted-by": "crossref",
+              "first-page": "48",
+              "journal-title": "J. Hydro-Environment Res.",
+              "key": "10.1016/j.renene.2024.120424_bib19",
+              "volume": "28",
+              "year": "2020"
+            },
+            {
+              "article-title": "Using bankruptcy rules to allocate CO2 emission permits",
+              "author": "Trabelsi",
+              "first-page": "82",
+              "key": "10.1016/j.renene.2024.120424_bib20",
+              "volume": "vol. 277",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/TSG.2019.2911231",
+              "article-title": "Proportional fairness for EV charging in overload",
+              "author": "Zeballos",
+              "doi-asserted-by": "crossref",
+              "first-page": "6792",
+              "issue": "6",
+              "journal-title": "IEEE Trans. Smart Grid",
+              "key": "10.1016/j.renene.2024.120424_bib21",
+              "volume": "10",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/TSTE.2022.3161897",
+              "article-title": "Fairness and utilitarianism in allocating energy to EVs during power contingencies using modified bankruptcy rules",
+              "author": "Hussain",
+              "doi-asserted-by": "crossref",
+              "first-page": "1444",
+              "issue": "3",
+              "journal-title": "IEEE Trans. Sustain. Energy",
+              "key": "10.1016/j.renene.2024.120424_bib22",
+              "volume": "13",
+              "year": "2022"
+            },
+            {
+              "author": "Thomson",
+              "key": "10.1016/j.renene.2024.120424_bib23",
+              "series-title": "How to Divide when There Isn't Enough: from Aristotle, the Talmud, and Maimonides to the Axiomatics of Resource Allocation",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.scs.2017.04.004",
+              "article-title": "Optimal siting and sizing of tri-generation equipment for developing an autonomous community microgrid considering uncertainties",
+              "author": "Hussain",
+              "doi-asserted-by": "crossref",
+              "first-page": "318",
+              "journal-title": "Sustain. Cities Soc.",
+              "key": "10.1016/j.renene.2024.120424_bib24",
+              "volume": "32",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/TSTE.2012.2196771",
+              "article-title": "A methodology for transforming an existing distribution network into a sustainable autonomous micro-grid",
+              "author": "Kirthiga",
+              "doi-asserted-by": "crossref",
+              "first-page": "31",
+              "issue": "1",
+              "journal-title": "IEEE Trans. Sustain. Energy",
+              "key": "10.1016/j.renene.2024.120424_bib25",
+              "volume": "4",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1109/TSG.2014.2330345",
+              "article-title": "Adaptive real power capping method for fair overvoltage regulation of distribution networks with high penetration of PV systems",
+              "author": "Alyami",
+              "doi-asserted-by": "crossref",
+              "first-page": "2729",
+              "issue": "6",
+              "journal-title": "IEEE Trans. Smart Grid",
+              "key": "10.1016/j.renene.2024.120424_bib26",
+              "volume": "5",
+              "year": "2014"
+            },
+            {
+              "article-title": "Renewable curtailment fairness in distribution networks : application of bankruptcy rules",
+              "author": "Alyami",
+              "first-page": "1",
+              "key": "10.1016/j.renene.2024.120424_bib27",
+              "series-title": "IEEE Power and",
+              "year": "2022"
+            },
+            {
+              "author": "Jain",
+              "key": "10.1016/j.renene.2024.120424_bib28",
+              "series-title": "A Quantitative Measure of Fairness and Discrimination for Resource Allocation in Shared Computer Systems",
+              "year": "1998"
+            },
+            {
+              "author": "A",
+              "key": "10.1016/j.renene.2024.120424_bib30",
+              "series-title": "Appendix A IEEE 33-Bus Network Model Data",
+              "year": "2020"
+            }
+          ],
+          "reference-count": 28,
+          "references-count": 28,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0960148124004890"
+            }
+          },
+          "score": 60.634117,
+          "short-container-title": [
+            "Renewable Energy"
+          ],
+          "source": "Crossref",
+          "special_numbering": "C",
+          "title": [
+            "Fairness and usability analysis in renewable power curtailment: A microgrid network study using bankruptcy rules"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "volume": "227"
+        },
+        {
+          "DOI": "10.1201/9788743801108-11",
+          "ISBN": [
+            "9788743801108"
+          ],
+          "URL": "https://doi.org/10.1201/9788743801108-11",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Hemanshi",
+              "given": "Anil K.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Gupta",
+              "given": "Vaibhav",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Nandakumar",
+              "given": "S.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Khara",
+              "given": "Sibaram",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Velmurugan",
+              "given": "T.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "The Road to B5G/6G Mobile Communication Networks: Technologies and Applications"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2025-09-02T12:03:06Z",
+            "timestamp": 1756814586000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2025-09-02T12:03:07Z",
+            "timestamp": 1756814587000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2025-09-02T12:40:15Z",
+            "timestamp": 1756816815601,
+            "version": "3.44.0"
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "electronic",
+              "value": "9788743801108"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ]
+          },
+          "language": "en",
+          "member": "301",
+          "page": "169-187",
+          "prefix": "10.1201",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ]
+          },
+          "publisher": "River Publishers",
+          "publisher-location": "New York",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.taylorfrancis.com/books/9788743801108/chapters/10.1201/9788743801108-11"
+            }
+          },
+          "score": 60.28899,
+          "source": "Crossref",
+          "title": [
+            "Centralized Radio Access Network (C-RAN) Architecture for 5G using Fronthaul (FH) and Backhaul (BH) Networks"
+          ],
+          "type": "book-chapter"
+        },
+        {
+          "DOI": "10.2139/ssrn.5205082",
+          "URL": "https://doi.org/10.2139/ssrn.5205082",
+          "abstract": "<jats:p>Two interdependent domains form the emerging smart grid infrastructure: a hierarchical power system and a two-way communication system. The power and telecom industries have been separately developing their infrastructures, both federating energy resources (generation, storage, and demand-side management) and advocating its digital transformation. Recently, distribution automation technologies have been gaining ground. Distributed generation and storage resources are incrementally added to power systems to increase resilience and economic efficiency. Renewables are predominating the new generating resources, boosting the adoption of power electronics and controllability solutions. Meanwhile, power consumption varies with season, weather, and social factors, creating new challenges for grid operation. The traditional approach to managing fluctuations is expensive and limits economic efficiency. As a result, several power distributors have been rolling out solutions to reduce power fluctuations. One of these automation solutions is known as distribution automation. It allows power distribution systems to automatically reconfigure when a fault occurs, significantly reducing outage time and customer interruptions. Operators might also install sensors on critical grid components to measure equipment status parameters and provide real-time alerts for abnormal conditions. Such sensors feed the telecommunication network, making it a strategic asset. A bidirectional flow of information between power system and communication domain is foreseen, justifying the hybridization of power and telecom infrastructures.</jats:p>",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0002-5385-5259",
+              "affiliation": [],
+              "authenticated-orcid": true,
+              "family": "Annapareddy",
+              "given": "Venkata Narasareddy",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Gadi",
+              "given": "Anil Lokesh",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0002-4530-3075",
+              "affiliation": [],
+              "authenticated-orcid": true,
+              "family": "Kommaragiri",
+              "given": "Venkata Bhardwaj",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Koppolu",
+              "given": "Hara Krishna Reddy",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0009-1010-2493",
+              "affiliation": [],
+              "authenticated-orcid": true,
+              "family": "Kannan",
+              "given": "Sathya",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                6
+              ]
+            ],
+            "date-time": "2025-05-06T14:04:03Z",
+            "timestamp": 1746540243000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                14
+              ]
+            ],
+            "date-time": "2026-08-14T20:50:37Z",
+            "timestamp": 1786740637000
+          },
+          "group-title": "SSRN",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                14
+              ]
+            ],
+            "date-time": "2026-08-14T21:31:34Z",
+            "timestamp": 1786743094642,
+            "version": "build-2736575974"
+          },
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "member": "78",
+          "posted": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "prefix": "10.2139",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "publisher": "Elsevier BV",
+          "reference": [
+            {
+              "author": "References",
+              "key": "ref1"
+            },
+            {
+              "article-title": "Implementing TOGAF for Large-Scale Healthcare Systems Integration",
+              "author": "Dheeraj Kumar",
+              "first-page": "55",
+              "issue": "1",
+              "journal-title": "Internet of Things and Edge Computing Journal",
+              "key": "ref2",
+              "volume": "2",
+              "year": "2022"
+            },
+            {
+              "article-title": "Enhancing Cloudnative Applications WITH Ai AND Ml: A Multicloud Strategy FOR Secure AND Scalable Business Operations",
+              "author": "Avinash Pamisetty",
+              "first-page": "1268",
+              "issue": "6",
+              "journal-title": "Migration Letters",
+              "key": "ref3",
+              "volume": "19",
+              "year": "2022"
+            },
+            {
+              "article-title": "The Impact of Regulatory Technology (RegTech) on Corporate Compliance: A Study on Automation, AI, and Blockchain in Financial Reporting",
+              "author": "Balaji Adusupalli",
+              "first-page": "16696",
+              "issue": "4",
+              "journal-title": "Mathematical Statistician and Engineering Applications",
+              "key": "ref4",
+              "volume": "71",
+              "year": "2022"
+            },
+            {
+              "article-title": "Generative AI-Driven Frameworks for Streamlining Patient Education and Treatment Logistics in Complex Healthcare Ecosystems",
+              "author": "C Chakilam",
+              "journal-title": "Kurdish Studies. Green Publication",
+              "key": "ref5",
+              "year": "2022"
+            },
+            {
+              "article-title": "The Convergence of Artificial Intelligence and Machine Learning in Credit Card Fraud Detection: A Comprehensive Study on Emerging Trends and Advanced Algorithmic Techniques",
+              "author": "L R K Sondinti",
+              "first-page": "10",
+              "issue": "6",
+              "journal-title": "International Journal of Finance (IJFIN)",
+              "key": "ref6",
+              "volume": "36",
+              "year": "2023"
+            },
+            {
+              "author": "H K R Koppolu",
+              "journal-title": "Deep Learning and Agentic AI for Automated Payment Fraud Detection: Enhancing Merchant Services Through Predictive Intelligence",
+              "key": "ref7"
+            },
+            {
+              "article-title": "Generative AI-Driven Automation in Integrated Payment Solutions: Transforming Financial Transactions with Neural Network-Enabled Insights",
+              "author": "H K Sriram",
+              "first-page": "70",
+              "issue": "6",
+              "journal-title": "International Journal of Finance (IJFIN)",
+              "key": "ref8",
+              "volume": "36",
+              "year": "2023"
+            },
+            {
+              "article-title": "Generative AI-Driven Automation in Integrated Payment Solutions: Transforming Financial Transactions with Neural Network-Enabled Insights",
+              "author": "H K Sriram",
+              "first-page": "70",
+              "issue": "6",
+              "journal-title": "International Journal of Finance (IJFIN)",
+              "key": "ref9",
+              "volume": "36",
+              "year": "2023"
+            },
+            {
+              "author": "J K R Burugulla",
+              "journal-title": "The Role of Cloud Computing in Revolutionizing Business Banking Services: A Case Study on American Express's Digital Financial Ecosystem",
+              "key": "ref10",
+              "year": "2022"
+            },
+            {
+              "article-title": "Revolutionizing Patient Outcomes with AI-Powered Generative Models: A New Paradigm in Specialty Pharmacy and Automated Distribution Systems",
+              "author": "K Chava",
+              "issue": "2",
+              "journal-title": "Journal for ReAttach Therapy and Developmental Diversities. Green Publication",
+              "key": "ref11",
+              "year": "2023"
+            },
+            {
+              "article-title": "Impact of AI-Powered Health Insurance Discounts and Wellness Programs on Member Engagement and Retention",
+              "author": "R Reddy",
+              "journal-title": "Letters in High Energy Physics",
+              "key": "ref12",
+              "year": "2023"
+            },
+            {
+              "author": "K Challa",
+              "journal-title": "Transforming Travel Benefits through Generative AI: A Machine Learning Perspective on Enhancing Personalized Consumer Experiences. Educational Administration: Theory and Practice",
+              "key": "ref13",
+              "volume": "29",
+              "year": "2023"
+            },
+            {
+              "author": "K Sondinti",
+              "journal-title": "Optimizing Real-Time Data Processing: Edge and Cloud Computing Integration for Low-Latency Applications in Smart Cities",
+              "key": "ref14",
+              "year": "2023"
+            },
+            {
+              "author": "M Malempati",
+              "journal-title": "Autonomous AI Ecosystems for Seamless Digital Transactions: Exploring Neural Network-Enhanced Predictive Payment Models",
+              "key": "ref15"
+            },
+            {
+              "article-title": "Tax Optimization and Compliance in Global Business Operations: Analyzing the Challenges and Opportunities of International Taxation Policies and Transfer Pricing",
+              "author": "Pallav Kumar",
+              "first-page": "150",
+              "issue": "6",
+              "journal-title": "International Journal of Finance (IJFIN) -ABDC Journal Quality List",
+              "key": "ref16",
+              "volume": "36",
+              "year": "2023"
+            },
+            {
+              "article-title": "Generative AI for Procedural Efficiency in Interventional Radiology and Vascular Access: Automating Diagnostics and Enhancing Treatment Planning",
+              "author": "S T Nuka",
+              "issue": "2",
+              "journal-title": "Journal for ReAttach Therapy and Developmental Diversities. Green Publication",
+              "key": "ref17",
+              "year": "2023"
+            },
+            {
+              "author": "S Kannan",
+              "journal-title": "Generative AI in Technical Support Systems: Enhancing Problem Resolution Efficiency Through AIDriven Learning and Adaptation Models",
+              "key": "ref18"
+            },
+            {
+              "author": "S Kalisetty",
+              "journal-title": "The Role of Circular Supply Chains in Achieving Sustainability Goals: A 2023 Perspective on Recycling, Reuse, and Resource Optimization. Reuse, and Resource Optimization",
+              "key": "ref19",
+              "year": "2023"
+            },
+            {
+              "author": "S R Challa",
+              "journal-title": "Diversification in Investment Portfolios: Evaluating the Performance of Mutual Funds, ETFs, and Fixed Income Securities in Volatile Markets",
+              "key": "ref20"
+            },
+            {
+              "author": "S Paleti",
+              "journal-title": "Transforming Money Transfers and Financial Inclusion: The Impact of AI-Powered Risk Mitigation and Deep Learning-Based Fraud Prevention in Cross-Border Transactions",
+              "key": "ref21"
+            },
+            {
+              "author": "V K A T Ganti",
+              "journal-title": "Transforming Sports Medicine with Deep Learning and Generative AI: Personalized Rehabilitation Protocols and Injury Prevention Strategies for Professional Athletes",
+              "key": "ref22"
+            },
+            {
+              "article-title": "Optimizing Public Service Delivery through AI and ML Driven Predictive Analytics: A Case Study on Taxation, Unclaimed Property, and Vendor Services",
+              "author": "Vamsee Pamisetty",
+              "first-page": "124",
+              "issue": "6",
+              "journal-title": "International Journal of Finance (IJFIN) -ABDC Journal Quality List",
+              "key": "ref23",
+              "volume": "36",
+              "year": "2023"
+            },
+            {
+              "author": "V B Komaragiri",
+              "journal-title": "The Role of Generative AI in Proactive Community Engagement: Developing Scalable Models for Enhancing Social Responsibility through Technological Innovations",
+              "key": "ref24"
+            },
+            {
+              "author": "V K A T Ganti",
+              "journal-title": "AI-Enhanced Chatbots for Real-Time Symptom Analysis and Triage in Telehealth Services",
+              "key": "ref25",
+              "year": "2023"
+            },
+            {
+              "author": "V N Annapareddy",
+              "journal-title": "Generative AI in Predictive Maintenance and Performance Enhancement of Solar Battery Storage Systems. Predictive Maintenance and Performance Enhancement of Solar Battery Storage Systems",
+              "key": "ref26",
+              "year": "2023"
+            },
+            {
+              "article-title": "Exploring Advanced Cybersecurity Mechanisms for Attack Prevention in Cloud-Based Retail Ecosystems",
+              "author": "Chandrashekar Pandugula",
+              "first-page": "1704",
+              "issue": "10",
+              "journal-title": "Journal for ReAttach Therapy and Developmental Diversities",
+              "key": "ref27",
+              "volume": "6",
+              "year": "2023"
+            },
+            {
+              "article-title": "Enhancing data security and privacy in edge computing: A comprehensive review of key technologies and future directions",
+              "author": "R Daruvuri",
+              "first-page": "77",
+              "issue": "1",
+              "journal-title": "International Journal of Research in Electronics and Computer Engineering",
+              "key": "ref28",
+              "volume": "11",
+              "year": "2023"
+            },
+            {
+              "article-title": "SRC/JAICC-136",
+              "author": "Vijay Kartik",
+              "journal-title": "The SRE Playbook: Multi-Cloud Observability, Security, and Automation",
+              "key": "ref29",
+              "year": "2023"
+            },
+            {
+              "author": "R K Vankayalapati",
+              "journal-title": "High-Speed Storage in AI Systems: Unlocking Real-Time Analytics in Cloud-Integrated Frameworks",
+              "key": "ref30",
+              "year": "2023"
+            },
+            {
+              "article-title": "Exploring Advanced Cybersecurity Mechanisms for Attack Prevention in Cloud-Based Retail Ecosystems",
+              "author": "Chandrashekar Pandugula",
+              "first-page": "1704",
+              "issue": "10",
+              "journal-title": "Journal for ReAttach Therapy and Developmental Diversities",
+              "key": "ref31",
+              "volume": "6",
+              "year": "2023"
+            },
+            {
+              "article-title": "Advancing Customer Experience Personalization with AI-Driven Data Engineering: Leveraging Deep Learning for Real-Time Customer Interaction",
+              "author": "H K R Koppolu",
+              "journal-title": "Kurdish Studies. Green Publication",
+              "key": "ref32",
+              "year": "2022"
+            },
+            {
+              "author": "H K Sriram",
+              "first-page": "1017",
+              "journal-title": "AI Neural Networks In Credit Risk Assessment: Redefining Consumer Credit Monitoring And Fraud Protection Through Generative AI Techniques",
+              "key": "ref33",
+              "volume": "19",
+              "year": "2022"
+            },
+            {
+              "article-title": "Generative Neural Models in Healthcare Sampling: Leveraging AI-ML Synergies for Precision-Driven Solutions in Logistics and Fulfillment",
+              "author": "K Chava",
+              "first-page": "6933",
+              "journal-title": "Frontiers in Health Informa",
+              "key": "ref34",
+              "year": "2023"
+            },
+            {
+              "article-title": "Intelligent Healthcare Systems: Harnessing Ai and Ml To Revolutionize Patient Care And Clinical Decision-Making",
+              "author": "R Reddy",
+              "issue": "4",
+              "journal-title": "International Journal of Applied Engineering & Technology",
+              "key": "ref35",
+              "volume": "5",
+              "year": "2023"
+            },
+            {
+              "author": "K Challa",
+              "journal-title": "Dynamic Neural Network Architectures for Real-Time Fraud Detection in Digital Payment Systems Using Machine Learning and Generative AI",
+              "key": "ref36"
+            },
+            {
+              "author": "K Sondinti",
+              "journal-title": "The Socioeconomic Impacts of Financial Literacy Programs on Credit Card Utilization and Debt Management among Millennials and Gen Z Consumers",
+              "key": "ref37",
+              "year": "2023"
+            },
+            {
+              "author": "M Malempati",
+              "journal-title": "Machine Learning and Generative Neural Networks in Adaptive Risk Management: Pioneering Secure Financial Frameworks. Kurdish Studies. Green Publication",
+              "key": "ref38",
+              "year": "2022"
+            },
+            {
+              "author": "Pallav Kumar",
+              "first-page": "16679",
+              "journal-title": "The Role of Digital Transformation in Financial Audit and Assurance: Leveraging AI and Blockchain for Enhanced Transparency and Accuracy",
+              "key": "ref39",
+              "volume": "71",
+              "year": "2022"
+            },
+            {
+              "article-title": "The Role of AI Driven Clinical Research in Medical Device Development: A Data Driven Approach to Regulatory Compliance and Quality Assurance",
+              "author": "S T Nuka",
+              "issue": "1",
+              "journal-title": "Global Journal of Medical Case Reports",
+              "key": "ref40",
+              "volume": "2",
+              "year": "2022"
+            },
+            {
+              "author": "S Kannan",
+              "journal-title": "The Convergence of AI, Machine Learning, and Neural Networks in Precision Agriculture: Generative AI as a Catalyst for Future Food Systems",
+              "key": "ref41"
+            },
+            {
+              "article-title": "AI-Native Cloud Platforms: Redefining Scalability and Flexibility in Artificial Intelligence Workflows",
+              "author": "S Kalisetty",
+              "first-page": "1",
+              "issue": "1",
+              "journal-title": "Linguistic and Philosophical Investigations",
+              "key": "ref42",
+              "volume": "21",
+              "year": "2022"
+            },
+            {
+              "article-title": "The Role of Artificial Intelligence in Wealth Advisory: Enhancing Personalized Investment Strategies Through DataDriven Decision Making",
+              "author": "S R Challa",
+              "first-page": "26",
+              "issue": "6",
+              "journal-title": "International Journal of Finance (IJFIN)",
+              "key": "ref43",
+              "volume": "36",
+              "year": "2023"
+            },
+            {
+              "article-title": "Exploring the Intersection of Bioethics and AI-Driven Clinical Decision-Making: Navigating the Ethical Challenges of Deep Learning Applications in Personalized Medicine and Experimental Treatments",
+              "author": "Krishna Azith Teja Venkata",
+              "journal-title": "Journal of Material Sciences & Manufacturing Research",
+              "key": "ref44",
+              "year": "2023"
+            },
+            {
+              "article-title": "AI-Powered Predictive Systems for Managing Epidemic Spread in High-Density Populations",
+              "author": "T N S Polineni",
+              "journal-title": "Journal for ReAttach Therapy and Developmental Diversities. Green Publication",
+              "key": "ref45",
+              "year": "2023"
+            },
+            {
+              "article-title": "AI-Driven Decision Support Systems: The Role Of High-Speed Storage And Cloud Integration In Business Insights",
+              "author": "Ravi Kumar Vankayalapati",
+              "first-page": "1871",
+              "issue": "S8",
+              "journal-title": "Migration Letters",
+              "key": "ref46",
+              "volume": "19",
+              "year": "2022"
+            },
+            {
+              "author": "C Pandugula",
+              "journal-title": "Optimizing Retail Performance: Cloud-Enabled Big Data Strategies for Enhanced Consumer Insights",
+              "key": "ref47"
+            },
+            {
+              "article-title": "Redefining Pharmaceutical Distribution With AI-Infused Neural Networks: Generative AI Applications In Predictive",
+              "author": "K Chava",
+              "first-page": "1905",
+              "journal-title": "Compliance And Operational Efficiency. Migration Letters",
+              "key": "ref48",
+              "volume": "19",
+              "year": "2022"
+            },
+            {
+              "author": "K K Maguluri",
+              "journal-title": "Predictive Analytics in Biologics: Improving Production Outcomes Using Big Data",
+              "key": "ref49",
+              "year": "2019"
+            },
+            {
+              "article-title": "The Impact of Instant Credit Card Issuance and Personalized Financial Solutions on Enhancing Customer Experience in the Digital Banking Era",
+              "author": "L R Kothapalli Sondinti",
+              "issue": "1",
+              "journal-title": "Universal Journal of Finance and Economics",
+              "key": "ref50",
+              "volume": "1",
+              "year": "2022"
+            },
+            {
+              "article-title": "AI Neural Network Architectures For Personalized Payment Systems: Exploring Machine Learning's Role In Real-Time Consumer Insights",
+              "author": "M Malempati",
+              "first-page": "1934",
+              "issue": "S8",
+              "journal-title": "Migration Letters",
+              "key": "ref51",
+              "volume": "19",
+              "year": "2022"
+            },
+            {
+              "article-title": "A Novel Hybrid Algorithm Combining Neural Networks And Genetic Programming For Cloud Resource Management",
+              "author": "Sai Teja",
+              "first-page": "6953",
+              "journal-title": "Frontiers in Health Informa",
+              "key": "ref52",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.31586/materials.2019.1254",
+              "article-title": "Transforming the Retail Landscape: Srinivas's Vision for Integrating Advanced Technologies in Supply Chain Efficiency and Customer Experience",
+              "author": "S Kalisetty",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Online Journal of Materials Science",
+              "key": "ref53",
+              "volume": "1",
+              "year": "2019"
+            },
+            {
+              "author": "V K A T Ganti",
+              "journal-title": "Transforming Sports Medicine with Deep Learning and Generative AI: Personalized Rehabilitation Protocols and Injury Prevention Strategies for Professional Athletes",
+              "key": "ref54"
+            },
+            {
+              "article-title": "AI-Driven Maintenance Algorithms For Intelligent Network Systems: Leveraging Neural Networks To Predict And Optimize Performance In Dynamic Environments",
+              "author": "V B Komaragiri",
+              "first-page": "1949",
+              "journal-title": "Migration Letters",
+              "key": "ref55",
+              "volume": "19",
+              "year": "2022"
+            },
+            {
+              "author": "V K A T Ganti",
+              "journal-title": "Leveraging Neural Networks for Real-Time Blood Analysis in Critical Care Units",
+              "key": "ref56",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.31586/ujcsc.2019.1253",
+              "article-title": "A Comprehensive Study of Proactive Cybersecurity Models in Cloud-Driven Retail Technology Architectures",
+              "author": "C Pandugula",
+              "doi-asserted-by": "crossref",
+              "issue": "1",
+              "journal-title": "Universal Journal of Computer Sciences and Communications",
+              "key": "ref57",
+              "volume": "1",
+              "year": "2019"
+            },
+            {
+              "author": "V K Sikha",
+              "journal-title": "Ease of Building Omni-Channel Customer Care Services with Cloud-Based Telephony Services & AI",
+              "key": "ref58",
+              "year": "2020"
+            },
+            {
+              "article-title": "Cybersecurity in Utilities: Protecting Critical Infrastructure from Emerging Threats",
+              "author": "Vijay Kartik Sikha",
+              "journal-title": "Journal of Scientific and Engineering Research",
+              "key": "ref59",
+              "year": "2023"
+            },
+            {
+              "author": "V K Sikha",
+              "journal-title": "Finops Practice Accelerating Innovation on Public Cloud. Zenodo",
+              "key": "ref60",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.31586/ujfe.2022.1276",
+              "article-title": "Optimizing Retirement Planning Strategies: A Comparative Analysis of Traditional, Roth, and Rollover IRAs in LongTerm Wealth Management",
+              "author": "S R Challa",
+              "doi-asserted-by": "crossref",
+              "issue": "1",
+              "journal-title": "Universal Journal of Finance and Economics",
+              "key": "ref61",
+              "volume": "2",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.62441/nano-ntp.vi.4677",
+              "article-title": "From Precision Medicine to Digital Agility: Subash's Role in Transforming Complex Challenges into Scalable Industry Solutions",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "journal-title": "Nanotechnology Perceptions",
+              "key": "ref62",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.18535/ijsrm/v10i10.ec05",
+              "article-title": "AI-Driven Vulnerability Management and Automated Threat Mitigation",
+              "author": "V B Komaragiri",
+              "doi-asserted-by": "crossref",
+              "first-page": "981",
+              "issue": "10",
+              "journal-title": "International Journal of Scientific Research and Management (IJSRM)",
+              "key": "ref63",
+              "volume": "10",
+              "year": "2022"
+            },
+            {
+              "article-title": "Data Engineering Frameworks for Optimizing Community Health Surveillance Systems",
+              "author": "V K A Ganti",
+              "journal-title": "Global Journal of Medical Case Reports",
+              "key": "ref64",
+              "volume": "1",
+              "year": "2019"
+            },
+            {
+              "author": "Z Yasmeen",
+              "journal-title": "The Role of Neural Networks in Advancing Wearable Healthcare Technology Analytics",
+              "key": "ref65",
+              "year": "2019"
+            },
+            {
+              "author": "R K Vankayalapati",
+              "journal-title": "AI-Driven Decision Support Systems: The Role Of High-Speed Storage And Cloud Integration In Business Insights",
+              "key": "ref66",
+              "year": "2020"
+            },
+            {
+              "article-title": "Deep Learning Applications In Materials Management For Pharmaceutical Supply Chains",
+              "author": "V O R Puli",
+              "first-page": "1144",
+              "issue": "6",
+              "journal-title": "Migration Letters",
+              "key": "ref67",
+              "volume": "19",
+              "year": "2022"
+            },
+            {
+              "author": "V K Sikha",
+              "journal-title": "Enhancing Energy Efficiency in Cloud Computing Operations Through Artificial Intelligence",
+              "key": "ref68",
+              "year": "2021"
+            },
+            {
+              "article-title": "Revolutionizing Patient Care and Digital Infrastructure: Integrating Cloud Computing and Advanced Data Engineering for Industry Innovation",
+              "author": "T N S Polineni",
+              "journal-title": "World",
+              "key": "ref69",
+              "volume": "1",
+              "year": "2019"
+            },
+            {
+              "article-title": "Reinforcement deep learning approach for multi-user task offloading in edge-cloud joint computing systems",
+              "author": "K Patibandla",
+              "first-page": "47",
+              "issue": "3",
+              "journal-title": "International Journal of Research in Electronics and Computer Engineering",
+              "key": "ref70",
+              "volume": "11",
+              "year": "2023"
+            },
+            {
+              "author": "V K Sikha",
+              "journal-title": "Mastering the Cloud -How Microsoft's Frameworks Shape Cloud Journeys",
+              "key": "ref71",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.30574/wjarr.2023.20.1.2045",
+              "article-title": "Dynamic load balancing in AI-enabled cloud infrastructures using reinforcement learning and algorithmic optimization",
+              "author": "R Daruvuri",
+              "doi-asserted-by": "crossref",
+              "first-page": "1327",
+              "issue": "1",
+              "journal-title": "World Journal of Advanced Research and Reviews",
+              "key": "ref72",
+              "volume": "20",
+              "year": "2023"
+            },
+            {
+              "article-title": "The SRE Playbook: Multi-Cloud Observability, Security, and Automation",
+              "author": "V K Sikha",
+              "journal-title": "Journal of Artificial Intelligence &amp",
+              "key": "ref73",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.30574/ijsra.2022.7.2.0334",
+              "article-title": "Harnessing vector databases: A comprehensive analysis of their role across industries",
+              "author": "R Daruvuri",
+              "doi-asserted-by": "crossref",
+              "first-page": "703",
+              "issue": "2",
+              "journal-title": "International Journal of Science and Research Archive",
+              "key": "ref74",
+              "volume": "7",
+              "year": "2022"
+            },
+            {
+              "author": "V K Sikha",
+              "journal-title": "Cloud-Native Application Development for AI-Conducive Architectures",
+              "key": "ref75",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.30574/wjarr.2022.13.1.0749",
+              "article-title": "An improved AI framework for automating data analysis",
+              "author": "R Daruvuri",
+              "doi-asserted-by": "crossref",
+              "first-page": "863",
+              "issue": "1",
+              "journal-title": "World Journal of Advanced Research and Reviews",
+              "key": "ref76",
+              "volume": "13",
+              "year": "2022"
+            },
+            {
+              "article-title": "AI and ML in Healthcare: Redefining Diagnostics, Treatment, and Personalized Medicine",
+              "author": "G Mandala",
+              "issue": "S6",
+              "journal-title": "International Journal of Applied Engineering & Technology",
+              "key": "ref77",
+              "volume": "5",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.31586/ujcsc.2019.1253",
+              "article-title": "A Comprehensive Study of Proactive Cybersecurity Models in Cloud-Driven Retail Technology Architectures",
+              "author": "C Pandugula",
+              "doi-asserted-by": "crossref",
+              "issue": "1",
+              "journal-title": "Universal Journal of Computer Sciences and Communications",
+              "key": "ref78",
+              "volume": "1",
+              "year": "2019"
+            },
+            {
+              "author": "R K Vankayalapati",
+              "journal-title": "AI Clusters and Elastic Capacity Management: Designing Systems for Diverse Computational Demands",
+              "key": "ref79",
+              "year": "2022"
+            },
+            {
+              "author": "S Syed",
+              "journal-title": "Data-Driven Innovation in Finance: Crafting Intelligent Solutions for Customer-Centric Service Delivery and Competitive Advantage",
+              "key": "ref80",
+              "year": "2019"
+            }
+          ],
+          "reference-count": 80,
+          "references-count": 80,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=5205082"
+            }
+          },
+          "score": 60.157364,
+          "source": "Crossref",
+          "subtype": "preprint",
+          "title": [
+            "AI-Driven Optimization of Renewable Energy Systems: Enhancing Grid Efficiency and Smart Mobility Through 5G and 6G Network Integration"
+          ],
+          "type": "posted-content"
+        },
+        {
+          "DOI": "10.2139/ssrn.5205158",
+          "URL": "https://doi.org/10.2139/ssrn.5205158",
+          "abstract": "<jats:p>Two interdependent domains form the emerging smart grid infrastructure: a hierarchical power system and a two-way communication system. The power and telecom industries have been separately developing their infrastructures, both federating energy resources (generation, storage, and demand-side management) and advocating its digital transformation. Recently, distribution automation technologies have been gaining ground. Distributed generation and storage resources are incrementally added to power systems to increase resilience and economic efficiency. Renewables are predominating the new generating resources, boosting the adoption of power electronics and controllability solutions. Meanwhile, power consumption varies with season, weather, and social factors, creating new challenges for grid operation. The traditional approach to managing fluctuations is expensive and limits economic efficiency. As a result, several power distributors have been rolling out solutions to reduce power fluctuations. One of these automation solutions is known as distribution automation. It allows power distribution systems to automatically reconfigure when a fault occurs, significantly reducing outage time and customer interruptions. Operators might also install sensors on critical grid components to measure equipment status parameters and provide real-time alerts for abnormal conditions. Such sensors feed the telecommunication network, making it a strategic asset. A bidirectional flow of information between power system and communication domain is foreseen, justifying the hybridization of power and telecom infrastructures.</jats:p>",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0009-1010-2493",
+              "affiliation": [],
+              "authenticated-orcid": true,
+              "family": "Kannan",
+              "given": "Sathya",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Annapareddy",
+              "given": "Venkata Narasareddy",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Gadi",
+              "given": "Anil Lokesh",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0002-4530-3075",
+              "affiliation": [],
+              "authenticated-orcid": true,
+              "family": "Kommaragiri",
+              "given": "Venkata Bhardwaj",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Koppolu",
+              "given": "Hara Krishna Reddy",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                6
+              ]
+            ],
+            "date-time": "2025-05-06T14:03:34Z",
+            "timestamp": 1746540214000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                16
+              ]
+            ],
+            "date-time": "2026-08-16T15:39:42Z",
+            "timestamp": 1786894782000
+          },
+          "group-title": "SSRN",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                16
+              ]
+            ],
+            "date-time": "2026-08-16T16:29:04Z",
+            "timestamp": 1786897744658,
+            "version": "build-2736575974"
+          },
+          "is-referenced-by-count": 1,
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "member": "78",
+          "posted": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "prefix": "10.2139",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "publisher": "Elsevier BV",
+          "reference": [
+            {
+              "author": "References",
+              "key": "ref1"
+            },
+            {
+              "article-title": "Implementing TOGAF for Large-Scale Healthcare Systems Integration",
+              "author": "Dheeraj Kumar",
+              "first-page": "55",
+              "issue": "1",
+              "journal-title": "Internet of Things and Edge Computing Journal",
+              "key": "ref2",
+              "volume": "2",
+              "year": "2022"
+            },
+            {
+              "article-title": "Enhancing Cloudnative Applications WITH Ai AND Ml: A Multicloud Strategy FOR Secure AND Scalable Business Operations",
+              "author": "Avinash Pamisetty",
+              "first-page": "1268",
+              "issue": "6",
+              "journal-title": "Migration Letters",
+              "key": "ref3",
+              "volume": "19",
+              "year": "2022"
+            },
+            {
+              "article-title": "The Impact of Regulatory Technology (RegTech) on Corporate Compliance: A Study on Automation, AI, and Blockchain in Financial Reporting",
+              "author": "Balaji Adusupalli",
+              "first-page": "16696",
+              "issue": "4",
+              "journal-title": "Mathematical Statistician and Engineering Applications",
+              "key": "ref4",
+              "volume": "71",
+              "year": "2022"
+            },
+            {
+              "article-title": "Generative AI-Driven Frameworks for Streamlining Patient Education and Treatment Logistics in Complex Healthcare Ecosystems",
+              "author": "C Chakilam",
+              "journal-title": "Kurdish Studies. Green Publication",
+              "key": "ref5",
+              "year": "2022"
+            },
+            {
+              "article-title": "The Convergence of Artificial Intelligence and Machine Learning in Credit Card Fraud Detection: A Comprehensive Study on Emerging Trends and Advanced Algorithmic Techniques",
+              "author": "L R K Sondinti",
+              "first-page": "10",
+              "issue": "6",
+              "journal-title": "International Journal of Finance (IJFIN)",
+              "key": "ref6",
+              "volume": "36",
+              "year": "2023"
+            },
+            {
+              "author": "H K R Koppolu",
+              "journal-title": "Deep Learning and Agentic AI for Automated Payment Fraud Detection: Enhancing Merchant Services Through Predictive Intelligence",
+              "key": "ref7"
+            },
+            {
+              "article-title": "Generative AI-Driven Automation in Integrated Payment Solutions: Transforming Financial Transactions with Neural Network-Enabled Insights",
+              "author": "H K Sriram",
+              "first-page": "70",
+              "issue": "6",
+              "journal-title": "International Journal of Finance (IJFIN)",
+              "key": "ref8",
+              "volume": "36",
+              "year": "2023"
+            },
+            {
+              "article-title": "Generative AI-Driven Automation in Integrated Payment Solutions: Transforming Financial Transactions with Neural Network-Enabled Insights",
+              "author": "H K Sriram",
+              "first-page": "70",
+              "issue": "6",
+              "journal-title": "International Journal of Finance (IJFIN)",
+              "key": "ref9",
+              "volume": "36",
+              "year": "2023"
+            },
+            {
+              "author": "J K R Burugulla",
+              "journal-title": "The Role of Cloud Computing in Revolutionizing Business Banking Services: A Case Study on American Express's Digital Financial Ecosystem",
+              "key": "ref10",
+              "year": "2022"
+            },
+            {
+              "article-title": "Revolutionizing Patient Outcomes with AI-Powered Generative Models: A New Paradigm in Specialty Pharmacy and Automated Distribution Systems",
+              "author": "K Chava",
+              "issue": "2",
+              "journal-title": "Journal for ReAttach Therapy and Developmental Diversities. Green Publication",
+              "key": "ref11",
+              "year": "2023"
+            },
+            {
+              "article-title": "Impact of AI-Powered Health Insurance Discounts and Wellness Programs on Member Engagement and Retention",
+              "author": "R Reddy",
+              "journal-title": "Letters in High Energy Physics",
+              "key": "ref12",
+              "year": "2023"
+            },
+            {
+              "author": "K Challa",
+              "journal-title": "Transforming Travel Benefits through Generative AI: A Machine Learning Perspective on Enhancing Personalized Consumer Experiences. Educational Administration: Theory and Practice",
+              "key": "ref13",
+              "volume": "29",
+              "year": "2023"
+            },
+            {
+              "author": "K Sondinti",
+              "journal-title": "Optimizing Real-Time Data Processing: Edge and Cloud Computing Integration for Low-Latency Applications in Smart Cities",
+              "key": "ref14",
+              "year": "2023"
+            },
+            {
+              "author": "M Malempati",
+              "journal-title": "Autonomous AI Ecosystems for Seamless Digital Transactions: Exploring Neural Network-Enhanced Predictive Payment Models",
+              "key": "ref15"
+            },
+            {
+              "article-title": "Tax Optimization and Compliance in Global Business Operations: Analyzing the Challenges and Opportunities of International Taxation Policies and Transfer Pricing",
+              "author": "Pallav Kumar",
+              "first-page": "150",
+              "issue": "6",
+              "journal-title": "International Journal of Finance (IJFIN) -ABDC Journal Quality List",
+              "key": "ref16",
+              "volume": "36",
+              "year": "2023"
+            },
+            {
+              "article-title": "Generative AI for Procedural Efficiency in Interventional Radiology and Vascular Access: Automating Diagnostics and Enhancing Treatment Planning",
+              "author": "S T Nuka",
+              "issue": "2",
+              "journal-title": "Journal for ReAttach Therapy and Developmental Diversities. Green Publication",
+              "key": "ref17",
+              "year": "2023"
+            },
+            {
+              "author": "S Kannan",
+              "journal-title": "Generative AI in Technical Support Systems: Enhancing Problem Resolution Efficiency Through AIDriven Learning and Adaptation Models",
+              "key": "ref18"
+            },
+            {
+              "author": "S Kalisetty",
+              "journal-title": "The Role of Circular Supply Chains in Achieving Sustainability Goals: A 2023 Perspective on Recycling, Reuse, and Resource Optimization. Reuse, and Resource Optimization",
+              "key": "ref19",
+              "year": "2023"
+            },
+            {
+              "author": "S R Challa",
+              "journal-title": "Diversification in Investment Portfolios: Evaluating the Performance of Mutual Funds, ETFs, and Fixed Income Securities in Volatile Markets",
+              "key": "ref20"
+            },
+            {
+              "author": "S Paleti",
+              "journal-title": "Transforming Money Transfers and Financial Inclusion: The Impact of AI-Powered Risk Mitigation and Deep Learning-Based Fraud Prevention in Cross-Border Transactions",
+              "key": "ref21"
+            },
+            {
+              "author": "V K A T Ganti",
+              "journal-title": "Transforming Sports Medicine with Deep Learning and Generative AI: Personalized Rehabilitation Protocols and Injury Prevention Strategies for Professional Athletes",
+              "key": "ref22"
+            },
+            {
+              "article-title": "Optimizing Public Service Delivery through AI and ML Driven Predictive Analytics: A Case Study on Taxation, Unclaimed Property, and Vendor Services",
+              "author": "Vamsee Pamisetty",
+              "first-page": "124",
+              "issue": "6",
+              "journal-title": "International Journal of Finance (IJFIN) -ABDC Journal Quality List",
+              "key": "ref23",
+              "volume": "36",
+              "year": "2023"
+            },
+            {
+              "author": "V B Komaragiri",
+              "journal-title": "The Role of Generative AI in Proactive Community Engagement: Developing Scalable Models for Enhancing Social Responsibility through Technological Innovations",
+              "key": "ref24"
+            },
+            {
+              "author": "V K A T Ganti",
+              "journal-title": "AI-Enhanced Chatbots for Real-Time Symptom Analysis and Triage in Telehealth Services",
+              "key": "ref25",
+              "year": "2023"
+            },
+            {
+              "author": "V N Annapareddy",
+              "journal-title": "Generative AI in Predictive Maintenance and Performance Enhancement of Solar Battery Storage Systems. Predictive Maintenance and Performance Enhancement of Solar Battery Storage Systems",
+              "key": "ref26",
+              "year": "2023"
+            },
+            {
+              "article-title": "Exploring Advanced Cybersecurity Mechanisms for Attack Prevention in Cloud-Based Retail Ecosystems",
+              "author": "Chandrashekar Pandugula",
+              "first-page": "1704",
+              "issue": "10",
+              "journal-title": "Journal for ReAttach Therapy and Developmental Diversities",
+              "key": "ref27",
+              "volume": "6",
+              "year": "2023"
+            },
+            {
+              "article-title": "Enhancing data security and privacy in edge computing: A comprehensive review of key technologies and future directions",
+              "author": "R Daruvuri",
+              "first-page": "77",
+              "issue": "1",
+              "journal-title": "International Journal of Research in Electronics and Computer Engineering",
+              "key": "ref28",
+              "volume": "11",
+              "year": "2023"
+            },
+            {
+              "article-title": "SRC/JAICC-136",
+              "author": "Vijay Kartik",
+              "journal-title": "The SRE Playbook: Multi-Cloud Observability, Security, and Automation",
+              "key": "ref29",
+              "year": "2023"
+            },
+            {
+              "author": "R K Vankayalapati",
+              "journal-title": "High-Speed Storage in AI Systems: Unlocking Real-Time Analytics in Cloud-Integrated Frameworks",
+              "key": "ref30",
+              "year": "2023"
+            },
+            {
+              "article-title": "Exploring Advanced Cybersecurity Mechanisms for Attack Prevention in Cloud-Based Retail Ecosystems",
+              "author": "Chandrashekar Pandugula",
+              "first-page": "1704",
+              "issue": "10",
+              "journal-title": "Journal for ReAttach Therapy and Developmental Diversities",
+              "key": "ref31",
+              "volume": "6",
+              "year": "2023"
+            },
+            {
+              "article-title": "Advancing Customer Experience Personalization with AI-Driven Data Engineering: Leveraging Deep Learning for Real-Time Customer Interaction",
+              "author": "H K R Koppolu",
+              "journal-title": "Kurdish Studies. Green Publication",
+              "key": "ref32",
+              "year": "2022"
+            },
+            {
+              "author": "H K Sriram",
+              "first-page": "1017",
+              "journal-title": "AI Neural Networks In Credit Risk Assessment: Redefining Consumer Credit Monitoring And Fraud Protection Through Generative AI Techniques",
+              "key": "ref33",
+              "volume": "19",
+              "year": "2022"
+            },
+            {
+              "article-title": "Generative Neural Models in Healthcare Sampling: Leveraging AI-ML Synergies for Precision-Driven Solutions in Logistics and Fulfillment",
+              "author": "K Chava",
+              "first-page": "6933",
+              "journal-title": "Frontiers in Health Informa",
+              "key": "ref34",
+              "year": "2023"
+            },
+            {
+              "article-title": "Intelligent Healthcare Systems: Harnessing Ai and Ml To Revolutionize Patient Care And Clinical Decision-Making",
+              "author": "R Reddy",
+              "issue": "4",
+              "journal-title": "International Journal of Applied Engineering & Technology",
+              "key": "ref35",
+              "volume": "5",
+              "year": "2023"
+            },
+            {
+              "author": "K Challa",
+              "journal-title": "Dynamic Neural Network Architectures for Real-Time Fraud Detection in Digital Payment Systems Using Machine Learning and Generative AI",
+              "key": "ref36"
+            },
+            {
+              "author": "K Sondinti",
+              "journal-title": "The Socioeconomic Impacts of Financial Literacy Programs on Credit Card Utilization and Debt Management among Millennials and Gen Z Consumers",
+              "key": "ref37",
+              "year": "2023"
+            },
+            {
+              "author": "M Malempati",
+              "journal-title": "Machine Learning and Generative Neural Networks in Adaptive Risk Management: Pioneering Secure Financial Frameworks. Kurdish Studies. Green Publication",
+              "key": "ref38",
+              "year": "2022"
+            },
+            {
+              "author": "Pallav Kumar",
+              "first-page": "16679",
+              "journal-title": "The Role of Digital Transformation in Financial Audit and Assurance: Leveraging AI and Blockchain for Enhanced Transparency and Accuracy",
+              "key": "ref39",
+              "volume": "71",
+              "year": "2022"
+            },
+            {
+              "article-title": "The Role of AI Driven Clinical Research in Medical Device Development: A Data Driven Approach to Regulatory Compliance and Quality Assurance",
+              "author": "S T Nuka",
+              "issue": "1",
+              "journal-title": "Global Journal of Medical Case Reports",
+              "key": "ref40",
+              "volume": "2",
+              "year": "2022"
+            },
+            {
+              "author": "S Kannan",
+              "journal-title": "The Convergence of AI, Machine Learning, and Neural Networks in Precision Agriculture: Generative AI as a Catalyst for Future Food Systems",
+              "key": "ref41"
+            },
+            {
+              "article-title": "AI-Native Cloud Platforms: Redefining Scalability and Flexibility in Artificial Intelligence Workflows",
+              "author": "S Kalisetty",
+              "first-page": "1",
+              "issue": "1",
+              "journal-title": "Linguistic and Philosophical Investigations",
+              "key": "ref42",
+              "volume": "21",
+              "year": "2022"
+            },
+            {
+              "article-title": "The Role of Artificial Intelligence in Wealth Advisory: Enhancing Personalized Investment Strategies Through DataDriven Decision Making",
+              "author": "S R Challa",
+              "first-page": "26",
+              "issue": "6",
+              "journal-title": "International Journal of Finance (IJFIN)",
+              "key": "ref43",
+              "volume": "36",
+              "year": "2023"
+            },
+            {
+              "article-title": "Exploring the Intersection of Bioethics and AI-Driven Clinical Decision-Making: Navigating the Ethical Challenges of Deep Learning Applications in Personalized Medicine and Experimental Treatments",
+              "author": "Krishna Azith Teja Venkata",
+              "journal-title": "Journal of Material Sciences & Manufacturing Research",
+              "key": "ref44",
+              "year": "2023"
+            },
+            {
+              "article-title": "AI-Powered Predictive Systems for Managing Epidemic Spread in High-Density Populations",
+              "author": "T N S Polineni",
+              "journal-title": "Journal for ReAttach Therapy and Developmental Diversities. Green Publication",
+              "key": "ref45",
+              "year": "2023"
+            },
+            {
+              "article-title": "AI-Driven Decision Support Systems: The Role Of High-Speed Storage And Cloud Integration In Business Insights",
+              "author": "Ravi Kumar Vankayalapati",
+              "first-page": "1871",
+              "issue": "S8",
+              "journal-title": "Migration Letters",
+              "key": "ref46",
+              "volume": "19",
+              "year": "2022"
+            },
+            {
+              "author": "C Pandugula",
+              "journal-title": "Optimizing Retail Performance: Cloud-Enabled Big Data Strategies for Enhanced Consumer Insights",
+              "key": "ref47"
+            },
+            {
+              "article-title": "Redefining Pharmaceutical Distribution With AI-Infused Neural Networks: Generative AI Applications In Predictive",
+              "author": "K Chava",
+              "first-page": "1905",
+              "journal-title": "Compliance And Operational Efficiency. Migration Letters",
+              "key": "ref48",
+              "volume": "19",
+              "year": "2022"
+            },
+            {
+              "author": "K K Maguluri",
+              "journal-title": "Predictive Analytics in Biologics: Improving Production Outcomes Using Big Data",
+              "key": "ref49",
+              "year": "2019"
+            },
+            {
+              "article-title": "The Impact of Instant Credit Card Issuance and Personalized Financial Solutions on Enhancing Customer Experience in the Digital Banking Era",
+              "author": "L R Kothapalli Sondinti",
+              "issue": "1",
+              "journal-title": "Universal Journal of Finance and Economics",
+              "key": "ref50",
+              "volume": "1",
+              "year": "2022"
+            },
+            {
+              "article-title": "AI Neural Network Architectures For Personalized Payment Systems: Exploring Machine Learning's Role In Real-Time Consumer Insights",
+              "author": "M Malempati",
+              "first-page": "1934",
+              "issue": "S8",
+              "journal-title": "Migration Letters",
+              "key": "ref51",
+              "volume": "19",
+              "year": "2022"
+            },
+            {
+              "article-title": "A Novel Hybrid Algorithm Combining Neural Networks And Genetic Programming For Cloud Resource Management",
+              "author": "Sai Teja",
+              "first-page": "6953",
+              "journal-title": "Frontiers in Health Informa",
+              "key": "ref52",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.31586/materials.2019.1254",
+              "article-title": "Transforming the Retail Landscape: Srinivas's Vision for Integrating Advanced Technologies in Supply Chain Efficiency and Customer Experience",
+              "author": "S Kalisetty",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Online Journal of Materials Science",
+              "key": "ref53",
+              "volume": "1",
+              "year": "2019"
+            },
+            {
+              "author": "V K A T Ganti",
+              "journal-title": "Transforming Sports Medicine with Deep Learning and Generative AI: Personalized Rehabilitation Protocols and Injury Prevention Strategies for Professional Athletes",
+              "key": "ref54"
+            },
+            {
+              "article-title": "AI-Driven Maintenance Algorithms For Intelligent Network Systems: Leveraging Neural Networks To Predict And Optimize Performance In Dynamic Environments",
+              "author": "V B Komaragiri",
+              "first-page": "1949",
+              "journal-title": "Migration Letters",
+              "key": "ref55",
+              "volume": "19",
+              "year": "2022"
+            },
+            {
+              "author": "V K A T Ganti",
+              "journal-title": "Leveraging Neural Networks for Real-Time Blood Analysis in Critical Care Units",
+              "key": "ref56",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.31586/ujcsc.2019.1253",
+              "article-title": "A Comprehensive Study of Proactive Cybersecurity Models in Cloud-Driven Retail Technology Architectures",
+              "author": "C Pandugula",
+              "doi-asserted-by": "crossref",
+              "issue": "1",
+              "journal-title": "Universal Journal of Computer Sciences and Communications",
+              "key": "ref57",
+              "volume": "1",
+              "year": "2019"
+            },
+            {
+              "author": "V K Sikha",
+              "journal-title": "Ease of Building Omni-Channel Customer Care Services with Cloud-Based Telephony Services & AI",
+              "key": "ref58",
+              "year": "2020"
+            },
+            {
+              "article-title": "Cybersecurity in Utilities: Protecting Critical Infrastructure from Emerging Threats",
+              "author": "Vijay Kartik Sikha",
+              "journal-title": "Journal of Scientific and Engineering Research",
+              "key": "ref59",
+              "year": "2023"
+            },
+            {
+              "author": "V K Sikha",
+              "journal-title": "Finops Practice Accelerating Innovation on Public Cloud. Zenodo",
+              "key": "ref60",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.31586/ujfe.2022.1276",
+              "article-title": "Optimizing Retirement Planning Strategies: A Comparative Analysis of Traditional, Roth, and Rollover IRAs in LongTerm Wealth Management",
+              "author": "S R Challa",
+              "doi-asserted-by": "crossref",
+              "issue": "1",
+              "journal-title": "Universal Journal of Finance and Economics",
+              "key": "ref61",
+              "volume": "2",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.62441/nano-ntp.vi.4677",
+              "article-title": "From Precision Medicine to Digital Agility: Subash's Role in Transforming Complex Challenges into Scalable Industry Solutions",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "journal-title": "Nanotechnology Perceptions",
+              "key": "ref62",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.18535/ijsrm/v10i10.ec05",
+              "article-title": "AI-Driven Vulnerability Management and Automated Threat Mitigation",
+              "author": "V B Komaragiri",
+              "doi-asserted-by": "crossref",
+              "first-page": "981",
+              "issue": "10",
+              "journal-title": "International Journal of Scientific Research and Management (IJSRM)",
+              "key": "ref63",
+              "volume": "10",
+              "year": "2022"
+            },
+            {
+              "article-title": "Data Engineering Frameworks for Optimizing Community Health Surveillance Systems",
+              "author": "V K A Ganti",
+              "journal-title": "Global Journal of Medical Case Reports",
+              "key": "ref64",
+              "volume": "1",
+              "year": "2019"
+            },
+            {
+              "author": "Z Yasmeen",
+              "journal-title": "The Role of Neural Networks in Advancing Wearable Healthcare Technology Analytics",
+              "key": "ref65",
+              "year": "2019"
+            },
+            {
+              "author": "R K Vankayalapati",
+              "journal-title": "AI-Driven Decision Support Systems: The Role Of High-Speed Storage And Cloud Integration In Business Insights",
+              "key": "ref66",
+              "year": "2020"
+            },
+            {
+              "article-title": "Deep Learning Applications In Materials Management For Pharmaceutical Supply Chains",
+              "author": "V O R Puli",
+              "first-page": "1144",
+              "issue": "6",
+              "journal-title": "Migration Letters",
+              "key": "ref67",
+              "volume": "19",
+              "year": "2022"
+            },
+            {
+              "author": "V K Sikha",
+              "journal-title": "Enhancing Energy Efficiency in Cloud Computing Operations Through Artificial Intelligence",
+              "key": "ref68",
+              "year": "2021"
+            },
+            {
+              "article-title": "Revolutionizing Patient Care and Digital Infrastructure: Integrating Cloud Computing and Advanced Data Engineering for Industry Innovation",
+              "author": "T N S Polineni",
+              "journal-title": "World",
+              "key": "ref69",
+              "volume": "1",
+              "year": "2019"
+            },
+            {
+              "article-title": "Reinforcement deep learning approach for multi-user task offloading in edge-cloud joint computing systems",
+              "author": "K Patibandla",
+              "first-page": "47",
+              "issue": "3",
+              "journal-title": "International Journal of Research in Electronics and Computer Engineering",
+              "key": "ref70",
+              "volume": "11",
+              "year": "2023"
+            },
+            {
+              "author": "V K Sikha",
+              "journal-title": "Mastering the Cloud -How Microsoft's Frameworks Shape Cloud Journeys",
+              "key": "ref71",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.30574/wjarr.2023.20.1.2045",
+              "article-title": "Dynamic load balancing in AI-enabled cloud infrastructures using reinforcement learning and algorithmic optimization",
+              "author": "R Daruvuri",
+              "doi-asserted-by": "crossref",
+              "first-page": "1327",
+              "issue": "1",
+              "journal-title": "World Journal of Advanced Research and Reviews",
+              "key": "ref72",
+              "volume": "20",
+              "year": "2023"
+            },
+            {
+              "article-title": "The SRE Playbook: Multi-Cloud Observability, Security, and Automation",
+              "author": "V K Sikha",
+              "journal-title": "Journal of Artificial Intelligence &amp",
+              "key": "ref73",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.30574/ijsra.2022.7.2.0334",
+              "article-title": "Harnessing vector databases: A comprehensive analysis of their role across industries",
+              "author": "R Daruvuri",
+              "doi-asserted-by": "crossref",
+              "first-page": "703",
+              "issue": "2",
+              "journal-title": "International Journal of Science and Research Archive",
+              "key": "ref74",
+              "volume": "7",
+              "year": "2022"
+            },
+            {
+              "author": "V K Sikha",
+              "journal-title": "Cloud-Native Application Development for AI-Conducive Architectures",
+              "key": "ref75",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.30574/wjarr.2022.13.1.0749",
+              "article-title": "An improved AI framework for automating data analysis",
+              "author": "R Daruvuri",
+              "doi-asserted-by": "crossref",
+              "first-page": "863",
+              "issue": "1",
+              "journal-title": "World Journal of Advanced Research and Reviews",
+              "key": "ref76",
+              "volume": "13",
+              "year": "2022"
+            },
+            {
+              "article-title": "AI and ML in Healthcare: Redefining Diagnostics, Treatment, and Personalized Medicine",
+              "author": "G Mandala",
+              "issue": "S6",
+              "journal-title": "International Journal of Applied Engineering & Technology",
+              "key": "ref77",
+              "volume": "5",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.31586/ujcsc.2019.1253",
+              "article-title": "A Comprehensive Study of Proactive Cybersecurity Models in Cloud-Driven Retail Technology Architectures",
+              "author": "C Pandugula",
+              "doi-asserted-by": "crossref",
+              "issue": "1",
+              "journal-title": "Universal Journal of Computer Sciences and Communications",
+              "key": "ref78",
+              "volume": "1",
+              "year": "2019"
+            },
+            {
+              "author": "R K Vankayalapati",
+              "journal-title": "AI Clusters and Elastic Capacity Management: Designing Systems for Diverse Computational Demands",
+              "key": "ref79",
+              "year": "2022"
+            },
+            {
+              "author": "S Syed",
+              "journal-title": "Data-Driven Innovation in Finance: Crafting Intelligent Solutions for Customer-Centric Service Delivery and Competitive Advantage",
+              "key": "ref80",
+              "year": "2019"
+            }
+          ],
+          "reference-count": 80,
+          "references-count": 80,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=5205158"
+            }
+          },
+          "score": 60.027386,
+          "source": "Crossref",
+          "subtype": "preprint",
+          "title": [
+            "AI-Driven Optimization of Renewable Energy Systems: Enhancing Grid Efficiency and Smart Mobility Through 5G and 6G Network Integration"
+          ],
+          "type": "posted-content"
+        },
+        {
+          "DOI": "10.2139/ssrn.5205133",
+          "URL": "https://doi.org/10.2139/ssrn.5205133",
+          "abstract": "<jats:p>Two interdependent domains form the emerging smart grid infrastructure: a hierarchical power system and a two-way communication system. The power and telecom industries have been separately developing their infrastructures, both federating energy resources (generation, storage, and demand-side management) and advocating its digital transformation. Recently, distribution automation technologies have been gaining ground. Distributed generation and storage resources are incrementally added to power systems to increase resilience and economic efficiency. Renewables are predominating the new generating resources, boosting the adoption of power electronics and controllability solutions. Meanwhile, power consumption varies with season, weather, and social factors, creating new challenges for grid operation. The traditional approach to managing fluctuations is expensive and limits economic efficiency. As a result, several power distributors have been rolling out solutions to reduce power fluctuations. One of these automation solutions is known as distribution automation. It allows power distribution systems to automatically reconfigure when a fault occurs, significantly reducing outage time and customer interruptions. Operators might also install sensors on critical grid components to measure equipment status parameters and provide real-time alerts for abnormal conditions. Such sensors feed the telecommunication network, making it a strategic asset. A bidirectional flow of information between power system and communication domain is foreseen, justifying the hybridization of power and telecom infrastructures.</jats:p>",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0009-0002-4530-3075",
+              "affiliation": [],
+              "authenticated-orcid": true,
+              "family": "Kommaragiri",
+              "given": "Venkata Bhardwaj",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Annapareddy",
+              "given": "Venkata Narasareddy",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Gadi",
+              "given": "Anil Lokesh",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Koppolu",
+              "given": "Hara Krishna Reddy",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "ORCID": "https://orcid.org/0009-0009-1010-2493",
+              "affiliation": [],
+              "authenticated-orcid": true,
+              "family": "Kannan",
+              "given": "Sathya",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                6
+              ]
+            ],
+            "date-time": "2025-05-06T14:03:07Z",
+            "timestamp": 1746540187000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                14
+              ]
+            ],
+            "date-time": "2026-08-14T20:29:04Z",
+            "timestamp": 1786739344000
+          },
+          "group-title": "SSRN",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                14
+              ]
+            ],
+            "date-time": "2026-08-14T21:27:03Z",
+            "timestamp": 1786742823683,
+            "version": "build-2736575974"
+          },
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "member": "78",
+          "posted": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "prefix": "10.2139",
+          "published": {
+            "date-parts": [
+              [
+                2025
+              ]
+            ]
+          },
+          "publisher": "Elsevier BV",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=5205133"
+            }
+          },
+          "score": 59.735184,
+          "source": "Crossref",
+          "subtype": "preprint",
+          "title": [
+            "AI-Driven Optimization of Renewable Energy Systems: Enhancing Grid Efficiency and Smart Mobility Through 5G and 6G Network Integration"
+          ],
+          "type": "posted-content"
+        },
+        {
+          "DOI": "10.1016/j.energy.2023.129825",
+          "ISSN": [
+            "0360-5442"
+          ],
+          "URL": "https://doi.org/10.1016/j.energy.2023.129825",
+          "alternative-id": [
+            "S036054422303219X"
+          ],
+          "article-number": "129825",
+          "assertion": [
+            {
+              "label": "This article is maintained by",
+              "name": "publisher",
+              "value": "Elsevier"
+            },
+            {
+              "label": "Article Title",
+              "name": "articletitle",
+              "value": "Distribution network restoration supply method considers 5G base station energy storage participation"
+            },
+            {
+              "label": "Journal Title",
+              "name": "journaltitle",
+              "value": "Energy"
+            },
+            {
+              "label": "CrossRef DOI link to publisher maintained version",
+              "name": "articlelink",
+              "value": "https://doi.org/10.1016/j.energy.2023.129825"
+            },
+            {
+              "label": "Content Type",
+              "name": "content_type",
+              "value": "article"
+            },
+            {
+              "label": "Copyright",
+              "name": "copyright",
+              "value": "© 2023 Elsevier Ltd. All rights reserved."
+            }
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Wang",
+              "given": "Xiaowei",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Kang",
+              "given": "Qiankun",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Gao",
+              "given": "Jie",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Zhang",
+              "given": "Fan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Wang",
+              "given": "Xue",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Qu",
+              "given": "Xinyu",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Guo",
+              "given": "Liang",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Energy"
+          ],
+          "content-domain": {
+            "crossmark-restriction": true,
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                12,
+                7
+              ]
+            ],
+            "date-time": "2023-12-07T11:35:33Z",
+            "timestamp": 1701948933000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                11
+              ]
+            ],
+            "date-time": "2026-06-11T11:55:16Z",
+            "timestamp": 1781178916000
+          },
+          "funder": [
+            {
+              "DOI": "10.13039/501100015330",
+              "award": [
+                "521820210005"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "521820210005"
+                  ]
+                }
+              ],
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "asserted-by": "publisher",
+                  "id": "10.13039/501100015330",
+                  "id-type": "DOI"
+                }
+              ],
+              "name": "State Grid Jiangsu Electric Power"
+            },
+            {
+              "DOI": "10.13039/501100001809",
+              "award": [
+                "52177114"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "52177114"
+                  ]
+                }
+              ],
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "asserted-by": "publisher",
+                  "id": "10.13039/501100001809",
+                  "id-type": "DOI"
+                }
+              ],
+              "name": "National Natural Science Foundation of China"
+            },
+            {
+              "DOI": "10.13039/501100001809",
+              "award": [
+                "61403127"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "61403127"
+                  ]
+                }
+              ],
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "asserted-by": "publisher",
+                  "id": "10.13039/501100001809",
+                  "id-type": "DOI"
+                }
+              ],
+              "name": "National Natural Science Foundation of China"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                17
+              ]
+            ],
+            "date-time": "2026-08-17T17:40:16Z",
+            "timestamp": 1786988416016,
+            "version": "build-2736575974"
+          },
+          "is-referenced-by-count": 28,
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "0360-5442"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                2
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    2,
+                    1
+                  ]
+                ],
+                "date-time": "2024-02-01T00:00:00Z",
+                "timestamp": 1706745600000
+              }
+            },
+            {
+              "URL": "https://www.elsevier.com/legal/tdmrep-license",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    2,
+                    1
+                  ]
+                ],
+                "date-time": "2024-02-01T00:00:00Z",
+                "timestamp": 1706745600000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-017",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    2,
+                    1
+                  ]
+                ],
+                "date-time": "2024-02-01T00:00:00Z",
+                "timestamp": 1706745600000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    2,
+                    1
+                  ]
+                ],
+                "date-time": "2024-02-01T00:00:00Z",
+                "timestamp": 1706745600000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-012",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    2,
+                    1
+                  ]
+                ],
+                "date-time": "2024-02-01T00:00:00Z",
+                "timestamp": 1706745600000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    2,
+                    1
+                  ]
+                ],
+                "date-time": "2024-02-01T00:00:00Z",
+                "timestamp": 1706745600000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-004",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    2,
+                    1
+                  ]
+                ],
+                "date-time": "2024-02-01T00:00:00Z",
+                "timestamp": 1706745600000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S036054422303219X?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S036054422303219X?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "member": "78",
+          "page": "129825",
+          "prefix": "10.1016",
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                2
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2024,
+                2
+              ]
+            ]
+          },
+          "publisher": "Elsevier BV",
+          "reference": [
+            {
+              "article-title": "Renewable energy powered sustainable 5G network infrastructure: opportunities, challenges and perspectives",
+              "author": "Adil",
+              "journal-title": "J Netw Comput Appl",
+              "key": "10.1016/j.energy.2023.129825_bib1",
+              "volume": "175",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1038/s41928-020-0404-1",
+              "article-title": "Energy-efficient 5G for a greener future",
+              "author": "Chih-Lin",
+              "doi-asserted-by": "crossref",
+              "first-page": "182",
+              "issue": "4",
+              "journal-title": "Nature. Electronics",
+              "key": "10.1016/j.energy.2023.129825_bib2",
+              "volume": "3",
+              "year": "2020"
+            },
+            {
+              "key": "10.1016/j.energy.2023.129825_bib3",
+              "unstructured": "Ma Xiufan, Feng Xiaoyu. Double Q Planning method for substation considering power demand of 5G network and reliability[J]. Transactions of China Electrotechnical Society. 1-14 [in Chinese)]."
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2021.107611",
+              "article-title": "Robust coordination of repair and dispatch resources for post-disaster service restoration of the distribution system",
+              "author": "Wu",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Int J Electr Power Energy Syst",
+              "key": "10.1016/j.energy.2023.129825_bib4",
+              "volume": "136",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2023.120892",
+              "article-title": "Resilience enhancement of distribution network under typhoon disaster based on two-stage stochastic programming",
+              "author": "Hou",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/j.energy.2023.129825_bib5",
+              "volume": "338",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2023.121007",
+              "article-title": "Stochastic, resilience-oriented optimal sizing of off-grid microgrids considering EV-charging demand response: an efficiency comparison of state-of-the-art metaheuristics",
+              "author": "Mohseni",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/j.energy.2023.129825_bib6",
+              "volume": "341",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1109/TIA.2021.3137132",
+              "article-title": "Coordinated optimization of emergency power vehicles and distribution network reconfiguration considering the uncertain restoration capability of E-Taxis",
+              "author": "Zhang",
+              "doi-asserted-by": "crossref",
+              "first-page": "2707",
+              "issue": "2",
+              "journal-title": "IEEE Trans Ind Appl",
+              "key": "10.1016/j.energy.2023.129825_bib7",
+              "volume": "58",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2023.120849",
+              "article-title": "Co-planning of hydrogen-based microgrids and fuel-cell bus operation centers under low-carbon and resilience considerations",
+              "author": "Dong",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/j.energy.2023.129825_bib8",
+              "volume": "336",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2023.109280",
+              "article-title": "Resilience assessment and recovery of distribution network considering the influence of communication network",
+              "author": "Wang",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Int J Electr Power Energy Syst",
+              "key": "10.1016/j.energy.2023.129825_bib9",
+              "volume": "152",
+              "year": "2023"
+            },
+            {
+              "article-title": "Control strategy of 5G base station energy storage considering communication load",
+              "author": "Xiufan",
+              "first-page": "2878",
+              "issue": "11",
+              "journal-title": "Trans China Electrotech Soc",
+              "key": "10.1016/j.energy.2023.129825_bib10",
+              "volume": "37",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/TGCN.2019.2893203",
+              "article-title": "A novel energy model for renewable energy-enabled cellular networks providing Ancillary Services to the Smart Grid",
+              "author": "Al Haj Hassan",
+              "doi-asserted-by": "crossref",
+              "first-page": "381",
+              "issue": "2",
+              "journal-title": "IEEE Trans Green Commun Netw",
+              "key": "10.1016/j.energy.2023.129825_bib11",
+              "volume": "3",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2021.3108041",
+              "article-title": "Cooperative planning of distributed renewable energy assisted 5G base station with battery swapping system",
+              "author": "Liu",
+              "doi-asserted-by": "crossref",
+              "first-page": "119353",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/j.energy.2023.129825_bib12",
+              "volume": "9",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/TWC.2014.2339845",
+              "article-title": "Energy cooperation in cellular networks with renewable powered base stations",
+              "author": "Chia",
+              "doi-asserted-by": "crossref",
+              "first-page": "6996",
+              "issue": "12",
+              "journal-title": "IEEE Trans Wireless Commun",
+              "key": "10.1016/j.energy.2023.129825_bib13",
+              "volume": "13",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2021.3108041",
+              "article-title": "Cooperative Planning of distributed renewable energy assisted 5G base station with battery swapping system",
+              "author": "Liu",
+              "doi-asserted-by": "crossref",
+              "first-page": "119353",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/j.energy.2023.129825_bib14",
+              "volume": "9",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/TGCN.2018.2806299",
+              "article-title": "Optimal battery management strategies in mobile networks powered by a smart grid",
+              "author": "Labidi",
+              "doi-asserted-by": "crossref",
+              "first-page": "859",
+              "issue": "3",
+              "journal-title": "IEEE Trans Green Commun Netw",
+              "key": "10.1016/j.energy.2023.129825_bib15",
+              "volume": "2",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1109/TNET.2017.2655462",
+              "article-title": "Smart grid enabled mobile networks: jointly optimizing BS operation and power distribution",
+              "author": "Huang",
+              "doi-asserted-by": "crossref",
+              "first-page": "1832",
+              "issue": "3",
+              "journal-title": "IEEE/ACM Trans Netw",
+              "key": "10.1016/j.energy.2023.129825_bib16",
+              "volume": "25",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1016/j.energy.2018.06.066",
+              "article-title": "Energy saving technique and measurement in green wireless communication",
+              "author": "Dahal",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Energy",
+              "key": "10.1016/j.energy.2023.129825_bib17",
+              "volume": "159",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1109/TSG.2021.3074754",
+              "article-title": "Evaluating the dispatchable capacity of base station backup batteries in distribution networks",
+              "author": "Yong",
+              "doi-asserted-by": "crossref",
+              "first-page": "3966",
+              "issue": "5",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "10.1016/j.energy.2023.129825_bib18",
+              "volume": "12",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.energy.2020.117715",
+              "article-title": "Operation of power distribution networks with new and flexible loads: a case of existing residential low voltage network",
+              "author": "Marszal-Pomianowska",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Energy",
+              "key": "10.1016/j.energy.2023.129825_bib19",
+              "volume": "202",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2017.2740563",
+              "article-title": "Estimation and validation of characteristic load profile through smart grid trials in a medium voltage distribution network",
+              "author": "Tang",
+              "doi-asserted-by": "crossref",
+              "first-page": "1848",
+              "issue": "2",
+              "journal-title": "IEEE Trans Power Syst",
+              "key": "10.1016/j.energy.2023.129825_bib20",
+              "volume": "33",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1109/JSYST.2021.3074100",
+              "article-title": "Modeling and analysis of data and coverage energy efficiency for different demographic areas in 5G networks",
+              "author": "Lorincz",
+              "doi-asserted-by": "crossref",
+              "first-page": "1056",
+              "issue": "1",
+              "journal-title": "IEEE Syst J",
+              "key": "10.1016/j.energy.2023.129825_bib21",
+              "volume": "16",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/TGCN.2020.2988270",
+              "article-title": "Modeling and analysis of energy harvesting and smart grid-powered wireless communication networks: a contemporary survey",
+              "author": "Hu",
+              "doi-asserted-by": "crossref",
+              "first-page": "461",
+              "issue": "2",
+              "journal-title": "IEEE Trans Green Commun Netw",
+              "key": "10.1016/j.energy.2023.129825_bib22",
+              "volume": "4",
+              "year": "2020"
+            },
+            {
+              "author": "Yang",
+              "first-page": "592",
+              "key": "10.1016/j.energy.2023.129825_bib23",
+              "series-title": "Research on interaction between power grid and 5G communication base station storage energy, 2023 8th asia Conference on Power and electrical engineering",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1016/j.energy.2023.126768",
+              "article-title": "Probabilistic power curve estimation based on meteorological factors and density LSTM",
+              "author": "Wang",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Energy",
+              "key": "10.1016/j.energy.2023.129825_bib24",
+              "volume": "269",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1016/j.energy.2023.127409",
+              "article-title": "Inconsistency modeling of lithiumion battery pack based on variational autoencoder considering multiparameter correlation",
+              "author": "He",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Energy",
+              "key": "10.1016/j.energy.2023.129825_bib25",
+              "volume": "277",
+              "year": "2023"
+            },
+            {
+              "article-title": "Time-coupled day-ahead wind power scenario generation: a combined regular vine copula and variance reduction method",
+              "author": "Attoti Bharath",
+              "journal-title": "Energy",
+              "key": "10.1016/j.energy.2023.129825_bib26",
+              "volume": "265",
+              "year": "2023"
+            },
+            {
+              "article-title": "Stochastic economic dispatch considering the dependence of multiple wind farms using multivariate Gaussian kernel copula",
+              "author": "Lin",
+              "first-page": "1352",
+              "issue": "5",
+              "journal-title": "CSEE J Pow Energy Syst",
+              "key": "10.1016/j.energy.2023.129825_bib27",
+              "volume": "8",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.energy.2020.119376",
+              "article-title": "Improved model and optimization for the energy performance of chiller system with diverse component staging",
+              "author": "Ho",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Energy",
+              "key": "10.1016/j.energy.2023.129825_bib28",
+              "volume": "217",
+              "year": "2021"
+            },
+            {
+              "article-title": "More capacity and less power: how 5G NR can reduce network energy consumption",
+              "author": "Frenger",
+              "first-page": "1",
+              "journal-title": "Proc. IEEE 89th Veh. Technol.Conf. (VTC-Spring)",
+              "key": "10.1016/j.energy.2023.129825_bib29",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/JSAC.2016.2520217",
+              "article-title": "Green 5G heterogeneous networks through dynamic small-cell operation",
+              "author": "Cai",
+              "doi-asserted-by": "crossref",
+              "first-page": "1103",
+              "issue": "5",
+              "journal-title": "IEEE J Sel Area Commun",
+              "key": "10.1016/j.energy.2023.129825_bib30",
+              "volume": "34",
+              "year": "2016"
+            },
+            {
+              "article-title": "Spatial traffic prediction for wireless cellular system based on base stations social network",
+              "author": "Yi",
+              "first-page": "1",
+              "key": "10.1016/j.energy.2023.129825_bib31",
+              "series-title": "2016 annual IEEE systems conference",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/j.energy.2023.129825_bib32",
+              "series-title": "5G telecom power target network white paper, Amsterdam, The Netherlands, global ICT energy efficiency summit",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/TSG.2022.3150074",
+              "article-title": "Electric load profile of 5G base station in distribution systems based on data flow analysis",
+              "author": "Zou",
+              "doi-asserted-by": "crossref",
+              "first-page": "2452",
+              "issue": "3",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "10.1016/j.energy.2023.129825_bib33",
+              "volume": "13",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/TSG.2021.3074754",
+              "article-title": "Evaluating the dispatchable capacity of base station backup batteries in distribution networks",
+              "author": "Yong",
+              "doi-asserted-by": "crossref",
+              "first-page": "3966",
+              "issue": "5",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "10.1016/j.energy.2023.129825_bib34",
+              "volume": "12",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/TSG.2020.2977211",
+              "article-title": "A fast adequacy analysis for radial distribution networks considering reconfiguration and DGs",
+              "author": "Arefi",
+              "doi-asserted-by": "crossref",
+              "first-page": "3896",
+              "issue": "5",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "10.1016/j.energy.2023.129825_bib35",
+              "volume": "11",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2020.3010529",
+              "article-title": "A novel methodology to incorporate circuit breaker active failure in reliability evaluation of electrical distribution networks",
+              "author": "Timalsena",
+              "doi-asserted-by": "crossref",
+              "first-page": "1013",
+              "issue": "2",
+              "journal-title": "IEEE Trans Power Syst",
+              "key": "10.1016/j.energy.2023.129825_bib36",
+              "volume": "36",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/TSG.2018.2844309",
+              "article-title": "Operational reliability assessment for gas-electric integrated distribution feeders",
+              "author": "Liu",
+              "doi-asserted-by": "crossref",
+              "first-page": "1091",
+              "issue": "1",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "10.1016/j.energy.2023.129825_bib37",
+              "volume": "10",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2020.115146",
+              "article-title": "Decentralized distributed robust electric power scheduling for multi-microgrid systems",
+              "author": "Qiu",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/j.energy.2023.129825_bib38",
+              "volume": "269",
+              "year": "2020"
+            }
+          ],
+          "reference-count": 38,
+          "references-count": 38,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S036054422303219X"
+            }
+          },
+          "score": 58.885677,
+          "short-container-title": [
+            "Energy"
+          ],
+          "source": "Crossref",
+          "special_numbering": "C",
+          "title": [
+            "Distribution network restoration supply method considers 5G base station energy storage participation"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "volume": "289"
+        },
+        {
+          "DOI": "10.1109/ei252483.2021.9713622",
+          "URL": "https://doi.org/10.1109/ei252483.2021.9713622",
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "Shanghai Jiao Tong University,School of Electronic Information and Electrical Engineering,ShangHai,China"
+                }
+              ],
+              "family": "Li",
+              "given": "Junshuang",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Shanghai Jiao Tong University,School of Electronic Information and Electrical Engineering,ShangHai,China"
+                }
+              ],
+              "family": "Feng",
+              "given": "Yuli",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Shanghai Jiao Tong University,School of Electronic Information and Electrical Engineering,ShangHai,China"
+                }
+              ],
+              "family": "Hu",
+              "given": "Yan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2021 IEEE 5th Conference on Energy Internet and Energy System Integration (EI2)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                2,
+                25
+              ]
+            ],
+            "date-time": "2022-02-25T20:36:58Z",
+            "timestamp": 1645821418000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                6,
+                13
+              ]
+            ],
+            "date-time": "2022-06-13T21:18:50Z",
+            "timestamp": 1655155130000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2021,
+                  10,
+                  24
+                ]
+              ]
+            },
+            "location": "Taiyuan, China",
+            "name": "2021 IEEE 5th Conference on Energy Internet and Energy System Integration (EI2)",
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  10,
+                  22
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                29
+              ]
+            ],
+            "date-time": "2024-10-29T15:56:40Z",
+            "timestamp": 1730217400301,
+            "version": "3.28.0"
+          },
+          "is-referenced-by-count": 4,
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                22
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    10,
+                    22
+                  ]
+                ],
+                "date-time": "2021-10-22T00:00:00Z",
+                "timestamp": 1634860800000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    10,
+                    22
+                  ]
+                ],
+                "date-time": "2021-10-22T00:00:00Z",
+                "timestamp": 1634860800000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/9712847/9712848/09713622.pdf?arnumber=9713622",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "1308-1313",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                22
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                22
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "article-title": "Energy consumption analysis and energy saving evaluation of mobile communication base stations in southern China [J]",
+              "author": "ping",
+              "first-page": "70",
+              "journal-title": "Journal of Xihua University (Natural Science Edition)",
+              "key": "ref10",
+              "volume": "29",
+              "year": "2010"
+            },
+            {
+              "article-title": "Research on energy consumption model of GSM mobile communication base station [J]",
+              "author": "nong",
+              "first-page": "87",
+              "journal-title": "Mobile Communication",
+              "key": "ref11",
+              "volume": "35",
+              "year": "2011"
+            },
+            {
+              "article-title": "Typical scenario division and benchmarking of base station energy consumption [D]",
+              "author": "shelley",
+              "journal-title": "Beijing University of Posts and Telecommunications",
+              "key": "ref12",
+              "year": "2015"
+            },
+            {
+              "article-title": "Research on Modeling and application of base station energy consumption based on Simulink simulation technology [D]",
+              "author": "yang",
+              "journal-title": "Beijing University of Posts and Telecommunications",
+              "key": "ref13",
+              "year": "2014"
+            },
+            {
+              "article-title": "Key technologies and prospects of 5G network energy consumption control in the context of energy Internet [J]",
+              "author": "youbo",
+              "first-page": "174",
+              "journal-title": "Power System Automation",
+              "key": "ref14",
+              "volume": "45",
+              "year": "2021"
+            },
+            {
+              "article-title": "Research on base station energy consumption modeling method based on data drive [D]",
+              "author": "wei",
+              "journal-title": "Hunan University",
+              "key": "ref15",
+              "year": "2016"
+            },
+            {
+              "article-title": "Research on propagation model of 5G mobile communication system [J]",
+              "author": "guang",
+              "first-page": "28",
+              "journal-title": "Mobile Communication",
+              "key": "ref16",
+              "volume": "42",
+              "year": "2018"
+            },
+            {
+              "article-title": "Research and analysis of 5G propagation model [J]",
+              "author": "ming",
+              "first-page": "49",
+              "journal-title": "China New Communication",
+              "key": "ref17",
+              "volume": "22",
+              "year": "2020"
+            },
+            {
+              "article-title": "3GPPtr. Study on channel model for frequencies from 0.5 to 1000Hz [R]",
+              "journal-title": "ETSI TR 138 901 V15 0 0",
+              "key": "ref18",
+              "year": "2017"
+            },
+            {
+              "article-title": "Development and numerical simulation of phase change energy storage module for communication base station [D]",
+              "author": "yingjun",
+              "journal-title": "Hunan University",
+              "key": "ref19",
+              "year": "2013"
+            },
+            {
+              "article-title": "5G communication base station participation demand response: key technologies and prospect [J / OL]",
+              "author": "pei",
+              "first-page": "1",
+              "journal-title": "Chinese Journal of Electrical Engineering",
+              "key": "ref4",
+              "volume": "3",
+              "year": "2021"
+            },
+            {
+              "article-title": "Comprehensive measures for power saving of 5G base stations [J]",
+              "author": "weidong",
+              "first-page": "102",
+              "journal-title": "Communication World",
+              "key": "ref3",
+              "volume": "27",
+              "year": "2020"
+            },
+            {
+              "article-title": "Analysis of 5G wireless network planning based on distributed base stations [J]",
+              "author": "jiayu",
+              "first-page": "21",
+              "journal-title": "China New Communication",
+              "key": "ref6",
+              "volume": "22",
+              "year": "2020"
+            },
+            {
+              "article-title": "Analysis of the impact of &#x201C;new infrastructure&#x201D; on China's power demand and power grid planning in the 14th five year plan [J]",
+              "author": "xiaoxiao",
+              "first-page": "11",
+              "journal-title": "China Power",
+              "key": "ref5",
+              "volume": "54",
+              "year": "2021"
+            },
+            {
+              "article-title": "5G wireless network planning based on distributed base stations [J]",
+              "author": "zhibin",
+              "first-page": "13",
+              "journal-title": "Electronic Technology and Software Engineering",
+              "key": "ref8",
+              "volume": "22",
+              "year": "2018"
+            },
+            {
+              "article-title": "Discussion on planning and construction of 5G small base stations based on udn Architecture [J]",
+              "author": "shuozhan",
+              "first-page": "12",
+              "journal-title": "Telecom Express",
+              "key": "ref7",
+              "volume": "12",
+              "year": "2018"
+            },
+            {
+              "article-title": "Ministry of industry and information technology",
+              "journal-title": "Statistical bulletin of communication industry in 2019 [R]",
+              "key": "ref2",
+              "year": "2020"
+            },
+            {
+              "article-title": "Deepening the transformation of comprehensive Internet operation and helping 5G all things connect in a new era [J]",
+              "author": "zhijian",
+              "first-page": "4",
+              "journal-title": "Information and Communication Technology",
+              "key": "ref1",
+              "volume": "13",
+              "year": "2019"
+            },
+            {
+              "article-title": "Research on the special planning of 5G based communication base stations and its impact on the existing network [J]",
+              "author": "yi",
+              "first-page": "258",
+              "journal-title": "Information and Communication",
+              "key": "ref9",
+              "volume": "11",
+              "year": "2018"
+            },
+            {
+              "article-title": "Meteorological data room of meteorological information center of China Meteorological Administration, Department of building technology science, Tsinghua University",
+              "first-page": "130",
+              "journal-title": "Special Meteorological data set for Building Thermal Environment Analysis in China [A]",
+              "key": "ref20",
+              "year": "2005"
+            },
+            {
+              "article-title": "Discussion on power supply and standby strategy of 5G communication base station [a]",
+              "author": "honggang",
+              "first-page": "4",
+              "journal-title": "Proceedings of 2020 China information and communication conference (CICC) [C]",
+              "key": "ref22",
+              "year": "0"
+            },
+            {
+              "DOI": "10.1109/MNET.2018.1800104",
+              "doi-asserted-by": "publisher",
+              "key": "ref21"
+            }
+          ],
+          "reference-count": 22,
+          "references-count": 22,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/9713622/"
+            }
+          },
+          "score": 58.52011,
+          "source": "Crossref",
+          "title": [
+            "Load Forecasting of 5G Base Station in Urban Distribution Network"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.32920/14639622",
+          "URL": "https://doi.org/10.32920/14639622",
+          "abstract": "<jats:p>With global concern for climate change, and for cutting down the energy cost, especially in off grid areas, use of renewable energy has been gaining widespread attention in many areas including cellular communication. The base station (BS) has emerged as a strong candidate for the integration of renewable energy sources (RES), particularly solar and wind. The incorporation of renewable energy opens many possibilities for energy conservation through strategies such as energy cooperation between BSs during the off-peak hours, when the energy harvested from renewable energy sources may become surplus. In this paper, we present the case for cellular BSs enabled with renewable energy sources (RES) to have an arrangement in which the BS provide surplus energy to a neighboring BS, thus minimizing the use of conventional energy. A realistic objective is developed for northern region of Pakistan, which entails modeling of solar panels and wind-turbine according to the average solar irradiation and wind speed of the region. We also model the dynamic load of the BS, which depicts temporal fluctuations with traffic variations. Based on these models we initiate an energy cooperation scheme between the BS in which an energy cost minimization framework is mathematically modeled and solved through the interior point method algorithm. Results are obtained for different times of the year for different number of base stations showing respective energy cost savings. \n\nKeywords: Base station Cooperation; alternate energy; cellular networks</jats:p>",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Ahmed",
+              "given": "Faran",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Naeem",
+              "given": "Muhammad",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Ejaz",
+              "given": "Waleed",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Iqbal",
+              "given": "Muhammad",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Anpalagan",
+              "given": "Alagan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Kim",
+              "given": "Hyung Seok",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                7,
+                28
+              ]
+            ],
+            "date-time": "2021-07-28T07:34:46Z",
+            "timestamp": 1627457686000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                19
+              ]
+            ],
+            "date-time": "2021-08-19T19:33:44Z",
+            "timestamp": 1629401624000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                3,
+                4
+              ]
+            ],
+            "date-time": "2024-03-04T02:03:19Z",
+            "timestamp": 1709517799388
+          },
+          "institution": [
+            {
+              "name": "Ryerson University"
+            }
+          ],
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                21
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://creativecommons.org/licenses/by/4.0/",
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    5,
+                    21
+                  ]
+                ],
+                "date-time": "2021-05-21T00:00:00Z",
+                "timestamp": 1621555200000
+              }
+            }
+          ],
+          "member": "18300",
+          "posted": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                21
+              ]
+            ]
+          },
+          "prefix": "10.32920",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                5,
+                21
+              ]
+            ]
+          },
+          "publisher": "Ryerson University Library and Archives",
+          "reference-count": 0,
+          "references-count": 0,
+          "relation": {
+            "is-preprint-of": [
+              {
+                "asserted-by": "subject",
+                "id": "10.3390/en11010099",
+                "id-type": "doi"
+              }
+            ]
+          },
+          "resource": {
+            "primary": {
+              "URL": "https://rshare.library.ryerson.ca/articles/journal_contribution/Renewable_energy_assisted_traffic_aware_cellular_base_station_energy_cooperation/14639622"
+            }
+          },
+          "score": 57.722855,
+          "source": "Crossref",
+          "subtype": "other",
+          "title": [
+            "Renewable energy assisted traffic aware cellular base station energy cooperation"
+          ],
+          "type": "posted-content"
+        }
+      ],
+      "items-per-page": 10,
+      "query": {
+        "search-terms": null,
+        "start-index": 0
+      },
+      "total-results": 380
+    },
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "status": "ok"
+  },
+  "retrieved_at_utc": "2026-08-31T14:29:44Z",
+  "retry_count": 0
+}

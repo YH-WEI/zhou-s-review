@@ -1,0 +1,3981 @@
+{
+  "http_status": 200,
+  "request_url_redacted": "https://api.crossref.org/works?query.bibliographic=%28%22smart+building%22+OR+%22active+building%22+OR+%22grid-interactive+building%22+OR+%22grid-interactive+efficient+building%22+OR+%22building+energy+management+system%22+OR+BEMS+OR+%22HVAC+flexibility%22+OR+%22building+thermal+flexibility%22%29+AND+%28%22renewable+integration%22+OR+%22renewable+energy+matching%22+OR+curtailment+OR+%22carbon-aware%22+OR+%22clean+energy+matching%22%29+AND+%28field+OR+pilot+OR+demonstration+OR+experiment+OR+%22hardware-in-the-loop%22+OR+HIL+OR+%22real-world+data%22+OR+%22market+participation%22+OR+%22case+study%22%29&filter=from-pub-date%3A2015-01-01%2Cuntil-pub-date%3A2026-08-31&rows=10&sort=relevance&order=desc",
+  "response": {
+    "message": {
+      "facets": {},
+      "items": [
+        {
+          "DOI": "10.2172/2998578",
+          "URL": "https://doi.org/10.2172/2998578",
+          "author": [
+            {
+              "affiliation": [],
+              "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office. Building Technologies Office",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-3716-3116",
+              "affiliation": [
+                {
+                  "name": "Northeastern Univ., Boston, MA (United States)"
+                }
+              ],
+              "authenticated-orcid": false,
+              "family": "Kane",
+              "given": "Michael",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "name": "Northeastern Univ., Boston, MA (United States)",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "name": "National Renewable Energy Laboratory (NREL), Golden, CO (United States)",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-8023-6405",
+              "affiliation": [
+                {
+                  "name": "Northeastern Univ., Boston, MA (United States)"
+                }
+              ],
+              "authenticated-orcid": false,
+              "family": "Pavel",
+              "given": "Misha",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0002-6269-8622",
+              "affiliation": [
+                {
+                  "name": "Northeastern Univ., Boston, MA (United States)"
+                }
+              ],
+              "authenticated-orcid": false,
+              "family": "Fannon",
+              "given": "David",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2343-9887",
+              "affiliation": [
+                {
+                  "name": "National Renewable Energy Laboratory (NREL), Golden, CO (United States)"
+                }
+              ],
+              "authenticated-orcid": false,
+              "family": "Sparn",
+              "given": "Bethany",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                11,
+                5
+              ]
+            ],
+            "date-time": "2025-11-05T15:14:11Z",
+            "timestamp": 1762355651000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                24
+              ]
+            ],
+            "date-time": "2026-08-24T11:36:27Z",
+            "timestamp": 1787571387000
+          },
+          "funder": [
+            {
+              "award": [
+                "EE0009154"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "EE0009154"
+                  ]
+                }
+              ],
+              "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office. Building Technologies Office"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                24
+              ]
+            ],
+            "date-time": "2026-08-24T12:22:50Z",
+            "timestamp": 1787574170694,
+            "version": "build-2736575974"
+          },
+          "institution": [
+            {
+              "acronym": [
+                "NETL"
+              ],
+              "name": "National Energy Technology Laboratory, Pittsburgh, PA, and Morgantown, WV (United States)"
+            },
+            {
+              "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office. Building Technologies Office"
+            },
+            {
+              "name": "Northeastern Univ., Boston, MA (United States)"
+            },
+            {
+              "name": "National Renewable Energy Laboratory (NREL), Golden, CO (United States)"
+            }
+          ],
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                15
+              ]
+            ]
+          },
+          "member": "960",
+          "prefix": "10.2172",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                15
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                15
+              ]
+            ]
+          },
+          "publisher": "Office of Scientific and Technical Information (OSTI)",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.osti.gov/biblio/2998578"
+            }
+          },
+          "score": 111.55842,
+          "source": "Crossref",
+          "title": [
+            "A Scalable Hardware-and-Human-in-the-Loop Grid-interactive Efficient Building Equipment Performance Dataset"
+          ],
+          "type": "report"
+        },
+        {
+          "DOI": "10.1016/b978-0-323-99588-7.00009-2",
+          "ISBN": [
+            "9780323995887"
+          ],
+          "URL": "https://doi.org/10.1016/b978-0-323-99588-7.00009-2",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Li",
+              "given": "Yutong",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Zhao",
+              "given": "Yuming",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Hao",
+              "given": "Bin",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Wang",
+              "given": "Jing",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Building Energy Flexibility and Demand Management"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                2,
+                27
+              ]
+            ],
+            "date-time": "2023-02-27T15:01:25Z",
+            "timestamp": 1677510085000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                22
+              ]
+            ],
+            "date-time": "2025-08-22T06:24:00Z",
+            "timestamp": 1755843840000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                23
+              ]
+            ],
+            "date-time": "2025-08-23T00:05:33Z",
+            "timestamp": 1755907533212,
+            "version": "3.44.0"
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9780323995887"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://www.elsevier.com/legal/tdmrep-license",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-017",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-012",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-004",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780323995887000092?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780323995887000092?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "member": "78",
+          "page": "241-261",
+          "prefix": "10.1016",
+          "published": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "publisher": "Elsevier",
+          "reference": [
+            {
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib1",
+              "unstructured": "China Power Electricity Council, Research on flexible operation policy of coal power units, 2019."
+            },
+            {
+              "author": "Tsinghua University building energy efficiency research center",
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib2",
+              "series-title": "Annual Development Research Report of Building Energy Efficiency in China",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1007/978-981-13-9528-4_46",
+              "doi-asserted-by": "crossref",
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib3",
+              "unstructured": "Li Y., Hao B., Ye Q. The feasibility study of net zero energy building for future energy development. In: Proceedings of the 11th international symposium on heating, ventilation and air conditioning (ISHVAC 2019), 2019."
+            },
+            {
+              "article-title": "Technical standard for zero-carbon buildings” was launched",
+              "author": "The National Standard",
+              "first-page": "135",
+              "issue": "4",
+              "journal-title": "Build Energy Conserv (Chin Engl)",
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib4",
+              "volume": "49",
+              "year": "2021"
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib5",
+              "unstructured": "Huaguang Y., Songsong C., Shihao L., et al. Research on development status and trend of demand response. Power Supply and Consumption 2017;34(3): 1–8. Doi: 10.19421/j.cnki.1006-6357.2017.03.001."
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib6",
+              "unstructured": "Kyocera. IBM Japan, and Tokyu Community Corp, Japan’s first demonstration of using OpenADR2.0 Profile b for the DR request, control of demand from consumers, and results reporting. <https://www.marketscreener.com/quote/stock/KYOCERA-CORPORATION-6492472/news/KYOCERA-IBM-Japan-and-TOKYU-COMMUNITY-Start-Demonstration-Test-of-Automatic-Demand-Response-Energy-19145099/>."
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib7",
+              "unstructured": "Development and Reform Commission of Huangpu District. Hangzhou Hezhi Electronic Technology Co., Ltd. Research on building demand response in Huangpu District, Shanghai. Shanghai Energy Conservation 2018; (2):5."
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib8",
+              "unstructured": "Dongdong P., Shuai R. State Grid Tianjin deploys the power demand response model with CPS as the core to deploy the commercial building energy control system and enters the practical operation stage, State Grid News, October 2019."
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib9",
+              "unstructured": "Yiwei P., Qun L., Xin W. Hubei customized solution to eliminate the “Black Hole” of electricity consumption in buildings, Hubei Daily, November 2021."
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib10",
+              "unstructured": "Guangdong Electric Power Trading Center. Guangdong Province’s implementation rules for market-based demand response (Trial), April 16, 2022 <https://pm.gd.csg.cn/views/page/tzggCont-10998.html>."
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib11",
+              "unstructured": "Zhejiang Provincial Development and Reform Commission and Provincial Energy Bureau. Notice on carrying out 2021 electricity demand response work, June 8, 2021, <https://fzggw.zj.gov.cn/art/2021/6/8/art_1229629046_4906648>."
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib12",
+              "unstructured": "Polaris Energy Storage Network. 14 provinces and cities announce power demand response policies; 2022. https://news.bjx.com.cn/html/20220617/1233889.shtml."
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2017.05.179",
+              "article-title": "A simulation-based efficiency comparison of AC and DC power distribution networks in commercial buildings",
+              "author": "Gerber",
+              "doi-asserted-by": "crossref",
+              "first-page": "1167",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib13",
+              "volume": "210",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib14",
+              "unstructured": "EMerge Alliance. Occupied Space low voltage DC power distribution system requirements for use in commercial building interiors. <https://www.emergealliance.org/>; 2021."
+            },
+            {
+              "author": "Wei",
+              "key": "10.1016/B978-0-323-99588-7.00009-2_bib15",
+              "series-title": "Pathways for Accelerating Maximum Electrification of Direct Fuel Use in China’s Building Sector",
+              "year": "2021"
+            }
+          ],
+          "reference-count": 15,
+          "references-count": 15,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780323995887000092"
+            }
+          },
+          "score": 109.78064,
+          "source": "Crossref",
+          "title": [
+            "Energy flexibility in grid-interactive and net/nearly zero energy buildings"
+          ],
+          "type": "book-chapter"
+        },
+        {
+          "DOI": "10.2172/1580329",
+          "URL": "https://doi.org/10.2172/1580329",
+          "author": [
+            {
+              "affiliation": [],
+              "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office. Building Technologies Office, Washington DC (United States)",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office. Building Technologies Office, Washington DC (United States)"
+                }
+              ],
+              "family": "Roth",
+              "given": "Amir",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office. Building Technologies Office",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-3336-2879",
+              "affiliation": [
+                {
+                  "name": "National Renewable Energy Laboratory (NREL), Golden, CO (United States)"
+                }
+              ],
+              "authenticated-orcid": false,
+              "family": "Reyna",
+              "given": "Janet",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                26
+              ]
+            ],
+            "date-time": "2019-12-26T23:03:18Z",
+            "timestamp": 1577401398000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                21
+              ]
+            ],
+            "date-time": "2026-08-21T17:15:09Z",
+            "timestamp": 1787332509000
+          },
+          "funder": [
+            {
+              "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office. Building Technologies Office"
+            },
+            {
+              "award": [
+                "AC36-08GO28308"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "AC36-08GO28308"
+                  ]
+                }
+              ],
+              "name": "DOE"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                21
+              ]
+            ],
+            "date-time": "2026-08-21T17:34:15Z",
+            "timestamp": 1787333655446,
+            "version": "build-2736575974"
+          },
+          "institution": [
+            {
+              "acronym": [
+                "NREL"
+              ],
+              "name": "National Renewable Energy Laboratory (NREL), Golden, CO (United States)"
+            },
+            {
+              "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office. Building Technologies Office, Washington DC (United States)"
+            },
+            {
+              "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Energy Efficiency Office. Building Technologies Office"
+            }
+          ],
+          "is-referenced-by-count": 23,
+          "issued": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                18
+              ]
+            ]
+          },
+          "member": "960",
+          "prefix": "10.2172",
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                18
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                18
+              ]
+            ]
+          },
+          "publisher": "Office of Scientific and Technical Information (OSTI)",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.osti.gov/biblio/1580329"
+            }
+          },
+          "score": 109.6851,
+          "source": "Crossref",
+          "title": [
+            "Grid-Interactive Efficient Buildings Technical Report Series: Whole-Building Controls, Sensors, Modeling, and Analytics"
+          ],
+          "type": "report"
+        },
+        {
+          "DOI": "10.1016/b978-0-323-99588-7.00001-8",
+          "ISBN": [
+            "9780323995887"
+          ],
+          "URL": "https://doi.org/10.1016/b978-0-323-99588-7.00001-8",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Zhou",
+              "given": "Xinlei",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Ma",
+              "given": "Zhenjun",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "McLauchlan",
+              "given": "Craig",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Building Energy Flexibility and Demand Management"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                2,
+                27
+              ]
+            ],
+            "date-time": "2023-02-27T15:06:32Z",
+            "timestamp": 1677510392000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                22
+              ]
+            ],
+            "date-time": "2025-08-22T06:23:57Z",
+            "timestamp": 1755843837000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                23
+              ]
+            ],
+            "date-time": "2025-08-23T00:05:33Z",
+            "timestamp": 1755907533648,
+            "version": "3.44.0"
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9780323995887"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://www.elsevier.com/legal/tdmrep-license",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-017",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-012",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-004",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780323995887000018?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780323995887000018?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "member": "78",
+          "page": "217-239",
+          "prefix": "10.1016",
+          "published": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "publisher": "Elsevier",
+          "reference": [
+            {
+              "DOI": "10.1016/j.apenergy.2017.06.073",
+              "article-title": "Load shifting using the heating and cooling system of an office building’ quantitative potential evaluation for different flexibility and storage options",
+              "author": "Klein",
+              "doi-asserted-by": "crossref",
+              "first-page": "917",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib1",
+              "volume": "203",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1016/j.egypro.2016.11.245",
+              "article-title": "Supply-based HVAC system control for fast demand response of buildings to urgent requests of smart grids",
+              "author": "Wang",
+              "doi-asserted-by": "crossref",
+              "first-page": "34",
+              "journal-title": "Energy Procedia",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib2",
+              "volume": "103",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/OAJPE.2021.3075426",
+              "article-title": "Model-based and data-driven HVAC control strategies for residential demand response",
+              "author": "Kou",
+              "doi-asserted-by": "crossref",
+              "first-page": "186",
+              "journal-title": "IEEE Open Access J Power Energy",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib3",
+              "volume": "8",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2018.08.065",
+              "article-title": "Energy flexible building through smart demand-side management and latent heat storage",
+              "author": "Lizana",
+              "doi-asserted-by": "crossref",
+              "first-page": "471",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib4",
+              "volume": "230",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.est.2021.103877",
+              "article-title": "Investigation and evaluation of building energy flexibility with energy storage system in hot summer and cold winter zones",
+              "author": "Liu",
+              "doi-asserted-by": "crossref",
+              "first-page": "103877",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib5",
+              "volume": "46",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.segan.2018.11.001",
+              "article-title": "Increasing district heating networks efficiency by means of temperature-flexible operation",
+              "author": "Hammer",
+              "doi-asserted-by": "crossref",
+              "first-page": "393",
+              "journal-title": "Sustain Energy, Grids Netw",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib6",
+              "volume": "16",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2016.04.039",
+              "article-title": "An energy management model to study energy and peak power savings from PV and storage in demand responsive buildings",
+              "author": "Sehar",
+              "doi-asserted-by": "crossref",
+              "first-page": "406",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib7",
+              "volume": "173",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2015.10.036",
+              "article-title": "Optimal and rule-based control strategies for energy flexibility in buildings with PV",
+              "author": "Salpakari",
+              "doi-asserted-by": "crossref",
+              "first-page": "425",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib8",
+              "volume": "161",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2021.116433",
+              "article-title": "Improving energy flexibility of a net-zero energy house using a solar-assisted air conditioning system with thermal energy storage and demand-side management",
+              "author": "Ren",
+              "doi-asserted-by": "crossref",
+              "first-page": "116433",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib9",
+              "volume": "285",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2016.12.026",
+              "article-title": "An intelligent system architecture in home energy management systems (HEMS) for efficient demand response in smart grid",
+              "author": "Shakeri",
+              "doi-asserted-by": "crossref",
+              "first-page": "154",
+              "journal-title": "Energy Build",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib10",
+              "volume": "138",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2019.03.187",
+              "article-title": "Flexible dispatch of a building energy system using building thermal storage and battery energy storage",
+              "author": "Niu",
+              "doi-asserted-by": "crossref",
+              "first-page": "274",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib11",
+              "volume": "243",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2019.109442",
+              "article-title": "Potential of energy flexible buildings’ Evaluation of DSM strategies using building thermal mass",
+              "author": "Ramos",
+              "doi-asserted-by": "crossref",
+              "first-page": "109442",
+              "journal-title": "Energy Build",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib12",
+              "volume": "203",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2021.110763",
+              "article-title": "Cooling system energy flexibility of a nearly zero-energy office building using building thermal mass’ potential evaluation and parametric analysis",
+              "author": "Lu",
+              "doi-asserted-by": "crossref",
+              "first-page": "110763",
+              "journal-title": "Energy Build",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib13",
+              "volume": "236",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2018.11.012",
+              "article-title": "Influence of envelope, structural thermal mass and indoor content on the building heating energy flexibility",
+              "author": "Johra",
+              "doi-asserted-by": "crossref",
+              "first-page": "325",
+              "journal-title": "Energy Build",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib14",
+              "volume": "183",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2020.109804",
+              "article-title": "Evaluation of energy flexibility of low-energy residential buildings connected to district heating",
+              "author": "Foteinaki",
+              "doi-asserted-by": "crossref",
+              "first-page": "109804",
+              "journal-title": "Energy Build",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib15",
+              "volume": "213",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.epsr.2013.08.017",
+              "article-title": "Combining the demand response of direct electric space heating and partial thermal storage using LP optimization",
+              "author": "Ali",
+              "doi-asserted-by": "crossref",
+              "first-page": "160",
+              "journal-title": "Electr Power Syst Res",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib16",
+              "volume": "106",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2016.04.003",
+              "article-title": "Integrated HVAC management and optimal scheduling of smart appliances for community peak load reduction",
+              "author": "Perez",
+              "doi-asserted-by": "crossref",
+              "first-page": "34",
+              "journal-title": "Energy Build",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib17",
+              "volume": "123",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib18",
+              "unstructured": "Zhao G, Li L, Zhang J, Letaief KB. Residential demand response with power adjustable and unadjustable appliances in smart grid. In: IEEE International Conference on Communications; 2013."
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2015.05.101",
+              "article-title": "Demand response flexibility and flexibility potential of residential smart appliances’ Experiences from large pilot test in Belgium",
+              "author": "D’hulst",
+              "doi-asserted-by": "crossref",
+              "first-page": "79",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib19",
+              "volume": "155",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2016.03.072",
+              "article-title": "Multi-party energy management for smart building cluster with PV systems using automatic demand response",
+              "author": "Ma",
+              "doi-asserted-by": "crossref",
+              "first-page": "11",
+              "journal-title": "Energy Build",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib20",
+              "volume": "121",
+              "year": "2016"
+            },
+            {
+              "article-title": "Residential loads flexibility potential for demand response using energy consumption patterns and user segments",
+              "author": "Afzalan",
+              "first-page": "254",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib21",
+              "year": "2019"
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib22",
+              "unstructured": "AGL Business Flexible Server, <https://www.energymadeeasy.gov.au/plan?id=AGL238852MBE&postcode=2500>; 2022 [accessed 18.06.22]."
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2019.113387",
+              "article-title": "Energy flexible buildings’ a methodology for rating the flexibility performance of buildings with electric heating and cooling systems",
+              "author": "Arteconi",
+              "doi-asserted-by": "crossref",
+              "first-page": "113387",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib23",
+              "volume": "251",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.enconman.2020.113797",
+              "article-title": "Optimisation of a renewable cooling and heating system using an integer-based genetic algorithm, response surface method and life cycle analysis",
+              "author": "Ren",
+              "doi-asserted-by": "crossref",
+              "first-page": "113797",
+              "journal-title": "Energy Convers Manag",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib24",
+              "volume": "230",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.enconman.2014.08.019",
+              "article-title": "Development and evaluation of a ceiling ventilation system enhanced by solar photovoltaic thermal collectors and phase change materials",
+              "author": "Lin",
+              "doi-asserted-by": "crossref",
+              "first-page": "218",
+              "journal-title": "Energy Convers Manag",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib25",
+              "volume": "88",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2020.110071",
+              "article-title": "Above-roof air temperature effects on HVAC and cool roof performance’ experiments and development of a predictive model",
+              "author": "Green",
+              "doi-asserted-by": "crossref",
+              "first-page": "110071",
+              "journal-title": "Energy Build",
+              "key": "10.1016/B978-0-323-99588-7.00001-8_bib26",
+              "volume": "222",
+              "year": "2020"
+            }
+          ],
+          "reference-count": 26,
+          "references-count": 26,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780323995887000018"
+            }
+          },
+          "score": 109.20532,
+          "source": "Crossref",
+          "title": [
+            "Building energy flexibility analysis: case studies and demonstration"
+          ],
+          "type": "book-chapter"
+        },
+        {
+          "DOI": "10.2172/1580215",
+          "URL": "https://doi.org/10.2172/1580215",
+          "author": [
+            {
+              "affiliation": [],
+              "name": "National Renewable Energy Laboratory (NREL), Golden, CO (United States)",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "National Renewable Energy Lab. (NREL), Golden, CO (United States)"
+                }
+              ],
+              "family": "Harris",
+              "given": "Chioke",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Building Technologies Office (EE-5B) (Building Technologies Office Corporate)",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                25
+              ]
+            ],
+            "date-time": "2019-12-25T23:18:50Z",
+            "timestamp": 1577315930000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                21
+              ]
+            ],
+            "date-time": "2026-08-21T17:15:14Z",
+            "timestamp": 1787332514000
+          },
+          "funder": [
+            {
+              "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Building Technologies Office (EE-5B) (Building Technologies Office Corporate)"
+            },
+            {
+              "award": [
+                "NONE"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "NONE"
+                  ]
+                }
+              ],
+              "name": "DOE"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                21
+              ]
+            ],
+            "date-time": "2026-08-21T17:34:07Z",
+            "timestamp": 1787333647313,
+            "version": "build-2736575974"
+          },
+          "institution": [
+            {
+              "acronym": [
+                "EE-LIBRARY"
+              ],
+              "name": "EERE Publication and Product Library"
+            },
+            {
+              "name": "National Renewable Energy Laboratory (NREL), Golden, CO (United States)"
+            },
+            {
+              "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Building Technologies Office (EE-5B) (Building Technologies Office Corporate)"
+            }
+          ],
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                2
+              ]
+            ]
+          },
+          "member": "960",
+          "prefix": "10.2172",
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                2
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2019,
+                12,
+                2
+              ]
+            ]
+          },
+          "publisher": "Office of Scientific and Technical Information (OSTI)",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.osti.gov/biblio/1580215"
+            }
+          },
+          "score": 108.33057,
+          "source": "Crossref",
+          "title": [
+            "Grid-interactive Efficient Buildings Technical Report Series: Windows and Opaque Envelope"
+          ],
+          "type": "report"
+        },
+        {
+          "DOI": "10.1002/9781394203093.ch1",
+          "ISBN": [
+            "9781394203062",
+            "9781394203093"
+          ],
+          "URL": "https://doi.org/10.1002/9781394203093.ch1",
+          "alternative-id": [
+            "10.1002/9781394203093.ch1",
+            "10.1002/9781394203093"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "Automating Building Energy Management for Accelerated Building Decarbonization"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                3
+              ]
+            ],
+            "date-time": "2025-01-03T21:18:22Z",
+            "timestamp": 1735939102000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                3
+              ]
+            ],
+            "date-time": "2025-01-03T21:20:16Z",
+            "timestamp": 1735939216000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                4
+              ]
+            ],
+            "date-time": "2025-01-04T05:35:52Z",
+            "timestamp": 1735968952226,
+            "version": "3.32.0"
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781394203062"
+            },
+            {
+              "type": "electronic",
+              "value": "9781394203093"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                16
+              ]
+            ]
+          },
+          "language": "en",
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781394203093.ch1",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "1-27",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                16
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                3
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2024,
+                12,
+                16
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_2_1",
+              "unstructured": "United Nations.High‐level Dialogue on Energy New York September 2021 [Internet]. [cited 2022 Jan 24]. Available from:https://www.un.org/en/conferences/energy2021."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "unstructured": "International Energy Agency (IEA).Buildings: A Source of Enormous Untapped Efficiency Potential[Internet]. [cited 2022 Jan 24]. Available from:https://www.iea.org/topics/buildings."
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "unstructured": "US Energy Information Administration (EIA).How Much Energy Is Consumed in U.S. Buildings?[Internet]. [cited 2022 Jan 24]. Available from:https://www.eia.gov/tools/faqs/faq.php?id=86&t=1."
+            },
+            {
+              "author": "Satchwell A.",
+              "key": "e_1_2_1_5_1",
+              "volume-title": "A National Roadmap for Grid‐Interactive Efficient Buildings",
+              "year": "2021"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "unstructured": "Architecture2030.org.Why the Building Sector?[Internet]. [cited 2022 Jan 26]. Available from:https://architecture2030.org/why‐the‐building‐sector."
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "unstructured": "US Environmental Protection Administration (EPA).Sources of Greenhouse Gas Emissions[Internet]. [cited 2022 Jan 26]. Available from:https://www.epa.gov/ghgemissions/sources‐greenhouse‐gas‐emissions."
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "unstructured": "PotterB.Every Building in America – an Analysis of the US Building Stock[Internet]. [cited 2022 Jan 26]. Available from:https://constructionphysics.substack.com/p/every‐building‐in‐america‐an‐analysis."
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "unstructured": "EIA.What Is U.S. Electricity Generation by Energy Source?[Internet]. [cited 2024 Jan 8]. Available from:https://www.eia.gov/tools/faqs/faq.php?id=427&t=3."
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "unstructured": "US Department of Energy (DOE).In 2023 Non‐Fossil Fuel Sources Will Account for 86% of New Electric Utility Generation Capacity in the United States[Internet]. [cited 2022 Jan 31]. Available from:https://www.energy.gov/eere/vehicles/articles/fotw‐1304‐august‐21‐2023‐2023‐non‐fossil‐fuel‐sources‐will‐account‐86‐new."
+            },
+            {
+              "key": "e_1_2_1_11_1",
+              "unstructured": "Mir‐445511.Wikipedia. Levelized Cost of Energy[Internet]. [cited 2024 Jan 8]. Available from:https://commons.wikimedia.org/w/index.php?curid=137272269."
+            },
+            {
+              "key": "e_1_2_1_12_1",
+              "unstructured": "Environmental and Energy Study Institute (EESI).Beneficial Electrification: An Access Clean Energy Savings Program[Internet]. [cited 2022 Jan 31]. Available from:https://www.eesi.org/electrification/be."
+            },
+            {
+              "key": "e_1_2_1_13_1",
+              "unstructured": "NREL.Grid‐Interactive Efficient Buildings Technical Report Series[Internet]. [cited 2022 Jan 27]. Available from:https://www.nrel.gov/docs/fy20osti/75478.pdf."
+            },
+            {
+              "key": "e_1_2_1_14_1",
+              "unstructured": "DeignJ.So What Exactly Are Virtual Power Plants?[Internet]. [cited 2022 Jan 27]. Available from:https://www.greentechmedia.com/articles/read/so‐what‐exactly‐are‐virtual‐power‐plants."
+            },
+            {
+              "key": "e_1_2_1_15_1",
+              "unstructured": "WardL.Amory Lovins: Solving the Energy Crisis (and Bringing Wal‐Mart)[Internet]. [cited 2022 Feb 1]. Available from:https://www.popularmechanics.com/science/green‐tech/a2146/4224757."
+            },
+            {
+              "key": "e_1_2_1_16_1",
+              "unstructured": "BrantJ.Grid‐Interactive Efficient Buildings: Providing Energy Demand Flexibility for Utilities in the Southwest.Southwest Energy Efficiency Project. [cited 2025 Jan 8]. Available from:https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/grid‐interactive‐efficient‐buildings‐report.pdf"
+            },
+            {
+              "key": "e_1_2_1_17_1",
+              "unstructured": "EIA.Residential Energy Consumption Survey (RECS)[Internet]. [cited 2022 Feb 3]. Available from:https://www.eia.gov/consumption/residential/data/2015/index.php."
+            },
+            {
+              "key": "e_1_2_1_18_1",
+              "unstructured": "EIA.Commercial Energy Consumption Survey (CBECS)[Internet]. [cited 2024 Jan 4]. Available from:https://www.eia.gov/consumption/commercial/data/2018."
+            },
+            {
+              "key": "e_1_2_1_19_1",
+              "unstructured": "FDA.Are You Storing Food Safely?[Internet]. [cited 2022 Feb 3]. Available from:https://www.fda.gov/consumers/consumer‐updates/are‐you‐storing‐food‐safely."
+            },
+            {
+              "key": "e_1_2_1_20_1",
+              "unstructured": "Apple.Developing Apps and Accessories for the Home[Internet]. [cited 2022 Feb 5]. Available from:https://developer.apple.com/homekit."
+            },
+            {
+              "key": "e_1_2_1_21_1",
+              "unstructured": "Google.Nest API Reference[Internet]. [cited 2022 Feb 5]. Available from:https://developers.nest.com/reference/api‐overview."
+            },
+            {
+              "article-title": "Energy flexibility of residential buildings: a systematic review of characterization and quantification methods and applications",
+              "author": "Li H.",
+              "first-page": "100054",
+              "journal-title": "Advances in Applied Energy",
+              "key": "e_1_2_1_22_1",
+              "volume": "3"
+            },
+            {
+              "key": "e_1_2_1_23_1",
+              "unstructured": "California Independent System Operator (CAISO).California ISO – Emissions Today's Outlook[Internet]. [cited 2022 Feb 5]. Available from:https://www.caiso.com/TodaysOutlook/Pages/emissions.aspx."
+            },
+            {
+              "key": "e_1_2_1_24_1",
+              "unstructured": "EIA.As Solar Capacity Grows Duck Curves Are Getting Deeper in California[Internet]. [cited 2023 Aug 27]. Available from:https://www.eia.gov/todayinenergy/detail.php?id=56880."
+            },
+            {
+              "key": "e_1_2_1_25_1",
+              "unstructured": "BalaramanK.Thousands of California Homes to be Linked for 550 MW Virtual Power Plant North America's Largest[Internet]. [cited 2022 Feb 7]. Available from:https://www.utilitydive.com/news/sce‐590‐mw‐storage‐550‐mw‐virtual‐power‐plant/591786."
+            },
+            {
+              "key": "e_1_2_1_26_1",
+              "unstructured": "Table 2 Satchwell et al.A National Roadmap for Grid‐Interactive Efficient Buildings.U.S. Department of Energy Building Technologies Office 2021 p.4. [cited 2024 Dec 4]. Available from:https://gebroadmap.lbl.gov/ANationalRoadmapforGEBs‐Final.pdf."
+            },
+            {
+              "key": "e_1_2_1_27_1",
+              "unstructured": "Wikipedia.Seasonal Energy Efficiency Ratio[Internet]. [cited 2022 Feb 7]. Available from:https://en.wikipedia.org/wiki/Seasonal_energy_efficiency_ratio."
+            },
+            {
+              "key": "e_1_2_1_28_1",
+              "unstructured": "Wikipedia.Power Factor[Internet]. [cited 2022 Feb 8]. Available from:https://en.wikipedia.org/wiki/Power_factor."
+            },
+            {
+              "key": "e_1_2_1_29_1",
+              "unstructured": "US Green Building Council.LEED[Internet]. [cited 2022 Feb 14]. Available from:https://www.usgbc.org/leed."
+            },
+            {
+              "key": "e_1_2_1_30_1",
+              "unstructured": "Energy Star.Energy Star: The Simple Choice for Energy Efficiency[Internet]. [cited 2022 Feb 14]. Available from:https://www.energystar.gov."
+            },
+            {
+              "key": "e_1_2_1_31_1",
+              "unstructured": "Wikipedia.LEED[Internet]. [cited 2022 Feb 14]. Available from:https://en.wikipedia.org/wiki/LEED."
+            },
+            {
+              "key": "e_1_2_1_32_1",
+              "unstructured": "US Green Building Council.LEED v4.1[Internet]. [cited 2022 Feb 15]. Available from:https://www.usgbc.org/leed/v41."
+            },
+            {
+              "key": "e_1_2_1_33_1",
+              "unstructured": "KnoxN.The Role of LEED in Climate Change Mitigation[Internet]. [cited 2022 Feb 15]. Available from:https://www.usgbc.org/articles/role‐leed‐climate‐change‐mitigation."
+            },
+            {
+              "key": "e_1_2_1_34_1",
+              "unstructured": "EPA.ENERGY STAR Impacts[Internet]. [cited 2022 Feb 15]. Available from:https://www.energystar.gov/about/origins_mission/impacts."
+            },
+            {
+              "key": "e_1_2_1_35_1",
+              "unstructured": "Wikipedia.Energy Star[Internet]. [cited 2022 Feb 15]. Available from:https://en.wikipedia.org/wiki/Energy_Star."
+            }
+          ],
+          "reference-count": 34,
+          "references-count": 34,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781394203093.ch1"
+            }
+          },
+          "score": 107.584175,
+          "source": "Crossref",
+          "title": [
+            "Introducing Grid‐interactive Efficient Buildings (GEBs)"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.2172/1671878",
+          "URL": "https://doi.org/10.2172/1671878",
+          "author": [
+            {
+              "affiliation": [],
+              "name": "US Department of Energy (USDOE), Washington DC (United States). Office of Energy Efficiency and Renewable Energy (EERE)",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "US Department of Energy (USDOE), Washington DC (United States). Office of Energy Efficiency and Renewable Energy (EERE), Building Technologies Office"
+                }
+              ],
+              "family": "Neukomm",
+              "given": "Monica",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Building Technologies Office (EE-5B) (Building Technologies Office Corporate)",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "US Department of Energy (USDOE), Washington DC (United States). Office of Energy Efficiency and Renewable Energy (EERE), Building Technologies Office"
+                }
+              ],
+              "family": "Nemtzow",
+              "given": "David",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2020,
+                10,
+                14
+              ]
+            ],
+            "date-time": "2020-10-14T22:44:42Z",
+            "timestamp": 1602715482000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                21
+              ]
+            ],
+            "date-time": "2026-08-21T17:31:20Z",
+            "timestamp": 1787333480000
+          },
+          "funder": [
+            {
+              "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Building Technologies Office (EE-5B) (Building Technologies Office Corporate)"
+            },
+            {
+              "award": [
+                "NONE"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "NONE"
+                  ]
+                }
+              ],
+              "name": "DOE"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                21
+              ]
+            ],
+            "date-time": "2026-08-21T18:26:39Z",
+            "timestamp": 1787336799821,
+            "version": "build-2736575974"
+          },
+          "institution": [
+            {
+              "acronym": [
+                "EE-LIBRARY"
+              ],
+              "name": "EERE Publication and Product Library"
+            },
+            {
+              "name": "US Department of Energy (USDOE), Washington DC (United States). Office of Energy Efficiency and Renewable Energy (EERE)"
+            },
+            {
+              "name": "USDOE Office of Energy Efficiency and Renewable Energy (EERE), Building Technologies Office (EE-5B) (Building Technologies Office Corporate)"
+            }
+          ],
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                1
+              ]
+            ]
+          },
+          "member": "960",
+          "prefix": "10.2172",
+          "published": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                1
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2020,
+                7,
+                1
+              ]
+            ]
+          },
+          "publisher": "Office of Scientific and Technical Information (OSTI)",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.osti.gov/biblio/1671878"
+            }
+          },
+          "score": 107.583374,
+          "source": "Crossref",
+          "title": [
+            "Grid-interactive Efficient Buildings Projects Summary"
+          ],
+          "type": "report"
+        },
+        {
+          "DOI": "10.1109/pesgre52268.2022.9715880",
+          "URL": "https://doi.org/10.1109/pesgre52268.2022.9715880",
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "the University of North Carolina at Charlotte,Power, Energy, and Intelligent Systems Laboratory,Energy Production Infrastructure Center (EPIC), and Department of Electrical Engineering,Charlotte,NC,USA,28223"
+                }
+              ],
+              "family": "Ariwoola",
+              "given": "Raheem",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "the University of North Carolina at Charlotte,Power, Energy, and Intelligent Systems Laboratory,Energy Production Infrastructure Center (EPIC), and Department of Electrical Engineering,Charlotte,NC,USA,28223"
+                }
+              ],
+              "family": "Kamalasadan",
+              "given": "Sukumar",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2022 IEEE International Conference on Power Electronics, Smart Grid, and Renewable Energy (PESGRE)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                2,
+                25
+              ]
+            ],
+            "date-time": "2022-02-25T20:35:51Z",
+            "timestamp": 1645821351000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                6,
+                9
+              ]
+            ],
+            "date-time": "2022-06-09T21:18:09Z",
+            "timestamp": 1654809489000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2022,
+                  1,
+                  5
+                ]
+              ]
+            },
+            "location": "Trivandrum, India",
+            "name": "2022 IEEE International Conference on Power Electronics, Smart Grid, and Renewable Energy (PESGRE)",
+            "start": {
+              "date-parts": [
+                [
+                  2022,
+                  1,
+                  2
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                30
+              ]
+            ],
+            "date-time": "2024-10-30T11:49:23Z",
+            "timestamp": 1730288963496,
+            "version": "3.28.0"
+          },
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2022,
+                1,
+                2
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    1,
+                    2
+                  ]
+                ],
+                "date-time": "2022-01-02T00:00:00Z",
+                "timestamp": 1641081600000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    1,
+                    2
+                  ]
+                ],
+                "date-time": "2022-01-02T00:00:00Z",
+                "timestamp": 1641081600000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/9715739/9715740/09715880.pdf?arnumber=9715880",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "1-6",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2022,
+                1,
+                2
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2022,
+                1,
+                2
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "article-title": "Thermal environmental conditions for human occu-pancy",
+              "journal-title": "Standard 55",
+              "key": "ref10",
+              "year": "2017"
+            },
+            {
+              "article-title": "U.s. department of energyresidential reference building models of the national building stock",
+              "author": "deru",
+              "key": "ref11",
+              "year": "0"
+            },
+            {
+              "article-title": "Criteria for the passive house",
+              "first-page": "44",
+              "journal-title": "EnerPHit and PHI Low Energy Building Standard Rheinstr Germany",
+              "key": "ref12",
+              "year": "2015"
+            },
+            {
+              "article-title": "Climate-specific passive building stan-dards",
+              "author": "wright",
+              "journal-title": "USDOE Passive House Institute US",
+              "key": "ref13",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/TNN.2010.2045657",
+              "doi-asserted-by": "publisher",
+              "key": "ref14"
+            },
+            {
+              "article-title": "The levenberg-marquardt algorithm for nonlinear leastsquares curve-fitting problems",
+              "author": "gavin",
+              "key": "ref15",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/TSMCC.2011.2174983",
+              "doi-asserted-by": "publisher",
+              "key": "ref4"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2019.04.159",
+              "doi-asserted-by": "publisher",
+              "key": "ref3"
+            },
+            {
+              "DOI": "10.1016/j.energy.2004.10.004",
+              "doi-asserted-by": "publisher",
+              "key": "ref6"
+            },
+            {
+              "article-title": "Use of drone and infrared camera for a campus buildingenvelope study",
+              "author": "ariwoola",
+              "journal-title": "Electronic Theses and Dissertations",
+              "key": "ref5",
+              "year": "2016"
+            },
+            {
+              "article-title": "Integrated hybrid thermal dynamicsmodel for residential building",
+              "author": "ariwoola",
+              "journal-title": "On Press",
+              "key": "ref8",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2012.07.044",
+              "doi-asserted-by": "publisher",
+              "key": "ref7"
+            },
+            {
+              "article-title": "Use of energy explained",
+              "key": "ref2",
+              "year": "2021"
+            },
+            {
+              "article-title": "How much energy is consumed inU.S. buildings?",
+              "key": "ref1",
+              "year": "2021"
+            },
+            {
+              "article-title": "Energyplus: Energy simulation program",
+              "author": "crawley",
+              "first-page": "49",
+              "journal-title": "ASHRAE Journal Volume",
+              "key": "ref9",
+              "volume": "42",
+              "year": "2017"
+            }
+          ],
+          "reference-count": 15,
+          "references-count": 15,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/9715880/"
+            }
+          },
+          "score": 107.14385,
+          "source": "Crossref",
+          "title": [
+            "A Simplified Functional Hybrid Operation Mode for Grid-Interactive Building Energy Management"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.1016/b978-0-323-99588-7.00011-0",
+          "ISBN": [
+            "9780323995887"
+          ],
+          "URL": "https://doi.org/10.1016/b978-0-323-99588-7.00011-0",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Shahsavar",
+              "given": "Amin",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Ghadamian",
+              "given": "Hossein",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Bahri",
+              "given": "Abbas",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Amirian",
+              "given": "Hajar",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Shakouri",
+              "given": "Mahdi",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Bahramara",
+              "given": "Salah",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Adl",
+              "given": "Mehrdad",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Building Energy Flexibility and Demand Management"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                2,
+                27
+              ]
+            ],
+            "date-time": "2023-02-27T15:07:11Z",
+            "timestamp": 1677510431000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                22
+              ]
+            ],
+            "date-time": "2025-08-22T06:24:39Z",
+            "timestamp": 1755843879000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                12,
+                22
+              ]
+            ],
+            "date-time": "2025-12-22T18:27:36Z",
+            "timestamp": 1766428056421,
+            "version": "3.44.0"
+          },
+          "is-referenced-by-count": 1,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9780323995887"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://www.elsevier.com/legal/tdmrep-license",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-017",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-012",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-004",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780323995887000110?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780323995887000110?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "member": "78",
+          "page": "121-143",
+          "prefix": "10.1016",
+          "published": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "publisher": "Elsevier",
+          "reference": [
+            {
+              "DOI": "10.1016/j.adapen.2021.100054",
+              "article-title": "Energy flexibility of residential buildings: a systematic review of characterization and quantification methods and applications",
+              "author": "Li",
+              "doi-asserted-by": "crossref",
+              "first-page": "100054",
+              "journal-title": "Adv Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib1",
+              "volume": "3",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.rser.2015.09.043",
+              "article-title": "Recent advances in solar photovoltaic systems for emerging trends and advanced applications",
+              "author": "Pandey",
+              "doi-asserted-by": "crossref",
+              "first-page": "859",
+              "journal-title": "Renew Sustain Energy Rev",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib2",
+              "volume": "53",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.erss.2018.01.014",
+              "article-title": "Flexibility, dynamism and diversity in energy supply and demand: a critical review",
+              "author": "Grunewald",
+              "doi-asserted-by": "crossref",
+              "first-page": "56",
+              "journal-title": "Energy Res Soc Sci",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib3",
+              "volume": "38",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1088/1742-6596/1343/1/012064",
+              "article-title": "Building energy flexibility: sensitivity analysis and key performance indicator comparison",
+              "author": "Johra",
+              "doi-asserted-by": "crossref",
+              "first-page": "012064",
+              "journal-title": "J Phys Conf Ser",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib4",
+              "volume": "1343",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.jweia.2015.10.005",
+              "article-title": "Experimental study of the protuberance effect on the blade performance of a small horizontal axis wind turbine",
+              "author": "Huang",
+              "doi-asserted-by": "crossref",
+              "first-page": "202",
+              "journal-title": "J Wind Eng Ind Aerodyn",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib5",
+              "volume": "147",
+              "year": "2015"
+            },
+            {
+              "author": "Hau",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib6",
+              "series-title": "Wind Turbines",
+              "year": "2013"
+            },
+            {
+              "author": "Fichaux",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib7",
+              "series-title": "Design limits and solutions for very large wind turbines",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1007/s40565-016-0238-z",
+              "article-title": "Stochastic coordinated operation of wind and battery energy storage system considering battery degradation",
+              "author": "Wang",
+              "doi-asserted-by": "crossref",
+              "first-page": "581",
+              "journal-title": "J Mod Power Syst Clean Energy",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib8",
+              "volume": "4",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.rser.2021.110859",
+              "article-title": "Residential net-zero energy buildings: review and perspective",
+              "author": "Wu",
+              "doi-asserted-by": "crossref",
+              "first-page": "110859",
+              "journal-title": "Renew Sustain Energy Rev",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib9",
+              "volume": "142",
+              "year": "2021"
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib10",
+              "unstructured": "Available at https://www.eesi.org/topics/solar/description."
+            },
+            {
+              "DOI": "10.1016/j.jclepro.2016.07.150",
+              "article-title": "Review of building integrated applications of photovoltaic and solar thermal systems",
+              "author": "Baljit",
+              "doi-asserted-by": "crossref",
+              "first-page": "677",
+              "journal-title": "J Clean Prod",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib11",
+              "volume": "137",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib12",
+              "unstructured": "Hemetsberger, MSW, Chianetta, G. Solar Power Europe’s Global Market Outlook 2020-2024, 2020."
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2016.04.039",
+              "article-title": "An energy management model to study energy and peak power savings from PV and storage in demand responsive buildings",
+              "author": "Sehar",
+              "doi-asserted-by": "crossref",
+              "first-page": "406",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib13",
+              "volume": "173",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.est.2019.03.018",
+              "article-title": "Progress in renewable power exploitation: reversible solid oxide cellsflywheel hybrid storage systems to enhance flexibility in micro-grids management",
+              "author": "Baldinelli",
+              "doi-asserted-by": "crossref",
+              "first-page": "202",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib14",
+              "volume": "23",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.scs.2018.01.038",
+              "article-title": "New domain for promoting energy efficiency: energy flexible building cluster",
+              "author": "Vigna",
+              "doi-asserted-by": "crossref",
+              "first-page": "526",
+              "journal-title": "Sustain Cities Soc",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib15",
+              "volume": "38",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2016.03.072",
+              "article-title": "Multi-party energy management for smart building cluster with PV systems using automatic demand response",
+              "author": "Ma",
+              "doi-asserted-by": "crossref",
+              "first-page": "11",
+              "journal-title": "Energy Build",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib16",
+              "volume": "121",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2016.06.030",
+              "article-title": "An operation optimization and decision frame- work for a building cluster with distributed energy systems",
+              "author": "Li",
+              "doi-asserted-by": "crossref",
+              "first-page": "98",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib17",
+              "volume": "178",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2021.117821",
+              "article-title": "Zero energy potential of photovoltaic direct-driven air conditioners with considering the load flexibility of air conditioners",
+              "author": "Li",
+              "doi-asserted-by": "crossref",
+              "first-page": "117821",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib18",
+              "volume": "304",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2015.10.036",
+              "article-title": "Optimal and rule-based control strategies for energy flexibility in buildings with PV",
+              "author": "Salpakari",
+              "doi-asserted-by": "crossref",
+              "first-page": "425",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib19",
+              "volume": "161",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.renene.2022.06.028",
+              "article-title": "Design and energy flexibility analysis for building integrated photovoltaics-heat pump combinations in a house",
+              "author": "Gaucher-Loksts",
+              "doi-asserted-by": "crossref",
+              "first-page": "872",
+              "journal-title": "Renew Energy",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib20",
+              "volume": "195",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.renene.2022.08.128",
+              "article-title": "Demand response flexibility with synergies on passive PCM walls, BIPVs, and active air-conditioning system in a subtropical climate",
+              "author": "Zhou",
+              "doi-asserted-by": "crossref",
+              "first-page": "204",
+              "journal-title": "Renew Energy",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib21",
+              "volume": "199",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.enconman.2019.111888",
+              "article-title": "Energy flexibility investigation of advanced grid-responsive energy control strategies with the static battery and electric vehicles: a case study of a high-rise office building in Hong Kong",
+              "author": "Zhou",
+              "doi-asserted-by": "crossref",
+              "first-page": "111888",
+              "journal-title": "Energy Convers Manag",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib22",
+              "volume": "199",
+              "year": "2019"
+            },
+            {
+              "article-title": "Review on the design modifications of a solar air heater for improvement in the thermal performance",
+              "author": "Arunkumar",
+              "first-page": "100685",
+              "journal-title": "Sustain Energy Technol Assess",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib23",
+              "volume": "39",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2016.06.041",
+              "article-title": "The effect of time-of-use tariffs on the demand response flexibility of an all-electric smart-grid-ready dwelling",
+              "author": "Pallonetto",
+              "doi-asserted-by": "crossref",
+              "first-page": "56",
+              "journal-title": "Energy Build",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib24",
+              "volume": "128",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.solener.2018.01.008",
+              "article-title": "Multi-objective optimization for reducing the auxiliary electric energy peak in low cost solar domestic hot-water heating systems in Brazil",
+              "author": "Cardemil",
+              "doi-asserted-by": "crossref",
+              "first-page": "486",
+              "journal-title": "Sol Energy",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib25",
+              "volume": "163",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.3390/en12010177",
+              "article-title": "Optimized dimensioning and operation automation for a solar-combi system for indoor space heating. A case study for a school building in Crete",
+              "author": "Katsaprakakis",
+              "doi-asserted-by": "crossref",
+              "first-page": "177",
+              "journal-title": "Energies",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib26",
+              "volume": "12",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2021.111395",
+              "article-title": "Study of the energy performance of a combined system: solar thermal collector – storage tank – floor heating, for the heating needs of a room in Maghreb climate",
+              "author": "Zairi",
+              "doi-asserted-by": "crossref",
+              "first-page": "111395",
+              "journal-title": "Energy Build",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib27",
+              "volume": "252",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.applthermaleng.2018.09.046",
+              "article-title": "Thermodynamic evaluation of a distributed energy system integrating a solar thermochemical process with a doubleaxis tracking parabolic trough collector",
+              "author": "Fang",
+              "doi-asserted-by": "crossref",
+              "first-page": "541e551",
+              "journal-title": "Appl Therm Eng",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib28",
+              "volume": "145",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.tsep.2022.101286",
+              "article-title": "Study of a double-acting solar collector for use in the absorption cooling system in hot regions",
+              "author": "Camara",
+              "doi-asserted-by": "crossref",
+              "first-page": "101286",
+              "journal-title": "Therm Sci Eng Prog",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib29",
+              "volume": "31",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.rser.2014.11.059",
+              "article-title": "A thermodynamic review of solar air heaters",
+              "author": "Saxena",
+              "doi-asserted-by": "crossref",
+              "first-page": "863",
+              "journal-title": "Renew Sustain Energy Rev",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib30",
+              "volume": "43",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.jobe.2021.103948",
+              "article-title": "Integration of a solar air heater to a building equipped with PCM to reduce the energy demand",
+              "author": "Hatamleh",
+              "doi-asserted-by": "crossref",
+              "first-page": "103948",
+              "journal-title": "J Build Eng",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib31",
+              "volume": "48",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.applthermaleng.2021.116905",
+              "article-title": "Thermodynamic performance evaluation of a heat pump system with textile based solar air heater for heating process",
+              "author": "Ural",
+              "doi-asserted-by": "crossref",
+              "first-page": "116905",
+              "journal-title": "Appl Therm Eng",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib32",
+              "volume": "191",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.jobe.2020.101971",
+              "article-title": "A novel solar-geothermal system integrated with earth–to–air heat exchanger and solar air heater with phase change material—numerical modelling, experimental calibration and parametrical analysis",
+              "author": "Qin",
+              "doi-asserted-by": "crossref",
+              "first-page": "101971",
+              "journal-title": "J Build Eng",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib33",
+              "volume": "35",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.applthermaleng.2019.03.022",
+              "article-title": "Exergoeconomic comparison of solar-assisted absorption heat pumps, solar heaters and gas boiler systems for district heating in Sarein Town, Iran",
+              "author": "Salehi",
+              "doi-asserted-by": "crossref",
+              "first-page": "409",
+              "journal-title": "Appl Therm Eng",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib34",
+              "volume": "153",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.rser.2022.112727",
+              "article-title": "Geothermal energy at different depths for district heating and cooling of existing and future building stock",
+              "author": "Romanov",
+              "doi-asserted-by": "crossref",
+              "first-page": "112727",
+              "journal-title": "Renew Sustain Energy Rev",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib35",
+              "volume": "167",
+              "year": "2022"
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib36",
+              "unstructured": "Wang K, Qin Z, Tong W, Ji C. Thermal energy storage for solar energy utilization: fundamentals and applications. In: Qubeissi MA, El-kharouf A, Soyhan HS, editors. Renewable energy - resources, challenges and applications, IntechOpen, London."
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib37",
+              "unstructured": "REN21, Renewables 2021 Global Status Report. REN21 Secretariat, Paris, 2021."
+            },
+            {
+              "DOI": "10.1016/j.rser.2022.112094",
+              "article-title": "Status of and expectations for flexible bioenergy to support resource efficiency and to accelerate the energy transition",
+              "author": "Schipfer",
+              "doi-asserted-by": "crossref",
+              "first-page": "112094",
+              "journal-title": "Renew Sustain Energy Rev",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib38",
+              "volume": "158",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.3390/buildings11010019",
+              "article-title": "Positioning positive energy districts in European cities",
+              "author": "Lindholm",
+              "doi-asserted-by": "crossref",
+              "first-page": "19",
+              "journal-title": "Buildings",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib39",
+              "volume": "11",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1186/s13705-018-0157-0",
+              "article-title": "Contributions of flexible power generation from biomass to a secure and cost-effective electricity supply-a review of potentials, incentives, and obstacles in Germany",
+              "author": "Purks",
+              "doi-asserted-by": "crossref",
+              "first-page": "18",
+              "journal-title": "Energy Sustain Society",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib40",
+              "volume": "8",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib41",
+              "unstructured": "Available at http://en.puxintech.com/domesticbiogasplant."
+            },
+            {
+              "DOI": "10.1016/j.renene.2021.07.078",
+              "article-title": "A biogas solar hybrid off-grid power plant with multiple storages for United States commercial buildings",
+              "author": "Mendecka",
+              "doi-asserted-by": "crossref",
+              "first-page": "705",
+              "journal-title": "Renew Energy",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_bib42",
+              "volume": "179",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.solener.2019.10.030",
+              "article-title": "Integrative modeling and optimization of a desiccant cooling system coupled with a photovoltaic thermal-solar air heater",
+              "author": "Fan",
+              "doi-asserted-by": "crossref",
+              "first-page": "929",
+              "journal-title": "Sol Energy",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_fur1",
+              "volume": "193",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.jclepro.2020.120504",
+              "article-title": "Energy recovery from domestic radiators using a compact composite metal Foam/PCM latent heat storage",
+              "author": "Sardari",
+              "doi-asserted-by": "crossref",
+              "first-page": "120504",
+              "journal-title": "J Clean Prod",
+              "key": "10.1016/B978-0-323-99588-7.00011-0_fur2",
+              "volume": "257",
+              "year": "2020"
+            }
+          ],
+          "reference-count": 44,
+          "references-count": 44,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780323995887000110"
+            }
+          },
+          "score": 106.49869,
+          "source": "Crossref",
+          "title": [
+            "Renewable energy for enhanced building energy flexibility"
+          ],
+          "type": "book-chapter"
+        },
+        {
+          "DOI": "10.1016/b978-0-323-99588-7.00010-9",
+          "ISBN": [
+            "9780323995887"
+          ],
+          "URL": "https://doi.org/10.1016/b978-0-323-99588-7.00010-9",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Dorahaki",
+              "given": "Sobhan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "MollahassaniPour",
+              "given": "Mojgan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Mobasheri",
+              "given": "Sahar",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Rashidinejad",
+              "given": "Masoud",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Building Energy Flexibility and Demand Management"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                2,
+                27
+              ]
+            ],
+            "date-time": "2023-02-27T15:07:14Z",
+            "timestamp": 1677510434000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                8,
+                22
+              ]
+            ],
+            "date-time": "2025-08-22T06:24:53Z",
+            "timestamp": 1755843893000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                14
+              ]
+            ],
+            "date-time": "2026-04-14T07:34:37Z",
+            "timestamp": 1776152077347,
+            "version": "3.50.1"
+          },
+          "is-referenced-by-count": 2,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9780323995887"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://www.elsevier.com/legal/tdmrep-license",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-017",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-012",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-004",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2023,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2023-01-01T00:00:00Z",
+                "timestamp": 1672531200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780323995887000109?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:B9780323995887000109?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "member": "78",
+          "page": "191-215",
+          "prefix": "10.1016",
+          "published": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2023
+              ]
+            ]
+          },
+          "publisher": "Elsevier",
+          "reference": [
+            {
+              "article-title": "An introduction to the smart grid-I",
+              "author": "Gupta",
+              "first-page": "1",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib1",
+              "series-title": "Advances in smart grid power system",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.3390/app10217406",
+              "article-title": "Optimal outage management model considering emergency demand response programs for a smart distribution system",
+              "author": "Dorahaki",
+              "doi-asserted-by": "crossref",
+              "first-page": "7406",
+              "journal-title": "Appl Sci",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib2",
+              "volume": "10",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.rser.2015.07.199",
+              "article-title": "Flexibility requirements of renewable energy based electricity systems—a review of research results and methodologies",
+              "author": "Kondziella",
+              "doi-asserted-by": "crossref",
+              "first-page": "10",
+              "journal-title": "Renew Sustain Energy Rev",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib3",
+              "volume": "53",
+              "year": "2016"
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib4",
+              "unstructured": "European Commission. Regulation (EU) no 347/2013 of the European Parliament and of the Council of 17 April 2013 on guidelines for Trans-European Energy Infrastructure; 2013."
+            },
+            {
+              "DOI": "10.1016/j.energy.2022.124360",
+              "article-title": "A novel approach for multiobjective cost-peak optimization for demand response of a residential area in smart grids",
+              "author": "Haider",
+              "doi-asserted-by": "crossref",
+              "first-page": "124360",
+              "journal-title": "Energy",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib5",
+              "volume": "254",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.segan.2022.100636",
+              "article-title": "Probabilistic power management of a grid-connected microgrid considering electric vehicles, demand response, smart transformers, and soft open points",
+              "author": "Maulik",
+              "doi-asserted-by": "crossref",
+              "first-page": "100636",
+              "journal-title": "Sustain Energy, Grids Netw",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib6",
+              "volume": "30",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2020.115006",
+              "article-title": "The optimal planning of smart multienergy systems incorporating transportation, natural gas, and active distribution networks",
+              "author": "Xie",
+              "doi-asserted-by": "crossref",
+              "first-page": "115006",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib7",
+              "volume": "269",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2022.108132",
+              "article-title": "Stochastic optimization in multienergy hub system operation considering solar energy resource and demand response",
+              "author": "Thang",
+              "doi-asserted-by": "crossref",
+              "first-page": "108132",
+              "journal-title": "Int J Electr Power Energy Syst",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib8",
+              "volume": "141",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.energy.2021.121717",
+              "article-title": "Transactive energy framework in multicarrier energy hubs: a fully decentralized model",
+              "author": "Javadi",
+              "doi-asserted-by": "crossref",
+              "first-page": "121717",
+              "journal-title": "Energy.",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib9",
+              "volume": "238",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.future.2018.04.051",
+              "article-title": "Retracted: Internet of Things (IoT) and its impact on supply chain: a framework for building smart, secure and efficient systems",
+              "author": "Abdel-Basset",
+              "doi-asserted-by": "crossref",
+              "first-page": "614",
+              "journal-title": "Futur Gener Comput Syst",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib10",
+              "volume": "86",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.future.2019.02.012",
+              "article-title": "IoT-enabled smart grid via SM: an overview",
+              "author": "Al-Turjman",
+              "doi-asserted-by": "crossref",
+              "first-page": "579",
+              "journal-title": "Futur Gener Comput Syst",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib11",
+              "volume": "96",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2019.2920682",
+              "article-title": "Blockchain applications in smart grid–review and frameworks",
+              "author": "Musleh",
+              "doi-asserted-by": "crossref",
+              "first-page": "86746",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib12",
+              "volume": "7",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.est.2022.104049",
+              "article-title": "A home energy management model considering energy storage and smart flexible appliances: a modified time-driven prospect theory approach",
+              "author": "Dorahaki",
+              "doi-asserted-by": "crossref",
+              "first-page": "104049",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib13",
+              "volume": "48",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.energy.2021.121743",
+              "article-title": "Optimal energy hub development to supply heating, cooling, electricity and freshwater for a coastal urban area taking into account economic and environmental factors",
+              "author": "Mostafavi Sani",
+              "doi-asserted-by": "crossref",
+              "first-page": "121743",
+              "journal-title": "Energy",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib14",
+              "volume": "238",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.energy.2017.11.052",
+              "article-title": "Sustainable energy hub design under uncertainty using benders decomposition method",
+              "author": "Hemmati",
+              "doi-asserted-by": "crossref",
+              "first-page": "1029",
+              "journal-title": "Energy",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib15",
+              "volume": "143",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.jclepro.2020.121079",
+              "article-title": "Optimum design of a multiform energy hub by applying particle swarm optimization",
+              "author": "Zhang",
+              "doi-asserted-by": "crossref",
+              "first-page": "121079",
+              "journal-title": "J Clean Prod",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib16",
+              "volume": "260",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1111/reel.12358",
+              "article-title": "Assessing the EU’s 2030 climate and energy policy framework: incremental change toward radical transformation?",
+              "author": "Kulovesi",
+              "doi-asserted-by": "crossref",
+              "first-page": "151",
+              "journal-title": "Rev Eur Comp Int Env Law",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib17",
+              "volume": "29",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2015.05.016",
+              "article-title": "Spinning reserve contribution using unit responsibility criterion incorporating preventive maintenance scheduling",
+              "author": "Mollahassani-pour",
+              "doi-asserted-by": "crossref",
+              "first-page": "508",
+              "journal-title": "Int J Electr Power Energy Syst",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib18",
+              "volume": "73",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.3031481",
+              "article-title": "High-level penetration of renewable energy sources into grid utility: challenges and solutions",
+              "author": "Alam",
+              "doi-asserted-by": "crossref",
+              "first-page": "190277",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib19",
+              "volume": "8",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2014.12.019",
+              "article-title": "Modeling and forecasting energy consumption for heterogeneous buildings using a physical–statistical approach",
+              "author": "Lü",
+              "doi-asserted-by": "crossref",
+              "first-page": "261",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib20",
+              "volume": "144",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.rser.2021.110859",
+              "article-title": "Residential net-zero energy buildings: review and perspective",
+              "author": "Wu",
+              "doi-asserted-by": "crossref",
+              "first-page": "110859",
+              "journal-title": "Renew Sustain Energy Rev",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib21",
+              "volume": "142",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.rser.2022.112573",
+              "article-title": "A review of behind-the-meter energy storage systems in smart grids",
+              "author": "Rezaeimozafar",
+              "doi-asserted-by": "crossref",
+              "first-page": "112573",
+              "journal-title": "Renew Sustain Energy Rev",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib22",
+              "volume": "164",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.est.2021.102591",
+              "article-title": "Empowering smart grid: a comprehensive review of energy storage technology and application with renewable energy integration",
+              "author": "Tan",
+              "doi-asserted-by": "crossref",
+              "first-page": "102591",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib23",
+              "volume": "39",
+              "year": "2021"
+            },
+            {
+              "article-title": "Review of energy storage technologies for sustainable power networks",
+              "author": "Akinyele",
+              "first-page": "74",
+              "journal-title": "Sustain Energy Technol Assess",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib24",
+              "volume": "8",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/MELE.2013.2294736",
+              "article-title": "The role of energy storage in a microgrid concept: examining the opportunities and promise of microgrids",
+              "author": "Fu",
+              "doi-asserted-by": "crossref",
+              "first-page": "21",
+              "journal-title": "IEEE Electrif Mag",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib25",
+              "volume": "1",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1016/j.est.2022.104681",
+              "article-title": "A stochastic techno-economic comparison of generation-integrated long duration flywheel, lithium-ion battery, and lead-acid battery energy storage technologies for isolated microgrid applications",
+              "author": "Esparcia",
+              "doi-asserted-by": "crossref",
+              "first-page": "104681",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib26",
+              "volume": "52",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/CEEPE55110.2022.9783442",
+              "doi-asserted-by": "crossref",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib27",
+              "unstructured": "Ling X, Liu Y, Chen H, Tian Y, Zhao X, Liu B. Bi-level optimization of energy storage considering flexibility and new energy consumption. In: 2022 5th Int. Conf. Energy, Electr. Power Eng., IEEE; 2022. p. 1228–1233. https://doi.org/10.1109/CEEPE55110.2022.9783442."
+            },
+            {
+              "DOI": "10.1016/j.est.2020.101393",
+              "article-title": "Probabilistic scheduling of power-to-gas storage system in renewable energy hub integrated with demand response program",
+              "author": "Yuan",
+              "doi-asserted-by": "crossref",
+              "first-page": "101393",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib28",
+              "volume": "29",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.ijhydene.2017.11.162",
+              "article-title": "System-level power-to-gas energy storage for high penetrations of variable renewables",
+              "author": "Lyseng",
+              "doi-asserted-by": "crossref",
+              "first-page": "1966",
+              "journal-title": "Int J Hydrog Energy",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib29",
+              "volume": "43",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1016/j.jclepro.2019.118769",
+              "article-title": "Economic-environmental effect of power to gas technology in coupled electricity and gas systems with price-responsive shiftable loads",
+              "author": "Nazari-Heris",
+              "doi-asserted-by": "crossref",
+              "first-page": "118769",
+              "journal-title": "J Clean Prod",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib30",
+              "volume": "244",
+              "year": "2020"
+            },
+            {
+              "article-title": "Compressed air energy storage",
+              "author": "Donadei",
+              "first-page": "141",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib31",
+              "series-title": "Storing energy",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.est.2021.102265",
+              "article-title": "Robust multiobjective thermal and electrical energy hub management integrating hybrid battery-compressed air energy storage systems and plug-in-electric-vehicle-based demand response",
+              "author": "Zeynali",
+              "doi-asserted-by": "crossref",
+              "first-page": "102265",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib32",
+              "volume": "35",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.tsep.2021.101020",
+              "article-title": "Optimal operation of the coastal energy hub considering seawater desalination and compressed air energy storage system",
+              "author": "Jalili",
+              "doi-asserted-by": "crossref",
+              "first-page": "101020",
+              "journal-title": "Therm Sci Eng Prog",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib33",
+              "volume": "25",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.egypro.2014.12.423",
+              "article-title": "Overview of current development in compressed air energy storage technology",
+              "author": "Luo",
+              "doi-asserted-by": "crossref",
+              "first-page": "603",
+              "journal-title": "Energy Proc",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib34",
+              "volume": "62",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1016/j.energy.2019.01.014",
+              "article-title": "Stochastic programming-based optimal bidding of compressed air energy storage with wind and thermal generation units in energy and reserve markets",
+              "author": "Akbari",
+              "doi-asserted-by": "crossref",
+              "first-page": "535",
+              "journal-title": "Energy",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib35",
+              "volume": "171",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.renene.2019.05.008",
+              "article-title": "Optimal bidding and offering strategies of compressed air energy storage: a hybrid robust-stochastic approach",
+              "author": "Cai",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "journal-title": "Renew Energy",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib36",
+              "volume": "143",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.est.2020.102089",
+              "article-title": "Stochastic optimal operation of a microgrid based on energy hub including a solar-powered compressed air energy storage system and an ice storage conditioner",
+              "author": "Jalili",
+              "doi-asserted-by": "crossref",
+              "first-page": "102089",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib37",
+              "volume": "33",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/JSYST.2013.2287603",
+              "article-title": "Investigation of market-based demand response impacts on security-constrained preventive maintenance scheduling",
+              "author": "Mollahassani-pour",
+              "doi-asserted-by": "crossref",
+              "first-page": "1496",
+              "journal-title": "IEEE Syst J",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib38",
+              "volume": "9",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.energy.2022.124153",
+              "article-title": "Economic-emission dispatch problem in integrated electricity and heat system considering multienergy demand response and carbon capture technologies",
+              "author": "Yang",
+              "doi-asserted-by": "crossref",
+              "first-page": "124153",
+              "journal-title": "Energy",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib39",
+              "volume": "253",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2021.117040",
+              "article-title": "The effect of price-based demand response on carbon emissions in European electricity markets: the importance of adequate carbon prices",
+              "author": "Fleschutz",
+              "doi-asserted-by": "crossref",
+              "first-page": "117040",
+              "journal-title": "Appl Energy",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib40",
+              "volume": "295",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.est.2020.102022",
+              "article-title": "The role of energy storage and demand response as energy democracy policies in the energy productivity of hybrid hub system considering social inconvenience cost",
+              "author": "Dorahaki",
+              "doi-asserted-by": "crossref",
+              "first-page": "102022",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib41",
+              "volume": "33",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.energy.2022.124333",
+              "article-title": "Impact of implementing a price-based demand response program on the system reliability in security-constrained unit commitment problem coupled with wind farms in the presence of contingencies",
+              "author": "Mansourshoar",
+              "doi-asserted-by": "crossref",
+              "first-page": "124333",
+              "journal-title": "Energy",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib42",
+              "volume": "255",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2021.107918",
+              "article-title": "Short-term reliability and economic evaluation of resilient microgrids under incentive-based demand response programs",
+              "author": "Vahedipour-Dahraie",
+              "doi-asserted-by": "crossref",
+              "first-page": "107918",
+              "journal-title": "Int J Electr Power Energy Syst",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib43",
+              "volume": "138",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2022.108225",
+              "article-title": "Flexibility-based generation maintenance scheduling in presence of uncertain wind power plants forecasted by deep learning considering demand response programs portfolio",
+              "author": "Sharifi",
+              "doi-asserted-by": "crossref",
+              "first-page": "108225",
+              "journal-title": "Int J Electr Power Energy Syst",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib44",
+              "volume": "141",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.egyr.2021.10.025",
+              "article-title": "Unit commitment of power system with large-scale wind power considering multi time scale flexibility contribution of demand response",
+              "author": "Xu",
+              "doi-asserted-by": "crossref",
+              "first-page": "342",
+              "journal-title": "Energy Rep",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib45",
+              "volume": "7",
+              "year": "2021"
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib46",
+              "unstructured": "Anna Z. Energy efficiency directive review and revision of directive 2012/27/EU; 2018."
+            },
+            {
+              "DOI": "10.1016/j.scs.2020.102169",
+              "article-title": "A techno-economic assessment of energy efficiency in energy management of a micro grid considering green-virtual resources",
+              "author": "Barzegar",
+              "doi-asserted-by": "crossref",
+              "first-page": "102169",
+              "journal-title": "Sustain Cities Soc",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib47",
+              "volume": "61",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.enpol.2010.02.055",
+              "article-title": "Improving energy efficiency and smart grid program analysis with agent-based end-use forecasting models",
+              "author": "Jackson",
+              "doi-asserted-by": "crossref",
+              "first-page": "3771",
+              "journal-title": "Energy Policy",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib48",
+              "volume": "38",
+              "year": "2010"
+            },
+            {
+              "DOI": "10.1016/j.est.2020.101229",
+              "article-title": "Optimal energy management in the smart microgrid considering the electrical energy storage system and the demand-side energy efficiency program",
+              "author": "Dorahaki",
+              "doi-asserted-by": "crossref",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib49",
+              "volume": "28",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1007/s00202-019-00866-x",
+              "article-title": "An efficient hybrid structure to solve economic-environmental energy scheduling integrated with demand side management programs",
+              "author": "Dorahaki",
+              "doi-asserted-by": "crossref",
+              "first-page": "1249",
+              "journal-title": "Electr Eng",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib50",
+              "volume": "101",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1016/j.scs.2022.103880",
+              "article-title": "The impact of energy efficiency on carbon emissions: evidence from the transportation sector in Chinese 30 provinces",
+              "author": "Li",
+              "doi-asserted-by": "crossref",
+              "first-page": "103880",
+              "journal-title": "Sustain Cities Soc",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib51",
+              "volume": "82",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2017.11.026",
+              "article-title": "A novel two-stage structure for coordination of energy efficiency and demand response in the smart grid environment",
+              "author": "Dorahaki",
+              "doi-asserted-by": "crossref",
+              "first-page": "353",
+              "journal-title": "Int J Electr Power Energy Syst",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib52",
+              "volume": "97",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1109/ISGT.2010.5434767",
+              "doi-asserted-by": "crossref",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib53",
+              "unstructured": "Wei D, Lu Y, Jafari M, Skare P, Rohde K. An integrated security system of protecting Smart Grid against cyber attacks. In: 2010 Innov. Smart Grid Technol., IEEE; 2010. p. 1–7. https://doi.org/10.1109/ISGT.2010.5434767."
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.3028222",
+              "article-title": "Power system security with cyber-physical power system operation",
+              "author": "Oyewole",
+              "doi-asserted-by": "crossref",
+              "first-page": "179970",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib54",
+              "volume": "8",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.2139/ssrn.4032760",
+              "article-title": "Emerging business models in local energy markets: a systematic review of peer-to-peer, community self-consumption, and transactive energy models",
+              "author": "Schwidtal",
+              "doi-asserted-by": "crossref",
+              "journal-title": "SSRN Electron J",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib55",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2020.106060",
+              "article-title": "Coordinating energy management for multiple energy hubs: from a transaction perspective",
+              "author": "Wang",
+              "doi-asserted-by": "crossref",
+              "first-page": "106060",
+              "journal-title": "Int J Electr Power Energy Syst",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib56",
+              "volume": "121",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.jclepro.2021.128167",
+              "article-title": "Interconnected-energy hubs robust energy management and scheduling in the presence of electric vehicles considering uncertainties",
+              "author": "Poursmaeil",
+              "doi-asserted-by": "crossref",
+              "first-page": "128167",
+              "journal-title": "J Clean Prod",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib57",
+              "volume": "316",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.scs.2021.103136",
+              "article-title": "Optimization framework for dynamic planning of energy hub considering integrated demand response program",
+              "author": "Ahmarinejad",
+              "doi-asserted-by": "crossref",
+              "first-page": "103136",
+              "journal-title": "Sustain Cities Soc",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib58",
+              "volume": "74",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.est.2022.104665",
+              "article-title": "Stochastic scheduling of resilient interconnected energy hubs considering peer-to-peer energy trading and energy storages",
+              "author": "Rezaei",
+              "doi-asserted-by": "crossref",
+              "first-page": "104665",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib59",
+              "volume": "50",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1016/j.segan.2021.100480",
+              "article-title": "Short-run economic–environmental impacts of carbon tax on bulk electric systems",
+              "author": "Emami",
+              "doi-asserted-by": "crossref",
+              "first-page": "100480",
+              "journal-title": "Sustain Energy Grids Netw",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib60",
+              "volume": "26",
+              "year": "2021"
+            },
+            {
+              "article-title": "Industrial wireless technology for the 21st century",
+              "author": "Doe",
+              "journal-title": "Technol Foresight",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib61",
+              "year": "2004"
+            },
+            {
+              "DOI": "10.1016/j.jclepro.2016.06.179",
+              "article-title": "Novel home energy management system using wireless communication technologies for carbon emission reduction within a smart grid",
+              "author": "Elkhorchani",
+              "doi-asserted-by": "crossref",
+              "first-page": "950",
+              "journal-title": "J Clean Prod",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib62",
+              "volume": "135",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.enbuild.2009.10.026",
+              "article-title": "Scoping the potential of monitoring and control technologies to reduce energy use in homes",
+              "author": "Meyers",
+              "doi-asserted-by": "crossref",
+              "first-page": "563",
+              "journal-title": "Energy Build",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib63",
+              "volume": "42",
+              "year": "2010"
+            },
+            {
+              "DOI": "10.1016/j.segan.2021.100542",
+              "article-title": "A Peer-to-Peer energy trading market model based on time-driven prospect theory in a smart and sustainable energy community",
+              "author": "Dorahaki",
+              "doi-asserted-by": "crossref",
+              "first-page": "100542",
+              "journal-title": "Sustain. Energy Grids Networks",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib64",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.15302/J-FEM-2017030",
+              "article-title": "System resilience enhancement: smart grid and beyond",
+              "author": "Huang",
+              "doi-asserted-by": "crossref",
+              "first-page": "271",
+              "journal-title": "Front Eng Manag",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib65",
+              "volume": "4",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/TSG.2015.2513048",
+              "article-title": "Robust optimization-based resilient distribution network planning against natural disasters",
+              "author": "Yuan",
+              "doi-asserted-by": "crossref",
+              "first-page": "2817",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib66",
+              "volume": "7",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/TSG.2015.2429653",
+              "article-title": "Resilient distribution system by microgrids formation after natural disasters",
+              "author": "Chen",
+              "doi-asserted-by": "crossref",
+              "first-page": "958",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib67",
+              "volume": "7",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.est.2021.102358",
+              "article-title": "Robust optimization of the flexibility-constrained energy management problem for a smart home with rooftop photovoltaic and an energy storage",
+              "author": "Bahramara",
+              "doi-asserted-by": "crossref",
+              "first-page": "102358",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib68",
+              "volume": "36",
+              "year": "2021"
+            },
+            {
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib69",
+              "unstructured": "Bertsch J, Growitsch C, Lorenczik S, Nagl S. Flexibility options in European electricity markets in high RES-E scenarios Study on behalf of the International Energy Agency (IEA); 2012."
+            },
+            {
+              "DOI": "10.1016/j.est.2020.101290",
+              "article-title": "Uncertainty-based unit commitment and construction in the presence of fast ramp units and energy storages as flexible resources considering enigmatic demand elasticity",
+              "author": "Poorvaezi Roukerd",
+              "doi-asserted-by": "crossref",
+              "first-page": "101290",
+              "journal-title": "J Energy Storage",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib70",
+              "volume": "29",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.eneco.2016.03.006",
+              "article-title": "Storage as a flexibility option in power systems with high shares of variable renewable energy sources: a POLES-based analysis",
+              "author": "Després",
+              "doi-asserted-by": "crossref",
+              "first-page": "638",
+              "journal-title": "Energy Econ",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib71",
+              "volume": "64",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1007/s40518-015-0028-7",
+              "article-title": "Current practice and thinking with integrating demand response for power system flexibility in the electricity markets in the USA and Germany",
+              "author": "Bayer",
+              "doi-asserted-by": "crossref",
+              "first-page": "55",
+              "journal-title": "Curr Sustain Energy Rep",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib72",
+              "volume": "2",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/TSG.2016.2529424",
+              "article-title": "Modeling and valuation of residential demand flexibility for renewable energy integration",
+              "author": "Gottwalt",
+              "doi-asserted-by": "crossref",
+              "first-page": "2565",
+              "journal-title": "IEEE Trans Smart Grid",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib73",
+              "volume": "8",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1016/j.applthermaleng.2019.113825",
+              "article-title": "Risk-based stochastic scheduling of energy hub system in the presence of heating network and thermal energy management",
+              "author": "Tian",
+              "doi-asserted-by": "crossref",
+              "first-page": "113825",
+              "journal-title": "Appl Therm Eng",
+              "key": "10.1016/B978-0-323-99588-7.00010-9_bib74",
+              "volume": "159",
+              "year": "2019"
+            }
+          ],
+          "reference-count": 74,
+          "references-count": 74,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/B9780323995887000109"
+            }
+          },
+          "score": 102.83414,
+          "source": "Crossref",
+          "title": [
+            "Smart grids and building energy flexibility"
+          ],
+          "type": "book-chapter"
+        }
+      ],
+      "items-per-page": 10,
+      "query": {
+        "search-terms": null,
+        "start-index": 0
+      },
+      "total-results": 41167
+    },
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "status": "ok"
+  },
+  "retrieved_at_utc": "2026-08-31T14:29:41Z",
+  "retry_count": 0
+}

@@ -1,0 +1,5198 @@
+{
+  "http_status": 200,
+  "request_url_redacted": "https://api.openalex.org/works?search=%28%22data+centre%22+OR+%22data+center%22+OR+%22AI+data+centre%22+OR+%22AI+data+center%22+OR+%22cloud+computing+facility%22+OR+%22high+performance+computing%22+OR+%22edge+data+centre%22+OR+%22edge+data+center%22%29+AND+%28%22renewable+integration%22+OR+%22renewable+energy+matching%22+OR+curtailment+OR+%22carbon-aware%22+OR+%22clean+energy+matching%22%29&filter=from_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-08-31&per-page=10&sort=relevance_score%3Adesc&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cprimary_location%2Copen_access%2Clanguage%2Cabstract_inverted_index",
+  "response": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 9896,
+      "db_response_time_ms": 684,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 10,
+      "x_query": {
+        "oql": "works where date >= (2015-01-01)\n  and date <= (2026-08-31)\n  and full text has (\n    (\n      stemmed \"AI data center\"\n      or stemmed \"AI data centre\"\n      or stemmed \"cloud computing facility\"\n      or stemmed \"data center\"\n      or stemmed \"data centre\"\n      or stemmed \"edge data center\"\n      or stemmed \"edge data centre\"\n      or stemmed \"high performance computing\"\n    )\n    and (\n      stemmed \"carbon-aware\"\n      or stemmed \"clean energy matching\"\n      or stemmed \"renewable energy matching\"\n      or stemmed \"renewable integration\"\n      or curtailment\n    )\n  )",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "2015-01-01"
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2026-08-31"
+            },
+            {
+              "filters": [
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"AI data center\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"AI data centre\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"cloud computing facility\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"data center\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"data centre\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"edge data center\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"edge data centre\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"high performance computing\""
+                }
+              ],
+              "join": "or"
+            },
+            {
+              "filters": [
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"carbon-aware\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"clean energy matching\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"renewable energy matching\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"renewable integration\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "curtailment"
+                }
+              ],
+              "join": "or"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:2015-01-01,to_publication_date:2026-08-31,fulltext.search:%22AI data center%22|%22AI data centre%22|%22cloud computing facility%22|%22data center%22|%22data centre%22|%22edge data center%22|%22edge data centre%22|%22high performance computing%22,fulltext.search:%22carbon-aware%22|%22clean energy matching%22|%22renewable energy matching%22|%22renewable integration%22|curtailment&per_page=10"
+      }
+    },
+    "results": [
+      {
+        "abstract_inverted_index": {
+          "(VCCs)": [
+            115
+          ],
+          "CO$_{2}$emitted": [
+            3
+          ],
+          "Capacity": [
+            113
+          ],
+          "Carbon-Intelligent": [
+            58
+          ],
+          "Compute": [
+            59
+          ],
+          "Computing,": [
+            35
+          ],
+          "Curves": [
+            114
+          ],
+          "Data": [
+            151
+          ],
+          "Google’s": [
+            54,
+            121,
+            153
+          ],
+          "Hyperscale": [
+            34
+          ],
+          "Management,": [
+            60
+          ],
+          "Networked": [
+            26
+          ],
+          "The": [
+            0,
+            76
+          ],
+          "This": [
+            51
+          ],
+          "VCCs": [
+            123,
+            158
+          ],
+          "Virtual": [
+            112
+          ],
+          "a": [
+            83,
+            146
+          ],
+          "across": [
+            120
+          ],
+          "actively": [
+            62
+          ],
+          "all": [
+            117,
+            140
+          ],
+          "amount": [
+            1
+          ],
+          "an": [
+            7
+          ],
+          "analytical": [
+            86
+          ],
+          "and": [
+            15,
+            67,
+            102,
+            172
+          ],
+          "available": [
+            129
+          ],
+          "by": [
+            11,
+            18,
+            71
+          ],
+          "called": [
+            33
+          ],
+          "capacity": [
+            162
+          ],
+          "capacity,": [
+            138
+          ],
+          "carbon": [
+            38,
+            49,
+            65,
+            94,
+            170
+          ],
+          "carbon-aware": [
+            111
+          ],
+          "clusters": [
+            119
+          ],
+          "collections": [
+            27
+          ],
+          "complete": [
+            144
+          ],
+          "component": [
+            78
+          ],
+          "computers,": [
+            31
+          ],
+          "core": [
+            77
+          ],
+          "costs": [
+            70
+          ],
+          "daily": [
+            137
+          ],
+          "datacenter": [
+            118
+          ],
+          "day": [
+            14,
+            147
+          ],
+          "day-ahead": [
+            98
+          ],
+          "day’s": [
+            93,
+            110
+          ],
+          "delay": [
+            173
+          ],
+          "delaying": [
+            72
+          ],
+          "demand": [
+            99
+          ],
+          "due": [
+            20
+          ],
+          "effectively": [
+            159
+          ],
+          "electricity": [
+            8
+          ],
+          "electricity-based": [
+            64
+          ],
+          "emit": [
+            36
+          ],
+          "enabling": [
+            139
+          ],
+          "energy": [
+            166
+          ],
+          "execution": [
+            175
+          ],
+          "fleet.": [
+            122
+          ],
+          "flexible": [
+            74,
+            132,
+            178
+          ],
+          "footprint": [
+            66
+          ],
+          "for": [
+            56,
+            116
+          ],
+          "forecasts,": [
+            96
+          ],
+          "from": [
+            152
+          ],
+          "gather": [
+            90
+          ],
+          "generate": [
+            107
+          ],
+          "generation.": [
+            25
+          ],
+          "global": [
+            57
+          ],
+          "grid": [
+            9
+          ],
+          "grid’s": [
+            165
+          ],
+          "high": [
+            149
+          ],
+          "hourly": [
+            125,
+            161
+          ],
+          "if": [
+            41
+          ],
+          "impose": [
+            124
+          ],
+          "in": [
+            48
+          ],
+          "in-production": [
+            154
+          ],
+          "infrastructure": [
+            69
+          ],
+          "intensity": [
+            95
+          ],
+          "intensity.": [
+            50
+          ],
+          "intensive": [
+            171
+          ],
+          "introduces": [
+            53
+          ],
+          "is": [
+            82,
+            169
+          ],
+          "kilowatt-hour": [
+            5
+          ],
+          "limit": [
+            160
+          ],
+          "limits": [
+            126
+          ],
+          "location": [
+            19
+          ],
+          "minimizes": [
+            63
+          ],
+          "mix": [
+            168
+          ],
+          "models,": [
+            101
+          ],
+          "more": [
+            37
+          ],
+          "needed": [
+            40
+          ],
+          "next": [
+            92,
+            109
+          ],
+          "of": [
+            2,
+            13,
+            24,
+            28,
+            79,
+            85,
+            176
+          ],
+          "on": [
+            6,
+            127
+          ],
+          "operated": [
+            42
+          ],
+          "operation": [
+            155
+          ],
+          "optimization": [
+            105
+          ],
+          "overall": [
+            136
+          ],
+          "paper": [
+            52
+          ],
+          "per": [
+            4
+          ],
+          "pipelines": [
+            87
+          ],
+          "power": [
+            68
+          ],
+          "prediction": [
+            100
+          ],
+          "preserving": [
+            135
+          ],
+          "probability.": [
+            150
+          ],
+          "regard": [
+            44
+          ],
+          "resources": [
+            128
+          ],
+          "risk-aware": [
+            104
+          ],
+          "scale": [
+            30
+          ],
+          "shows": [
+            156
+          ],
+          "sometimes": [
+            32
+          ],
+          "substantially": [
+            16
+          ],
+          "such": [
+            141
+          ],
+          "suite": [
+            84
+          ],
+          "supply": [
+            167
+          ],
+          "system": [
+            55,
+            81
+          ],
+          "temporally": [
+            73,
+            131,
+            177
+          ],
+          "than": [
+            39
+          ],
+          "that": [
+            157
+          ],
+          "the": [
+            22,
+            80,
+            91,
+            108,
+            164,
+            174
+          ],
+          "these": [
+            46
+          ],
+          "time": [
+            12
+          ],
+          "times.": [
+            182
+          ],
+          "to": [
+            21,
+            45,
+            89,
+            106,
+            130,
+            143,
+            180
+          ],
+          "train": [
+            97
+          ],
+          "types": [
+            23
+          ],
+          "use": [
+            103
+          ],
+          "used": [
+            88
+          ],
+          "variations": [
+            47
+          ],
+          "varies": [
+            10,
+            17
+          ],
+          "warehouse": [
+            29
+          ],
+          "when": [
+            163
+          ],
+          "which": [
+            61
+          ],
+          "while": [
+            134
+          ],
+          "with": [
+            148
+          ],
+          "within": [
+            145
+          ],
+          "without": [
+            43
+          ],
+          "workloads": [
+            133,
+            142,
+            179
+          ],
+          "workloads.": [
+            75
+          ],
+          "“greener”": [
+            181
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Ana Radovanović",
+              "id": "https://openalex.org/A5087994198",
+              "orcid": "https://orcid.org/0000-0001-8676-0016"
+            },
+            "author_position": "first",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "Ana Radovanović",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Ross Koningstein",
+              "id": "https://openalex.org/A5086952891",
+              "orcid": "https://orcid.org/0000-0002-6598-4368"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "Ross Koningstein",
+            "raw_orcid": "https://orcid.org/0000-0002-6598-4368"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Ian Schneider",
+              "id": "https://openalex.org/A5034352791",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "Ian Schneider",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Bokan Chen",
+              "id": "https://openalex.org/A5008331321",
+              "orcid": "https://orcid.org/0000-0003-0467-7265"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "Bokan Chen",
+            "raw_orcid": "https://orcid.org/0000-0003-0467-7265"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Alexandre Duarte",
+              "id": "https://openalex.org/A5101630013",
+              "orcid": "https://orcid.org/0000-0002-9354-1193"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "Alexandre Duarte",
+            "raw_orcid": "https://orcid.org/0000-0002-9354-1193"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Binz Roy",
+              "id": "https://openalex.org/A5040579871",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "Binz Roy",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Diyue Xiao",
+              "id": "https://openalex.org/A5067529127",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "Diyue Xiao",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Maya Haridasan",
+              "id": "https://openalex.org/A5037359865",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "Maya Haridasan",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Patrick C. K. Hung",
+              "id": "https://openalex.org/A5065705195",
+              "orcid": "https://orcid.org/0000-0002-9903-4862"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "Patrick Hung",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Nick Care",
+              "id": "https://openalex.org/A5023081252",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "Nick Care",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Saurav Talukdar",
+              "id": "https://openalex.org/A5017359031",
+              "orcid": "https://orcid.org/0000-0002-8651-287X"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "Saurav Talukdar",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Eric Mullen",
+              "id": "https://openalex.org/A5075286498",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "Eric Mullen",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Kendal Smith",
+              "id": "https://openalex.org/A5027971217",
+              "orcid": "https://orcid.org/0009-0000-1534-1906"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "Kendal Smith",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "MariEllen Cottman",
+              "id": "https://openalex.org/A5062604409",
+              "orcid": "https://orcid.org/0000-0001-5024-4271"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "MariEllen Cottman",
+            "raw_orcid": "https://orcid.org/0000-0001-5024-4271"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1291425158"
+                ],
+                "raw_affiliation_string": "Google Inc., Mountain View, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Walfredo Cirne",
+              "id": "https://openalex.org/A5012160062",
+              "orcid": null
+            },
+            "author_position": "last",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Google (United States)",
+                "id": "https://openalex.org/I1291425158",
+                "lineage": [
+                  "https://openalex.org/I1291425158",
+                  "https://openalex.org/I4210128969"
+                ],
+                "ror": "https://ror.org/00njsd438",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Google Inc., Mountain View, CA, USA"
+            ],
+            "raw_author_name": "Walfredo Cirne",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "Carbon-Aware Computing for Datacenters",
+        "doi": "https://doi.org/10.1109/tpwrs.2022.3173250",
+        "id": "https://openalex.org/W3175111539",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": false,
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://ieeexplore.ieee.org/ielx7/59/10054351/09770383.pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1109/tpwrs.2022.3173250",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1109/tpwrs.2022.3173250",
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "pdf_url": "https://ieeexplore.ieee.org/ielx7/59/10054351/09770383.pdf",
+          "raw_source_name": "IEEE Transactions on Power Systems",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "IEEE Transactions on Power Systems",
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "id": "https://openalex.org/S201921491",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "0885-8950",
+              "1558-0679"
+            ],
+            "issn_l": "0885-8950",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2022-05-06",
+        "publication_year": 2022,
+        "title": "Carbon-Aware Computing for Datacenters",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": null,
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I154570441"
+                ],
+                "raw_affiliation_string": "Bren School of Environmental Science and Management, University of California, Santa Barbara, CA 93106, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Jiajia Zheng",
+              "id": "https://openalex.org/A5011319725",
+              "orcid": "https://orcid.org/0000-0002-3658-0807"
+            },
+            "author_position": "first",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "University of California, Santa Barbara",
+                "id": "https://openalex.org/I154570441",
+                "lineage": [
+                  "https://openalex.org/I154570441"
+                ],
+                "ror": "https://ror.org/02t274463",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Bren School of Environmental Science and Management, University of California, Santa Barbara, CA 93106, USA"
+            ],
+            "raw_author_name": "Jiajia Zheng",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1282105669"
+                ],
+                "raw_affiliation_string": "Argonne National Laboratory, Lemont, IL 60439, USA"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I40347166"
+                ],
+                "raw_affiliation_string": "Department of Computer Science, University of Chicago, Chicago, IL 60637, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Andrew A. Chien",
+              "id": "https://openalex.org/A5085538238",
+              "orcid": "https://orcid.org/0000-0002-1204-206X"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Argonne National Laboratory",
+                "id": "https://openalex.org/I1282105669",
+                "lineage": [
+                  "https://openalex.org/I1282105669",
+                  "https://openalex.org/I1330989302",
+                  "https://openalex.org/I39565521",
+                  "https://openalex.org/I40347166"
+                ],
+                "ror": "https://ror.org/05gvnxz63",
+                "type": "facility"
+              },
+              {
+                "country_code": "US",
+                "display_name": "University of Chicago",
+                "id": "https://openalex.org/I40347166",
+                "lineage": [
+                  "https://openalex.org/I40347166"
+                ],
+                "ror": "https://ror.org/024mw5h28",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Argonne National Laboratory, Lemont, IL 60439, USA",
+              "Department of Computer Science, University of Chicago, Chicago, IL 60637, USA"
+            ],
+            "raw_author_name": "Andrew A. Chien",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I154570441"
+                ],
+                "raw_affiliation_string": "Bren School of Environmental Science and Management, University of California, Santa Barbara, CA 93106, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Sangwon Suh",
+              "id": "https://openalex.org/A5083397861",
+              "orcid": "https://orcid.org/0000-0001-8290-6276"
+            },
+            "author_position": "last",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "University of California, Santa Barbara",
+                "id": "https://openalex.org/I154570441",
+                "lineage": [
+                  "https://openalex.org/I154570441"
+                ],
+                "ror": "https://ror.org/02t274463",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "Bren School of Environmental Science and Management, University of California, Santa Barbara, CA 93106, USA"
+            ],
+            "raw_author_name": "Sangwon Suh",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "Mitigating Curtailment and Carbon Emissions through Load Migration between Data Centers",
+        "doi": "https://doi.org/10.1016/j.joule.2020.08.001",
+        "id": "https://openalex.org/W3080927554",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": false,
+          "is_oa": true,
+          "oa_status": "bronze",
+          "oa_url": "https://www.sciencedirect.com/science/article/am/pii/S2542435120303470?via%3Dihub"
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.joule.2020.08.001",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1016/j.joule.2020.08.001",
+          "license": null,
+          "license_id": null,
+          "pdf_url": "https://www.sciencedirect.com/science/article/am/pii/S2542435120303470?via%3Dihub",
+          "raw_source_name": "Joule",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Joule",
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S2898305631",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "2542-4351",
+              "2542-4785"
+            ],
+            "issn_l": "2542-4351",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2020-08-25",
+        "publication_year": 2020,
+        "title": "Mitigating Curtailment and Carbon Emissions through Load Migration between Data Centers",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "9.26": [
+            186
+          ],
+          "CECM": [
+            134,
+            177
+          ],
+          "However,": [
+            68
+          ],
+          "In": [
+            0
+          ],
+          "Internet": [
+            50
+          ],
+          "Lyapunov": [
+            138
+          ],
+          "This": [
+            24
+          ],
+          "To": [
+            43,
+            120
+          ],
+          "With": [
+            166
+          ],
+          "a": [
+            45,
+            98,
+            116
+          ],
+          "able": [
+            143,
+            179
+          ],
+          "about": [
+            83,
+            161
+          ],
+          "achieve": [
+            44
+          ],
+          "address": [
+            121
+          ],
+          "algorithm": [
+            133
+          ],
+          "an": [
+            129
+          ],
+          "and": [
+            5,
+            40,
+            77,
+            91,
+            150
+          ],
+          "any": [
+            158
+          ],
+          "available": [
+            92
+          ],
+          "based": [
+            135,
+            169
+          ],
+          "begin": [
+            53
+          ],
+          "between": [
+            146
+          ],
+          "bills": [
+            39
+          ],
+          "both": [
+            37
+          ],
+          "build": [
+            55
+          ],
+          "by": [
+            185
+          ],
+          "carbon": [
+            41,
+            88
+          ],
+          "center,": [
+            48
+          ],
+          "center.": [
+            119
+          ],
+          "centers": [
+            14
+          ],
+          "challenging": [
+            100,
+            123
+          ],
+          "concerns": [
+            31
+          ],
+          "considerable": [
+            30
+          ],
+          "considering": [
+            69
+          ],
+          "constraint": [
+            72,
+            193
+          ],
+          "consume": [
+            16
+          ],
+          "consumption": [
+            27
+          ],
+          "cool": [
+            6
+          ],
+          "cost": [
+            35,
+            114,
+            149,
+            184
+          ],
+          "cost.": [
+            67
+          ],
+          "data": [
+            13,
+            47,
+            118
+          ],
+          "delay": [
+            74,
+            107,
+            154,
+            195
+          ],
+          "electricity": [
+            26,
+            34,
+            38,
+            66,
+            86,
+            113,
+            148,
+            183
+          ],
+          "electricity.": [
+            23
+          ],
+          "emission": [
+            89
+          ],
+          "energy": [
+            60
+          ],
+          "energy,": [
+            95
+          ],
+          "enormous": [
+            25
+          ],
+          "extensive": [
+            167
+          ],
+          "fairly": [
+            99
+          ],
+          "framework,": [
+            140
+          ],
+          "future": [
+            81,
+            159
+          ],
+          "guaranteeing": [
+            190
+          ],
+          "help": [
+            63
+          ],
+          "how": [
+            103
+          ],
+          "hundreds": [
+            7
+          ],
+          "in": [
+            32
+          ],
+          "including": [
+            36
+          ],
+          "information": [
+            82,
+            160
+          ],
+          "is": [
+            97,
+            142,
+            178
+          ],
+          "it": [
+            96
+          ],
+          "lack": [
+            79
+          ],
+          "large-scale": [
+            12
+          ],
+          "leads": [
+            28
+          ],
+          "many": [
+            49
+          ],
+          "megawatts": [
+            21
+          ],
+          "of": [
+            8,
+            10,
+            20,
+            22,
+            73,
+            80,
+            115,
+            153,
+            194
+          ],
+          "on": [
+            136,
+            170
+          ],
+          "on-site": [
+            58,
+            93
+          ],
+          "online": [
+            130
+          ],
+          "optimization": [
+            124,
+            139
+          ],
+          "order": [
+            1
+          ],
+          "own": [
+            57
+          ],
+          "paper": [
+            127
+          ],
+          "percent,": [
+            187
+          ],
+          "performance": [
+            71,
+            152,
+            192
+          ],
+          "plants": [
+            61
+          ],
+          "power": [
+            4
+          ],
+          "price,": [
+            87
+          ],
+          "problem": [
+            101
+          ],
+          "problem,": [
+            125
+          ],
+          "proposes": [
+            128
+          ],
+          "providers": [
+            52
+          ],
+          "rate,": [
+            90
+          ],
+          "real-life": [
+            172
+          ],
+          "reduce": [
+            64,
+            111,
+            181
+          ],
+          "renewable": [
+            59,
+            94
+          ],
+          "schedule": [
+            105
+          ],
+          "scheduling": [
+            132
+          ],
+          "servers,": [
+            11
+          ],
+          "service": [
+            51
+          ],
+          "several": [
+            17
+          ],
+          "show": [
+            175
+          ],
+          "simulations": [
+            168
+          ],
+          "simultaneously": [
+            3
+          ],
+          "states.": [
+            165
+          ],
+          "still": [
+            189
+          ],
+          "sustainable": [
+            46,
+            117
+          ],
+          "system": [
+            164
+          ],
+          "tax.": [
+            42
+          ],
+          "tens": [
+            19
+          ],
+          "that": [
+            102,
+            176
+          ],
+          "the": [
+            33,
+            65,
+            70,
+            78,
+            84,
+            106,
+            112,
+            137,
+            147,
+            151,
+            162,
+            171,
+            182,
+            191
+          ],
+          "their": [
+            56
+          ],
+          "this": [
+            122,
+            126
+          ],
+          "thousands": [
+            9
+          ],
+          "time-varying": [
+            85,
+            163
+          ],
+          "to": [
+            2,
+            18,
+            29,
+            54,
+            62,
+            104,
+            110,
+            144,
+            180
+          ],
+          "tolerant": [
+            75,
+            108,
+            155,
+            196
+          ],
+          "traces,": [
+            173
+          ],
+          "tradeoff": [
+            145
+          ],
+          "usually": [
+            15
+          ],
+          "we": [
+            174
+          ],
+          "which": [
+            141
+          ],
+          "while": [
+            188
+          ],
+          "without": [
+            157
+          ],
+          "workload": [
+            131
+          ],
+          "workloads": [
+            76,
+            109,
+            156
+          ],
+          "workloads.": [
+            197
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I87445476"
+                ],
+                "raw_affiliation_string": "School of Electronic and Information Engineering, Xi’an Jiaotong University, Xi’an, China"
+              }
+            ],
+            "author": {
+              "display_name": "Hui Dou",
+              "id": "https://openalex.org/A5079893858",
+              "orcid": null
+            },
+            "author_position": "first",
+            "countries": [
+              "CN"
+            ],
+            "institutions": [
+              {
+                "country_code": "CN",
+                "display_name": "Xi'an Jiaotong University",
+                "id": "https://openalex.org/I87445476",
+                "lineage": [
+                  "https://openalex.org/I87445476"
+                ],
+                "ror": "https://ror.org/017zhmm22",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "School of Electronic and Information Engineering, Xi’an Jiaotong University, Xi’an, China"
+            ],
+            "raw_author_name": "Hui Dou",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I87445476"
+                ],
+                "raw_affiliation_string": "School of Electronic and Information Engineering, Xi’an Jiaotong University, Xi’an, China"
+              }
+            ],
+            "author": {
+              "display_name": "Yong Qi",
+              "id": "https://openalex.org/A5023228402",
+              "orcid": "https://orcid.org/0000-0002-7682-5653"
+            },
+            "author_position": "middle",
+            "countries": [
+              "CN"
+            ],
+            "institutions": [
+              {
+                "country_code": "CN",
+                "display_name": "Xi'an Jiaotong University",
+                "id": "https://openalex.org/I87445476",
+                "lineage": [
+                  "https://openalex.org/I87445476"
+                ],
+                "ror": "https://ror.org/017zhmm22",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "School of Electronic and Information Engineering, Xi’an Jiaotong University, Xi’an, China"
+            ],
+            "raw_author_name": "Yong Qi",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210131919"
+                ],
+                "raw_affiliation_string": "School of Computer Science and Engineering, Xi’an University of Technology, Xi’an, China"
+              }
+            ],
+            "author": {
+              "display_name": "Wei Wei",
+              "id": "https://openalex.org/A5100323630",
+              "orcid": "https://orcid.org/0000-0001-5149-6542"
+            },
+            "author_position": "middle",
+            "countries": [
+              "CN"
+            ],
+            "institutions": [
+              {
+                "country_code": "CN",
+                "display_name": "Xi'an University of Technology",
+                "id": "https://openalex.org/I4210131919",
+                "lineage": [
+                  "https://openalex.org/I4210131919"
+                ],
+                "ror": "https://ror.org/038avdt50",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "School of Computer Science and Engineering, Xi’an University of Technology, Xi’an, China"
+            ],
+            "raw_author_name": "Wei Wei",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I84475105"
+                ],
+                "raw_affiliation_string": "Department of Electrical, Computer, Software, and Systems Engineering, Embry-Riddle Aeronautical University, Daytona Beach, FL"
+              }
+            ],
+            "author": {
+              "display_name": "Houbing Song",
+              "id": "https://openalex.org/A5079301418",
+              "orcid": "https://orcid.org/0000-0003-2631-9223"
+            },
+            "author_position": "last",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Embry–Riddle Aeronautical University",
+                "id": "https://openalex.org/I84475105",
+                "lineage": [
+                  "https://openalex.org/I84475105"
+                ],
+                "ror": "https://ror.org/010jskt71",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical, Computer, Software, and Systems Engineering, Embry-Riddle Aeronautical University, Daytona Beach, FL"
+            ],
+            "raw_author_name": "Houbing Song",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "Carbon-Aware Electricity Cost Minimization for Sustainable Data Centers",
+        "doi": "https://doi.org/10.1109/tsusc.2017.2711925",
+        "id": "https://openalex.org/W2621092124",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": false,
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null
+        },
+        "primary_location": {
+          "id": "doi:10.1109/tsusc.2017.2711925",
+          "is_accepted": true,
+          "is_oa": false,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1109/tsusc.2017.2711925",
+          "license": null,
+          "license_id": null,
+          "pdf_url": null,
+          "raw_source_name": "IEEE Transactions on Sustainable Computing",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "IEEE Transactions on Sustainable Computing",
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "id": "https://openalex.org/S4210221417",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "2377-3782",
+              "2377-3790"
+            ],
+            "issn_l": "2377-3782",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2017-04-01",
+        "publication_year": 2017,
+        "title": "Carbon-Aware Electricity Cost Minimization for Sustainable Data Centers",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "0.5%": [
+            126
+          ],
+          "1.8%": [
+            27
+          ],
+          "Abstract": [
+            0
+          ],
+          "Approximately": [
+            125
+          ],
+          "Data": [
+            14
+          ],
+          "For": [
+            56
+          ],
+          "Large": [
+            35
+          ],
+          "Much": [
+            1
+          ],
+          "Our": [
+            87,
+            168
+          ],
+          "States,": [
+            74
+          ],
+          "States.": [
+            34
+          ],
+          "US": [
+            129
+          ],
+          "United": [
+            33,
+            73
+          ],
+          "We": [
+            138
+          ],
+          "a": [
+            17,
+            182
+          ],
+          "accounting": [
+            24
+          ],
+          "all": [
+            82
+          ],
+          "also": [
+            40
+          ],
+          "amount": [
+            19
+          ],
+          "amounts": [
+            36
+          ],
+          "and": [
+            9,
+            51,
+            64,
+            141,
+            147,
+            178,
+            180
+          ],
+          "approach": [
+            89
+          ],
+          "are": [
+            6,
+            39,
+            112,
+            133
+          ],
+          "areas": [
+            156
+          ],
+          "around": [
+            26,
+            79
+          ],
+          "attributed": [
+            134
+          ],
+          "behind": [
+            174
+          ],
+          "between": [
+            143
+          ],
+          "both": [
+            46
+          ],
+          "bottom-up": [
+            88
+          ],
+          "by": [
+            11,
+            117,
+            150
+          ],
+          "calculate": [
+            61
+          ],
+          "carbon": [
+            63
+          ],
+          "center": [
+            84,
+            94
+          ],
+          "centers": [
+            15,
+            69,
+            154
+          ],
+          "centers,": [
+            45
+          ],
+          "centers.": [
+            13,
+            137
+          ],
+          "center’s": [
+            145
+          ],
+          "comes": [
+            99
+          ],
+          "cooling": [
+            50
+          ],
+          "country": [
+            159
+          ],
+          "creation": [
+            177
+          ],
+          "data": [
+            5,
+            12,
+            44,
+            68,
+            83,
+            93,
+            136,
+            144,
+            153,
+            176
+          ],
+          "decrease": [
+            185
+          ],
+          "digital": [
+            192
+          ],
+          "direct": [
+            96
+          ],
+          "directly": [
+            47
+          ],
+          "distributed": [
+            10
+          ],
+          "electricity": [
+            29
+          ],
+          "electricity.": [
+            55
+          ],
+          "emissions": [
+            132
+          ],
+          "energy": [
+            21,
+            148
+          ],
+          "environmental": [
+            166,
+            172,
+            187
+          ],
+          "first": [
+            58
+          ],
+          "footprint": [
+            98,
+            188
+          ],
+          "footprint.": [
+            193
+          ],
+          "footprints": [
+            66
+          ],
+          "footprints.": [
+            167
+          ],
+          "for": [
+            25,
+            48
+          ],
+          "from": [
+            100
+          ],
+          "fully": [
+            113
+          ],
+          "gas": [
+            131
+          ],
+          "globally.": [
+            86
+          ],
+          "greenhouse": [
+            130
+          ],
+          "half": [
+            109
+          ],
+          "highly": [
+            103
+          ],
+          "home": [
+            77
+          ],
+          "implications": [
+            173
+          ],
+          "in": [
+            31,
+            155
+          ],
+          "increasing": [
+            191
+          ],
+          "indirectly": [
+            52
+          ],
+          "investigate": [
+            139
+          ],
+          "is": [
+            76
+          ],
+          "liquid": [
+            49
+          ],
+          "located": [
+            120
+          ],
+          "locating": [
+            152
+          ],
+          "managed,": [
+            8
+          ],
+          "minimize": [
+            162
+          ],
+          "moderately": [
+            101
+          ],
+          "more": [
+            165
+          ],
+          "nearly": [
+            108
+          ],
+          "of": [
+            2,
+            20,
+            28,
+            37,
+            67,
+            81,
+            92,
+            110,
+            127,
+            157,
+            189
+          ],
+          "one": [
+            163
+          ],
+          "one-fifth": [
+            91
+          ],
+          "one-quarter": [
+            80
+          ],
+          "operate": [
+            43
+          ],
+          "operate,": [
+            23
+          ],
+          "operating": [
+            70
+          ],
+          "or": [
+            114,
+            164
+          ],
+          "our": [
+            175,
+            190
+          ],
+          "partially": [
+            115
+          ],
+          "path": [
+            183
+          ],
+          "plants": [
+            119
+          ],
+          "power": [
+            118
+          ],
+          "powered": [
+            116
+          ],
+          "produce": [
+            54
+          ],
+          "quantifies": [
+            170
+          ],
+          "regions.": [
+            124
+          ],
+          "require": [
+            16
+          ],
+          "required": [
+            41
+          ],
+          "reveals": [
+            90
+          ],
+          "servers": [
+            85,
+            95,
+            111
+          ],
+          "shows": [
+            181
+          ],
+          "spatially-detailed": [
+            62
+          ],
+          "storage": [
+            179
+          ],
+          "stored,": [
+            7
+          ],
+          "strategically": [
+            151
+          ],
+          "stressed": [
+            105,
+            123
+          ],
+          "study": [
+            169
+          ],
+          "synergies": [
+            142
+          ],
+          "that": [
+            160
+          ],
+          "the": [
+            3,
+            32,
+            57,
+            72,
+            158,
+            171,
+            186
+          ],
+          "time,": [
+            59
+          ],
+          "to": [
+            22,
+            42,
+            53,
+            78,
+            102,
+            135,
+            184
+          ],
+          "total": [
+            128
+          ],
+          "tradeoffs": [
+            140
+          ],
+          "tremendous": [
+            18
+          ],
+          "use": [
+            30
+          ],
+          "utilization": [
+            149
+          ],
+          "water": [
+            38,
+            65,
+            97,
+            104,
+            122,
+            146
+          ],
+          "watersheds,": [
+            106
+          ],
+          "we": [
+            60
+          ],
+          "which": [
+            75
+          ],
+          "while": [
+            107
+          ],
+          "will": [
+            161
+          ],
+          "within": [
+            71,
+            121
+          ],
+          "world’s": [
+            4
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I859038795"
+                ],
+                "raw_affiliation_string": "Department of Civil & Environmental Engineering, Virginia Tech, Blacksburg, VA, United States of America"
+              }
+            ],
+            "author": {
+              "display_name": "Md Abu Bakar Siddik",
+              "id": "https://openalex.org/A5004282815",
+              "orcid": "https://orcid.org/0000-0002-1115-8925"
+            },
+            "author_position": "first",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Virginia Tech",
+                "id": "https://openalex.org/I859038795",
+                "lineage": [
+                  "https://openalex.org/I859038795"
+                ],
+                "ror": "https://ror.org/02smfhw86",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Civil & Environmental Engineering, Virginia Tech, Blacksburg, VA, United States of America"
+            ],
+            "raw_author_name": "Md Abu Bakar Siddik",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I148283060"
+                ],
+                "raw_affiliation_string": "Energy Technologies Area, Lawrence Berkeley National Laboratory, Berkeley, CA, United States of America"
+              }
+            ],
+            "author": {
+              "display_name": "Arman Shehabi",
+              "id": "https://openalex.org/A5085773304",
+              "orcid": "https://orcid.org/0000-0002-1735-6973"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Lawrence Berkeley National Laboratory",
+                "id": "https://openalex.org/I148283060",
+                "lineage": [
+                  "https://openalex.org/I1330989302",
+                  "https://openalex.org/I148283060",
+                  "https://openalex.org/I39565521"
+                ],
+                "ror": "https://ror.org/02jbv0t02",
+                "type": "facility"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Energy Technologies Area, Lawrence Berkeley National Laboratory, Berkeley, CA, United States of America"
+            ],
+            "raw_author_name": "Arman Shehabi",
+            "raw_orcid": "https://orcid.org/0000-0002-1735-6973"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I859038795"
+                ],
+                "raw_affiliation_string": "Department of Civil & Environmental Engineering, Virginia Tech, Blacksburg, VA, United States of America"
+              }
+            ],
+            "author": {
+              "display_name": "Landon Marston",
+              "id": "https://openalex.org/A5003676504",
+              "orcid": "https://orcid.org/0000-0001-9116-1691"
+            },
+            "author_position": "last",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Virginia Tech",
+                "id": "https://openalex.org/I859038795",
+                "lineage": [
+                  "https://openalex.org/I859038795"
+                ],
+                "ror": "https://ror.org/02smfhw86",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "Department of Civil & Environmental Engineering, Virginia Tech, Blacksburg, VA, United States of America"
+            ],
+            "raw_author_name": "Landon Marston",
+            "raw_orcid": "https://orcid.org/0000-0001-9116-1691"
+          }
+        ],
+        "display_name": "The environmental footprint of data centers in the United States",
+        "doi": "https://doi.org/10.1088/1748-9326/abfba1",
+        "id": "https://openalex.org/W3158784237",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://iopscience.iop.org/article/10.1088/1748-9326/abfba1/pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1088/1748-9326/abfba1",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1088/1748-9326/abfba1",
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "pdf_url": "https://iopscience.iop.org/article/10.1088/1748-9326/abfba1/pdf",
+          "raw_source_name": "Environmental Research Letters",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Environmental Research Letters",
+            "host_organization": "https://openalex.org/P4310320083",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320083",
+              "https://openalex.org/P4310311669"
+            ],
+            "host_organization_lineage_names": [
+              "IOP Publishing",
+              "Institute of Physics"
+            ],
+            "host_organization_name": "IOP Publishing",
+            "id": "https://openalex.org/S139338987",
+            "is_core": true,
+            "is_in_doaj": true,
+            "is_oa": true,
+            "issn": [
+              "1748-9326"
+            ],
+            "issn_l": "1748-9326",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2021-04-26",
+        "publication_year": 2021,
+        "title": "The environmental footprint of data centers in the United States",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "(24/7)": [
+            54
+          ],
+          "(Net": [
+            29
+          ],
+          "24/7": [
+            101
+          ],
+          "Annually,": [
+            20
+          ],
+          "But": [
+            31
+          ],
+          "Carbon": [
+            75,
+            85,
+            111
+          ],
+          "Explorer": [
+            76,
+            86,
+            112
+          ],
+          "In": [
+            69
+          ],
+          "Relying": [
+            46
+          ],
+          "Technology": [
+            0
+          ],
+          "We": [
+            83
+          ],
+          "Zero).": [
+            30
+          ],
+          "a": [
+            56
+          ],
+          "agreements.": [
+            19
+          ],
+          "analyze": [
+            79
+          ],
+          "and": [
+            13,
+            66,
+            92,
+            109
+          ],
+          "at": [
+            116
+          ],
+          "balance": [
+            88
+          ],
+          "based": [
+            105
+          ],
+          "been": [
+            114
+          ],
+          "between": [
+            90
+          ],
+          "by": [
+            7
+          ],
+          "carbon": [
+            5
+          ],
+          "carbon,": [
+            94
+          ],
+          "carbon-free": [
+            42,
+            102
+          ],
+          "carbon-intensive": [
+            36
+          ],
+          "companies": [
+            1
+          ],
+          "complementary": [
+            62
+          ],
+          "consume": [
+            35
+          ],
+          "consumption": [
+            25
+          ],
+          "credits": [
+            15,
+            28
+          ],
+          "datacenter": [
+            103
+          ],
+          "datacenters": [
+            21,
+            33
+          ],
+          "datacenters’": [
+            4
+          ],
+          "embodied": [
+            93
+          ],
+          "energy": [
+            11,
+            24,
+            37,
+            43,
+            50,
+            60,
+            64
+          ],
+          "every": [
+            52
+          ],
+          "footprint": [
+            6
+          ],
+          "for": [
+            100
+          ],
+          "framework": [
+            77
+          ],
+          "from": [
+            16,
+            38,
+            61
+          ],
+          "generation": [
+            12,
+            27
+          ],
+          "geographic": [
+            107
+          ],
+          "grid": [
+            40
+          ],
+          "has": [
+            113
+          ],
+          "hour": [
+            53
+          ],
+          "hourly,": [
+            32
+          ],
+          "https://github.com/facebookresearch/CarbonExplorer.": [
+            117
+          ],
+          "in": [
+            9,
+            51
+          ],
+          "intermittent": [
+            48
+          ],
+          "investing": [
+            8
+          ],
+          "is": [
+            44
+          ],
+          "location": [
+            108
+          ],
+          "mix": [
+            57,
+            97
+          ],
+          "of": [
+            58,
+            98
+          ],
+          "offset": [
+            22
+          ],
+          "often": [
+            34
+          ],
+          "on": [
+            47,
+            106
+          ],
+          "open-sourced": [
+            115
+          ],
+          "operation": [
+            104
+          ],
+          "operational": [
+            91
+          ],
+          "optimizing": [
+            95
+          ],
+          "paper,": [
+            71
+          ],
+          "power": [
+            17
+          ],
+          "present": [
+            73
+          ],
+          "purchase": [
+            18
+          ],
+          "receiving": [
+            14
+          ],
+          "reduce": [
+            2
+          ],
+          "renewable": [
+            10,
+            49,
+            59
+          ],
+          "requires": [
+            55
+          ],
+          "scarce.": [
+            45
+          ],
+          "scheduling.": [
+            68
+          ],
+          "solution": [
+            81
+          ],
+          "solutions": [
+            99
+          ],
+          "sources,": [
+            63
+          ],
+          "space.": [
+            82
+          ],
+          "storage,": [
+            65
+          ],
+          "the": [
+            39,
+            74,
+            80,
+            96
+          ],
+          "their": [
+            3,
+            23
+          ],
+          "this": [
+            70
+          ],
+          "to": [
+            78,
+            87
+          ],
+          "trade-offs": [
+            89
+          ],
+          "use": [
+            84
+          ],
+          "we": [
+            72
+          ],
+          "when": [
+            41
+          ],
+          "with": [
+            26
+          ],
+          "workload": [
+            67
+          ],
+          "workload.": [
+            110
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [],
+                "raw_affiliation_string": "Meta, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Bilge Acun",
+              "id": "https://openalex.org/A5005070359",
+              "orcid": null
+            },
+            "author_position": "first",
+            "countries": [],
+            "institutions": [],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Meta, USA"
+            ],
+            "raw_author_name": "Bilge Acun",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I79576946"
+                ],
+                "raw_affiliation_string": "University of Pennsylvania, USA / Meta, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Benjamin Lee",
+              "id": "https://openalex.org/A5100763132",
+              "orcid": "https://orcid.org/0000-0002-1171-4741"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "University of Pennsylvania",
+                "id": "https://openalex.org/I79576946",
+                "lineage": [
+                  "https://openalex.org/I79576946"
+                ],
+                "ror": "https://ror.org/00b30xv10",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "University of Pennsylvania, USA / Meta, USA"
+            ],
+            "raw_author_name": "Benjamin Lee",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I97018004"
+                ],
+                "raw_affiliation_string": "Stanford University, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Fiodar Kazhamiaka",
+              "id": "https://openalex.org/A5005485274",
+              "orcid": "https://orcid.org/0000-0002-0798-5151"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Stanford University",
+                "id": "https://openalex.org/I97018004",
+                "lineage": [
+                  "https://openalex.org/I97018004"
+                ],
+                "ror": "https://ror.org/00f54p054",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Stanford University, USA"
+            ],
+            "raw_author_name": "Fiodar Kazhamiaka",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [],
+                "raw_affiliation_string": "Meta, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Kiwan Maeng",
+              "id": "https://openalex.org/A5035750684",
+              "orcid": "https://orcid.org/0000-0002-0321-8406"
+            },
+            "author_position": "middle",
+            "countries": [],
+            "institutions": [],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Meta, USA"
+            ],
+            "raw_author_name": "Kiwan Maeng",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I136199984"
+                ],
+                "raw_affiliation_string": "Harvard University, USA / Meta, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Udit Gupta",
+              "id": "https://openalex.org/A5035704218",
+              "orcid": "https://orcid.org/0000-0002-9118-0961"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Harvard University",
+                "id": "https://openalex.org/I136199984",
+                "lineage": [
+                  "https://openalex.org/I136199984"
+                ],
+                "ror": "https://ror.org/03vek6s52",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Harvard University, USA / Meta, USA"
+            ],
+            "raw_author_name": "Udit Gupta",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [],
+                "raw_affiliation_string": "Meta, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Manoj Chakkaravarthy",
+              "id": "https://openalex.org/A5084123515",
+              "orcid": "https://orcid.org/0000-0003-2543-1619"
+            },
+            "author_position": "middle",
+            "countries": [],
+            "institutions": [],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Meta, USA"
+            ],
+            "raw_author_name": "Manoj Chakkaravarthy",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I136199984"
+                ],
+                "raw_affiliation_string": "Harvard University, USA / Meta, USA"
+              }
+            ],
+            "author": {
+              "display_name": "David E. Brooks",
+              "id": "https://openalex.org/A5103399858",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Harvard University",
+                "id": "https://openalex.org/I136199984",
+                "lineage": [
+                  "https://openalex.org/I136199984"
+                ],
+                "ror": "https://ror.org/03vek6s52",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Harvard University, USA / Meta, USA"
+            ],
+            "raw_author_name": "David Brooks",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [],
+                "raw_affiliation_string": "Meta, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Carole-Jean Wu",
+              "id": "https://openalex.org/A5028220093",
+              "orcid": "https://orcid.org/0000-0002-9032-7239"
+            },
+            "author_position": "last",
+            "countries": [],
+            "institutions": [],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Meta, USA"
+            ],
+            "raw_author_name": "Carole-Jean Wu",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters",
+        "doi": "https://doi.org/10.1145/3575693.3575754",
+        "id": "https://openalex.org/W4318541641",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": null,
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://dl.acm.org/doi/pdf/10.1145/3575693.3575754"
+        },
+        "primary_location": {
+          "id": "doi:10.1145/3575693.3575754",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1145/3575693.3575754",
+          "license": null,
+          "license_id": null,
+          "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3575693.3575754",
+          "raw_source_name": "Proceedings of the 28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems, Volume 2",
+          "raw_type": "proceedings-article",
+          "source": null,
+          "version": "publishedVersion"
+        },
+        "publication_date": "2023-01-27",
+        "publication_year": 2023,
+        "title": "Carbon Explorer: A Holistic Framework for Designing Carbon Aware Datacenters",
+        "type": "conference-paper"
+      },
+      {
+        "abstract_inverted_index": {
+          "Computing-intensive": [
+            176
+          ],
+          "HPC,": [
+            150
+          ],
+          "High-performance": [
+            0
+          ],
+          "It": [
+            100,
+            137
+          ],
+          "Overall,": [
+            199
+          ],
+          "The": [
+            23
+          ],
+          "Therefore,": [
+            69
+          ],
+          "a": [
+            70,
+            95,
+            167,
+            212
+          ],
+          "access": [
+            7
+          ],
+          "actively": [
+            188
+          ],
+          "also": [
+            139,
+            165,
+            203
+          ],
+          "and": [
+            28,
+            48,
+            66,
+            76,
+            91,
+            126,
+            133,
+            143,
+            151
+          ],
+          "are": [
+            106,
+            112,
+            146
+          ],
+          "beyond": [
+            122
+          ],
+          "but": [
+            111,
+            164,
+            185,
+            202
+          ],
+          "can": [
+            159,
+            178
+          ],
+          "carbon": [
+            209
+          ],
+          "centers": [
+            59,
+            84,
+            172
+          ],
+          "challenges": [
+            77
+          ],
+          "challenges,": [
+            204
+          ],
+          "change": [
+            46
+          ],
+          "climate": [
+            45
+          ],
+          "combined": [
+            40
+          ],
+          "combining": [
+            113
+          ],
+          "complete": [
+            13
+          ],
+          "complex": [
+            19
+          ],
+          "computing": [
+            1,
+            10,
+            83,
+            98,
+            109,
+            196
+          ],
+          "concerned": [
+            215
+          ],
+          "concerns,": [
+            47,
+            119
+          ],
+          "continue": [
+            179
+          ],
+          "contribute": [
+            16,
+            93
+          ],
+          "cooperation": [
+            194
+          ],
+          "costs,": [
+            51
+          ],
+          "decarbonization": [
+            56,
+            80,
+            191
+          ],
+          "decision-makers,": [
+            89
+          ],
+          "decrease": [
+            208
+          ],
+          "demand": [
+            33
+          ],
+          "different": [
+            114
+          ],
+          "due": [
+            34
+          ],
+          "ecosystem.": [
+            99
+          ],
+          "efficiency": [
+            124
+          ],
+          "emerging": [
+            36
+          ],
+          "emissions": [
+            210
+          ],
+          "enable": [
+            166
+          ],
+          "energy": [
+            50,
+            123,
+            132,
+            157,
+            174
+          ],
+          "entities": [
+            145
+          ],
+          "environmental": [
+            65
+          ],
+          "essential": [
+            86
+          ],
+          "evolving": [
+            127
+          ],
+          "exascale": [
+            43
+          ],
+          "fields": [
+            37
+          ],
+          "financial": [
+            67
+          ],
+          "for": [
+            78
+          ],
+          "found": [
+            102
+          ],
+          "going": [
+            121
+          ],
+          "growing": [
+            107
+          ],
+          "hardware": [
+            218
+          ],
+          "help": [
+            88
+          ],
+          "high-performance": [
+            82
+          ],
+          "identified,": [
+            206
+          ],
+          "identifying": [
+            153
+          ],
+          "improve": [
+            63
+          ],
+          "improving": [
+            217
+          ],
+          "in": [
+            21,
+            31,
+            108,
+            129,
+            173,
+            189,
+            193,
+            211
+          ],
+          "increase": [
+            30
+          ],
+          "information": [
+            134
+          ],
+          "infrastructure.": [
+            136
+          ],
+          "infrastructures": [
+            5
+          ],
+          "integration": [
+            169
+          ],
+          "intensive": [
+            24
+          ],
+          "is": [
+            60,
+            85
+          ],
+          "key": [
+            61
+          ],
+          "main": [
+            74
+          ],
+          "many": [
+            200
+          ],
+          "means": [
+            53
+          ],
+          "measures": [
+            115,
+            125
+          ],
+          "meet": [
+            117
+          ],
+          "more": [
+            96,
+            187
+          ],
+          "mostly": [
+            214
+          ],
+          "multiple": [
+            144
+          ],
+          "namely": [
+            120
+          ],
+          "new": [
+            161
+          ],
+          "now": [
+            147
+          ],
+          "of": [
+            26,
+            38,
+            57,
+            81,
+            131,
+            170
+          ],
+          "on": [
+            3,
+            72
+          ],
+          "operators": [
+            90
+          ],
+          "opportunities": [
+            75
+          ],
+          "opportunities,": [
+            201
+          ],
+          "paradigm,": [
+            44
+          ],
+          "participating": [
+            186
+          ],
+          "performance-oriented": [
+            4
+          ],
+          "performance.": [
+            68,
+            219
+          ],
+          "policy": [
+            142
+          ],
+          "power,": [
+            110
+          ],
+          "powerful": [
+            9
+          ],
+          "problems": [
+            20
+          ],
+          "process,": [
+            192
+          ],
+          "providers.": [
+            198
+          ],
+          "pursue": [
+            181
+          ],
+          "relies": [
+            2
+          ],
+          "research,": [
+            184
+          ],
+          "resources": [
+            11,
+            27
+          ],
+          "reveal": [
+            160
+          ],
+          "revenue": [
+            162
+          ],
+          "review": [
+            71
+          ],
+          "rising": [
+            49
+          ],
+          "science,": [
+            39
+          ],
+          "scientific": [
+            183
+          ],
+          "sector": [
+            158,
+            213
+          ],
+          "service": [
+            32,
+            197
+          ],
+          "shown": [
+            140
+          ],
+          "simultaneously": [
+            128
+          ],
+          "smoother": [
+            168
+          ],
+          "society.": [
+            22
+          ],
+          "solve": [
+            18
+          ],
+          "specifically": [
+            149
+          ],
+          "state-of-the-art": [
+            104
+          ],
+          "streams,": [
+            163
+          ],
+          "supercomputers": [
+            105
+          ],
+          "sustainability": [
+            118
+          ],
+          "sustainable": [
+            97
+          ],
+          "synergies": [
+            154
+          ],
+          "systems.": [
+            175
+          ],
+          "targeting": [
+            148
+          ],
+          "tasks": [
+            14
+          ],
+          "technology": [
+            135
+          ],
+          "terms": [
+            130
+          ],
+          "that": [
+            15,
+            54,
+            103,
+            141,
+            152
+          ],
+          "the": [
+            29,
+            42,
+            55,
+            73,
+            79,
+            156,
+            190
+          ],
+          "their": [
+            64,
+            182
+          ],
+          "these": [
+            58,
+            171
+          ],
+          "to": [
+            8,
+            12,
+            17,
+            35,
+            62,
+            87,
+            94,
+            116,
+            180,
+            207
+          ],
+          "ultimately": [
+            52
+          ],
+          "use": [
+            25
+          ],
+          "users": [
+            92,
+            177
+          ],
+          "was": [
+            101,
+            138
+          ],
+          "were": [
+            205
+          ],
+          "with": [
+            6,
+            41,
+            155,
+            195,
+            216
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I182534213"
+                ],
+                "raw_affiliation_string": "FEUP, Faculty of Engineering of University of Porto, Porto, 4200-465, Portugal"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210166615"
+                ],
+                "raw_affiliation_string": "INESC TEC, Centre for Power and Energy Systems, Porto, 4200-465, Portugal"
+              }
+            ],
+            "author": {
+              "display_name": "Carlos A. M. Silva",
+              "id": "https://openalex.org/A5101727683",
+              "orcid": "https://orcid.org/0000-0002-6932-4244"
+            },
+            "author_position": "first",
+            "countries": [
+              "PT"
+            ],
+            "institutions": [
+              {
+                "country_code": "PT",
+                "display_name": "Universidade do Porto",
+                "id": "https://openalex.org/I182534213",
+                "lineage": [
+                  "https://openalex.org/I182534213"
+                ],
+                "ror": "https://ror.org/043pwc612",
+                "type": "education"
+              },
+              {
+                "country_code": "PT",
+                "display_name": "INESC TEC",
+                "id": "https://openalex.org/I4210166615",
+                "lineage": [
+                  "https://openalex.org/I4210125590",
+                  "https://openalex.org/I4210166615"
+                ],
+                "ror": "https://ror.org/05fa8ka61",
+                "type": "nonprofit"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "FEUP, Faculty of Engineering of University of Porto, Porto, 4200-465, Portugal",
+              "INESC TEC, Centre for Power and Energy Systems, Porto, 4200-465, Portugal"
+            ],
+            "raw_author_name": "C.A. Silva",
+            "raw_orcid": "https://orcid.org/0000-0002-6932-4244"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210166615",
+                  "https://openalex.org/I99682543"
+                ],
+                "raw_affiliation_string": "MACC/HASLab University of Minho & INESC TEC, Department of Informatics, Gualtar Campus, Braga, 4710-070, Portugal"
+              }
+            ],
+            "author": {
+              "display_name": "Ricardo Vilaça",
+              "id": "https://openalex.org/A5075281320",
+              "orcid": "https://orcid.org/0000-0002-6957-1536"
+            },
+            "author_position": "middle",
+            "countries": [
+              "PT"
+            ],
+            "institutions": [
+              {
+                "country_code": "PT",
+                "display_name": "INESC TEC",
+                "id": "https://openalex.org/I4210166615",
+                "lineage": [
+                  "https://openalex.org/I4210125590",
+                  "https://openalex.org/I4210166615"
+                ],
+                "ror": "https://ror.org/05fa8ka61",
+                "type": "nonprofit"
+              },
+              {
+                "country_code": "PT",
+                "display_name": "University of Minho",
+                "id": "https://openalex.org/I99682543",
+                "lineage": [
+                  "https://openalex.org/I99682543"
+                ],
+                "ror": "https://ror.org/037wpkx04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "MACC/HASLab University of Minho & INESC TEC, Department of Informatics, Gualtar Campus, Braga, 4710-070, Portugal"
+            ],
+            "raw_author_name": "R. Vilaça",
+            "raw_orcid": "https://orcid.org/0000-0002-6957-1536"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210166615",
+                  "https://openalex.org/I99682543"
+                ],
+                "raw_affiliation_string": "MACC/HASLab University of Minho & INESC TEC, Department of Informatics, Gualtar Campus, Braga, 4710-070, Portugal"
+              }
+            ],
+            "author": {
+              "display_name": "André Pereira",
+              "id": "https://openalex.org/A5003636881",
+              "orcid": "https://orcid.org/0000-0002-2110-914X"
+            },
+            "author_position": "middle",
+            "countries": [
+              "PT"
+            ],
+            "institutions": [
+              {
+                "country_code": "PT",
+                "display_name": "INESC TEC",
+                "id": "https://openalex.org/I4210166615",
+                "lineage": [
+                  "https://openalex.org/I4210125590",
+                  "https://openalex.org/I4210166615"
+                ],
+                "ror": "https://ror.org/05fa8ka61",
+                "type": "nonprofit"
+              },
+              {
+                "country_code": "PT",
+                "display_name": "University of Minho",
+                "id": "https://openalex.org/I99682543",
+                "lineage": [
+                  "https://openalex.org/I99682543"
+                ],
+                "ror": "https://ror.org/037wpkx04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "MACC/HASLab University of Minho & INESC TEC, Department of Informatics, Gualtar Campus, Braga, 4710-070, Portugal"
+            ],
+            "raw_author_name": "A. Pereira",
+            "raw_orcid": "https://orcid.org/0000-0002-2110-914X"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210166615"
+                ],
+                "raw_affiliation_string": "INESC TEC, Centre for Power and Energy Systems, Porto, 4200-465, Portugal"
+              }
+            ],
+            "author": {
+              "display_name": "Ricardo J. Bessa",
+              "id": "https://openalex.org/A5064161123",
+              "orcid": "https://orcid.org/0000-0002-3808-0427"
+            },
+            "author_position": "last",
+            "countries": [
+              "PT"
+            ],
+            "institutions": [
+              {
+                "country_code": "PT",
+                "display_name": "INESC TEC",
+                "id": "https://openalex.org/I4210166615",
+                "lineage": [
+                  "https://openalex.org/I4210125590",
+                  "https://openalex.org/I4210166615"
+                ],
+                "ror": "https://ror.org/05fa8ka61",
+                "type": "nonprofit"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "INESC TEC, Centre for Power and Energy Systems, Porto, 4200-465, Portugal"
+            ],
+            "raw_author_name": "R.J. Bessa",
+            "raw_orcid": "https://orcid.org/0000-0002-3808-0427"
+          }
+        ],
+        "display_name": "A review on the decarbonization of high-performance computing centers",
+        "doi": "https://doi.org/10.1016/j.rser.2023.114019",
+        "id": "https://openalex.org/W4388472003",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1364032123008778-ga1_lrg.jpg"
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.rser.2023.114019",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1016/j.rser.2023.114019",
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "pdf_url": "https://ars.els-cdn.com/content/image/1-s2.0-S1364032123008778-ga1_lrg.jpg",
+          "raw_source_name": "Renewable and Sustainable Energy Reviews",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Renewable and Sustainable Energy Reviews",
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S68497187",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "1364-0321",
+              "1879-0690"
+            ],
+            "issn_l": "1364-0321",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2023-11-07",
+        "publication_year": 2023,
+        "title": "A review on the decarbonization of high-performance computing centers",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": null,
+        "authorships": [
+          {
+            "affiliations": [],
+            "author": {
+              "display_name": "Abbas Zare Ghaleh Seyyedi",
+              "id": "https://openalex.org/A5058644928",
+              "orcid": "https://orcid.org/0000-0002-9164-3305"
+            },
+            "author_position": "first",
+            "countries": [],
+            "institutions": [],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [],
+            "raw_author_name": "Abbas Zare Ghaleh Seyyedi",
+            "raw_orcid": "https://orcid.org/0000-0002-9164-3305"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I123173325"
+                ],
+                "raw_affiliation_string": "Department of Electrical Engineering, Mazandaran University of Science and Technology, Babol, Iran"
+              }
+            ],
+            "author": {
+              "display_name": "Ehsan Akbari",
+              "id": "https://openalex.org/A5005365851",
+              "orcid": "https://orcid.org/0000-0002-5318-5673"
+            },
+            "author_position": "middle",
+            "countries": [
+              "IR"
+            ],
+            "institutions": [
+              {
+                "country_code": "IR",
+                "display_name": "Mazandaran University of Science and Technology",
+                "id": "https://openalex.org/I123173325",
+                "lineage": [
+                  "https://openalex.org/I123173325"
+                ],
+                "ror": "https://ror.org/03s3hf581",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical Engineering, Mazandaran University of Science and Technology, Babol, Iran"
+            ],
+            "raw_author_name": "Ehsan Akbari",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [],
+            "author": {
+              "display_name": "Sara Mahmoudi Rashid",
+              "id": "https://openalex.org/A5103193970",
+              "orcid": "https://orcid.org/0000-0002-6926-2899"
+            },
+            "author_position": "middle",
+            "countries": [],
+            "institutions": [],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [],
+            "raw_author_name": "Sara Mahmoudi Rashid",
+            "raw_orcid": "https://orcid.org/0000-0002-6926-2899"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I84884186"
+                ],
+                "raw_affiliation_string": "School of Engineering, Newcastle University, Newcastle Upon Tyne, United Kingdom"
+              }
+            ],
+            "author": {
+              "display_name": "Seyed Ashkan Nejati",
+              "id": "https://openalex.org/A5028981461",
+              "orcid": "https://orcid.org/0000-0001-5835-0431"
+            },
+            "author_position": "middle",
+            "countries": [
+              "GB"
+            ],
+            "institutions": [
+              {
+                "country_code": "GB",
+                "display_name": "Newcastle University",
+                "id": "https://openalex.org/I84884186",
+                "lineage": [
+                  "https://openalex.org/I84884186"
+                ],
+                "ror": "https://ror.org/01kj2bm70",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "School of Engineering, Newcastle University, Newcastle Upon Tyne, United Kingdom"
+            ],
+            "raw_author_name": "Seyed Ashkan Nejati",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I204490172"
+                ],
+                "raw_affiliation_string": "Department of Electrical and Electronics Engineering, Shiraz University of Technology, Shiraz, Iran"
+              }
+            ],
+            "author": {
+              "display_name": "Mohsen Gitizadeh",
+              "id": "https://openalex.org/A5006218905",
+              "orcid": "https://orcid.org/0000-0001-6489-4232"
+            },
+            "author_position": "last",
+            "countries": [
+              "IR"
+            ],
+            "institutions": [
+              {
+                "country_code": "IR",
+                "display_name": "Shiraz University of Technology",
+                "id": "https://openalex.org/I204490172",
+                "lineage": [
+                  "https://openalex.org/I204490172"
+                ],
+                "ror": "https://ror.org/04bxa3v83",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical and Electronics Engineering, Shiraz University of Technology, Shiraz, Iran"
+            ],
+            "raw_author_name": "Mohsen Gitizadeh",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "Application of robust optimized spatiotemporal load management of data centers for renewable curtailment mitigation",
+        "doi": "https://doi.org/10.1016/j.rser.2024.114793",
+        "id": "https://openalex.org/W4401285223",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": false,
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.rser.2024.114793",
+          "is_accepted": true,
+          "is_oa": false,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1016/j.rser.2024.114793",
+          "license": null,
+          "license_id": null,
+          "pdf_url": null,
+          "raw_source_name": "Renewable and Sustainable Energy Reviews",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Renewable and Sustainable Energy Reviews",
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S68497187",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "1364-0321",
+              "1879-0690"
+            ],
+            "issn_l": "1364-0321",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2024-08-03",
+        "publication_year": 2024,
+        "title": "Application of robust optimized spatiotemporal load management of data centers for renewable curtailment mitigation",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "0.2%": [
+            158
+          ],
+          "73.11%": [
+            151
+          ],
+          "For": [
+            27
+          ],
+          "In": [
+            88
+          ],
+          "SLA": [
+            155
+          ],
+          "Since": [
+            53
+          ],
+          "The": [
+            0,
+            102,
+            129
+          ],
+          "a": [
+            107
+          ],
+          "achieve": [
+            115
+          ],
+          "addition": [
+            43
+          ],
+          "aims": [
+            113
+          ],
+          "algorithm": [
+            95
+          ],
+          "algorithms.": [
+            164
+          ],
+          "allocation": [
+            110
+          ],
+          "also": [
+            144
+          ],
+          "an": [
+            48,
+            91
+          ],
+          "and": [
+            3,
+            19,
+            41,
+            80,
+            93,
+            121,
+            140
+          ],
+          "approach": [
+            136
+          ],
+          "are": [
+            34,
+            45
+          ],
+          "attached": [
+            49
+          ],
+          "baseline": [
+            163
+          ],
+          "be": [
+            85
+          ],
+          "between": [
+            118
+          ],
+          "by": [
+            47,
+            124
+          ],
+          "can": [
+            143
+          ],
+          "carbon": [
+            24,
+            55,
+            73,
+            81,
+            122
+          ],
+          "carbon-aware": [
+            94
+          ],
+          "center": [
+            16
+          ],
+          "centers,": [
+            31
+          ],
+          "cloud": [
+            8,
+            32
+          ],
+          "comparison": [
+            160
+          ],
+          "computing": [
+            9
+          ],
+          "connected": [
+            35
+          ],
+          "consumption": [
+            18,
+            60,
+            68,
+            79,
+            120
+          ],
+          "conventional": [
+            38
+          ],
+          "data": [
+            15,
+            30
+          ],
+          "decrease": [
+            72
+          ],
+          "development": [
+            2
+          ],
+          "differences": [
+            63
+          ],
+          "dioxide": [
+            25
+          ],
+          "distributed": [
+            29
+          ],
+          "does": [
+            69
+          ],
+          "dynamic": [
+            62
+          ],
+          "emission,": [
+            74
+          ],
+          "emissions": [
+            123
+          ],
+          "emissions.": [
+            26
+          ],
+          "energy": [
+            17,
+            51,
+            59,
+            67,
+            78,
+            92,
+            119,
+            127,
+            148
+          ],
+          "energy-efficient": [
+            139
+          ],
+          "ensuring": [
+            153
+          ],
+          "environmental": [
+            21
+          ],
+          "experimental": [
+            130
+          ],
+          "footprint": [
+            56,
+            82
+          ],
+          "for": [
+            96
+          ],
+          "geographically": [
+            28
+          ],
+          "goal": [
+            103
+          ],
+          "greener,": [
+            141
+          ],
+          "grid": [
+            40
+          ],
+          "has": [
+            61
+          ],
+          "highlight": [
+            10
+          ],
+          "impact": [
+            22
+          ],
+          "improving": [
+            125
+          ],
+          "in": [
+            42,
+            64,
+            159
+          ],
+          "increasing": [
+            5
+          ],
+          "indicates": [
+            76
+          ],
+          "is": [
+            100,
+            104,
+            137
+          ],
+          "machine": [
+            98,
+            109
+          ],
+          "maximize": [
+            145
+          ],
+          "mean": [
+            71
+          ],
+          "more": [
+            138
+          ],
+          "necessity": [
+            12
+          ],
+          "need": [
+            83
+          ],
+          "not": [
+            70
+          ],
+          "obtain": [
+            106
+          ],
+          "of": [
+            7,
+            13,
+            23,
+            58
+          ],
+          "optimized.": [
+            87
+          ],
+          "paper,": [
+            90
+          ],
+          "placement": [
+            99
+          ],
+          "popularity": [
+            6
+          ],
+          "power": [
+            39
+          ],
+          "proposed": [
+            135
+          ],
+          "proposed.": [
+            101
+          ],
+          "rate": [
+            57
+          ],
+          "reducing": [
+            14,
+            66
+          ],
+          "renewable": [
+            50,
+            126,
+            147
+          ],
+          "results": [
+            131
+          ],
+          "scheme": [
+            111
+          ],
+          "servers": [
+            33
+          ],
+          "show": [
+            132
+          ],
+          "source.": [
+            52
+          ],
+          "space,": [
+            65
+          ],
+          "supported": [
+            46
+          ],
+          "synergistically": [
+            86
+          ],
+          "that": [
+            77,
+            112,
+            133
+          ],
+          "the": [
+            4,
+            11,
+            20,
+            37,
+            54,
+            116,
+            134,
+            146,
+            154,
+            162
+          ],
+          "they": [
+            44
+          ],
+          "this": [
+            89
+          ],
+          "to": [
+            36,
+            84,
+            105,
+            114,
+            161
+          ],
+          "trade-off": [
+            117
+          ],
+          "utilization": [
+            149
+          ],
+          "utilization.": [
+            128
+          ],
+          "vigorous": [
+            1
+          ],
+          "violation": [
+            156
+          ],
+          "virtual": [
+            97,
+            108
+          ],
+          "which": [
+            75,
+            142
+          ],
+          "while": [
+            152
+          ],
+          "with": [
+            150,
+            157
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I2722730"
+                ],
+                "raw_affiliation_string": "College of Computer Science, Inner Mongolia University, Hohhot 010021, China"
+              }
+            ],
+            "author": {
+              "display_name": "Daming Zhao",
+              "id": "https://openalex.org/A5024004649",
+              "orcid": "https://orcid.org/0000-0002-1518-9948"
+            },
+            "author_position": "first",
+            "countries": [
+              "CN"
+            ],
+            "institutions": [
+              {
+                "country_code": "CN",
+                "display_name": "Inner Mongolia University",
+                "id": "https://openalex.org/I2722730",
+                "lineage": [
+                  "https://openalex.org/I2722730"
+                ],
+                "ror": "https://ror.org/0106qb496",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "College of Computer Science, Inner Mongolia University, Hohhot 010021, China"
+            ],
+            "raw_author_name": "Daming Zhao",
+            "raw_orcid": "https://orcid.org/0000-0002-1518-9948"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I2722730"
+                ],
+                "raw_affiliation_string": "College of Computer Science, Inner Mongolia University, Hohhot 010021, China"
+              }
+            ],
+            "author": {
+              "display_name": "Jiantao Zhou",
+              "id": "https://openalex.org/A5100652826",
+              "orcid": "https://orcid.org/0000-0002-7066-9282"
+            },
+            "author_position": "last",
+            "countries": [
+              "CN"
+            ],
+            "institutions": [
+              {
+                "country_code": "CN",
+                "display_name": "Inner Mongolia University",
+                "id": "https://openalex.org/I2722730",
+                "lineage": [
+                  "https://openalex.org/I2722730"
+                ],
+                "ror": "https://ror.org/0106qb496",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "College of Computer Science, Inner Mongolia University, Hohhot 010021, China"
+            ],
+            "raw_author_name": "Jiantao Zhou",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "An energy and carbon-aware algorithm for renewable energy usage maximization in distributed cloud data centers",
+        "doi": "https://doi.org/10.1016/j.jpdc.2022.04.001",
+        "id": "https://openalex.org/W4223495485",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": false,
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://www.sciencedirect.com/science/article/pii/S074373152200079X/pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.jpdc.2022.04.001",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1016/j.jpdc.2022.04.001",
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "pdf_url": "https://www.sciencedirect.com/science/article/pii/S074373152200079X/pdf",
+          "raw_source_name": "Journal of Parallel and Distributed Computing",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Journal of Parallel and Distributed Computing",
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S157146593",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "0743-7315",
+              "1096-0848"
+            ],
+            "issn_l": "0743-7315",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2022-04-12",
+        "publication_year": 2022,
+        "title": "An energy and carbon-aware algorithm for renewable energy usage maximization in distributed cloud data centers",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": null,
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I24185976"
+                ],
+                "raw_affiliation_string": "Business School, Sichuan University, Chengdu 610064, PR China"
+              }
+            ],
+            "author": {
+              "display_name": "Fengjuan Wang",
+              "id": "https://openalex.org/A5038846309",
+              "orcid": "https://orcid.org/0000-0001-9331-7936"
+            },
+            "author_position": "first",
+            "countries": [
+              "CN"
+            ],
+            "institutions": [
+              {
+                "country_code": "CN",
+                "display_name": "Sichuan University",
+                "id": "https://openalex.org/I24185976",
+                "lineage": [
+                  "https://openalex.org/I24185976"
+                ],
+                "ror": "https://ror.org/011ashp19",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Business School, Sichuan University, Chengdu 610064, PR China"
+            ],
+            "raw_author_name": "Fengjuan Wang",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I24185976"
+                ],
+                "raw_affiliation_string": "Business School, Sichuan University, Chengdu 610064, PR China"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I24185976"
+                ],
+                "raw_affiliation_string": "Institute of New Energy and Low-Carbon Technology, Sichuan University, Chengdu 610064, PR China"
+              }
+            ],
+            "author": {
+              "display_name": "Chengwei Lv",
+              "id": "https://openalex.org/A5088725709",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "CN"
+            ],
+            "institutions": [
+              {
+                "country_code": "CN",
+                "display_name": "Sichuan University",
+                "id": "https://openalex.org/I24185976",
+                "lineage": [
+                  "https://openalex.org/I24185976"
+                ],
+                "ror": "https://ror.org/011ashp19",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "Business School, Sichuan University, Chengdu 610064, PR China",
+              "Institute of New Energy and Low-Carbon Technology, Sichuan University, Chengdu 610064, PR China"
+            ],
+            "raw_author_name": "Chengwei Lv",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I24185976"
+                ],
+                "raw_affiliation_string": "Business School, Sichuan University, Chengdu 610064, PR China"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I24185976"
+                ],
+                "raw_affiliation_string": "Institute of New Energy and Low-Carbon Technology, Sichuan University, Chengdu 610064, PR China"
+              }
+            ],
+            "author": {
+              "display_name": "Jiuping Xu",
+              "id": "https://openalex.org/A5100691507",
+              "orcid": "https://orcid.org/0000-0003-3756-3969"
+            },
+            "author_position": "last",
+            "countries": [
+              "CN"
+            ],
+            "institutions": [
+              {
+                "country_code": "CN",
+                "display_name": "Sichuan University",
+                "id": "https://openalex.org/I24185976",
+                "lineage": [
+                  "https://openalex.org/I24185976"
+                ],
+                "ror": "https://ror.org/011ashp19",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Business School, Sichuan University, Chengdu 610064, PR China",
+              "Institute of New Energy and Low-Carbon Technology, Sichuan University, Chengdu 610064, PR China"
+            ],
+            "raw_author_name": "Jiuping Xu",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "Carbon awareness oriented data center location and configuration: An integrated optimization method",
+        "doi": "https://doi.org/10.1016/j.energy.2023.127744",
+        "id": "https://openalex.org/W4376115973",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": false,
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.energy.2023.127744",
+          "is_accepted": true,
+          "is_oa": false,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1016/j.energy.2023.127744",
+          "license": null,
+          "license_id": null,
+          "pdf_url": null,
+          "raw_source_name": "Energy",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Energy",
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S2497375143",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "0360-5442",
+              "1873-6785"
+            ],
+            "issn_l": "0360-5442",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2023-05-10",
+        "publication_year": 2023,
+        "title": "Carbon awareness oriented data center location and configuration: An integrated optimization method",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "(APMs)": [
+            36
+          ],
+          "A": [
+            93
+          ],
+          "Active": [
+            33
+          ],
+          "Consolidation": [
+            25
+          ],
+          "Effective": [
+            41
+          ],
+          "Energy": [
+            0
+          ],
+          "Machines": [
+            35
+          ],
+          "Many": [
+            54
+          ],
+          "Physical": [
+            34
+          ],
+          "Server": [
+            24
+          ],
+          "There": [
+            10
+          ],
+          "This": [
+            68
+          ],
+          "VM": [
+            42,
+            66,
+            77
+          ],
+          "a": [
+            12,
+            38,
+            49,
+            71
+          ],
+          "act": [
+            47
+          ],
+          "aims": [
+            27
+          ],
+          "along": [
+            104
+          ],
+          "and": [
+            44,
+            79,
+            100
+          ],
+          "as": [
+            48
+          ],
+          "at": [
+            28
+          ],
+          "center.": [
+            40
+          ],
+          "centers": [
+            6,
+            22
+          ],
+          "cloud": [
+            4,
+            85
+          ],
+          "comparison": [
+            95
+          ],
+          "comprehensive": [
+            72
+          ],
+          "consolidation": [
+            62,
+            80
+          ],
+          "consolidation.": [
+            53
+          ],
+          "consumption": [
+            1
+          ],
+          "data": [
+            5,
+            21,
+            39
+          ],
+          "detailed": [
+            94
+          ],
+          "direction.": [
+            106
+          ],
+          "dynamic": [
+            61
+          ],
+          "efficiency": [
+            18
+          ],
+          "efficiency.": [
+            92
+          ],
+          "energy": [
+            17,
+            91
+          ],
+          "focus": [
+            87
+          ],
+          "green": [
+            84
+          ],
+          "improve": [
+            15
+          ],
+          "improving": [
+            89
+          ],
+          "improvisation": [
+            102
+          ],
+          "in": [
+            37,
+            83
+          ],
+          "increasing": [
+            8
+          ],
+          "is": [
+            7,
+            11,
+            96
+          ],
+          "key": [
+            50
+          ],
+          "massive-scale": [
+            3
+          ],
+          "methods": [
+            103
+          ],
+          "migration": [
+            45
+          ],
+          "minimizing": [
+            29
+          ],
+          "need": [
+            13
+          ],
+          "number": [
+            31
+          ],
+          "of": [
+            2,
+            19,
+            32,
+            55,
+            74
+          ],
+          "on": [
+            88
+          ],
+          "optimizing": [
+            64
+          ],
+          "optimum": [
+            52
+          ],
+          "paper": [
+            69
+          ],
+          "pitfalls": [
+            99
+          ],
+          "placement": [
+            43,
+            78
+          ],
+          "placement.": [
+            67
+          ],
+          "presented,": [
+            97
+          ],
+          "presents": [
+            70
+          ],
+          "proposed": [
+            58
+          ],
+          "realize": [
+            60
+          ],
+          "recently": [
+            57
+          ],
+          "revealing": [
+            98
+          ],
+          "state-of-the-art": [
+            76
+          ],
+          "study": [
+            73
+          ],
+          "such": [
+            20
+          ],
+          "suggesting": [
+            101
+          ],
+          "techniques": [
+            46,
+            59,
+            81
+          ],
+          "the": [
+            16,
+            30,
+            56,
+            65,
+            75,
+            90
+          ],
+          "this": [
+            105
+          ],
+          "to": [
+            14,
+            51
+          ],
+          "unacceptably.": [
+            9
+          ],
+          "used": [
+            82
+          ],
+          "using": [
+            23
+          ],
+          "which": [
+            26,
+            86
+          ],
+          "while": [
+            63
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210094264"
+                ],
+                "raw_affiliation_string": "PG Scholar,Departmnet of CEA, NITTTR, Bhopal 462002, India"
+              }
+            ],
+            "author": {
+              "display_name": "Zoha Usmani",
+              "id": "https://openalex.org/A5010778393",
+              "orcid": null
+            },
+            "author_position": "first",
+            "countries": [
+              "IN"
+            ],
+            "institutions": [
+              {
+                "country_code": "IN",
+                "display_name": "National Institute of Technical Teachers’ Training and Research",
+                "id": "https://openalex.org/I4210094264",
+                "lineage": [
+                  "https://openalex.org/I4210094264"
+                ],
+                "ror": "https://ror.org/00k8f0f41",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "PG Scholar,Departmnet of CEA, NITTTR, Bhopal 462002, India"
+            ],
+            "raw_author_name": "Zoha Usmani",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210094264"
+                ],
+                "raw_affiliation_string": "Professor& Head, Department of CEA, NITTTR, Bhopal 462002, India"
+              }
+            ],
+            "author": {
+              "display_name": "Shailendra Singh",
+              "id": "https://openalex.org/A5042191244",
+              "orcid": "https://orcid.org/0000-0002-3964-5100"
+            },
+            "author_position": "last",
+            "countries": [
+              "IN"
+            ],
+            "institutions": [
+              {
+                "country_code": "IN",
+                "display_name": "National Institute of Technical Teachers’ Training and Research",
+                "id": "https://openalex.org/I4210094264",
+                "lineage": [
+                  "https://openalex.org/I4210094264"
+                ],
+                "ror": "https://ror.org/00k8f0f41",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Professor& Head, Department of CEA, NITTTR, Bhopal 462002, India"
+            ],
+            "raw_author_name": "Shailendra Singh",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "A Survey of Virtual Machine Placement Techniques in a Cloud Data Center",
+        "doi": "https://doi.org/10.1016/j.procs.2016.02.093",
+        "id": "https://openalex.org/W2334049179",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": false,
+          "is_oa": true,
+          "oa_status": "diamond",
+          "oa_url": "https://www.sciencedirect.com/science/article/pii/S1877050916000958/pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.procs.2016.02.093",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1016/j.procs.2016.02.093",
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1877050916000958/pdf",
+          "raw_source_name": "Procedia Computer Science",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Procedia Computer Science",
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S120348307",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": true,
+            "issn": [
+              "1877-0509"
+            ],
+            "issn_l": "1877-0509",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2016-01-01",
+        "publication_year": 2016,
+        "title": "A Survey of Virtual Machine Placement Techniques in a Cloud Data Center",
+        "type": "conference-paper"
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-08-31T14:36:04Z",
+  "retry_count": 0
+}

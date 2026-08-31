@@ -1,0 +1,4239 @@
+{
+  "http_status": 200,
+  "request_url_redacted": "https://api.crossref.org/works?query.bibliographic=%28%22base+station%22+OR+%22radio+access+network%22+OR+RAN+OR+%22telecom+tower%22+OR+%22cellular+network%22+OR+5G+OR+%225G-Advanced%22+OR+B5G+OR+%22IMT-2030%22+OR+6G%29+AND+%28resilience+OR+%22emergency+operation%22+OR+%22backup+power%22+OR+outage+OR+%22critical+load%22+OR+islanding%29+AND+%28field+OR+pilot+OR+demonstration+OR+experiment+OR+%22hardware-in-the-loop%22+OR+HIL+OR+%22real-world+data%22+OR+%22market+participation%22+OR+%22case+study%22%29&filter=from-pub-date%3A2015-01-01%2Cuntil-pub-date%3A2026-08-31&rows=10&sort=relevance&order=desc",
+  "response": {
+    "message": {
+      "facets": {},
+      "items": [
+        {
+          "DOI": "10.1002/9781119851288.ch8",
+          "ISBN": [
+            "9781786306289",
+            "9781119851288"
+          ],
+          "URL": "https://doi.org/10.1002/9781119851288.ch8",
+          "alternative-id": [
+            "10.1002/9781119851288.ch8",
+            "10.1002/9781119851288"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "NG‐RAN and 5G‐NR"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2021-08-13T21:31:19Z",
+            "timestamp": 1628890279000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                29
+              ]
+            ],
+            "date-time": "2023-08-29T17:23:19Z",
+            "timestamp": 1693329799000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                12
+              ]
+            ],
+            "date-time": "2026-01-12T22:26:46Z",
+            "timestamp": 1768256806894,
+            "version": "3.49.0"
+          },
+          "is-referenced-by-count": 2,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781786306289"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119851288"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch8",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch8",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "203-235",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_2_1",
+              "unstructured": "All standards can be downloaded from the ETSI website:https://www.etsi.org/standards."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "unstructured": "3GPP 23.501System architecture for the 5G System (5GS);Version 15.9.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "unstructured": "3GPP 37.324E‐UTRA NR ‐ Multi‐connectivity; Overall Description;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "unstructured": "3GPP 37.340LTE 5G NR ‐ Service Data Adaptation Protocol (SDAP); Protocol specification;Version 16.0.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "unstructured": "3GPP 38.300NR ‐ Radio Resource Control (RRC); Protocol specification;Version 16.0.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "unstructured": "3GPP 38.321NR ‐ Medium Access Control (MAC) Protocol specification;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "unstructured": "3GPP 38.322NR ‐ Radio Link Control Protocol (RLC) specification;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "unstructured": "3GPP 38.323NR ‐ Packet Data Convergence Protocol (PDCP) specification;Version 16.1.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "unstructured": "3GPP 38.331NR ‐ Radio Resource Control (RRC); Protocol specification;Version 16.0.0 Release 16"
+            }
+          ],
+          "reference-count": 9,
+          "references-count": 9,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119851288.ch8"
+            }
+          },
+          "score": 68.196396,
+          "source": "Crossref",
+          "title": [
+            "5G‐NR Radio Interface – Data Link Layer"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.1201/9788743801108-11",
+          "ISBN": [
+            "9788743801108"
+          ],
+          "URL": "https://doi.org/10.1201/9788743801108-11",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Hemanshi",
+              "given": "Anil K.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Gupta",
+              "given": "Vaibhav",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Nandakumar",
+              "given": "S.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Khara",
+              "given": "Sibaram",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Velmurugan",
+              "given": "T.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "The Road to B5G/6G Mobile Communication Networks: Technologies and Applications"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2025-09-02T12:03:06Z",
+            "timestamp": 1756814586000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2025-09-02T12:03:07Z",
+            "timestamp": 1756814587000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2025-09-02T12:40:15Z",
+            "timestamp": 1756816815601,
+            "version": "3.44.0"
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "electronic",
+              "value": "9788743801108"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ]
+          },
+          "language": "en",
+          "member": "301",
+          "page": "169-187",
+          "prefix": "10.1201",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ]
+          },
+          "publisher": "River Publishers",
+          "publisher-location": "New York",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.taylorfrancis.com/books/9788743801108/chapters/10.1201/9788743801108-11"
+            }
+          },
+          "score": 60.289024,
+          "source": "Crossref",
+          "title": [
+            "Centralized Radio Access Network (C-RAN) Architecture for 5G using Fronthaul (FH) and Backhaul (BH) Networks"
+          ],
+          "type": "book-chapter"
+        },
+        {
+          "DOI": "10.1109/npsif68783.2025.11386104",
+          "URL": "https://doi.org/10.1109/npsif68783.2025.11386104",
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "China Southern Power Grid Energy Development Research Institute Co., LTD,Guangzhou,China"
+                }
+              ],
+              "family": "Liu",
+              "given": "Zhiwen",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Xi&#x2019;an Jiaotong University,Xi&#x2019;an,China"
+                }
+              ],
+              "family": "Yu",
+              "given": "Zuwang",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "China Southern Power Grid Energy Development Research Institute Co., LTD,Guangzhou,China"
+                }
+              ],
+              "family": "Dong",
+              "given": "Nan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "China Southern Power Grid Energy Development Research Institute Co., LTD,Guangzhou,China"
+                }
+              ],
+              "family": "Shao",
+              "given": "Chong",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "China Southern Power Grid Energy Development Research Institute Co., LTD,Guangzhou,China"
+                }
+              ],
+              "family": "Li",
+              "given": "Yan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2025 6th New Power System International Forum - Power System and New Energy Technology Innovation Forum (NPSIF)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                19
+              ]
+            ],
+            "date-time": "2026-02-19T20:55:18Z",
+            "timestamp": 1771534518000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                20
+              ]
+            ],
+            "date-time": "2026-02-20T06:39:56Z",
+            "timestamp": 1771569596000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2025,
+                  10,
+                  31
+                ]
+              ]
+            },
+            "location": "Hainan, China",
+            "name": "2025 6th New Power System International Forum - Power System and New Energy Technology Innovation Forum (NPSIF)",
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  10,
+                  29
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                20
+              ]
+            ],
+            "date-time": "2026-02-20T07:07:15Z",
+            "timestamp": 1771571235151,
+            "version": "3.50.1"
+          },
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                29
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    10,
+                    29
+                  ]
+                ],
+                "date-time": "2025-10-29T00:00:00Z",
+                "timestamp": 1761696000000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    10,
+                    29
+                  ]
+                ],
+                "date-time": "2025-10-29T00:00:00Z",
+                "timestamp": 1761696000000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx8/11385854/11385871/11386104.pdf?arnumber=11386104",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "41-47",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                29
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                29
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "article-title": "A voltage control method for distribution networks considering photovoltaic and electric vehicle charging station coordination[J]",
+              "author": "Peng",
+              "first-page": "121",
+              "issue": "06",
+              "journal-title": "Journal of Electric Power Science and Technology",
+              "key": "ref1",
+              "volume": "39",
+              "year": "2024"
+            },
+            {
+              "article-title": "Optimal scheduling strategy of residential station area considering the potential mining of energy storage of various elastic resources[J/OL]",
+              "author": "Zhiheng",
+              "first-page": "1",
+              "journal-title": "Southern Power System Technology",
+              "key": "ref2",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2021.3124141",
+              "doi-asserted-by": "publisher",
+              "key": "ref3"
+            },
+            {
+              "article-title": "Evaluation of distributed photovoltaic maximum hosting capacity for distribution network considering the dispatchable potential of 5G base station[J]",
+              "author": "Yao",
+              "first-page": "80",
+              "issue": "12",
+              "key": "ref4",
+              "volume": "56",
+              "year": "2023"
+            },
+            {
+              "article-title": "Active distribution network expansion planning considering the dispatchable potential of 5 G base station",
+              "author": "Weilin",
+              "first-page": "1",
+              "journal-title": "Southern Power System Technology",
+              "key": "ref5",
+              "year": "2024"
+            },
+            {
+              "article-title": "Optimal siting and sizing method for energy storage system based on dispatchable potential of 5 G base station and cluster partition of distribution network[J]. Automation of Electric Power Systems",
+              "author": "Jinyu",
+              "first-page": "151",
+              "issue": "18",
+              "key": "ref6",
+              "volume": "47",
+              "year": "2023"
+            },
+            {
+              "article-title": "A two-layer optimization approach for distribution network reconfiguration considering optimal regulation of 5G base station backup energy storage[J]",
+              "author": "Xiufan",
+              "first-page": "5028",
+              "issue": "16",
+              "key": "ref7",
+              "volume": "39",
+              "volume-title": "Transactions of China Electrotechnical Society"
+            },
+            {
+              "article-title": "Voltage regulation strategy of medium voltage distribution network with DG considering the importance of load[J]",
+              "author": "Sen",
+              "first-page": "120",
+              "issue": "9",
+              "key": "ref8",
+              "volume": "17",
+              "year": "2023"
+            },
+            {
+              "article-title": "Collaborative optimization scheduling method for active distribution networks considering dispatchable backup batteries of 5G base station and soft open point[J/OL]",
+              "author": "Chong",
+              "first-page": "1",
+              "journal-title": "Journal of Shanghai Jiaotong University",
+              "key": "ref9",
+              "year": "2024"
+            },
+            {
+              "article-title": "Expansion planning method of distribution network with 5 G base stations considering probability characteristics of load[J]",
+              "author": "Mengge",
+              "first-page": "60",
+              "issue": "1",
+              "journal-title": "Advanced Technology of Electrical Engineering and Energy",
+              "key": "ref10",
+              "volume": "41",
+              "year": "2022"
+            },
+            {
+              "article-title": "Robust optimization of hosting capacity of distributed photovoltaics in distribution network considering adjustable characteristics of 5G base station[J/OL]",
+              "author": "Tong",
+              "first-page": "1",
+              "key": "ref11",
+              "year": "2024"
+            },
+            {
+              "article-title": "Multi-objective interval planning for 5G base stations and distribution networks with photovoltaic power sources considering communication flexibility",
+              "author": "Bo",
+              "first-page": "423",
+              "issue": "4",
+              "journal-title": "Acta Energiae Solaris Sinica",
+              "key": "ref12",
+              "volume": "45",
+              "year": "2024"
+            },
+            {
+              "article-title": "An affine arithmetic-based optimization method of combined electric and heat system considering dynamic characteristics of network[J]",
+              "author": "Feixiong",
+              "first-page": "4715",
+              "issue": "12",
+              "journal-title": "Proceedings of the CSEE",
+              "key": "ref13",
+              "volume": "44",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2019.03.159",
+              "doi-asserted-by": "publisher",
+              "key": "ref14"
+            },
+            {
+              "article-title": "Distribution network restoration supply method considers 5G base station energy storage participation[J]",
+              "author": "Xiaowei",
+              "first-page": "3538",
+              "issue": "11",
+              "journal-title": "Transactions of China Electrotechnical Society",
+              "key": "ref15",
+              "volume": "39",
+              "year": "2024"
+            },
+            {
+              "article-title": "Reliability analysis of distribution network with distributed generators based on affine minimal path method[J]. Automation of Electric Power Systems",
+              "author": "Xiaoping",
+              "first-page": "43",
+              "issue": "17",
+              "key": "ref16",
+              "volume": "41",
+              "year": "2017"
+            },
+            {
+              "article-title": "Optimal energy flow of combined electrical and heating multienergy system considering the linear network constraints[J]",
+              "author": "Dongli",
+              "first-page": "1933",
+              "issue": "7",
+              "journal-title": "Proceedings of the CSEE",
+              "key": "ref17",
+              "volume": "39",
+              "year": "2019"
+            },
+            {
+              "article-title": "Notice on issues related to the further improvement of the province’s peak-valley time-ofuse tariff policy [EB/OL]",
+              "key": "ref18",
+              "year": "2023"
+            }
+          ],
+          "reference-count": 18,
+          "references-count": 18,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/11386104/"
+            }
+          },
+          "score": 54.29129,
+          "source": "Crossref",
+          "title": [
+            "A Distribution Network Optimal Operation Method Considering the Dispatchable Potential of 5G Base Station Backup Energy Storage"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.33103/uot.ijccce.25.1.5",
+          "ISSN": [
+            "2617-3352",
+            "1811-9212"
+          ],
+          "URL": "https://doi.org/10.33103/uot.ijccce.25.1.5",
+          "abstract": "<jats:p>The fast expansion of 5G technology requires new innovative approaches to resolve challenges with extensive signal degradation and constrained coverage extent as well as interference in high-frequency bands. The proposed research designs a 5G Radio Access Network (RAN) station link using relay stations that combine Dense Wavelength Division Multiplexing (DWDM) and Radio-over-Fiber (RoF) technological frameworks. The proposed system uses a mesh architectural network with 32 fiber-connected relay stations to enable efficient, scalable data transfer as an alternative to conventional star configurations. An OptiSystem simulation demonstrates that signal integrity enhancement occurs through the establishment of a bidirectional transmission medium that combines Erbium-Doped Fiber Amplifiers (EDFAs) with high-stability Continuous Wave (CW) lasers. The communication functions between uplink and downlink depend on Wavelength Division Multiplexing (WDM) multiplexers and demultiplexers to operate smoothly. The design delivers remarkable Signal-to-Noise Ratio (SNR) and Optical Signal-to-Noise Ratio (OSNR) measurements greater than 50 dB, which ensures quality signals transmit with low degradation to demonstrate stable and bidirectional communication. The system optimizes wavelength reuse while ensuring channel isolation and achieves optimum bandwidth utilization, which makes it a potential choice for future mobile networks. The research findings prove that DWDM-RoF is an effective solution to tackle critical 5G network needs through efficient, high-speed, accurate networks, which opens new paths for relay-assisted 5G development while stabilizing networks across different geographic locations.</jats:p>",
+          "archive": [
+            "Internet Archive"
+          ],
+          "container-title": [
+            "Iraqi Journal of Computers, Communications, Control and Systems Engineering"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                5,
+                5
+              ]
+            ],
+            "date-time": "2025-05-05T01:14:13Z",
+            "timestamp": 1746407653000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                7
+              ]
+            ],
+            "date-time": "2026-06-07T10:52:33Z",
+            "timestamp": 1780829553000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                7
+              ]
+            ],
+            "date-time": "2026-06-07T11:02:18Z",
+            "timestamp": 1780830138440,
+            "version": "3.54.1"
+          },
+          "is-referenced-by-count": 0,
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "2617-3352"
+            },
+            {
+              "type": "print",
+              "value": "1811-9212"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                30
+              ]
+            ]
+          },
+          "language": "en",
+          "member": "18370",
+          "page": "54-67",
+          "prefix": "10.33103",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                30
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                4,
+                30
+              ]
+            ]
+          },
+          "publisher": "University of Technology, Iraq - DIGITAL COMMONS",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://ijccce.uotechnology.edu.iq/journal/vol25/iss1/5"
+            }
+          },
+          "score": 53.22383,
+          "short-container-title": [
+            "IJCCCE"
+          ],
+          "source": "Crossref",
+          "title": [
+            "A Proposed Approach to Relay-Base Station Link Design for 5G Radio Access Network"
+          ],
+          "type": "journal-article"
+        },
+        {
+          "DOI": "10.1109/access.2022.3158948",
+          "ISSN": [
+            "2169-3536"
+          ],
+          "URL": "https://doi.org/10.1109/access.2022.3158948",
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0002-1768-8310",
+              "affiliation": [
+                {
+                  "name": "Department of ECE, National Institute of Technology Karnataka, Surathkal, Mangalore, India"
+                }
+              ],
+              "authenticated-orcid": false,
+              "family": "Bellary",
+              "given": "Anudeep",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-1561-3005",
+              "affiliation": [
+                {
+                  "name": "Department of ECE, National Institute of Technology Karnataka, Surathkal, Mangalore, India"
+                }
+              ],
+              "authenticated-orcid": false,
+              "family": "Kandasamy",
+              "given": "Krishnamoorthy",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-2795-1394",
+              "affiliation": [
+                {
+                  "name": "Microwave Communication and Antenna Division, SAMEER-Centre for Electromagnetics, Chennai, India"
+                }
+              ],
+              "authenticated-orcid": false,
+              "family": "Rao",
+              "given": "Patnam Hanumantha",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "IEEE Access"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2022,
+                3,
+                11
+              ]
+            ],
+            "date-time": "2022-03-11T15:23:45Z",
+            "timestamp": 1647012225000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                5,
+                30
+              ]
+            ],
+            "date-time": "2022-05-30T18:45:45Z",
+            "timestamp": 1653936345000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                18
+              ]
+            ],
+            "date-time": "2026-08-18T00:10:45Z",
+            "timestamp": 1787011845521,
+            "version": "build-2736575974"
+          },
+          "is-referenced-by-count": 17,
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "2169-3536"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://creativecommons.org/licenses/by/4.0/legalcode",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2022,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2022-01-01T00:00:00Z",
+                "timestamp": 1640995200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/6287639/9668973/09733343.pdf?arnumber=9733343",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "29183-29193",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2022
+              ]
+            ]
+          },
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "reference": [
+            {
+              "DOI": "10.1109/TAP.2017.2679762",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "DOI": "10.1109/TAP.2018.2859914",
+              "doi-asserted-by": "publisher",
+              "key": "ref11"
+            },
+            {
+              "DOI": "10.1109/LAWP.2019.2937201",
+              "doi-asserted-by": "publisher",
+              "key": "ref12"
+            },
+            {
+              "DOI": "10.1109/TEMC.2020.3004189",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "DOI": "10.1002/mmce.22615",
+              "doi-asserted-by": "publisher",
+              "key": "ref14"
+            },
+            {
+              "DOI": "10.1017/S1759078721000805",
+              "doi-asserted-by": "publisher",
+              "key": "ref15"
+            },
+            {
+              "DOI": "10.23919/EuCAP48036.2020.9135263",
+              "doi-asserted-by": "publisher",
+              "key": "ref16"
+            },
+            {
+              "DOI": "10.23919/ROPACES.2018.8364192",
+              "doi-asserted-by": "publisher",
+              "key": "ref17"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.3023452",
+              "doi-asserted-by": "publisher",
+              "key": "ref18"
+            },
+            {
+              "journal-title": "3rd Generation Partnership Project",
+              "key": "ref19",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/TAP.2018.2880098",
+              "doi-asserted-by": "publisher",
+              "key": "ref4"
+            },
+            {
+              "DOI": "10.1155/2016/6304356",
+              "doi-asserted-by": "publisher",
+              "key": "ref3"
+            },
+            {
+              "DOI": "10.1109/TAP.2019.2936758",
+              "doi-asserted-by": "publisher",
+              "key": "ref6"
+            },
+            {
+              "DOI": "10.1109/LAWP.2019.2961159",
+              "doi-asserted-by": "publisher",
+              "key": "ref5"
+            },
+            {
+              "DOI": "10.1109/LAWP.2018.2832293",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "DOI": "10.1109/TAP.2018.2871717",
+              "doi-asserted-by": "publisher",
+              "key": "ref7"
+            },
+            {
+              "DOI": "10.2528/PIERC16040206",
+              "doi-asserted-by": "publisher",
+              "key": "ref2"
+            },
+            {
+              "DOI": "10.1109/MAP.2017.2753038",
+              "doi-asserted-by": "publisher",
+              "key": "ref9"
+            },
+            {
+              "DOI": "10.1109/LAWP.2016.2598181",
+              "doi-asserted-by": "publisher",
+              "key": "ref1"
+            },
+            {
+              "DOI": "10.1109/APCAP.2017.8420499",
+              "doi-asserted-by": "publisher",
+              "key": "ref20"
+            },
+            {
+              "DOI": "10.1155/2017/4701208",
+              "doi-asserted-by": "publisher",
+              "key": "ref22"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2021.3070198",
+              "doi-asserted-by": "publisher",
+              "key": "ref21"
+            },
+            {
+              "journal-title": "Wave Propagation and Radio Network Planning Software (part of Altair HyperWorks)",
+              "key": "ref24",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/TAP.2017.2734243",
+              "doi-asserted-by": "publisher",
+              "key": "ref23"
+            },
+            {
+              "journal-title": "Comprehensive Electromagnetic Analysis Software Suite (part of Altair HyperWorks)",
+              "key": "ref26",
+              "year": "2021"
+            },
+            {
+              "journal-title": "A New Dimension of Wave Propagation and Radio Network Planning",
+              "key": "ref25",
+              "year": "2020"
+            }
+          ],
+          "reference-count": 26,
+          "references-count": 26,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/9733343/"
+            }
+          },
+          "score": 52.372417,
+          "short-container-title": [
+            "IEEE Access"
+          ],
+          "source": "Crossref",
+          "title": [
+            "Analysis of Wave Propagation Models With Radio Network Planning Using Dual Polarized MIMO Antenna for 5G Base Station Applications"
+          ],
+          "type": "journal-article",
+          "volume": "10"
+        },
+        {
+          "DOI": "10.3390/math13030466",
+          "ISSN": [
+            "2227-7390"
+          ],
+          "URL": "https://doi.org/10.3390/math13030466",
+          "abstract": "<jats:p>5G, the fifth-generation mobile network, is predicted to significantly increase the traditional trajectory of energy consumption. It now uses four times as much energy as 4G, the fourth-generation mobile network. As a result, compared to previous generations, 5G’s increased cell density makes energy efficiency a top priority. The objective of this paper is to formulate end-to-end power consumption models for three different 5G radio access network (RAN) deployment architectures, namely the 5G distributed RAN, the 5G centralized RAN with dedicated hardware and the 5G Cloud Centralized-RAN. The end-to-end modelling of the power consumption of a complete 5G system is obtained by combining the power models of individual components such as the base station, the core network, front-haul, mid-haul and backhaul links, as applicable for the different architectures. The authors considered the deployment of software-defined networking (SDN) at the 5G Core network and gigabit passive optical network as access technology for the backhaul network. This study examines the end-to-end power consumption of 5G networks across various architectures, focusing on key dependent parameters. The findings indicate that the 5G distributed RAN scenario has the highest power consumption among the three models evaluated. In comparison, the centralized 5G and 5G Cloud C-RAN scenarios consume 12% and 20% less power, respectively, than the Centralized RAN solution. Additionally, calculations reveal that base stations account for 74% to 78% of the total power consumption in 5G networks. These insights helped pioneer the calculation of the end-to-end power requirements of different 5G network architectures, forming a solid foundation for their sustainable implementation. Furthermore, this study lays the groundwork for extending power modeling to future 6G networks.</jats:p>",
+          "alternative-id": [
+            "math13030466"
+          ],
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "Department of Electrical and Electronic Engineering, University of Mauritius, Réduit 80837, Mauritius"
+                }
+              ],
+              "family": "Doorgakant",
+              "given": "Bhuvaneshwar",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Department of Electrical and Electronic Engineering, University of Mauritius, Réduit 80837, Mauritius"
+                }
+              ],
+              "family": "Fowdur",
+              "given": "Tulsi Pawan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0003-1164-5501",
+              "affiliation": [
+                {
+                  "name": "Faculty of Arts, Computing and Engineering, Wrexham University, Wrexham LL11 2AW, UK"
+                }
+              ],
+              "authenticated-orcid": false,
+              "family": "Akinsolu",
+              "given": "Mobayode O.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Mathematics"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                30
+              ]
+            ],
+            "date-time": "2025-01-30T11:08:23Z",
+            "timestamp": 1738235303000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                9
+              ]
+            ],
+            "date-time": "2025-10-09T16:24:28Z",
+            "timestamp": 1760027068000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                29
+              ]
+            ],
+            "date-time": "2026-08-29T06:52:23Z",
+            "timestamp": 1787986343692,
+            "version": "build-2784847793"
+          },
+          "is-referenced-by-count": 13,
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "2227-7390"
+            }
+          ],
+          "issue": "3",
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                30
+              ]
+            ]
+          },
+          "journal-issue": {
+            "issue": "3",
+            "published-online": {
+              "date-parts": [
+                [
+                  2025,
+                  2
+                ]
+              ]
+            }
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://creativecommons.org/licenses/by/4.0/",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    30
+                  ]
+                ],
+                "date-time": "2025-01-30T00:00:00Z",
+                "timestamp": 1738195200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://www.mdpi.com/2227-7390/13/3/466/pdf",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "1968",
+          "page": "466",
+          "prefix": "10.3390",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                30
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                30
+              ]
+            ]
+          },
+          "publisher": "MDPI AG",
+          "reference": [
+            {
+              "DOI": "10.1016/j.array.2022.100170",
+              "article-title": "5G radio access networks: A survey",
+              "author": "Pana",
+              "doi-asserted-by": "crossref",
+              "first-page": "100170",
+              "journal-title": "Array",
+              "key": "ref_1",
+              "volume": "14",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/VTC2024-Fall63153.2024.10757848",
+              "doi-asserted-by": "crossref",
+              "key": "ref_2",
+              "unstructured": "Azzino, T., Hasanzade Zonuzy, A., Luo, J., Abedini, N., and Luo, T. (2024). Towards Energy- and Cost-Efficient 6G Networks. arXiv."
+            },
+            {
+              "DOI": "10.1109/ACCESS.2016.2549641",
+              "article-title": "Power Optimization in 5G Networks: A Step Towards GrEEn Communication",
+              "author": "Abrol",
+              "doi-asserted-by": "crossref",
+              "first-page": "1355",
+              "journal-title": "IEEE Access",
+              "key": "ref_3",
+              "volume": "4",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/COMST.2022.3142532",
+              "article-title": "A Survey on 5G Radio Access Network Energy Efficiency: Massive MIMO, Lean Carrier Design, Sleep Modes, and Machine Learning",
+              "author": "Piovesan",
+              "doi-asserted-by": "crossref",
+              "first-page": "653",
+              "journal-title": "IEEE Commun. Surv. Tutorials",
+              "key": "ref_4",
+              "volume": "24",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/PIMRC.2009.5449938",
+              "doi-asserted-by": "crossref",
+              "key": "ref_5",
+              "unstructured": "Gruber, M., Blume, O., Ferling, D., Zeller, D., Imran, M.A., and Strinati, E.C. (2009, January 13–16). EARTH—Energy Aware Radio and Network Technologies. Proceedings of the 2009 IEEE 20th International Symposium on Personal, Indoor and Mobile Radio Communications, Tokyo, Japan."
+            },
+            {
+              "DOI": "10.1109/ACCESS.2016.2598813",
+              "article-title": "Survey of Strategies for Switching Off Base Stations in Heterogeneous Networks for Greener 5G Systems",
+              "author": "Han",
+              "doi-asserted-by": "crossref",
+              "first-page": "4959",
+              "journal-title": "IEEE Access",
+              "key": "ref_6",
+              "volume": "4",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1007/s11276-019-02056-w",
+              "article-title": "Energy efficient multi-connectivity algorithms for ultra-dense 5G networks",
+              "author": "Poirot",
+              "doi-asserted-by": "crossref",
+              "first-page": "2207",
+              "journal-title": "Wirel. Networks",
+              "key": "ref_7",
+              "volume": "26",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/MCOM.001.2200023",
+              "article-title": "Machine Learning and Analytical Power Consumption Models for 5G Base Stations",
+              "author": "Piovesan",
+              "doi-asserted-by": "crossref",
+              "first-page": "56",
+              "journal-title": "IEEE Commun. Mag.",
+              "key": "ref_8",
+              "volume": "60",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/TVT.2017.2769163",
+              "article-title": "Energy Saving Game for Massive MIMO: Coping With Daily Load Variation",
+              "author": "Hossain",
+              "doi-asserted-by": "crossref",
+              "first-page": "2301",
+              "journal-title": "IEEE Trans. Veh. Technol.",
+              "key": "ref_9",
+              "volume": "67",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.3033879",
+              "article-title": "Optimum Functional Splits for Optimizing Energy Consumption in V-RAN",
+              "author": "Ismail",
+              "doi-asserted-by": "crossref",
+              "first-page": "194333",
+              "journal-title": "IEEE Access",
+              "key": "ref_10",
+              "volume": "8",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.comnet.2021.108492",
+              "article-title": "Energy efficiency through joint routing and function placement in different modes of SDN/NFV networks",
+              "author": "Moosavi",
+              "doi-asserted-by": "crossref",
+              "first-page": "108492",
+              "journal-title": "Comput. Networks",
+              "key": "ref_11",
+              "volume": "200",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.jnca.2019.04.001",
+              "article-title": "A survey of energy efficiency in SDN: Software-based methods and optimization models",
+              "author": "Assefa",
+              "doi-asserted-by": "crossref",
+              "first-page": "127",
+              "journal-title": "J. Netw. Comput. Appl.",
+              "key": "ref_12",
+              "volume": "137",
+              "year": "2019"
+            },
+            {
+              "key": "ref_13",
+              "unstructured": "Bera, P., and Rahman, M.A. (2018, January 23–26). A new approach for energy efficiency in software defined network. Proceedings of the 2018 Fifth International Conference on Software Defined Systems (SDS), Barcelona, Spain."
+            },
+            {
+              "DOI": "10.1016/j.segan.2020.100427",
+              "article-title": "Analysis of power consumption in standalone 5G network and enhancement in energy efficiency using a novel routing protocol",
+              "author": "Sharma",
+              "doi-asserted-by": "crossref",
+              "first-page": "100427",
+              "journal-title": "Sustain. Energy Grids Netw.",
+              "key": "ref_14",
+              "volume": "26",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1007/s11107-016-0676-6",
+              "article-title": "Cost- and energy-efficient backhaul options for heterogeneous mobile network deployments",
+              "author": "Farias",
+              "doi-asserted-by": "crossref",
+              "first-page": "422",
+              "journal-title": "Photon-Netw. Commun.",
+              "key": "ref_15",
+              "volume": "32",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.21203/rs.3.rs-4101544/v1",
+              "doi-asserted-by": "crossref",
+              "key": "ref_16",
+              "unstructured": "Abdelnaby, E., Abd-Alaaty, H., Nashat, M., and abd-elazim, M. (2024). Based on 6G, Fog Radio Access Network Behaviour Analysis. Res. Sq."
+            },
+            {
+              "DOI": "10.1109/JLT.2024.3375972",
+              "article-title": "Power over Fiber Pooling as Part of 6G Optical Fronthaul",
+              "author": "Otero",
+              "doi-asserted-by": "crossref",
+              "first-page": "4774",
+              "journal-title": "J. Light. Technol.",
+              "key": "ref_17",
+              "volume": "42",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1364/JOCN.7.000B38",
+              "article-title": "Next Generation Mobile Fronthaul and Midhaul Architectures [Invited]",
+              "author": "Pfeiffer",
+              "doi-asserted-by": "crossref",
+              "first-page": "B38",
+              "journal-title": "J. Opt. Commun. Netw.",
+              "key": "ref_18",
+              "volume": "7",
+              "year": "2015"
+            },
+            {
+              "key": "ref_19",
+              "unstructured": "Mocerino, J. (2024, September 21). Paper—5G Backhaul/Fronthaul Opportunities and Challenges—NCTA Technical Papers. Available online: https://www.nctatechnicalpapers.com/Paper/2019/2019-5g-backhaul-fronthaul-opportunities-and-challenges."
+            },
+            {
+              "key": "ref_20",
+              "unstructured": "Khatri, P. (2024, September 23). The Impact of 5G on IP Transport Networks. Available online: https://blog.apnic.net/2019/11/13/the-impact-of-5g-on-ip-transport-networks."
+            },
+            {
+              "DOI": "10.3390/electronics10172162",
+              "doi-asserted-by": "crossref",
+              "key": "ref_21",
+              "unstructured": "Moshin, M., Batalla, J.M., Pallis, E., Mastorakis, G., Markakis, E.K., and Mavromoustakis, C.X. (2021). On Analyzing Beamforming Implementation in O-RAN 5G. Electronics, 10."
+            },
+            {
+              "DOI": "10.1109/MWC.2017.1600181WC",
+              "article-title": "5G-Crosshaul: An SDN/NFV Integrated Fronthaul/Backhaul Transport Network Architecture",
+              "author": "Li",
+              "doi-asserted-by": "crossref",
+              "first-page": "38",
+              "journal-title": "IEEE Wirel. Commun.",
+              "key": "ref_22",
+              "volume": "24",
+              "year": "2017"
+            },
+            {
+              "key": "ref_23",
+              "unstructured": "Zola, A., and Bernstein, C. (2024, April 01). What is Fronthaul?. Available online: https://www.techtarget.com/searchmobilecomputing/definition/fronthaul."
+            },
+            {
+              "DOI": "10.3390/s23021047",
+              "doi-asserted-by": "crossref",
+              "key": "ref_24",
+              "unstructured": "de Oliveira, W., Batista, J.O.R., Novais, T., Takashima, S.T., Stange, L.R., Martucci, M., Cugnasca, C.E., and Bressan, G. (2023). OpenCare5G: O-RAN in Private Network for Digital Health Applications. Sensors, 23."
+            },
+            {
+              "key": "ref_25",
+              "unstructured": "Tabbane, S. (2024, July 15). 5G Networks and 3GPP Release 15. Available online: https://www.itu.int/en/ITU-D/Regional-Presence/AsiaPacific/SiteAssets/Pages/Events/2019/ITUPITA2018/ITU-ASP-CoE-Training-on-/5G%20networks%20and%203GPP%20Release%2015_vf.pdf."
+            },
+            {
+              "key": "ref_26",
+              "unstructured": "Pietilä, A.-K., and Marshall, P. (2023, March 15). Tap into the Next Big Thing with Cloud RAN|Nokia. Available online: https://www.nokia.com/blog/tap-into-the-next-big-thing-with-cloud-ran/."
+            },
+            {
+              "key": "ref_27",
+              "unstructured": "Lee, M. (2024, November 24). An Introduction to 5G New Radio Architecture|Electronics360. Available online: https://electronics360.globalspec.com/article/18374/an-introduction-to-5g-new-radio-architecture."
+            },
+            {
+              "key": "ref_28",
+              "unstructured": "Lavallee, B. (2024, November 24). Spotlight on 4G/5G Backhaul Networks. Available online: https://www.ciena.com/insights/articles/spotlight-on-4g-5g-backhaul-networks.html?utm_source=Blog&utm_medium=Social."
+            },
+            {
+              "DOI": "10.1109/ACCESS.2021.3113501",
+              "article-title": "Deep Reinforcement Learning for Energy-Efficient Multi-Channel Transmissions in 5G Cognitive HetNets: Centralized, Decentralized and Transfer Learning Based Solutions",
+              "author": "Giannopoulos",
+              "doi-asserted-by": "crossref",
+              "first-page": "129358",
+              "journal-title": "IEEE Access",
+              "key": "ref_29",
+              "volume": "9",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/JSAC.2016.2520217",
+              "article-title": "Green 5G Heterogeneous Networks Through Dynamic Small-Cell Operation",
+              "author": "Cai",
+              "doi-asserted-by": "crossref",
+              "first-page": "1103",
+              "journal-title": "IEEE J. Sel. Areas Commun.",
+              "key": "ref_30",
+              "volume": "34",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/ICC.2019.8761431",
+              "doi-asserted-by": "crossref",
+              "key": "ref_31",
+              "unstructured": "Meng, F.-X., Chen, P., and Wu, L. (2019, January 20–24). Power Allocation in Multi-User Cellular Networks with Deep Q Learning Approach. Proceedings of the ICC 2019—2019 IEEE International Conference on Communications (ICC), Shanghai, China."
+            },
+            {
+              "key": "ref_32",
+              "unstructured": "Lenderman, J., Kunstler, J., and Wilson, S. (2024, August 10). 2024 Trends to Watch: Broadband Access. Omdia, England. Available online: https://omdia.tech.informa.com/om033878/2024-trends-to-watch-broadband-access."
+            },
+            {
+              "DOI": "10.1109/ECOC.2014.6964023",
+              "doi-asserted-by": "crossref",
+              "key": "ref_33",
+              "unstructured": "Carapellese, N., Pizzinat, A., Tornatore, M., Chanclou, P., and Gosselin, S. (2014, January 21–25). An energy consumption comparison of different mobile backhaul and fronthaul optical access architectures. Proceedings of the 2014 The European Conference on Optical Communication (ECOC), Cannes, France."
+            },
+            {
+              "DOI": "10.1364/JOCN.8.000B21",
+              "article-title": "Modeling Energy Performance of C-RAN With Optical Transport in 5G Network Scenarios",
+              "author": "Fiorani",
+              "doi-asserted-by": "crossref",
+              "first-page": "B21",
+              "journal-title": "J. Opt. Commun. Netw.",
+              "key": "ref_34",
+              "volume": "8",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.3029903",
+              "article-title": "Towards Energy Efficient 5G Networks Using Machine Learning: Taxonomy, Research Challenges, and Future Research Directions",
+              "author": "Mughees",
+              "doi-asserted-by": "crossref",
+              "first-page": "187498",
+              "journal-title": "IEEE Access",
+              "key": "ref_35",
+              "volume": "8",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2021.3049945",
+              "article-title": "Modeling and Evaluation of Software Defined Networking Based 5G Core Network Architecture",
+              "author": "Abdulghaffar",
+              "doi-asserted-by": "crossref",
+              "first-page": "10179",
+              "journal-title": "IEEE Access",
+              "key": "ref_36",
+              "volume": "9",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.heliyon.2023.e14215",
+              "article-title": "Reliable and cost-efficient protection scheme for 5G fronthaul/backhaul network",
+              "author": "Jaffer",
+              "doi-asserted-by": "crossref",
+              "first-page": "e14215",
+              "journal-title": "Heliyon",
+              "key": "ref_37",
+              "volume": "9",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1109/TENCON.2018.8650520",
+              "doi-asserted-by": "crossref",
+              "key": "ref_38",
+              "unstructured": "Hantoro, G.D. (2018, January 28–31). GPON Performance Analysis for 5G Backhaul Solutions. Proceedings of the TENCON 2018—2018 IEEE Region 10 Conference, Jeju, Republic of Korea."
+            },
+            {
+              "DOI": "10.1016/j.jnca.2016.11.005",
+              "article-title": "Energy-efficient cloud radio access networks by cloud based workload consolidation for 5G",
+              "author": "Sigwele",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "journal-title": "J. Netw. Comput. Appl.",
+              "key": "ref_39",
+              "volume": "78",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1002/9781119862321",
+              "doi-asserted-by": "crossref",
+              "key": "ref_40",
+              "unstructured": "de Alwis, C., Pham, Q.-V., and Liyanage, M. (2022). 6G Radio Access Networks, In 6G Frontiers: Towards Future Wireless Systems, John Wiley & Sons, Inc."
+            },
+            {
+              "DOI": "10.1109/TWC.2015.2400437",
+              "article-title": "Optimal Design of Energy-Efficient Multi-User MIMO Systems: Is Massive MIMO the Answer?",
+              "author": "Bjornson",
+              "doi-asserted-by": "crossref",
+              "first-page": "3059",
+              "journal-title": "IEEE Trans. Wirel. Commun.",
+              "key": "ref_41",
+              "volume": "14",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/RFM50841.2020.9344741",
+              "doi-asserted-by": "crossref",
+              "key": "ref_42",
+              "unstructured": "Syed-Yusof, S.K., Numan, P.E., Yusof, K.M., Din, J.B., Marsono, M.N.B., and Onumanyi, A.J. (2020, January 14–16). Software-Defined Networking (SDN) and 5G Network: The Role of Controller Placement for Scalable Control Plane. Proceedings of the 2020 IEEE International RF and Microwave Conference (RFM), Kuala Lumpur, Malaysia."
+            },
+            {
+              "DOI": "10.23919/ETR.2023.10438941",
+              "doi-asserted-by": "crossref",
+              "key": "ref_43",
+              "unstructured": "Cavaliere, F., Dahlfort, S., Tartaglia, A., Bergström, J., Tavemark, A., Åkerström, P., and Sinicrope, D. (2023, May 18). Optimized Optical Solutions for Mobile Transport Networks. ERICSSON. Available online: https://www.ericsson.com/494925/assets/local/reports-papers/white-papers/optimized-optical-solutions-for-mobile-transport-networks.pdf."
+            },
+            {
+              "key": "ref_44",
+              "unstructured": "Andersson, C., Bengtsson, J., Byström, G., Frenger, P., Jading, Y., and Nordenström, M. (2024, July 16). Improving Energy Performance in 5G Networks and Beyond. ericsson.com. Available online: https://www.ericsson.com/en/reports-and-papers/ericsson-technology-review/articles/improving-energy-performance-in-5g-networks-and-beyond."
+            },
+            {
+              "DOI": "10.1109/ICC.2017.7997127",
+              "doi-asserted-by": "crossref",
+              "key": "ref_45",
+              "unstructured": "Wang, X., Alabbasi, A., and Cavdar, C. (2017, January 21–25). Interplay of energy and bandwidth consumption in CRAN with optimal function split. Proceedings of the IEEE International Conference on Communications (ICC), Paris, France."
+            },
+            {
+              "key": "ref_46",
+              "unstructured": "Erkens, H., Mildh, G., Hoymann, C., Summer, R., and Garcia, G. (2024, November 12). Open Ran and 6G Future Networks Development. [Online] 6G-IA. Europe: 6G Smart Networks and Services Industry Association. Available online: https://6g-ia.eu/wp-content/uploads/2024/05/6g-ia-open-sns_open-networks-status-and-future-development_ran-final.pdf."
+            },
+            {
+              "DOI": "10.1109/OJCOMS.2023.3343069",
+              "article-title": "AI-RAN in 6G Networks: State-of-the-Art and Challenges",
+              "author": "Khan",
+              "doi-asserted-by": "crossref",
+              "first-page": "294",
+              "journal-title": "IEEE Open J. Commun. Soc.",
+              "key": "ref_47",
+              "volume": "5",
+              "year": "2023"
+            },
+            {
+              "key": "ref_48",
+              "unstructured": "Choi, A. (2024, November 20). AI-Native Open RAN for 6G. O-RAN Alliance. Available online: https://www.itu.int/en/ITU-T/Workshops-and-Seminars/2023/0724/Documents/AlexChoi.pdf."
+            },
+            {
+              "key": "ref_49",
+              "unstructured": "Frenger, P., Jading, Y., and Nader, A. (2024, November 20). Energy Performance of 6G Radio Access Networks: A Once in a Decade Opportunity. Ericsson. Available online: https://www.ericsson.com/en/reports-and-papers/white-papers/energy-performance-of-6g-ran."
+            },
+            {
+              "DOI": "10.1109/GLOCOM.2015.7417240",
+              "doi-asserted-by": "crossref",
+              "key": "ref_50",
+              "unstructured": "Tombaz, S., Frenger, P., Athley, F., Semaan, E., Tidestav, C., and Furuskar, A. (2015, January 6–10). Energy Performance of 5G-NX Wireless Access Utilizing Massive Beamforming and an Ultra-Lean System Design. Proceedings of the 2015 IEEE Global Communications Conference (GLOBECOM), San Diego, CA, USA."
+            },
+            {
+              "DOI": "10.3390/su14127310",
+              "doi-asserted-by": "crossref",
+              "key": "ref_51",
+              "unstructured": "Taneja, A., Saluja, N., Taneja, N., Alqahtani, A., Elmagzoub, M.A., Shaikh, A., and Koundal, D. (2022). Power Optimization Model for Energy Sustainability in 6G Wireless Networks. Sustainability, 14."
+            },
+            {
+              "key": "ref_52",
+              "unstructured": "Sethi, J., Fan, Y., and Ehrnborg, G. (2024, November 24). Elevating 5G with Differentiated Connectivity. Available online: https://www.ericsson.com/en/reports-and-papers/consumerlab/reports/elevating-5g-with-differentiated-connectivity."
+            }
+          ],
+          "reference-count": 52,
+          "references-count": 52,
+          "resource": {
+            "primary": {
+              "URL": "https://www.mdpi.com/2227-7390/13/3/466"
+            }
+          },
+          "score": 52.249638,
+          "short-container-title": [
+            "Mathematics"
+          ],
+          "source": "Crossref",
+          "title": [
+            "End-to-End Power Models for 5G Radio Access Network Architectures with a Perspective on 6G"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.3390/mdpi_crossmark_policy",
+          "volume": "13"
+        },
+        {
+          "DOI": "10.1109/cbd65573.2024.00072",
+          "URL": "https://doi.org/10.1109/cbd65573.2024.00072",
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "School of Business University of Southern Queensland,Springfield,Australia"
+                }
+              ],
+              "family": "Khan",
+              "given": "Danish",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "School of Business University of Southern Queensland,Springfield,Australia"
+                }
+              ],
+              "family": "Zhou",
+              "given": "Xujuan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "School of Business University of Southern Queensland,Springfield,Australia"
+                }
+              ],
+              "family": "Yong",
+              "given": "Jianming",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "School of Mathematics, Physics and Computing University of Southern Queensland,Toowomba,Australia"
+                }
+              ],
+              "family": "Tao",
+              "given": "Xiaohui",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2024 Twelfth International Conference on Advanced Cloud and Big Data (CBD)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                5
+              ]
+            ],
+            "date-time": "2025-02-05T18:44:47Z",
+            "timestamp": 1738781087000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                6
+              ]
+            ],
+            "date-time": "2025-02-06T05:40:01Z",
+            "timestamp": 1738820401000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2024,
+                  12,
+                  2
+                ]
+              ]
+            },
+            "location": "Brisbane, Australia",
+            "name": "2024 Twelfth International Conference on Advanced Cloud and Big Data (CBD)",
+            "start": {
+              "date-parts": [
+                [
+                  2024,
+                  11,
+                  28
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                2,
+                6
+              ]
+            ],
+            "date-time": "2025-02-06T06:10:14Z",
+            "timestamp": 1738822214241,
+            "version": "3.37.0"
+          },
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                28
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    11,
+                    28
+                  ]
+                ],
+                "date-time": "2024-11-28T00:00:00Z",
+                "timestamp": 1732752000000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    11,
+                    28
+                  ]
+                ],
+                "date-time": "2024-11-28T00:00:00Z",
+                "timestamp": 1732752000000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx8/10858783/10858784/10858815.pdf?arnumber=10858815",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "369-374",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                28
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2024,
+                11,
+                28
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "DOI": "10.1109/MCOM.2015.7010536",
+              "doi-asserted-by": "publisher",
+              "key": "ref1"
+            },
+            {
+              "DOI": "10.1049/cp.2015.0918",
+              "doi-asserted-by": "publisher",
+              "key": "ref2"
+            },
+            {
+              "DOI": "10.1109/MCOMSTD.2017.1700015",
+              "doi-asserted-by": "publisher",
+              "key": "ref3"
+            },
+            {
+              "DOI": "10.1109/COMST.2016.2532458",
+              "doi-asserted-by": "publisher",
+              "key": "ref4"
+            },
+            {
+              "DOI": "10.1016/j.phycom.2015.10.006",
+              "doi-asserted-by": "publisher",
+              "key": "ref5"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2016.2556011",
+              "doi-asserted-by": "publisher",
+              "key": "ref6"
+            },
+            {
+              "DOI": "10.1016/j.icte.2016.01.003",
+              "doi-asserted-by": "publisher",
+              "key": "ref7"
+            },
+            {
+              "article-title": "5G Security: Analysis of Threats and Solutions,”in Standards for Communications and Networking (CSCN)",
+              "author": "Ahmad",
+              "first-page": "193",
+              "key": "ref8",
+              "volume-title": "2017IEEE Conferenceon.IEEE"
+            },
+            {
+              "DOI": "10.1016/j.jnca.2017.07.002",
+              "doi-asserted-by": "publisher",
+              "key": "ref9"
+            },
+            {
+              "DOI": "10.1007/978-94-007-0641-5_17",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "DOI": "10.1007/s11036-015-0665-5",
+              "doi-asserted-by": "publisher",
+              "key": "ref11"
+            },
+            {
+              "article-title": "Much adoabout Data Ownership",
+              "author": "Evans",
+              "first-page": "69",
+              "journal-title": "Harv.JL & Tech.",
+              "key": "ref12",
+              "volume": "25",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1109/COMST.2015.2487361",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "article-title": "User privacy protection and location tracking concerns in 5G networks: A comprehensive review",
+              "author": "Alotaibi",
+              "first-page": "15984",
+              "key": "ref14",
+              "volume-title": "IEEE Access, 11",
+              "year": "2023"
+            },
+            {
+              "article-title": "Privacy preservation challenges in 5G-enabled communication systems: A survey",
+              "author": "Cao",
+              "first-page": "54",
+              "issue": "8",
+              "key": "ref15",
+              "volume": "60",
+              "volume-title": "IEEE Communications Magazine",
+              "year": "2022"
+            },
+            {
+              "article-title": "loT surveillance threats in 5G networks: A systematic analysis",
+              "author": "Wu",
+              "first-page": "1245",
+              "issue": "3",
+              "key": "ref16",
+              "volume": "10",
+              "volume-title": "IEEE Internet of Things Journal",
+              "year": "2023"
+            },
+            {
+              "article-title": "Cross-border data privacy protection challenges in 5G networks",
+              "author": "Shen",
+              "first-page": "34",
+              "issue": "4",
+              "key": "ref17",
+              "volume": "20",
+              "volume-title": "IEEE Security & Privacy",
+              "year": "2022"
+            },
+            {
+              "article-title": "Security threats in 5G network slicing: Risks and countermeasures",
+              "author": "Li",
+              "first-page": "82",
+              "issue": "2",
+              "key": "ref18",
+              "volume": "30",
+              "volume-title": "IEEE Wireless Communications",
+              "year": "2023"
+            },
+            {
+              "article-title": "Interoperability risks in 5G networks: A comprehensive study",
+              "author": "Kim",
+              "first-page": "30",
+              "issue": "1",
+              "key": "ref19",
+              "volume": "25",
+              "volume-title": "IEEE Communications Surveys & Tutorials",
+              "year": "2023"
+            },
+            {
+              "article-title": "Denial of service vulnerabilities in 5G: A practical analysis",
+              "author": "Zhang",
+              "first-page": "15732",
+              "key": "ref20",
+              "volume": "10",
+              "volume-title": "IEEE Access",
+              "year": "2022"
+            },
+            {
+              "article-title": "Mitigating man-in-the-middle attacks in 5G network infrastructure",
+              "author": "Ahmed",
+              "first-page": "512",
+              "issue": "3",
+              "key": "ref21",
+              "volume": "19",
+              "volume-title": "IEEE Transactions on Network and Service Management",
+              "year": "2022"
+            },
+            {
+              "article-title": "Managing signaling storms in loT-powered 5G networks: A framework for sustainability",
+              "author": "Alhussein",
+              "first-page": "874",
+              "issue": "2",
+              "key": "ref22",
+              "volume": "10",
+              "volume-title": "IEEE Internet of Things Journal",
+              "year": "2023"
+            },
+            {
+              "article-title": "Securing loT devices in 5G networks: A layered approach",
+              "author": "Lu",
+              "first-page": "1589",
+              "issue": "4",
+              "key": "ref23",
+              "volume": "10",
+              "volume-title": "IEEE Internet of Things Journal",
+              "year": "2023"
+            },
+            {
+              "article-title": "Security challenges in edge computing for 5G networks",
+              "author": "Wang",
+              "first-page": "18",
+              "issue": "5",
+              "key": "ref24",
+              "volume": "36",
+              "volume-title": "IEEE Network",
+              "year": "2022"
+            },
+            {
+              "article-title": "Application-layer vulnerabilities in 5G-enabled critical services: An overview",
+              "author": "Zhou",
+              "first-page": "42",
+              "issue": "1",
+              "key": "ref25",
+              "volume": "61",
+              "volume-title": "IEEE Communications Magazine",
+              "year": "2023"
+            },
+            {
+              "article-title": "AI security challenges in 5G network optimization: A review of adversarial threats",
+              "author": "Sun",
+              "first-page": "112",
+              "issue": "2",
+              "key": "ref26",
+              "volume": "3",
+              "volume-title": "IEEE Transactions on Artificial Intelligence",
+              "year": "2022"
+            }
+          ],
+          "reference-count": 26,
+          "references-count": 26,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/10858815/"
+            }
+          },
+          "score": 51.128227,
+          "source": "Crossref",
+          "title": [
+            "Privacy Issues in Access Network for 5G Mobile Telecom"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.1109/5gwf.2019.8911717",
+          "URL": "https://doi.org/10.1109/5gwf.2019.8911717",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Liolis",
+              "given": "Konstantinos",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Cahill",
+              "given": "Joe",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Higgins",
+              "given": "Eddy",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Corici",
+              "given": "Marius",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Troudt",
+              "given": "Eric",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Sutton",
+              "given": "Paul",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2019 IEEE 2nd 5G World Forum (5GWF)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2019,
+                11,
+                29
+              ]
+            ],
+            "date-time": "2019-11-29T11:23:11Z",
+            "timestamp": 1575026591000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                7,
+                17
+              ]
+            ],
+            "date-time": "2022-07-17T21:50:41Z",
+            "timestamp": 1658094641000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2019,
+                  10,
+                  2
+                ]
+              ]
+            },
+            "location": "Dresden, Germany",
+            "name": "2019 IEEE 2nd 5G World Forum (5GWF)",
+            "start": {
+              "date-parts": [
+                [
+                  2019,
+                  9,
+                  30
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                18
+              ]
+            ],
+            "date-time": "2026-07-18T16:22:50Z",
+            "timestamp": 1784391770878,
+            "version": "3.55.0"
+          },
+          "is-referenced-by-count": 22,
+          "issued": {
+            "date-parts": [
+              [
+                2019,
+                9
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://ieeexplore.ieee.org/Xplorehelp/downloads/license-information/IEEE.html",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    9,
+                    1
+                  ]
+                ],
+                "date-time": "2019-09-01T00:00:00Z",
+                "timestamp": 1567296000000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    9,
+                    1
+                  ]
+                ],
+                "date-time": "2019-09-01T00:00:00Z",
+                "timestamp": 1567296000000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    9,
+                    1
+                  ]
+                ],
+                "date-time": "2019-09-01T00:00:00Z",
+                "timestamp": 1567296000000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/8894900/8911609/08911717.pdf?arnumber=8911717",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "1-5",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                9
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2019,
+                9
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "journal-title": "MWC 2019 Demo Newsletter",
+              "key": "ref10",
+              "year": "0"
+            },
+            {
+              "article-title": "Satellite Integration into 5G: Accent on First Over- The-Air Demonstration Tests using the SATis5 Testbed",
+              "author": "völ",
+              "journal-title": "MDPI Future Internet Journal Special Issue &#x201C;Satellite Communications in 5G Networks",
+              "key": "ref11",
+              "year": "2019"
+            },
+            {
+              "journal-title": "SES SES ASTRA 2F Satellite",
+              "key": "ref12",
+              "year": "0"
+            },
+            {
+              "author": "fraunhofer",
+              "journal-title": "Open5gCore",
+              "key": "ref13",
+              "year": "0"
+            },
+            {
+              "article-title": "Satellite Ground Segment Integration into 5G Softwarization, Virtualization and Orchestration of Satellite Ground Segment for Integration into 5G",
+              "author": "cahill",
+              "journal-title": "Proc 28th European Conference on Networks and Communications (EuCNC 2019)",
+              "key": "ref14",
+              "year": "2019"
+            },
+            {
+              "article-title": "Study on Solutions for NR to support Non Terrestrial Networks (NTN)",
+              "journal-title": "3GPP Release 16",
+              "key": "ref15",
+              "year": "2019"
+            },
+            {
+              "article-title": "ETSI TR 103 611 - Satellite Earth Stations and Systems (SES)",
+              "journal-title": "Seamless integration of satellite and/or HAPS (High Altitude Platform Station) systems into 5G system and related architecture options",
+              "key": "ref16",
+              "year": "2019"
+            },
+            {
+              "journal-title": "MPEG DASH standard ISO IEC 23009&#x2013;1_2014",
+              "key": "ref17",
+              "year": "0"
+            },
+            {
+              "journal-title": "OpenNESS - Open Network Edge Services Software",
+              "key": "ref18",
+              "year": "0"
+            },
+            {
+              "DOI": "10.1109/TBC.2019.2901397",
+              "doi-asserted-by": "publisher",
+              "key": "ref19"
+            },
+            {
+              "journal-title": "ESA ARTES Satellite for 5G (S45G) project website",
+              "key": "ref4",
+              "year": "0"
+            },
+            {
+              "journal-title": "5GENESIS project website",
+              "key": "ref3",
+              "year": "0"
+            },
+            {
+              "journal-title": "OSMOSIS project website",
+              "key": "ref6",
+              "year": "0"
+            },
+            {
+              "journal-title": "SATis5 project website",
+              "key": "ref5",
+              "year": "0"
+            },
+            {
+              "article-title": "Milestone Over-the-Air Demonstrations Showcasing Satellite's Strategic Role in 5G",
+              "author": "liolis",
+              "journal-title": "Proc 28th European Conference on Networks and Communications (EuCNC 2019)",
+              "key": "ref8",
+              "year": "2019"
+            },
+            {
+              "journal-title": "EuCNC 2018 Demo Press Release",
+              "key": "ref7",
+              "year": "0"
+            },
+            {
+              "journal-title": "5G-VINNI project website",
+              "key": "ref2",
+              "year": "0"
+            },
+            {
+              "journal-title": "SaT5G project website",
+              "key": "ref1",
+              "year": "0"
+            },
+            {
+              "journal-title": "FUSECO 2018 Demo B10g Article",
+              "key": "ref9",
+              "year": "0"
+            },
+            {
+              "journal-title": "Open Source MANO",
+              "key": "ref20",
+              "year": "0"
+            }
+          ],
+          "reference-count": 20,
+          "references-count": 20,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/8911717/"
+            }
+          },
+          "score": 50.290096,
+          "source": "Crossref",
+          "title": [
+            "Over-the-Air Demonstration of Satellite Integration with 5G Core Network and Multi-Access Edge Computing Use Case"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.1016/j.jnca.2019.04.019",
+          "ISSN": [
+            "1084-8045"
+          ],
+          "URL": "https://doi.org/10.1016/j.jnca.2019.04.019",
+          "alternative-id": [
+            "S1084804519301432"
+          ],
+          "assertion": [
+            {
+              "label": "This article is maintained by",
+              "name": "publisher",
+              "value": "Elsevier"
+            },
+            {
+              "label": "Article Title",
+              "name": "articletitle",
+              "value": "Recent research in cloud radio access network (C-RAN) for 5G cellular systems - A survey"
+            },
+            {
+              "label": "Journal Title",
+              "name": "journaltitle",
+              "value": "Journal of Network and Computer Applications"
+            },
+            {
+              "label": "CrossRef DOI link to publisher maintained version",
+              "name": "articlelink",
+              "value": "https://doi.org/10.1016/j.jnca.2019.04.019"
+            },
+            {
+              "label": "Content Type",
+              "name": "content_type",
+              "value": "article"
+            },
+            {
+              "label": "Copyright",
+              "name": "copyright",
+              "value": "© 2019 Elsevier Ltd. All rights reserved."
+            }
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Hossain",
+              "given": "Md. Farhad",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Mahin",
+              "given": "Ayman Uddin",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Debnath",
+              "given": "Topojit",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Mosharrof",
+              "given": "Farjana Binte",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Islam",
+              "given": "Khondoker Ziaul",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Journal of Network and Computer Applications"
+          ],
+          "content-domain": {
+            "crossmark-restriction": true,
+            "domain": [
+              "elsevier.com",
+              "sciencedirect.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2019,
+                5,
+                8
+              ]
+            ],
+            "date-time": "2019-05-08T17:41:46Z",
+            "timestamp": 1557337306000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                21
+              ]
+            ],
+            "date-time": "2025-10-21T16:29:30Z",
+            "timestamp": 1761064170000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                17
+              ]
+            ],
+            "date-time": "2026-08-17T18:56:20Z",
+            "timestamp": 1786992980766,
+            "version": "build-2736575974"
+          },
+          "is-referenced-by-count": 91,
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "1084-8045"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2019,
+                8
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    8,
+                    1
+                  ]
+                ],
+                "date-time": "2019-08-01T00:00:00Z",
+                "timestamp": 1564617600000
+              }
+            },
+            {
+              "URL": "https://www.elsevier.com/legal/tdmrep-license",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2019,
+                    8,
+                    1
+                  ]
+                ],
+                "date-time": "2019-08-01T00:00:00Z",
+                "timestamp": 1564617600000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S1084804519301432?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S1084804519301432?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "member": "78",
+          "page": "31-48",
+          "prefix": "10.1016",
+          "published": {
+            "date-parts": [
+              [
+                2019,
+                8
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2019,
+                8
+              ]
+            ]
+          },
+          "publisher": "Elsevier BV",
+          "reference": [
+            {
+              "DOI": "10.1109/COMST.2016.2532458",
+              "article-title": "Next generation 5G wireless networks: a comprehensive survey",
+              "author": "Agiwal",
+              "doi-asserted-by": "crossref",
+              "first-page": "1617",
+              "issue": "3",
+              "journal-title": "IEEE Commun. Surv. Tutorials",
+              "key": "10.1016/j.jnca.2019.04.019_bib1",
+              "volume": "18",
+              "year": "2016"
+            },
+            {
+              "article-title": "A framework for resources allocation in virtualised C-RAN,",
+              "author": "Al-Samman",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib2",
+              "series-title": "IEEE 27th Annual International Symposium on Personal, Indoor, and Mobile Radio Communications (PIMRC)",
+              "year": "2016"
+            },
+            {
+              "article-title": "User weighted probability algorithm for heterogeneous C-RAN interference mitigation",
+              "author": "Al-Samman",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib3",
+              "series-title": "IEEE International Conference on Communications (ICC)",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1049/iet-com.2015.0752",
+              "article-title": "Component and parameterised power model for cloud radio access network",
+              "author": "Alhumaima",
+              "doi-asserted-by": "crossref",
+              "first-page": "745",
+              "issue": "7",
+              "journal-title": "IET Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib4",
+              "volume": "10",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/JSAC.2014.2328098",
+              "article-title": "What will 5G Be?",
+              "author": "Andrews",
+              "doi-asserted-by": "crossref",
+              "first-page": "1065",
+              "issue": "6",
+              "journal-title": "IEEE J. Sel. Area. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib5",
+              "volume": "32",
+              "year": "2014"
+            },
+            {
+              "article-title": "Minimization of delays in multi-service cloud-RAN BBU pools",
+              "author": "Arfaoui",
+              "first-page": "1846",
+              "key": "10.1016/j.jnca.2019.04.019_bib6",
+              "series-title": "International Wireless Communications and Mobile Computing Conference (IWCMC)",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/MSP.2014.2334709",
+              "article-title": "Communicating while computing: distributed mobile cloud computing over 5G heterogeneous networks",
+              "author": "Barbarossa",
+              "doi-asserted-by": "crossref",
+              "first-page": "45",
+              "issue": "6",
+              "journal-title": "IEEE Signal Process. Mag.",
+              "key": "10.1016/j.jnca.2019.04.019_bib7",
+              "volume": "31",
+              "year": "2014"
+            },
+            {
+              "article-title": "Analytical energy-efcient planning of 5G cloud radio access network",
+              "author": "Bassoli",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib8",
+              "series-title": "IEEE International Conference on Communications (ICC)",
+              "year": "2017"
+            },
+            {
+              "article-title": "Interference-aware clustering in cloud radio access networks",
+              "author": "Boulos",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib9",
+              "series-title": "IEEE 6th International Conference on Cloud Networking (CloudNet)",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/JSAC.2017.2710718",
+              "article-title": "Effective design of multi-user reception and fronthaul rate allocation in 5G cloud RAN",
+              "author": "Boviz",
+              "doi-asserted-by": "crossref",
+              "first-page": "1825",
+              "issue": "8",
+              "journal-title": "IEEE J. Sel. Area. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib10",
+              "volume": "35",
+              "year": "2017"
+            },
+            {
+              "author": "C-RAN",
+              "key": "10.1016/j.jnca.2019.04.019_bib11",
+              "series-title": "The Road towards Green RAN",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1109/MNET.2014.6963805",
+              "article-title": "Cloud computing meets mobile wireless communications in next generation cellular networks",
+              "author": "Cai",
+              "doi-asserted-by": "crossref",
+              "first-page": "54",
+              "issue": "6",
+              "journal-title": "IEEE Netw.",
+              "key": "10.1016/j.jnca.2019.04.019_bib12",
+              "volume": "28",
+              "year": "2014"
+            },
+            {
+              "article-title": "Cloud radio access networks (C-RAN) in mobile cloud computing systems",
+              "author": "Cai",
+              "first-page": "369",
+              "key": "10.1016/j.jnca.2019.04.019_bib13",
+              "series-title": "2014 IEEE Conference on Computer Communications Workshops (INFOCOM WKSHPS)",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/TVT.2015.2411739",
+              "article-title": "Dynamic operations of cloud radio access networks (C-RAN) for mobile cloud computing systems",
+              "author": "Cai",
+              "doi-asserted-by": "crossref",
+              "first-page": "1536",
+              "issue": "3",
+              "journal-title": "IEEE Trans. Veh. Technol.",
+              "key": "10.1016/j.jnca.2019.04.019_bib14",
+              "volume": "65",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/COMST.2014.2355255",
+              "article-title": "Cloud RAN for mobile networks-A technology overview",
+              "author": "Checko",
+              "doi-asserted-by": "crossref",
+              "first-page": "405",
+              "issue": "1",
+              "journal-title": "IEEE Commun. Surv. Tutorials",
+              "key": "10.1016/j.jnca.2019.04.019_bib15",
+              "volume": "17",
+              "year": "2015"
+            },
+            {
+              "article-title": "An energy efcient implementation of CRAN in HetNet",
+              "author": "Chen",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib16",
+              "series-title": "IEEE 80th Vehicular Technology Conference (VTC2014-Fall)",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/MWC.2017.1600139WC",
+              "article-title": "Scalable and flexible massive MIMO precoding for 5G H-CRAN",
+              "author": "Chen",
+              "doi-asserted-by": "crossref",
+              "first-page": "46",
+              "issue": "1",
+              "journal-title": "IEEE Wireless Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib17",
+              "volume": "24",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/MWC.2015.7143328",
+              "article-title": "Resource allocation in heterogeneous cloud radio access networks: advances and challenges",
+              "author": "Dahrouj",
+              "doi-asserted-by": "crossref",
+              "first-page": "66",
+              "issue": "3",
+              "journal-title": "IEEE Wireless Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib18",
+              "volume": "22",
+              "year": "2015"
+            },
+            {
+              "article-title": "MAPCaching: a novel mobility aware proactive caching over C-RAN",
+              "author": "Dai",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib19",
+              "series-title": "IEEE 28th Annual International Symposium on Personal, Indoor, and Mobile Radio Communications (PIMRC)",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/TWC.2015.2504524",
+              "article-title": "Coordinated scheduling and power control in cloud-radio access networks",
+              "author": "Douik",
+              "doi-asserted-by": "crossref",
+              "first-page": "2523",
+              "issue": "4",
+              "journal-title": "IEEE Trans. Wirel. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib20",
+              "volume": "15",
+              "year": "2016"
+            },
+            {
+              "article-title": "Maximum throughput in a C-RAN cluster with limited fronthaul capacity",
+              "author": "Duan",
+              "first-page": "57",
+              "key": "10.1016/j.jnca.2019.04.019_bib21",
+              "series-title": "19th International Symposium on Wireless Personal Multimedia Communications (WPMC)",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2017.2779146",
+              "article-title": "Security for 5G mobile wireless networks",
+              "author": "Fang",
+              "doi-asserted-by": "crossref",
+              "first-page": "4850",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/j.jnca.2019.04.019_bib22",
+              "volume": "6",
+              "year": "2018"
+            },
+            {
+              "article-title": "Energy efciency analysis of a C-RAN with distance-based power control",
+              "author": "Ghods",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib23",
+              "series-title": "IEEE 30th Canadian Conference on Electrical and Computer Engineering (CCECE)",
+              "year": "2017"
+            },
+            {
+              "article-title": "DJP: dynamic joint processing for interference cancellation in cloud radio access networks",
+              "author": "Hajisami",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib24",
+              "series-title": "IEEE 82nd Vehicular Technology Conference (VTC2015-Fall)",
+              "year": "2015"
+            },
+            {
+              "article-title": "Throughput and energy efciency for SFFR in massive MIMO enabled heterogeneous CRAN",
+              "author": "He",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib25",
+              "series-title": "IEEE Global Communications Conference (GLOBECOM)",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/MIM.2015.7108393",
+              "article-title": "5G cellular: key enabling technologies and research challenges",
+              "author": "Hossain",
+              "doi-asserted-by": "crossref",
+              "first-page": "11",
+              "issue": "3",
+              "journal-title": "IEEE Instrum. Meas. Mag.",
+              "key": "10.1016/j.jnca.2019.04.019_bib26",
+              "volume": "18",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/TWC.2013.100213.130672",
+              "article-title": "Distributed inter-BS cooperation aided energy efcient load balancing for cellular networks",
+              "author": "Hossain",
+              "doi-asserted-by": "crossref",
+              "first-page": "5929",
+              "issue": "11",
+              "journal-title": "IEEE Trans. Wirel. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib27",
+              "volume": "12",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1109/TMC.2018.2815702",
+              "article-title": "Delay guaranteed network association for mobile machines in heterogeneous cloud radio access network",
+              "author": "Hung",
+              "doi-asserted-by": "crossref",
+              "first-page": "2744",
+              "issue": "12",
+              "journal-title": "IEEE Trans. Mob. Comput.",
+              "key": "10.1016/j.jnca.2019.04.019_bib28",
+              "volume": "17",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1109/MCOM.2013.6525591",
+              "article-title": "A holistic view on hyper-dense heterogeneous and small cell networks",
+              "author": "Hwang",
+              "doi-asserted-by": "crossref",
+              "first-page": "20",
+              "issue": "6",
+              "journal-title": "IEEE Commun. Mag.",
+              "key": "10.1016/j.jnca.2019.04.019_bib29",
+              "volume": "51",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2014.2351411",
+              "article-title": "Recent progress on C-RAN centralization and cloudication",
+              "author": "I",
+              "doi-asserted-by": "crossref",
+              "first-page": "1030",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/j.jnca.2019.04.019_bib30",
+              "volume": "2",
+              "year": "2014"
+            },
+            {
+              "author": "Jonsson",
+              "key": "10.1016/j.jnca.2019.04.019_bib31",
+              "series-title": "Ericsson Mobility Report",
+              "year": "2017"
+            },
+            {
+              "article-title": "Multiuser millimeter wave cloud radio access networks with hybrid precoding",
+              "author": "Kolawole",
+              "first-page": "1",
+              "journal-title": "IEEE Syst. J.",
+              "key": "10.1016/j.jnca.2019.04.019_bib32",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/MCOM.2014.6736761",
+              "article-title": "Massive MIMO for next generation wireless systems",
+              "author": "Larsson",
+              "doi-asserted-by": "crossref",
+              "first-page": "186",
+              "issue": "2",
+              "journal-title": "IEEE Commun. Mag.",
+              "key": "10.1016/j.jnca.2019.04.019_bib33",
+              "volume": "52",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/TWC.2017.2748104",
+              "article-title": "Channel-aware resource allocation for energy-efcient cloud radio access networks under outage specications",
+              "author": "Li",
+              "doi-asserted-by": "crossref",
+              "first-page": "7389",
+              "issue": "11",
+              "journal-title": "IEEE Trans. Wirel. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib34",
+              "volume": "16",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/TVT.2016.2531184",
+              "article-title": "Energy-efcient joint congestion control and resource optimization in heterogeneous cloud radio access networks",
+              "author": "Li",
+              "doi-asserted-by": "crossref",
+              "first-page": "9873",
+              "issue": "12",
+              "journal-title": "IEEE Trans. Veh. Technol.",
+              "key": "10.1016/j.jnca.2019.04.019_bib35",
+              "volume": "65",
+              "year": "2016"
+            },
+            {
+              "article-title": "Intercell interference-aware scheduling for delay sensitive ApplicationsinC-RAN",
+              "author": "Li",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib36",
+              "series-title": "IEEE 86th Vehicular Technology Conference (VTC-Fall)",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/MWC.2015.7143323",
+              "article-title": "Ultra-low-latency ubiquitous connections in heterogeneous cloud radio access networks",
+              "author": "Lien",
+              "doi-asserted-by": "crossref",
+              "first-page": "22",
+              "issue": "3",
+              "journal-title": "IEEE Wireless Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib37",
+              "volume": "22",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1147/JRD.2009.2037680",
+              "article-title": "Wireless network cloud: architecture and system requirements",
+              "author": "Lin",
+              "doi-asserted-by": "crossref",
+              "first-page": "4:1",
+              "issue": "1",
+              "journal-title": "IBM J. Res. Dev.",
+              "key": "10.1016/j.jnca.2019.04.019_bib38",
+              "volume": "54",
+              "year": "2010"
+            },
+            {
+              "article-title": "On the optimization of user-centric energy-efcient C-RAN",
+              "author": "Lin",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib39",
+              "series-title": "IEEE International Conference on Communications (ICC)",
+              "year": "2016"
+            },
+            {
+              "article-title": "Dynamical cloud hosts assignment to achieve cost effectiveness in cloud radio access networks",
+              "author": "Lin",
+              "first-page": "306",
+              "key": "10.1016/j.jnca.2019.04.019_bib40",
+              "series-title": "International Conference on Ubiquitous and Future Networks (ICUFN)",
+              "year": "2017"
+            },
+            {
+              "article-title": "Cost-effective migration towards C-RAN with optimal fronthaul design",
+              "author": "Lisi",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib41",
+              "series-title": "IEEE International Conference on Communications (ICC)",
+              "year": "2017"
+            },
+            {
+              "article-title": "Secrecy analysis of the cloud-fog radio access network with Poisson point process and general path-loss parameters",
+              "author": "Liu",
+              "first-page": "672",
+              "key": "10.1016/j.jnca.2019.04.019_bib42",
+              "series-title": "IEEE Military Communications Conference (MILCOM)",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/MWC.2014.7000967",
+              "article-title": "CONCERT: a cloud-based architecture for NextGeneration cellular systems",
+              "author": "Liu",
+              "doi-asserted-by": "crossref",
+              "first-page": "14",
+              "issue": "6",
+              "journal-title": "IEEE Wireless Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib43",
+              "volume": "21",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/TCOMM.2015.2469687",
+              "article-title": "Joint power control and fronthaul rate allocation for throughput maximization in OFDMA-based cloud radio access network",
+              "author": "Liu",
+              "doi-asserted-by": "crossref",
+              "first-page": "4097",
+              "issue": "11",
+              "journal-title": "IEEE Trans. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib44",
+              "volume": "63",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/TSP.2016.2639472",
+              "article-title": "Compressive interference mitigation and data recovery in cloud radio access networks with limited fronthaul",
+              "author": "Liu",
+              "doi-asserted-by": "crossref",
+              "first-page": "1437",
+              "issue": "6",
+              "journal-title": "IEEE Trans. Signal Process.",
+              "key": "10.1016/j.jnca.2019.04.019_bib45",
+              "volume": "65",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/TGCN.2018.2835451",
+              "article-title": "On designing energy-efficient heterogeneous cloud radio access networks",
+              "author": "Liu",
+              "doi-asserted-by": "crossref",
+              "first-page": "721",
+              "issue": "3",
+              "journal-title": "IEEE Trans. Green Commn. Netw.",
+              "key": "10.1016/j.jnca.2019.04.019_bib46",
+              "volume": "2",
+              "year": "2018"
+            },
+            {
+              "article-title": "Interference alleviation for time-reversal cloud radio access network",
+              "author": "Ma",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib47",
+              "series-title": "IEEE Global Communications Conference (GLOBECOM)",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/TCOMM.2018.2826545",
+              "article-title": "Distributed signal compressive quantization and parallel interference cancellation for cloud radio access network",
+              "author": "Ma",
+              "doi-asserted-by": "crossref",
+              "first-page": "4186",
+              "issue": "9",
+              "journal-title": "IEEE Trans. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib48",
+              "volume": "66",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1109/MWC.2015.7054727",
+              "article-title": "Hailing cloud empowered radio access networks",
+              "author": "Meerja",
+              "doi-asserted-by": "crossref",
+              "first-page": "122",
+              "issue": "1",
+              "journal-title": "IEEE Wireless Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib49",
+              "volume": "22",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/MWC.2015.7054727",
+              "article-title": "Hailing cloud empowered radio access networks",
+              "author": "Meerja",
+              "doi-asserted-by": "crossref",
+              "first-page": "122",
+              "issue": "1",
+              "journal-title": "IEEE Wireless Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib50",
+              "volume": "22",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/MWC.2015.7224728",
+              "article-title": "A cloud radio access network with power over fiber toward 5G networks: QoE-guaranteed design and operation",
+              "author": "Miyanabe",
+              "doi-asserted-by": "crossref",
+              "first-page": "58",
+              "issue": "4",
+              "journal-title": "IEEE Wireless Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib51",
+              "volume": "22",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1364/JOCN.8.000B61",
+              "article-title": "Geographical constraint-based optimization framework for C-RAN design [invited]",
+              "author": "Nanba",
+              "doi-asserted-by": "crossref",
+              "first-page": "B61",
+              "issue": "12",
+              "journal-title": "IEEE/OSA J. Opt. Commun. Netw.",
+              "key": "10.1016/j.jnca.2019.04.019_bib52",
+              "volume": "8",
+              "year": "2016"
+            },
+            {
+              "article-title": "Processing radio access network functions in the cloud: critical issues and modeling",
+              "author": "Nikaein",
+              "first-page": "36",
+              "key": "10.1016/j.jnca.2019.04.019_bib53",
+              "series-title": "Proceedings of the 6th International Workshop on Mobile Cloud Computing and Services, Ser. MCS 15",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1016/j.phycom.2015.10.006",
+              "article-title": "A survey on 5g: the next generation of mobile communication",
+              "author": "Panwar",
+              "doi-asserted-by": "crossref",
+              "first-page": "64",
+              "journal-title": "Phys. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib54",
+              "volume": "18",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/LWC.2017.2671431",
+              "article-title": "Inter-cluster design of wireless fronthaul and access links for the downlink of C-RAN",
+              "author": "Park",
+              "doi-asserted-by": "crossref",
+              "first-page": "270",
+              "issue": "2",
+              "journal-title": "IEEE Wireless Commun. Lett.",
+              "key": "10.1016/j.jnca.2019.04.019_bib55",
+              "volume": "6",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/MWC.2015.7096298",
+              "article-title": "Fronthaul constrained cloud radio access networks: insights and challenges",
+              "author": "Peng",
+              "doi-asserted-by": "crossref",
+              "first-page": "152",
+              "issue": "2",
+              "journal-title": "IEEE Wireless Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib56",
+              "volume": "22",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/JSAC.2015.2416985",
+              "article-title": "Contract-based interference coordination in heterogeneous cloud radio access networks",
+              "author": "Peng",
+              "doi-asserted-by": "crossref",
+              "first-page": "1140",
+              "issue": "6",
+              "journal-title": "IEEE J. Sel. Area. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib57",
+              "volume": "33",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2015.2497268",
+              "article-title": "Inter-tier interference suppression in heterogeneous cloud radio access networks",
+              "author": "Peng",
+              "doi-asserted-by": "crossref",
+              "first-page": "2441",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/j.jnca.2019.04.019_bib58",
+              "volume": "3",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/COMST.2016.2548658",
+              "article-title": "Recent advances in cloud radio access networks: system Architectures, key techniques, and open issues",
+              "author": "Peng",
+              "doi-asserted-by": "crossref",
+              "first-page": "2282",
+              "issue": "3",
+              "journal-title": "IEEE Commun. Surv. Tutorials",
+              "key": "10.1016/j.jnca.2019.04.019_bib59",
+              "volume": "18",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/TWC.2017.2700841",
+              "article-title": "CostEfcient resource allocation in cloud radio access networks with heterogeneous fronthaul expenditures",
+              "author": "Peng",
+              "doi-asserted-by": "crossref",
+              "first-page": "4626",
+              "issue": "7",
+              "journal-title": "IEEE Trans. Wirel. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib60",
+              "volume": "16",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/LWC.2017.2665556",
+              "article-title": "Interference-aware user association under cell sleeping for heterogeneous cloud cellular networks",
+              "author": "Qi",
+              "doi-asserted-by": "crossref",
+              "first-page": "242",
+              "issue": "2",
+              "journal-title": "IEEE Wireless Commun. Lett.",
+              "key": "10.1016/j.jnca.2019.04.019_bib61",
+              "volume": "6",
+              "year": "2017"
+            },
+            {
+              "article-title": "Resource scheduling in non-orthogonal multiple access (NOMA) based cloud-RAN systems",
+              "author": "Rai",
+              "first-page": "418",
+              "key": "10.1016/j.jnca.2019.04.019_bib62",
+              "series-title": "IEEE 8th Annual Ubiquitous Computing, Electronics and Mobile Communication Conference (UEMCON)",
+              "year": "2017"
+            },
+            {
+              "article-title": "Secure radio resource management in cloud computing based cognitive radio networks",
+              "author": "Rawat",
+              "first-page": "288",
+              "key": "10.1016/j.jnca.2019.04.019_bib63",
+              "series-title": "41st International Conference on Parallel Processing Workshops",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1109/MVT.2018.2811244",
+              "article-title": "Low-latency C-RAN: a next-generation wireless approach",
+              "author": "Ren",
+              "doi-asserted-by": "crossref",
+              "first-page": "48",
+              "issue": "2",
+              "journal-title": "IEEE Veh. Technol. Mag.",
+              "key": "10.1016/j.jnca.2019.04.019_bib64",
+              "volume": "13",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1109/MCOM.2014.6898939",
+              "article-title": "Cloud technologies for flexible 5G radio access networks",
+              "author": "Rost",
+              "doi-asserted-by": "crossref",
+              "first-page": "68",
+              "issue": "5",
+              "journal-title": "IEEE Commun. Mag.",
+              "key": "10.1016/j.jnca.2019.04.019_bib65",
+              "volume": "52",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/JCN.2016.000023",
+              "article-title": "Cloud radio access network: virtualizing wireless access for dense heterogeneous systems",
+              "author": "Simeone",
+              "doi-asserted-by": "crossref",
+              "first-page": "135",
+              "issue": "2",
+              "journal-title": "J. Commun. Netw.",
+              "key": "10.1016/j.jnca.2019.04.019_bib66",
+              "volume": "18",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1016/j.jnca.2018.06.002",
+              "article-title": "A survey on energy efcient 5g green network with a planned multi-tier architecture",
+              "author": "So",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "journal-title": "J. Netw. Comput. Appl.",
+              "key": "10.1016/j.jnca.2019.04.019_bib67",
+              "volume": "118",
+              "year": "2018"
+            },
+            {
+              "author": "Statista",
+              "key": "10.1016/j.jnca.2019.04.019_bib68",
+              "series-title": "Number of Mobile Phone Users Worldwide from 2015 to 2020 (In Billions)",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1049/iet-com.2016.0094",
+              "article-title": "Local altruistic coalition formation game for spectrum sharing and interference management in hyper-dense cloud-RANs",
+              "author": "Sun",
+              "doi-asserted-by": "crossref",
+              "first-page": "1914",
+              "issue": "15",
+              "journal-title": "IET Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib69",
+              "volume": "10",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/TNET.2015.2419979",
+              "article-title": "FluidNet: a flexible cloud-based radio access network for small cells",
+              "author": "Sundaresan",
+              "doi-asserted-by": "crossref",
+              "first-page": "915",
+              "issue": "2",
+              "journal-title": "IEEE/ACM Trans. Netw.",
+              "key": "10.1016/j.jnca.2019.04.019_bib70",
+              "volume": "24",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/JSAC.2015.2435275",
+              "article-title": "Are heterogeneous cloud-based radio access networks cost effective?",
+              "author": "Suryaprakash",
+              "doi-asserted-by": "crossref",
+              "first-page": "2239",
+              "issue": "10",
+              "journal-title": "IEEE J. Sel. Area. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib71",
+              "volume": "33",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/JSAC.2015.2435275",
+              "article-title": "Are heterogeneous cloud-based radio access networks cost effective?",
+              "author": "Suryaprakash",
+              "doi-asserted-by": "crossref",
+              "first-page": "2239",
+              "issue": "10",
+              "journal-title": "IEEE J. Sel. Area. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib72",
+              "volume": "33",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/TWC.2017.2682079",
+              "article-title": "System cost minimization in cloud RAN with limited fronthaul capacity",
+              "author": "Tang",
+              "doi-asserted-by": "crossref",
+              "first-page": "3371",
+              "issue": "5",
+              "journal-title": "IEEE Trans. Wirel. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib73",
+              "volume": "16",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.jnca.2019.04.019_bib74",
+              "unstructured": "The Benets of Cloud-RAN Architecture in Mobile Network Expansion, FUJITSU Network Communications Inc., White paper, 2014."
+            },
+            {
+              "DOI": "10.1109/ACCESS.2017.2717852",
+              "article-title": "A survey on C-RAN security",
+              "author": "Tian",
+              "doi-asserted-by": "crossref",
+              "first-page": "13372",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/j.jnca.2019.04.019_bib75",
+              "volume": "5",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/MNET.2017.1600307",
+              "article-title": "Cooperative hierarchical caching in 5G cloud radio access networks",
+              "author": "Tran",
+              "doi-asserted-by": "crossref",
+              "first-page": "35",
+              "issue": "4",
+              "journal-title": "IEEE Netw.",
+              "key": "10.1016/j.jnca.2019.04.019_bib76",
+              "volume": "31",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/TWC.2018.2834370",
+              "article-title": "Energy efficiency maximization for downlink cloud radio access networks with data sharing and data compression",
+              "author": "Vu",
+              "doi-asserted-by": "crossref",
+              "first-page": "4955",
+              "issue": "8",
+              "journal-title": "IEEE Trans. Wirel. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib77",
+              "volume": "17",
+              "year": "2018"
+            },
+            {
+              "article-title": "Mode selection and resource allocation in uplink device-to-device enabled cloud radio access networks",
+              "author": "Wang",
+              "first-page": "1341",
+              "key": "10.1016/j.jnca.2019.04.019_bib78",
+              "series-title": "IEEE International Conference on Communications Workshops (ICC Workshops)",
+              "year": "2017"
+            },
+            {
+              "article-title": "Delay optimal fronthaul allocation via perturbation analysis in cloud radio access networks",
+              "author": "Wang",
+              "first-page": "3999",
+              "key": "10.1016/j.jnca.2019.04.019_bib79",
+              "series-title": "IEEE International Conference on Communications (ICC)",
+              "year": "2015"
+            },
+            {
+              "article-title": "Cost-effective resource allocation in C-RAN with mobile cloud",
+              "author": "Wang",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib80",
+              "series-title": "IEEE International Conference on Communications (ICC)",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/TWC.2017.2712645",
+              "article-title": "Robust beamforming design in C-RAN with sigmoidal utility and capacity-limited backhaul",
+              "author": "Wang",
+              "doi-asserted-by": "crossref",
+              "first-page": "5583",
+              "issue": "9",
+              "journal-title": "IEEE Trans. Wirel. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib81",
+              "volume": "16",
+              "year": "2017"
+            },
+            {
+              "article-title": "Centralize or distribute? A techno-economic study to design a low-cost cloud radio access network",
+              "author": "Wang",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib82",
+              "series-title": "IEEE International Conference on Communications (ICC)",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/TWC.2017.2696000",
+              "article-title": "Delay-aware uplink fronthaul allocation in cloud radio access networks",
+              "author": "Wang",
+              "doi-asserted-by": "crossref",
+              "first-page": "4275",
+              "issue": "7",
+              "journal-title": "IEEE Trans. Wirel. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib84",
+              "volume": "16",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/TCC.2016.2522439",
+              "article-title": "Joint energy minimization and resource allocation in C-RAN with mobile cloud",
+              "author": "Wang",
+              "doi-asserted-by": "crossref",
+              "first-page": "760",
+              "issue": "3",
+              "journal-title": "IEEE Trans. Cloud Comput.",
+              "key": "10.1016/j.jnca.2019.04.019_bib83",
+              "volume": "6",
+              "year": "2018"
+            },
+            {
+              "article-title": "Cost-constrained delay minimization of C-RAN and its multiplexing gain",
+              "author": "Wu",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib85",
+              "series-title": "IEEE International Conference on Communications (ICC)",
+              "year": "2016"
+            },
+            {
+              "DOI": "10.1109/MNET.2015.7018201",
+              "article-title": "Cloud radio access network (C-RAN): a primer",
+              "author": "Wu",
+              "doi-asserted-by": "crossref",
+              "first-page": "35",
+              "issue": "1",
+              "journal-title": "IEEE Netw.",
+              "key": "10.1016/j.jnca.2019.04.019_bib86",
+              "volume": "29",
+              "year": "2015"
+            },
+            {
+              "article-title": "Tradeoff between energy efciency and queues delay in heterogeneous cloud radio access networks",
+              "author": "Xiang",
+              "first-page": "2727",
+              "key": "10.1016/j.jnca.2019.04.019_bib87",
+              "series-title": "IEEE International Conference on Communication Workshop (ICCW)",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/TPDS.2012.283",
+              "article-title": "Dynamic resource allocation using virtual machines for cloud computing environment",
+              "author": "Xiao",
+              "doi-asserted-by": "crossref",
+              "first-page": "1107",
+              "issue": "6",
+              "journal-title": "IEEE Trans. Parallel Distrib. Syst.",
+              "key": "10.1016/j.jnca.2019.04.019_bib88",
+              "volume": "24",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1007/s11432-016-9013-0",
+              "article-title": "Towards win-win: weighted-voronoi-diagram based channel quantization for security enhancement in downlink cloud-ran with limited csi feedback",
+              "author": "Xu",
+              "doi-asserted-by": "crossref",
+              "first-page": "040303",
+              "issue": "4",
+              "journal-title": "Sci. China Inf. Sci.",
+              "key": "10.1016/j.jnca.2019.04.019_bib89",
+              "volume": "60",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1016/S1005-8885(14)60330-7",
+              "article-title": "Physical layer security strategies for downlink heterogeneous cloud radio access networks",
+              "author": "Yan",
+              "doi-asserted-by": "crossref",
+              "first-page": "47",
+              "issue": "5",
+              "journal-title": "J. China Univ. Posts Telecommun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib90",
+              "volume": "21",
+              "year": "2014"
+            },
+            {
+              "article-title": "Blockchain-based trusted authentication in cloud radio over fiber network for 5G",
+              "author": "Yang",
+              "first-page": "1",
+              "key": "10.1016/j.jnca.2019.04.019_bib91",
+              "series-title": "International Conference on Optical Communications and Networks (ICOCN)",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2014.2370391",
+              "article-title": "Security and reliability performance analysis for cloud radio access networks with channel estimation errors",
+              "author": "You",
+              "doi-asserted-by": "crossref",
+              "first-page": "1348",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/j.jnca.2019.04.019_bib92",
+              "volume": "2",
+              "year": "2014"
+            },
+            {
+              "article-title": "Dynamic resource provisioning for energy efcient cloud radio access networks",
+              "author": "Yu",
+              "journal-title": "IEEE Trans. Cloud Comput.",
+              "key": "10.1016/j.jnca.2019.04.019_bib93",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1109/MNET.2017.1600333",
+              "article-title": "Take renewable energy into CRAN toward green wireless access networks",
+              "author": "Zeng",
+              "doi-asserted-by": "crossref",
+              "first-page": "62",
+              "issue": "4",
+              "journal-title": "IEEE Netw.",
+              "key": "10.1016/j.jnca.2019.04.019_bib94",
+              "volume": "31",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/TVT.2016.2558581",
+              "article-title": "A coalition formation game for remote radio head cooperation in cloud radio access network",
+              "author": "Zhan",
+              "doi-asserted-by": "crossref",
+              "first-page": "1723",
+              "issue": "2",
+              "journal-title": "IEEE Trans. Veh. Technol.",
+              "key": "10.1016/j.jnca.2019.04.019_bib95",
+              "volume": "66",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/MWC.2015.7143331",
+              "article-title": "Cooperative interference mitigation and handover management for heterogeneous cloud small cell networks",
+              "author": "Zhang",
+              "doi-asserted-by": "crossref",
+              "first-page": "92",
+              "issue": "3",
+              "journal-title": "IEEE Wireless Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib96",
+              "volume": "22",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2017.2649489",
+              "article-title": "SDN based optimal user cooperation and energy efcient resource allocation in cloud assisted heterogeneous networks",
+              "author": "Zhang",
+              "doi-asserted-by": "crossref",
+              "first-page": "1469",
+              "journal-title": "IEEE Access",
+              "key": "10.1016/j.jnca.2019.04.019_bib97",
+              "volume": "5",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/TWC.2017.2701359",
+              "article-title": "Complementary networking for C-RAN: spectrum efciency, delay and system cost",
+              "author": "Zhong",
+              "doi-asserted-by": "crossref",
+              "first-page": "4639",
+              "issue": "7",
+              "journal-title": "IEEE Trans. Wirel. Commun.",
+              "key": "10.1016/j.jnca.2019.04.019_bib98",
+              "volume": "16",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/MNET.2017.1700208",
+              "article-title": "Energy-efcient NOMA enabled heterogeneous cloud radio access networks",
+              "author": "Zhou",
+              "doi-asserted-by": "crossref",
+              "first-page": "152",
+              "issue": "2",
+              "journal-title": "IEEE Netw.",
+              "key": "10.1016/j.jnca.2019.04.019_bib99",
+              "volume": "32",
+              "year": "2018"
+            },
+            {
+              "key": "10.1016/j.jnca.2019.04.019_bib100",
+              "unstructured": "ZTE Green Technology Innovations, ZTE Corporation, White Paper, 2011."
+            }
+          ],
+          "reference-count": 100,
+          "references-count": 100,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1084804519301432"
+            }
+          },
+          "score": 49.43105,
+          "short-container-title": [
+            "Journal of Network and Computer Applications"
+          ],
+          "source": "Crossref",
+          "special_numbering": "C",
+          "title": [
+            "Recent research in cloud radio access network (C-RAN) for 5G cellular systems - A survey"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "volume": "139"
+        },
+        {
+          "DOI": "10.1109/netsoft70012.2026.11603526",
+          "URL": "https://doi.org/10.1109/netsoft70012.2026.11603526",
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "University of Thessaly,Dept. of Electrical and Computer Engineering,Greece"
+                }
+              ],
+              "family": "Tsourdinis",
+              "given": "Theodoros",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "University of Thessaly,Dept. of Electrical and Computer Engineering,Greece"
+                }
+              ],
+              "family": "Makris",
+              "given": "Nikos",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "University of Thessaly,Dept. of Electrical and Computer Engineering,Greece"
+                }
+              ],
+              "family": "Korakis",
+              "given": "Thanasis",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Sorbonne Universit&#x00E9;, CNRS, LIP6,Paris,France"
+                }
+              ],
+              "family": "Fdida",
+              "given": "Serge",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2026 IEEE 12th International Conference on Network Softwarization (NetSoft)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                16
+              ]
+            ],
+            "date-time": "2026-07-16T21:48:13Z",
+            "timestamp": 1784238493000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                17
+              ]
+            ],
+            "date-time": "2026-07-17T05:23:13Z",
+            "timestamp": 1784265793000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2026,
+                  7,
+                  3
+                ]
+              ]
+            },
+            "location": "Berlin, Germany",
+            "name": "2026 IEEE 12th International Conference on Network Softwarization (NetSoft)",
+            "start": {
+              "date-parts": [
+                [
+                  2026,
+                  6,
+                  29
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                17
+              ]
+            ],
+            "date-time": "2026-07-17T06:05:26Z",
+            "timestamp": 1784268326476,
+            "version": "3.55.0"
+          },
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                29
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    6,
+                    29
+                  ]
+                ],
+                "date-time": "2026-06-29T00:00:00Z",
+                "timestamp": 1782691200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    6,
+                    29
+                  ]
+                ],
+                "date-time": "2026-06-29T00:00:00Z",
+                "timestamp": 1782691200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx8/11603412/11603413/11603526.pdf?arnumber=11603526",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "171-179",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                29
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                29
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "DOI": "10.1007/978-981-96-1744-9_22",
+              "doi-asserted-by": "publisher",
+              "key": "ref1"
+            },
+            {
+              "DOI": "10.3390/s24227402",
+              "article-title": "Energy Efficiency for 5G and Beyond 5G: Potential, Limitations, and Future Directions",
+              "author": "Ichimescu",
+              "doi-asserted-by": "crossref",
+              "issue": "22",
+              "journal-title": "Sensors",
+              "key": "ref2",
+              "volume": "24",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1109/WINCOM62286.2024.10658116",
+              "author": "Liang",
+              "doi-asserted-by": "crossref",
+              "key": "ref3",
+              "volume-title": "Enhancing Energy Efficiency in O-RAN Through Intelligent xApps Deployment",
+              "year": "2024"
+            },
+            {
+              "article-title": "Potential Energy Savings Features in O-RAN",
+              "key": "ref4",
+              "volume-title": "Alfter, Germany",
+              "year": "2025"
+            },
+            {
+              "key": "ref5",
+              "volume-title": "Smart Energy Saving of 5G Base Stations: Based on AI and Other Emerging Technologies to Forecast and Optimize the Management of 5 G Wireless Network Energy Consumption",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/OJCOMS.2023.3343069",
+              "doi-asserted-by": "publisher",
+              "key": "ref6"
+            },
+            {
+              "key": "ref7",
+              "volume-title": "AI-RAN Alliance Vision and Mission White Paper",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1109/COMST.2023.3239220",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "DOI": "10.1145/2677046.2677053",
+              "doi-asserted-by": "publisher",
+              "key": "ref9"
+            },
+            {
+              "DOI": "10.1145/3485983.3494870",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "DOI": "10.1109/JSAC.2024.3431524",
+              "author": "Ferreira",
+              "doi-asserted-by": "crossref",
+              "key": "ref11",
+              "volume-title": "A Joint Optimization Approach for Power-Efficient Heterogeneous OFDMA Radio Access Networks",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.3923/itj.2011.639.647",
+              "article-title": "An Improved Water-filling Power Allocation Method in MIMO OFDM Systems",
+              "author": "Liejun",
+              "doi-asserted-by": "crossref",
+              "first-page": "639",
+              "journal-title": "Information Technology Journal",
+              "key": "ref12",
+              "volume": "10",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1109/TCOMM.2024.3381707",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "article-title": "Deep Neural Networks approach for Power Head-Room Predictions in 5G Networks and Beyond",
+              "author": "Salhab",
+              "first-page": "579",
+              "key": "ref14",
+              "volume-title": "2020 IFIP Networking Conference (Networking)",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/MCOM.001.2200023",
+              "doi-asserted-by": "publisher",
+              "key": "ref15"
+            },
+            {
+              "DOI": "10.1109/ICC40277.2020.9149157",
+              "doi-asserted-by": "publisher",
+              "key": "ref16"
+            },
+            {
+              "DOI": "10.1016/j.comnet.2022.109342",
+              "article-title": "Dynamic power allocation in cellular network based on multi-agent double deep reinforcement learning",
+              "author": "Yang",
+              "doi-asserted-by": "crossref",
+              "first-page": "109342",
+              "journal-title": "Computer Networks",
+              "key": "ref17",
+              "volume": "217",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/TNSM.2022.3157650",
+              "doi-asserted-by": "publisher",
+              "key": "ref18"
+            },
+            {
+              "DOI": "10.1109/IWCMC61514.2024.10592464",
+              "doi-asserted-by": "publisher",
+              "key": "ref19"
+            },
+            {
+              "author": "Dulac-Arnold",
+              "key": "ref20",
+              "volume-title": "Challenges of Real-World Reinforcement Learning",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1145/3636534.3697311",
+              "doi-asserted-by": "publisher",
+              "key": "ref21"
+            },
+            {
+              "DOI": "10.1109/NOMS56928.2023.10154404",
+              "doi-asserted-by": "publisher",
+              "key": "ref22"
+            },
+            {
+              "DOI": "10.1109/WCNC61545.2025.10978489",
+              "doi-asserted-by": "publisher",
+              "key": "ref23"
+            },
+            {
+              "DOI": "10.1016/j.comcom.2022.07.019",
+              "article-title": "SLICES, a scientific instrument for the networking community",
+              "author": "Fdida",
+              "doi-asserted-by": "crossref",
+              "first-page": "189",
+              "journal-title": "Computer Communications",
+              "key": "ref24",
+              "volume": "193",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1145/3204949.3208123",
+              "doi-asserted-by": "publisher",
+              "key": "ref25"
+            }
+          ],
+          "reference-count": 25,
+          "references-count": 25,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/11603526/"
+            }
+          },
+          "score": 47.91005,
+          "source": "Crossref",
+          "title": [
+            "Real-World Reinforcement Learning for Energy-Efficient DL Power Management in Beyond 5G RAN"
+          ],
+          "type": "proceedings-article"
+        }
+      ],
+      "items-per-page": 10,
+      "query": {
+        "search-terms": null,
+        "start-index": 0
+      },
+      "total-results": 51
+    },
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "status": "ok"
+  },
+  "retrieved_at_utc": "2026-08-31T14:29:46Z",
+  "retry_count": 1
+}

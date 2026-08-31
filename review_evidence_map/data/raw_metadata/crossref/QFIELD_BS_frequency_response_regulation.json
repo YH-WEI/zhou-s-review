@@ -1,0 +1,2984 @@
+{
+  "http_status": 200,
+  "request_url_redacted": "https://api.crossref.org/works?query.bibliographic=%28%22base+station%22+OR+%22radio+access+network%22+OR+RAN+OR+%22telecom+tower%22+OR+%22cellular+network%22+OR+5G+OR+%225G-Advanced%22+OR+B5G+OR+%22IMT-2030%22+OR+6G%29+AND+%28%22frequency+response%22+OR+%22frequency+regulation%22+OR+%22fast+frequency+response%22+OR+%22ancillary+service%22+OR+reserve%29+AND+%28field+OR+pilot+OR+demonstration+OR+experiment+OR+%22hardware-in-the-loop%22+OR+HIL+OR+%22real-world+data%22+OR+%22market+participation%22+OR+%22case+study%22%29&filter=from-pub-date%3A2015-01-01%2Cuntil-pub-date%3A2026-08-31&rows=10&sort=relevance&order=desc",
+  "response": {
+    "message": {
+      "facets": {},
+      "items": [
+        {
+          "DOI": "10.1002/9781119851288.ch5",
+          "ISBN": [
+            "9781786306289",
+            "9781119851288"
+          ],
+          "URL": "https://doi.org/10.1002/9781119851288.ch5",
+          "alternative-id": [
+            "10.1002/9781119851288.ch5",
+            "10.1002/9781119851288"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "NG‐RAN and 5G‐NR"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2021-08-13T21:31:19Z",
+            "timestamp": 1628890279000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                29
+              ]
+            ],
+            "date-time": "2023-08-29T17:23:16Z",
+            "timestamp": 1693329796000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                23
+              ]
+            ],
+            "date-time": "2026-01-23T22:46:06Z",
+            "timestamp": 1769208366563,
+            "version": "3.49.0"
+          },
+          "is-referenced-by-count": 5,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781786306289"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119851288"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch5",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch5",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "141-160",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_2_1",
+              "unstructured": "All standards can be downloaded from the ETSI website:https://www.etsi.org/standards."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "unstructured": "3GPP TR 38.716-01-01Technical Specification Group Radio Access Networks;NR intra band Carrier Aggregation (CA) Rel‐16 for xCC Down Link (DL)/yCC Up Link (UL) including contiguous and non‐contiguous spectrum (x &gt;= y)Version 16.0.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "unstructured": "3GPP TS 38.101-01NR ‐ User Equipment (UE) radio transmission and reception;Part 1: Range 1 StandaloneVersion 16.4.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "unstructured": "3GPP TS 38.101-02NR ‐ User Equipment (UE) radio transmission and reception;Part 2: Range 2 StandaloneVersion 16.4.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "unstructured": "3GPP TS 38.104NR ‐ Base Station (BS) radio transmission and reception;Version 16.4.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "unstructured": "3GPP TR 38.133NR ‐ Requirements for support of radio resource management;Version 16.4.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "unstructured": "3GPP TR 38.321NR ‐ Medium Access Control (MAC);Version 16.4.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "unstructured": "3GPP TR 38.331NR ‐ Radio Resource Control (RRC);Version 15.2.1 Release 15"
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "unstructured": "Ericsson (2020). Carrier aggregation in 5G [Online]. Available at:https://www.ericsson.com/en/networks/offerings/5g/carrier-aggregation."
+            }
+          ],
+          "reference-count": 9,
+          "references-count": 9,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119851288.ch5"
+            }
+          },
+          "score": 80.70073,
+          "source": "Crossref",
+          "title": [
+            "5G‐NR Radio Interface – Operations on the Frequency Bands"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.1109/access.2021.3096962",
+          "ISSN": [
+            "2169-3536"
+          ],
+          "URL": "https://doi.org/10.1109/access.2021.3096962",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Chiu",
+              "given": "Hsin-Wei",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Chang-Chien",
+              "given": "Le-Ren",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "IEEE Access"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                7,
+                13
+              ]
+            ],
+            "date-time": "2021-07-13T20:24:15Z",
+            "timestamp": 1626207855000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2021,
+                12,
+                17
+              ]
+            ],
+            "date-time": "2021-12-17T19:57:01Z",
+            "timestamp": 1639771021000
+          },
+          "funder": [
+            {
+              "award": [
+                "TPC-5460900120"
+              ],
+              "award-info": [
+                {
+                  "award-number": [
+                    "TPC-5460900120"
+                  ]
+                }
+              ],
+              "name": "Taiwan Power Company"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                10
+              ]
+            ],
+            "date-time": "2026-07-10T14:10:04Z",
+            "timestamp": 1783692604370,
+            "version": "3.55.0"
+          },
+          "is-referenced-by-count": 14,
+          "issn-type": [
+            {
+              "type": "electronic",
+              "value": "2169-3536"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://creativecommons.org/licenses/by/4.0/legalcode",
+              "content-version": "vor",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2021-01-01T00:00:00Z",
+                "timestamp": 1609459200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/6287639/9312710/09481948.pdf?arnumber=9481948",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "100934-100943",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021
+              ]
+            ]
+          },
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+          "reference": [
+            {
+              "article-title": "Xgboost: Extreme gradient boosting",
+              "author": "chen",
+              "first-page": "1",
+              "journal-title": "R Package Version",
+              "key": "ref33",
+              "volume": "2",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1214/aos/1013203451",
+              "article-title": "Greedy function approximation: A gradient boosting machine",
+              "author": "friedman",
+              "doi-asserted-by": "crossref",
+              "first-page": "1189",
+              "journal-title": "Ann Statist",
+              "key": "ref32",
+              "volume": "29",
+              "year": "2001"
+            },
+            {
+              "DOI": "10.1002/cpt.1796",
+              "doi-asserted-by": "publisher",
+              "key": "ref31"
+            },
+            {
+              "journal-title": "Scikit-Learn",
+              "key": "ref30",
+              "year": "2010"
+            },
+            {
+              "DOI": "10.1016/j.ijforecast.2020.07.007",
+              "doi-asserted-by": "publisher",
+              "key": "ref36"
+            },
+            {
+              "DOI": "10.1002/widm.1249",
+              "doi-asserted-by": "publisher",
+              "key": "ref35"
+            },
+            {
+              "DOI": "10.1162/neco_a_01199",
+              "doi-asserted-by": "publisher",
+              "key": "ref34"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2018.09.177",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "DOI": "10.1109/TSG.2016.2582804",
+              "doi-asserted-by": "publisher",
+              "key": "ref11"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2020.2993449",
+              "doi-asserted-by": "publisher",
+              "key": "ref12"
+            },
+            {
+              "DOI": "10.1109/TSG.2017.2717913",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2020.2977504",
+              "doi-asserted-by": "publisher",
+              "key": "ref14"
+            },
+            {
+              "journal-title": "Reliability Guideline Primary Frequency Control",
+              "key": "ref15",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2012.2209901",
+              "doi-asserted-by": "publisher",
+              "key": "ref16"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2021.106842",
+              "doi-asserted-by": "publisher",
+              "key": "ref17"
+            },
+            {
+              "DOI": "10.1049/ip-gtd:20040028",
+              "doi-asserted-by": "publisher",
+              "key": "ref18"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2005.857259",
+              "doi-asserted-by": "publisher",
+              "key": "ref19"
+            },
+            {
+              "DOI": "10.1109/ICPS.2007.4292102",
+              "doi-asserted-by": "publisher",
+              "key": "ref28"
+            },
+            {
+              "DOI": "10.1016/j.rser.2015.12.051",
+              "doi-asserted-by": "publisher",
+              "key": "ref4"
+            },
+            {
+              "DOI": "10.1109/60.900504",
+              "doi-asserted-by": "publisher",
+              "key": "ref27"
+            },
+            {
+              "journal-title": "NERC Reliability Standard BAL-002-0-Disturbance Control Performance",
+              "key": "ref3",
+              "year": "2005"
+            },
+            {
+              "article-title": "Review of system strength and inertia requirements for the national electricity market of Australia",
+              "author": "gu",
+              "first-page": "295",
+              "journal-title": "CSEE J Power Energy Syst",
+              "key": "ref6",
+              "volume": "5",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1057/jt.2009.5",
+              "doi-asserted-by": "publisher",
+              "key": "ref29"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.3027722",
+              "doi-asserted-by": "publisher",
+              "key": "ref5"
+            },
+            {
+              "DOI": "10.1016/j.gloei.2020.11.007",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "DOI": "10.1016/j.rser.2019.109662",
+              "article-title": "Fast frequency control ancillary services: An international review",
+              "author": "fernández-muñoz",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Renew Sustain Energy Rev",
+              "key": "ref7",
+              "volume": "120",
+              "year": "2020"
+            },
+            {
+              "journal-title": "NERC Reliability Standard BAL-001-0 1aReal Power Balancing Control Performance",
+              "key": "ref2",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2020.116274",
+              "doi-asserted-by": "publisher",
+              "key": "ref9"
+            },
+            {
+              "DOI": "10.2172/1023095",
+              "doi-asserted-by": "publisher",
+              "key": "ref1"
+            },
+            {
+              "DOI": "10.1109/PESGM.2018.8585894",
+              "doi-asserted-by": "publisher",
+              "key": "ref20"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2020.115237",
+              "doi-asserted-by": "publisher",
+              "key": "ref22"
+            },
+            {
+              "DOI": "10.1109/ISGTEurope.2018.8571581",
+              "doi-asserted-by": "publisher",
+              "key": "ref21"
+            },
+            {
+              "DOI": "10.1109/JPROC.2020.2988715",
+              "doi-asserted-by": "publisher",
+              "key": "ref24"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.3003568",
+              "doi-asserted-by": "publisher",
+              "key": "ref23"
+            },
+            {
+              "DOI": "10.1016/j.epsr.2019.106054",
+              "doi-asserted-by": "publisher",
+              "key": "ref26"
+            },
+            {
+              "DOI": "10.3390/en14020310",
+              "doi-asserted-by": "publisher",
+              "key": "ref25"
+            }
+          ],
+          "reference-count": 36,
+          "references-count": 36,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/9481948/"
+            }
+          },
+          "score": 70.03903,
+          "short-container-title": [
+            "IEEE Access"
+          ],
+          "source": "Crossref",
+          "title": [
+            "A Supervised Learning Scheme for Evaluating Frequency Nadir and Fast Response Reserve in Ancillary Service Market"
+          ],
+          "type": "journal-article",
+          "volume": "9"
+        },
+        {
+          "DOI": "10.1109/5gwf52925.2021.00055",
+          "URL": "https://doi.org/10.1109/5gwf52925.2021.00055",
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "European Commission - Joint Research Centre,Ispra,VA,Italy"
+                }
+              ],
+              "family": "Chountala",
+              "given": "Chrysanthi",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "European Commission - Joint Research Centre,Ispra,VA,Italy"
+                }
+              ],
+              "family": "Chareau",
+              "given": "Jean-Marc",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "European Commission - Joint Research Centre,Ispra,VA,Italy"
+                }
+              ],
+              "family": "Chawdhry",
+              "given": "Pravir",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2021 IEEE 4th 5G World Forum (5GWF)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                11,
+                19
+              ]
+            ],
+            "date-time": "2021-11-19T20:39:26Z",
+            "timestamp": 1637354366000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                8,
+                31
+              ]
+            ],
+            "date-time": "2024-08-31T05:22:57Z",
+            "timestamp": 1725081777000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2021,
+                  10,
+                  15
+                ]
+              ]
+            },
+            "location": "Montreal, QC, Canada",
+            "name": "2021 IEEE 4th 5G World Forum (5GWF)",
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  10,
+                  13
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                21
+              ]
+            ],
+            "date-time": "2026-07-21T01:53:43Z",
+            "timestamp": 1784598823155,
+            "version": "3.55.0"
+          },
+          "is-referenced-by-count": 16,
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                10
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    10,
+                    1
+                  ]
+                ],
+                "date-time": "2021-10-01T00:00:00Z",
+                "timestamp": 1633046400000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    10,
+                    1
+                  ]
+                ],
+                "date-time": "2021-10-01T00:00:00Z",
+                "timestamp": 1633046400000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/9604908/9604780/09604968.pdf?arnumber=9604968",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "275-280",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                10
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                10
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "key": "ref1",
+              "volume-title": "European 5G Observatory"
+            },
+            {
+              "journal-title": "Report M.2410-0, “Minimum requirements related to technical performance for IMT-2020 radio interface(s)”",
+              "key": "ref2",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2018.2868347",
+              "doi-asserted-by": "publisher",
+              "key": "ref3"
+            },
+            {
+              "article-title": "The impact of RF-EMF exposure limits stricter than the ICNIRP or IEEE guidelines on 4G and 5G mobile network deployment",
+              "key": "ref4",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1097/hp.0000000000001210",
+              "doi-asserted-by": "publisher",
+              "key": "ref5"
+            },
+            {
+              "journal-title": "1999/519/EC: Council Recommendation of 12 July 1999 on the limitation of exposure of the general public to electromagnetic fields (0 Hz to 300 GHz)",
+              "key": "ref6"
+            },
+            {
+              "article-title": "Assessment of the exposure of the general public to 5G electromagnetic waves, first measurement results on 5G pilots in the 3,400-3,800 MHz band",
+              "key": "ref7",
+              "year": "2020"
+            },
+            {
+              "article-title": "Electromagnetic Field (EMF) measurements near 5G mobile phone base stations",
+              "journal-title": "Technical report",
+              "key": "ref8",
+              "year": "2021"
+            },
+            {
+              "article-title": "Methods for the assessment of electric, magnetic and electromagnetic fields associated with human exposure",
+              "key": "ref9"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2019.2961225",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "DOI": "10.3390/environments7030022",
+              "doi-asserted-by": "publisher",
+              "key": "ref11"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.2998448",
+              "doi-asserted-by": "publisher",
+              "key": "ref12"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2019.2902481",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "DOI": "10.1109/PIMRC.2018.8580893",
+              "doi-asserted-by": "publisher",
+              "key": "ref14"
+            },
+            {
+              "journal-title": "Technical Specification, 5G; NR; Physical channels and modulation, Release 15",
+              "key": "ref15",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1097/HP.0000000000001089",
+              "doi-asserted-by": "publisher",
+              "key": "ref16"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2017.2753459",
+              "doi-asserted-by": "publisher",
+              "key": "ref17"
+            },
+            {
+              "article-title": "Determination of RF field strength, power density and SAR in the vicinity of radiocommunication base stations for the purpose of evaluating human exposure",
+              "key": "ref18",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.3390/app9224974",
+              "doi-asserted-by": "publisher",
+              "key": "ref19"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2020.3042002",
+              "doi-asserted-by": "publisher",
+              "key": "ref20"
+            },
+            {
+              "DOI": "10.3390/app10217631",
+              "doi-asserted-by": "publisher",
+              "key": "ref21"
+            }
+          ],
+          "reference-count": 21,
+          "references-count": 21,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/9604968/"
+            }
+          },
+          "score": 69.73312,
+          "source": "Crossref",
+          "title": [
+            "Radio Frequency Electromagnetic Field Measurements in a Commercial 5G Network"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.1002/9781119851288.ch8",
+          "ISBN": [
+            "9781786306289",
+            "9781119851288"
+          ],
+          "URL": "https://doi.org/10.1002/9781119851288.ch8",
+          "alternative-id": [
+            "10.1002/9781119851288.ch8",
+            "10.1002/9781119851288"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "container-title": [
+            "NG‐RAN and 5G‐NR"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ],
+            "date-time": "2021-08-13T21:31:19Z",
+            "timestamp": 1628890279000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                8,
+                29
+              ]
+            ],
+            "date-time": "2023-08-29T17:23:19Z",
+            "timestamp": 1693329799000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                12
+              ]
+            ],
+            "date-time": "2026-01-12T22:26:46Z",
+            "timestamp": 1768256806894,
+            "version": "3.49.0"
+          },
+          "is-referenced-by-count": 2,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781786306289"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119851288"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    8,
+                    4
+                  ]
+                ],
+                "date-time": "2021-08-04T00:00:00Z",
+                "timestamp": 1628035200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch8",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119851288.ch8",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "203-235",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                13
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                8,
+                4
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_2_1",
+              "unstructured": "All standards can be downloaded from the ETSI website:https://www.etsi.org/standards."
+            },
+            {
+              "key": "e_1_2_1_3_1",
+              "unstructured": "3GPP 23.501System architecture for the 5G System (5GS);Version 15.9.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_4_1",
+              "unstructured": "3GPP 37.324E‐UTRA NR ‐ Multi‐connectivity; Overall Description;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_5_1",
+              "unstructured": "3GPP 37.340LTE 5G NR ‐ Service Data Adaptation Protocol (SDAP); Protocol specification;Version 16.0.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_6_1",
+              "unstructured": "3GPP 38.300NR ‐ Radio Resource Control (RRC); Protocol specification;Version 16.0.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_7_1",
+              "unstructured": "3GPP 38.321NR ‐ Medium Access Control (MAC) Protocol specification;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_8_1",
+              "unstructured": "3GPP 38.322NR ‐ Radio Link Control Protocol (RLC) specification;Version 15.3.0 Release 15"
+            },
+            {
+              "key": "e_1_2_1_9_1",
+              "unstructured": "3GPP 38.323NR ‐ Packet Data Convergence Protocol (PDCP) specification;Version 16.1.0 Release 16"
+            },
+            {
+              "key": "e_1_2_1_10_1",
+              "unstructured": "3GPP 38.331NR ‐ Radio Resource Control (RRC); Protocol specification;Version 16.0.0 Release 16"
+            }
+          ],
+          "reference-count": 9,
+          "references-count": 9,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119851288.ch8"
+            }
+          },
+          "score": 68.19638,
+          "source": "Crossref",
+          "title": [
+            "5G‐NR Radio Interface – Data Link Layer"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.5772/intechopen.1002523",
+          "ISBN": [
+            "9781803561677",
+            "9781803561684"
+          ],
+          "URL": "https://doi.org/10.5772/intechopen.1002523",
+          "abstract": "<jats:p>This work investigates the combination of fiberoptic and wireless radio frequency (RF) channels that enable the transmission of RF signals over an optical medium, which improves the load separation of the entire system and increases its bandwidth. This concept is called a hybrid system. We studied the influence of additive white Gaussian noise (AWGN) and of multiplicative noise over single-input single-output (SISO) and multiple-input multiple-output (MIMO) channels to examine the differences in channel capacity and bandwidth, spectral efficiency and bit error rate (BER). We show that hybrid systems can provide an acceptable communication solution for a large number of devices that use a wireless network.</jats:p>",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Juwiler",
+              "given": "Irit",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Vinnik",
+              "given": "Michael",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Brown",
+              "given": "Ron",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Blaunstein",
+              "given": "Nathan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "5G and 6G Enhanced Broadband Communications"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2023,
+                11,
+                3
+              ]
+            ],
+            "date-time": "2023-11-03T14:57:33Z",
+            "timestamp": 1699023453000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                9
+              ]
+            ],
+            "date-time": "2025-01-09T13:26:07Z",
+            "timestamp": 1736429167000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                10
+              ]
+            ],
+            "date-time": "2025-01-10T11:59:11Z",
+            "timestamp": 1736510351017,
+            "version": "3.32.0"
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781803561677"
+            },
+            {
+              "type": "electronic",
+              "value": "9781803561684"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                8
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://creativecommons.org/licenses/by/3.0/legalcode",
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    1,
+                    8
+                  ]
+                ],
+                "date-time": "2025-01-08T00:00:00Z",
+                "timestamp": 1736294400000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://www.intechopen.com/download/pdf/89342",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "3774",
+          "prefix": "10.5772",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                8
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2025,
+                1,
+                8
+              ]
+            ]
+          },
+          "publisher": "IntechOpen",
+          "reference": [
+            {
+              "DOI": "10.1007/s42835-018-00059-9",
+              "doi-asserted-by": "crossref",
+              "key": "ref=1",
+              "unstructured": "Khan J, Sehrai DA, Ali U. Design of Dual Band 5G antenna Array with SAR analysis for future Mobile handsets. Journal of Electrical Engineering & Technology. 2019;14(2):809-816"
+            },
+            {
+              "DOI": "10.1007/s11277-022-09738-3",
+              "doi-asserted-by": "crossref",
+              "key": "ref=2",
+              "unstructured": "Deb P, De D. Sustainable Spectrum allocation strategy for 5G Mobile network. Wireless Personal Communications. 2022;125:3835-3858"
+            },
+            {
+              "DOI": "10.1109/WCNC45663.2020.9120477",
+              "doi-asserted-by": "crossref",
+              "key": "ref=3",
+              "unstructured": "Murakami T et al. Research project to realize various high-reliability communications in advanced 5G network. In: 2020 IEEE Wireless Communications and Networking Conference (WCNC), Seoul, Korea (South). 2020. pp. 1-8. DOI: 10.1109/WCNC45663.2020.9120477"
+            },
+            {
+              "DOI": "10.3390/s22010026",
+              "doi-asserted-by": "crossref",
+              "key": "ref=4",
+              "unstructured": "Dangi R, Lalwani P, Choudhary G, You I, Pau G. Study and investigation on 5G technology: A systematic review. Sensors (Basel, Switzerland). 2021;22(1):26"
+            },
+            {
+              "DOI": "10.1016/j.rinp.2018.07.028",
+              "doi-asserted-by": "crossref",
+              "key": "ref=5",
+              "unstructured": "Addanki S, Amiri IS, Yupapin P. Review of optical fibers-introduction and applications in fiber lasers. Results in Physics. 2018;10:743-750"
+            },
+            {
+              "key": "ref=6",
+              "unstructured": "Abbood ANAJ. Optimised Radio over Fibre Links for Next Generation Radio Access Networks [Thesis]. London: Brunel University; 2018"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2019.2932042",
+              "doi-asserted-by": "crossref",
+              "key": "ref=7",
+              "unstructured": "Goudos SK et al. A novel design approach for 5G massive MIMO and NB-IoT green networks using a hybrid Jaya-differential evolution algorithm. IEEE Access. 2019;7:105687-105700"
+            },
+            {
+              "DOI": "10.1109/MCOM.2017.1600643",
+              "doi-asserted-by": "crossref",
+              "key": "ref=8",
+              "unstructured": "Tzanakaki A et al. Wireless-optical network convergence: Enabling the 5G architecture to support operational and end-user services. IEEE Communications Magazine. 2017;55(10):184-192"
+            },
+            {
+              "DOI": "10.1109/HORA55278.2022.9800061",
+              "doi-asserted-by": "crossref",
+              "key": "ref=9",
+              "unstructured": "Younis L, Essa E. Radio over fiber (RoF) techniques: A survey. In: 2022 International Congress on Human-Computer Interaction, Optimization and Robotic Applications (HORA), Ankara, Turkey. 2022. pp. 1-10. DOI: 10.1109/HORA55278.2022.9800061"
+            },
+            {
+              "key": "ref=10",
+              "unstructured": "Sangeetha P, Muthumani I. Radio over fiber Technology for Investigation of hybrid passive optical networks. International Journal of Circuit Theory and Applications. 2016;9(8):3451-3457"
+            },
+            {
+              "DOI": "10.1109/RFM.2008.4897427",
+              "doi-asserted-by": "crossref",
+              "key": "ref=11",
+              "unstructured": "Arief M, Idrus SM, Alifah S. The SCM/WDM system model for radio over fiber communication link. In: 2008 IEEE International RF and Microwave Conference, Kuala Lumpur, Malaysia. 2008. pp. 344-347. DOI: 10.1109/RFM.2008.4897427"
+            },
+            {
+              "key": "ref=12",
+              "unstructured": "Mishra A, Mishra P. Optical communication with time division multiplexing (OTDM) and hybrid WDM/OTDM PON. International Journal of Science and Research (IJSR). 2014;3(12):1681-1684"
+            },
+            {
+              "key": "ref=13",
+              "unstructured": "Jarrar M. Radio Over Fibre Passive Optical Network Integration for the Smart Grid. University of Ottawa; 2015. DOI: 10.20381/RUOR-4179. Available from: ruor.uottawa.ca"
+            },
+            {
+              "key": "ref=14",
+              "unstructured": "Miladic S. Integration of optical and wireless networks under the radio-over-fiber concept. In: XLVIII International Scientific Conference on Information Communication and Energy Systems and Technologies, iCEST 2013, 26-29 June 2013, Ohrid, Macedonia. Vol. 2. 2013. pp. 459-462"
+            },
+            {
+              "key": "ref=15",
+              "unstructured": "Niazi SA. Integration of hybrid passive optical networks (PON) with radio over fiber (RoF). In: RF Systems, Circuits and Components. London, United Kingdom: IntechOpen; 2019"
+            },
+            {
+              "DOI": "10.1049/iet-net.2017.0069",
+              "doi-asserted-by": "crossref",
+              "key": "ref=16",
+              "unstructured": "Sarigiannidis P, Lagkas T, Bibi S, Ampatzoglou A, Bellavista P. Hybrid 5G optical-wireless SDN-based networks, challenges and open issues. IET Networks. Nov 2017;6(6):141-148"
+            },
+            {
+              "key": "ref=17",
+              "unstructured": "Valkenburg V, Middleton W. Reference Data for Engineers: Radio, Electronics, Computer, and Communications. Boston, Oxford: Newnes; 2002"
+            },
+            {
+              "key": "ref=18",
+              "unstructured": "Blaunstein N, Bach Andersen J. Multipath Phenomena in Cellular Networks. Boston: Artech House; 2002"
+            }
+          ],
+          "reference-count": 18,
+          "references-count": 18,
+          "resource": {
+            "primary": {
+              "URL": "https://www.intechopen.com/chapters/89342"
+            }
+          },
+          "score": 65.5838,
+          "source": "Crossref",
+          "title": [
+            "Perspective Chapter: Integration of Fiberoptic and Radio Frequency Channels for Hybrid 5G MIMO Network"
+          ],
+          "type": "book-chapter"
+        },
+        {
+          "DOI": "10.21203/rs.3.rs-4382069/v1",
+          "URL": "https://doi.org/10.21203/rs.3.rs-4382069/v1",
+          "abstract": "<title>Abstract</title>\n        <p>The utilization of RF-MEMS, which stands for Microsystem-based (MEMS) Radio Frequency (RF) passive components, is garnering growing attention within the realm of Beyond-5G (B5G) and 6G technologies, despite its longstanding existence. This trend is fueled by the impressive RF characteristics achievable through the judicious exploitation of this technology. However, the complex interplay of various physical phenomena in RF-MEMS, spanning mechanical, electrical, and electromagnetic domains, renders the design and optimization of new configurations challenging. In this study, a modeling approach based on Lumped Element Networks (LEN) is employed to accurately predict the Scattering Parameters (S-parameters) characteristics of multi-state and highly reconfigurable RF-MEMS devices. The device under scrutiny is a multi-state RF step power attenuator, previously fabricated, tested, and documented in literature by the principal author. Although these physical devices exhibit flat attenuation characteristics, they are subject to certain non-idealities inherent to the technology. The refined LEN-based methodology presented herein aims to interpret and incorporate such undesirable parasitic effects to provide precise predictions for real RF-MEMS devices. Two custom metrics, referred to as Percent Magnitude Difference (PMD) and Percent Phase Difference (PPD), are utilized to evaluate the accuracy of the LEN model, revealing differences consistently within 1% and 8%, respectively, across a frequency range spanning from 100 MHz to 13.5 GHz.</p>",
+          "accepted": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                7
+              ]
+            ]
+          },
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "Fondazione Bruno Kessler (FBK)"
+                }
+              ],
+              "family": "Iannacci",
+              "given": "Jacopo",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Fondazione Bruno Kessler (FBK)"
+                }
+              ],
+              "family": "Tagliapietra",
+              "given": "Girolamo",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "University of Niš"
+                }
+              ],
+              "family": "Marinković",
+              "given": "Zlatica",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "National Institute of Technology (NIT) Silchar"
+                }
+              ],
+              "family": "Guha",
+              "given": "Koushik",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Koneru Lakshmaiah University"
+                }
+              ],
+              "family": "Karumuri",
+              "given": "Srinivasa Rao",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "University of Trento"
+                }
+              ],
+              "family": "Chiele",
+              "given": "Irene Dal",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "University of Trento"
+                }
+              ],
+              "family": "Donelli",
+              "given": "Massimo",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                14
+              ]
+            ],
+            "date-time": "2024-05-14T07:48:43Z",
+            "timestamp": 1715672923000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                14
+              ]
+            ],
+            "date-time": "2024-05-14T07:49:01Z",
+            "timestamp": 1715672941000
+          },
+          "group-title": "In Review",
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                15
+              ]
+            ],
+            "date-time": "2024-05-15T00:33:34Z",
+            "timestamp": 1715733214920
+          },
+          "institution": [
+            {
+              "name": "Research Square"
+            }
+          ],
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                14
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://creativecommons.org/licenses/by/4.0/",
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2024,
+                    5,
+                    14
+                  ]
+                ],
+                "date-time": "2024-05-14T00:00:00Z",
+                "timestamp": 1715644800000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://www.researchsquare.com/article/rs-4382069/v1",
+              "content-type": "text/html",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://www.researchsquare.com/article/rs-4382069/v1.html",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "8761",
+          "posted": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                14
+              ]
+            ]
+          },
+          "prefix": "10.21203",
+          "published": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                14
+              ]
+            ]
+          },
+          "publisher": "Research Square Platform LLC",
+          "reference": [
+            {
+              "DOI": "10.1088/0960-1317/10/4/201",
+              "author": "Yao JJ",
+              "doi-asserted-by": "publisher",
+              "key": "ref1",
+              "unstructured": "Yao JJ (2000) RF MEMS from a device perspective. J. Micromechanics Microengineering. 10, R9–R38 https://doi.org/10.1088/0960-1317/10/4/201",
+              "year": "2000"
+            },
+            {
+              "DOI": "10.1109/ICISS.1997.630277",
+              "article-title": "RF MEMS for Digitally-Controlled Front-End Components",
+              "author": "Brown ER",
+              "doi-asserted-by": "publisher",
+              "first-page": "7803",
+              "key": "ref2",
+              "unstructured": "Brown ER RF MEMS for Digitally-Controlled Front-End Components. 7803. https://doi.org/10.1109/ICISS.1997.630277"
+            },
+            {
+              "DOI": "10.1109/75.704410",
+              "article-title": "Performance of Low-Loss RF MEMS Capacitive Switches",
+              "author": "Goldsmith CL",
+              "doi-asserted-by": "publisher",
+              "first-page": "269",
+              "journal-title": "IEEE Microw Guid Wave Lett",
+              "key": "ref3",
+              "unstructured": "Goldsmith CL, Yao Z, Eshelman S, Denniston D (1998) Performance of Low-Loss RF MEMS Capacitive Switches. IEEE Microw Guid Wave Lett 8:269–271. https://doi.org/10.1109/75.704410",
+              "volume": "8",
+              "year": "1998"
+            },
+            {
+              "DOI": "10.1109/22.734501",
+              "article-title": "RF-MEMS switches for reconfigurable integrated circuits",
+              "author": "Brown ER",
+              "doi-asserted-by": "publisher",
+              "first-page": "1868",
+              "journal-title": "IEEE Trans Microw Theory Tech",
+              "key": "ref4",
+              "unstructured": "Brown ER (1998) RF-MEMS switches for reconfigurable integrated circuits. IEEE Trans Microw Theory Tech 46:1868–1880. https://doi.org/10.1109/22.734501",
+              "volume": "46",
+              "year": "1998"
+            },
+            {
+              "DOI": "10.1109/75.819418",
+              "article-title": "Ka-Band RF MEMS Phase Shifters",
+              "author": "Pillans B",
+              "doi-asserted-by": "publisher",
+              "first-page": "520",
+              "journal-title": "IEEE Microw Guid Wave Lett",
+              "key": "ref5",
+              "unstructured": "Pillans B, Eshelman S, Malczewski A, Ehmke J, Goldsmith C (1999) Ka-Band RF MEMS Phase Shifters. IEEE Microw Guid Wave Lett 9:520–522. https://doi.org/10.1109/75.819418",
+              "volume": "9",
+              "year": "1999"
+            },
+            {
+              "DOI": "10.1109/75.819417",
+              "article-title": "X -Band RF MEMS Phase Shifters for Phased Array Applications",
+              "author": "Malczewski A",
+              "doi-asserted-by": "publisher",
+              "first-page": "517",
+              "key": "ref6",
+              "unstructured": "Malczewski A, Eshelman S, Pillans B, Ehmke J, Goldsmith CL (1999) X -Band RF MEMS Phase Shifters for Phased Array Applications. 9:517–519. https://doi.org/10.1109/75.819417",
+              "volume": "9",
+              "year": "1999"
+            },
+            {
+              "DOI": "10.1109/iedm.1999.824245",
+              "article-title": "Low actuation voltage RF MEMS switches with signal frequencies from 0.25GHz to 40GHz",
+              "author": "Shen SC",
+              "doi-asserted-by": "publisher",
+              "journal-title": "Tech Digest - Int Electron Devices Meeting",
+              "key": "ref7",
+              "unstructured": "Shen SC, Feng M (1999) Low actuation voltage RF MEMS switches with signal frequencies from 0.25GHz to 40GHz. Tech Digest - Int Electron Devices Meeting. https://doi.org/10.1109/iedm.1999.824245",
+              "year": "1999"
+            },
+            {
+              "DOI": "10.1007/s00542-015-2665-6",
+              "article-title": "RF-MEMS: an enabling technology for modern wireless systems bearing a market potential still not fully displayed",
+              "author": "Iannacci J",
+              "doi-asserted-by": "publisher",
+              "journal-title": "Microsyst Technol",
+              "key": "ref8",
+              "unstructured": "Iannacci J (2015) RF-MEMS: an enabling technology for modern wireless systems bearing a market potential still not fully displayed. Microsyst Technol 21. https://doi.org/10.1007/s00542-015-2665-6",
+              "volume": "21",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1088/978-0-7503-4199-8",
+              "author": "Iannacci J",
+              "doi-asserted-by": "publisher",
+              "key": "ref9",
+              "unstructured": "Iannacci J (2022) RF-MEMS Technology for High-Performance Passives (2nd Edition). https://doi.org/10.1088/978-0-7503-4199-8",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/APMC.2017.8251382",
+              "author": "Oberhammer J",
+              "doi-asserted-by": "publisher",
+              "key": "ref10",
+              "unstructured": "Oberhammer J (2017) THz MEMS - Micromachining enabling new solutions at millimeter and submillimeter-wave frequencies (invited paper). In: Asia-Pacific Microwave Conference Proceedings, APMC https://doi.org/10.1109/APMC.2017.8251382",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/TTHZ.2017.2670259",
+              "article-title": "A 500–750 GHz RF MEMS Waveguide Switch",
+              "author": "Shah U",
+              "doi-asserted-by": "publisher",
+              "first-page": "326",
+              "journal-title": "IEEE Trans Terahertz Sci Technol",
+              "key": "ref11",
+              "unstructured": "Shah U, Reck T, Frid H, Jung-Kubiak C, Chattopadhyay G, Mehdi I, Oberhammer J (2017) A 500–750 GHz RF MEMS Waveguide Switch. IEEE Trans Terahertz Sci Technol 7:326–334. https://doi.org/10.1109/TTHZ.2017.2670259",
+              "volume": "7",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/APMC.2017.8251382",
+              "author": "Oberhammer J",
+              "doi-asserted-by": "publisher",
+              "key": "ref12",
+              "unstructured": "Oberhammer J (2017) THz MEMS - Micromachining enabling new solutions at millimeter and submillimeter-wave frequencies (invited paper). In: Asia-Pacific Microwave Conference Proceedings, APMC https://doi.org/10.1109/APMC.2017.8251382",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/MWSYM.2015.7166829",
+              "author": "Shah U",
+              "doi-asserted-by": "publisher",
+              "key": "ref13",
+              "unstructured": "Shah U, Decrossas E, Jung-Kubiak C, Reck T, Chattopadhyay G, Mehdi I, Oberhammer J (2015) 500–600 GHz submillimeter-wave 3.3 bit RF MEMS phase shifter integrated in micromachined waveguide. In: 2015 IEEE MTT-S International Microwave Symposium, IMS 2015 https://doi.org/10.1109/MWSYM.2015.7166829",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1533/9780857098610",
+              "author": "Uttamchandani D",
+              "doi-asserted-by": "publisher",
+              "key": "ref14",
+              "unstructured": "Uttamchandani D (2013) Handbook of Mems for Wireless and Mobile Applications. https://doi.org/10.1533/9780857098610",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.1201/9780429103872",
+              "author": "Gad-el-Hak M",
+              "doi-asserted-by": "publisher",
+              "key": "ref15",
+              "unstructured": "Gad-el-Hak M (2001) The MEMS Handbook. https://doi.org/10.1201/9780429103872",
+              "year": "2001"
+            },
+            {
+              "DOI": "10.1016/C2013-0-19270-7",
+              "author": "Tilli M",
+              "doi-asserted-by": "publisher",
+              "key": "ref16",
+              "unstructured": "Tilli M, Motooka T, Airaksinen VM, Franssila S, Paulasto-Kröckel M, Lindroos V (2015) Handbook of Silicon Based MEMS Materials and Technologies: Second Edition. https://doi.org/10.1016/C2013-0-19270-7",
+              "year": "2015"
+            },
+            {
+              "DOI": "10.1109/TCSII.2007.914443",
+              "article-title": "Physical modeling of MEMS variable inductor",
+              "author": "Yammouch T",
+              "doi-asserted-by": "publisher",
+              "first-page": "419",
+              "journal-title": "IEEE Trans Circuits Syst II Express Briefs",
+              "key": "ref17",
+              "unstructured": "Yammouch T, Okada K, Masu K (2008) Physical modeling of MEMS variable inductor. IEEE Trans Circuits Syst II Express Briefs 55:419–422. https://doi.org/10.1109/TCSII.2007.914443",
+              "volume": "55",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1109/16.824729",
+              "article-title": "Physical modeling of spiral inductors on silicon",
+              "author": "Patrick Yue C",
+              "doi-asserted-by": "publisher",
+              "first-page": "560",
+              "journal-title": "IEEE Trans Electron Devices",
+              "key": "ref18",
+              "unstructured": "Patrick Yue C, Simon Wong S (2000) Physical modeling of spiral inductors on silicon. IEEE Trans Electron Devices 47:560–568. https://doi.org/10.1109/16.824729",
+              "volume": "47",
+              "year": "2000"
+            },
+            {
+              "DOI": "10.1049/el:20046490",
+              "article-title": "Lumped element modelling of coplanar series RF MEMS switches",
+              "author": "Marcelli R",
+              "doi-asserted-by": "publisher",
+              "first-page": "1272",
+              "journal-title": "Electron Lett",
+              "key": "ref19",
+              "unstructured": "Marcelli R, Bartolucci G, Minucci G, Margesin B, Giacomozzi F, Vitulli F (2004) Lumped element modelling of coplanar series RF MEMS switches. Electron Lett 40:1272–1274. https://doi.org/10.1049/el:20046490",
+              "volume": "40",
+              "year": "2004"
+            },
+            {
+              "DOI": "10.1109/JMEMS.2010.2048417",
+              "article-title": "Experimental Validation of Mixed Electromechanical and Electromagnetic Modeling of RF-MEMS Devices Within a Standard IC Simulation Environment",
+              "author": "Iannacci J",
+              "doi-asserted-by": "publisher",
+              "first-page": "526",
+              "journal-title": "J Microelectromechanical Syst",
+              "key": "ref20",
+              "unstructured": "Iannacci J, Gaddi R, Gnudi A (2010) Experimental Validation of Mixed Electromechanical and Electromagnetic Modeling of RF-MEMS Devices Within a Standard IC Simulation Environment. J Microelectromechanical Syst 19:526–537. https://doi.org/10.1109/JMEMS.2010.2048417",
+              "volume": "19",
+              "year": "2010"
+            },
+            {
+              "author": "Iannacci J",
+              "key": "ref21",
+              "unstructured": "Iannacci J, Faes A, Mastri F, Masotti D, Rizzoli V (2010) A MEMS-based wide-band multi-state power attenuator for radio frequency and microwave applications. In: Nanotechnology 2010: Electronics, Devices, Fabrication, MEMS, Fluidics and Computational - Technical Proceedings of the 2010 NSTI Nanotechnology Conference and Expo, NSTI-Nanotech 2010 doi n/a",
+              "year": "2010"
+            },
+            {
+              "author": "Iannacci J",
+              "key": "ref22",
+              "unstructured": "Iannacci J, Faes A, Kuenzig T, Niessner M, Wachutka G (2011) Electromechanical and electromagnetic simulation of RF-MEMS complex networks based on compact modeling approach. In: Technical Proceedings of the 2011 NSTI Nanotechnology Conference and Expo, NSTI-Nanotech 2011 doi n/a",
+              "year": "2011"
+            },
+            {
+              "article-title": "A flexible fabrication process for RF MEMS devices",
+              "author": "Giacomozzi F",
+              "journal-title": "Rom J Inf Sci Technol",
+              "key": "ref23",
+              "unstructured": "Giacomozzi F, Mulloni V, Colpo S, Iannacci J, Margesin B, Faes A (2011) A flexible fabrication process for RF MEMS devices. Rom J Inf Sci Technol 14, doi n/a.",
+              "volume": "14",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1109/EURCON.2009.5167788",
+              "author": "Iannacci J",
+              "doi-asserted-by": "publisher",
+              "key": "ref24",
+              "unstructured": "Iannacci J, Giacomozzi F, Colpo S, Margesin B, Bartek M (2009) (2009) A general purpose reconfigurable mems-based attenuator for radio frequency and microwave applications. In: IEEE EUROCON 2009, EUROCON https://doi.org/10.1109/EURCON.2009.5167788",
+              "year": "2009"
+            },
+            {
+              "DOI": "10.3390/s23073380",
+              "article-title": "Modelling, Validation and Experimental Analysis of Diverse RF-MEMS Ohmic Switch Designs in View of Beyond-5G, 6G and Future Networks—Part 1",
+              "author": "Iannacci J",
+              "doi-asserted-by": "publisher",
+              "journal-title": "Sensors",
+              "key": "ref25",
+              "unstructured": "Iannacci J (2023) Modelling, Validation and Experimental Analysis of Diverse RF-MEMS Ohmic Switch Designs in View of Beyond-5G, 6G and Future Networks—Part 1. Sensors 23. https://doi.org/10.3390/s23073380",
+              "volume": "23",
+              "year": "2023"
+            }
+          ],
+          "reference-count": 25,
+          "references-count": 25,
+          "resource": {
+            "primary": {
+              "URL": "https://www.researchsquare.com/article/rs-4382069/v1"
+            }
+          },
+          "score": 63.101795,
+          "source": "Crossref",
+          "subtype": "preprint",
+          "title": [
+            "Simple and Fast Modelling of Radio Frequency Passives in View of Beyond-5G and 6G Applications – Case Study of an RF-MEMS Multi-State Network Described by an Equivalent Lumped Element Network"
+          ],
+          "type": "posted-content"
+        },
+        {
+          "DOI": "10.31673/2786-8362.2026.018042",
+          "ISSN": [
+            "2786-8362"
+          ],
+          "URL": "https://doi.org/10.31673/2786-8362.2026.018042",
+          "container-title": [
+            "Scientific Notes of the State University of Telecommunications"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                4
+              ]
+            ],
+            "date-time": "2026-06-04T12:05:47Z",
+            "timestamp": 1780574747000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                4
+              ]
+            ],
+            "date-time": "2026-06-04T12:05:48Z",
+            "timestamp": 1780574748000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                4
+              ]
+            ],
+            "date-time": "2026-06-04T13:03:20Z",
+            "timestamp": 1780578200690,
+            "version": "3.54.1"
+          },
+          "is-referenced-by-count": 0,
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "2786-8362"
+            }
+          ],
+          "issue": "1",
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                25
+              ]
+            ]
+          },
+          "journal-issue": {
+            "issue": "1",
+            "published-online": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  25
+                ]
+              ]
+            },
+            "published-print": {
+              "date-parts": [
+                [
+                  2026,
+                  5,
+                  25
+                ]
+              ]
+            }
+          },
+          "member": "16827",
+          "original-title": [
+            "Удосконалення управління радіочастотними ресурсами в сегментованій мережі радіодоступу 5G"
+          ],
+          "page": "60-87",
+          "prefix": "10.31673",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                25
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                25
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026,
+                5,
+                25
+              ]
+            ]
+          },
+          "publisher": "State University of Information and Communication Technologies",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://journals.duikt.edu.ua/index.php/sciencenotes/article/view/3497"
+            }
+          },
+          "score": 60.34128,
+          "short-container-title": [
+            "SNSUT"
+          ],
+          "source": "Crossref",
+          "title": [
+            "Improving radio frequency resource management in a segmented 5G Radio Access Network"
+          ],
+          "type": "journal-article",
+          "volume": "9"
+        },
+        {
+          "DOI": "10.1201/9788743801108-11",
+          "ISBN": [
+            "9788743801108"
+          ],
+          "URL": "https://doi.org/10.1201/9788743801108-11",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Hemanshi",
+              "given": "Anil K.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Gupta",
+              "given": "Vaibhav",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Nandakumar",
+              "given": "S.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Khara",
+              "given": "Sibaram",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Velmurugan",
+              "given": "T.",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "The Road to B5G/6G Mobile Communication Networks: Technologies and Applications"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2025-09-02T12:03:06Z",
+            "timestamp": 1756814586000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2025-09-02T12:03:07Z",
+            "timestamp": 1756814587000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ],
+            "date-time": "2025-09-02T12:40:15Z",
+            "timestamp": 1756816815601,
+            "version": "3.44.0"
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "electronic",
+              "value": "9788743801108"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ]
+          },
+          "language": "en",
+          "member": "301",
+          "page": "169-187",
+          "prefix": "10.1201",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                9,
+                2
+              ]
+            ]
+          },
+          "publisher": "River Publishers",
+          "publisher-location": "New York",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.taylorfrancis.com/books/9788743801108/chapters/10.1201/9788743801108-11"
+            }
+          },
+          "score": 60.314903,
+          "source": "Crossref",
+          "title": [
+            "Centralized Radio Access Network (C-RAN) Architecture for 5G using Fronthaul (FH) and Backhaul (BH) Networks"
+          ],
+          "type": "book-chapter"
+        },
+        {
+          "DOI": "10.1016/j.heliyon.2021.e07412",
+          "ISSN": [
+            "2405-8440"
+          ],
+          "URL": "https://doi.org/10.1016/j.heliyon.2021.e07412",
+          "alternative-id": [
+            "S2405844021015152"
+          ],
+          "article-number": "e07412",
+          "assertion": [
+            {
+              "label": "This article is maintained by",
+              "name": "publisher",
+              "value": "Elsevier"
+            },
+            {
+              "label": "Article Title",
+              "name": "articletitle",
+              "value": "Evaluation of adjacent channel interference from land-earth station in motion to 5G radio access network in the Ka-frequency band"
+            },
+            {
+              "label": "Journal Title",
+              "name": "journaltitle",
+              "value": "Heliyon"
+            },
+            {
+              "label": "CrossRef DOI link to publisher maintained version",
+              "name": "articlelink",
+              "value": "https://doi.org/10.1016/j.heliyon.2021.e07412"
+            },
+            {
+              "label": "Content Type",
+              "name": "content_type",
+              "value": "article"
+            },
+            {
+              "label": "Copyright",
+              "name": "copyright",
+              "value": "© 2021 The Author(s). Published by Elsevier Ltd."
+            }
+          ],
+          "author": [
+            {
+              "ORCID": "https://orcid.org/0000-0001-8122-4513",
+              "affiliation": [],
+              "authenticated-orcid": false,
+              "family": "Barrie",
+              "given": "Sajor",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "ORCID": "https://orcid.org/0000-0001-7294-2652",
+              "affiliation": [],
+              "authenticated-orcid": false,
+              "family": "Konditi",
+              "given": "Dominic Bernard Onyango",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Heliyon"
+          ],
+          "content-domain": {
+            "crossmark-restriction": true,
+            "domain": [
+              "cell.com",
+              "elsevier.com",
+              "sciencedirect.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                6,
+                25
+              ]
+            ],
+            "date-time": "2021-06-25T20:32:21Z",
+            "timestamp": 1624653141000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                3,
+                21
+              ]
+            ],
+            "date-time": "2026-03-21T01:22:16Z",
+            "timestamp": 1774056136000
+          },
+          "funder": [
+            {
+              "DOI": "10.13039/501100011951",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "asserted-by": "publisher",
+                  "id": "10.13039/501100011951",
+                  "id-type": "DOI"
+                }
+              ],
+              "name": "African Union"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                6,
+                25
+              ]
+            ],
+            "date-time": "2026-06-25T16:04:06Z",
+            "timestamp": 1782403446071,
+            "version": "3.54.5"
+          },
+          "is-referenced-by-count": 5,
+          "issn-type": [
+            {
+              "type": "print",
+              "value": "2405-8440"
+            }
+          ],
+          "issue": "6",
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                6
+              ]
+            ]
+          },
+          "journal-issue": {
+            "issue": "6",
+            "published-print": {
+              "date-parts": [
+                [
+                  2021,
+                  6
+                ]
+              ]
+            }
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    6,
+                    1
+                  ]
+                ],
+                "date-time": "2021-06-01T00:00:00Z",
+                "timestamp": 1622505600000
+              }
+            },
+            {
+              "URL": "https://www.elsevier.com/legal/tdmrep-license",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    6,
+                    1
+                  ]
+                ],
+                "date-time": "2021-06-01T00:00:00Z",
+                "timestamp": 1622505600000
+              }
+            },
+            {
+              "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+              "content-version": "vor",
+              "delay-in-days": 23,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    6,
+                    24
+                  ]
+                ],
+                "date-time": "2021-06-24T00:00:00Z",
+                "timestamp": 1624492800000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S2405844021015152?httpAccept=text/xml",
+              "content-type": "text/xml",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://api.elsevier.com/content/article/PII:S2405844021015152?httpAccept=text/plain",
+              "content-type": "text/plain",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            }
+          ],
+          "member": "78",
+          "page": "e07412",
+          "prefix": "10.1016",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                6
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                6
+              ]
+            ]
+          },
+          "publisher": "Elsevier BV",
+          "reference": [
+            {
+              "author": "ITU-R S.2464-0",
+              "key": "10.1016/j.heliyon.2021.e07412_bib2",
+              "series-title": "Operation of Earth Stations in Motion Communicating with Geostationary Space Stations in the Fixed-Satellite Service Allocations at 17.7-19.7 GHz and 27.5-29.5 GHz",
+              "year": "2019"
+            },
+            {
+              "author": "ITU-R Recommendation M.2101-0",
+              "key": "10.1016/j.heliyon.2021.e07412_bib3",
+              "series-title": "Modelling and Simulation of IMT Networks and Systems for Use in Sharing and Compatibility Studies",
+              "year": "2017"
+            },
+            {
+              "article-title": "Assessment of the interference effect from Land earth stations in motion to fixed service stations",
+              "author": "Menanor",
+              "key": "10.1016/j.heliyon.2021.e07412_bib4",
+              "series-title": "IEEE AFRICON",
+              "year": "2019"
+            },
+            {
+              "article-title": "adjacent channel interference from Maritime earth station in motion to 5G mobile service",
+              "author": "Kim",
+              "key": "10.1016/j.heliyon.2021.e07412_bib5",
+              "series-title": "International Conference on Information and Communication Technology Convergence (ICTC)",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.5515/KJKIEES.2019.30.9.733",
+              "article-title": "Interference analysis for compatibility evaluation between aeronautical earth station in motion and 5G mobile communications",
+              "author": "Kim",
+              "doi-asserted-by": "crossref",
+              "journal-title": "J. Kor. Inst. Electromagn. Sci. (JKIES)",
+              "key": "10.1016/j.heliyon.2021.e07412_bib6",
+              "year": "2019"
+            },
+            {
+              "author": "ITU-R Recommendation P.452-16",
+              "key": "10.1016/j.heliyon.2021.e07412_bib7",
+              "series-title": "Prediction Procedure for the Evaluation of Interference between Stations on the Surface of the Earth at Frequencies above about 0.1GHz",
+              "year": "2015"
+            },
+            {
+              "author": "ITU-R Recommendation M.2041",
+              "key": "10.1016/j.heliyon.2021.e07412_bib8",
+              "series-title": "Sharing and Adjacent Band Compatibility in the 2.5 GHz Band between the Terrestrial and Satellite Components of IMT-2000",
+              "year": "2003"
+            },
+            {
+              "article-title": "Analysis of the interference effects from Maritime earth station in motion to 5G mobile service",
+              "author": "Son",
+              "key": "10.1016/j.heliyon.2021.e07412_bib9",
+              "series-title": "International Conference on Information and Communication Technology Convergence (ICTC)",
+              "year": "2017"
+            },
+            {
+              "article-title": "adjacent channel compatibility between OFDM based earth station in motion and 5G",
+              "author": "Kim",
+              "key": "10.1016/j.heliyon.2021.e07412_bib10",
+              "series-title": "2019 IEEE Globecom Workshops (GC Wkshps)",
+              "year": "2020"
+            },
+            {
+              "author": "ITU-R Recommendation SM.337-4",
+              "key": "10.1016/j.heliyon.2021.e07412_bib11",
+              "series-title": "Frequency and Distance Separations",
+              "year": "2008"
+            },
+            {
+              "author": "Recommendation ITU-R P.526-14",
+              "key": "10.1016/j.heliyon.2021.e07412_bib12",
+              "series-title": "Propagation by Diffraction",
+              "year": "2018"
+            },
+            {
+              "author": "ITU-R Recommendation SF.1486",
+              "key": "10.1016/j.heliyon.2021.e07412_bib13",
+              "series-title": "Sharing Methodology between Fixed Wireless Access Systems in the Fixed Service and Very Small Aperture Terminals in the Fixed-Satellite Service in the 3400-3700 MHz Band",
+              "year": "2000"
+            },
+            {
+              "author": "ITU-R Recommendation P.676-10",
+              "key": "10.1016/j.heliyon.2021.e07412_bib14",
+              "series-title": "Attenuation by Atmospheric Gases",
+              "year": "2013"
+            },
+            {
+              "author": "ITU-R Recommendation S.524-9",
+              "key": "10.1016/j.heliyon.2021.e07412_bib15",
+              "series-title": "Maximum permissible levels of off-axis e.i.r.p. density from earth stations in geostationary-satellite orbit networks operating in the fixed-satellite service transmitting in the 6 GHz, 13 GHz, 14 GHz, and 30 GHz frequency bands",
+              "year": "2006"
+            },
+            {
+              "key": "10.1016/j.heliyon.2021.e07412_bib16",
+              "series-title": "Characteristics of Terrestrial IMT Systems for Frequency Sharing/Interference Analyses in the Frequency Range between 24.25 GHz and 86 GHz",
+              "year": "2017"
+            },
+            {
+              "key": "10.1016/j.heliyon.2021.e07412_bib17",
+              "series-title": "Studies on the protection of FS Links in EACO Countries",
+              "year": "2017"
+            }
+          ],
+          "reference-count": 16,
+          "references-count": 16,
+          "resource": {
+            "primary": {
+              "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2405844021015152"
+            }
+          },
+          "score": 60.21982,
+          "short-container-title": [
+            "Heliyon"
+          ],
+          "source": "Crossref",
+          "title": [
+            "Evaluation of adjacent channel interference from land-earth station in motion to 5G radio access network in the Ka-frequency band"
+          ],
+          "type": "journal-article",
+          "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+          "volume": "7"
+        },
+        {
+          "DOI": "10.2139/ssrn.4803484",
+          "URL": "https://doi.org/10.2139/ssrn.4803484",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Lu",
+              "given": "Weicheng",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Li",
+              "given": "Hailiang",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Mo",
+              "given": "Weike",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                22
+              ]
+            ],
+            "date-time": "2024-04-22T20:53:23Z",
+            "timestamp": 1713819203000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                22
+              ]
+            ],
+            "date-time": "2024-04-22T21:49:42Z",
+            "timestamp": 1713822582000
+          },
+          "group-title": "SSRN",
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                4,
+                23
+              ]
+            ],
+            "date-time": "2024-04-23T00:36:44Z",
+            "timestamp": 1713832604366
+          },
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "member": "78",
+          "posted": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "prefix": "10.2139",
+          "published": {
+            "date-parts": [
+              [
+                2024
+              ]
+            ]
+          },
+          "publisher": "Elsevier BV",
+          "reference": [
+            {
+              "DOI": "10.1109/TPWRS.2020.3041774",
+              "article-title": "Definition and classification of power system stability-revisited & extended",
+              "author": "N Hatziargyriou",
+              "doi-asserted-by": "crossref",
+              "first-page": "3271",
+              "issue": "4",
+              "journal-title": "IEEE Transactions on Power Systems",
+              "key": "ref1",
+              "volume": "36",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1186/s41601-019-0126-4",
+              "article-title": "From demand response to integrated demand response: Review and prospect of research and application",
+              "author": "W Huang",
+              "doi-asserted-by": "crossref",
+              "first-page": "1",
+              "journal-title": "Protection and Control of Modern Power Systems",
+              "key": "ref2",
+              "volume": "4",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2007.901489",
+              "article-title": "Stabilization of grid frequency through dynamic demand control",
+              "author": "J A Short",
+              "doi-asserted-by": "crossref",
+              "first-page": "1284",
+              "issue": "3",
+              "journal-title": "IEEE Transactions on Power Systems",
+              "key": "ref3",
+              "volume": "22",
+              "year": "2007"
+            },
+            {
+              "article-title": "5g frequency standardization, technologies, channel models, and network deployment: Advances, challenges, and future directions",
+              "author": "Y O Imam-Fulani",
+              "issue": "6",
+              "journal-title": "Sustainability",
+              "key": "ref4",
+              "volume": "15",
+              "year": "2023"
+            },
+            {
+              "article-title": "Feasibility study of power demand response for 5g base station",
+              "author": "J Liu",
+              "first-page": "1038",
+              "journal-title": "IEEE International Conference on Power Electronics, Computer Applications (ICPECA)",
+              "key": "ref5",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.jnca.2020.102910",
+              "article-title": "Renewable energy powered sustainable 5g network infrastructure: Opportunities, challenges and perspectives",
+              "author": "A Israr",
+              "doi-asserted-by": "crossref",
+              "journal-title": "Journal of Network and Computer Applications",
+              "key": "ref6",
+              "volume": "175",
+              "year": "2021"
+            },
+            {
+              "article-title": "A review and outlook on cloud energy storage: An aggregated and shared utilizing method of energy storage system",
+              "author": "S Zhang",
+              "journal-title": "Renewable and Sustainable Energy Reviews",
+              "key": "ref7",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2022.108816",
+              "article-title": "Optimal capacity planning and operation of shared energy storage system for large-scale photovoltaic integrated 5g base stations",
+              "author": "X Zhang",
+              "doi-asserted-by": "crossref",
+              "journal-title": "International Journal of Electrical Power & Energy Systems",
+              "key": "ref8",
+              "volume": "147",
+              "year": "2023"
+            },
+            {
+              "DOI": "10.1016/j.gloei.2022.04.006",
+              "article-title": "Optimal configuration of 5g base station energy storage considering sleep mechanism",
+              "author": "X Ma",
+              "doi-asserted-by": "crossref",
+              "first-page": "66",
+              "issue": "1",
+              "journal-title": "Global Energy Interconnection",
+              "key": "ref9",
+              "volume": "5",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2021.3082430",
+              "article-title": "A review on communication aspects of demand response management for future 5g iot-based smart grids",
+              "author": "S Ahmadzadeh",
+              "doi-asserted-by": "crossref",
+              "first-page": "77",
+              "journal-title": "IEEE Access",
+              "key": "ref10",
+              "volume": "9",
+              "year": "2021"
+            },
+            {
+              "article-title": "5g communication base stations participating in demand response: Key technologies and prospects",
+              "author": "P Yong",
+              "first-page": "5540",
+              "issue": "16",
+              "journal-title": "Proceedings of the CSEE",
+              "key": "ref11",
+              "volume": "41",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2021.3124141",
+              "article-title": "Exploring the cellular base station dispatch potential towards power system frequency regulation",
+              "author": "P Yong",
+              "doi-asserted-by": "crossref",
+              "first-page": "820",
+              "issue": "1",
+              "journal-title": "IEEE Transactions on Power Systems",
+              "key": "ref12",
+              "volume": "37",
+              "year": "2021"
+            },
+            {
+              "article-title": "Strategy of 5g base station energy storage participating in the power system frequency regulation",
+              "author": "G Ding",
+              "first-page": "14",
+              "issue": "11",
+              "journal-title": "Arabian Journal for Science and Engineering",
+              "key": "ref13",
+              "volume": "48",
+              "year": "2023"
+            },
+            {
+              "article-title": "Modeling and aggregated control of large-scale 5g base stations and backup energy storage systems towards secondary frequency support",
+              "author": "P Bao",
+              "journal-title": "Applied Energy",
+              "key": "ref14",
+              "volume": "357",
+              "year": "2024"
+            },
+            {
+              "DOI": "10.1109/TSG.2019.2904075",
+              "article-title": "Dual-consensus-based distributed frequency control for multiple energy storage systems",
+              "author": "L Xing",
+              "doi-asserted-by": "crossref",
+              "first-page": "6396",
+              "issue": "6",
+              "journal-title": "IEEE Transactions on Smart Grid",
+              "key": "ref15",
+              "volume": "10",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2020.2974026",
+              "article-title": "Distributed control of battery energy storage systems for improved frequency regulation",
+              "author": "T Zhao",
+              "doi-asserted-by": "crossref",
+              "first-page": "3729",
+              "issue": "5",
+              "journal-title": "IEEE Transactions on Power Systems",
+              "key": "ref16",
+              "volume": "35",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.3390/en13113026",
+              "article-title": "Decentralized frequency control of battery energy storage systems distributed in isolated microgrid",
+              "author": "W Pinthurat",
+              "doi-asserted-by": "crossref",
+              "issue": "11",
+              "journal-title": "Energies",
+              "key": "ref17",
+              "volume": "13",
+              "year": "2020"
+            },
+            {
+              "article-title": "Implementation of distributed autonomous control based battery energy storage system for frequency regulation",
+              "author": "H.-S Kim",
+              "issue": "9",
+              "journal-title": "Energies",
+              "key": "ref18",
+              "volume": "14",
+              "year": "2021"
+            },
+            {
+              "article-title": "Distributed mpc-based frequency control for multi-area power systems with energy storage",
+              "author": "L Yang",
+              "key": "ref19",
+              "volume": "190",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1016/j.ijepes.2020.106493",
+              "article-title": "Location-dependent distributed control of battery energy storage systems for fast frequency response",
+              "author": "T Zhao",
+              "doi-asserted-by": "crossref",
+              "journal-title": "International Journal of Electrical Power & Energy Systems",
+              "key": "ref20",
+              "volume": "125",
+              "year": "2021"
+            },
+            {
+              "DOI": "10.1049/gtd2.12318",
+              "article-title": "A dynamic distributed energy storage control strategy for providing primary frequency regulation using multi-armed bandits method",
+              "author": "J Sun",
+              "doi-asserted-by": "crossref",
+              "first-page": "669",
+              "issue": "4",
+              "journal-title": "IET Generation, Transmission & Distribution",
+              "key": "ref21",
+              "volume": "16",
+              "year": "2022"
+            },
+            {
+              "article-title": "A novel allocation strategy based on the model predictive control of primary frequency regulation power for multiple distributed energy storage aggregators",
+              "author": "T Mao",
+              "issue": "17",
+              "journal-title": "Energies",
+              "key": "ref22",
+              "volume": "16",
+              "year": "2023"
+            },
+            {
+              "article-title": "Distributed settlement of frequency regulation based on a battery energy storage system",
+              "author": "H Lin",
+              "issue": "1",
+              "journal-title": "Energies",
+              "key": "ref23",
+              "volume": "12",
+              "year": "2019"
+            },
+            {
+              "DOI": "10.1109/TPWRS.2020.2997950",
+              "article-title": "Robust control scheme for distributed battery energy storage systems in load frequency control",
+              "author": "A Oshnoei",
+              "doi-asserted-by": "crossref",
+              "first-page": "4781",
+              "issue": "6",
+              "journal-title": "IEEE Transactions on Power Systems",
+              "key": "ref24",
+              "volume": "35",
+              "year": "2020"
+            },
+            {
+              "article-title": "A two-layer frequency control method for large-scale distributed energy storage clusters",
+              "author": "Y Lin",
+              "journal-title": "International Journal of Electrical Power & Energy Systems",
+              "key": "ref25",
+              "volume": "143",
+              "year": "2022"
+            },
+            {
+              "article-title": "Hierarchical distributed coordinated control for battery energy storage systems participating in frequency regulation",
+              "author": "B Yu",
+              "issue": "19",
+              "journal-title": "Energies",
+              "key": "ref26",
+              "volume": "15",
+              "year": "2022"
+            },
+            {
+              "article-title": "Fast hierarchical coordinated controller for distributed battery energy storage systems to mitigate voltage and frequency deviations",
+              "author": "G E Mejia-Ruiz",
+              "journal-title": "Applied Energy",
+              "key": "ref27",
+              "volume": "323",
+              "year": "2022"
+            },
+            {
+              "DOI": "10.1109/LCOMM.2013.091213.131042",
+              "article-title": "A parameterized base station power model",
+              "author": "H Holtkamp",
+              "doi-asserted-by": "crossref",
+              "first-page": "2033",
+              "issue": "11",
+              "journal-title": "IEEE Communications Letters",
+              "key": "ref28",
+              "volume": "17",
+              "year": "2013"
+            },
+            {
+              "DOI": "10.3390/s120404281",
+              "article-title": "Measurements and modelling of base station power consumption under real traffic loads",
+              "author": "J Lorincz",
+              "doi-asserted-by": "crossref",
+              "first-page": "4281",
+              "issue": "4",
+              "journal-title": "Sensors",
+              "key": "ref29",
+              "volume": "12",
+              "year": "2012"
+            },
+            {
+              "DOI": "10.1049/iet-com.2017.0330",
+              "article-title": "Temporal-spatial distribution nature of traffic and base stations in cellular networks",
+              "author": "Z Zhao",
+              "doi-asserted-by": "crossref",
+              "first-page": "2410",
+              "issue": "16",
+              "journal-title": "IET Communications",
+              "key": "ref30",
+              "volume": "11",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1016/j.automatica.2017.02.003",
+              "article-title": "Gather-and-broadcast frequency control in power systems",
+              "author": "F Dorfler",
+              "doi-asserted-by": "crossref",
+              "first-page": "296",
+              "journal-title": "Automatica",
+              "key": "ref31",
+              "volume": "79",
+              "year": "2017"
+            },
+            {
+              "DOI": "10.1109/TSG.2016.2636217",
+              "article-title": "Distributed control of battery energy storage systems for voltage regulation in distribution networks with high pv penetration",
+              "author": "M Zeraati",
+              "doi-asserted-by": "crossref",
+              "first-page": "3582",
+              "issue": "4",
+              "journal-title": "IEEE Transactions on Smart Grid",
+              "key": "ref32",
+              "volume": "9",
+              "year": "2018"
+            },
+            {
+              "DOI": "10.1109/ACCESS.2022.3195860",
+              "article-title": "Doublelayer k-means plus plus clustering method for evaluation of dispatchable potential of massive regional 5g base stations",
+              "author": "L Zhong",
+              "doi-asserted-by": "crossref",
+              "first-page": "82",
+              "journal-title": "IEEE Access",
+              "key": "ref33",
+              "volume": "10",
+              "year": "2022"
+            },
+            {
+              "article-title": "Communication resources allocation for time delay reduction of frequency regulation service in a high renewable penetrated power system",
+              "author": "H He",
+              "journal-title": "CSEE Journal of Power and Energy Systems, Early Access",
+              "key": "ref34",
+              "year": "2023"
+            },
+            {
+              "article-title": "Impact of communication time delay in a 5g network on frequency regulation performance of a high renewable energy penetrated power system",
+              "author": "H He",
+              "journal-title": "IEEE Internet of Things Journal, Early Access",
+              "key": "ref35",
+              "year": "2023"
+            }
+          ],
+          "reference-count": 35,
+          "references-count": 35,
+          "resource": {
+            "primary": {
+              "URL": "https://www.ssrn.com/abstract=4803484"
+            }
+          },
+          "score": 59.167526,
+          "source": "Crossref",
+          "subtype": "preprint",
+          "title": [
+            "Integrated Control Strategy for 5g Base Station Frequency Regulation Considering Spatio-Temporal Variations in Communication Load"
+          ],
+          "type": "posted-content"
+        }
+      ],
+      "items-per-page": 10,
+      "query": {
+        "search-terms": null,
+        "start-index": 0
+      },
+      "total-results": 255
+    },
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "status": "ok"
+  },
+  "retrieved_at_utc": "2026-08-31T14:29:43Z",
+  "retry_count": 0
+}

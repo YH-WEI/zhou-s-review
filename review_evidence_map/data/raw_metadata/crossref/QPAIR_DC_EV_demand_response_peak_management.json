@@ -1,0 +1,2475 @@
+{
+  "http_status": 200,
+  "request_url_redacted": "https://api.crossref.org/works?query.bibliographic=%28%22data+centre%22+OR+%22data+center%22+OR+%22AI+data+centre%22+OR+%22AI+data+center%22+OR+%22cloud+computing+facility%22+OR+%22high+performance+computing%22+OR+%22edge+data+centre%22+OR+%22edge+data+center%22%29+AND+%28%22electric+vehicle%22+OR+%22EV+fleet%22+OR+%22smart+charging%22+OR+V1G+OR+%22vehicle-to-grid%22+OR+V2G+OR+%22vehicle-to-building%22+OR+V2B+OR+%22vehicle-to-home%22+OR+V2H%29+AND+%28%22demand+response%22+OR+%22peak+management%22+OR+%22peak+shaving%22+OR+%22load+shifting%22+OR+flexibility%29+AND+%28coordination+OR+%22coordinated+control%22+OR+%22co-optimization%22+OR+aggregation+OR+%22multi-asset%22+OR+%22integrated+energy+management%22+OR+%22distributed+control%22+OR+%22model+predictive+control%22+OR+MPC+OR+%22measurement+and+verification%22%29&filter=from-pub-date%3A2015-01-01%2Cuntil-pub-date%3A2026-08-31&rows=10&sort=relevance&order=desc",
+  "response": {
+    "message": {
+      "facets": {},
+      "items": [
+        {
+          "DOI": "10.1109/imcec.2016.7867538",
+          "URL": "https://doi.org/10.1109/imcec.2016.7867538",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Yu",
+              "given": "Yale",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Cheng",
+              "given": "Guojian",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Qiang",
+              "given": "Xinjian",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2016 IEEE Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                3,
+                2
+              ]
+            ],
+            "date-time": "2017-03-02T21:40:47Z",
+            "timestamp": 1488490847000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2020,
+                1,
+                15
+              ]
+            ],
+            "date-time": "2020-01-15T09:18:15Z",
+            "timestamp": 1579079895000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2016,
+                  10,
+                  5
+                ]
+              ]
+            },
+            "location": "Xi'an",
+            "name": "2016 IEEE Advanced Information Management, Communicates, Electronic and Automation Control Conference (IMCEC)",
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  10,
+                  3
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                30
+              ]
+            ],
+            "date-time": "2024-10-30T05:34:46Z",
+            "timestamp": 1730266486634,
+            "version": "3.28.0"
+          },
+          "is-referenced-by-count": 1,
+          "issued": {
+            "date-parts": [
+              [
+                2016,
+                10
+              ]
+            ]
+          },
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/7861599/7867100/07867538.pdf?arnumber=7867538",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "1848-1855",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2016,
+                10
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                10
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "article-title": "User Survey Analysis: Enterprise Applications versus the Cloud",
+              "author": "findeldey",
+              "journal-title": "Gartner Research Gartner Inc",
+              "key": "ref10",
+              "year": "2010"
+            },
+            {
+              "article-title": "Comparing two Business Model Ontologies for Designing e-Business Models and Value Constellations",
+              "author": "jaap",
+              "journal-title": "18th Bled e Conference elntegration in Action Bled Slovenia",
+              "key": "ref11",
+              "year": "2005"
+            },
+            {
+              "article-title": "Harvard Business Review on Business Model Innovation",
+              "journal-title": "Harvard Business Review",
+              "key": "ref12",
+              "year": "2010"
+            },
+            {
+              "article-title": "The Role of Business Model Innovation in the Emergence of Markets: A Missing Dimension of Entrepreneurial Strategy? Journal of Strategic Innovation and Sustainability",
+              "author": "holloway",
+              "key": "ref13",
+              "volume": "6",
+              "year": "2010"
+            },
+            {
+              "article-title": "HP",
+              "journal-title": "HP Cloud Functional Reference Architecture and Product Mapping",
+              "key": "ref14",
+              "year": "2010"
+            },
+            {
+              "article-title": "Reinventing your Business Model",
+              "author": "johnson",
+              "journal-title": "Harvard Business Review",
+              "key": "ref15",
+              "year": "2008"
+            },
+            {
+              "article-title": "Seizing the White Space-Business Model Innovation for Growth and Renewal",
+              "author": "johnson mark",
+              "journal-title": "Harvard Business Press",
+              "key": "ref16",
+              "year": "2010"
+            },
+            {
+              "article-title": "Business Models for Sustainable Telecoms Growth in Developing Economies",
+              "author": "sanjay",
+              "journal-title": "John Wiley and Sons Ltd",
+              "key": "ref17",
+              "year": "2008"
+            },
+            {
+              "article-title": "Eight Critical Forces That Impact Your Data Center Strategy",
+              "author": "rakesh",
+              "journal-title": "Gartner Inc",
+              "key": "ref18",
+              "year": "2010"
+            },
+            {
+              "article-title": "Business Model Innovation: When the Game Gets Tough",
+              "author": "linddgardt",
+              "journal-title": "Change the Game The Boston Consulting Group",
+              "key": "ref19",
+              "year": "2009"
+            },
+            {
+              "article-title": "Building Next Generation Data Centre: Theory and Practices",
+              "author": "wei xiong",
+              "journal-title": "Posts & Telecom Press",
+              "key": "ref28",
+              "year": "2009"
+            },
+            {
+              "author": "harry",
+              "journal-title": "Mobile service innovation and business models",
+              "key": "ref4",
+              "year": "2008"
+            },
+            {
+              "article-title": "Telecom Transformation: Theories, Frameworks and Best Practices",
+              "author": "yuanhua",
+              "journal-title": "TMF Management World Conference Singapore",
+              "key": "ref27",
+              "year": "2010"
+            },
+            {
+              "article-title": "E-Commerce and V-Business: Digital Enterprise in the Twenty-First Century",
+              "author": "stuart",
+              "first-page": "181",
+              "journal-title": "Publisher Butterworth-Heinemann Ltd",
+              "key": "ref3",
+              "year": "2007"
+            },
+            {
+              "article-title": "Cloud Computing Services: A Model for Categorizing and Characterizing Capabilities Delivered from the Cloud, Gartner Research",
+              "author": "cearley",
+              "journal-title": "Gartner Inc",
+              "key": "ref6",
+              "year": "2009"
+            },
+            {
+              "article-title": "E-Business Strategies for Virtual Organizations",
+              "author": "janice",
+              "first-page": "17",
+              "journal-title": "Publisher Butterworth-Heinemann Ltd",
+              "key": "ref5",
+              "year": "2002"
+            },
+            {
+              "DOI": "10.1201/9781439834541",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "article-title": "Cloud Computing-Technologies and Strategies of the Ubiquitous Data Centre. CRC Press",
+              "author": "chee brian",
+              "journal-title": "Taylor & Francis Group NW",
+              "key": "ref7",
+              "year": "2010"
+            },
+            {
+              "article-title": "Management Strategies for the Cloud Revolution-How Cloud Computing Is Transforming Business and Why You Can't Afford to Be Left Behind",
+              "author": "charles",
+              "key": "ref2",
+              "year": "2010"
+            },
+            {
+              "article-title": "Business Service Management: Understanding Business Models",
+              "author": "erwin",
+              "journal-title": "Smart Services CRC Pty Ltd",
+              "key": "ref9",
+              "year": "2011"
+            },
+            {
+              "article-title": "Adams, April & Mishra, Naveen",
+              "journal-title": "User Survey Analysis Key Trends Shaping the Future of Data Centre Infrastructure through 2011 Gartner Research Gartner Inc",
+              "key": "ref1",
+              "year": "2010"
+            },
+            {
+              "article-title": "Q&A: Key Considerations Driving Data Centre Transformation in Australia in 2010 and 2011",
+              "author": "naveen",
+              "journal-title": "Part 1& 2 Gartner Research",
+              "key": "ref20",
+              "year": "2010"
+            },
+            {
+              "article-title": "Clarifying Business Models: Origins, present, and future of the concept",
+              "author": "osterwalder",
+              "journal-title": "Communications of the AIS",
+              "key": "ref22",
+              "volume": "16",
+              "year": "2005"
+            },
+            {
+              "DOI": "10.1016/j.jbusres.2003.11.001",
+              "doi-asserted-by": "publisher",
+              "key": "ref21"
+            },
+            {
+              "article-title": "Business Model Change Due to ICT Integration: An Application to the Entertainment Industry",
+              "author": "sakellaridis",
+              "journal-title": "Int Journal of Computer Information Systems and Industrial Management Applications",
+              "key": "ref24",
+              "volume": "3",
+              "year": "2011"
+            },
+            {
+              "article-title": "Business Model Generation: A Handbook for Visionaries",
+              "author": "osterwalder",
+              "journal-title": "Game Changers and Challengers Self-Publishing online",
+              "key": "ref23",
+              "year": "2010"
+            },
+            {
+              "article-title": "User Survey Analysis: Results Give Clues to Unlocking Server Green IT Potential in 2010",
+              "author": "kiyomi",
+              "journal-title": "Gartner Research",
+              "key": "ref26",
+              "year": "2010"
+            },
+            {
+              "author": "weill",
+              "journal-title": "Place to Space Migrating to eBusiness Models",
+              "key": "ref25",
+              "year": "2001"
+            }
+          ],
+          "reference-count": 28,
+          "references-count": 28,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/7867538/"
+            }
+          },
+          "score": 106.05391,
+          "source": "Crossref",
+          "title": [
+            "Data centre transformation: Integrated business model framework of cloud computing oriented data centre"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.1109/cloud.2016.0020",
+          "URL": "https://doi.org/10.1109/cloud.2016.0020",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Chen",
+              "given": "Shuang",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Pedram",
+              "given": "Massoud",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2016 IEEE 9th International Conference on Cloud Computing (CLOUD)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2017,
+                1,
+                20
+              ]
+            ],
+            "date-time": "2017-01-20T02:21:01Z",
+            "timestamp": 1484878861000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2019,
+                9,
+                17
+              ]
+            ],
+            "date-time": "2019-09-17T19:43:51Z",
+            "timestamp": 1568749431000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2016,
+                  7,
+                  2
+                ]
+              ]
+            },
+            "location": "San Francisco, CA, USA",
+            "name": "2016 IEEE 9th International Conference on Cloud Computing (CLOUD)",
+            "start": {
+              "date-parts": [
+                [
+                  2016,
+                  6,
+                  27
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                10,
+                23
+              ]
+            ],
+            "date-time": "2024-10-23T02:27:41Z",
+            "timestamp": 1729650461887,
+            "version": "3.28.0"
+          },
+          "is-referenced-by-count": 2,
+          "issued": {
+            "date-parts": [
+              [
+                2016,
+                6
+              ]
+            ]
+          },
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/7819578/7820017/07820257.pdf?arnumber=7820257",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "77-83",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2016,
+                6
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                6
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "DOI": "10.1109/MASCOTS.2013.32",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "DOI": "10.1109/CLOUD.2015.31",
+              "doi-asserted-by": "publisher",
+              "key": "ref11"
+            },
+            {
+              "article-title": "Google cluster-usage traces: format+ schema",
+              "author": "reiss",
+              "journal-title": "Google Inc",
+              "key": "ref12",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1145/2391229.2391236",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "article-title": "Handbook of batteries",
+              "author": "linden",
+              "key": "ref14",
+              "year": "0"
+            },
+            {
+              "DOI": "10.1109/CLOUD.2015.111",
+              "doi-asserted-by": "publisher",
+              "key": "ref15"
+            },
+            {
+              "DOI": "10.1109/ICDCSW.2011.52",
+              "doi-asserted-by": "publisher",
+              "key": "ref16"
+            },
+            {
+              "article-title": "Windsun: Deep cycle battery faq",
+              "key": "ref17",
+              "year": "2009"
+            },
+            {
+              "article-title": "Report to congress on server and data center energy efficiency: Public law 109&#x2013;431",
+              "author": "brown",
+              "journal-title": "Lawrence Berkeley National Laboratory",
+              "key": "ref18",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1109/BigData.Congress.2014.108",
+              "doi-asserted-by": "publisher",
+              "key": "ref19"
+            },
+            {
+              "article-title": "Power budgeting for virtualized data centers",
+              "author": "lim",
+              "first-page": "59",
+              "journal-title": "2011 USENIX Annual Technical Conference (USENIX ATC11)",
+              "key": "ref4",
+              "year": "2011"
+            },
+            {
+              "article-title": "Data center TCO; a comparison of high-density and low-density spaces",
+              "author": "patterson",
+              "journal-title": "Thermal Challenges in Next Generation Electronic Systems",
+              "key": "ref3",
+              "year": "2007"
+            },
+            {
+              "DOI": "10.1145/1353534.1346289",
+              "article-title": "No power struggles: Coordinated multi-level power management for the data center",
+              "author": "raghavendra",
+              "doi-asserted-by": "crossref",
+              "first-page": "48",
+              "journal-title": "SIGArch Computer Architecture News",
+              "key": "ref6",
+              "volume": "36",
+              "year": "2008"
+            },
+            {
+              "DOI": "10.1145/1323293.1294287",
+              "doi-asserted-by": "publisher",
+              "key": "ref5"
+            },
+            {
+              "DOI": "10.1109/ISCA.2012.6237042",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "article-title": "Uninterruptible power supply",
+              "author": "jungreis",
+              "key": "ref7",
+              "year": "2001"
+            },
+            {
+              "DOI": "10.2200/S00516ED2V01Y201306CAC024",
+              "doi-asserted-by": "publisher",
+              "key": "ref2"
+            },
+            {
+              "DOI": "10.1016/j.future.2008.12.001",
+              "doi-asserted-by": "publisher",
+              "key": "ref1"
+            },
+            {
+              "DOI": "10.1145/2318857.2254780",
+              "article-title": "Energy storage in datacenters: what, where, and how much?",
+              "author": "wang",
+              "doi-asserted-by": "crossref",
+              "first-page": "187",
+              "journal-title": "ACM Sigmetrics Performance Evaluation Review",
+              "key": "ref9",
+              "volume": "40",
+              "year": "2012"
+            },
+            {
+              "article-title": "CVX: Matlab software for disciplined convex programming",
+              "author": "grant",
+              "key": "ref20",
+              "year": "2008"
+            },
+            {
+              "author": "martello",
+              "journal-title": "Knapsack Problems Algorithms and Computer Implementations",
+              "key": "ref21",
+              "year": "1990"
+            }
+          ],
+          "reference-count": 21,
+          "references-count": 21,
+          "resource": {
+            "primary": {
+              "URL": "http://ieeexplore.ieee.org/document/7820257/"
+            }
+          },
+          "score": 103.91372,
+          "source": "Crossref",
+          "title": [
+            "Efficient Peak Shaving in a Data Center by Joint Optimization of Task Assignment and Energy Storage Management"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.20944/preprints202607.2314.v1",
+          "URL": "https://doi.org/10.20944/preprints202607.2314.v1",
+          "abstract": "<jats:p>Vehicle-to-grid (V2G) technology lets a parked electric vehicle push power back to the network, so a fleet of cars can act as distributed storage. Many studies report large benefits from this, such as peak shaving and better use of renewable energy, but most describe their simulation only in words, name no test network, and compare a single charging behavior against a do-nothing case. It is then hard to separate what V2G delivers from what the control strategy delivers. This paper builds and compares two clearly defined strategies on one fully specified system. The first is a price-following rule: each vehicle charges when energy is cheap and discharges when it is dear, with no knowledge of the network. The second is a receding-horizon model predictive control (MPC) strategy that re-plans every hour and lowers the system peak, the energy cost, and the battery wear together. Both run on the IEEE 33-bus distribution feeder at low (10%), medium (30%), and high (50%) EV shares, and every hour is checked with a full AC power flow rather than an assumption. The central result is not a simple win for the smart controller. At a 50% share the price rule makes the system peak 23.7% worse than having no V2G at all, because the whole fleet reacts to one price signal at once, while the MPC cuts the peak by 18 to 28% in every case. The MPC also shows higher worst-case loading on some individual lines, and that is reported rather than hidden. Results are given as they came out of the model.</jats:p>",
+          "accepted": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                30
+              ]
+            ]
+          },
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Arif",
+              "given": "Muhammad Abdullah Bin",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Deb",
+              "given": "Sanchari",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                6
+              ]
+            ],
+            "date-time": "2026-08-06T01:32:22Z",
+            "timestamp": 1785979942000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                6
+              ]
+            ],
+            "date-time": "2026-08-06T02:11:46Z",
+            "timestamp": 1785982306000
+          },
+          "group-title": "Engineering",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                8,
+                7
+              ]
+            ],
+            "date-time": "2026-08-07T15:09:05Z",
+            "timestamp": 1786115345110,
+            "version": "build-2736575974"
+          },
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                31
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "http://creativecommons.org/licenses/by/4.0",
+              "content-version": "unspecified",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    7,
+                    31
+                  ]
+                ],
+                "date-time": "2026-07-31T00:00:00Z",
+                "timestamp": 1785456000000
+              }
+            }
+          ],
+          "member": "1968",
+          "posted": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                31
+              ]
+            ]
+          },
+          "prefix": "10.20944",
+          "published": {
+            "date-parts": [
+              [
+                2026,
+                7,
+                31
+              ]
+            ]
+          },
+          "publisher": "MDPI AG",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://www.preprints.org/manuscript/202607.2314/v1"
+            }
+          },
+          "score": 101.18726,
+          "source": "Crossref",
+          "subtype": "preprint",
+          "title": [
+            "Model Predictive Control for Multi-Objective Vehicle-to-Grid Dispatch: Jointly Optimizing Peak Shaving, Renewable Utilization, Battery Degradation, and Economic Revenue in Smart EV Infrastructures"
+          ],
+          "type": "posted-content"
+        },
+        {
+          "DOI": "10.1201/b19664-15",
+          "ISBN": [
+            "9781315214221"
+          ],
+          "URL": "https://doi.org/10.1201/b19664-15",
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Said",
+              "given": "Dhaou",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Cherkaoui",
+              "given": "Soumaya",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Khoukhi",
+              "given": "Lyes",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Smart Grid"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2016,
+                4,
+                7
+              ]
+            ],
+            "date-time": "2016-04-07T19:32:05Z",
+            "timestamp": 1460057525000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2019,
+                6,
+                26
+              ]
+            ],
+            "date-time": "2019-06-26T20:52:03Z",
+            "timestamp": 1561582323000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                9,
+                10
+              ]
+            ],
+            "date-time": "2024-09-10T21:27:07Z",
+            "timestamp": 1726003627037
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "electronic",
+              "value": "9781315214221"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2017,
+                12,
+                19
+              ]
+            ]
+          },
+          "language": "en",
+          "member": "301",
+          "page": "371-385",
+          "prefix": "10.1201",
+          "published": {
+            "date-parts": [
+              [
+                2017,
+                12,
+                19
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2017,
+                12,
+                19
+              ]
+            ]
+          },
+          "publisher": "CRC Press",
+          "reference": [
+            {
+              "DOI": "10.1109/POWERCON.2010.5666607",
+              "doi-asserted-by": "crossref",
+              "key": "ref15",
+              "unstructured": "1 C. Sandels , U. Franke , N. Ingvar , L. Nordstrom , and R. Hamr , Vehicle to grid—Monte Carlo simulations for optimal aggregator strategies, in Proceedings of the International Conference on Power System Technology (PowerCon 2010), Zhejiang, China, October 24–28, 2010."
+            }
+          ],
+          "reference-count": 1,
+          "references-count": 1,
+          "resource": {
+            "primary": {
+              "URL": "https://www.taylorfrancis.com/books/9781498719711/chapters/10.1201/b19664-15"
+            }
+          },
+          "score": 100.30267,
+          "source": "Crossref",
+          "title": [
+            "Scheduling Process for Electric Vehicle Home Charging"
+          ],
+          "type": "book-chapter"
+        },
+        {
+          "DOI": "10.1002/9781119597537.ch5",
+          "ISBN": [
+            "9781119597506",
+            "9781119597537"
+          ],
+          "URL": "https://doi.org/10.1002/9781119597537.ch5",
+          "alternative-id": [
+            "10.1002/9781119597537.ch5",
+            "10.1002/9781119597537"
+          ],
+          "archive": [
+            "Portico"
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Wiersma",
+              "given": "Jan",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            }
+          ],
+          "container-title": [
+            "Data Center Handbook"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                23
+              ]
+            ],
+            "date-time": "2021-04-23T22:19:27Z",
+            "timestamp": 1619216367000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2023,
+                9,
+                1
+              ]
+            ],
+            "date-time": "2023-09-01T09:06:00Z",
+            "timestamp": 1693559160000
+          },
+          "edition-number": "1",
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                4,
+                30
+              ]
+            ],
+            "date-time": "2026-04-30T15:36:14Z",
+            "timestamp": 1777563374797,
+            "version": "3.51.4"
+          },
+          "is-referenced-by-count": 3,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781119597506"
+            },
+            {
+              "type": "electronic",
+              "value": "9781119597537"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                20
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    4,
+                    20
+                  ]
+                ],
+                "date-time": "2021-04-20T00:00:00Z",
+                "timestamp": 1618876800000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119597537.ch5",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1002/9781119597537.ch5",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "311",
+          "page": "77-87",
+          "prefix": "10.1002",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                20
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                23
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                4,
+                20
+              ]
+            ]
+          },
+          "publisher": "Wiley",
+          "reference": [
+            {
+              "key": "e_1_2_1_1_2_1",
+              "unstructured": "NIST.NIST 800‐145 publication. Available athttps://csrc.nist.gov/publications/detail/sp/800‐145/final. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_3_1",
+              "unstructured": "LF Edge Glossary. Available athttps://github.com/lf‐edge/glossary/blob/master/edge‐glossary.md. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_4_1",
+              "unstructured": "Reactive Manifesto. Available athttps://www.reactivemanifesto.org. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_5_1",
+              "unstructured": "12factorapp. Available athttps://12factor.net. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_6_1",
+              "unstructured": "BarrasoLA ClidarasJ HolzleU.The datacenter as a computer. Available athttps://www.morganclaypool.com/doi/10.2200/S00874ED3V01Y201809CAC046. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_7_1",
+              "unstructured": "Open Compute Project. Available athttps://www.opencompute.org/about. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_8_1",
+              "unstructured": "Open19 Foundation. Available athttps://www.open19.org/. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_9_1",
+              "unstructured": "OpenFlow. Available athttps://www.opennetworking.org/. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_10_1",
+              "unstructured": "Openfog. Available athttps://www.openfogconsortium.org/. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_11_1",
+              "unstructured": "ETSI MEC. Available athttps://www.etsi.org/technologies/multi‐access‐edge‐computing. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_12_1",
+              "unstructured": "OEC. Available athttp://openedgecomputing.org/about.html. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_1_13_1",
+              "unstructured": "Kinetic Edge Alliance. Available athttps://www.vapor.io/kinetic‐edge‐alliance/. Accessed on October 1 2019."
+            },
+            {
+              "key": "e_1_2_1_2_2_1",
+              "unstructured": "BarrasoLA ClidarasJ HolzleU.The Datacenter as a Computer. 2009/2013/2018."
+            },
+            {
+              "key": "e_1_2_1_2_3_1",
+              "unstructured": "Building the Internet of Things: Implement New Business Models Disrupt Competitors Transform Your IndustryISBN‐13: 978‐1119285663."
+            },
+            {
+              "key": "e_1_2_1_2_4_1",
+              "unstructured": "CarrN.The Big Switch: Rewiring the World from Edison to Google. 1st ed."
+            },
+            {
+              "key": "e_1_2_1_2_5_1",
+              "unstructured": "Internet of Things for Architects: Architecting IoT Solutions by Implementing Sensors Communication Infrastructure Edge Computing Analytics and SecurityISBN‐13: 978‐1788470599."
+            }
+          ],
+          "reference-count": 16,
+          "references-count": 16,
+          "resource": {
+            "primary": {
+              "URL": "https://onlinelibrary.wiley.com/doi/10.1002/9781119597537.ch5"
+            }
+          },
+          "score": 100.27651,
+          "source": "Crossref",
+          "title": [
+            "CLOUD AND EDGE COMPUTING"
+          ],
+          "type": "other"
+        },
+        {
+          "DOI": "10.1109/vppc66000.2025.11392981",
+          "URL": "https://doi.org/10.1109/vppc66000.2025.11392981",
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "Tongji University,School of Automotive Studies,China"
+                }
+              ],
+              "family": "Sun",
+              "given": "Kai",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Tongji University,Shanghai Research Institute for Intelligent Autonomous Systems,China"
+                }
+              ],
+              "family": "Ma",
+              "given": "Baolin",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Tongji University,Department of Control Science and Engineering,China"
+                }
+              ],
+              "family": "Guo",
+              "given": "Lulu",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Tongji University,School of Automotive Studies,China"
+                }
+              ],
+              "family": "Hong",
+              "given": "Jinlong",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Tongji University,School of Automotive Studies,China"
+                }
+              ],
+              "family": "Gao",
+              "given": "Bingzhao",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2025 IEEE Vehicle Power and Propulsion Conference (VPPC)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                20
+              ]
+            ],
+            "date-time": "2026-02-20T21:14:21Z",
+            "timestamp": 1771622061000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                21
+              ]
+            ],
+            "date-time": "2026-02-21T07:17:09Z",
+            "timestamp": 1771658229000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2025,
+                  10,
+                  25
+                ]
+              ]
+            },
+            "location": "Hangzhou, China",
+            "name": "2025 IEEE Vehicle Power and Propulsion Conference (VPPC)",
+            "start": {
+              "date-parts": [
+                [
+                  2025,
+                  10,
+                  22
+                ]
+              ]
+            }
+          },
+          "funder": [
+            {
+              "DOI": "10.13039/501100001809",
+              "doi-asserted-by": "publisher",
+              "id": [
+                {
+                  "asserted-by": "publisher",
+                  "id": "10.13039/501100001809",
+                  "id-type": "DOI"
+                }
+              ],
+              "name": "National Natural Science Foundation of China"
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                21
+              ]
+            ],
+            "date-time": "2026-02-21T08:06:21Z",
+            "timestamp": 1771661181602,
+            "version": "3.50.1"
+          },
+          "is-referenced-by-count": 0,
+          "issued": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                22
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    10,
+                    22
+                  ]
+                ],
+                "date-time": "2025-10-22T00:00:00Z",
+                "timestamp": 1761091200000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2025,
+                    10,
+                    22
+                  ]
+                ],
+                "date-time": "2025-10-22T00:00:00Z",
+                "timestamp": 1761091200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx8/11392717/11392836/11392981.pdf?arnumber=11392981",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "1-6",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                22
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2025,
+                10,
+                22
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "DOI": "10.1109/TVT.2020.2988468",
+              "doi-asserted-by": "publisher",
+              "key": "ref1"
+            },
+            {
+              "DOI": "10.1109/TTE.2023.3339146",
+              "doi-asserted-by": "publisher",
+              "key": "ref2"
+            },
+            {
+              "DOI": "10.1109/TITS.2024.3494734",
+              "doi-asserted-by": "publisher",
+              "key": "ref3"
+            },
+            {
+              "DOI": "10.1109/TITS.2021.3106253",
+              "doi-asserted-by": "publisher",
+              "key": "ref4"
+            },
+            {
+              "DOI": "10.1109/TTE.2021.3116883",
+              "doi-asserted-by": "publisher",
+              "key": "ref5"
+            },
+            {
+              "DOI": "10.1016/j.apenergy.2020.116353",
+              "doi-asserted-by": "publisher",
+              "key": "ref6"
+            },
+            {
+              "DOI": "10.1109/TIV.2023.3275952",
+              "doi-asserted-by": "publisher",
+              "key": "ref7"
+            },
+            {
+              "DOI": "10.1016/j.enconman.2023.117514",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "DOI": "10.1109/TTE.2023.3274574",
+              "doi-asserted-by": "publisher",
+              "key": "ref9"
+            },
+            {
+              "DOI": "10.1109/VPPC63154.2024.10755348",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "DOI": "10.1002/bte2.20240036",
+              "doi-asserted-by": "publisher",
+              "key": "ref11"
+            },
+            {
+              "DOI": "10.1109/TTE.2024.3376515",
+              "doi-asserted-by": "publisher",
+              "key": "ref12"
+            }
+          ],
+          "reference-count": 12,
+          "references-count": 12,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/11392981/"
+            }
+          },
+          "score": 99.45957,
+          "source": "Crossref",
+          "title": [
+            "Data-Driven Modeling and Closed-Loop Control Validation of Electric Vehicle Integrated Thermal Management System Based on Real Vehicle Data"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.1007/978-981-96-8233-1_5",
+          "ISBN": [
+            "9789819682324",
+            "9789819682331"
+          ],
+          "URL": "https://doi.org/10.1007/978-981-96-8233-1_5",
+          "assertion": [
+            {
+              "group": {
+                "label": "Chapter History",
+                "name": "ChapterHistory"
+              },
+              "label": "First Online",
+              "name": "first_online",
+              "order": 1,
+              "value": "14 February 2026"
+            }
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "name": "National Big Data Alliance of New Energy Vehicles",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "name": "Beijing EV New Energy Vehicle Big Data Application Technology Research Center",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "name": "The Automotive Big Data Application Branch of the China Society of Automotive Engineers",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Annual Report on the Big Data of New Energy Vehicle in China (2024)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": [
+              "link.springer.com"
+            ]
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                13
+              ]
+            ],
+            "date-time": "2026-02-13T16:28:11Z",
+            "timestamp": 1771000091000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                13
+              ]
+            ],
+            "date-time": "2026-02-13T16:28:11Z",
+            "timestamp": 1771000091000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                13
+              ]
+            ],
+            "date-time": "2026-02-13T17:12:44Z",
+            "timestamp": 1771002764325,
+            "version": "3.50.1"
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9789819682324"
+            },
+            {
+              "type": "electronic",
+              "value": "9789819682331"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2026-01-01T00:00:00Z",
+                "timestamp": 1767225600000
+              }
+            },
+            {
+              "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+              "content-version": "vor",
+              "delay-in-days": 44,
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    2,
+                    14
+                  ]
+                ],
+                "date-time": "2026-02-14T00:00:00Z",
+                "timestamp": 1771027200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-981-96-8233-1_5",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "297",
+          "page": "95-138",
+          "prefix": "10.1007",
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                14
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "publisher": "Springer Nature Singapore",
+          "publisher-location": "Singapore",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/978-981-96-8233-1_5"
+            }
+          },
+          "score": 99.04043,
+          "source": "Crossref",
+          "title": [
+            "Charging of New Energy Vehicles"
+          ],
+          "type": "book-chapter",
+          "update-policy": "https://doi.org/10.1007/springer_crossmark_policy"
+        },
+        {
+          "DOI": "10.1109/smartgridcomm51999.2021.9632309",
+          "URL": "https://doi.org/10.1109/smartgridcomm51999.2021.9632309",
+          "author": [
+            {
+              "affiliation": [
+                {
+                  "name": "The Chinese University of Hong Kong,School of Science and Engineering,(Shenzhen),China"
+                }
+              ],
+              "family": "Sun",
+              "given": "Chenxi",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "Caltech,Department of Computing and Mathematical Sciences,CA,USA"
+                }
+              ],
+              "family": "Li",
+              "given": "Tongxin",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [
+                {
+                  "name": "The Chinese University of Hong Kong,School of Science and Engineering,(Shenzhen),China"
+                }
+              ],
+              "family": "Tang",
+              "given": "Xiaoying",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "2021 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm)"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2021,
+                12,
+                13
+              ]
+            ],
+            "date-time": "2021-12-13T21:15:25Z",
+            "timestamp": 1639430125000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2022,
+                8,
+                3
+              ]
+            ],
+            "date-time": "2022-08-03T00:23:06Z",
+            "timestamp": 1659486186000
+          },
+          "event": {
+            "end": {
+              "date-parts": [
+                [
+                  2021,
+                  10,
+                  28
+                ]
+              ]
+            },
+            "location": "Aachen, Germany",
+            "name": "2021 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm)",
+            "start": {
+              "date-parts": [
+                [
+                  2021,
+                  10,
+                  25
+                ]
+              ]
+            }
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                1,
+                9
+              ]
+            ],
+            "date-time": "2026-01-09T14:03:42Z",
+            "timestamp": 1767967422348,
+            "version": "3.49.0"
+          },
+          "is-referenced-by-count": 4,
+          "issued": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                25
+              ]
+            ]
+          },
+          "license": [
+            {
+              "URL": "https://doi.org/10.15223/policy-029",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    10,
+                    25
+                  ]
+                ],
+                "date-time": "2021-10-25T00:00:00Z",
+                "timestamp": 1635120000000
+              }
+            },
+            {
+              "URL": "https://doi.org/10.15223/policy-037",
+              "content-version": "stm-asf",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2021,
+                    10,
+                    25
+                  ]
+                ],
+                "date-time": "2021-10-25T00:00:00Z",
+                "timestamp": 1635120000000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "http://xplorestaging.ieee.org/ielx7/9631985/9631986/09632309.pdf?arnumber=9632309",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "263",
+          "page": "27-32",
+          "prefix": "10.1109",
+          "published": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                25
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2021,
+                10,
+                25
+              ]
+            ]
+          },
+          "publisher": "IEEE",
+          "reference": [
+            {
+              "DOI": "10.1109/TSG.2017.2777738",
+              "doi-asserted-by": "publisher",
+              "key": "ref10"
+            },
+            {
+              "DOI": "10.1109/TII.2017.2662711",
+              "doi-asserted-by": "publisher",
+              "key": "ref11"
+            },
+            {
+              "DOI": "10.1109/ICDE.2015.7113384",
+              "doi-asserted-by": "publisher",
+              "key": "ref12"
+            },
+            {
+              "DOI": "10.1109/TSG.2014.2344684",
+              "doi-asserted-by": "publisher",
+              "key": "ref13"
+            },
+            {
+              "DOI": "10.1109/TSG.2019.2907262",
+              "doi-asserted-by": "publisher",
+              "key": "ref14"
+            },
+            {
+              "article-title": "Demand prediction and placement optimization for electric vehicle charging stations",
+              "author": "gopalakrishnan",
+              "first-page": "3117",
+              "journal-title": "IJCAI'16 AAAI Press",
+              "key": "ref15",
+              "year": "2016"
+            },
+            {
+              "article-title": "Efficient deployment of electric vehicle charging infrastructure: Simultaneous optimization of charging station placement and charging pile assignment",
+              "author": "zhang",
+              "journal-title": "IEEE Transactions on Intelligent Transportation Systems",
+              "key": "ref16",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1016/j.tra.2019.01.002",
+              "doi-asserted-by": "publisher",
+              "key": "ref17"
+            },
+            {
+              "article-title": "Urban computing: concepts, methodologies, and applications",
+              "author": "zheng",
+              "first-page": "1",
+              "journal-title": "ACM Transactions on Intelligent Systems and Technology (TIST)",
+              "key": "ref18",
+              "volume": "5",
+              "year": "2014"
+            },
+            {
+              "DOI": "10.1109/TBDATA.2017.2651898",
+              "doi-asserted-by": "publisher",
+              "key": "ref19"
+            },
+            {
+              "key": "ref4",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/JPROC.2013.2271951",
+              "doi-asserted-by": "publisher",
+              "key": "ref3"
+            },
+            {
+              "DOI": "10.1109/TSG.2020.2991232",
+              "doi-asserted-by": "publisher",
+              "key": "ref6"
+            },
+            {
+              "DOI": "10.1145/3300061.3300132",
+              "doi-asserted-by": "publisher",
+              "key": "ref5"
+            },
+            {
+              "DOI": "10.1109/TSG.2016.2517026",
+              "doi-asserted-by": "publisher",
+              "key": "ref8"
+            },
+            {
+              "DOI": "10.1109/TTE.2020.2964141",
+              "doi-asserted-by": "publisher",
+              "key": "ref7"
+            },
+            {
+              "journal-title": "Join us on the ride toward a green future",
+              "key": "ref2",
+              "year": "2020"
+            },
+            {
+              "journal-title": "National Transportation Statistics",
+              "key": "ref1",
+              "year": "2020"
+            },
+            {
+              "DOI": "10.1109/TTE.2018.2849222",
+              "doi-asserted-by": "publisher",
+              "key": "ref9"
+            },
+            {
+              "DOI": "10.1137/0137040",
+              "doi-asserted-by": "publisher",
+              "key": "ref20"
+            },
+            {
+              "article-title": "Appendix",
+              "journal-title": "Available at shorturl at/jkqB6",
+              "key": "ref22",
+              "year": "0"
+            },
+            {
+              "DOI": "10.1007/BF01588971",
+              "doi-asserted-by": "publisher",
+              "key": "ref21"
+            },
+            {
+              "journal-title": "The spatial distribution of population in 2020 china",
+              "key": "ref24",
+              "year": "2020"
+            },
+            {
+              "author": "initiative",
+              "journal-title": "Didi Chuxing GAIA Initiative",
+              "key": "ref23",
+              "year": "2020"
+            }
+          ],
+          "reference-count": 24,
+          "references-count": 24,
+          "resource": {
+            "primary": {
+              "URL": "https://ieeexplore.ieee.org/document/9632309/"
+            }
+          },
+          "score": 98.01983,
+          "source": "Crossref",
+          "title": [
+            "Data-driven Electric Vehicle Charging Station Placement for Incentivizing Potential Demand"
+          ],
+          "type": "proceedings-article"
+        },
+        {
+          "DOI": "10.1201/b19664-20",
+          "ISBN": [
+            "9781498719704",
+            "9781498719711"
+          ],
+          "URL": "https://doi.org/10.1201/b19664-20",
+          "alternative-id": [
+            "10.1201/b19664-20",
+            "10.1201/b19664"
+          ],
+          "author": [
+            {
+              "affiliation": [],
+              "family": "Said",
+              "given": "Dhaou",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "family": "Cherkaoui",
+              "given": "Soumaya",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "family": "Khoukhi",
+              "given": "Lyes",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "container-title": [
+            "Smart Grid"
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2016,
+                4,
+                7
+              ]
+            ],
+            "date-time": "2016-04-07T23:32:05Z",
+            "timestamp": 1460071925000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2016,
+                4,
+                7
+              ]
+            ],
+            "date-time": "2016-04-07T23:34:07Z",
+            "timestamp": 1460072047000
+          },
+          "indexed": {
+            "date-parts": [
+              [
+                2024,
+                5,
+                6
+              ]
+            ],
+            "date-time": "2024-05-06T15:26:18Z",
+            "timestamp": 1715009178270
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9781498719704"
+            },
+            {
+              "type": "electronic",
+              "value": "9781498719711"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2016,
+                4,
+                7
+              ]
+            ]
+          },
+          "language": "en",
+          "member": "301",
+          "page": "371-385",
+          "prefix": "10.1201",
+          "published": {
+            "date-parts": [
+              [
+                2016,
+                4,
+                7
+              ]
+            ]
+          },
+          "published-online": {
+            "date-parts": [
+              [
+                2016,
+                4,
+                7
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2016,
+                4,
+                14
+              ]
+            ]
+          },
+          "publisher": "CRC Press",
+          "reference": [
+            {
+              "DOI": "10.1109/POWERCON.2010.5666607",
+              "doi-asserted-by": "publisher",
+              "key": "p_1"
+            },
+            {
+              "DOI": "10.1109/MP.2004.1343222",
+              "doi-asserted-by": "publisher",
+              "key": "p_2"
+            },
+            {
+              "author": "IEC",
+              "key": "p_5",
+              "volume-title": "Vehicle to grid communication interface"
+            },
+            {
+              "DOI": "10.1109/SMARTGRID.2010.5622035",
+              "doi-asserted-by": "publisher",
+              "key": "p_6"
+            },
+            {
+              "author": "IEC",
+              "key": "p_7",
+              "volume-title": "socket-outlets, vehicle couplers and vehicle inlets conductive charging of electric vehicles"
+            },
+            {
+              "author": "Ruthe S.",
+              "key": "p_8",
+              "volume-title": "IBIS Issue",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1109/GLOCOMW.2011.6162367",
+              "doi-asserted-by": "publisher",
+              "key": "p_9"
+            },
+            {
+              "DOI": "10.1109/TSG.2010.2055903",
+              "doi-asserted-by": "publisher",
+              "key": "p_10"
+            },
+            {
+              "DOI": "10.1109/SMARTGRID.2010.5622077",
+              "doi-asserted-by": "publisher",
+              "key": "p_11"
+            },
+            {
+              "author": "Wang P.",
+              "key": "p_12",
+              "volume-title": "IEEE Global Communications Conference Houston",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1109/GLOCOM.2014.7036835",
+              "doi-asserted-by": "publisher",
+              "key": "p_13"
+            },
+            {
+              "author": "Said D.",
+              "key": "p_14",
+              "volume": "15",
+              "volume-title": "Journal Wireless Communication and Mobile Computing (WCM)"
+            },
+            {
+              "DOI": "10.1109/IWCMC.2013.6583536",
+              "doi-asserted-by": "publisher",
+              "key": "p_15"
+            },
+            {
+              "DOI": "10.1109/TSG.2011.2175953",
+              "doi-asserted-by": "publisher",
+              "key": "p_22"
+            },
+            {
+              "DOI": "10.1109/TSG.2011.2159816",
+              "doi-asserted-by": "publisher",
+              "key": "p_23"
+            },
+            {
+              "DOI": "10.1109/PES.2011.6039082",
+              "doi-asserted-by": "publisher",
+              "key": "p_24"
+            },
+            {
+              "author": "Ma Z.",
+              "first-page": "10493",
+              "key": "p_25",
+              "volume-title": "Proceedings of the 18th IFAC World Congress",
+              "year": "2011"
+            },
+            {
+              "DOI": "10.1109/TDC.2010.5484336",
+              "doi-asserted-by": "publisher",
+              "key": "p_26"
+            },
+            {
+              "DOI": "10.1109/TDC.2010.5484336",
+              "doi-asserted-by": "publisher",
+              "key": "p_27"
+            },
+            {
+              "DOI": "10.1017/CBO9780511804441",
+              "doi-asserted-by": "publisher",
+              "key": "p_28"
+            },
+            {
+              "author": "Bertsekas D. P.",
+              "key": "p_29",
+              "volume-title": "Parallel and Distributed Computation",
+              "year": "1989"
+            },
+            {
+              "author": "Ground Vehicle Standards SAE",
+              "first-page": "1",
+              "journal-title": "SAE International.",
+              "key": "p_30",
+              "volume": "2010",
+              "year": "2010"
+            }
+          ],
+          "reference-count": 22,
+          "references-count": 22,
+          "resource": {
+            "primary": {
+              "URL": "http://www.crcnetbase.com/doi/10.1201/b19664-20"
+            }
+          },
+          "score": 97.737434,
+          "source": "Crossref",
+          "title": [
+            "Scheduling Process for Electric Vehicle Home Charging"
+          ],
+          "type": "book-chapter"
+        },
+        {
+          "DOI": "10.1007/978-981-96-8233-1",
+          "ISBN": [
+            "9789819682324",
+            "9789819682331"
+          ],
+          "URL": "https://doi.org/10.1007/978-981-96-8233-1",
+          "author": [
+            {
+              "affiliation": [],
+              "name": "National Big Data Alliance of New Energy Vehicles",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "first"
+            },
+            {
+              "affiliation": [],
+              "name": "Beijing EV New Energy Vehicle Big Data Application Technology Research Center",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            },
+            {
+              "affiliation": [],
+              "name": "The Automotive Big Data Application Branch of the China Society of Automotive Engineers",
+              "role": [
+                {
+                  "role": "author",
+                  "vocabulary": "crossref"
+                }
+              ],
+              "sequence": "additional"
+            }
+          ],
+          "content-domain": {
+            "crossmark-restriction": false,
+            "domain": []
+          },
+          "created": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                13
+              ]
+            ],
+            "date-time": "2026-02-13T16:28:09Z",
+            "timestamp": 1771000089000
+          },
+          "deposited": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                13
+              ]
+            ],
+            "date-time": "2026-02-13T16:28:10Z",
+            "timestamp": 1771000090000
+          },
+          "funder": [
+            {
+              "name": "China Machine Press Co.,Ltd."
+            }
+          ],
+          "indexed": {
+            "date-parts": [
+              [
+                2026,
+                2,
+                13
+              ]
+            ],
+            "date-time": "2026-02-13T17:15:02Z",
+            "timestamp": 1771002902922,
+            "version": "3.50.1"
+          },
+          "is-referenced-by-count": 0,
+          "isbn-type": [
+            {
+              "type": "print",
+              "value": "9789819682324"
+            },
+            {
+              "type": "electronic",
+              "value": "9789819682331"
+            }
+          ],
+          "issued": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "language": "en",
+          "license": [
+            {
+              "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+              "content-version": "tdm",
+              "delay-in-days": 0,
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    1,
+                    1
+                  ]
+                ],
+                "date-time": "2026-01-01T00:00:00Z",
+                "timestamp": 1767225600000
+              }
+            },
+            {
+              "URL": "https://creativecommons.org/licenses/by-nc-nd/4.0",
+              "content-version": "vor",
+              "delay-in-days": 44,
+              "start": {
+                "date-parts": [
+                  [
+                    2026,
+                    2,
+                    14
+                  ]
+                ],
+                "date-time": "2026-02-14T00:00:00Z",
+                "timestamp": 1771027200000
+              }
+            }
+          ],
+          "link": [
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-981-96-8233-1.pdf",
+              "content-type": "application/pdf",
+              "content-version": "vor",
+              "intended-application": "text-mining"
+            },
+            {
+              "URL": "https://link.springer.com/content/pdf/10.1007/978-981-96-8233-1",
+              "content-type": "unspecified",
+              "content-version": "vor",
+              "intended-application": "similarity-checking"
+            }
+          ],
+          "member": "297",
+          "prefix": "10.1007",
+          "published": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "published-print": {
+            "date-parts": [
+              [
+                2026
+              ]
+            ]
+          },
+          "publisher": "Springer Nature Singapore",
+          "publisher-location": "Singapore",
+          "reference-count": 0,
+          "references-count": 0,
+          "resource": {
+            "primary": {
+              "URL": "https://link.springer.com/10.1007/978-981-96-8233-1"
+            }
+          },
+          "score": 97.46304,
+          "source": "Crossref",
+          "title": [
+            "Annual Report on the Big Data of New Energy Vehicle in China (2024)"
+          ],
+          "type": "book"
+        }
+      ],
+      "items-per-page": 10,
+      "query": {
+        "search-terms": null,
+        "start-index": 0
+      },
+      "total-results": 6178
+    },
+    "message-type": "work-list",
+    "message-version": "1.0.0",
+    "status": "ok"
+  },
+  "retrieved_at_utc": "2026-08-31T14:30:31Z",
+  "retry_count": 0
+}

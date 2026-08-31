@@ -7,3 +7,7 @@ All enabled Crossref and OpenAlex query families will be executed, but this run 
 ## 2026-08-31 — repository source boundary
 
 The immutable source-hash contract covers every pre-existing `.pdf` and `.docx` outside `review_evidence_map/`. Protocol Markdown files and generated pipeline artifacts are version-controlled implementation inputs/outputs, not source documents in this inventory.
+
+## 2026-08-31 — broad multi-asset query placeholder
+
+`three_plus_or_broad_multi_asset` refers to `{multi_asset_terms}` but the supplied YAML does not define that placeholder. It is operationalized as `multi-asset OR cross-sector OR integrated energy management OR virtual power plant`, combined with at least one focal-asset term, one service group and the configured coordination terms. Exact rendered queries are frozen in `data/frozen/search_log.csv`.

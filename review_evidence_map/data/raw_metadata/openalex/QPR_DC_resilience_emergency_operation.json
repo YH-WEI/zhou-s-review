@@ -1,0 +1,6801 @@
+{
+  "http_status": 200,
+  "request_url_redacted": "https://api.openalex.org/works?search=%28%22data+centre%22+OR+%22data+center%22+OR+%22AI+data+centre%22+OR+%22AI+data+center%22+OR+%22cloud+computing+facility%22+OR+%22high+performance+computing%22+OR+%22edge+data+centre%22+OR+%22edge+data+center%22%29+AND+%28resilience+OR+%22emergency+operation%22+OR+%22backup+power%22+OR+outage+OR+%22critical+load%22+OR+islanding%29+AND+%28review+OR+perspective+OR+survey%29&filter=from_publication_date%3A2015-01-01%2Cto_publication_date%3A2026-08-31&per-page=10&sort=relevance_score%3Adesc&select=id%2Cdoi%2Ctitle%2Cdisplay_name%2Cpublication_year%2Cpublication_date%2Ctype%2Cauthorships%2Cprimary_location%2Copen_access%2Clanguage%2Cabstract_inverted_index",
+  "response": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 101378,
+      "db_response_time_ms": 1181,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 10,
+      "x_query": {
+        "oql": "works where date >= (2015-01-01)\n  and date <= (2026-08-31)\n  and full text has (\n    (\n      stemmed \"AI data center\"\n      or stemmed \"AI data centre\"\n      or stemmed \"cloud computing facility\"\n      or stemmed \"data center\"\n      or stemmed \"data centre\"\n      or stemmed \"edge data center\"\n      or stemmed \"edge data centre\"\n      or stemmed \"high performance computing\"\n    )\n    and (\n      stemmed \"backup power\"\n      or stemmed \"critical load\"\n      or stemmed \"emergency operation\"\n      or islanding\n      or outage\n      or resilience\n    )\n    and (perspective or review or survey)\n  )",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "2015-01-01"
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2026-08-31"
+            },
+            {
+              "filters": [
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"AI data center\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"AI data centre\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"cloud computing facility\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"data center\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"data centre\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"edge data center\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"edge data centre\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"high performance computing\""
+                }
+              ],
+              "join": "or"
+            },
+            {
+              "filters": [
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"backup power\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"critical load\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "\"emergency operation\""
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "islanding"
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "outage"
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "resilience"
+                }
+              ],
+              "join": "or"
+            },
+            {
+              "filters": [
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "perspective"
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "review"
+                },
+                {
+                  "column_id": "fulltext.search",
+                  "operator": "has",
+                  "value": "survey"
+                }
+              ],
+              "join": "or"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:2015-01-01,to_publication_date:2026-08-31,fulltext.search:%22AI data center%22|%22AI data centre%22|%22cloud computing facility%22|%22data center%22|%22data centre%22|%22edge data center%22|%22edge data centre%22|%22high performance computing%22,fulltext.search:%22backup power%22|%22critical load%22|%22emergency operation%22|islanding|outage|resilience,fulltext.search:perspective|review|survey&per_page=10"
+      }
+    },
+    "results": [
+      {
+        "abstract_inverted_index": {
+          "200": [
+            52
+          ],
+          "2006": [
+            13
+          ],
+          "2016": [
+            55
+          ],
+          "2030.": [
+            60
+          ],
+          "2967": [
+            57
+          ],
+          "CO2": [
+            74
+          ],
+          "Cloud": [
+            0
+          ],
+          "From": [
+            24
+          ],
+          "Further,": [
+            121
+          ],
+          "IT": [
+            22
+          ],
+          "In": [
+            76
+          ],
+          "Instead,": [
+            165
+          ],
+          "It": [
+            211
+          ],
+          "TWh": [
+            53,
+            58
+          ],
+          "The": [
+            42,
+            61,
+            102,
+            183
+          ],
+          "This": [
+            154,
+            236
+          ],
+          "a": [
+            3,
+            65,
+            177
+          ],
+          "about": [
+            127
+          ],
+          "academia": [
+            173
+          ],
+          "addresses": [
+            239
+          ],
+          "adds": [
+            226
+          ],
+          "advancement.": [
+            182
+          ],
+          "alone": [
+            48
+          ],
+          "also": [
+            124,
+            238
+          ],
+          "and": [
+            5,
+            14,
+            91,
+            110,
+            139,
+            170,
+            174,
+            208,
+            243,
+            249,
+            261
+          ],
+          "application": [
+            209
+          ],
+          "applied": [
+            192,
+            201
+          ],
+          "approaches": [
+            112
+          ],
+          "article": [
+            155,
+            184,
+            237
+          ],
+          "as": [
+            254,
+            256
+          ],
+          "at": [
+            95,
+            193,
+            202,
+            216
+          ],
+          "attention": [
+            169
+          ],
+          "be": [
+            84,
+            191
+          ],
+          "been": [
+            36,
+            100
+          ],
+          "beyond": [
+            157
+          ],
+          "building": [
+            87
+          ],
+          "by": [
+            144
+          ],
+          "can": [
+            83,
+            190
+          ],
+          "case": [
+            262
+          ],
+          "centers": [
+            90,
+            132
+          ],
+          "centers.": [
+            120,
+            153
+          ],
+          "centres": [
+            47,
+            63,
+            248
+          ],
+          "clearly": [
+            212,
+            225
+          ],
+          "cloud": [
+            28,
+            34,
+            162,
+            246,
+            250,
+            267
+          ],
+          "commercial": [
+            4
+          ],
+          "computing": [
+            1,
+            29,
+            163
+          ],
+          "concerns,": [
+            242
+          ],
+          "consumption": [
+            44,
+            117,
+            223
+          ],
+          "containers": [
+            109
+          ],
+          "countries": [
+            146
+          ],
+          "covers": [
+            185
+          ],
+          "critical": [
+            178
+          ],
+          "current": [
+            230
+          ],
+          "data": [
+            46,
+            62,
+            89,
+            119,
+            131,
+            152,
+            247
+          ],
+          "defines": [
+            213
+          ],
+          "demonstrating": [
+            159
+          ],
+          "details": [
+            126
+          ],
+          "different": [
+            145,
+            214
+          ],
+          "difficulties,": [
+            241
+          ],
+          "discussed.": [
+            101
+          ],
+          "discusses": [
+            104
+          ],
+          "discussion.": [
+            41
+          ],
+          "e-waste": [
+            138
+          ],
+          "each": [
+            217
+          ],
+          "economic": [
+            6
+          ],
+          "efficiency": [
+            107
+          ],
+          "efficiency,": [
+            33
+          ],
+          "emissions.": [
+            75
+          ],
+          "energy": [
+            32,
+            43,
+            106,
+            222
+          ],
+          "environment": [
+            134
+          ],
+          "environmental": [
+            231
+          ],
+          "factors": [
+            260
+          ],
+          "focuses": [
+            167
+          ],
+          "for": [
+            86,
+            114,
+            147
+          ],
+          "from": [
+            51
+          ],
+          "gained": [
+            10
+          ],
+          "gives": [
+            125
+          ],
+          "giving": [
+            148
+          ],
+          "goes": [
+            156
+          ],
+          "grasp,": [
+            253
+          ],
+          "green": [
+            88,
+            161,
+            266
+          ],
+          "has": [
+            9,
+            35,
+            99
+          ],
+          "impact": [
+            129
+          ],
+          "in": [
+            21,
+            54,
+            59,
+            108,
+            118
+          ],
+          "include": [
+            92
+          ],
+          "includes": [
+            136,
+            199
+          ],
+          "increases": [
+            73
+          ],
+          "individual": [
+            96,
+            195
+          ],
+          "influence": [
+            265
+          ],
+          "is": [
+            2,
+            15
+          ],
+          "issue:": [
+            179
+          ],
+          "it": [
+            166
+          ],
+          "its": [
+            31
+          ],
+          "just": [
+            158
+          ],
+          "level": [
+            98,
+            197,
+            207,
+            218
+          ],
+          "level,": [
+            204
+          ],
+          "level.": [
+            210
+          ],
+          "long-term": [
+            180
+          ],
+          "lot": [
+            66
+          ],
+          "management": [
+            94
+          ],
+          "measures": [
+            215
+          ],
+          "most": [
+            18
+          ],
+          "much": [
+            40
+          ],
+          "must": [
+            252
+          ],
+          "needs": [
+            244
+          ],
+          "new": [
+            160,
+            187
+          ],
+          "notion": [
+            26
+          ],
+          "of": [
+            27,
+            39,
+            45,
+            67,
+            130,
+            172,
+            233,
+            258
+          ],
+          "on": [
+            133,
+            176
+          ],
+          "operating": [
+            205
+          ],
+          "opted": [
+            143
+          ],
+          "organisations": [
+            251
+          ],
+          "paper": [
+            103,
+            123
+          ],
+          "paper,": [
+            79
+          ],
+          "paradigm": [
+            7
+          ],
+          "pollution": [
+            234
+          ],
+          "possibilities.": [
+            164
+          ],
+          "power": [
+            68,
+            93,
+            116
+          ],
+          "presently": [
+            16
+          ],
+          "problem": [
+            232
+          ],
+          "problem-solving": [
+            111
+          ],
+          "provide": [
+            70
+          ],
+          "rating": [
+            149
+          ],
+          "reduce": [
+            220
+          ],
+          "reducing": [
+            115
+          ],
+          "reduction.": [
+            235
+          ],
+          "require": [
+            64
+          ],
+          "resources": [
+            171
+          ],
+          "rise": [
+            50
+          ],
+          "sector.": [
+            23
+          ],
+          "services,": [
+            71
+          ],
+          "significant": [
+            19
+          ],
+          "since": [
+            12
+          ],
+          "society": [
+            175
+          ],
+          "software": [
+            97,
+            196
+          ],
+          "software-based": [
+            80
+          ],
+          "some": [
+            257
+          ],
+          "standards": [
+            142
+          ],
+          "studies": [
+            263
+          ],
+          "subject": [
+            38
+          ],
+          "survey": [
+            78
+          ],
+          "system": [
+            206
+          ],
+          "techniques": [
+            200
+          ],
+          "technological": [
+            181
+          ],
+          "technologies": [
+            81,
+            188
+          ],
+          "technology": [
+            20
+          ],
+          "that": [
+            8,
+            82,
+            135,
+            189,
+            198,
+            224,
+            245,
+            264
+          ],
+          "the": [
+            17,
+            25,
+            37,
+            105,
+            122,
+            128,
+            137,
+            140,
+            151,
+            168,
+            186,
+            194,
+            221,
+            229,
+            240,
+            259
+          ],
+          "this": [
+            77
+          ],
+          "to": [
+            30,
+            56,
+            69,
+            150,
+            219,
+            228
+          ],
+          "traction": [
+            11
+          ],
+          "usage.": [
+            268
+          ],
+          "used": [
+            85,
+            113
+          ],
+          "value": [
+            227
+          ],
+          "various": [
+            141
+          ],
+          "virtualization": [
+            203
+          ],
+          "well": [
+            255
+          ],
+          "which": [
+            72
+          ],
+          "will": [
+            49
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I5847235"
+                ],
+                "raw_affiliation_string": "Research Scholar, School of Computer Science, University of Petroleum and Energy Studies, Dehradun, India"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I5847235"
+                ],
+                "raw_affiliation_string": "School of Computer Science, University of Petroleum and Energy Studies, Dehradun, India"
+              }
+            ],
+            "author": {
+              "display_name": "Avita Katal",
+              "id": "https://openalex.org/A5084114753",
+              "orcid": "https://orcid.org/0000-0003-4072-5535"
+            },
+            "author_position": "first",
+            "countries": [
+              "IN"
+            ],
+            "institutions": [
+              {
+                "country_code": "IN",
+                "display_name": "University of Petroleum and Energy Studies",
+                "id": "https://openalex.org/I5847235",
+                "lineage": [
+                  "https://openalex.org/I5847235"
+                ],
+                "ror": "https://ror.org/04q2jes40",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "Research Scholar, School of Computer Science, University of Petroleum and Energy Studies, Dehradun, India",
+              "School of Computer Science, University of Petroleum and Energy Studies, Dehradun, India"
+            ],
+            "raw_author_name": "Avita Katal",
+            "raw_orcid": "https://orcid.org/0000-0003-4072-5535"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I5847235"
+                ],
+                "raw_affiliation_string": "School of Computer Science, University of Petroleum and Energy Studies, Dehradun, India"
+              }
+            ],
+            "author": {
+              "display_name": "Susheela Dahiya",
+              "id": "https://openalex.org/A5071907218",
+              "orcid": "https://orcid.org/0000-0003-0318-8427"
+            },
+            "author_position": "middle",
+            "countries": [
+              "IN"
+            ],
+            "institutions": [
+              {
+                "country_code": "IN",
+                "display_name": "University of Petroleum and Energy Studies",
+                "id": "https://openalex.org/I5847235",
+                "lineage": [
+                  "https://openalex.org/I5847235"
+                ],
+                "ror": "https://ror.org/04q2jes40",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "School of Computer Science, University of Petroleum and Energy Studies, Dehradun, India"
+            ],
+            "raw_author_name": "Susheela Dahiya",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I5847235"
+                ],
+                "raw_affiliation_string": "School of Computer Science, University of Petroleum and Energy Studies, Dehradun, India"
+              }
+            ],
+            "author": {
+              "display_name": "Tanupriya Choudhury",
+              "id": "https://openalex.org/A5021051196",
+              "orcid": "https://orcid.org/0000-0002-9826-2759"
+            },
+            "author_position": "last",
+            "countries": [
+              "IN"
+            ],
+            "institutions": [
+              {
+                "country_code": "IN",
+                "display_name": "University of Petroleum and Energy Studies",
+                "id": "https://openalex.org/I5847235",
+                "lineage": [
+                  "https://openalex.org/I5847235"
+                ],
+                "ror": "https://ror.org/04q2jes40",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "School of Computer Science, University of Petroleum and Energy Studies, Dehradun, India"
+            ],
+            "raw_author_name": "Tanupriya Choudhury",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "Energy efficiency in cloud computing data centers: a survey on software technologies",
+        "doi": "https://doi.org/10.1007/s10586-022-03713-0",
+        "id": "https://openalex.org/W4293770403",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://link.springer.com/content/pdf/10.1007/s10586-022-03713-0.pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1007/s10586-022-03713-0",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1007/s10586-022-03713-0",
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "pdf_url": "https://link.springer.com/content/pdf/10.1007/s10586-022-03713-0.pdf",
+          "raw_source_name": "Cluster Computing",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Cluster Computing",
+            "host_organization": "https://openalex.org/P4310319900",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319900",
+              "https://openalex.org/P4310319965"
+            ],
+            "host_organization_lineage_names": [
+              "Springer Science+Business Media",
+              "Springer Nature"
+            ],
+            "host_organization_name": "Springer Science+Business Media",
+            "id": "https://openalex.org/S106148199",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "1386-7857",
+              "1573-7543"
+            ],
+            "issn_l": "1386-7857",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2022-08-29",
+        "publication_year": 2022,
+        "title": "Energy efficiency in cloud computing data centers: a survey on software technologies",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": null,
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I5681781"
+                ],
+                "raw_affiliation_string": "School of Computer Science, The University of Adelaide, Adelaide SA 5005, Australia"
+              }
+            ],
+            "author": {
+              "display_name": "Yongrui Qin",
+              "id": "https://openalex.org/A5043502041",
+              "orcid": "https://orcid.org/0000-0001-6534-3205"
+            },
+            "author_position": "first",
+            "countries": [
+              "AU"
+            ],
+            "institutions": [
+              {
+                "country_code": "AU",
+                "display_name": "The University of Adelaide",
+                "id": "https://openalex.org/I5681781",
+                "lineage": [
+                  "https://openalex.org/I5681781"
+                ],
+                "ror": "https://ror.org/00892tw58",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "School of Computer Science, The University of Adelaide, Adelaide SA 5005, Australia"
+            ],
+            "raw_author_name": "Yongrui Qin",
+            "raw_orcid": "https://orcid.org/0000-0001-6534-3205"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I5681781"
+                ],
+                "raw_affiliation_string": "School of Computer Science, The University of Adelaide, Adelaide SA 5005, Australia"
+              }
+            ],
+            "author": {
+              "display_name": "Quan Z. Sheng",
+              "id": "https://openalex.org/A5080744092",
+              "orcid": "https://orcid.org/0000-0002-3326-4147"
+            },
+            "author_position": "middle",
+            "countries": [
+              "AU"
+            ],
+            "institutions": [
+              {
+                "country_code": "AU",
+                "display_name": "The University of Adelaide",
+                "id": "https://openalex.org/I5681781",
+                "lineage": [
+                  "https://openalex.org/I5681781"
+                ],
+                "ror": "https://ror.org/00892tw58",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "School of Computer Science, The University of Adelaide, Adelaide SA 5005, Australia"
+            ],
+            "raw_author_name": "Quan Z. Sheng",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I5681781"
+                ],
+                "raw_affiliation_string": "School of Computer Science, The University of Adelaide, Adelaide SA 5005, Australia"
+              }
+            ],
+            "author": {
+              "display_name": "Nickolas Falkner",
+              "id": "https://openalex.org/A5030025985",
+              "orcid": "https://orcid.org/0000-0001-7892-6813"
+            },
+            "author_position": "middle",
+            "countries": [
+              "AU"
+            ],
+            "institutions": [
+              {
+                "country_code": "AU",
+                "display_name": "The University of Adelaide",
+                "id": "https://openalex.org/I5681781",
+                "lineage": [
+                  "https://openalex.org/I5681781"
+                ],
+                "ror": "https://ror.org/00892tw58",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "School of Computer Science, The University of Adelaide, Adelaide SA 5005, Australia"
+            ],
+            "raw_author_name": "Nickolas J.G. Falkner",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I145847075"
+                ],
+                "raw_affiliation_string": "Institute of Information Systems, Vienna University of Technology, Austria"
+              }
+            ],
+            "author": {
+              "display_name": "Schahram Dustdar",
+              "id": "https://openalex.org/A5004847496",
+              "orcid": "https://orcid.org/0000-0001-6872-8821"
+            },
+            "author_position": "middle",
+            "countries": [
+              "AT"
+            ],
+            "institutions": [
+              {
+                "country_code": "AT",
+                "display_name": "TU Wien",
+                "id": "https://openalex.org/I145847075",
+                "lineage": [
+                  "https://openalex.org/I145847075"
+                ],
+                "ror": "https://ror.org/04d836q62",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Institute of Information Systems, Vienna University of Technology, Austria"
+            ],
+            "raw_author_name": "Schahram Dustdar",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I71270174"
+                ],
+                "raw_affiliation_string": "Center for Applied Informatics, Victoria University, Melbourne, Victoria 3122, Australia"
+              }
+            ],
+            "author": {
+              "display_name": "Hua Wang",
+              "id": "https://openalex.org/A5100403969",
+              "orcid": "https://orcid.org/0000-0002-8465-0996"
+            },
+            "author_position": "middle",
+            "countries": [
+              "AU"
+            ],
+            "institutions": [
+              {
+                "country_code": "AU",
+                "display_name": "Victoria University",
+                "id": "https://openalex.org/I71270174",
+                "lineage": [
+                  "https://openalex.org/I71270174"
+                ],
+                "ror": "https://ror.org/04j757h98",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Center for Applied Informatics, Victoria University, Melbourne, Victoria 3122, Australia"
+            ],
+            "raw_author_name": "Hua Wang",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I174458059"
+                ],
+                "raw_affiliation_string": "Department of Electrical and Computer Engineering, National Technical University of Athens, Greece"
+              }
+            ],
+            "author": {
+              "display_name": "Athanasios V. Vasilakos",
+              "id": "https://openalex.org/A5074022699",
+              "orcid": "https://orcid.org/0000-0003-1902-9877"
+            },
+            "author_position": "last",
+            "countries": [
+              "GR"
+            ],
+            "institutions": [
+              {
+                "country_code": "GR",
+                "display_name": "National Technical University of Athens",
+                "id": "https://openalex.org/I174458059",
+                "lineage": [
+                  "https://openalex.org/I174458059"
+                ],
+                "ror": "https://ror.org/03cx6bg69",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical and Computer Engineering, National Technical University of Athens, Greece"
+            ],
+            "raw_author_name": "Athanasios V. Vasilakos",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "When things matter: A survey on data-centric internet of things",
+        "doi": "https://doi.org/10.1016/j.jnca.2015.12.016",
+        "id": "https://openalex.org/W2266336423",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "green",
+          "oa_url": "https://eprints.hud.ac.uk/id/eprint/28596/1/when_things_matter.pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.jnca.2015.12.016",
+          "is_accepted": true,
+          "is_oa": false,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1016/j.jnca.2015.12.016",
+          "license": null,
+          "license_id": null,
+          "pdf_url": null,
+          "raw_source_name": "Journal of Network and Computer Applications",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Journal of Network and Computer Applications",
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S30128005",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "1084-8045",
+              "1095-8592"
+            ],
+            "issn_l": "1084-8045",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2016-02-12",
+        "publication_year": 2016,
+        "title": "When things matter: A survey on data-centric internet of things",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "$45": [
+            77
+          ],
+          "(UAVs)": [
+            6
+          ],
+          "Based": [
+            133
+          ],
+          "Billion": [
+            78
+          ],
+          "Civil": [
+            69
+          ],
+          "Furthermore,": [
+            110
+          ],
+          "In": [
+            84
+          ],
+          "Smart": [
+            38
+          ],
+          "The": [
+            0
+          ],
+          "UAV": [
+            47,
+            82,
+            89,
+            108,
+            117
+          ],
+          "UAVs": [
+            39
+          ],
+          "We": [
+            95
+          ],
+          "across": [
+            10
+          ],
+          "aerial": [
+            4
+          ],
+          "agriculture,": [
+            33
+          ],
+          "also": [
+            96
+          ],
+          "and": [
+            24,
+            30,
+            34,
+            66,
+            92,
+            102,
+            125,
+            128,
+            130,
+            146
+          ],
+          "application": [
+            13
+          ],
+          "applications": [
+            91
+          ],
+          "applications,": [
+            56,
+            119
+          ],
+          "approached.": [
+            156
+          ],
+          "are": [
+            40
+          ],
+          "avoidance": [
+            124
+          ],
+          "be": [
+            155
+          ],
+          "big": [
+            43
+          ],
+          "challenges": [
+            115,
+            145,
+            153
+          ],
+          "challenges,": [
+            122,
+            127
+          ],
+          "challenges.": [
+            94,
+            132
+          ],
+          "charging": [
+            121
+          ],
+          "civil": [
+            12,
+            35,
+            59,
+            90,
+            118
+          ],
+          "collision": [
+            123
+          ],
+          "cost.": [
+            68
+          ],
+          "coverage,": [
+            20
+          ],
+          "current": [
+            99
+          ],
+          "delivery": [
+            26
+          ],
+          "different": [
+            55
+          ],
+          "discuss": [
+            97,
+            142
+          ],
+          "domains,": [
+            14
+          ],
+          "dominate": [
+            74
+          ],
+          "draw": [
+            147
+          ],
+          "especially": [
+            57
+          ],
+          "expected": [
+            72
+          ],
+          "for": [
+            106,
+            116
+          ],
+          "future": [
+            104
+          ],
+          "goods,": [
+            28
+          ],
+          "growing": [
+            8
+          ],
+          "high-level": [
+            148
+          ],
+          "how": [
+            151
+          ],
+          "in": [
+            45,
+            54,
+            58,
+            61
+          ],
+          "including": [
+            15,
+            120
+          ],
+          "infrastructure": [
+            36,
+            60,
+            70
+          ],
+          "insights": [
+            105,
+            149
+          ],
+          "inspection.": [
+            37
+          ],
+          "is": [
+            7,
+            71
+          ],
+          "key": [
+            114
+          ],
+          "literature,": [
+            140
+          ],
+          "lower": [
+            67
+          ],
+          "many": [
+            11
+          ],
+          "market": [
+            79
+          ],
+          "might": [
+            154
+          ],
+          "monitoring,": [
+            17
+          ],
+          "more": [
+            75
+          ],
+          "networking": [
+            129
+          ],
+          "new": [
+            52
+          ],
+          "next": [
+            42
+          ],
+          "of": [
+            2,
+            27,
+            63,
+            81,
+            137
+          ],
+          "on": [
+            134,
+            150
+          ],
+          "open": [
+            143
+          ],
+          "opportunities": [
+            53
+          ],
+          "our": [
+            135
+          ],
+          "paper,": [
+            86
+          ],
+          "potential": [
+            107
+          ],
+          "precision": [
+            32
+          ],
+          "present": [
+            88,
+            112
+          ],
+          "promising": [
+            49
+          ],
+          "provide": [
+            51,
+            103
+          ],
+          "providing": [
+            18
+          ],
+          "rapidly": [
+            9
+          ],
+          "real-time": [
+            16
+          ],
+          "recent": [
+            139
+          ],
+          "reduced": [
+            64
+          ],
+          "remote": [
+            21
+          ],
+          "rescue,": [
+            25
+          ],
+          "research": [
+            100,
+            144
+          ],
+          "review": [
+            136
+          ],
+          "revolution": [
+            44
+          ],
+          "risks": [
+            65
+          ],
+          "search": [
+            23
+          ],
+          "security": [
+            29
+          ],
+          "security-related": [
+            131
+          ],
+          "sensing,": [
+            22
+          ],
+          "surveillance,": [
+            31
+          ],
+          "swarming": [
+            126
+          ],
+          "technology": [
+            48
+          ],
+          "terms": [
+            62
+          ],
+          "than": [
+            76
+          ],
+          "the": [
+            41,
+            46,
+            98,
+            113,
+            138
+          ],
+          "their": [
+            93
+          ],
+          "these": [
+            152
+          ],
+          "this": [
+            85
+          ],
+          "to": [
+            50,
+            73
+          ],
+          "trends": [
+            101
+          ],
+          "unmanned": [
+            3
+          ],
+          "usage.": [
+            83
+          ],
+          "use": [
+            1
+          ],
+          "uses.": [
+            109
+          ],
+          "value": [
+            80
+          ],
+          "vehicles": [
+            5
+          ],
+          "we": [
+            87,
+            111,
+            141
+          ],
+          "wireless": [
+            19
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I85507684"
+                ],
+                "raw_affiliation_string": "Department of Telecommunications Engineering, Yarmouk University, Irbid, Jordan"
+              },
+              {
+                "institution_ids": [],
+                "raw_affiliation_string": "ORCiD"
+              }
+            ],
+            "author": {
+              "display_name": "Hazim Shakhatreh",
+              "id": "https://openalex.org/A5036994172",
+              "orcid": "https://orcid.org/0000-0002-5350-3694"
+            },
+            "author_position": "first",
+            "countries": [
+              "JO"
+            ],
+            "institutions": [
+              {
+                "country_code": "JO",
+                "display_name": "Yarmouk University",
+                "id": "https://openalex.org/I85507684",
+                "lineage": [
+                  "https://openalex.org/I85507684"
+                ],
+                "ror": "https://ror.org/004mbaj56",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Telecommunications Engineering, Yarmouk University, Irbid, Jordan",
+              "ORCiD"
+            ],
+            "raw_author_name": "Hazim Shakhatreh",
+            "raw_orcid": "https://orcid.org/0000-0002-5350-3694"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I79156528"
+                ],
+                "raw_affiliation_string": "Department of Electronics and Communications Engineering, Universiti Tenaga Nasional, Kajang, Malaysia"
+              },
+              {
+                "institution_ids": [],
+                "raw_affiliation_string": "ORCiD"
+              }
+            ],
+            "author": {
+              "display_name": "Ahmad Sawalmeh",
+              "id": "https://openalex.org/A5017180654",
+              "orcid": "https://orcid.org/0000-0002-7040-8963"
+            },
+            "author_position": "middle",
+            "countries": [
+              "MY"
+            ],
+            "institutions": [
+              {
+                "country_code": "MY",
+                "display_name": "Universiti Tenaga Nasional",
+                "id": "https://openalex.org/I79156528",
+                "lineage": [
+                  "https://openalex.org/I79156528",
+                  "https://openalex.org/I874769580"
+                ],
+                "ror": "https://ror.org/03kxdn807",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electronics and Communications Engineering, Universiti Tenaga Nasional, Kajang, Malaysia",
+              "ORCiD"
+            ],
+            "raw_author_name": "Ahmad H. Sawalmeh",
+            "raw_orcid": "https://orcid.org/0000-0002-7040-8963"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I141649380"
+                ],
+                "raw_affiliation_string": "Department of Computer Science, Western Michigan University, Kalamazoo, MI, USA"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210144839"
+                ],
+                "raw_affiliation_string": "Information and Computing Technology (ICT) Division, College of Science and Engineering (CSE), Hamad Bin Khalifa University, Doha, Qatar"
+              },
+              {
+                "institution_ids": [],
+                "raw_affiliation_string": "ORCiD"
+              }
+            ],
+            "author": {
+              "display_name": "Ala Al‐Fuqaha",
+              "id": "https://openalex.org/A5008695053",
+              "orcid": "https://orcid.org/0000-0002-0903-1204"
+            },
+            "author_position": "middle",
+            "countries": [
+              "QA",
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Western Michigan University",
+                "id": "https://openalex.org/I141649380",
+                "lineage": [
+                  "https://openalex.org/I141649380"
+                ],
+                "ror": "https://ror.org/04j198w64",
+                "type": "education"
+              },
+              {
+                "country_code": "QA",
+                "display_name": "Hamad bin Khalifa University",
+                "id": "https://openalex.org/I4210144839",
+                "lineage": [
+                  "https://openalex.org/I4210144839"
+                ],
+                "ror": "https://ror.org/03eyq4y97",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Computer Science, Western Michigan University, Kalamazoo, MI, USA",
+              "Information and Computing Technology (ICT) Division, College of Science and Engineering (CSE), Hamad Bin Khalifa University, Doha, Qatar",
+              "ORCiD"
+            ],
+            "raw_author_name": "Ala Al-Fuqaha",
+            "raw_orcid": "https://orcid.org/0000-0002-0903-1204"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210125111"
+                ],
+                "raw_affiliation_string": "Novo Vivo, Inc., Palo Alto, CA, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Zuochao Dou",
+              "id": "https://openalex.org/A5057574564",
+              "orcid": "https://orcid.org/0000-0002-3880-5125"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Vietnamese Voluntary Foundation",
+                "id": "https://openalex.org/I4210125111",
+                "lineage": [
+                  "https://openalex.org/I4210125111"
+                ],
+                "ror": "https://ror.org/032eyp751",
+                "type": "nonprofit"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Novo Vivo, Inc., Palo Alto, CA, USA"
+            ],
+            "raw_author_name": "Zuochao Dou",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I114432678"
+                ],
+                "raw_affiliation_string": "Department of Power and Mechatronics Engineering, Tafila Technical University, Tafilah, Jordan"
+              }
+            ],
+            "author": {
+              "display_name": "Eyad Almaita",
+              "id": "https://openalex.org/A5029902840",
+              "orcid": "https://orcid.org/0000-0002-9601-4014"
+            },
+            "author_position": "middle",
+            "countries": [
+              "JO"
+            ],
+            "institutions": [
+              {
+                "country_code": "JO",
+                "display_name": "Tafila Technical University",
+                "id": "https://openalex.org/I114432678",
+                "lineage": [
+                  "https://openalex.org/I114432678"
+                ],
+                "ror": "https://ror.org/04jzmk773",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Power and Mechatronics Engineering, Tafila Technical University, Tafilah, Jordan"
+            ],
+            "raw_author_name": "Eyad Almaita",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210138380"
+                ],
+                "raw_affiliation_string": "Qatar Computing Research Institute (QCRI), HBKU, Doha, Qatar"
+              }
+            ],
+            "author": {
+              "display_name": "Issa Khalil",
+              "id": "https://openalex.org/A5008374141",
+              "orcid": "https://orcid.org/0000-0002-7660-9512"
+            },
+            "author_position": "middle",
+            "countries": [
+              "QA"
+            ],
+            "institutions": [
+              {
+                "country_code": "QA",
+                "display_name": "Qatar Cardiovascular Research Center",
+                "id": "https://openalex.org/I4210138380",
+                "lineage": [
+                  "https://openalex.org/I4210138380"
+                ],
+                "ror": "https://ror.org/038vyt185",
+                "type": "healthcare"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Qatar Computing Research Institute (QCRI), HBKU, Doha, Qatar"
+            ],
+            "raw_author_name": "Issa Khalil",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I79156528"
+                ],
+                "raw_affiliation_string": "Department of Electronics and Communications Engineering, Universiti Tenaga Nasional, Kajang, Malaysia"
+              },
+              {
+                "institution_ids": [],
+                "raw_affiliation_string": "ORCiD"
+              }
+            ],
+            "author": {
+              "display_name": "Noor Shamsiah Othman",
+              "id": "https://openalex.org/A5041778059",
+              "orcid": "https://orcid.org/0000-0002-1849-6687"
+            },
+            "author_position": "middle",
+            "countries": [
+              "MY"
+            ],
+            "institutions": [
+              {
+                "country_code": "MY",
+                "display_name": "Universiti Tenaga Nasional",
+                "id": "https://openalex.org/I79156528",
+                "lineage": [
+                  "https://openalex.org/I79156528",
+                  "https://openalex.org/I874769580"
+                ],
+                "ror": "https://ror.org/03kxdn807",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electronics and Communications Engineering, Universiti Tenaga Nasional, Kajang, Malaysia",
+              "ORCiD"
+            ],
+            "raw_author_name": "Noor Shamsiah Othman",
+            "raw_orcid": "https://orcid.org/0000-0002-1849-6687"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210140517"
+                ],
+                "raw_affiliation_string": "Department of Electrical and Computer Engineering, University Heights, Newark, NJ, USA"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I118118575"
+                ],
+                "raw_affiliation_string": "Department of Electrical and Computer Engineering, Newark College of Engineering, University Heights, Newark, NJ, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Abdallah Khreishah",
+              "id": "https://openalex.org/A5062119199",
+              "orcid": "https://orcid.org/0000-0003-1583-713X"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "New Jersey Institute of Technology",
+                "id": "https://openalex.org/I118118575",
+                "lineage": [
+                  "https://openalex.org/I118118575"
+                ],
+                "ror": "https://ror.org/05e74xb87",
+                "type": "education"
+              },
+              {
+                "country_code": "US",
+                "display_name": "University Heights Center",
+                "id": "https://openalex.org/I4210140517",
+                "lineage": [
+                  "https://openalex.org/I4210140517"
+                ],
+                "ror": "https://ror.org/04wngnd82",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical and Computer Engineering, University Heights, Newark, NJ, USA",
+              "Department of Electrical and Computer Engineering, Newark College of Engineering, University Heights, Newark, NJ, USA"
+            ],
+            "raw_author_name": "Abdallah Khreishah",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I155093810"
+                ],
+                "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Idaho, Moscow, ID, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Mohsen Guizani",
+              "id": "https://openalex.org/A5057916222",
+              "orcid": "https://orcid.org/0000-0002-8972-8094"
+            },
+            "author_position": "last",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "University of Idaho",
+                "id": "https://openalex.org/I155093810",
+                "lineage": [
+                  "https://openalex.org/I155093810"
+                ],
+                "ror": "https://ror.org/03hbp5t65",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical and Computer Engineering, University of Idaho, Moscow, ID, USA"
+            ],
+            "raw_author_name": "Mohsen Guizani",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "Unmanned Aerial Vehicles (UAVs): A Survey on Civil Applications and Key Research Challenges",
+        "doi": "https://doi.org/10.1109/access.2019.2909530",
+        "id": "https://openalex.org/W4213147678",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08682048.pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1109/access.2019.2909530",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1109/access.2019.2909530",
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8600701/08682048.pdf",
+          "raw_source_name": "IEEE Access",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "IEEE Access",
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "id": "https://openalex.org/S2485537415",
+            "is_core": true,
+            "is_in_doaj": true,
+            "is_oa": true,
+            "issn": [
+              "2169-3536"
+            ],
+            "issn_l": "2169-3536",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2019-01-01",
+        "publication_year": 2019,
+        "title": "Unmanned Aerial Vehicles (UAVs): A Survey on Civil Applications and Key Research Challenges",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "A": [
+            153
+          ],
+          "Due": [
+            109
+          ],
+          "Furthermore,": [
+            207
+          ],
+          "However,": [
+            41
+          ],
+          "If": [
+            87
+          ],
+          "In": [
+            131
+          ],
+          "Moreover,": [
+            220
+          ],
+          "Power": [
+            0
+          ],
+          "Research": [
+            244
+          ],
+          "The": [
+            70,
+            194
+          ],
+          "They": [
+            14
+          ],
+          "To": [
+            26
+          ],
+          "US": [
+            160
+          ],
+          "a": [
+            31,
+            80,
+            107,
+            134
+          ],
+          "aim": [
+            52
+          ],
+          "also": [
+            182,
+            196,
+            258
+          ],
+          "analysis": [
+            211
+          ],
+          "and": [
+            7,
+            23,
+            36,
+            58,
+            67,
+            120,
+            141,
+            164,
+            179,
+            209,
+            213,
+            228,
+            238,
+            246
+          ],
+          "are": [
+            2,
+            39,
+            44,
+            63,
+            151,
+            218,
+            241,
+            257
+          ],
+          "around": [
+            115,
+            204
+          ],
+          "aspects.": [
+            25
+          ],
+          "at": [
+            78
+          ],
+          "availability": [
+            187
+          ],
+          "avoid": [
+            126
+          ],
+          "avoiding": [
+            54
+          ],
+          "be": [
+            249
+          ],
+          "blackout": [
+            208,
+            237,
+            255
+          ],
+          "blackout.": [
+            108
+          ],
+          "blackouts": [
+            127,
+            140,
+            203,
+            217
+          ],
+          "cascading": [
+            101,
+            142,
+            210,
+            239
+          ],
+          "causes": [
+            166,
+            200
+          ],
+          "challenges": [
+            222
+          ],
+          "complex": [
+            5
+          ],
+          "comprehensive": [
+            135
+          ],
+          "consequences": [
+            215
+          ],
+          "consequences,": [
+            112
+          ],
+          "considered": [
+            250
+          ],
+          "control": [
+            35
+          ],
+          "countries": [
+            114
+          ],
+          "danger.": [
+            86
+          ],
+          "data": [
+            189
+          ],
+          "decade": [
+            150
+          ],
+          "different": [
+            202
+          ],
+          "direct": [
+            16
+          ],
+          "directions": [
+            245
+          ],
+          "due": [
+            183
+          ],
+          "economic,": [
+            21
+          ],
+          "emergencies": [
+            73
+          ],
+          "emergency": [
+            66,
+            89
+          ],
+          "encountering": [
+            65
+          ],
+          "equipped": [
+            45
+          ],
+          "events": [
+            57,
+            143,
+            240
+          ],
+          "events.": [
+            193
+          ],
+          "existing": [
+            225
+          ],
+          "expert": [
+            121
+          ],
+          "failures": [
+            102
+          ],
+          "focus": [
+            155
+          ],
+          "for": [
+            190
+          ],
+          "future": [
+            252
+          ],
+          "gaps": [
+            230
+          ],
+          "given": [
+            157
+          ],
+          "globe.": [
+            206
+          ],
+          "great": [
+            9
+          ],
+          "have": [
+            8,
+            15,
+            100,
+            118,
+            145
+          ],
+          "highlights": [
+            197
+          ],
+          "impacts": [
+            17
+          ],
+          "importance": [
+            10
+          ],
+          "in": [
+            11,
+            30,
+            85,
+            147,
+            176,
+            223,
+            231,
+            251
+          ],
+          "introduced.": [
+            152
+          ],
+          "is": [
+            90,
+            97,
+            156,
+            169,
+            181
+          ],
+          "issues": [
+            247
+          ],
+          "it": [
+            168,
+            180
+          ],
+          "last": [
+            149
+          ],
+          "lead": [
+            105
+          ],
+          "leading": [
+            173
+          ],
+          "least": [
+            79
+          ],
+          "life.": [
+            13
+          ],
+          "likely": [
+            98
+          ],
+          "major": [
+            139
+          ],
+          "mal-operation": [
+            68
+          ],
+          "managed,": [
+            93
+          ],
+          "many": [
+            113
+          ],
+          "marked": [
+            242
+          ],
+          "methods": [
+            212
+          ],
+          "might": [
+            104
+          ],
+          "mode,": [
+            33
+          ],
+          "modern": [
+            12,
+            42
+          ],
+          "modernization,": [
+            20
+          ],
+          "most": [
+            4,
+            71
+          ],
+          "not": [
+            91
+          ],
+          "occurred": [
+            146
+          ],
+          "of": [
+            53,
+            82,
+            171,
+            188,
+            201,
+            216,
+            234
+          ],
+          "on": [
+            18,
+            128,
+            137,
+            158
+          ],
+          "one": [
+            170
+          ],
+          "operate": [
+            27
+          ],
+          "or": [
+            77
+          ],
+          "out.": [
+            243
+          ],
+          "outages": [
+            163
+          ],
+          "outages,": [
+            60
+          ],
+          "paper": [
+            195
+          ],
+          "paper,": [
+            133
+          ],
+          "part": [
+            81
+          ],
+          "particular": [
+            154
+          ],
+          "past": [
+            192
+          ],
+          "political": [
+            22
+          ],
+          "power": [
+            59,
+            61,
+            95,
+            161,
+            174,
+            235,
+            253
+          ],
+          "producers": [
+            175
+          ],
+          "proposed.": [
+            259
+          ],
+          "protection": [
+            37,
+            48
+          ],
+          "protective": [
+            226
+          ],
+          "put": [
+            74
+          ],
+          "ready": [
+            186
+          ],
+          "required.": [
+            40
+          ],
+          "research": [
+            119,
+            229
+          ],
+          "review": [
+            136
+          ],
+          "root": [
+            199
+          ],
+          "schemes": [
+            49,
+            227
+          ],
+          "several": [
+            34,
+            47
+          ],
+          "severe": [
+            72
+          ],
+          "since": [
+            167
+          ],
+          "situations.": [
+            69
+          ],
+          "social": [
+            24
+          ],
+          "stable": [
+            32
+          ],
+          "still": [
+            64
+          ],
+          "studies": [
+            256
+          ],
+          "such": [
+            28
+          ],
+          "surveyed.": [
+            219
+          ],
+          "system": [
+            84,
+            96,
+            162,
+            236,
+            254
+          ],
+          "systems": [
+            1,
+            6,
+            29,
+            43,
+            62
+          ],
+          "systems.": [
+            130
+          ],
+          "teams": [
+            122
+          ],
+          "techniques": [
+            38
+          ],
+          "that": [
+            103,
+            144
+          ],
+          "the": [
+            3,
+            19,
+            51,
+            55,
+            75,
+            83,
+            88,
+            94,
+            111,
+            116,
+            138,
+            148,
+            159,
+            172,
+            177,
+            185,
+            191,
+            198,
+            205,
+            214,
+            221,
+            224,
+            232
+          ],
+          "their": [
+            129,
+            165
+          ],
+          "this": [
+            132
+          ],
+          "to": [
+            99,
+            106,
+            110,
+            125,
+            184,
+            248
+          ],
+          "topic": [
+            233
+          ],
+          "unpredicted": [
+            56
+          ],
+          "well": [
+            92
+          ],
+          "who": [
+            123
+          ],
+          "whole": [
+            76
+          ],
+          "with": [
+            46,
+            50
+          ],
+          "work": [
+            124
+          ],
+          "world": [
+            117,
+            178
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I108907416"
+                ],
+                "raw_affiliation_string": "Department of Electrical Power Engineering, Faculty of Mechanical and Electrical Engineering, Tishreen University, Lattakia 2230, Syria"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I170013655"
+                ],
+                "raw_affiliation_string": "Department of Electrical and Computer Engineering, Isfahan University of Technology, Isfahan 84156-83111, Iran"
+              }
+            ],
+            "author": {
+              "display_name": "Hassan Haes Alhelou",
+              "id": "https://openalex.org/A5078010800",
+              "orcid": "https://orcid.org/0000-0002-7427-2848"
+            },
+            "author_position": "first",
+            "countries": [
+              "IR",
+              "SY"
+            ],
+            "institutions": [
+              {
+                "country_code": "SY",
+                "display_name": "Latakia University",
+                "id": "https://openalex.org/I108907416",
+                "lineage": [
+                  "https://openalex.org/I108907416"
+                ],
+                "ror": "https://ror.org/04nqts970",
+                "type": "education"
+              },
+              {
+                "country_code": "IR",
+                "display_name": "Isfahan University of Technology",
+                "id": "https://openalex.org/I170013655",
+                "lineage": [
+                  "https://openalex.org/I170013655"
+                ],
+                "ror": "https://ror.org/00af3sa43",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical Power Engineering, Faculty of Mechanical and Electrical Engineering, Tishreen University, Lattakia 2230, Syria",
+              "Department of Electrical and Computer Engineering, Isfahan University of Technology, Isfahan 84156-83111, Iran"
+            ],
+            "raw_author_name": "Hassan Haes Alhelou",
+            "raw_orcid": "https://orcid.org/0000-0002-7427-2848"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I170013655"
+                ],
+                "raw_affiliation_string": "Department of Electrical and Computer Engineering, Isfahan University of Technology, Isfahan 84156-83111, Iran"
+              }
+            ],
+            "author": {
+              "display_name": "Mohamad Esmail Hamedani-Golshan",
+              "id": "https://openalex.org/A5054206936",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "IR"
+            ],
+            "institutions": [
+              {
+                "country_code": "IR",
+                "display_name": "Isfahan University of Technology",
+                "id": "https://openalex.org/I170013655",
+                "lineage": [
+                  "https://openalex.org/I170013655"
+                ],
+                "ror": "https://ror.org/00af3sa43",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical and Computer Engineering, Isfahan University of Technology, Isfahan 84156-83111, Iran"
+            ],
+            "raw_author_name": "Mohamad Esmail Hamedani-Golshan",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I170013655"
+                ],
+                "raw_affiliation_string": "Department of Electrical and Computer Engineering, Isfahan University of Technology, Isfahan 84156-83111, Iran"
+              }
+            ],
+            "author": {
+              "display_name": "Takawira Cuthbert Njenda",
+              "id": "https://openalex.org/A5014016562",
+              "orcid": "https://orcid.org/0000-0001-9053-4759"
+            },
+            "author_position": "middle",
+            "countries": [
+              "IR"
+            ],
+            "institutions": [
+              {
+                "country_code": "IR",
+                "display_name": "Isfahan University of Technology",
+                "id": "https://openalex.org/I170013655",
+                "lineage": [
+                  "https://openalex.org/I170013655"
+                ],
+                "ror": "https://ror.org/00af3sa43",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical and Computer Engineering, Isfahan University of Technology, Isfahan 84156-83111, Iran"
+            ],
+            "raw_author_name": "Takawira Cuthbert Njenda",
+            "raw_orcid": "https://orcid.org/0000-0001-9053-4759"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I131729948"
+                ],
+                "raw_affiliation_string": "Department of Management &amp; Innovation Systems, University of Salerno, 84084 Salerno, Italy"
+              }
+            ],
+            "author": {
+              "display_name": "Pierluigi Siano",
+              "id": "https://openalex.org/A5035300094",
+              "orcid": "https://orcid.org/0000-0002-0975-0241"
+            },
+            "author_position": "last",
+            "countries": [
+              "IT"
+            ],
+            "institutions": [
+              {
+                "country_code": "IT",
+                "display_name": "University of Salerno",
+                "id": "https://openalex.org/I131729948",
+                "lineage": [
+                  "https://openalex.org/I131729948"
+                ],
+                "ror": "https://ror.org/0192m2k53",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "Department of Management &amp; Innovation Systems, University of Salerno, 84084 Salerno, Italy"
+            ],
+            "raw_author_name": "Pierluigi Siano",
+            "raw_orcid": "https://orcid.org/0000-0002-0975-0241"
+          }
+        ],
+        "display_name": "A Survey on Power System Blackout and Cascading Events: Research Motivations and Challenges",
+        "doi": "https://doi.org/10.3390/en12040682",
+        "id": "https://openalex.org/W2915350869",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://www.mdpi.com/1996-1073/12/4/682/pdf?version=1550660716"
+        },
+        "primary_location": {
+          "id": "doi:10.3390/en12040682",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.3390/en12040682",
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "pdf_url": "https://www.mdpi.com/1996-1073/12/4/682/pdf?version=1550660716",
+          "raw_source_name": "Energies",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Energies",
+            "host_organization": "https://openalex.org/P4310310987",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310310987"
+            ],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
+            "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+            "id": "https://openalex.org/S198098182",
+            "is_core": true,
+            "is_in_doaj": true,
+            "is_oa": true,
+            "issn": [
+              "1996-1073"
+            ],
+            "issn_l": "1996-1073",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2019-02-20",
+        "publication_year": 2019,
+        "title": "A Survey on Power System Blackout and Cascading Events: Research Motivations and Challenges",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "Also": [
+            71
+          ],
+          "Digital": [
+            0,
+            59
+          ],
+          "In": [
+            135
+          ],
+          "Our": [
+            159
+          ],
+          "Recent": [
+            28
+          ],
+          "a": [
+            6,
+            10,
+            75,
+            84,
+            94,
+            98,
+            156,
+            164
+          ],
+          "addressed": [
+            128
+          ],
+          "advance": [
+            117
+          ],
+          "advances": [
+            29
+          ],
+          "aim": [
+            160
+          ],
+          "along": [
+            174
+          ],
+          "also": [
+            113
+          ],
+          "an": [
+            63
+          ],
+          "and": [
+            16,
+            24,
+            42,
+            51,
+            65,
+            107,
+            145,
+            171,
+            177
+          ],
+          "applications.": [
+            70
+          ],
+          "artificial": [
+            35
+          ],
+          "as": [
+            5,
+            74
+          ],
+          "asset": [
+            12
+          ],
+          "avatar": [
+            82
+          ],
+          "barriers": [
+            126
+          ],
+          "be": [
+            3,
+            90
+          ],
+          "big": [
+            37
+          ],
+          "bring": [
+            45
+          ],
+          "but": [
+            112
+          ],
+          "by": [
+            129
+          ],
+          "can": [
+            2,
+            89
+          ],
+          "challenges": [
+            170
+          ],
+          "closer": [
+            56
+          ],
+          "computational": [
+            31,
+            76
+          ],
+          "construction": [
+            150
+          ],
+          "controlling,": [
+            23
+          ],
+          "coverage": [
+            166
+          ],
+          "current": [
+            169
+          ],
+          "current,": [
+            131
+          ],
+          "cyber-physical": [
+            109
+          ],
+          "cybernetics,": [
+            39
+          ],
+          "data": [
+            15,
+            38,
+            40
+          ],
+          "decision": [
+            26
+          ],
+          "defined": [
+            4
+          ],
+          "design": [
+            106
+          ],
+          "detailed": [
+            165
+          ],
+          "device": [
+            78
+          ],
+          "digital": [
+            49,
+            95,
+            152
+          ],
+          "doubt": [
+            92
+          ],
+          "emerging": [
+            66
+          ],
+          "enabled": [
+            13
+          ],
+          "enabling": [
+            172
+          ],
+          "evolutionary": [
+            132
+          ],
+          "for": [
+            18,
+            179
+          ],
+          "from": [
+            155
+          ],
+          "fundamental": [
+            125
+          ],
+          "how": [
+            104,
+            115
+          ],
+          "impact": [
+            53
+          ],
+          "important": [
+            64
+          ],
+          "improved": [
+            25
+          ],
+          "in": [
+            30,
+            68,
+            103,
+            114
+          ],
+          "intelligence,": [
+            36
+          ],
+          "intelligent": [
+            110
+          ],
+          "is": [
+            61,
+            161
+          ],
+          "making.": [
+            27
+          ],
+          "management": [
+            43
+          ],
+          "many": [
+            69
+          ],
+          "megamodel,": [
+            77
+          ],
+          "methodologies": [
+            144
+          ],
+          "mirrored": [
+            80
+          ],
+          "modeling": [
+            133,
+            157
+          ],
+          "modularity": [
+            119
+          ],
+          "monitoring,": [
+            22
+          ],
+          "mostly": [
+            154
+          ],
+          "multi-disciplinary": [
+            121
+          ],
+          "multiphysics": [
+            33
+          ],
+          "no": [
+            91
+          ],
+          "not": [
+            101,
+            127
+          ],
+          "now": [
+            62
+          ],
+          "of": [
+            9,
+            48,
+            120,
+            143,
+            151,
+            167
+          ],
+          "on": [
+            54
+          ],
+          "only": [
+            102
+          ],
+          "operate": [
+            108
+          ],
+          "optimization,": [
+            21
+          ],
+          "or": [
+            83
+          ],
+          "perspective.": [
+            158
+          ],
+          "physical": [
+            11
+          ],
+          "pipelines,": [
+            32
+          ],
+          "plays": [
+            97
+          ],
+          "practices.": [
+            134
+          ],
+          "prediction,": [
+            20
+          ],
+          "processing": [
+            41
+          ],
+          "promise": [
+            47
+          ],
+          "prototype,": [
+            87
+          ],
+          "provide": [
+            163
+          ],
+          "real-time": [
+            19
+          ],
+          "reality.": [
+            58
+          ],
+          "recent": [
+            141
+          ],
+          "recommendations": [
+            176
+          ],
+          "referred": [
+            72
+          ],
+          "reflections": [
+            178
+          ],
+          "related": [
+            147
+          ],
+          "representation": [
+            8
+          ],
+          "review": [
+            139
+          ],
+          "role": [
+            100
+          ],
+          "shadow,": [
+            79
+          ],
+          "simulators": [
+            17
+          ],
+          "society": [
+            55
+          ],
+          "solvers,": [
+            34
+          ],
+          "stakeholders.": [
+            181
+          ],
+          "status": [
+            142
+          ],
+          "synchronized": [
+            85
+          ],
+          "system,": [
+            81
+          ],
+          "systems": [
+            122
+          ],
+          "systems,": [
+            111
+          ],
+          "tackle": [
+            124
+          ],
+          "techniques": [
+            146
+          ],
+          "technologies": [
+            173
+          ],
+          "that": [
+            93
+          ],
+          "the": [
+            46,
+            118,
+            130,
+            140,
+            149,
+            168
+          ],
+          "their": [
+            52
+          ],
+          "there": [
+            88
+          ],
+          "this": [
+            136
+          ],
+          "through": [
+            14
+          ],
+          "to": [
+            57,
+            73,
+            123,
+            148,
+            162
+          ],
+          "tools": [
+            44
+          ],
+          "transformative": [
+            99
+          ],
+          "trend": [
+            67
+          ],
+          "twin": [
+            1,
+            96
+          ],
+          "twinning": [
+            60
+          ],
+          "twins": [
+            50,
+            153
+          ],
+          "various": [
+            180
+          ],
+          "virtual": [
+            7,
+            86
+          ],
+          "we": [
+            105,
+            116,
+            138
+          ],
+          "with": [
+            175
+          ],
+          "work,": [
+            137
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I204778367"
+                ],
+                "raw_affiliation_string": "Department of Engineering Cybernetics, Norwegian University of Science and Technology, Trondheim, Norway"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I173888879",
+                  "https://openalex.org/I4387930215"
+                ],
+                "raw_affiliation_string": "Department of Mathematics and Cybernetics, SINTEF Digital, Trondheim, Norway"
+              }
+            ],
+            "author": {
+              "display_name": "Adil Rasheed",
+              "id": "https://openalex.org/A5032407979",
+              "orcid": "https://orcid.org/0000-0003-2690-983X"
+            },
+            "author_position": "first",
+            "countries": [
+              "NO"
+            ],
+            "institutions": [
+              {
+                "country_code": "NO",
+                "display_name": "SINTEF",
+                "id": "https://openalex.org/I173888879",
+                "lineage": [
+                  "https://openalex.org/I173888879"
+                ],
+                "ror": "https://ror.org/01f677e56",
+                "type": "facility"
+              },
+              {
+                "country_code": "NO",
+                "display_name": "Norwegian University of Science and Technology",
+                "id": "https://openalex.org/I204778367",
+                "lineage": [
+                  "https://openalex.org/I204778367"
+                ],
+                "ror": "https://ror.org/05xg72x27",
+                "type": "education"
+              },
+              {
+                "country_code": null,
+                "display_name": "SINTEF Digital",
+                "id": "https://openalex.org/I4387930215",
+                "lineage": [
+                  "https://openalex.org/I173888879",
+                  "https://openalex.org/I4387930215"
+                ],
+                "ror": "https://ror.org/028m52w57",
+                "type": "facility"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Engineering Cybernetics, Norwegian University of Science and Technology, Trondheim, Norway",
+              "Department of Mathematics and Cybernetics, SINTEF Digital, Trondheim, Norway"
+            ],
+            "raw_author_name": "Adil Rasheed",
+            "raw_orcid": "https://orcid.org/0000-0003-2690-983X"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I115475287"
+                ],
+                "raw_affiliation_string": "Mechanical and Aerospace Engineering, Oklahoma State University, Stillwater, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Omer San",
+              "id": "https://openalex.org/A5085671233",
+              "orcid": "https://orcid.org/0000-0002-2241-4648"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Oklahoma State University",
+                "id": "https://openalex.org/I115475287",
+                "lineage": [
+                  "https://openalex.org/I115475287"
+                ],
+                "ror": "https://ror.org/01g9vbr38",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Mechanical and Aerospace Engineering, Oklahoma State University, Stillwater, USA"
+            ],
+            "raw_author_name": "Omer San",
+            "raw_orcid": "https://orcid.org/0000-0002-2241-4648"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I204778367"
+                ],
+                "raw_affiliation_string": "Department of Mathematical Sciences, Norwegian University of Science and Technology, Trondheim, Norway"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I173888879",
+                  "https://openalex.org/I4387930215"
+                ],
+                "raw_affiliation_string": "Department of Mathematics and Cybernetics, SINTEF Digital, Trondheim, Norway"
+              }
+            ],
+            "author": {
+              "display_name": "Trond Kvamsdal",
+              "id": "https://openalex.org/A5072774082",
+              "orcid": "https://orcid.org/0000-0002-1615-7649"
+            },
+            "author_position": "last",
+            "countries": [
+              "NO"
+            ],
+            "institutions": [
+              {
+                "country_code": "NO",
+                "display_name": "SINTEF",
+                "id": "https://openalex.org/I173888879",
+                "lineage": [
+                  "https://openalex.org/I173888879"
+                ],
+                "ror": "https://ror.org/01f677e56",
+                "type": "facility"
+              },
+              {
+                "country_code": "NO",
+                "display_name": "Norwegian University of Science and Technology",
+                "id": "https://openalex.org/I204778367",
+                "lineage": [
+                  "https://openalex.org/I204778367"
+                ],
+                "ror": "https://ror.org/05xg72x27",
+                "type": "education"
+              },
+              {
+                "country_code": null,
+                "display_name": "SINTEF Digital",
+                "id": "https://openalex.org/I4387930215",
+                "lineage": [
+                  "https://openalex.org/I173888879",
+                  "https://openalex.org/I4387930215"
+                ],
+                "ror": "https://ror.org/028m52w57",
+                "type": "facility"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mathematical Sciences, Norwegian University of Science and Technology, Trondheim, Norway",
+              "Department of Mathematics and Cybernetics, SINTEF Digital, Trondheim, Norway"
+            ],
+            "raw_author_name": "Trond Kvamsdal",
+            "raw_orcid": "https://orcid.org/0000-0002-1615-7649"
+          }
+        ],
+        "display_name": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+        "doi": "https://doi.org/10.1109/access.2020.2970143",
+        "id": "https://openalex.org/W3003667836",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1109/access.2020.2970143",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1109/access.2020.2970143",
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08972429.pdf",
+          "raw_source_name": "IEEE Access",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "IEEE Access",
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "id": "https://openalex.org/S2485537415",
+            "is_core": true,
+            "is_in_doaj": true,
+            "is_oa": true,
+            "issn": [
+              "2169-3536"
+            ],
+            "issn_l": "2169-3536",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2020-01-01",
+        "publication_year": 2020,
+        "title": "Digital Twin: Values, Challenges and Enablers From a Modeling Perspective",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "&": [
+            107
+          ],
+          "(SatComs)": [
+            2
+          ],
+          "5G": [
+            72
+          ],
+          "Earth": [
+            76
+          ],
+          "Finally,": [
+            109
+          ],
+          "Firstly,": [
+            43
+          ],
+          "SatComs,": [
+            34
+          ],
+          "Satellite": [
+            0
+          ],
+          "Secondly,": [
+            64
+          ],
+          "Subsequently,": [
+            84
+          ],
+          "The": [
+            22
+          ],
+          "a": [
+            6,
+            110
+          ],
+          "access,": [
+            102
+          ],
+          "across": [
+            91
+          ],
+          "advances": [
+            14
+          ],
+          "aeronautical": [
+            78
+          ],
+          "aims": [
+            25
+          ],
+          "air": [
+            98
+          ],
+          "an": [
+            85
+          ],
+          "and": [
+            15,
+            20,
+            60,
+            79,
+            82,
+            115
+          ],
+          "applications": [
+            68
+          ],
+          "are": [
+            48,
+            69,
+            121
+          ],
+          "art": [
+            32
+          ],
+          "as": [
+            51
+          ],
+          "aspects,": [
+            96
+          ],
+          "at": [
+            26
+          ],
+          "axes:": [
+            93
+          ],
+          "by": [
+            12
+          ],
+          "capabilities,": [
+            57
+          ],
+          "capturing": [
+            27
+          ],
+          "challenges": [
+            114
+          ],
+          "collection/processing.": [
+            63
+          ],
+          "communication.": [
+            83
+          ],
+          "communications": [
+            1
+          ],
+          "communications,": [
+            75
+          ],
+          "constellation": [
+            53
+          ],
+          "data": [
+            62
+          ],
+          "described,": [
+            70
+          ],
+          "described.": [
+            122
+          ],
+          "drivers": [
+            47
+          ],
+          "entered": [
+            5
+          ],
+          "five": [
+            92
+          ],
+          "future": [
+            113
+          ],
+          "have": [
+            3
+          ],
+          "highlighting": [
+            36
+          ],
+          "i)": [
+            94
+          ],
+          "i.e.,": [
+            71
+          ],
+          "ii)": [
+            97
+          ],
+          "iii)": [
+            100
+          ],
+          "in": [
+            33
+          ],
+          "in-depth": [
+            86
+          ],
+          "innovation": [
+            46
+          ],
+          "integration,": [
+            73
+          ],
+          "interest": [
+            10
+          ],
+          "interface,": [
+            99
+          ],
+          "investment": [
+            19
+          ],
+          "is": [
+            89
+          ],
+          "iv)": [
+            103
+          ],
+          "literature": [
+            87
+          ],
+          "main": [
+            45
+          ],
+          "maritime": [
+            80
+          ],
+          "medium": [
+            101
+          ],
+          "most": [
+            38,
+            66
+          ],
+          "motivated": [
+            11
+          ],
+          "motivated,": [
+            49
+          ],
+          "networking,": [
+            104
+          ],
+          "networks": [
+            59
+          ],
+          "new": [
+            52
+          ],
+          "non-terrestrial": [
+            58
+          ],
+          "number": [
+            111
+          ],
+          "nurtured": [
+            16
+          ],
+          "observation,": [
+            77
+          ],
+          "of": [
+            8,
+            30,
+            112
+          ],
+          "on-board": [
+            55
+          ],
+          "open": [
+            40,
+            118
+          ],
+          "period": [
+            7
+          ],
+          "present": [
+            23
+          ],
+          "private": [
+            18
+          ],
+          "processing": [
+            56
+          ],
+          "promising": [
+            39,
+            67
+          ],
+          "prototyping.": [
+            108
+          ],
+          "provided": [
+            90
+          ],
+          "recently": [
+            4
+          ],
+          "renewed": [
+            9
+          ],
+          "research": [
+            41,
+            119
+          ],
+          "respective": [
+            117
+          ],
+          "review": [
+            88
+          ],
+          "space": [
+            74
+          ],
+          "space-based": [
+            61
+          ],
+          "state": [
+            29
+          ],
+          "such": [
+            50
+          ],
+          "survey": [
+            24
+          ],
+          "system": [
+            95
+          ],
+          "technological": [
+            13
+          ],
+          "testbeds": [
+            106
+          ],
+          "the": [
+            28,
+            31,
+            37,
+            44,
+            65,
+            116
+          ],
+          "through": [
+            17
+          ],
+          "topics": [
+            120
+          ],
+          "topics.": [
+            42
+          ],
+          "tracking": [
+            81
+          ],
+          "types,": [
+            54
+          ],
+          "v)": [
+            105
+          ],
+          "ventures.": [
+            21
+          ],
+          "while": [
+            35
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "raw_affiliation_string": "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+              }
+            ],
+            "author": {
+              "display_name": "Oltjon Kodheli",
+              "id": "https://openalex.org/A5034364460",
+              "orcid": "https://orcid.org/0000-0002-3343-5890"
+            },
+            "author_position": "first",
+            "countries": [
+              "LU"
+            ],
+            "institutions": [
+              {
+                "country_code": "LU",
+                "display_name": "University of Luxembourg",
+                "id": "https://openalex.org/I186903577",
+                "lineage": [
+                  "https://openalex.org/I186903577"
+                ],
+                "ror": "https://ror.org/036x5ad56",
+                "type": "education"
+              },
+              {
+                "country_code": "LU",
+                "display_name": "Interdisciplinary Centre for Security, Reliability and Trust",
+                "id": "https://openalex.org/I4405259781",
+                "lineage": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "ror": "https://ror.org/02qav7c04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+            ],
+            "raw_author_name": "Oltjon Kodheli",
+            "raw_orcid": "https://orcid.org/0000-0002-3343-5890"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "raw_affiliation_string": "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+              }
+            ],
+            "author": {
+              "display_name": "Eva Lagunas",
+              "id": "https://openalex.org/A5026746581",
+              "orcid": "https://orcid.org/0000-0002-9936-7245"
+            },
+            "author_position": "middle",
+            "countries": [
+              "LU"
+            ],
+            "institutions": [
+              {
+                "country_code": "LU",
+                "display_name": "University of Luxembourg",
+                "id": "https://openalex.org/I186903577",
+                "lineage": [
+                  "https://openalex.org/I186903577"
+                ],
+                "ror": "https://ror.org/036x5ad56",
+                "type": "education"
+              },
+              {
+                "country_code": "LU",
+                "display_name": "Interdisciplinary Centre for Security, Reliability and Trust",
+                "id": "https://openalex.org/I4405259781",
+                "lineage": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "ror": "https://ror.org/02qav7c04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+            ],
+            "raw_author_name": "Eva Lagunas",
+            "raw_orcid": "https://orcid.org/0000-0002-9936-7245"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "raw_affiliation_string": "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+              }
+            ],
+            "author": {
+              "display_name": "Nicola Maturo",
+              "id": "https://openalex.org/A5035015124",
+              "orcid": "https://orcid.org/0000-0003-4371-6028"
+            },
+            "author_position": "middle",
+            "countries": [
+              "LU"
+            ],
+            "institutions": [
+              {
+                "country_code": "LU",
+                "display_name": "University of Luxembourg",
+                "id": "https://openalex.org/I186903577",
+                "lineage": [
+                  "https://openalex.org/I186903577"
+                ],
+                "ror": "https://ror.org/036x5ad56",
+                "type": "education"
+              },
+              {
+                "country_code": "LU",
+                "display_name": "Interdisciplinary Centre for Security, Reliability and Trust",
+                "id": "https://openalex.org/I4405259781",
+                "lineage": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "ror": "https://ror.org/02qav7c04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+            ],
+            "raw_author_name": "Nicola Maturo",
+            "raw_orcid": "https://orcid.org/0000-0003-4371-6028"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "raw_affiliation_string": "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+              }
+            ],
+            "author": {
+              "display_name": "Shree Krishna Sharma",
+              "id": "https://openalex.org/A5004973785",
+              "orcid": "https://orcid.org/0000-0001-9823-2886"
+            },
+            "author_position": "middle",
+            "countries": [
+              "LU"
+            ],
+            "institutions": [
+              {
+                "country_code": "LU",
+                "display_name": "University of Luxembourg",
+                "id": "https://openalex.org/I186903577",
+                "lineage": [
+                  "https://openalex.org/I186903577"
+                ],
+                "ror": "https://ror.org/036x5ad56",
+                "type": "education"
+              },
+              {
+                "country_code": "LU",
+                "display_name": "Interdisciplinary Centre for Security, Reliability and Trust",
+                "id": "https://openalex.org/I4405259781",
+                "lineage": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "ror": "https://ror.org/02qav7c04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+            ],
+            "raw_author_name": "Shree Krishna Sharma",
+            "raw_orcid": "https://orcid.org/0000-0001-9823-2886"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "raw_affiliation_string": "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+              }
+            ],
+            "author": {
+              "display_name": "Bhavani Shankar",
+              "id": "https://openalex.org/A5107912109",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "LU"
+            ],
+            "institutions": [
+              {
+                "country_code": "LU",
+                "display_name": "University of Luxembourg",
+                "id": "https://openalex.org/I186903577",
+                "lineage": [
+                  "https://openalex.org/I186903577"
+                ],
+                "ror": "https://ror.org/036x5ad56",
+                "type": "education"
+              },
+              {
+                "country_code": "LU",
+                "display_name": "Interdisciplinary Centre for Security, Reliability and Trust",
+                "id": "https://openalex.org/I4405259781",
+                "lineage": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "ror": "https://ror.org/02qav7c04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+            ],
+            "raw_author_name": "Bhavani Shankar",
+            "raw_orcid": "https://orcid.org/0000-0002-3638-1349"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "raw_affiliation_string": "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+              }
+            ],
+            "author": {
+              "display_name": "Jesús Fabián Mendoza Montoya",
+              "id": "https://openalex.org/A5103928951",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "LU"
+            ],
+            "institutions": [
+              {
+                "country_code": "LU",
+                "display_name": "University of Luxembourg",
+                "id": "https://openalex.org/I186903577",
+                "lineage": [
+                  "https://openalex.org/I186903577"
+                ],
+                "ror": "https://ror.org/036x5ad56",
+                "type": "education"
+              },
+              {
+                "country_code": "LU",
+                "display_name": "Interdisciplinary Centre for Security, Reliability and Trust",
+                "id": "https://openalex.org/I4405259781",
+                "lineage": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "ror": "https://ror.org/02qav7c04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+            ],
+            "raw_author_name": "Jesus Fabian Mendoza Montoya",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "raw_affiliation_string": "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+              }
+            ],
+            "author": {
+              "display_name": "Juan Carlos Merlano Duncán",
+              "id": "https://openalex.org/A5068424260",
+              "orcid": "https://orcid.org/0000-0002-9652-679X"
+            },
+            "author_position": "middle",
+            "countries": [
+              "LU"
+            ],
+            "institutions": [
+              {
+                "country_code": "LU",
+                "display_name": "University of Luxembourg",
+                "id": "https://openalex.org/I186903577",
+                "lineage": [
+                  "https://openalex.org/I186903577"
+                ],
+                "ror": "https://ror.org/036x5ad56",
+                "type": "education"
+              },
+              {
+                "country_code": "LU",
+                "display_name": "Interdisciplinary Centre for Security, Reliability and Trust",
+                "id": "https://openalex.org/I4405259781",
+                "lineage": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "ror": "https://ror.org/02qav7c04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+            ],
+            "raw_author_name": "Juan Carlos Merlano Duncan",
+            "raw_orcid": "https://orcid.org/0000-0002-9652-679X"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "raw_affiliation_string": "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+              }
+            ],
+            "author": {
+              "display_name": "Danilo Spano",
+              "id": "https://openalex.org/A5037985337",
+              "orcid": "https://orcid.org/0000-0001-8677-555X"
+            },
+            "author_position": "middle",
+            "countries": [
+              "LU"
+            ],
+            "institutions": [
+              {
+                "country_code": "LU",
+                "display_name": "University of Luxembourg",
+                "id": "https://openalex.org/I186903577",
+                "lineage": [
+                  "https://openalex.org/I186903577"
+                ],
+                "ror": "https://ror.org/036x5ad56",
+                "type": "education"
+              },
+              {
+                "country_code": "LU",
+                "display_name": "Interdisciplinary Centre for Security, Reliability and Trust",
+                "id": "https://openalex.org/I4405259781",
+                "lineage": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "ror": "https://ror.org/02qav7c04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+            ],
+            "raw_author_name": "Danilo Spano",
+            "raw_orcid": "https://orcid.org/0000-0001-8677-555X"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "raw_affiliation_string": "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+              }
+            ],
+            "author": {
+              "display_name": "Symeon Chatzinotas",
+              "id": "https://openalex.org/A5016154330",
+              "orcid": "https://orcid.org/0000-0001-5122-0001"
+            },
+            "author_position": "middle",
+            "countries": [
+              "LU"
+            ],
+            "institutions": [
+              {
+                "country_code": "LU",
+                "display_name": "University of Luxembourg",
+                "id": "https://openalex.org/I186903577",
+                "lineage": [
+                  "https://openalex.org/I186903577"
+                ],
+                "ror": "https://ror.org/036x5ad56",
+                "type": "education"
+              },
+              {
+                "country_code": "LU",
+                "display_name": "Interdisciplinary Centre for Security, Reliability and Trust",
+                "id": "https://openalex.org/I4405259781",
+                "lineage": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "ror": "https://ror.org/02qav7c04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+            ],
+            "raw_author_name": "Symeon Chatzinotas",
+            "raw_orcid": "https://orcid.org/0000-0001-5122-0001"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "raw_affiliation_string": "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+              }
+            ],
+            "author": {
+              "display_name": "Steven Kisseleff",
+              "id": "https://openalex.org/A5006190061",
+              "orcid": "https://orcid.org/0000-0001-8537-9387"
+            },
+            "author_position": "middle",
+            "countries": [
+              "LU"
+            ],
+            "institutions": [
+              {
+                "country_code": "LU",
+                "display_name": "University of Luxembourg",
+                "id": "https://openalex.org/I186903577",
+                "lineage": [
+                  "https://openalex.org/I186903577"
+                ],
+                "ror": "https://ror.org/036x5ad56",
+                "type": "education"
+              },
+              {
+                "country_code": "LU",
+                "display_name": "Interdisciplinary Centre for Security, Reliability and Trust",
+                "id": "https://openalex.org/I4405259781",
+                "lineage": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "ror": "https://ror.org/02qav7c04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+            ],
+            "raw_author_name": "Steven Kisseleff",
+            "raw_orcid": "https://orcid.org/0000-0001-8537-9387"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "raw_affiliation_string": "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+              }
+            ],
+            "author": {
+              "display_name": "Jorge Querol",
+              "id": "https://openalex.org/A5045393382",
+              "orcid": "https://orcid.org/0000-0002-8500-5534"
+            },
+            "author_position": "middle",
+            "countries": [
+              "LU"
+            ],
+            "institutions": [
+              {
+                "country_code": "LU",
+                "display_name": "University of Luxembourg",
+                "id": "https://openalex.org/I186903577",
+                "lineage": [
+                  "https://openalex.org/I186903577"
+                ],
+                "ror": "https://ror.org/036x5ad56",
+                "type": "education"
+              },
+              {
+                "country_code": "LU",
+                "display_name": "Interdisciplinary Centre for Security, Reliability and Trust",
+                "id": "https://openalex.org/I4405259781",
+                "lineage": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "ror": "https://ror.org/02qav7c04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+            ],
+            "raw_author_name": "Jorge Querol",
+            "raw_orcid": "https://orcid.org/0000-0002-8500-5534"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "raw_affiliation_string": "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+              }
+            ],
+            "author": {
+              "display_name": "Lei Lei",
+              "id": "https://openalex.org/A5101754024",
+              "orcid": "https://orcid.org/0000-0002-9144-0559"
+            },
+            "author_position": "middle",
+            "countries": [
+              "LU"
+            ],
+            "institutions": [
+              {
+                "country_code": "LU",
+                "display_name": "University of Luxembourg",
+                "id": "https://openalex.org/I186903577",
+                "lineage": [
+                  "https://openalex.org/I186903577"
+                ],
+                "ror": "https://ror.org/036x5ad56",
+                "type": "education"
+              },
+              {
+                "country_code": "LU",
+                "display_name": "Interdisciplinary Centre for Security, Reliability and Trust",
+                "id": "https://openalex.org/I4405259781",
+                "lineage": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "ror": "https://ror.org/02qav7c04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+            ],
+            "raw_author_name": "Lei Lei",
+            "raw_orcid": "https://orcid.org/0000-0002-9144-0559"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "raw_affiliation_string": "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+              }
+            ],
+            "author": {
+              "display_name": "Thang X. Vu",
+              "id": "https://openalex.org/A5032104368",
+              "orcid": "https://orcid.org/0000-0002-8374-443X"
+            },
+            "author_position": "middle",
+            "countries": [
+              "LU"
+            ],
+            "institutions": [
+              {
+                "country_code": "LU",
+                "display_name": "University of Luxembourg",
+                "id": "https://openalex.org/I186903577",
+                "lineage": [
+                  "https://openalex.org/I186903577"
+                ],
+                "ror": "https://ror.org/036x5ad56",
+                "type": "education"
+              },
+              {
+                "country_code": "LU",
+                "display_name": "Interdisciplinary Centre for Security, Reliability and Trust",
+                "id": "https://openalex.org/I4405259781",
+                "lineage": [
+                  "https://openalex.org/I186903577",
+                  "https://openalex.org/I4405259781"
+                ],
+                "ror": "https://ror.org/02qav7c04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "SnT–Interdisciplinary Centre for Security, Reliability and Trust, University of Luxembourg, Luxembourg City, Luxembourg"
+            ],
+            "raw_author_name": "Thang X. Vu",
+            "raw_orcid": "https://orcid.org/0000-0002-8374-443X"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210090800"
+                ],
+                "raw_affiliation_string": "School of Engineering and Physical Sciences, Institute of Sensors, Signals and Systems, Edinburgh, U.K"
+              }
+            ],
+            "author": {
+              "display_name": "George Goussetis",
+              "id": "https://openalex.org/A5068964200",
+              "orcid": "https://orcid.org/0000-0002-8042-2347"
+            },
+            "author_position": "last",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Sensors (United States)",
+                "id": "https://openalex.org/I4210090800",
+                "lineage": [
+                  "https://openalex.org/I4210090800"
+                ],
+                "ror": "https://ror.org/00b4mz884",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "School of Engineering and Physical Sciences, Institute of Sensors, Signals and Systems, Edinburgh, U.K"
+            ],
+            "raw_author_name": "George Goussetis",
+            "raw_orcid": "https://orcid.org/0000-0002-8042-2347"
+          }
+        ],
+        "display_name": "Satellite Communications in the New Space Era: A Survey and Future Challenges",
+        "doi": "https://doi.org/10.1109/comst.2020.3028247",
+        "id": "https://openalex.org/W3089706104",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://ieeexplore.ieee.org/ielx7/9739/9361471/09210567.pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1109/comst.2020.3028247",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1109/comst.2020.3028247",
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "pdf_url": "https://ieeexplore.ieee.org/ielx7/9739/9361471/09210567.pdf",
+          "raw_source_name": "IEEE Communications Surveys &amp; Tutorials",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "IEEE Communications Surveys & Tutorials",
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "id": "https://openalex.org/S23688054",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "1553-877X",
+              "2373-745X"
+            ],
+            "issn_l": "1553-877X",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2020-10-01",
+        "publication_year": 2020,
+        "title": "Satellite Communications in the New Space Era: A Survey and Future Challenges",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "As": [
+            12
+          ],
+          "Commodity": [
+            0
+          ],
+          "This": [
+            43
+          ],
+          "ago.": [
+            11
+          ],
+          "and": [
+            14,
+            22,
+            27,
+            29,
+            51,
+            69,
+            75
+          ],
+          "appeared": [
+            8
+          ],
+          "approaches.": [
+            42
+          ],
+          "art": [
+            50
+          ],
+          "be": [
+            60
+          ],
+          "building": [
+            63
+          ],
+          "challenges": [
+            19,
+            57
+          ],
+          "clusters": [
+            1
+          ],
+          "community": [
+            76
+          ],
+          "complexity": [
+            15,
+            31
+          ],
+          "computing": [
+            4,
+            65
+          ],
+          "current": [
+            41
+          ],
+          "debates.": [
+            77
+          ],
+          "decades": [
+            10
+          ],
+          "drawn": [
+            71
+          ],
+          "efficiency": [
+            26
+          ],
+          "emerged": [
+            33
+          ],
+          "energy": [
+            25
+          ],
+          "experience": [
+            74
+          ],
+          "faced": [
+            61
+          ],
+          "first": [
+            7
+          ],
+          "for": [
+            38
+          ],
+          "from": [
+            72
+          ],
+          "grown,": [
+            17
+          ],
+          "have": [
+            16,
+            32
+          ],
+          "high-performance": [
+            3
+          ],
+          "in": [
+            20
+          ],
+          "insights": [
+            68
+          ],
+          "likely": [
+            58
+          ],
+          "need": [
+            37
+          ],
+          "new": [
+            18
+          ],
+          "of": [
+            40,
+            48,
+            55
+          ],
+          "on": [
+            53
+          ],
+          "operational": [
+            73
+          ],
+          "optimization": [
+            28
+          ],
+          "paper": [
+            44
+          ],
+          "perspectives": [
+            70
+          ],
+          "re-evaluation": [
+            39
+          ],
+          "reflects": [
+            52
+          ],
+          "reliability": [
+            21
+          ],
+          "resilience,": [
+            24
+          ],
+          "reviews": [
+            45
+          ],
+          "revolutionized": [
+            2
+          ],
+          "scale": [
+            13
+          ],
+          "software": [
+            30
+          ],
+          "some": [
+            54
+          ],
+          "state": [
+            47
+          ],
+          "suggest": [
+            35
+          ],
+          "systemic": [
+            23
+          ],
+          "systems,": [
+            66
+          ],
+          "that": [
+            34
+          ],
+          "the": [
+            36,
+            46,
+            49,
+            56
+          ],
+          "they": [
+            6
+          ],
+          "to": [
+            59
+          ],
+          "trans-petascale": [
+            64
+          ],
+          "two": [
+            9
+          ],
+          "using": [
+            67
+          ],
+          "when": [
+            5,
+            62
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I1289243028"
+                ],
+                "raw_affiliation_string": "Oak Ridge National Laboratory, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Al Geist",
+              "id": "https://openalex.org/A5113990568",
+              "orcid": null
+            },
+            "author_position": "first",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "Oak Ridge National Laboratory",
+                "id": "https://openalex.org/I1289243028",
+                "lineage": [
+                  "https://openalex.org/I1289243028",
+                  "https://openalex.org/I1330989302",
+                  "https://openalex.org/I39565521",
+                  "https://openalex.org/I4210159294"
+                ],
+                "ror": "https://ror.org/01qz5mb56",
+                "type": "facility"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Oak Ridge National Laboratory, USA"
+            ],
+            "raw_author_name": "Al Geist",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I126307644"
+                ],
+                "raw_affiliation_string": "Department of Computer Science, University of Iowa, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Daniel A. Reed",
+              "id": "https://openalex.org/A5008222900",
+              "orcid": "https://orcid.org/0000-0001-7331-1473"
+            },
+            "author_position": "last",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "University of Iowa",
+                "id": "https://openalex.org/I126307644",
+                "lineage": [
+                  "https://openalex.org/I126307644"
+                ],
+                "ror": "https://ror.org/036jqmy94",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "Department of Computer Science, University of Iowa, USA"
+            ],
+            "raw_author_name": "Daniel A Reed",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "A survey of high-performance computing scaling challenges",
+        "doi": "https://doi.org/10.1177/1094342015597083",
+        "id": "https://openalex.org/W2338973660",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": false,
+          "is_oa": false,
+          "oa_status": "closed",
+          "oa_url": null
+        },
+        "primary_location": {
+          "id": "doi:10.1177/1094342015597083",
+          "is_accepted": true,
+          "is_oa": false,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1177/1094342015597083",
+          "license": null,
+          "license_id": null,
+          "pdf_url": null,
+          "raw_source_name": "The International Journal of High Performance Computing Applications",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "The International Journal of High Performance Computing Applications",
+            "host_organization": "https://openalex.org/P4310320017",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320017"
+            ],
+            "host_organization_lineage_names": [
+              "SAGE Publishing"
+            ],
+            "host_organization_name": "SAGE Publishing",
+            "id": "https://openalex.org/S60606485",
+            "is_core": true,
+            "is_in_doaj": false,
+            "is_oa": false,
+            "issn": [
+              "0890-2720",
+              "1094-3420",
+              "1741-2846"
+            ],
+            "issn_l": "0890-2720",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2015-08-06",
+        "publication_year": 2015,
+        "title": "A survey of high-performance computing scaling challenges",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "(BDA),": [
+            138
+          ],
+          "(CPSs),": [
+            132
+          ],
+          "(ICT)": [
+            144
+          ],
+          "(IoT)-enabled": [
+            104
+          ],
+          "4.0,": [
+            87
+          ],
+          "4.0.": [
+            53
+          ],
+          "4.0—holds": [
+            5
+          ],
+          "China.": [
+            182
+          ],
+          "European": [
+            176
+          ],
+          "Finally,": [
+            183
+          ],
+          "Fourth": [
+            209
+          ],
+          "In": [
+            75
+          ],
+          "Industrial": [
+            210
+          ],
+          "Industry": [
+            52,
+            86
+          ],
+          "Intelligent": [
+            45
+          ],
+          "Internet": [
+            101
+          ],
+          "IoT,": [
+            129
+          ],
+          "It": [
+            22
+          ],
+          "Japan,": [
+            180
+          ],
+          "Next,": [
+            152
+          ],
+          "Our": [
+            0
+          ],
+          "Revolution.": [
+            211
+          ],
+          "Similarities": [
+            109
+          ],
+          "States,": [
+            179
+          ],
+          "The": [
+            192
+          ],
+          "Things": [
+            103
+          ],
+          "Typical": [
+            54
+          ],
+          "Union,": [
+            177
+          ],
+          "United": [
+            178
+          ],
+          "We": [
+            121
+          ],
+          "a": [
+            37,
+            72,
+            91
+          ],
+          "able": [
+            65
+          ],
+          "act,": [
+            68
+          ],
+          "along": [
+            13
+          ],
+          "also": [
+            122
+          ],
+          "an": [
+            48
+          ],
+          "analysis.": [
+            120
+          ],
+          "analytics": [
+            137
+          ],
+          "and": [
+            19,
+            42,
+            69,
+            106,
+            110,
+            139,
+            141,
+            167,
+            181,
+            188
+          ],
+          "are": [
+            56,
+            64,
+            115,
+            146
+          ],
+          "as": [
+            98,
+            127
+          ],
+          "associated": [
+            95
+          ],
+          "based": [
+            117
+          ],
+          "behave": [
+            70
+          ],
+          "better": [
+            17
+          ],
+          "big": [
+            135
+          ],
+          "challenges": [
+            30,
+            187
+          ],
+          "cloud": [
+            107,
+            133
+          ],
+          "communications": [
+            142
+          ],
+          "companies": [
+            25,
+            173
+          ],
+          "comprehensive": [
+            92
+          ],
+          "computing,": [
+            134
+          ],
+          "concepts": [
+            193
+          ],
+          "context": [
+            84
+          ],
+          "converted": [
+            57
+          ],
+          "cope": [
+            27
+          ],
+          "countries": [
+            166
+          ],
+          "current": [
+            186
+          ],
+          "customization,": [
+            16
+          ],
+          "cyber-physical": [
+            130
+          ],
+          "data": [
+            136
+          ],
+          "describe": [
+            154
+          ],
+          "differences": [
+            111
+          ],
+          "different": [
+            165
+          ],
+          "directions.": [
+            191
+          ],
+          "discussed": [
+            194
+          ],
+          "effort": [
+            204
+          ],
+          "enable": [
+            149
+          ],
+          "enables": [
+            24
+          ],
+          "environment.": [
+            74
+          ],
+          "flexibility": [
+            10
+          ],
+          "from": [
+            164,
+            170
+          ],
+          "fully": [
+            78
+          ],
+          "future": [
+            189
+          ],
+          "generation": [
+            2
+          ],
+          "governmental": [
+            161
+          ],
+          "higher": [
+            43
+          ],
+          "highlighted": [
+            116
+          ],
+          "ideas": [
+            201
+          ],
+          "important": [
+            49
+          ],
+          "improved": [
+            20
+          ],
+          "in": [
+            11,
+            51,
+            82,
+            112,
+            157,
+            174,
+            195,
+            202
+          ],
+          "including": [
+            160
+          ],
+          "increased": [
+            9
+          ],
+          "increasingly": [
+            33
+          ],
+          "individualized": [
+            34
+          ],
+          "industry—Industry": [
+            4
+          ],
+          "information": [
+            140
+          ],
+          "intelligent": [
+            59,
+            80,
+            99,
+            150,
+            158
+          ],
+          "international": [
+            172
+          ],
+          "into": [
+            58
+          ],
+          "key": [
+            124
+          ],
+          "lead-time": [
+            39
+          ],
+          "major": [
+            171
+          ],
+          "manufacturing": [
+            46,
+            81
+          ],
+          "manufacturing,": [
+            12,
+            100,
+            105,
+            159
+          ],
+          "manufacturing.": [
+            108,
+            151
+          ],
+          "market": [
+            41
+          ],
+          "mass": [
+            15
+          ],
+          "movements": [
+            156
+          ],
+          "much-anticipated": [
+            208
+          ],
+          "new": [
+            200
+          ],
+          "next": [
+            1
+          ],
+          "objects": [
+            60
+          ],
+          "of": [
+            3,
+            8,
+            31,
+            85,
+            94,
+            102
+          ],
+          "on": [
+            118
+          ],
+          "order": [
+            76
+          ],
+          "our": [
+            119
+          ],
+          "paper": [
+            89,
+            197
+          ],
+          "plans": [
+            163,
+            169
+          ],
+          "plays": [
+            47
+          ],
+          "present": [
+            185
+          ],
+          "producing": [
+            32
+          ],
+          "productivity.": [
+            21
+          ],
+          "products": [
+            35
+          ],
+          "promise": [
+            7
+          ],
+          "provides": [
+            90
+          ],
+          "quality,": [
+            18
+          ],
+          "quality.": [
+            44
+          ],
+          "realize": [
+            206
+          ],
+          "research": [
+            190
+          ],
+          "resources": [
+            55
+          ],
+          "review": [
+            93,
+            123
+          ],
+          "role": [
+            50
+          ],
+          "sense,": [
+            67
+          ],
+          "short": [
+            38
+          ],
+          "smart": [
+            73
+          ],
+          "so": [
+            61
+          ],
+          "spark": [
+            199
+          ],
+          "strategic": [
+            162,
+            168
+          ],
+          "such": [
+            97,
+            126
+          ],
+          "systems": [
+            131
+          ],
+          "technologies": [
+            125
+          ],
+          "technology": [
+            143
+          ],
+          "that": [
+            62,
+            145
+          ],
+          "the": [
+            6,
+            29,
+            83,
+            128,
+            175,
+            203,
+            207
+          ],
+          "these": [
+            113
+          ],
+          "they": [
+            63
+          ],
+          "this": [
+            88,
+            196
+          ],
+          "thus": [
+            23
+          ],
+          "to": [
+            26,
+            40,
+            66,
+            77,
+            148,
+            205
+          ],
+          "topics": [
+            96,
+            114
+          ],
+          "understand": [
+            79
+          ],
+          "used": [
+            147
+          ],
+          "we": [
+            153,
+            184
+          ],
+          "will": [
+            198
+          ],
+          "with": [
+            14,
+            28,
+            36
+          ],
+          "within": [
+            71
+          ],
+          "worldwide": [
+            155
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I154130895"
+                ],
+                "raw_affiliation_string": "Department of Mechanical Engineering, The University of Auckland, Auckland 1142, New Zealand"
+              }
+            ],
+            "author": {
+              "display_name": "Ray Y. Zhong",
+              "id": "https://openalex.org/A5046757518",
+              "orcid": "https://orcid.org/0000-0002-3011-2009"
+            },
+            "author_position": "first",
+            "countries": [
+              "NZ"
+            ],
+            "institutions": [
+              {
+                "country_code": "NZ",
+                "display_name": "University of Auckland",
+                "id": "https://openalex.org/I154130895",
+                "lineage": [
+                  "https://openalex.org/I154130895"
+                ],
+                "ror": "https://ror.org/03b94tp07",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mechanical Engineering, The University of Auckland, Auckland 1142, New Zealand"
+            ],
+            "raw_author_name": "Ray Y. Zhong",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I154130895"
+                ],
+                "raw_affiliation_string": "Department of Mechanical Engineering, The University of Auckland, Auckland 1142, New Zealand"
+              }
+            ],
+            "author": {
+              "display_name": "Xun Xu",
+              "id": "https://openalex.org/A5100451919",
+              "orcid": "https://orcid.org/0000-0001-6294-8153"
+            },
+            "author_position": "middle",
+            "countries": [
+              "NZ"
+            ],
+            "institutions": [
+              {
+                "country_code": "NZ",
+                "display_name": "University of Auckland",
+                "id": "https://openalex.org/I154130895",
+                "lineage": [
+                  "https://openalex.org/I154130895"
+                ],
+                "ror": "https://ror.org/03b94tp07",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "Department of Mechanical Engineering, The University of Auckland, Auckland 1142, New Zealand"
+            ],
+            "raw_author_name": "Xun Xu",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I4210158977"
+                ],
+                "raw_affiliation_string": "Industry 4.0 Campaign, Festo AG & Co. KG, Esslingen 73726, Germany"
+              }
+            ],
+            "author": {
+              "display_name": "Eberhard Klotz",
+              "id": "https://openalex.org/A5054853915",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "DE"
+            ],
+            "institutions": [
+              {
+                "country_code": "DE",
+                "display_name": "Festo (Germany)",
+                "id": "https://openalex.org/I4210158977",
+                "lineage": [
+                  "https://openalex.org/I4210158977"
+                ],
+                "ror": "https://ror.org/03ga8q162",
+                "type": "company"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Industry 4.0 Campaign, Festo AG & Co. KG, Esslingen 73726, Germany"
+            ],
+            "raw_author_name": "Eberhard Klotz",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I51601045"
+                ],
+                "raw_affiliation_string": "Department of Mechanical Engineering, University of Bath, Bath BA2 7AY, UK"
+              }
+            ],
+            "author": {
+              "display_name": "Stephen T. Newman",
+              "id": "https://openalex.org/A5082433141",
+              "orcid": "https://orcid.org/0000-0003-3163-1908"
+            },
+            "author_position": "last",
+            "countries": [
+              "GB"
+            ],
+            "institutions": [
+              {
+                "country_code": "GB",
+                "display_name": "University of Bath",
+                "id": "https://openalex.org/I51601045",
+                "lineage": [
+                  "https://openalex.org/I51601045"
+                ],
+                "ror": "https://ror.org/002h8g185",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Mechanical Engineering, University of Bath, Bath BA2 7AY, UK"
+            ],
+            "raw_author_name": "Stephen T. Newman",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "Intelligent Manufacturing in the Context of Industry 4.0: A Review",
+        "doi": "https://doi.org/10.1016/j.eng.2017.05.015",
+        "id": "https://openalex.org/W2767346351",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://www.sciencedirect.com/science/article/pii/S2095809917307130/pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.eng.2017.05.015",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1016/j.eng.2017.05.015",
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2095809917307130/pdf",
+          "raw_source_name": "Engineering",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Engineering",
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S4210192142",
+            "is_core": true,
+            "is_in_doaj": true,
+            "is_oa": true,
+            "issn": [
+              "2095-8099",
+              "2096-0026"
+            ],
+            "issn_l": "2095-8099",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2017-10-01",
+        "publication_year": 2017,
+        "title": "Intelligent Manufacturing in the Context of Industry 4.0: A Review",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "(cyber": [
+            13
+          ],
+          "(e.g.,": [
+            5,
+            38
+          ],
+          "Although": [
+            92
+          ],
+          "Research": [
+            184
+          ],
+          "The": [
+            0,
+            64
+          ],
+          "These": [
+            23
+          ],
+          "This": [
+            46,
+            116,
+            158
+          ],
+          "a": [
+            119
+          ],
+          "accepted": [
+            113,
+            148
+          ],
+          "against": [
+            61
+          ],
+          "also": [
+            195
+          ],
+          "alternatives": [
+            83
+          ],
+          "and": [
+            8,
+            10,
+            14,
+            42,
+            51,
+            54,
+            75,
+            81,
+            84,
+            99,
+            121,
+            132,
+            135,
+            139,
+            149,
+            155,
+            174,
+            176,
+            178,
+            188
+          ],
+          "are": [
+            194
+          ],
+          "associated": [
+            186
+          ],
+          "attacks": [
+            12
+          ],
+          "attacks)": [
+            16
+          ],
+          "been": [
+            103,
+            111
+          ],
+          "by": [
+            171
+          ],
+          "calls": [
+            47
+          ],
+          "challenges,": [
+            187
+          ],
+          "compare": [
+            79
+          ],
+          "comprehensive": [
+            120
+          ],
+          "concept": [
+            169
+          ],
+          "consensus": [
+            163
+          ],
+          "contribute": [
+            142
+          ],
+          "control": [
+            50
+          ],
+          "critical": [
+            122
+          ],
+          "current": [
+            125
+          ],
+          "currently": [
+            179
+          ],
+          "definitions,": [
+            97,
+            151
+          ],
+          "destructions.": [
+            45
+          ],
+          "develop": [
+            72
+          ],
+          "developing": [
+            49
+          ],
+          "development": [
+            145
+          ],
+          "different": [
+            172
+          ],
+          "directions": [
+            138
+          ],
+          "discusses": [
+            136
+          ],
+          "dramatically": [
+            19
+          ],
+          "earthquakes,": [
+            7
+          ],
+          "enhancement": [
+            156,
+            182
+          ],
+          "enhancement.": [
+            91
+          ],
+          "equipment": [
+            37
+          ],
+          "evaluation": [
+            76,
+            100,
+            133,
+            153
+          ],
+          "events": [
+            4,
+            24
+          ],
+          "events.": [
+            63
+          ],
+          "examines": [
+            161
+          ],
+          "existing": [
+            177,
+            192
+          ],
+          "extreme": [
+            3
+          ],
+          "first": [
+            65
+          ],
+          "floods)": [
+            9
+          ],
+          "for": [
+            48,
+            89
+          ],
+          "frequency": [
+            1
+          ],
+          "from": [
+            31
+          ],
+          "future": [
+            137
+          ],
+          "gaps,": [
+            185
+          ],
+          "goal": [
+            69
+          ],
+          "grid": [
+            59
+          ],
+          "has": [
+            17
+          ],
+          "have": [
+            25,
+            102,
+            109
+          ],
+          "hurricanes,": [
+            6
+          ],
+          "impacted": [
+            27
+          ],
+          "improve": [
+            58
+          ],
+          "in": [
+            20,
+            105
+          ],
+          "increased": [
+            18
+          ],
+          "is": [
+            70
+          ],
+          "justifications": [
+            88
+          ],
+          "limitations": [
+            193
+          ],
+          "lines,": [
+            41
+          ],
+          "literature,": [
+            107
+          ],
+          "long": [
+            32
+          ],
+          "major": [
+            36
+          ],
+          "man-made": [
+            11
+          ],
+          "methods": [
+            53,
+            77,
+            101,
+            134
+          ],
+          "methods,": [
+            154
+          ],
+          "methods.": [
+            183
+          ],
+          "metrics": [
+            74,
+            131
+          ],
+          "metrics,": [
+            98,
+            152
+          ],
+          "not": [
+            110
+          ],
+          "of": [
+            2,
+            124,
+            127,
+            146
+          ],
+          "on": [
+            164
+          ],
+          "operation": [
+            52,
+            82
+          ],
+          "or": [
+            114
+          ],
+          "organizations": [
+            173
+          ],
+          "outage": [
+            33
+          ],
+          "paper": [
+            117,
+            159
+          ],
+          "physical": [
+            15
+          ],
+          "planning": [
+            55,
+            80
+          ],
+          "plants)": [
+            44
+          ],
+          "potential": [
+            189
+          ],
+          "power": [
+            28,
+            43,
+            94,
+            128,
+            166
+          ],
+          "practiced": [
+            180
+          ],
+          "practices": [
+            126
+          ],
+          "proposed": [
+            104
+          ],
+          "provide": [
+            86
+          ],
+          "provided": [
+            170
+          ],
+          "provided.": [
+            196
+          ],
+          "provides": [
+            118
+          ],
+          "ranging": [
+            30
+          ],
+          "recent": [
+            21
+          ],
+          "recommendations": [
+            140
+          ],
+          "resilience": [
+            60,
+            73,
+            90,
+            96,
+            130,
+            168,
+            181
+          ],
+          "review": [
+            123
+          ],
+          "scholars": [
+            175
+          ],
+          "several": [
+            93
+          ],
+          "severely": [
+            26
+          ],
+          "solutions": [
+            190
+          ],
+          "standardized": [
+            150
+          ],
+          "standardized.": [
+            115
+          ],
+          "step": [
+            66
+          ],
+          "strategies": [
+            56
+          ],
+          "strategies.": [
+            157
+          ],
+          "substations,": [
+            39
+          ],
+          "such": [
+            62
+          ],
+          "system": [
+            95,
+            129,
+            167
+          ],
+          "systems": [
+            29
+          ],
+          "techno-economic": [
+            87
+          ],
+          "the": [
+            106,
+            144,
+            162,
+            165
+          ],
+          "they": [
+            108
+          ],
+          "this": [
+            68
+          ],
+          "thoroughly": [
+            160
+          ],
+          "times": [
+            34
+          ],
+          "to": [
+            35,
+            57,
+            71,
+            78,
+            85,
+            141,
+            143,
+            191
+          ],
+          "toward": [
+            67
+          ],
+          "transmission": [
+            40
+          ],
+          "universally": [
+            112,
+            147
+          ],
+          "years.": [
+            22
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I134113660"
+                ],
+                "raw_affiliation_string": "Department of Electrical and Biomedical Engineering, University of Nevada at Reno, Reno, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Narayan Bhusal",
+              "id": "https://openalex.org/A5101886356",
+              "orcid": "https://orcid.org/0000-0002-2275-2145"
+            },
+            "author_position": "first",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "University of Nevada, Reno",
+                "id": "https://openalex.org/I134113660",
+                "lineage": [
+                  "https://openalex.org/I134113660"
+                ],
+                "ror": "https://ror.org/01keh0577",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical and Biomedical Engineering, University of Nevada at Reno, Reno, USA"
+            ],
+            "raw_author_name": "Narayan Bhusal",
+            "raw_orcid": "https://orcid.org/0000-0002-2275-2145"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I134113660"
+                ],
+                "raw_affiliation_string": "Department of Electrical and Biomedical Engineering, University of Nevada at Reno, Reno, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Michael Abdelmalak",
+              "id": "https://openalex.org/A5050740555",
+              "orcid": "https://orcid.org/0000-0001-5155-9136"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "University of Nevada, Reno",
+                "id": "https://openalex.org/I134113660",
+                "lineage": [
+                  "https://openalex.org/I134113660"
+                ],
+                "ror": "https://ror.org/01keh0577",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical and Biomedical Engineering, University of Nevada at Reno, Reno, USA"
+            ],
+            "raw_author_name": "Michael Abdelmalak",
+            "raw_orcid": "https://orcid.org/0000-0001-5155-9136"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I134113660"
+                ],
+                "raw_affiliation_string": "Department of Electrical and Biomedical Engineering, University of Nevada at Reno, Reno, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Md. Kamruzzaman",
+              "id": "https://openalex.org/A5017846872",
+              "orcid": "https://orcid.org/0000-0002-3429-4639"
+            },
+            "author_position": "middle",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "University of Nevada, Reno",
+                "id": "https://openalex.org/I134113660",
+                "lineage": [
+                  "https://openalex.org/I134113660"
+                ],
+                "ror": "https://ror.org/01keh0577",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical and Biomedical Engineering, University of Nevada at Reno, Reno, USA"
+            ],
+            "raw_author_name": "Md Kamruzzaman",
+            "raw_orcid": "https://orcid.org/0000-0002-3429-4639"
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I134113660"
+                ],
+                "raw_affiliation_string": "Department of Electrical and Biomedical Engineering, University of Nevada at Reno, Reno, USA"
+              }
+            ],
+            "author": {
+              "display_name": "Mohammed Benidris",
+              "id": "https://openalex.org/A5000628175",
+              "orcid": "https://orcid.org/0000-0002-8731-8913"
+            },
+            "author_position": "last",
+            "countries": [
+              "US"
+            ],
+            "institutions": [
+              {
+                "country_code": "US",
+                "display_name": "University of Nevada, Reno",
+                "id": "https://openalex.org/I134113660",
+                "lineage": [
+                  "https://openalex.org/I134113660"
+                ],
+                "ror": "https://ror.org/01keh0577",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "Department of Electrical and Biomedical Engineering, University of Nevada at Reno, Reno, USA"
+            ],
+            "raw_author_name": "Mohammed Benidris",
+            "raw_orcid": "https://orcid.org/0000-0002-8731-8913"
+          }
+        ],
+        "display_name": "Power System Resilience: Current Practices, Challenges, and Future Directions",
+        "doi": "https://doi.org/10.1109/access.2020.2968586",
+        "id": "https://openalex.org/W3002957949",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": true,
+          "is_oa": true,
+          "oa_status": "gold",
+          "oa_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08966351.pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1109/access.2020.2968586",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1109/access.2020.2968586",
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "pdf_url": "https://ieeexplore.ieee.org/ielx7/6287639/8948470/08966351.pdf",
+          "raw_source_name": "IEEE Access",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "IEEE Access",
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "id": "https://openalex.org/S2485537415",
+            "is_core": true,
+            "is_in_doaj": true,
+            "is_oa": true,
+            "issn": [
+              "2169-3536"
+            ],
+            "issn_l": "2169-3536",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2020-01-01",
+        "publication_year": 2020,
+        "title": "Power System Resilience: Current Practices, Challenges, and Future Directions",
+        "type": "article"
+      },
+      {
+        "abstract_inverted_index": {
+          "Access": [
+            150
+          ],
+          "As": [
+            68
+          ],
+          "Big": [
+            1,
+            32,
+            59,
+            91,
+            106,
+            127
+          ],
+          "Data": [
+            2,
+            33,
+            60,
+            107,
+            128,
+            140,
+            143,
+            146,
+            149
+          ],
+          "Data.": [
+            92
+          ],
+          "Developing": [
+            0
+          ],
+          "However,": [
+            30
+          ],
+          "In": [
+            13
+          ],
+          "It": [
+            93,
+            118,
+            155
+          ],
+          "Layer": [
+            151
+          ],
+          "Layer,": [
+            142,
+            145,
+            148
+          ],
+          "Layer.": [
+            154
+          ],
+          "Management": [
+            153
+          ],
+          "Processing": [
+            144
+          ],
+          "Querying": [
+            147
+          ],
+          "Storage": [
+            141
+          ],
+          "They": [
+            43
+          ],
+          "This": [
+            80
+          ],
+          "To": [
+            55
+          ],
+          "a": [
+            45,
+            69,
+            83,
+            122
+          ],
+          "according": [
+            109,
+            133
+          ],
+          "accuracy.": [
+            54
+          ],
+          "adopt": [
+            100
+          ],
+          "advantages,": [
+            162
+          ],
+          "aims": [
+            94
+          ],
+          "also": [
+            131
+          ],
+          "and": [
+            38,
+            48,
+            53,
+            75,
+            99,
+            114,
+            152,
+            157,
+            164
+          ],
+          "applications": [
+            3
+          ],
+          "applications’": [
+            116
+          ],
+          "are": [
+            40
+          ],
+          "as": [
+            139
+          ],
+          "become": [
+            5
+          ],
+          "been": [
+            65,
+            78
+          ],
+          "but": [
+            130
+          ],
+          "carried": [
+            66
+          ],
+          "categorizes": [
+            156
+          ],
+          "challenges,": [
+            61
+          ],
+          "combination": [
+            103
+          ],
+          "comparisons": [
+            132
+          ],
+          "complex": [
+            58
+          ],
+          "context,": [
+            34
+          ],
+          "data": [
+            36
+          ],
+          "data.": [
+            29
+          ],
+          "depend": [
+            20
+          ],
+          "developed": [
+            89
+          ],
+          "developed.": [
+            79
+          ],
+          "different": [
+            18,
+            105,
+            135
+          ],
+          "discusses": [
+            158
+          ],
+          "distributions": [
+            74
+          ],
+          "efficient.": [
+            42
+          ],
+          "extracted": [
+            24
+          ],
+          "face": [
+            56
+          ],
+          "fact,": [
+            14
+          ],
+          "features,": [
+            161
+          ],
+          "few": [
+            11
+          ],
+          "for": [
+            90
+          ],
+          "from": [
+            17,
+            25
+          ],
+          "global": [
+            123
+          ],
+          "has": [
+            4,
+            64
+          ],
+          "have": [
+            77
+          ],
+          "help": [
+            96
+          ],
+          "huge": [
+            26
+          ],
+          "important": [
+            7
+          ],
+          "in": [
+            8,
+            31
+          ],
+          "increasingly": [
+            6,
+            21
+          ],
+          "is": [
+            82
+          ],
+          "knowledge": [
+            23
+          ],
+          "lack": [
+            49
+          ],
+          "last": [
+            10
+          ],
+          "layers": [
+            137
+          ],
+          "less": [
+            41
+          ],
+          "limits": [
+            163
+          ],
+          "main": [
+            126,
+            159
+          ],
+          "much": [
+            62
+          ],
+          "needs": [
+            113
+          ],
+          "not": [
+            120
+          ],
+          "of": [
+            28,
+            50,
+            73,
+            104,
+            125
+          ],
+          "on": [
+            22
+          ],
+          "only": [
+            121
+          ],
+          "organizations": [
+            16
+          ],
+          "out.": [
+            67
+          ],
+          "paper": [
+            81
+          ],
+          "performance": [
+            52
+          ],
+          "platforms": [
+            39
+          ],
+          "provides": [
+            119
+          ],
+          "recent": [
+            87
+          ],
+          "requirements.": [
+            117
+          ],
+          "responsiveness": [
+            47
+          ],
+          "result,": [
+            70
+          ],
+          "review": [
+            84
+          ],
+          "right": [
+            102
+          ],
+          "scalability,": [
+            51
+          ],
+          "sectors": [
+            19
+          ],
+          "select": [
+            98
+          ],
+          "several": [
+            15
+          ],
+          "show": [
+            44
+          ],
+          "slow": [
+            46
+          ],
+          "specific": [
+            115
+          ],
+          "such": [
+            138
+          ],
+          "survey": [
+            86
+          ],
+          "system": [
+            136
+          ],
+          "techniques": [
+            37
+          ],
+          "technological": [
+            112
+          ],
+          "technologies": [
+            76,
+            88,
+            108,
+            129,
+            160
+          ],
+          "that": [
+            85
+          ],
+          "the": [
+            9,
+            57,
+            101
+          ],
+          "their": [
+            111
+          ],
+          "to": [
+            95,
+            97,
+            110,
+            134
+          ],
+          "traditional": [
+            35
+          ],
+          "types": [
+            72
+          ],
+          "usages.": [
+            165
+          ],
+          "various": [
+            71
+          ],
+          "view": [
+            124
+          ],
+          "volumes": [
+            27
+          ],
+          "work": [
+            63
+          ],
+          "years.": [
+            12
+          ]
+        },
+        "authorships": [
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I3121676899"
+                ],
+                "raw_affiliation_string": "LGS, National School of Applied Sciences (ENSA), Ibn Tofail University, Kenitra, Morocco"
+              }
+            ],
+            "author": {
+              "display_name": "Ahmed Oussous",
+              "id": "https://openalex.org/A5021837353",
+              "orcid": "https://orcid.org/0000-0002-5780-2691"
+            },
+            "author_position": "first",
+            "countries": [
+              "MA"
+            ],
+            "institutions": [
+              {
+                "country_code": "MA",
+                "display_name": "Université Ibn-Tofail",
+                "id": "https://openalex.org/I3121676899",
+                "lineage": [
+                  "https://openalex.org/I3121676899"
+                ],
+                "ror": "https://ror.org/02wj89n04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "LGS, National School of Applied Sciences (ENSA), Ibn Tofail University, Kenitra, Morocco"
+            ],
+            "raw_author_name": "Ahmed Oussous",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I3121676899"
+                ],
+                "raw_affiliation_string": "LGS, National School of Applied Sciences (ENSA), Ibn Tofail University, Kenitra, Morocco"
+              }
+            ],
+            "author": {
+              "display_name": "Fatima-Zahra Benjelloun",
+              "id": "https://openalex.org/A5109365866",
+              "orcid": null
+            },
+            "author_position": "middle",
+            "countries": [
+              "MA"
+            ],
+            "institutions": [
+              {
+                "country_code": "MA",
+                "display_name": "Université Ibn-Tofail",
+                "id": "https://openalex.org/I3121676899",
+                "lineage": [
+                  "https://openalex.org/I3121676899"
+                ],
+                "ror": "https://ror.org/02wj89n04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "LGS, National School of Applied Sciences (ENSA), Ibn Tofail University, Kenitra, Morocco"
+            ],
+            "raw_author_name": "Fatima-Zahra Benjelloun",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I3121676899"
+                ],
+                "raw_affiliation_string": "LGS, National School of Applied Sciences (ENSA), Ibn Tofail University, Kenitra, Morocco"
+              },
+              {
+                "institution_ids": [
+                  "https://openalex.org/I126477371"
+                ],
+                "raw_affiliation_string": "LRIT, Unité associée au CNRST URAC 29, Mohammed V University in Rabat, Morocco"
+              }
+            ],
+            "author": {
+              "display_name": "Ayoub Ait Lahcen",
+              "id": "https://openalex.org/A5080376355",
+              "orcid": "https://orcid.org/0000-0001-8739-3369"
+            },
+            "author_position": "middle",
+            "countries": [
+              "MA"
+            ],
+            "institutions": [
+              {
+                "country_code": "MA",
+                "display_name": "Mohammed V University",
+                "id": "https://openalex.org/I126477371",
+                "lineage": [
+                  "https://openalex.org/I126477371"
+                ],
+                "ror": "https://ror.org/00r8w8f84",
+                "type": "education"
+              },
+              {
+                "country_code": "MA",
+                "display_name": "Université Ibn-Tofail",
+                "id": "https://openalex.org/I3121676899",
+                "lineage": [
+                  "https://openalex.org/I3121676899"
+                ],
+                "ror": "https://ror.org/02wj89n04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": true,
+            "raw_affiliation_strings": [
+              "LGS, National School of Applied Sciences (ENSA), Ibn Tofail University, Kenitra, Morocco",
+              "LRIT, Unité associée au CNRST URAC 29, Mohammed V University in Rabat, Morocco"
+            ],
+            "raw_author_name": "Ayoub Ait Lahcen",
+            "raw_orcid": null
+          },
+          {
+            "affiliations": [
+              {
+                "institution_ids": [
+                  "https://openalex.org/I3121676899"
+                ],
+                "raw_affiliation_string": "LGS, National School of Applied Sciences (ENSA), Ibn Tofail University, Kenitra, Morocco"
+              }
+            ],
+            "author": {
+              "display_name": "Samir Belfkih",
+              "id": "https://openalex.org/A5083975490",
+              "orcid": null
+            },
+            "author_position": "last",
+            "countries": [
+              "MA"
+            ],
+            "institutions": [
+              {
+                "country_code": "MA",
+                "display_name": "Université Ibn-Tofail",
+                "id": "https://openalex.org/I3121676899",
+                "lineage": [
+                  "https://openalex.org/I3121676899"
+                ],
+                "ror": "https://ror.org/02wj89n04",
+                "type": "education"
+              }
+            ],
+            "is_corresponding": false,
+            "raw_affiliation_strings": [
+              "LGS, National School of Applied Sciences (ENSA), Ibn Tofail University, Kenitra, Morocco"
+            ],
+            "raw_author_name": "Samir Belfkih",
+            "raw_orcid": null
+          }
+        ],
+        "display_name": "Big Data technologies: A survey",
+        "doi": "https://doi.org/10.1016/j.jksuci.2017.06.001",
+        "id": "https://openalex.org/W2625392185",
+        "language": "en",
+        "open_access": {
+          "any_repository_has_fulltext": false,
+          "is_oa": true,
+          "oa_status": "hybrid",
+          "oa_url": "https://www.sciencedirect.com/science/article/pii/S1319157817300034/pdf"
+        },
+        "primary_location": {
+          "id": "doi:10.1016/j.jksuci.2017.06.001",
+          "is_accepted": true,
+          "is_oa": true,
+          "is_published": true,
+          "landing_page_url": "https://doi.org/10.1016/j.jksuci.2017.06.001",
+          "license": "cc-by-nc-nd",
+          "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+          "pdf_url": "https://www.sciencedirect.com/science/article/pii/S1319157817300034/pdf",
+          "raw_source_name": "Journal of King Saud University - Computer and Information Sciences",
+          "raw_type": "journal-article",
+          "source": {
+            "display_name": "Journal of King Saud University - Computer and Information Sciences",
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "host_organization_name": "Elsevier BV",
+            "id": "https://openalex.org/S2764955546",
+            "is_core": true,
+            "is_in_doaj": true,
+            "is_oa": false,
+            "issn": [
+              "1319-1578",
+              "2213-1248"
+            ],
+            "issn_l": "1319-1578",
+            "type": "journal"
+          },
+          "version": "publishedVersion"
+        },
+        "publication_date": "2017-06-12",
+        "publication_year": 2017,
+        "title": "Big Data technologies: A survey",
+        "type": "article"
+      }
+    ]
+  },
+  "retrieved_at_utc": "2026-08-31T14:35:30Z",
+  "retry_count": 0
+}
