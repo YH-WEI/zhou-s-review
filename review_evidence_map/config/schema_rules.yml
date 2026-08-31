@@ -1,0 +1,141 @@
+schema_version: "1.0"
+codebook_version: "1.0"
+
+focal_assets: [DC, BS, EV, BLDG]
+asset_roles:
+  - active_energy_asset
+  - compute_enabler
+  - communication_enabler
+  - passive_context
+  - aggregator_or_market_interface
+
+service_families:
+  - frequency_response_regulation
+  - demand_response_peak_management
+  - renewable_energy_integration
+  - local_energy_sharing_distribution_support
+  - resilience_emergency_operation
+  - other
+
+service_types:
+  - market_product
+  - technical_grid_service
+  - operational_objective
+  - resilience_function
+
+control_architectures:
+  - centralized
+  - hierarchical
+  - distributed
+  - market_or_aggregator
+  - hybrid
+  - local_only
+  - unclear
+
+validation_environment_to_evidence_setting:
+  concept_only: E0
+  synthetic_simulation: E1
+  measured_data_replay_or_calibrated_model: E2
+  laboratory: E3
+  hardware_in_the_loop: E3
+  controlled_field_pilot: E4
+  sustained_operational_delivery: E5
+  real_market_operation: E5
+
+claim_levels:
+  - L1_nominal_resource
+  - L2_available_flexibility
+  - L3_delivered_service
+  - L4_net_system_outcome
+  - L5_deployable_value
+
+publication_types:
+  - peer_reviewed_primary
+  - peer_reviewed_review
+  - conference
+  - preprint
+  - official_standard
+  - official_agency_or_market
+  - institutional_project_report
+  - commercial_self_report
+  - other
+
+communication_generation_statuses:
+  - legacy_4g_or_earlier
+  - current_5g
+  - 5g_advanced
+  - b5g_research
+  - future_imt2030_6g
+  - mixed
+  - not_applicable
+  - unclear
+
+missingness_statuses:
+  - source_reported
+  - reviewer_derived
+  - figure_digitized
+  - not_reported
+  - not_applicable
+  - unclear
+  - fulltext_unavailable
+
+tri_state: [yes, no, unknown]
+
+safeguard_treatments:
+  - hard_constraint
+  - soft_penalty
+  - ex_post_check
+  - scenario_assumption
+  - discussion_only
+  - not_considered
+  - not_reported
+  - not_applicable
+  - unclear
+
+screening_exclusion_codes:
+  - X01_not_focal_asset
+  - X02_internal_efficiency_only
+  - X03_no_grid_signal_or_service
+  - X04_digital_only_no_energy_decision
+  - X05_assets_copresent_not_coordinated
+  - X06_no_extractable_boundary_or_method
+  - X07_duplicate_version
+  - X08_duplicate_project_no_new_evidence
+  - X09_retracted_or_superseded
+  - X10_fulltext_unavailable_for_required_verification
+  - X11_non_original_or_unverifiable_claim
+  - X12_outside_date_or_language_rule
+  - X13_unrelated_review_or_style_exemplar
+  - X14_other
+
+independence_statuses:
+  - independent
+  - shared_dataset
+  - shared_project
+  - extension
+  - unclear
+
+metric_time_codes:
+  - activation_latency_s
+  - full_response_time_s
+  - sustain_duration_s
+  - control_interval_s
+  - planning_horizon_s
+  - communication_latency_s
+  - controller_runtime_s
+  - sampling_interval_s
+  - market_interval_s
+
+comparability_gate_fields:
+  - metric_definition
+  - denominator_code
+  - baseline_type
+  - system_boundary
+  - temporal_horizon
+  - service_context
+  - validation_setting
+
+multi_asset_rule:
+  minimum_distinct_active_focal_classes: 2
+  require_common_service_or_coupled_constraint: true
+  require_joint_control_dispatch_negotiation_or_clearing: true
