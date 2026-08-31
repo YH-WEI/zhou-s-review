@@ -1,0 +1,175 @@
+schema_version: "1.0"
+review_title: "Energy–digital coordination of data centres, next-generation base stations, electric vehicles and smart buildings for multi-asset grid services"
+review_mode: "structured_narrative_review_with_evidence_mapping"
+corpus_claim_mode: "within_included_corpus"
+
+date_bounds:
+  start: "2015-01-01"
+  end: "2026-08-31"
+  allow_foundational_pre_2015_via_citation_tracing: true
+
+languages:
+  primary: ["en"]
+  allow_authoritative_non_english_with_original_and_reliable_translation: true
+
+sources:
+  repository_seeds:
+    enabled: true
+    required: true
+  crossref:
+    enabled: true
+    required: true
+    base_url: "https://api.crossref.org"
+    contact_email_env: "SCHOLARLY_API_CONTACT_EMAIL"
+    cursor_pagination: true
+  openalex:
+    enabled: true
+    required: false
+    base_url: "https://api.openalex.org"
+    api_key_env: "OPENALEX_API_KEY"
+    cache_responses: true
+  unpaywall:
+    enabled: true
+    required: false
+    base_url: "https://api.unpaywall.org"
+    contact_email_env: "SCHOLARLY_API_CONTACT_EMAIL"
+  manual_imports:
+    enabled: true
+    path: "data/manual_imports"
+    accepted_formats: ["ris", "bib", "bibtex", "csv"]
+  citation_tracing:
+    backward: true
+    forward_when_metadata_available: true
+
+retrieval:
+  cache_directory: ".cache/metadata"
+  raw_metadata_directory: "data/raw_metadata"
+  max_retries: 5
+  backoff_seconds: [1, 2, 4, 8, 16]
+  max_records_per_query: 500
+  on_cap_or_truncation: "log_and_prohibit_global_prevalence_or_scarcity_claims"
+  commit_downloaded_full_text: false
+
+assets:
+  data_centre:
+    code: "DC"
+    terms:
+      - "data centre"
+      - "data center"
+      - "AI data centre"
+      - "AI data center"
+      - "cloud computing facility"
+      - "high performance computing"
+      - "edge data centre"
+      - "edge data center"
+  base_station:
+    code: "BS"
+    terms:
+      - "base station"
+      - "radio access network"
+      - "RAN"
+      - "telecom tower"
+      - "cellular network"
+      - "5G"
+      - "5G-Advanced"
+      - "B5G"
+      - "IMT-2030"
+      - "6G"
+  electric_vehicle:
+    code: "EV"
+    terms:
+      - "electric vehicle"
+      - "EV fleet"
+      - "smart charging"
+      - "V1G"
+      - "vehicle-to-grid"
+      - "V2G"
+      - "vehicle-to-building"
+      - "V2B"
+      - "vehicle-to-home"
+      - "V2H"
+  building:
+    code: "BLDG"
+    terms:
+      - "smart building"
+      - "active building"
+      - "grid-interactive building"
+      - "grid-interactive efficient building"
+      - "building energy management system"
+      - "BEMS"
+      - "HVAC flexibility"
+      - "building thermal flexibility"
+
+services:
+  frequency_response_regulation:
+    terms: ["frequency response", "frequency regulation", "fast frequency response", "ancillary service", "reserve"]
+  demand_response_peak_management:
+    terms: ["demand response", "peak management", "peak shaving", "load shifting", "flexibility"]
+  renewable_energy_integration:
+    terms: ["renewable integration", "renewable energy matching", "curtailment", "carbon-aware", "clean energy matching"]
+  local_energy_sharing_distribution_support:
+    terms: ["local energy sharing", "distribution grid", "voltage support", "congestion management", "microgrid", "virtual power plant", "VPP"]
+  resilience_emergency_operation:
+    terms: ["resilience", "emergency operation", "backup power", "outage", "critical load", "islanding"]
+
+coordination_terms:
+  - "coordination"
+  - "coordinated control"
+  - "co-optimization"
+  - "aggregation"
+  - "multi-asset"
+  - "integrated energy management"
+  - "distributed control"
+  - "model predictive control"
+  - "MPC"
+  - "measurement and verification"
+
+evidence_terms:
+  - "field"
+  - "pilot"
+  - "demonstration"
+  - "experiment"
+  - "hardware-in-the-loop"
+  - "HIL"
+  - "real-world data"
+  - "market participation"
+  - "case study"
+
+query_families:
+  prior_reviews:
+    template: "({asset_terms}) AND ({service_terms}) AND (review OR perspective OR survey)"
+    generate_for_each_asset: true
+  single_asset_service:
+    template: "({asset_terms}) AND ({service_terms})"
+    generate_asset_service_cartesian_product: true
+  pairwise_multi_asset:
+    template: "({asset_a_terms}) AND ({asset_b_terms}) AND ({service_terms}) AND ({coordination_terms})"
+    generate_all_six_pairs_by_service: true
+  three_plus_or_broad_multi_asset:
+    template: "({multi_asset_terms}) AND ({service_terms}) AND ({coordination_terms})"
+    generate_by_service: true
+  field_and_operational_evidence:
+    template: "({asset_terms}) AND ({service_terms}) AND ({evidence_terms})"
+    generate_for_each_asset: true
+
+screening:
+  retain_all_candidates_and_dispositions: true
+  low_confidence_requires_manual_review: true
+  mandatory_full_source_verification:
+    - "multi_asset"
+    - "E4_controlled_field_pilot"
+    - "E5_sustained_operation_or_market"
+    - "6g_deployed_claim"
+    - "used_in_numeric_aggregate"
+    - "supports_strong_claim_or_prominent_figure_cell"
+
+counting:
+  headline_unit: "study_id"
+  always_report_also: ["paper_id", "scenario_id"]
+  multi_label_service_counts_may_exceed_total: true
+
+comparability:
+  minimum_independent_studies_for_central_summary: 5
+  permitted_central_summary: ["median", "q1", "q3", "minimum", "maximum", "n"]
+  prohibit_inferential_statistics: true
+
