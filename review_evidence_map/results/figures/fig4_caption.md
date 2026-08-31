@@ -1,0 +1,3 @@
+# Fig. 4 caption note
+
+Mechanism-service evidence identified within the included corpus. Cell labels show the evidence category (`D`, `M` or `I`) and the number of unique studies (`n`). Colour encodes the same ordered categories using distinct lightness, while printed codes preserve meaning in greyscale. The highest setting is displayed for each populated cell but does not characterize all evidence in that cell. A blank cell means that no eligible evidence was identified under this bounded protocol, not that the mechanism-service link is impossible. Source rows and locators are in `results/audit/fig4_source_ledger.csv`.

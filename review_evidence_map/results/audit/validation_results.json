@@ -1,0 +1,286 @@
+{
+  "checks": [
+    {
+      "affected_records": "",
+      "check_id": "schema_papers",
+      "message": "papers.csv header matches its template",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "schema_studies",
+      "message": "studies.csv header matches its template",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "schema_scenarios",
+      "message": "scenarios.csv header matches its template",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "schema_case_assets",
+      "message": "case_assets.csv header matches its template",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "schema_quantitative_values",
+      "message": "quantitative_values.csv header matches its template",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "schema_safeguards",
+      "message": "safeguards.csv header matches its template",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "schema_reviews",
+      "message": "reviews.csv header matches its template",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "schema_resources",
+      "message": "resources.csv header matches its template",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "schema_resource_links",
+      "message": "resource_links.csv header matches its template",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "schema_claim_evidence_ledger",
+      "message": "claim_evidence_ledger.csv header matches its template",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "unique_papers",
+      "message": "papers IDs are unique and non-empty",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "unique_studies",
+      "message": "studies IDs are unique and non-empty",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "unique_scenarios",
+      "message": "scenarios IDs are unique and non-empty",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "unique_case_assets",
+      "message": "case_assets IDs are unique and non-empty",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "unique_quantitative_values",
+      "message": "quantitative_values IDs are unique and non-empty",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "unique_safeguards",
+      "message": "safeguards IDs are unique and non-empty",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "unique_reviews",
+      "message": "reviews IDs are unique and non-empty",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "unique_resources",
+      "message": "resources IDs are unique and non-empty",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "unique_resource_links",
+      "message": "resource_links IDs are unique and non-empty",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "unique_claim_evidence_ledger",
+      "message": "claim_evidence_ledger IDs are unique and non-empty",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "no_pending",
+      "message": "Frozen evidence tables contain no pending status",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "foreign_keys",
+      "message": "All evidence-table foreign keys resolve",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "doi_unique",
+      "message": "Included paper DOIs are unique",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "one_main_version",
+      "message": "Each included work family has exactly one main version",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "controlled_vocabularies",
+      "message": "Controlled vocabulary values are valid",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "evidence_setting_derived",
+      "message": "E0-E5 codes derive from validation environment",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "multi_asset_classification",
+      "message": "Multi-asset status derives from distinct active focal roles and all coordination tests",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "safeguard_links",
+      "message": "Safeguards reference active assets and every active asset has coverage",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "quantitative_values",
+      "message": "Quantitative values preserve provenance, baselines, units and reversible conversions",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "six_g_status",
+      "message": "Prospective IMT-2030/6G is never classified as operational delivery",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "claim_traceability",
+      "message": "Every claim has a source locator or explicit derived-input lineage",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "screening_complete",
+      "message": "Every candidate record has one screening disposition",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "exclusion_codes",
+      "message": "Every excluded record has a controlled exclusion reason",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "manual_review_queue",
+      "message": "Every low-confidence screen is queued for manual review",
+      "severity": "warning",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "enabled_query_families",
+      "message": "All 95 configured query-family instances ran for both Crossref and OpenAlex",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "raw_response_hashes",
+      "message": "Raw metadata responses match frozen SHA-256 values",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "source_hashes",
+      "message": "All inventoried source PDF/DOCX hashes are unchanged",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "source_inventory_coverage",
+      "message": "All 21 pre-existing source PDF/DOCX files are inventoried",
+      "severity": "error",
+      "status": "PASS"
+    },
+    {
+      "affected_records": "",
+      "check_id": "manual_verification_limit",
+      "message": "277 potentially relevant metadata records remain without full-text manual verification; status cannot be DONE.",
+      "severity": "warning",
+      "status": "WARN"
+    },
+    {
+      "affected_records": "",
+      "check_id": "prior_review_limit",
+      "message": "No prior review passed full-text verification in this bounded run; Supplementary Table S1 remains header-only.",
+      "severity": "warning",
+      "status": "WARN"
+    }
+  ],
+  "overall_status": "PASS_WITH_LIMITATIONS",
+  "schema_version": "1.0"
+}

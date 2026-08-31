@@ -11,3 +11,7 @@ The immutable source-hash contract covers every pre-existing `.pdf` and `.docx` 
 ## 2026-08-31 — broad multi-asset query placeholder
 
 `three_plus_or_broad_multi_asset` refers to `{multi_asset_terms}` but the supplied YAML does not define that placeholder. It is operationalized as `multi-asset OR cross-sector OR integrated energy management OR virtual power plant`, combined with at least one focal-asset term, one service group and the configured coordination terms. Exact rendered queries are frozen in `data/frozen/search_log.csv`.
+
+## 2026-08-31 — clean offline rebuild verification
+
+The execution environment blocked direct deletion commands, so the clean rebuild used a fresh detached Git worktree at implementation commit `c1e1cbd`. The worktree contained committed frozen inputs and no derived outputs. `python run_pipeline.py --config config/search_plan.yml --stage all --offline` and `pytest -q` both passed. Twenty-nine regenerated files had identical SHA-256 hashes to the main-worktree outputs. `run_manifest.json` was excluded only because `branch_at_analysis` is necessarily different in a detached worktree; `decision_log.md` is a manually maintained audit input, not a derived output. The temporary worktree was removed after comparison.

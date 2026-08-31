@@ -1,0 +1,46 @@
+{
+  "branch_at_analysis": "codex/review-evidence-map-results",
+  "commands": [
+    "python run_pipeline.py --config config/search_plan.yml --stage inventory",
+    "python run_pipeline.py --config config/search_plan.yml --stage discover",
+    "python run_pipeline.py --config config/search_plan.yml --stage validate",
+    "python run_pipeline.py --config config/search_plan.yml --stage analyse",
+    "python run_pipeline.py --config config/search_plan.yml --stage render",
+    "pytest -q",
+    "python run_pipeline.py --config config/search_plan.yml --stage all --offline"
+  ],
+  "commit_at_analysis": "c1e1cbd3b38879ad4cf09233fb9a5c4a9264f621",
+  "corpus_claim_mode": "within_included_corpus",
+  "counts": {
+    "candidate_records": 1921,
+    "central_numeric_summaries": 0,
+    "deduplicated_records": 581,
+    "included_papers": 2,
+    "included_scenarios": 2,
+    "included_studies": 2,
+    "manual_verification_queue": 277,
+    "multi_asset_studies": 1
+  },
+  "package_versions": {
+    "docx": "1.2.0",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "pypdf": "6.16.2",
+    "pytest": "9.1.1",
+    "requests": "2.34.2",
+    "yaml": "6.0.3"
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:37:03) [MSC v.1929 64 bit (AMD64)]",
+  "review_mode": "structured_narrative_review_with_evidence_mapping",
+  "run_id": "RUN_20260831_EVIDENCE_MAP_01",
+  "schema_version": "1.0",
+  "search_date_bounds": {
+    "allow_foundational_pre_2015_via_citation_tracing": true,
+    "end": "2026-08-31",
+    "start": "2015-01-01"
+  },
+  "status": "PARTIAL",
+  "status_reason": "Bounded/truncated discovery and unresolved full-text manual-verification queue materially limit coverage."
+}

@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "implementation_commit": "c1e1cbd",
+  "method": "fresh_detached_git_worktree",
+  "command": "python run_pipeline.py --config config/search_plan.yml --stage all --offline",
+  "offline_pipeline_status": "PASS",
+  "pytest_status": "PASS",
+  "pytest_tests_passed": 9,
+  "main_files_compared": 29,
+  "fresh_files_compared": 29,
+  "sha256_differences": 0,
+  "excluded_from_hash_comparison": {
+    "results/audit/decision_log.md": "manually maintained audit input",
+    "results/run_manifest.json": "branch_at_analysis differs in a detached worktree"
+  },
+  "source_hash_status": "PASS",
+  "temporary_worktree_removed": true
+}
