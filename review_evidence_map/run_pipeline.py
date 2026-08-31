@@ -5,10 +5,13 @@ import sys
 from pathlib import Path
 
 from src.common import REVIEW_ROOT, ensure_directories
+from src.analyse import run_analysis
 from src.discover import run_discovery
 from src.inventory import build_source_inventory
 from src.freeze_curated import freeze_curated_evidence
 from src.normalise import extract_repository_metadata, run_normalise
+from src.render import render_fig4
+from src.validate import run_validation
 
 
 STAGES = ("inventory", "discover", "validate", "analyse", "render", "all")
@@ -48,8 +51,19 @@ def main(argv: list[str] | None = None) -> int:
                 f"{len(extractions)} repository extraction diagnostics"
             )
             print("curated evidence: " + ", ".join(f"{name}={count}" for name, count in curated.items()))
-    if args.stage not in {"inventory", "discover", "all"}:
-        raise SystemExit(f"Stage {args.stage!r} will be enabled by the implementation commit")
+    if args.stage in {"validate", "all"}:
+        checks = run_validation()
+        print(f"validate: {len(checks)} checks; no material failures")
+    if args.stage in {"analyse", "all"}:
+        if args.stage == "analyse":
+            run_validation()
+        counts = run_analysis()
+        print("analyse: " + ", ".join(f"{name}={count}" for name, count in counts.items()))
+    if args.stage in {"render", "all"}:
+        if args.stage == "render":
+            run_validation()
+        png, svg = render_fig4()
+        print(f"render: {png.relative_to(REVIEW_ROOT)}; {svg.relative_to(REVIEW_ROOT)}")
     return 0
 
 

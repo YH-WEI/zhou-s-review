@@ -112,3 +112,30 @@ Codex must work on a new branch named `codex/review-evidence-map-results` (or a 
 - whether any aggregate passed the comparability gate.
 
 The final ChatGPT review will inspect the PR, rerun the calculations and verify cited source locations before any result is used in the manuscript.
+
+## Implemented workflow
+
+Run commands from `review_evidence_map/`. Python 3.11 or later is required; this run used Python 3.13.
+
+```powershell
+python -m venv .venv-review
+.\.venv-review\Scripts\python.exe -m pip install -r requirements.lock
+
+.\.venv-review\Scripts\python.exe run_pipeline.py --config config/search_plan.yml --stage inventory
+.\.venv-review\Scripts\python.exe run_pipeline.py --config config/search_plan.yml --stage discover
+.\.venv-review\Scripts\python.exe run_pipeline.py --config config/search_plan.yml --stage validate
+.\.venv-review\Scripts\python.exe run_pipeline.py --config config/search_plan.yml --stage analyse
+.\.venv-review\Scripts\python.exe run_pipeline.py --config config/search_plan.yml --stage render
+.\.venv-review\Scripts\python.exe -m pytest -q
+.\.venv-review\Scripts\python.exe run_pipeline.py --config config/search_plan.yml --stage all --offline
+```
+
+On POSIX systems, replace the Python path above with `.venv-review/bin/python`.
+
+`--offline` never performs discovery. It verifies the immutable source inventory, validates committed frozen inputs, and deterministically regenerates derived tables, reports and Fig. 4. Network discovery caches one raw JSON response per source/query instance and reuses it on rerun.
+
+## Frozen run boundary
+
+The configured date window is 2015-01-01 through 2026-08-31. Every one of the 95 enabled query-family instances was executed for Crossref and OpenAlex. This run retained the first 10 relevance-ranked records per request and records every cap/truncation; it is therefore a bounded structured narrative evidence map, not an exhaustive systematic review.
+
+Only full texts legitimately supplied in the repository were coded as evidence in this run. Metadata-only candidates remain in `data/frozen/needs_manual_review.csv` and are excluded from analysis until source verification. The required entry point for outcome interpretation is `results/REVIEW_HANDOFF.md`.
